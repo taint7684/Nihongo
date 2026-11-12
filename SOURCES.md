@@ -89,3 +89,10 @@ Hình tình huống public/learning-images/borrow-umbrella.svg vàstamp-counter.
 - Bài49–50: Cơ quan Văn hóa Nhật, phân loại敬語 https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter2/detail.html và phân biệt hướng敬意 https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter6/detail.html . Đối chiếu尊敬/謙譲I/謙譲II, không sao chép bài tập; giải thích Việt tự soạn. Chưa duyệt độc lập.
 - Bộ tổng hợp và capstone: ngữ liệu, tình huống dự án tự soạn. Dẫn JLPT chỉ để phân biệt cấu trúc/dạng, không coi là đề chính thức hoặc chuẩn nói.
 - KANJIDIC2 mới khảo sát, chưa tải/tích hợp; không tuyên bố có từ điển On/Kun đầy đủ. KanjiVG là nguồn nét, không nguồn toàn bộ nghĩa/âm.
+
+
+## 12/11 — dữ liệu từ điển thực tế đã tích hợp
+
+JMdict English ngày2026-11-09,219040entries; JSON conversion scriptin/jmdict-simplified release3.6.2+20261109214828. KANJIDIC2 lấy trực tiếpEDRDG, ngày2026-11-12,version2026-316,13108chữ; chỉ tríchEnglish/Japanese/Vietnamese/classical radical/stroke/grade/nanori; không tái phân phốiSKIP/mã chỉ mục đặc biệt. Giấy phépCC BY-SA4.0,James William Breen/EDRDG và contributors. public/dictionaries/licenses/edrdg.html và jmdict-conversion.md giữ điều kiện/nguồn. CácJSON dẫn xuất theoCC BY-SA4.0. Không coi dictionary có cấpJLPT hiện hành.
+Dữ liệu nguồn có SHA và URL tại public/dictionaries/source-manifest.json; raw cache ngoàiGit. Không tự gắn nhãn nghĩa Việt đã đối chiếu nếu chưa chọn sense/kiểm nghĩa. UI tra nguồn tải tại chỗ, không gửi câu hỏi người dùng.
+Irodori wordlist_all/sentence_patterns_list/kanji_list XLSX: lấy chính thứcJF12/11, so sánh nội bộ, không đóng gói nguyên workbook/đáp án/dịch vào app. MinnaI/IIsyllabus là cùngfile, không tính2nguồn độc lập. Irodori khác nhà biên soạn/phương pháp vớiMinna; JMdict/KANJIDIC là nguồn định nghĩa, không thay danh mục trình độ. Tanos không truy cập thành công ở vòng này, không giả đã đối chiếu.

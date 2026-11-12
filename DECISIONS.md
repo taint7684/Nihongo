@@ -37,3 +37,12 @@ Câu mới đầu soạn vị trí đáp án thiên về A: cân bằng cố đ�
 N4 transfer bản chưa nghiệm thu ban đầu xoay lại vai trong communication: điều đó không phải ngữ liệu mới. Đã thay bằng nhiệm vụ chuyển mục đích/bối cảnh riêng (phòng nóng/máy tính, điều kiện nhìn-nghe, từ chối có nghĩa vụ, quên đồ biết nơi, chuẩn bị chuyến đi). Thêm scenarioKey/kiểm đã gặp xuyên activity để không đổi ID rồi giả mới. Backup cũ không field vẫn dùng kiểm cùng activity như trước.
 
 Rà Kanji phát hiện một số metadata cũ đặt nghĩa cả từ (学生/ベトナム人/理由/計画) trong trường meaning của một chữ. Đã tách nghĩa gợi nhớ chữ và wordMeaning, giữ inWord/cách đọc theo cả từ. Hán Việt không phải âm Nhật và không suy nghĩa ghép cơ học. Không xóa ID/tiến độ; bài gõ đọc chỉ chấm cách viết kana của cả từ, không chấm phát âm hoặc nét.
+
+
+## 12/11 — định danh/nguồn, nhóm1
+
+- Lỗi gốc:私/わたし chia lịch; dữ liệu chỉ khóa chữ không tách nghĩa. Sửa read adapter giữ snapshot cũ, lịch canonical cho lượt mới, usageId tùy chọn; backupv1 không đổi. Hồi quy alias-only, hai lịch xung đột, old/new evidence,橋/箸, UI export thật. Không mở ghép tự động cho mọi từ.
+- Lỗi có nguy cơ: alias snapshot cũ quá hạn làm từ đến hạn mãi. Lịch canonical mới nhất bao phủ snapshot cũ; dữ liệu cũ vẫn giữ. Test xác nhận due hiển thị cập nhật.
+- Lỗi nguồn: Excel itertext cộngrPh (furigana phụ) vào chữ/tên cột. Bộ đọc chỉt/r-t; fixture名前+rPh trả名前. Rà lại cả3workbook.
+- Lỗi kiểm kê:さ trong高さ bị đếm Kanji. LọcScript=Han, KANJIDIC đối chiếu; giữ高さ mục từ, ghi exclusion.185KanjiN4thay186, không hạ tiêu chí học.
+- Bộ đếm mới tách ứng viên và chưa rõ; không dùng match duy nhất để duyệt ngữ nghĩa.

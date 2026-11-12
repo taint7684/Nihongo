@@ -29,3 +29,11 @@ Lệnh: npm.cmd test; npm.cmd run build; npm.cmd run test:access; npm.cmd run te
 Website: START-WEBSITE.cmd hoặc npm.cmd start. Trước rollback xuất cả JSON tiến độ và kho ghi âm riêng (BACKUP_GUIDE.md). Checkpoint mã mới: .tmp-ui/checkpoint-n4-final-passed; không chứa dữ liệu học thật hoặc toàn bộ WAV. Không tự nhận hoàn thành nhiệm vụ tổng.
 
 Tối ưu cuối vòng: công cụ, coverage, knowledge report và curriculum tải chunk khi mở; có biên lỗi giữ menu nếu tải thất bại. test:tools sau đổi qua. JS khởi tạo1023.43KB/gzip298.40KB; học liệu vẫn tải chung. Đã so414câu cũ với checkpoint: ID/thứ tự lựa chọn/đáp án giữ nguyên, backup schema-v1 cũ qua; report .tmp-ui/full-scope/legacy-question-compatibility.json.
+
+
+## CURRENT_MISSION mới — bước0/1 đã kiểm, tiếp bước2 (12/11)
+
+Gitlocal có mốc f4a3756; runtime/cache nguồn/QA/exports bị ignore, chưa push. Khung định danh táchentry/writing/form/meaning; giữschema1, read adapter私/わたし vàusageId mới không gán sense vào lịch sử cũ.91tests/build/Edge word-identity qua; chỉ là cấu trúc/khôi phục, không duyệt học thuật. public/lexical-register.json: N5 394ứngviên+50dạng chưa rõ; N4 168ứngviên,158mới; tíchlũy552ứngviên+70dạng chưa rõ. Vai trò chưa phân loại hiển thị riêng. Không tuyên bố toàn kho đã chuẩn hóa nghĩa.
+JMdict219040 vàKANJIDIC13108 nguồn thật có trong cache.source;297mục tra nguồn lõi/đối chiếu đã tạo, không phải297chữ đã dạy. N4targetcũ186 cókanaさdochuỗi高さ; đã loại đúng1ký tự, còn185, không đổi mục từ.
+Tiếp ngay bước2: rà word-evidence uses726,601singlecandidate/59ambiguous/66unresolved; chọn đúng nghĩa cho từng usage, sửa lỗi rủi ro. Làm mẫu30từ/15Kanji/15câu/10mẫu từ nguồn khác vàAIreviewngữcảnh mới nếu runtime đáp ứng; không nhầm nguồn-match với duyệt. Sau nhóm qua mới điều chỉnhscope/bùN5rồiN4. Chưa thêm bài mới vòng này. Xem WORD_IDENTITY_MIGRATION/REVIEW_QUEUE/MASTER_CHECKLIST hiện hành. Snapshotmã .tmp-ui/checkpoint-word-identity-passed.
+

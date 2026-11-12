@@ -70,3 +70,8 @@ KanjiFocus:73test/15file/build870.23KB/gzip257.09KB qua. Edge .tmp-ui/kanji-focu
 Mọi profile kiểm tra tách riêng; không có bằng chứng người dùng đã học hoặc đạt N5/N4. Chưa kiểm mic/cảm ứng thật, chưa nghe duyệt ngữ âm độc lập, chưa thẩm định toàn khóa.
 
 Đối chiếu checkpoint đầu vòng:414câu cũ giữ ID/choices/answer. Backup QA tạo bởi mã cũ giữ answers/completed/lessonId khi nhập mã mới. test:tools sau tách chunk qua tìm từ/ghi chú/ôn/chia sẻ ID/nghe/viết/nét/backup. Build cuối1023.43KB JS/gzip298.40KB; cảnh báo >500KB còn.
+
+
+## 12/11 nhómđịnhdanh
+
+91tests/17file, build qua. Edge .tmp-ui/word-identity/report.json: nguồnJMdict1311110, private aliasnote, gõwatashi ghi lịch私mới giữsnapshot cũ vàusageId; exportJSONthậtvalidatecũ+mới; KanjiReference nguồnOn/Kun/HánViệt/bộ phânloại; Progress552ứngviên. AIblocked, QAfixtures không bằng chứng người học. Chưa đủ mẫu rà nghĩa độc lập. Snapshot/Git không chứaprofile học thật.

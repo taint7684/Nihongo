@@ -1,29 +1,14 @@
-# Checklist thống nhất — 0 → N5 → N4
+# Checklist tổng hiện hành — CURRENT_MISSION.md
 
-Yêu cầu hiện hành: EXECUTION_BRIEF.md + PROJECT_BRIEF.md. Không thay đổi ID/thứ tự bài cũ, không profile học thật, không trả phí. Trạng thái dựa mã/học liệu; kiểm phần mềm không chứng minh học thuật hoặc năng lực người học.
+Giữ dữ liệu/ID/bản gốc, mở tự do, 0 đồng. Chỉ một checklist tổng; tài liệu khác là bằng chứng hoặc lịch sử. Chạy theo thứ tự mới.
 
-| ID | Yêu cầu | Trạng thái đầu vòng | Căn cứ / phần cần làm |
-|---|---|---|---|
-| SAFE | Ngân sách, dữ liệu/backup, bản gốc | Hoạt động và đủ phạm vi đã kiểm | schema v1, local-only, checkpoint; kiểm hồi quy sau mỗi nhóm |
-| OPEN | Mọi nội dung mở tự do | Hoạt động và đủ phạm vi đã kiểm | 10→3→25/reload; không tự hoàn thành |
-| INTRO | Kana/âm/nhịp/gõ | Hoạt động nhưng thiếu chất lượng | Có tuyến chữ/âm; mẫu ngắn và duyệt ngữ âm chưa đầy đủ |
-| REF | Danh mục tham chiếu N5/N4 độc lập kho hiện có | Chưa có đủ | Tập chức năng độc lập388từ/104chữ N5,240từ/186chữ N4; chưa xác lập đủ cấp |
-| N5 | 25 bài đủ kiến thức/cách dùng | Hoạt động nhưng thiếu nội dung/chất lượng | CONTENT_REVIEW ghi thiếu từng bài, cần sửa cụ thể và nguồn |
-| N4 | 26–50 theo Minna II bản 2 | Hoạt động nhưng thiếu nội dung/chất lượng | 26–50 + 5 bộ nhóm, tổng hợpA/capstone đã nối và Edge lấy mẫu; chưa xác nhận đủ kiến thức cấp |
-| WORD | Từ/ví dụ/audio/ghi chú/nhớ | Hoạt động nhưng thiếu nội dung | Cơ chế chạy; kho từ và chất lượng đọc còn thiếu |
-| KANJI | Tra từ/nét/tô/viết/lưu | Hoạt động nhưng thiếu nội dung | 158 nguồn nét KanjiVG; N5 tập104 có mục học, N4 mới30/186; không chấm nét hoặc từ điển đầy đủ |
-| GRAM | Thư viện/chia/dễ nhầm/áp dụng | Hoạt động nhưng thiếu nội dung | N5/N4 có ngữ pháp theo bài, cần rà nghĩa và phạm vi |
-| LOOP | Hiểu→thử→tự dùng→phản hồi→ôn | Hoạt động nhưng thiếu nội dung | Vòng nhỏ có, nhiệm vụ/biến thể còn hẹp |
-| COMM | Nghe/đáp/hỏi tiếp/sửa hiểu nhầm/giảm hỗ trợ | Hoạt động nhưng thiếu nội dung | Có nhánh hướng dẫn; cần tình huống mới và rubric ghi bằng chứng |
-| REST | Kiểm sau nghỉ/ngữ liệu mới | Hoạt động nhưng thiếu nội dung | Phân biệt lặp/gợi ý; thống nhất ngưỡng tạm 48h, không khóa |
-| EXAM | Đánh giá riêng N5/N4 đủ dạng | Hoạt động nhưng thiếu nội dung | N5 nhiều bộ riêng, N4 5 bộ nhóm+tổng hợpA; còn thiếu dạng/độ khó, không quy điểm JLPT |
-| SRS | Flashcard/sổ lỗi/lịch dùng chung | Hoạt động và đủ phạm vi đã kiểm | SM-2 biến thể cho từ, lịch câu riêng; không tối ưu cá nhân đã chứng minh |
-| VOICE | Lưu ghi âm/bản viết/backup | Hoạt động và đủ phạm vi đã kiểm | IndexedDB + JSON riêng; mic QA giả, chưa mic thật |
-| AUDIO | File/quyền/cách đọc/ngữ âm | Hoạt động nhưng thiếu chất lượng | TTS có nguồn, chưa duyệt ngữ âm độc lập |
-| AI | Gia sư/đọc/viết/hội thoại sinh | Hoạt động nhưng thiếu năng lực | Candidate lỗi nghĩa; không mở rộng UI trước semantic eval, không chặn học |
-| PERF | Tải dữ liệu/audio theo nhu cầu | Hoạt động nhưng thiếu tối ưu | WAV preload none; JSON index/coverage tải theo nhu cầu; JS1023.43KB sau thêm nội dung, vẫn cần tách chunk |
-| A11Y | Responsive/phím/cảm ứng/lỗi | Hoạt động nhưng chưa kiểm đủ | Edge 390/1440, chưa thiết bị cảm ứng/mic thật |
-| QUALITY | Nguồn/kiểm đáp án/AI review tách | Hoạt động nhưng thiếu phạm vi | Kiểm cấu trúc ≠ đúng nghĩa; không giả chuyên gia duyệt |
-| HUMAN | Kết quả học thật | Bị chặn bởi điều kiện bên ngoài | Chưa có lượt học thật cung cấp; không tạo thay người dùng |
-
-Nhiệm vụ chưa hoàn thành: REF/N5/N4/COMM/EXAM/AI/AUDIO. Thiếu chuyên gia không chặn biên soạn, nhưng không gán nhãn đã duyệt. Giữ ACCEPTANCE_MATRIX làm bằng chứng ca kiểm, file này là checklist tổng duy nhất.
+| Bước/yêu cầu | Triển khai | Tiêu chí kiểm | Bằng chứng | Trạng thái |
+|---|---|---|---|---|
+| 0 Git/mốc | Repo local, ignore cache/runtime/QA/exports | Có commit, không user profile | git log; .gitignore | Đạt mốc f4a3756 |
+| 1 Định danh | lexical-register, word-identity, usageId, read adapter | Tách entry/writing/form/meaning; không gán giả sense; backup cũ giữ; alias dùng lịch chung |91 tests; .tmp-ui/word-identity/report.json; WORD_IDENTITY_MIGRATION | Khung+adapter đạt; ứng viên còn chờ đối chiếu nghĩa bước2 |
+| 2 Nguồn/rà | JMdict/KANJIDIC2 đã nạp và UI nguồn | Rà toàn kho, mẫu30/15/15/10, sửa nhóm lỗi | evaluation/dictionary-alignment.json; public/dictionaries | Đang làm, chưa có đủ mẫu rà học thuật |
+| 3 Tham chiếu+lõiN5/N4 | Tập cũ chức năng; 25+25 bài | Ít nhất2nguồn thực sự độc lập; bù thiết yếu, không chỉ số lượng | reference-targets, CONTENT_REVIEW | Thiếu |
+| 4 Luyện/ôn/đánh giá/kaiwa | Vòng học, bộ riêng, nhiệm vụ tích lũy | Đủ mục tiêu/dạng; giữ nghĩa; dữ kiện mới sau nghỉ; tự kiểm riêng | readiness maps; QA vòng học | Hoạt động nhưng chưa đủ phạm vi |
+| 5 Thư viện/bộ thủ |297 mục KANJIDIC nguồn cho vùng lõi/đối chiếu;158 nét | ≥2500 gồm Jōyō kiểm nguồn chính thức,214bộ; không nhận là đã dạy | source manifest; KanjiReference | Chưa đủ thư viện; bộ214 chưa có |
+| 6 AI | Nguồn/quy tắc và chọn câu cố định; candidate tắt | Bộ ngữ nghĩa mới3lần, heldout; không giả AI tự do | AI_QUALITY/evaluation | Thiếu AI tương tác |
+| 7 Nghiệm thu | Lưu/backup/open access hoạt động | Chức năng/nội dung/chất lượng/năng lực tách | VERIFICATION | Chưa đủ toàn phạm vi |

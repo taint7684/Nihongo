@@ -1,0 +1,57 @@
+{
+  "time": "2026-11-12T06:47:30.450Z",
+  "version": "2026-11-12-lexical-v1",
+  "dictionaryDate": "2026-11-09",
+  "identity": "Dictionary entry / writing / grammatical form / per-lesson meaning are separate. Unique candidate is not semantic approval. Unresolved entries never inflate the verified count.",
+  "migration": "Read adapter for curated 私/わたし only. Schema1 legacy keys and histories retained; new evidence has optional usageId. Old evidence without usageId remains context-unspecified.",
+  "summary": {
+    "N5": {
+      "surfaceKeys": 447,
+      "usageRecords": 469,
+      "candidateLexemes": 394,
+      "unresolvedForms": 50,
+      "verifiedSenses": 0,
+      "roles": {
+        "active": 89,
+        "recognition": 261,
+        "not-yet-classified": 119
+      }
+    },
+    "N4": {
+      "surfaceKeys": 189,
+      "usageRecords": 193,
+      "candidateLexemes": 168,
+      "unresolvedForms": 20,
+      "verifiedSenses": 0,
+      "roles": {
+        "active": 0,
+        "recognition": 165,
+        "not-yet-classified": 28
+      }
+    },
+    "N4New": {
+      "surfaceKeys": 179,
+      "usageRecords": 183,
+      "candidateLexemes": 158,
+      "unresolvedForms": 20,
+      "verifiedSenses": 0,
+      "roles": {
+        "active": 0,
+        "recognition": 155,
+        "not-yet-classified": 28
+      }
+    },
+    "cumulative": {
+      "surfaceKeys": 630,
+      "usageRecords": 662,
+      "candidateLexemes": 552,
+      "unresolvedForms": 70,
+      "verifiedSenses": 0,
+      "roles": {
+        "active": 89,
+        "recognition": 426,
+        "not-yet-classified": 147
+      }
+    }
+  }
+}

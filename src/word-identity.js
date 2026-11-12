@@ -7,3 +7,6 @@ export function getWordReview(state,key){const rows=wordAliases(key).map(k=>stat
 export function wordEvidenceFor(state,key){const seen=new Set();return wordAliases(key).flatMap(k=>state.wordEvidence?.[k]||[]).filter(a=>{const id=JSON.stringify(a);if(seen.has(id))return false;seen.add(id);return true}).sort((a,b)=>a.at-b.at);}
 export const hasSavedWord=(state,key)=>wordAliases(key).some(k=>state.savedWords?.includes(k));
 export function wordNote(state,key){const exact=state.wordNotes?.[key];return exact!==undefined?exact:wordAliases(key).map(k=>state.wordNotes?.[k]).find(x=>x!==undefined)||'';}
+
+export const wordUsageId=(lessonId,key)=>lessonId+':'+key;
+export const wordEvidencePath=(lessonId,key)=>'/dictionaries/words/'+lessonId+'-'+[...key].map(c=>c.codePointAt(0).toString(16)).join('-')+'.json';
