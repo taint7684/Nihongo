@@ -1,0 +1,195 @@
+{
+  "date": "2026-11-12",
+  "method": "Authoring assistant rechecked actual readings and Vietnamese meanings against JMdict English, types checked too; no independent human reviewer",
+  "sample": [
+    {
+      "id": "mnn-01:私",
+      "sampling": "risk-based",
+      "result": "meaning/reading consistent in sampled context",
+      "originalTypeIssue": "私 refined from nominal to personal pronoun"
+    },
+    {
+      "id": "mnn-01:何",
+      "sampling": "risk-based",
+      "result": "meaning/reading consistent in sampled context",
+      "originalTypeIssue": null
+    },
+    {
+      "id": "mnn-04:今日",
+      "sampling": "risk-based",
+      "result": "meaning/reading consistent in sampled context",
+      "originalTypeIssue": null
+    },
+    {
+      "id": "mnn-01:二十歳",
+      "sampling": "risk-based",
+      "result": "meaning/reading consistent in sampled context",
+      "originalTypeIssue": null
+    },
+    {
+      "id": "mnn-01:会社員",
+      "sampling": "risk-based",
+      "result": "meaning/reading consistent in sampled context",
+      "originalTypeIssue": null
+    },
+    {
+      "id": "mnn-01:先生",
+      "sampling": "risk-based",
+      "result": "meaning/reading consistent in sampled context",
+      "originalTypeIssue": null
+    },
+    {
+      "id": "mnn-05:帰ります",
+      "sampling": "risk-based",
+      "result": "meaning/reading consistent in sampled context",
+      "originalTypeIssue": null
+    },
+    {
+      "id": "mnn-16:降ります",
+      "sampling": "risk-based",
+      "result": "meaning/reading consistent in sampled context",
+      "originalTypeIssue": null
+    },
+    {
+      "id": "mnn-28:熱心",
+      "sampling": "risk-based",
+      "result": "meaning/reading consistent in sampled context",
+      "originalTypeIssue": null
+    },
+    {
+      "id": "mnn-33:触ります",
+      "sampling": "risk-based",
+      "result": "meaning/reading consistent in sampled context",
+      "originalTypeIssue": null
+    },
+    {
+      "id": "mnn-41:いただきます",
+      "sampling": "risk-based",
+      "result": "meaning/reading consistent in sampled context",
+      "originalTypeIssue": null
+    },
+    {
+      "id": "mnn-50:伺います",
+      "sampling": "risk-based",
+      "result": "meaning/reading consistent in sampled context",
+      "originalTypeIssue": null
+    },
+    {
+      "id": "mnn-49:召し上がります",
+      "sampling": "risk-based",
+      "result": "meaning/reading consistent in sampled context",
+      "originalTypeIssue": null
+    },
+    {
+      "id": "mnn-14:閉めます",
+      "sampling": "seeded-random",
+      "result": "meaning/reading consistent in sampled context",
+      "originalTypeIssue": null
+    },
+    {
+      "id": "mnn-12:多い",
+      "sampling": "seeded-random",
+      "result": "meaning/reading consistent in sampled context",
+      "originalTypeIssue": null
+    },
+    {
+      "id": "mnn-35:相談します",
+      "sampling": "seeded-random",
+      "result": "meaning/reading consistent in sampled context",
+      "originalTypeIssue": null
+    },
+    {
+      "id": "mnn-11:冊",
+      "sampling": "seeded-random",
+      "result": "meaning/reading consistent in sampled context",
+      "originalTypeIssue": null
+    },
+    {
+      "id": "mnn-40:高さ",
+      "sampling": "seeded-random",
+      "result": "meaning/reading consistent in sampled context",
+      "originalTypeIssue": null
+    },
+    {
+      "id": "mnn-06:牛乳",
+      "sampling": "seeded-random",
+      "result": "meaning/reading consistent in sampled context",
+      "originalTypeIssue": null
+    },
+    {
+      "id": "mnn-45:場合",
+      "sampling": "seeded-random",
+      "result": "meaning/reading consistent in sampled context",
+      "originalTypeIssue": null
+    },
+    {
+      "id": "mnn-11:父",
+      "sampling": "seeded-random",
+      "result": "meaning/reading consistent in sampled context",
+      "originalTypeIssue": null
+    },
+    {
+      "id": "mnn-34:磨きます",
+      "sampling": "seeded-random",
+      "result": "meaning/reading consistent in sampled context",
+      "originalTypeIssue": null
+    },
+    {
+      "id": "mnn-46:先月",
+      "sampling": "seeded-random",
+      "result": "meaning/reading consistent in sampled context",
+      "originalTypeIssue": null
+    },
+    {
+      "id": "mnn-48:文",
+      "sampling": "seeded-random",
+      "result": "meaning/reading consistent in sampled context",
+      "originalTypeIssue": null
+    },
+    {
+      "id": "mnn-35:条件",
+      "sampling": "seeded-random",
+      "result": "meaning/reading consistent in sampled context",
+      "originalTypeIssue": null
+    },
+    {
+      "id": "mnn-17:宿題",
+      "sampling": "seeded-random",
+      "result": "meaning/reading consistent in sampled context",
+      "originalTypeIssue": null
+    },
+    {
+      "id": "mnn-10:中",
+      "sampling": "seeded-random",
+      "result": "meaning/reading consistent in sampled context",
+      "originalTypeIssue": null
+    },
+    {
+      "id": "mnn-12:秋",
+      "sampling": "seeded-random",
+      "result": "meaning/reading consistent in sampled context",
+      "originalTypeIssue": null
+    },
+    {
+      "id": "mnn-02:あの",
+      "sampling": "seeded-random",
+      "result": "meaning/reading consistent in sampled context",
+      "originalTypeIssue": "あの was labelled noun; now attributive determiner"
+    },
+    {
+      "id": "mnn-16:背",
+      "sampling": "seeded-random",
+      "result": "meaning/reading consistent in sampled context",
+      "originalTypeIssue": null
+    }
+  ],
+  "metrics": {
+    "meaningOrReadingErrorsFound": 0,
+    "meaningOrReadingSample": 30,
+    "definiteTypeErrorsFound": 1,
+    "typeErrorRate": 0.03333333333333333,
+    "typeRefinements": 1,
+    "warning": "Observed sample only; no whole-dictionary accuracy claim"
+  },
+  "expandedCheck": "Affected determiner familyこの/その/あの/どの corrected; arbitraryする splitting fixed by POS guard; explicit irregular honorific mapping added"
+}

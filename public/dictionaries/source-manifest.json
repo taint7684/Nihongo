@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-12T06:39:37.877Z",
+  "at": "2026-11-12T07:28:14.477Z",
   "sources": [
     {
       "name": "jmdict-eng.tgz",
@@ -33,7 +33,8 @@
   "jmdictDate": "2026-11-09",
   "kanjidicDate": "2026-11-12",
   "dictionaryCharacters": 13108,
-  "coreCharacters": 297,
+  "lookupCharacters": 503,
+  "taughtCharacters": 158,
   "currentSourceVocabularyCount": 219040,
   "derivedDataLicense": "CC BY-SA 4.0",
   "update": "Run documented source refresh monthly, inspect diff and re-run source/compatibility checks. No automatic uploads."

@@ -1,0 +1,15 @@
+{
+  "at": "2026-11-12T07:28:11.856Z",
+  "raw": "sentence-ai-raw.json",
+  "calls": 9,
+  "validJSON": 3,
+  "invalidJSON": 6,
+  "knownFalseCorrection": {
+    "sample": "sentence-4",
+    "claimed": "はたち không đúng cho二十歳",
+    "decision": "Bác bỏ; giữはたち",
+    "basis": "JMdict1600790 readingはたち"
+  },
+  "decision": "Không dùng mô hình này làm bộ duyệt học thuật; không mở sinh chữa viết tự do",
+  "independentHumanReview": false
+}

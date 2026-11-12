@@ -1,0 +1,181 @@
+{
+  "at": "2026-11-12T07:28:11.856Z",
+  "type": "Source-assisted authoring review, not independent specialist",
+  "observedMeaningOrReadingErrors": 0,
+  "sample": 15,
+  "rate": "0/15 lỗi được phát hiện trong mẫu; không phải độ chính xác toàn kho",
+  "phoneticListeningReview": false,
+  "rows": [
+    {
+      "id": "sentence-1",
+      "ja": "私はリンです。",
+      "reading": "わたしはりんです。",
+      "vi": "Tôi là Linh.",
+      "status": "Dự án tự soạn; cách đọc ghi thủ công, chưa duyệt độc lập",
+      "check": "Câu danh từ vớiです; tên giả định",
+      "sources": [
+        "Các mục từ tương ứng trong word-sample-review.json",
+        "Minna syllabus/JF grammar nguồn ghi trong SOURCES.md"
+      ]
+    },
+    {
+      "id": "sentence-2",
+      "ja": "お名前は何ですか。",
+      "reading": "おなまえはなんですか。",
+      "vi": "Tên bạn là gì?",
+      "status": "Dự án tự soạn; cách đọc ghi thủ công, chưa duyệt độc lập",
+      "check": "お名前 lịch sự;何 đọcなん trướcです",
+      "sources": [
+        "Các mục từ tương ứng trong word-sample-review.json",
+        "Minna syllabus/JF grammar nguồn ghi trong SOURCES.md"
+      ]
+    },
+    {
+      "id": "sentence-3",
+      "ja": "今日は勉強しません。",
+      "reading": "きょうはべんきょうしません。",
+      "vi": "Hôm nay tôi không học.",
+      "status": "Dự án tự soạn; cách đọc ghi thủ công, chưa duyệt độc lập",
+      "check": "Thểます phủ định; không đổi thành khẳng định",
+      "sources": [
+        "Các mục từ tương ứng trong word-sample-review.json",
+        "Minna syllabus/JF grammar nguồn ghi trong SOURCES.md"
+      ]
+    },
+    {
+      "id": "sentence-4",
+      "ja": "リンさんは二十歳です。",
+      "reading": "りんさんははたちです。",
+      "vi": "Linh 20 tuổi. (vai giả định)",
+      "status": "Dự án tự soạn; cách đọc ghi thủ công, chưa duyệt độc lập",
+      "check": "二十歳 đọcはたち theo JMdict1600790; bác đề xuất AI",
+      "sources": [
+        "JMdict1600790"
+      ]
+    },
+    {
+      "id": "sentence-5",
+      "ja": "会社員ではありません。",
+      "reading": "かいしゃいんではありません。",
+      "vi": "Tôi không phải nhân viên công ty.",
+      "status": "Dự án tự soạn; cách đọc ghi thủ công, chưa duyệt độc lập",
+      "check": "Danh từ phủ địnhではありません",
+      "sources": [
+        "Các mục từ tương ứng trong word-sample-review.json",
+        "Minna syllabus/JF grammar nguồn ghi trong SOURCES.md"
+      ]
+    },
+    {
+      "id": "sentence-6",
+      "ja": "ハナさんは先生です。",
+      "reading": "はなさんはせんせいです。",
+      "vi": "Hana là giáo viên.",
+      "status": "Dự án tự soạn; cách đọc ghi thủ công, chưa duyệt độc lập",
+      "check": "Câu danh từ;先生 chỉ nghề/vai trò theo ngữ cảnh",
+      "sources": [
+        "Các mục từ tương ứng trong word-sample-review.json",
+        "Minna syllabus/JF grammar nguồn ghi trong SOURCES.md"
+      ]
+    },
+    {
+      "id": "sentence-7",
+      "ja": "五時に帰ります。",
+      "reading": "ごじにかえります。",
+      "vi": "Tôi về lúc 5 giờ.",
+      "status": "Dự án tự soạn; cách đọc ghi thủ công, chưa duyệt độc lập",
+      "check": "Mốc giờに;帰る→帰ります",
+      "sources": [
+        "Các mục từ tương ứng trong word-sample-review.json",
+        "Minna syllabus/JF grammar nguồn ghi trong SOURCES.md"
+      ]
+    },
+    {
+      "id": "sentence-8",
+      "ja": "駅でバスを降ります。",
+      "reading": "えきでばすをおります。",
+      "vi": "Tôi xuống xe buýt ở ga.",
+      "check": "Điểm xuốngで; phương tiệnを với降りる",
+      "sources": [
+        "Các mục từ tương ứng trong word-sample-review.json",
+        "Minna syllabus/JF grammar nguồn ghi trong SOURCES.md"
+      ]
+    },
+    {
+      "id": "sentence-9",
+      "ja": "熱心に勉強しています。",
+      "reading": "ねっしんにべんきょうしています。",
+      "vi": "Tôi chăm chỉ học.",
+      "check": "熱心な→熱心に;ています chỉ hoạt động đang diễn ra",
+      "sources": [
+        "Các mục từ tương ứng trong word-sample-review.json",
+        "Minna syllabus/JF grammar nguồn ghi trong SOURCES.md"
+      ]
+    },
+    {
+      "id": "sentence-10",
+      "ja": "ここに触らないでください。",
+      "reading": "ここにさわらないでください。",
+      "vi": "Xin đừng chạm vào đây.",
+      "check": "触る vớiに; yêu cầu phủ địnhないでください",
+      "sources": [
+        "Các mục từ tương ứng trong word-sample-review.json",
+        "Minna syllabus/JF grammar nguồn ghi trong SOURCES.md"
+      ]
+    },
+    {
+      "id": "sentence-11",
+      "ja": "先生に本をいただきました。",
+      "reading": "せんせいにほんをいただきました。",
+      "vi": "Tôi nhận sách từ giáo viên.",
+      "check": "いただく khiêm nhường nhận từ giáo viên; khác lời chào bữa ăn",
+      "sources": [
+        "Các mục từ tương ứng trong word-sample-review.json",
+        "Minna syllabus/JF grammar nguồn ghi trong SOURCES.md"
+      ]
+    },
+    {
+      "id": "sentence-12",
+      "ja": "先生のところに伺います。",
+      "reading": "せんせいのところにうかがいます。",
+      "vi": "Tôi đến thăm giáo viên.",
+      "check": "伺う khiêm nhường đến thăm; không dùng nghĩa hỏi ở đây",
+      "sources": [
+        "Các mục từ tương ứng trong word-sample-review.json",
+        "Minna syllabus/JF grammar nguồn ghi trong SOURCES.md"
+      ]
+    },
+    {
+      "id": "sentence-13",
+      "ja": "先生はお茶を召し上がります。",
+      "reading": "せんせいはおちゃをめしあがります。",
+      "vi": "Giáo viên dùng trà.",
+      "check": "召し上がる tôn kính ăn/uống, chủ thể giáo viên",
+      "sources": [
+        "Các mục từ tương ứng trong word-sample-review.json",
+        "Minna syllabus/JF grammar nguồn ghi trong SOURCES.md"
+      ]
+    },
+    {
+      "id": "sentence-14",
+      "ja": "窓を閉めてください。",
+      "reading": "まどをしめてください。",
+      "vi": "Xin đóng cửa sổ.",
+      "check": "閉める nhóm2→閉めて, cửa sổ làm tân ngữ",
+      "sources": [
+        "Các mục từ tương ứng trong word-sample-review.json",
+        "Minna syllabus/JF grammar nguồn ghi trong SOURCES.md"
+      ]
+    },
+    {
+      "id": "sentence-15",
+      "ja": "学生が多いです。",
+      "reading": "がくせいがおおいです。",
+      "vi": "Có nhiều sinh viên.",
+      "check": "多い làm vị ngữ; không dùng nhiều+sinh viên theo trật tự tiếng Việt",
+      "sources": [
+        "Các mục từ tương ứng trong word-sample-review.json",
+        "Minna syllabus/JF grammar nguồn ghi trong SOURCES.md"
+      ]
+    }
+  ]
+}

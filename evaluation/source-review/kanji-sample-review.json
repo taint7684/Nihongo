@@ -1,0 +1,832 @@
+{
+  "at": "2026-11-12T07:28:11.856Z",
+  "type": "Authoring assistant source comparison, not independent human review",
+  "sample": 15,
+  "observedSourceFieldErrorsAfterCorrection": 0,
+  "rate": "0/15 ở các trường nguồn đã kiểm; không ước lượng độ đúng toàn kho",
+  "missingTeachingRecords": [
+    "私",
+    "伺"
+  ],
+  "rows": [
+    {
+      "char": "一",
+      "source": {
+        "char": "一",
+        "meanings": [
+          "one",
+          "one radical (no.1)"
+        ],
+        "on": [
+          "イチ",
+          "イツ"
+        ],
+        "kun": [
+          "ひと-",
+          "ひと.つ"
+        ],
+        "hanViet": [
+          "Nhất"
+        ],
+        "nanori": [
+          "かず",
+          "い",
+          "いっ",
+          "いる",
+          "かつ",
+          "かづ",
+          "てん",
+          "はじめ",
+          "ひ",
+          "ひとつ",
+          "まこと"
+        ],
+        "strokeCounts": [
+          1
+        ],
+        "radical": 1,
+        "grade": 1,
+        "source": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project",
+        "dictionary": "KANJIDIC2",
+        "version": "2026-316",
+        "date": "2026-11-12",
+        "license": "CC BY-SA 4.0",
+        "credit": "James William Breen / EDRDG and contributors",
+        "status": "Đối chiếu dữ liệu từ điển; chưa duyệt học thuật độc lập; không gán cấp JLPT hiện hành"
+      },
+      "teachingRecords": [
+        {
+          "char": "一",
+          "meaning": "một",
+          "hanViet": "Nhất",
+          "inWord": "一階（いっかい）",
+          "wordKey": "一階",
+          "scope": "Nghĩa gợi nhớ cơ bản; chỉ dạy cách đọc của từ được nêu, không mọi âm hoặc từ nguyên",
+          "reviewStatus": "Tự biên soạn/rà nội bộ, chưa duyệt học thuật độc lập",
+          "hanVietSource": "KANJIDIC2 / EDRDG CC BY-SA 4.0; source date 2026-11-12"
+        }
+      ],
+      "scope": "On/Kun/Hán Việt/bộ phân loại/số nét đối chiếu dữ liệu; không nghe duyệt hoặc phê duyệt mọi nghĩa Việt",
+      "finding": "Có mục học và nguồn; không chứng nhận ngữ âm độc lập"
+    },
+    {
+      "char": "人",
+      "source": {
+        "char": "人",
+        "meanings": [
+          "person"
+        ],
+        "on": [
+          "ジン",
+          "ニン"
+        ],
+        "kun": [
+          "ひと",
+          "-り",
+          "-と"
+        ],
+        "hanViet": [
+          "Nhân"
+        ],
+        "nanori": [
+          "じ",
+          "と",
+          "ね",
+          "ひこ",
+          "ふみ"
+        ],
+        "strokeCounts": [
+          2
+        ],
+        "radical": 9,
+        "grade": 1,
+        "source": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project",
+        "dictionary": "KANJIDIC2",
+        "version": "2026-316",
+        "date": "2026-11-12",
+        "license": "CC BY-SA 4.0",
+        "credit": "James William Breen / EDRDG and contributors",
+        "status": "Đối chiếu dữ liệu từ điển; chưa duyệt học thuật độc lập; không gán cấp JLPT hiện hành"
+      },
+      "teachingRecords": [
+        {
+          "char": "人",
+          "inWord": "ベトナム人（ベトナムじん）",
+          "meaning": "người",
+          "hanViet": "Nhân",
+          "wordMeaning": "người Việt Nam",
+          "scope": "Nghĩa gợi nhớ của chữ; cách đọc học trong từ, không suy mọi âm hoặc từ nguyên.",
+          "hanVietSource": "KANJIDIC2 / EDRDG CC BY-SA 4.0; source date 2026-11-12"
+        },
+        {
+          "char": "人",
+          "inWord": "四人（よにん）",
+          "meaning": "người",
+          "hanViet": "Nhân",
+          "wordMeaning": "bốn người",
+          "scope": "Nghĩa gợi nhớ của chữ; cách đọc học trong từ, không suy mọi âm hoặc từ nguyên.",
+          "hanVietSource": "KANJIDIC2 / EDRDG CC BY-SA 4.0; source date 2026-11-12"
+        }
+      ],
+      "scope": "On/Kun/Hán Việt/bộ phân loại/số nét đối chiếu dữ liệu; không nghe duyệt hoặc phê duyệt mọi nghĩa Việt",
+      "finding": "Có mục học và nguồn; không chứng nhận ngữ âm độc lập"
+    },
+    {
+      "char": "日",
+      "source": {
+        "char": "日",
+        "meanings": [
+          "day",
+          "sun",
+          "Japan",
+          "counter for days"
+        ],
+        "on": [
+          "ニチ",
+          "ジツ"
+        ],
+        "kun": [
+          "ひ",
+          "-び",
+          "-か"
+        ],
+        "hanViet": [
+          "Nhật"
+        ],
+        "nanori": [
+          "あ",
+          "あき",
+          "いる",
+          "く",
+          "くさ",
+          "こう",
+          "す",
+          "たち",
+          "に",
+          "にっ",
+          "につ",
+          "へ"
+        ],
+        "strokeCounts": [
+          4
+        ],
+        "radical": 72,
+        "grade": 1,
+        "source": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project",
+        "dictionary": "KANJIDIC2",
+        "version": "2026-316",
+        "date": "2026-11-12",
+        "license": "CC BY-SA 4.0",
+        "credit": "James William Breen / EDRDG and contributors",
+        "status": "Đối chiếu dữ liệu từ điển; chưa duyệt học thuật độc lập; không gán cấp JLPT hiện hành"
+      },
+      "teachingRecords": [
+        {
+          "char": "日",
+          "inWord": "毎日（まいにち）",
+          "meaning": "ngày, mặt trời",
+          "hanViet": "Nhật",
+          "wordMeaning": "mỗi ngày",
+          "scope": "Nghĩa gợi nhớ của chữ; cách đọc học trong từ, không suy mọi âm hoặc từ nguyên.",
+          "hanVietSource": "KANJIDIC2 / EDRDG CC BY-SA 4.0; source date 2026-11-12"
+        }
+      ],
+      "scope": "On/Kun/Hán Việt/bộ phân loại/số nét đối chiếu dữ liệu; không nghe duyệt hoặc phê duyệt mọi nghĩa Việt",
+      "finding": "Có mục học và nguồn; không chứng nhận ngữ âm độc lập"
+    },
+    {
+      "char": "月",
+      "source": {
+        "char": "月",
+        "meanings": [
+          "month",
+          "moon"
+        ],
+        "on": [
+          "ゲツ",
+          "ガツ"
+        ],
+        "kun": [
+          "つき"
+        ],
+        "hanViet": [
+          "Nguyệt"
+        ],
+        "nanori": [
+          "おと",
+          "がっ",
+          "す",
+          "ずき",
+          "もり"
+        ],
+        "strokeCounts": [
+          4
+        ],
+        "radical": 74,
+        "grade": 1,
+        "source": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project",
+        "dictionary": "KANJIDIC2",
+        "version": "2026-316",
+        "date": "2026-11-12",
+        "license": "CC BY-SA 4.0",
+        "credit": "James William Breen / EDRDG and contributors",
+        "status": "Đối chiếu dữ liệu từ điển; chưa duyệt học thuật độc lập; không gán cấp JLPT hiện hành"
+      },
+      "teachingRecords": [
+        {
+          "char": "月",
+          "meaning": "tháng, mặt trăng",
+          "hanViet": "Nguyệt",
+          "inWord": "月曜日（げつようび）",
+          "wordKey": "月曜日",
+          "scope": "Nghĩa gợi nhớ cơ bản; chỉ dạy cách đọc của từ được nêu, không mọi âm hoặc từ nguyên",
+          "reviewStatus": "Tự biên soạn/rà nội bộ, chưa duyệt học thuật độc lập",
+          "hanVietSource": "KANJIDIC2 / EDRDG CC BY-SA 4.0; source date 2026-11-12"
+        }
+      ],
+      "scope": "On/Kun/Hán Việt/bộ phân loại/số nét đối chiếu dữ liệu; không nghe duyệt hoặc phê duyệt mọi nghĩa Việt",
+      "finding": "Có mục học và nguồn; không chứng nhận ngữ âm độc lập"
+    },
+    {
+      "char": "火",
+      "source": {
+        "char": "火",
+        "meanings": [
+          "fire"
+        ],
+        "on": [
+          "カ"
+        ],
+        "kun": [
+          "ひ",
+          "-び",
+          "ほ-"
+        ],
+        "hanViet": [
+          "Hỏa"
+        ],
+        "nanori": [],
+        "strokeCounts": [
+          4
+        ],
+        "radical": 86,
+        "grade": 1,
+        "source": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project",
+        "dictionary": "KANJIDIC2",
+        "version": "2026-316",
+        "date": "2026-11-12",
+        "license": "CC BY-SA 4.0",
+        "credit": "James William Breen / EDRDG and contributors",
+        "status": "Đối chiếu dữ liệu từ điển; chưa duyệt học thuật độc lập; không gán cấp JLPT hiện hành"
+      },
+      "teachingRecords": [
+        {
+          "char": "火",
+          "meaning": "lửa",
+          "hanViet": "Hỏa",
+          "inWord": "火曜日（かようび）",
+          "wordKey": "火曜日",
+          "scope": "Nghĩa gợi nhớ cơ bản; chỉ dạy cách đọc của từ được nêu, không mọi âm hoặc từ nguyên",
+          "reviewStatus": "Tự biên soạn/rà nội bộ, chưa duyệt học thuật độc lập",
+          "hanVietSource": "KANJIDIC2 / EDRDG CC BY-SA 4.0; source date 2026-11-12"
+        }
+      ],
+      "scope": "On/Kun/Hán Việt/bộ phân loại/số nét đối chiếu dữ liệu; không nghe duyệt hoặc phê duyệt mọi nghĩa Việt",
+      "finding": "Có mục học và nguồn; không chứng nhận ngữ âm độc lập"
+    },
+    {
+      "char": "水",
+      "source": {
+        "char": "水",
+        "meanings": [
+          "water"
+        ],
+        "on": [
+          "スイ"
+        ],
+        "kun": [
+          "みず",
+          "みず-"
+        ],
+        "hanViet": [
+          "Thủy"
+        ],
+        "nanori": [
+          "うず",
+          "ずみ",
+          "つ",
+          "ど",
+          "み",
+          "みさ",
+          "みつ",
+          "みな",
+          "みん"
+        ],
+        "strokeCounts": [
+          4
+        ],
+        "radical": 85,
+        "grade": 1,
+        "source": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project",
+        "dictionary": "KANJIDIC2",
+        "version": "2026-316",
+        "date": "2026-11-12",
+        "license": "CC BY-SA 4.0",
+        "credit": "James William Breen / EDRDG and contributors",
+        "status": "Đối chiếu dữ liệu từ điển; chưa duyệt học thuật độc lập; không gán cấp JLPT hiện hành"
+      },
+      "teachingRecords": [
+        {
+          "char": "水",
+          "meaning": "nước",
+          "hanViet": "Thủy",
+          "inWord": "水曜日（すいようび）",
+          "wordKey": "水曜日",
+          "scope": "Nghĩa gợi nhớ cơ bản; chỉ dạy cách đọc của từ được nêu, không mọi âm hoặc từ nguyên",
+          "reviewStatus": "Tự biên soạn/rà nội bộ, chưa duyệt học thuật độc lập",
+          "hanVietSource": "KANJIDIC2 / EDRDG CC BY-SA 4.0; source date 2026-11-12"
+        }
+      ],
+      "scope": "On/Kun/Hán Việt/bộ phân loại/số nét đối chiếu dữ liệu; không nghe duyệt hoặc phê duyệt mọi nghĩa Việt",
+      "finding": "Có mục học và nguồn; không chứng nhận ngữ âm độc lập"
+    },
+    {
+      "char": "木",
+      "source": {
+        "char": "木",
+        "meanings": [
+          "tree",
+          "wood"
+        ],
+        "on": [
+          "ボク",
+          "モク"
+        ],
+        "kun": [
+          "き",
+          "こ-"
+        ],
+        "hanViet": [
+          "Mộc"
+        ],
+        "nanori": [
+          "ぐ",
+          "も",
+          "もと"
+        ],
+        "strokeCounts": [
+          4
+        ],
+        "radical": 75,
+        "grade": 1,
+        "source": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project",
+        "dictionary": "KANJIDIC2",
+        "version": "2026-316",
+        "date": "2026-11-12",
+        "license": "CC BY-SA 4.0",
+        "credit": "James William Breen / EDRDG and contributors",
+        "status": "Đối chiếu dữ liệu từ điển; chưa duyệt học thuật độc lập; không gán cấp JLPT hiện hành"
+      },
+      "teachingRecords": [
+        {
+          "char": "木",
+          "meaning": "cây, gỗ",
+          "hanViet": "Mộc",
+          "inWord": "木曜日（もくようび）",
+          "wordKey": "木曜日",
+          "scope": "Nghĩa gợi nhớ cơ bản; chỉ dạy cách đọc của từ được nêu, không mọi âm hoặc từ nguyên",
+          "reviewStatus": "Tự biên soạn/rà nội bộ, chưa duyệt học thuật độc lập",
+          "hanVietSource": "KANJIDIC2 / EDRDG CC BY-SA 4.0; source date 2026-11-12"
+        }
+      ],
+      "scope": "On/Kun/Hán Việt/bộ phân loại/số nét đối chiếu dữ liệu; không nghe duyệt hoặc phê duyệt mọi nghĩa Việt",
+      "finding": "Có mục học và nguồn; không chứng nhận ngữ âm độc lập"
+    },
+    {
+      "char": "金",
+      "source": {
+        "char": "金",
+        "meanings": [
+          "gold"
+        ],
+        "on": [
+          "キン",
+          "コン",
+          "ゴン"
+        ],
+        "kun": [
+          "かね",
+          "かな-",
+          "-がね"
+        ],
+        "hanViet": [
+          "Kim"
+        ],
+        "nanori": [
+          "かん",
+          "きむ",
+          "こ",
+          "この",
+          "ん"
+        ],
+        "strokeCounts": [
+          8
+        ],
+        "radical": 167,
+        "grade": 1,
+        "source": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project",
+        "dictionary": "KANJIDIC2",
+        "version": "2026-316",
+        "date": "2026-11-12",
+        "license": "CC BY-SA 4.0",
+        "credit": "James William Breen / EDRDG and contributors",
+        "status": "Đối chiếu dữ liệu từ điển; chưa duyệt học thuật độc lập; không gán cấp JLPT hiện hành"
+      },
+      "teachingRecords": [
+        {
+          "char": "金",
+          "meaning": "vàng, tiền",
+          "hanViet": "Kim",
+          "inWord": "金曜日（きんようび）",
+          "wordKey": "金曜日",
+          "scope": "Nghĩa gợi nhớ cơ bản; chỉ dạy cách đọc của từ được nêu, không mọi âm hoặc từ nguyên",
+          "reviewStatus": "Tự biên soạn/rà nội bộ, chưa duyệt học thuật độc lập",
+          "hanVietSource": "KANJIDIC2 / EDRDG CC BY-SA 4.0; source date 2026-11-12"
+        }
+      ],
+      "scope": "On/Kun/Hán Việt/bộ phân loại/số nét đối chiếu dữ liệu; không nghe duyệt hoặc phê duyệt mọi nghĩa Việt",
+      "finding": "Có mục học và nguồn; không chứng nhận ngữ âm độc lập"
+    },
+    {
+      "char": "土",
+      "source": {
+        "char": "土",
+        "meanings": [
+          "soil",
+          "earth",
+          "ground",
+          "Turkey"
+        ],
+        "on": [
+          "ド",
+          "ト"
+        ],
+        "kun": [
+          "つち"
+        ],
+        "hanViet": [
+          "Thổ",
+          "Độ",
+          "Đỗ"
+        ],
+        "nanori": [
+          "つく",
+          "は",
+          "ひじ"
+        ],
+        "strokeCounts": [
+          3
+        ],
+        "radical": 32,
+        "grade": 1,
+        "source": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project",
+        "dictionary": "KANJIDIC2",
+        "version": "2026-316",
+        "date": "2026-11-12",
+        "license": "CC BY-SA 4.0",
+        "credit": "James William Breen / EDRDG and contributors",
+        "status": "Đối chiếu dữ liệu từ điển; chưa duyệt học thuật độc lập; không gán cấp JLPT hiện hành"
+      },
+      "teachingRecords": [
+        {
+          "char": "土",
+          "meaning": "đất",
+          "hanViet": "Thổ · Độ · Đỗ",
+          "inWord": "土曜日（どようび）",
+          "wordKey": "土曜日",
+          "scope": "Nghĩa gợi nhớ cơ bản; chỉ dạy cách đọc của từ được nêu, không mọi âm hoặc từ nguyên",
+          "reviewStatus": "Tự biên soạn/rà nội bộ, chưa duyệt học thuật độc lập",
+          "hanVietSource": "KANJIDIC2 / EDRDG CC BY-SA 4.0; source date 2026-11-12"
+        }
+      ],
+      "scope": "On/Kun/Hán Việt/bộ phân loại/số nét đối chiếu dữ liệu; không nghe duyệt hoặc phê duyệt mọi nghĩa Việt",
+      "finding": "Có mục học và nguồn; không chứng nhận ngữ âm độc lập"
+    },
+    {
+      "char": "学",
+      "source": {
+        "char": "学",
+        "meanings": [
+          "study",
+          "learning",
+          "science"
+        ],
+        "on": [
+          "ガク"
+        ],
+        "kun": [
+          "まな.ぶ"
+        ],
+        "hanViet": [
+          "Học"
+        ],
+        "nanori": [
+          "たか",
+          "のり"
+        ],
+        "strokeCounts": [
+          8
+        ],
+        "radical": 39,
+        "grade": 1,
+        "source": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project",
+        "dictionary": "KANJIDIC2",
+        "version": "2026-316",
+        "date": "2026-11-12",
+        "license": "CC BY-SA 4.0",
+        "credit": "James William Breen / EDRDG and contributors",
+        "status": "Đối chiếu dữ liệu từ điển; chưa duyệt học thuật độc lập; không gán cấp JLPT hiện hành"
+      },
+      "teachingRecords": [
+        {
+          "char": "学",
+          "inWord": "学生（がくせい）",
+          "meaning": "học",
+          "hanViet": "Học",
+          "wordMeaning": "học sinh/sinh viên",
+          "scope": "Nghĩa gợi nhớ của chữ; cách đọc học trong từ, không suy mọi âm hoặc từ nguyên.",
+          "hanVietSource": "KANJIDIC2 / EDRDG CC BY-SA 4.0; source date 2026-11-12"
+        }
+      ],
+      "scope": "On/Kun/Hán Việt/bộ phân loại/số nét đối chiếu dữ liệu; không nghe duyệt hoặc phê duyệt mọi nghĩa Việt",
+      "finding": "Có mục học và nguồn; không chứng nhận ngữ âm độc lập"
+    },
+    {
+      "char": "生",
+      "source": {
+        "char": "生",
+        "meanings": [
+          "life",
+          "genuine",
+          "birth"
+        ],
+        "on": [
+          "セイ",
+          "ショウ"
+        ],
+        "kun": [
+          "い.きる",
+          "い.かす",
+          "い.ける",
+          "う.まれる",
+          "うま.れる",
+          "う.まれ",
+          "うまれ",
+          "う.む",
+          "お.う",
+          "は.える",
+          "は.やす",
+          "き",
+          "なま",
+          "なま-",
+          "な.る",
+          "な.す",
+          "む.す",
+          "-う"
+        ],
+        "hanViet": [
+          "Sanh",
+          "Sinh"
+        ],
+        "nanori": [
+          "あさ",
+          "いき",
+          "いく",
+          "いけ",
+          "うぶ",
+          "うまい",
+          "え",
+          "おい",
+          "ぎゅう",
+          "くるみ",
+          "ごせ",
+          "さ",
+          "じょう",
+          "すぎ",
+          "そ",
+          "そう",
+          "ちる",
+          "なば",
+          "にう",
+          "にゅう",
+          "ふ",
+          "み",
+          "もう",
+          "よい",
+          "りゅう"
+        ],
+        "strokeCounts": [
+          5
+        ],
+        "radical": 100,
+        "grade": 1,
+        "source": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project",
+        "dictionary": "KANJIDIC2",
+        "version": "2026-316",
+        "date": "2026-11-12",
+        "license": "CC BY-SA 4.0",
+        "credit": "James William Breen / EDRDG and contributors",
+        "status": "Đối chiếu dữ liệu từ điển; chưa duyệt học thuật độc lập; không gán cấp JLPT hiện hành"
+      },
+      "teachingRecords": [
+        {
+          "char": "生",
+          "meaning": "sinh, sống",
+          "hanViet": "Sanh · Sinh",
+          "inWord": "学生（がくせい）",
+          "wordKey": "学生",
+          "scope": "Nghĩa gợi nhớ cơ bản; chỉ dạy cách đọc của từ được nêu, không mọi âm hoặc từ nguyên",
+          "reviewStatus": "Tự biên soạn/rà nội bộ, chưa duyệt học thuật độc lập",
+          "hanVietSource": "KANJIDIC2 / EDRDG CC BY-SA 4.0; source date 2026-11-12"
+        }
+      ],
+      "scope": "On/Kun/Hán Việt/bộ phân loại/số nét đối chiếu dữ liệu; không nghe duyệt hoặc phê duyệt mọi nghĩa Việt",
+      "finding": "Có mục học và nguồn; không chứng nhận ngữ âm độc lập"
+    },
+    {
+      "char": "何",
+      "source": {
+        "char": "何",
+        "meanings": [
+          "what"
+        ],
+        "on": [
+          "カ"
+        ],
+        "kun": [
+          "なに",
+          "なん",
+          "なに-",
+          "なん-"
+        ],
+        "hanViet": [
+          "Hà"
+        ],
+        "nanori": [
+          "あが"
+        ],
+        "strokeCounts": [
+          7
+        ],
+        "radical": 9,
+        "grade": 2,
+        "source": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project",
+        "dictionary": "KANJIDIC2",
+        "version": "2026-316",
+        "date": "2026-11-12",
+        "license": "CC BY-SA 4.0",
+        "credit": "James William Breen / EDRDG and contributors",
+        "status": "Đối chiếu dữ liệu từ điển; chưa duyệt học thuật độc lập; không gán cấp JLPT hiện hành"
+      },
+      "teachingRecords": [
+        {
+          "char": "何",
+          "meaning": "gì, nào theo từ",
+          "hanViet": "Hà",
+          "inWord": "何歳（なんさい）",
+          "wordKey": "何歳",
+          "scope": "Nghĩa gợi nhớ cơ bản; chỉ dạy cách đọc của từ được nêu, không mọi âm hoặc từ nguyên",
+          "reviewStatus": "Tự biên soạn/rà nội bộ, chưa duyệt học thuật độc lập",
+          "hanVietSource": "KANJIDIC2 / EDRDG CC BY-SA 4.0; source date 2026-11-12"
+        }
+      ],
+      "scope": "On/Kun/Hán Việt/bộ phân loại/số nét đối chiếu dữ liệu; không nghe duyệt hoặc phê duyệt mọi nghĩa Việt",
+      "finding": "Có mục học và nguồn; không chứng nhận ngữ âm độc lập"
+    },
+    {
+      "char": "私",
+      "source": {
+        "char": "私",
+        "meanings": [
+          "private",
+          "I",
+          "me"
+        ],
+        "on": [
+          "シ"
+        ],
+        "kun": [
+          "わたくし",
+          "わたし"
+        ],
+        "hanViet": [
+          "Tư"
+        ],
+        "nanori": [],
+        "strokeCounts": [
+          7
+        ],
+        "radical": 115,
+        "grade": 6,
+        "source": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project",
+        "dictionary": "KANJIDIC2",
+        "version": "2026-316",
+        "date": "2026-11-12",
+        "license": "CC BY-SA 4.0",
+        "credit": "James William Breen / EDRDG and contributors",
+        "status": "Đối chiếu dữ liệu từ điển; chưa duyệt học thuật độc lập; không gán cấp JLPT hiện hành"
+      },
+      "teachingRecords": [],
+      "scope": "On/Kun/Hán Việt/bộ phân loại/số nét đối chiếu dữ liệu; không nghe duyệt hoặc phê duyệt mọi nghĩa Việt",
+      "finding": "Có nguồn tra; chưa có mục Kanji học riêng trong kho 158 chữ"
+    },
+    {
+      "char": "申",
+      "source": {
+        "char": "申",
+        "meanings": [
+          "have the honor to",
+          "sign of the monkey",
+          "3-5PM",
+          "ninth sign of Chinese zodiac"
+        ],
+        "on": [
+          "シン"
+        ],
+        "kun": [
+          "もう.す",
+          "もう.し-",
+          "さる"
+        ],
+        "hanViet": [
+          "Thân"
+        ],
+        "nanori": [],
+        "strokeCounts": [
+          5
+        ],
+        "radical": 102,
+        "grade": 3,
+        "source": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project",
+        "dictionary": "KANJIDIC2",
+        "version": "2026-316",
+        "date": "2026-11-12",
+        "license": "CC BY-SA 4.0",
+        "credit": "James William Breen / EDRDG and contributors",
+        "status": "Đối chiếu dữ liệu từ điển; chưa duyệt học thuật độc lập; không gán cấp JLPT hiện hành"
+      },
+      "teachingRecords": [
+        {
+          "char": "申",
+          "inWord": "申します（もうします）",
+          "meaning": "Trong từ 申します（もうします）: tự xưng trang trọng",
+          "wordMeaning": "tự xưng trang trọng",
+          "hanViet": "Thân",
+          "hanVietSource": "KANJIDIC2 / EDRDG CC BY-SA 4.0; source date 2026-11-12"
+        }
+      ],
+      "scope": "On/Kun/Hán Việt/bộ phân loại/số nét đối chiếu dữ liệu; không nghe duyệt hoặc phê duyệt mọi nghĩa Việt",
+      "finding": "Có mục học và nguồn; không chứng nhận ngữ âm độc lập"
+    },
+    {
+      "char": "伺",
+      "source": {
+        "char": "伺",
+        "meanings": [
+          "pay respects",
+          "visit",
+          "ask",
+          "inquire",
+          "question",
+          "implore"
+        ],
+        "on": [
+          "シ"
+        ],
+        "kun": [
+          "うかが.う"
+        ],
+        "hanViet": [
+          "Tý",
+          "Tứ"
+        ],
+        "nanori": [],
+        "strokeCounts": [
+          7
+        ],
+        "radical": 9,
+        "grade": 8,
+        "source": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project",
+        "dictionary": "KANJIDIC2",
+        "version": "2026-316",
+        "date": "2026-11-12",
+        "license": "CC BY-SA 4.0",
+        "credit": "James William Breen / EDRDG and contributors",
+        "status": "Đối chiếu dữ liệu từ điển; chưa duyệt học thuật độc lập; không gán cấp JLPT hiện hành"
+      },
+      "teachingRecords": [],
+      "scope": "On/Kun/Hán Việt/bộ phân loại/số nét đối chiếu dữ liệu; không nghe duyệt hoặc phê duyệt mọi nghĩa Việt",
+      "finding": "Có mục học và nguồn; không chứng nhận ngữ âm độc lập"
+    }
+  ]
+}

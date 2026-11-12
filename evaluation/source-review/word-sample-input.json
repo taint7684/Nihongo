@@ -1,0 +1,589 @@
+[
+  {
+    "lessonId": "mnn-01",
+    "surface": "私",
+    "reading": "わたし",
+    "vietnamese": "tôi",
+    "matchStatus": "one candidate; sense review required",
+    "candidates": [
+      {
+        "id": "1311110",
+        "lemma": "私",
+        "reading": [
+          "わたし",
+          "ワタシ"
+        ],
+        "method": "exact"
+      }
+    ],
+    "meaningStatus": "Nghĩa Việt tự soạn; chỉ được gắn đối chiếu khi đã chọn và rà nghĩa Anh cụ thể",
+    "sampling": "risk-based"
+  },
+  {
+    "lessonId": "mnn-01",
+    "surface": "何",
+    "reading": "なん",
+    "vietnamese": "gì, cách đọc trong お名前は何ですか",
+    "matchStatus": "one candidate; sense review required",
+    "candidates": [
+      {
+        "id": "2846738",
+        "lemma": "何",
+        "reading": [
+          "なん"
+        ],
+        "method": "exact"
+      }
+    ],
+    "meaningStatus": "Nghĩa Việt tự soạn; chỉ được gắn đối chiếu khi đã chọn và rà nghĩa Anh cụ thể",
+    "sampling": "risk-based"
+  },
+  {
+    "lessonId": "mnn-04",
+    "surface": "今日",
+    "reading": "きょう",
+    "vietnamese": "hôm nay",
+    "matchStatus": "one candidate; sense review required",
+    "candidates": [
+      {
+        "id": "1579110",
+        "lemma": "今日",
+        "reading": [
+          "きょう"
+        ],
+        "method": "exact"
+      }
+    ],
+    "meaningStatus": "Nghĩa Việt tự soạn; chỉ được gắn đối chiếu khi đã chọn và rà nghĩa Anh cụ thể",
+    "sampling": "risk-based"
+  },
+  {
+    "lessonId": "mnn-01",
+    "surface": "二十歳",
+    "reading": "はたち",
+    "vietnamese": "20 tuổi",
+    "matchStatus": "one candidate; sense review required",
+    "candidates": [
+      {
+        "id": "1600790",
+        "lemma": "二十歳",
+        "reading": [
+          "はたち"
+        ],
+        "method": "exact"
+      }
+    ],
+    "meaningStatus": "Nghĩa Việt tự soạn; chỉ được gắn đối chiếu khi đã chọn và rà nghĩa Anh cụ thể",
+    "sampling": "risk-based"
+  },
+  {
+    "lessonId": "mnn-01",
+    "surface": "会社員",
+    "reading": "かいしゃいん",
+    "vietnamese": "nhân viên công ty",
+    "matchStatus": "one candidate; sense review required",
+    "candidates": [
+      {
+        "id": "1198560",
+        "lemma": "会社員",
+        "reading": [
+          "かいしゃいん"
+        ],
+        "method": "exact"
+      }
+    ],
+    "meaningStatus": "Nghĩa Việt tự soạn; chỉ được gắn đối chiếu khi đã chọn và rà nghĩa Anh cụ thể",
+    "sampling": "risk-based"
+  },
+  {
+    "lessonId": "mnn-01",
+    "surface": "先生",
+    "reading": "せんせい",
+    "vietnamese": "giáo viên, thầy/cô theo ngữ cảnh",
+    "matchStatus": "one candidate; sense review required",
+    "candidates": [
+      {
+        "id": "1387990",
+        "lemma": "先生",
+        "reading": [
+          "せんせい"
+        ],
+        "method": "exact"
+      }
+    ],
+    "meaningStatus": "Nghĩa Việt tự soạn; chỉ được gắn đối chiếu khi đã chọn và rà nghĩa Anh cụ thể",
+    "sampling": "risk-based"
+  },
+  {
+    "lessonId": "mnn-05",
+    "surface": "帰ります",
+    "reading": "かえります",
+    "vietnamese": "về",
+    "matchStatus": "one candidate; sense review required",
+    "candidates": [
+      {
+        "id": "1221270",
+        "lemma": "帰る",
+        "reading": [
+          "かえる"
+        ],
+        "method": "inflection candidate"
+      }
+    ],
+    "meaningStatus": "Nghĩa Việt tự soạn; chỉ được gắn đối chiếu khi đã chọn và rà nghĩa Anh cụ thể",
+    "sampling": "risk-based"
+  },
+  {
+    "lessonId": "mnn-16",
+    "surface": "降ります",
+    "reading": "おります",
+    "vietnamese": "xuống phương tiện",
+    "matchStatus": "one candidate; sense review required",
+    "candidates": [
+      {
+        "id": "1589500",
+        "lemma": "降りる",
+        "reading": [
+          "おりる"
+        ],
+        "method": "inflection candidate"
+      }
+    ],
+    "meaningStatus": "Nghĩa Việt tự soạn; chỉ được gắn đối chiếu khi đã chọn và rà nghĩa Anh cụ thể",
+    "sampling": "risk-based"
+  },
+  {
+    "lessonId": "mnn-28",
+    "surface": "熱心",
+    "reading": "ねっしん",
+    "vietnamese": "chăm chỉ/nhiệt tình",
+    "matchStatus": "one candidate; sense review required",
+    "candidates": [
+      {
+        "id": "1467910",
+        "lemma": "熱心",
+        "reading": [
+          "ねっしん"
+        ],
+        "method": "exact"
+      }
+    ],
+    "meaningStatus": "Nghĩa Việt tự soạn; chỉ được gắn đối chiếu khi đã chọn và rà nghĩa Anh cụ thể",
+    "sampling": "risk-based"
+  },
+  {
+    "lessonId": "mnn-33",
+    "surface": "触ります",
+    "reading": "さわります",
+    "vietnamese": "chạm",
+    "matchStatus": "one candidate; sense review required",
+    "candidates": [
+      {
+        "id": "1357980",
+        "lemma": "触る",
+        "reading": [
+          "さわる"
+        ],
+        "method": "inflection candidate"
+      }
+    ],
+    "meaningStatus": "Nghĩa Việt tự soạn; chỉ được gắn đối chiếu khi đã chọn và rà nghĩa Anh cụ thể",
+    "sampling": "risk-based"
+  },
+  {
+    "lessonId": "mnn-41",
+    "surface": "いただきます",
+    "reading": "いただきます",
+    "vietnamese": "nhận, khiêm nhường củaもらう",
+    "matchStatus": "ambiguous; not auto-merged",
+    "candidates": [
+      {
+        "id": "1410800",
+        "lemma": "いただきます",
+        "reading": [
+          "いただきます"
+        ],
+        "method": "exact"
+      },
+      {
+        "id": "1587290",
+        "lemma": "いただく",
+        "reading": [
+          "いただく"
+        ],
+        "method": "inflection candidate"
+      }
+    ],
+    "meaningStatus": "Nghĩa Việt tự soạn; chỉ được gắn đối chiếu khi đã chọn và rà nghĩa Anh cụ thể",
+    "sampling": "risk-based"
+  },
+  {
+    "lessonId": "mnn-50",
+    "surface": "伺います",
+    "reading": "うかがいます",
+    "vietnamese": "đến thăm/hỏi, khiêm nhường với đích",
+    "matchStatus": "one candidate; sense review required",
+    "candidates": [
+      {
+        "id": "1305700",
+        "lemma": "伺う",
+        "reading": [
+          "うかがう"
+        ],
+        "method": "inflection candidate"
+      }
+    ],
+    "meaningStatus": "Nghĩa Việt tự soạn; chỉ được gắn đối chiếu khi đã chọn và rà nghĩa Anh cụ thể",
+    "sampling": "risk-based"
+  },
+  {
+    "lessonId": "mnn-49",
+    "surface": "召し上がります",
+    "reading": "めしあがります",
+    "vietnamese": "ăn/uống, tôn trọng",
+    "matchStatus": "one candidate; sense review required",
+    "candidates": [
+      {
+        "id": "1346370",
+        "lemma": "召し上がる",
+        "reading": [
+          "めしあがる"
+        ],
+        "method": "inflection candidate"
+      }
+    ],
+    "meaningStatus": "Nghĩa Việt tự soạn; chỉ được gắn đối chiếu khi đã chọn và rà nghĩa Anh cụ thể",
+    "sampling": "risk-based"
+  },
+  {
+    "lessonId": "mnn-14",
+    "surface": "閉めます",
+    "reading": "しめます",
+    "vietnamese": "đóng",
+    "matchStatus": "one candidate; sense review required",
+    "candidates": [
+      {
+        "id": "1508590",
+        "lemma": "閉める",
+        "reading": [
+          "しめる"
+        ],
+        "method": "inflection candidate"
+      }
+    ],
+    "meaningStatus": "Nghĩa Việt tự soạn; chỉ được gắn đối chiếu khi đã chọn và rà nghĩa Anh cụ thể",
+    "sampling": "seeded-random"
+  },
+  {
+    "lessonId": "mnn-12",
+    "surface": "多い",
+    "reading": "おおい",
+    "vietnamese": "nhiều",
+    "matchStatus": "one candidate; sense review required",
+    "candidates": [
+      {
+        "id": "1407460",
+        "lemma": "多い",
+        "reading": [
+          "おおい"
+        ],
+        "method": "exact"
+      }
+    ],
+    "meaningStatus": "Nghĩa Việt tự soạn; chỉ được gắn đối chiếu khi đã chọn và rà nghĩa Anh cụ thể",
+    "sampling": "seeded-random"
+  },
+  {
+    "lessonId": "mnn-35",
+    "surface": "相談します",
+    "reading": "そうだんします",
+    "vietnamese": "bàn bạc/tham khảo ý kiến",
+    "matchStatus": "one candidate; sense review required",
+    "candidates": [
+      {
+        "id": "1401210",
+        "lemma": "相談",
+        "reading": [
+          "そうだん"
+        ],
+        "method": "suru noun candidate"
+      }
+    ],
+    "meaningStatus": "Nghĩa Việt tự soạn; chỉ được gắn đối chiếu khi đã chọn và rà nghĩa Anh cụ thể",
+    "sampling": "seeded-random"
+  },
+  {
+    "lessonId": "mnn-11",
+    "surface": "冊",
+    "reading": "さつ",
+    "vietnamese": "lượng từ cho sách",
+    "matchStatus": "one candidate; sense review required",
+    "candidates": [
+      {
+        "id": "1298520",
+        "lemma": "冊",
+        "reading": [
+          "さつ"
+        ],
+        "method": "exact"
+      }
+    ],
+    "meaningStatus": "Nghĩa Việt tự soạn; chỉ được gắn đối chiếu khi đã chọn và rà nghĩa Anh cụ thể",
+    "sampling": "seeded-random"
+  },
+  {
+    "lessonId": "mnn-40",
+    "surface": "高さ",
+    "reading": "たかさ",
+    "vietnamese": "chiều cao",
+    "matchStatus": "one candidate; sense review required",
+    "candidates": [
+      {
+        "id": "1283200",
+        "lemma": "高さ",
+        "reading": [
+          "たかさ"
+        ],
+        "method": "exact"
+      }
+    ],
+    "meaningStatus": "Nghĩa Việt tự soạn; chỉ được gắn đối chiếu khi đã chọn và rà nghĩa Anh cụ thể",
+    "sampling": "seeded-random"
+  },
+  {
+    "lessonId": "mnn-06",
+    "surface": "牛乳",
+    "reading": "ぎゅうにゅう",
+    "vietnamese": "sữa bò",
+    "matchStatus": "one candidate; sense review required",
+    "candidates": [
+      {
+        "id": "1231590",
+        "lemma": "牛乳",
+        "reading": [
+          "ぎゅうにゅう"
+        ],
+        "method": "exact"
+      }
+    ],
+    "meaningStatus": "Nghĩa Việt tự soạn; chỉ được gắn đối chiếu khi đã chọn và rà nghĩa Anh cụ thể",
+    "sampling": "seeded-random"
+  },
+  {
+    "lessonId": "mnn-45",
+    "surface": "場合",
+    "reading": "ばあい",
+    "vietnamese": "trường hợp",
+    "matchStatus": "one candidate; sense review required",
+    "candidates": [
+      {
+        "id": "1355810",
+        "lemma": "場合",
+        "reading": [
+          "ばあい"
+        ],
+        "method": "exact"
+      }
+    ],
+    "meaningStatus": "Nghĩa Việt tự soạn; chỉ được gắn đối chiếu khi đã chọn và rà nghĩa Anh cụ thể",
+    "sampling": "seeded-random"
+  },
+  {
+    "lessonId": "mnn-11",
+    "surface": "父",
+    "reading": "ちち",
+    "vietnamese": "bố của mình khi nói với người ngoài",
+    "matchStatus": "one candidate; sense review required",
+    "candidates": [
+      {
+        "id": "1497610",
+        "lemma": "父",
+        "reading": [
+          "ちち"
+        ],
+        "method": "exact"
+      }
+    ],
+    "meaningStatus": "Nghĩa Việt tự soạn; chỉ được gắn đối chiếu khi đã chọn và rà nghĩa Anh cụ thể",
+    "sampling": "seeded-random"
+  },
+  {
+    "lessonId": "mnn-34",
+    "surface": "磨きます",
+    "reading": "みがきます",
+    "vietnamese": "đánh/chải/lau bóng tùy đối tượng",
+    "matchStatus": "one candidate; sense review required",
+    "candidates": [
+      {
+        "id": "1523940",
+        "lemma": "磨く",
+        "reading": [
+          "みがく"
+        ],
+        "method": "inflection candidate"
+      }
+    ],
+    "meaningStatus": "Nghĩa Việt tự soạn; chỉ được gắn đối chiếu khi đã chọn và rà nghĩa Anh cụ thể",
+    "sampling": "seeded-random"
+  },
+  {
+    "lessonId": "mnn-46",
+    "surface": "先月",
+    "reading": "せんげつ",
+    "vietnamese": "tháng trước",
+    "matchStatus": "one candidate; sense review required",
+    "candidates": [
+      {
+        "id": "1387500",
+        "lemma": "先月",
+        "reading": [
+          "せんげつ"
+        ],
+        "method": "exact"
+      }
+    ],
+    "meaningStatus": "Nghĩa Việt tự soạn; chỉ được gắn đối chiếu khi đã chọn và rà nghĩa Anh cụ thể",
+    "sampling": "seeded-random"
+  },
+  {
+    "lessonId": "mnn-48",
+    "surface": "文",
+    "reading": "ぶん",
+    "vietnamese": "câu/văn bản theo ngữ cảnh",
+    "matchStatus": "one candidate; sense review required",
+    "candidates": [
+      {
+        "id": "1505090",
+        "lemma": "文",
+        "reading": [
+          "ぶん"
+        ],
+        "method": "exact"
+      }
+    ],
+    "meaningStatus": "Nghĩa Việt tự soạn; chỉ được gắn đối chiếu khi đã chọn và rà nghĩa Anh cụ thể",
+    "sampling": "seeded-random"
+  },
+  {
+    "lessonId": "mnn-35",
+    "surface": "条件",
+    "reading": "じょうけん",
+    "vietnamese": "điều kiện",
+    "matchStatus": "one candidate; sense review required",
+    "candidates": [
+      {
+        "id": "1356510",
+        "lemma": "条件",
+        "reading": [
+          "じょうけん"
+        ],
+        "method": "exact"
+      }
+    ],
+    "meaningStatus": "Nghĩa Việt tự soạn; chỉ được gắn đối chiếu khi đã chọn và rà nghĩa Anh cụ thể",
+    "sampling": "seeded-random"
+  },
+  {
+    "lessonId": "mnn-17",
+    "surface": "宿題",
+    "reading": "しゅくだい",
+    "vietnamese": "bài tập về nhà",
+    "matchStatus": "one candidate; sense review required",
+    "candidates": [
+      {
+        "id": "1337270",
+        "lemma": "宿題",
+        "reading": [
+          "しゅくだい"
+        ],
+        "method": "exact"
+      }
+    ],
+    "meaningStatus": "Nghĩa Việt tự soạn; chỉ được gắn đối chiếu khi đã chọn và rà nghĩa Anh cụ thể",
+    "sampling": "seeded-random"
+  },
+  {
+    "lessonId": "mnn-10",
+    "surface": "中",
+    "reading": "なか",
+    "vietnamese": "trong",
+    "matchStatus": "one candidate; sense review required",
+    "candidates": [
+      {
+        "id": "1423310",
+        "lemma": "中",
+        "reading": [
+          "なか"
+        ],
+        "method": "exact"
+      }
+    ],
+    "meaningStatus": "Nghĩa Việt tự soạn; chỉ được gắn đối chiếu khi đã chọn và rà nghĩa Anh cụ thể",
+    "sampling": "seeded-random"
+  },
+  {
+    "lessonId": "mnn-12",
+    "surface": "秋",
+    "reading": "あき",
+    "vietnamese": "mùa thu",
+    "matchStatus": "one candidate; sense review required",
+    "candidates": [
+      {
+        "id": "1332650",
+        "lemma": "秋",
+        "reading": [
+          "あき"
+        ],
+        "method": "exact"
+      }
+    ],
+    "meaningStatus": "Nghĩa Việt tự soạn; chỉ được gắn đối chiếu khi đã chọn và rà nghĩa Anh cụ thể",
+    "sampling": "seeded-random"
+  },
+  {
+    "lessonId": "mnn-02",
+    "surface": "あの",
+    "reading": "あの",
+    "vietnamese": "kia, đi trước danh từ",
+    "matchStatus": "ambiguous; not auto-merged",
+    "candidates": [
+      {
+        "id": "1000420",
+        "lemma": "あの",
+        "reading": [
+          "あの"
+        ],
+        "method": "exact"
+      },
+      {
+        "id": "1000430",
+        "lemma": "あの",
+        "reading": [
+          "あの"
+        ],
+        "method": "exact"
+      }
+    ],
+    "meaningStatus": "Nghĩa Việt tự soạn; chỉ được gắn đối chiếu khi đã chọn và rà nghĩa Anh cụ thể",
+    "sampling": "seeded-random"
+  },
+  {
+    "lessonId": "mnn-16",
+    "surface": "背",
+    "reading": "せ",
+    "vietnamese": "chiều cao người trong cụm",
+    "matchStatus": "one candidate; sense review required",
+    "candidates": [
+      {
+        "id": "2147990",
+        "lemma": "背",
+        "reading": [
+          "せ"
+        ],
+        "method": "exact"
+      }
+    ],
+    "meaningStatus": "Nghĩa Việt tự soạn; chỉ được gắn đối chiếu khi đã chọn và rà nghĩa Anh cụ thể",
+    "sampling": "seeded-random"
+  }
+]

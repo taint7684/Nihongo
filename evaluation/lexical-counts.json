@@ -1,5 +1,5 @@
 {
-  "time": "2026-11-12T06:47:30.450Z",
+  "time": "2026-11-12T07:28:15.258Z",
   "version": "2026-11-12-lexical-v1",
   "dictionaryDate": "2026-11-09",
   "identity": "Dictionary entry / writing / grammatical form / per-lesson meaning are separate. Unique candidate is not semantic approval. Unresolved entries never inflate the verified count.",
@@ -8,9 +8,10 @@
     "N5": {
       "surfaceKeys": 447,
       "usageRecords": 469,
-      "candidateLexemes": 394,
-      "unresolvedForms": 50,
-      "verifiedSenses": 0,
+      "candidateLexemes": 441,
+      "unresolvedForms": 0,
+      "composedOrNamedUses": 3,
+      "sourceComparedUsages": 466,
       "roles": {
         "active": 89,
         "recognition": 261,
@@ -20,9 +21,10 @@
     "N4": {
       "surfaceKeys": 189,
       "usageRecords": 193,
-      "candidateLexemes": 168,
-      "unresolvedForms": 20,
-      "verifiedSenses": 0,
+      "candidateLexemes": 185,
+      "unresolvedForms": 0,
+      "composedOrNamedUses": 3,
+      "sourceComparedUsages": 190,
       "roles": {
         "active": 0,
         "recognition": 165,
@@ -30,23 +32,25 @@
       }
     },
     "N4New": {
-      "surfaceKeys": 179,
-      "usageRecords": 183,
-      "candidateLexemes": 158,
-      "unresolvedForms": 20,
-      "verifiedSenses": 0,
+      "surfaceKeys": 176,
+      "usageRecords": 180,
+      "candidateLexemes": 172,
+      "unresolvedForms": 0,
+      "composedOrNamedUses": 3,
+      "sourceComparedUsages": 177,
       "roles": {
         "active": 0,
-        "recognition": 155,
+        "recognition": 152,
         "not-yet-classified": 28
       }
     },
     "cumulative": {
       "surfaceKeys": 630,
       "usageRecords": 662,
-      "candidateLexemes": 552,
-      "unresolvedForms": 70,
-      "verifiedSenses": 0,
+      "candidateLexemes": 613,
+      "unresolvedForms": 0,
+      "composedOrNamedUses": 6,
+      "sourceComparedUsages": 656,
       "roles": {
         "active": 89,
         "recognition": 426,

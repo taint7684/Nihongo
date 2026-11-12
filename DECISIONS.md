@@ -46,3 +46,11 @@ Rà Kanji phát hiện một số metadata cũ đặt nghĩa cả từ (学生/�
 - Lỗi nguồn: Excel itertext cộngrPh (furigana phụ) vào chữ/tên cột. Bộ đọc chỉt/r-t; fixture名前+rPh trả名前. Rà lại cả3workbook.
 - Lỗi kiểm kê:さ trong高さ bị đếm Kanji. LọcScript=Han, KANJIDIC đối chiếu; giữ高さ mục từ, ghi exclusion.185KanjiN4thay186, không hạ tiêu chí học.
 - Bộ đếm mới tách ứng viên và chưa rõ; không dùng match duy nhất để duyệt ngữ nghĩa.
+
+
+## Sửa nguyên nhân hệ thống 12/11
+- Suy đuôiします chỉ nhận gốc danh từ có POSvs; ngănなくします→なく/泣く. Kính ngữ bất quy tắc có ánh xạ riêng, vẫn giữ nghĩa/cách dùng theo bài.
+- Trường reading nhập môn từng chứa romaji: chuyển kana vào reading, giữ romaji riêng, không đổi khóa học/lịch sử.
+- Script=Han gồm々; bộ chọn chữ tra dùng Unified_Ideograph, không đếm dấu lặp là Kanji riêng. Kanaさlọt từ高さ đã bỏ khỏi target chữ.
+- AI bácはたち sai; nguồn JMdict1600790 được ưu tiên. Không đổi câu theo AI và không gọi đây là duyệt độc lập.
+- 私 có từ vựng và hồ sơ KANJIDIC mới, chưa có mục Kanji học/nét trong158chữ. Ghi thiếu để xử lý ở lõi N5, không che bằng số hồ sơ tra.

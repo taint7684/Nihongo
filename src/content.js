@@ -1,3 +1,7 @@
+import{wordSourceTypes}from './word-source-types.js';
+import{grammarSourceReviews}from './grammar-source-reviews.js';
+import{wordMeaningReviews}from './word-meaning-reviews.js';
+import{sourceWordReviews}from './source-review-overrides.js';
 import{kanjiHanViet}from './kanji-hanviet-source.js';
 import{n4CapstoneLesson}from './n4-capstone.js';
 import{buildN4Comprehensive}from './n4-comprehensive.js';
@@ -68,5 +72,9 @@ const glide=lessons.find(l=>l.id==='sound-glide');glide.notes.push('Các nhóm t
 lessons.push(...buildMnn(),buildGroupReview(),...buildAdditionalReviews(),...buildFinalReviews(),...buildAssessmentExpansion(),buildReadinessB(),buildN4Assessment(),buildN4SecondAssessment(),buildN4MiddleAssessment(),buildN4LaterAssessment(),buildN4LastAssessment(),buildN4Comprehensive(),n4CapstoneLesson);
 for(const l of lessons)if(l.id.startsWith('n5-')&&!l.id.startsWith('n5-assessment-')&&!l.id.startsWith('n5-practice-'))l.track='explore';
 for(const l of lessons)for(const k of l.kanji||[])if(kanjiHanViet[k.char]?.length){k.hanViet=kanjiHanViet[k.char].join(' · ');k.hanVietSource='KANJIDIC2 / EDRDG CC BY-SA 4.0; source date 2026-11-12';}
+for(const l of lessons)for(const w of l.words||[]){const r=sourceWordReviews[l.id+':'+w.text];if(r){w.type=r.type;w.sourceReview=r;}else if(['この','その','あの','どの'].includes(w.text)){w.type='từ chỉ định trước danh từ (連体詞)';w.typeSource='JMdict/TUFS: chỉ sửa loại từ, chưa rà toàn nghĩa/ví dụ';}}
+for(const l of lessons)for(const w of l.words||[]){if(!w.sourceReview){const r=wordMeaningReviews[w.text+'|'+w.reading+'|'+w.meaning];if(r)w.sourceReview=r;}if(/^[a-zA-Zāīūēōūō -]+$/.test(w.reading||'')&&/^[ぁ-ゖァ-ヶー]+$/.test(w.text)){w.romaji=w.reading;w.reading=w.text;w.readingCorrection='Tách romaji khỏi trường kana; giữ khóa mục từ và dữ liệu cũ';}}
+for(const l of lessons)for(const[g,i]of(l.grammar||[]).map((g,i)=>[g,i])){const r=grammarSourceReviews[l.id+'-g'+i];if(r)g.sourceReview={...r,date:'2026-11-12',status:'Đối chiếu nguồn trong phạm vi ghi rõ; AI biên soạn rà, chưa người duyệt độc lập'};if(l.id==='mnn-37'&&i===0&&!g.explanation.includes('う→わ'))g.explanation+=' Nhóm1 cóう→わ: 買う→買われる. 来る→来られる đọcこられる trong mẫu bị động; する→される.';}
+for(const l of lessons)for(const w of l.words||[]){const t=wordSourceTypes[l.id+':'+w.text];if(t&&t!=='loại từ chưa đối chiếu đầy đủ'){w.type=t;w.typeSource='JMdict selected sense POS; labels translated by project, not independent academic review';}}
 export const allQuestions = lessons.flatMap(l => l.questions.map(q => ({ ...q, lessonId: l.id })));
 export const questionById = id => allQuestions.find(q => q.id === id);

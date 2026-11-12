@@ -8,3 +8,7 @@
 | Vai trò chủ động/nhận biết hiện kế thừa nhãn cũ, mục chưa phân loại giữ rõ | Nhãn hỗ trợ không thể chứng minh mục tiêu đã đủ | Rà lại từng mục theo đích sử dụng ở bước3 |
 | Ngưỡng kaiwa tạm vẫnN5≥3/N4≥4 tình huống mới và48h, các tiêu chí0–2 | Đã được ủy quyền, chưa chuẩn hóa hay đánh giá nói độc lập | communication-criteria.json; hiệu chỉnh bằng kết quả học thật |
 | Tách cổ bộ thủ/classical radical khỏi thành phầnKanjiVG | Tránh bịa nghĩa/từ nguyên từ sơ đồ nét | Dữ liệu hai lớp, dẫn nguồn riêng |
+
+
+## Quyết định nguồn12/11
+Giữ mô hình chỉ trong tác vụ đã đạt; không dùng Qwen4B làm chuyên gia duyệt do phản hồi thật sai. Lượt nguồn là trạng thái đối chiếu, không phê duyệt toàn ví dụ. 6cụm/tên giữ khóa cũ nhưng không đếm thành đầu mục mới; có thể xem/thay phân loại trong compositional-word-reviews.js. Nhãn vai trò học cũ còn nhiều nhận biết/chưa phân loại, phải chọn lại khi chốt lõi bước3.

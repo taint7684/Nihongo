@@ -1,0 +1,298 @@
+{
+  "at": "2026-11-12T07:28:11.856Z",
+  "type": "Authoring assistant comparison",
+  "sample": 10,
+  "missingExplanationCaseBefore": 1,
+  "rate": "1/10 thiếu trường hợp chia ở mẫu kiểm, đã bổ sung; không suy rộng toàn kho",
+  "rows": [
+    {
+      "id": "mnn-01-g0",
+      "sources": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/002.html",
+        "https://www.irodori.jpf.go.jp/assets/data/Grammar_all.pdf#page=1"
+      ],
+      "scope": "Câu danh từ, chủ đềは và cách đọc trợ từ; ví dụ/ý nghĩa trong phạm vi bài",
+      "actual": {
+        "functionName": "Giới thiệu",
+        "pattern": "N1 は N2 です",
+        "explanation": "Nêu thông tin về chủ đề; は ở vai trò trợ từ đọc wa.",
+        "example": {
+          "ja": "わたしはミンです。",
+          "vi": "Tôi là Minh.",
+          "reading": "わたしはみんです。"
+        },
+        "pitfall": "Không dịch です thành “là” ở mọi cấu trúc.",
+        "sourceReview": {
+          "sources": [
+            "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/002.html",
+            "https://www.irodori.jpf.go.jp/assets/data/Grammar_all.pdf#page=1"
+          ],
+          "scope": "Câu danh từ, chủ đềは và cách đọc trợ từ; ví dụ/ý nghĩa trong phạm vi bài",
+          "date": "2026-11-12",
+          "status": "Đối chiếu nguồn trong phạm vi ghi rõ; AI biên soạn rà, chưa người duyệt độc lập"
+        }
+      },
+      "result": "Đối chiếu trong phạm vi ghi rõ; chưa người duyệt độc lập",
+      "correction": "Không phát hiện lỗi trong phạm vi đã rà"
+    },
+    {
+      "id": "mnn-01-g1",
+      "sources": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/001.html",
+        "https://www.irodori.jpf.go.jp/assets/data/Grammar_all.pdf#page=4"
+      ],
+      "scope": "Phủ định câu danh từ và biến thểじゃ; không đảo ý",
+      "actual": {
+        "functionName": "Phủ định",
+        "pattern": "N は N ではありません",
+        "explanation": "Phủ định câu danh từ lịch sự. じゃありません là một lựa chọn thường dùng trong nói.",
+        "example": {
+          "ja": "わたしは先生ではありません。",
+          "vi": "Tôi không phải giáo viên.",
+          "reading": "わたしはせんせいではありません。"
+        },
+        "pitfall": "Phủ định và khẳng định đều có thể đúng; phải giữ ý người nói.",
+        "sourceReview": {
+          "sources": [
+            "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/001.html",
+            "https://www.irodori.jpf.go.jp/assets/data/Grammar_all.pdf#page=4"
+          ],
+          "scope": "Phủ định câu danh từ và biến thểじゃ; không đảo ý",
+          "date": "2026-11-12",
+          "status": "Đối chiếu nguồn trong phạm vi ghi rõ; AI biên soạn rà, chưa người duyệt độc lập"
+        }
+      },
+      "result": "Đối chiếu trong phạm vi ghi rõ; chưa người duyệt độc lập",
+      "correction": "Không phát hiện lỗi trong phạm vi đã rà"
+    },
+    {
+      "id": "mnn-01-g2",
+      "sources": [
+        "https://www.irodori.jpf.go.jp/assets/data/Grammar_all.pdf#page=3"
+      ],
+      "scope": "Câu hỏi vớiか trong mẫu lịch sự",
+      "actual": {
+        "functionName": "Hỏi và xác nhận",
+        "pattern": "N ですか",
+        "explanation": "か kết thúc câu hỏi ở mẫu này; dùng はい/いいえ cùng câu khớp nghĩa.",
+        "example": {
+          "ja": "ミンさんは学生ですか。",
+          "vi": "Bạn Minh là học sinh/sinh viên à?",
+          "reading": "みんさんはがくせいですか。"
+        },
+        "pitfall": "Không chỉ bấm はい khi nội dung trả lời là phủ định.",
+        "sourceReview": {
+          "sources": [
+            "https://www.irodori.jpf.go.jp/assets/data/Grammar_all.pdf#page=3"
+          ],
+          "scope": "Câu hỏi vớiか trong mẫu lịch sự",
+          "date": "2026-11-12",
+          "status": "Đối chiếu nguồn trong phạm vi ghi rõ; AI biên soạn rà, chưa người duyệt độc lập"
+        }
+      },
+      "result": "Đối chiếu trong phạm vi ghi rõ; chưa người duyệt độc lập",
+      "correction": "Không phát hiện lỗi trong phạm vi đã rà"
+    },
+    {
+      "id": "mnn-01-g3",
+      "sources": [
+        "https://www.irodori.jpf.go.jp/assets/data/Grammar_all.pdf#page=3"
+      ],
+      "scope": "も với thông tin cùng thuộc tính",
+      "actual": {
+        "functionName": "Bổ sung thông tin",
+        "pattern": "N も N です",
+        "explanation": "も thay cho は khi cùng một thuộc tính đã được nói tới.",
+        "example": {
+          "ja": "ハナさんも学生です。",
+          "vi": "Hana cũng là học sinh/sinh viên.",
+          "reading": "はなさんもがくせいです。"
+        },
+        "pitfall": "Cần có đối tượng trước cùng thuộc tính; không dùng も như chủ đề bất kỳ.",
+        "sourceReview": {
+          "sources": [
+            "https://www.irodori.jpf.go.jp/assets/data/Grammar_all.pdf#page=3"
+          ],
+          "scope": "も với thông tin cùng thuộc tính",
+          "date": "2026-11-12",
+          "status": "Đối chiếu nguồn trong phạm vi ghi rõ; AI biên soạn rà, chưa người duyệt độc lập"
+        }
+      },
+      "result": "Đối chiếu trong phạm vi ghi rõ; chưa người duyệt độc lập",
+      "correction": "Không phát hiện lỗi trong phạm vi đã rà"
+    },
+    {
+      "id": "mnn-01-g4",
+      "sources": [
+        "https://www.irodori.jpf.go.jp/assets/data/Grammar_all.pdf"
+      ],
+      "scope": "N1のN2: quan hệ danh từ; không quy mọiのthành sở hữu",
+      "actual": {
+        "functionName": "Liên hệ danh từ",
+        "pattern": "N1 の N2",
+        "explanation": "Trong bài này, diễn đạt quan hệ thuộc tổ chức; không phải mọi の đều là sở hữu.",
+        "example": {
+          "ja": "大学の先生です。",
+          "vi": "Là giáo viên đại học.",
+          "reading": "だいがくのせんせいです。"
+        },
+        "pitfall": "Không đồng nhất mọi の với “của” một cách máy móc.",
+        "sourceReview": {
+          "sources": [
+            "https://www.irodori.jpf.go.jp/assets/data/Grammar_all.pdf"
+          ],
+          "scope": "N1のN2: quan hệ danh từ; không quy mọiのthành sở hữu",
+          "date": "2026-11-12",
+          "status": "Đối chiếu nguồn trong phạm vi ghi rõ; AI biên soạn rà, chưa người duyệt độc lập"
+        }
+      },
+      "result": "Đối chiếu trong phạm vi ghi rõ; chưa người duyệt độc lập",
+      "correction": "Không phát hiện lỗi trong phạm vi đã rà"
+    },
+    {
+      "id": "mnn-27-g0",
+      "sources": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/074.html"
+      ],
+      "scope": "Dạng khả năng và ví dụが読めます; ghi chúをngoài phạm vi đối chiếu trực tiếp này",
+      "actual": {
+        "functionName": "Khả năng làm",
+        "pattern": "Nhóm1 hàng e+る; nhóm2 bỏる+られる; する→できる; 来る→来られる",
+        "explanation": "Dạng khả năng diễn đạt có thể làm. 書く→書ける, 食べる→食べられる, 来る→来られる（こられる）. Với đối tượng trong mẫu nền dùng が: 漢字が読めます; を cũng gặp trong thực tế, không coi mọi を là sai.",
+        "example": {
+          "ja": "日本語の本が読めます。",
+          "reading": "にほんごのほんがよめます。",
+          "vi": "Tôi có thể đọc sách tiếng Nhật."
+        },
+        "pitfall": "Không biến 読みます thành 読みれます. Dạng rút gọn ら抜き không là mục tiêu tự sản xuất ở đây.",
+        "scopeNote": "Dùng lại nhóm động từ/từ điển bài18.",
+        "sourceReview": {
+          "sources": [
+            "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/074.html"
+          ],
+          "scope": "Dạng khả năng và ví dụが読めます; ghi chúをngoài phạm vi đối chiếu trực tiếp này",
+          "date": "2026-11-12",
+          "status": "Đối chiếu nguồn trong phạm vi ghi rõ; AI biên soạn rà, chưa người duyệt độc lập"
+        }
+      },
+      "result": "Đối chiếu trong phạm vi ghi rõ; chưa người duyệt độc lập",
+      "correction": "Không phát hiện lỗi trong phạm vi đã rà"
+    },
+    {
+      "id": "mnn-37-g0",
+      "sources": [
+        "https://www.irodori.jpf.go.jp/assets/data/Grammar_all.pdf#page=157"
+      ],
+      "scope": "Vai chịu tác động, tác nhânに, biến hình bị động; bổ sungう→わ",
+      "actual": {
+        "functionName": "Dạng bị động và người tác động",
+        "pattern": "Nhóm1 hànga+れる／nhóm2 bỏる+られる／する→される／来る→来られる",
+        "explanation": "書く→書かれる、ほめる→ほめられる. AはBにほめられました: A được B khen. Nhóm2 có thể trùng hình thức khả năng, phải dựa ngữ cảnh, không nhìn られる là kết luận. Nhóm1 cóう→わ: 買う→買われる. 来る→来られる đọcこられる trong mẫu bị động; する→される.",
+        "example": {
+          "ja": "わたしは先生にほめられました。",
+          "reading": "わたしはせんせいにほめられました。",
+          "vi": "Tôi được giáo viên khen."
+        },
+        "pitfall": "Bị động không luôn có sắc thái xấu; câu này được khen.",
+        "scopeNote": "So khả năng bài27 và vai cho/nhận bài24.",
+        "sourceReview": {
+          "sources": [
+            "https://www.irodori.jpf.go.jp/assets/data/Grammar_all.pdf#page=157"
+          ],
+          "scope": "Vai chịu tác động, tác nhânに, biến hình bị động; bổ sungう→わ",
+          "date": "2026-11-12",
+          "status": "Đối chiếu nguồn trong phạm vi ghi rõ; AI biên soạn rà, chưa người duyệt độc lập"
+        }
+      },
+      "result": "Đối chiếu trong phạm vi ghi rõ; chưa người duyệt độc lập",
+      "correction": "Bổ sung biến hình nhóm1う→わ và dạng bất quy tắc来る/する"
+    },
+    {
+      "id": "mnn-42-g0",
+      "sources": [
+        "https://www.irodori.jpf.go.jp/assets/data/Grammar_all.pdf#page=180"
+      ],
+      "scope": "Mục đíchVるために; chưa coi đã kiểm hết mọi phân biệt vớiように",
+      "actual": {
+        "functionName": "Mục đích chủ ý",
+        "pattern": "V từ điển／Nのために、V",
+        "explanation": "旅行するために準備する, 旅行のために貯金する. Với V, thường mục tiêu có ý chí, chủ thể phù hợp. Khả năng/điều tránh ngoài ý muốn thường dùngように đã học36; không đổi mọi câu giữa hai mẫu.",
+        "example": {
+          "ja": "日本語を勉強するために、この本を買いました。",
+          "reading": "にほんごをべんきょうするために、このほんをかいました。",
+          "vi": "Tôi mua sách này để học tiếng Nhật."
+        },
+        "pitfall": "ために ở đây là mục đích, không tự dịch vì nguyên nhân; các cách dùng khác chưa là mục tiêu vòng.",
+        "scopeNote": "So読めるように練習する với勉強するために本を買う.",
+        "sourceReview": {
+          "sources": [
+            "https://www.irodori.jpf.go.jp/assets/data/Grammar_all.pdf#page=180"
+          ],
+          "scope": "Mục đíchVるために; chưa coi đã kiểm hết mọi phân biệt vớiように",
+          "date": "2026-11-12",
+          "status": "Đối chiếu nguồn trong phạm vi ghi rõ; AI biên soạn rà, chưa người duyệt độc lập"
+        }
+      },
+      "result": "Đối chiếu trong phạm vi ghi rõ; chưa người duyệt độc lập",
+      "correction": "Không phát hiện lỗi trong phạm vi đã rà"
+    },
+    {
+      "id": "mnn-43-g0",
+      "sources": [
+        "https://www.irodori.jpf.go.jp/assets/data/Grammar_all.pdf#page=103"
+      ],
+      "scope": "Dự đoán từ dấu hiệu, gốcます+そう; khác truyền văn",
+      "actual": {
+        "functionName": "Có dấu hiệu sắp",
+        "pattern": "V bỏます + そうです",
+        "explanation": "雨が降りそうです dựa dấu hiệu nhìn thấy, không lời dự báo ai đó nói. Không đảm bảo chắc xảy ra. Truyền vănそう khác sẽ học47, không gộp hai mẫu.",
+        "example": {
+          "ja": "雨が降りそうです。",
+          "reading": "あめがふりそうです。",
+          "vi": "Trông có vẻ sắp mưa."
+        },
+        "pitfall": "Không nói người khác đã báo tin chỉ từそうdạng này.",
+        "scopeNote": "Soかもしれない32 và予定31.",
+        "sourceReview": {
+          "sources": [
+            "https://www.irodori.jpf.go.jp/assets/data/Grammar_all.pdf#page=103"
+          ],
+          "scope": "Dự đoán từ dấu hiệu, gốcます+そう; khác truyền văn",
+          "date": "2026-11-12",
+          "status": "Đối chiếu nguồn trong phạm vi ghi rõ; AI biên soạn rà, chưa người duyệt độc lập"
+        }
+      },
+      "result": "Đối chiếu trong phạm vi ghi rõ; chưa người duyệt độc lập",
+      "correction": "Không phát hiện lỗi trong phạm vi đã rà"
+    },
+    {
+      "id": "mnn-47-g0",
+      "sources": [
+        "https://www.irodori.jpf.go.jp/assets/data/Grammar_all.pdf#page=121"
+      ],
+      "scope": "Nguồn truyền văn,thể thường,N/NAだそう; giữ mức xác minh",
+      "actual": {
+        "functionName": "Thông tin nghe từ nguồn",
+        "pattern": "Thể thường + そうです（N/NAだ）",
+        "explanation": "雨が降るそうです là nghe nói sẽ mưa; 元気だそうです là nghe nói khỏe. Nêu nguồn bằng…によると khi có nguồn trong tình huống. Không biến lời nghe thành sự thật đã kiểm.",
+        "example": {
+          "ja": "先生の話によると、あしたは休みだそうです。",
+          "reading": "せんせいのはなしによると、あしたはやすみだそうです。",
+          "vi": "Theo lời giáo viên, nghe nói mai nghỉ."
+        },
+        "pitfall": "Khác元気そう trông khỏe hoặc雨が降りそう có vẻ sắp mưa ở43.",
+        "scopeNote": "Ônthểthường20 vànguồnlời21.",
+        "sourceReview": {
+          "sources": [
+            "https://www.irodori.jpf.go.jp/assets/data/Grammar_all.pdf#page=121"
+          ],
+          "scope": "Nguồn truyền văn,thể thường,N/NAだそう; giữ mức xác minh",
+          "date": "2026-11-12",
+          "status": "Đối chiếu nguồn trong phạm vi ghi rõ; AI biên soạn rà, chưa người duyệt độc lập"
+        }
+      },
+      "result": "Đối chiếu trong phạm vi ghi rõ; chưa người duyệt độc lập",
+      "correction": "Không phát hiện lỗi trong phạm vi đã rà"
+    }
+  ]
+}

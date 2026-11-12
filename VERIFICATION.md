@@ -75,3 +75,8 @@ Mọi profile kiểm tra tách riêng; không có bằng chứng người dùng 
 ## 12/11 nhómđịnhdanh
 
 91tests/17file, build qua. Edge .tmp-ui/word-identity/report.json: nguồnJMdict1311110, private aliasnote, gõwatashi ghi lịch私mới giữsnapshot cũ vàusageId; exportJSONthậtvalidatecũ+mới; KanjiReference nguồnOn/Kun/HánViệt/bộ phânloại; Progress552ứngviên. AIblocked, QAfixtures không bằng chứng người học. Chưa đủ mẫu rà nghĩa độc lập. Snapshot/Git không chứaprofile học thật.
+
+
+## 12/11/2026 — nhóm định danh/nguồn
+93tests/17files và production build qua. Edge QA word-identity qua: lịch/ghi chú cũわたし giữ nguyên, câu trả lời mới私 cóusageId, không tạo hoàn thành giả, exportbackupv1 thực và validate lại. study-tools qua: từ/flashcard/grammar/drawing/listen/read/write/backup trong QA riêng. Không dùng hồ sơ thật. Reports .tmp-ui/word-identity/report.json và .tmp-ui/study-tools/report.json (xem đường dẫn trong script).
+Đối chiếu mẫu:0/30 lỗi nghĩa/cách đọc phát hiện ở30từ sau sửa;1/30 lỗi loại từあのđã sửa,privatepronoun bổ sung loại; Kanji0/15 sai trường dữ liệu nguồn sau thayHánViệt,1/15 thiếu mục học riêng(私); câu0/15 lỗi phát hiện trong phạm vi rà; grammar1/10 thiếu trường hợp chiaう→わ đã bổ sung. Các tỷ lệ chỉ mô tả mẫu, không chứng minh toàn kho đúng. Không nghe duyệt ngữ âm, không đánh giá năng lực người dùng. Chi tiết mẫu và nguồn được giữ trong evaluation/source-review. AI review thật không đạt; mock không được tính thay.

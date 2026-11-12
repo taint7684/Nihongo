@@ -1,0 +1,99 @@
+[
+  {
+    "id": "sentence-1",
+    "ja": "私はリンです。",
+    "reading": "わたしはりんです。",
+    "vi": "Tôi là Linh.",
+    "status": "Dự án tự soạn; cách đọc ghi thủ công, chưa duyệt độc lập"
+  },
+  {
+    "id": "sentence-2",
+    "ja": "お名前は何ですか。",
+    "reading": "おなまえはなんですか。",
+    "vi": "Tên bạn là gì?",
+    "status": "Dự án tự soạn; cách đọc ghi thủ công, chưa duyệt độc lập"
+  },
+  {
+    "id": "sentence-3",
+    "ja": "今日は勉強しません。",
+    "reading": "きょうはべんきょうしません。",
+    "vi": "Hôm nay tôi không học.",
+    "status": "Dự án tự soạn; cách đọc ghi thủ công, chưa duyệt độc lập"
+  },
+  {
+    "id": "sentence-4",
+    "ja": "リンさんは二十歳です。",
+    "reading": "りんさんははたちです。",
+    "vi": "Linh 20 tuổi. (vai giả định)",
+    "status": "Dự án tự soạn; cách đọc ghi thủ công, chưa duyệt độc lập"
+  },
+  {
+    "id": "sentence-5",
+    "ja": "会社員ではありません。",
+    "reading": "かいしゃいんではありません。",
+    "vi": "Tôi không phải nhân viên công ty.",
+    "status": "Dự án tự soạn; cách đọc ghi thủ công, chưa duyệt độc lập"
+  },
+  {
+    "id": "sentence-6",
+    "ja": "ハナさんは先生です。",
+    "reading": "はなさんはせんせいです。",
+    "vi": "Hana là giáo viên.",
+    "status": "Dự án tự soạn; cách đọc ghi thủ công, chưa duyệt độc lập"
+  },
+  {
+    "id": "sentence-7",
+    "ja": "五時に帰ります。",
+    "reading": "ごじにかえります。",
+    "vi": "Tôi về lúc 5 giờ.",
+    "status": "Dự án tự soạn; cách đọc ghi thủ công, chưa duyệt độc lập"
+  },
+  {
+    "id": "sentence-8",
+    "ja": "駅でバスを降ります。",
+    "reading": "えきでばすをおります。",
+    "vi": "Tôi xuống xe buýt ở ga."
+  },
+  {
+    "id": "sentence-9",
+    "ja": "熱心に勉強しています。",
+    "reading": "ねっしんにべんきょうしています。",
+    "vi": "Tôi chăm chỉ học."
+  },
+  {
+    "id": "sentence-10",
+    "ja": "ここに触らないでください。",
+    "reading": "ここにさわらないでください。",
+    "vi": "Xin đừng chạm vào đây."
+  },
+  {
+    "id": "sentence-11",
+    "ja": "先生に本をいただきました。",
+    "reading": "せんせいにほんをいただきました。",
+    "vi": "Tôi nhận sách từ giáo viên."
+  },
+  {
+    "id": "sentence-12",
+    "ja": "先生のところに伺います。",
+    "reading": "せんせいのところにうかがいます。",
+    "vi": "Tôi đến thăm giáo viên."
+  },
+  {
+    "id": "sentence-13",
+    "ja": "先生はお茶を召し上がります。",
+    "reading": "せんせいはおちゃをめしあがります。",
+    "vi": "Giáo viên dùng trà."
+  },
+  {
+    "id": "sentence-14",
+    "ja": "窓を閉めてください。",
+    "reading": "まどをしめてください。",
+    "vi": "Xin đóng cửa sổ."
+  },
+  {
+    "id": "sentence-15",
+    "ja": "学生が多いです。",
+    "reading": "がくせいがおおいです。",
+    "vi": "Có nhiều sinh viên."
+  }
+]
