@@ -1,3 +1,4 @@
+import{checkedWord}from './word-state.js';
 import{validateTools}from './tools-state.js';
 import{emptyLearning,validateLearning}from './learning-state.js';
 import { defaults, diagnostics, passed, diagnosticResult } from './planner.js';
@@ -53,6 +54,7 @@ export function validate(value) {
 }
 export function recordAnswer(state, q, choice, now = Date.now(), response) {
   const correct = choice === q.answer;
+  if(q.wordKey){const next={...state,answers:{...state.answers,[q.id]:{choice,correct,at:now,...(typeof response==='string'?{response:response.slice(0,100)}:{})}}};return checkedWord(next,q.wordKey,'recall',response||q.choices[choice]||'',correct,now,q.usageId);}
   return { ...state, answers: { ...state.answers, [q.id]: { choice, correct, at:now, ...(typeof response==='string'?{response:response.slice(0,100)}:{}) } }, reviews: { ...state.reviews, [q.id]: { due: correct ? now + 86400000 : now, streak: 0 } } };
 }
 export function completeLesson(state, lesson, now = Date.now()) {

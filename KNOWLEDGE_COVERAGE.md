@@ -19,8 +19,8 @@ Có 25 bài và bộ B mới; độ phủ cấp chưa xác lập
 
 | Nhóm | Học+luyện+đánh giá riêng+ôn / số mục đang có | Duyệt độc lập |
 |---|---|---|
-| words | 0/189 | 0 |
-| kanji | 0/40 | 0 |
+| words | 0/261 | 0 |
+| kanji | 0/195 | 0 |
 | grammar | 74/86 | 0 |
 | tasks | 0/50 | 0 |
 

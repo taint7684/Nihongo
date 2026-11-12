@@ -1,27 +1,31 @@
 # Điểm tiếp tục hiện hành — 12/11/2026
 
-Mục tiêu vẫn là tài liệu tự học cá nhân 0 → N5 → N4 theo CURRENT_MISSION.md. **Chưa hoàn thành toàn phạm vi.** Giữ nguyên bản gốc study-room, ID/thứ tự bài, schema/key v1, tiến độ/backup, truy cập tự do và ngân sách 0 đồng. QA luôn dùng hồ sơ riêng.
+Mục tiêu vẫn là tài liệu tự học cá nhân 0 → N5 → N4. **Chưa hoàn thành toàn phạm vi và chưa đủ căn cứ làm nguồn học duy nhất.** Giữ schema/key v1, ID/thứ tự bài, dữ liệu học/backup, truy cập tự do, 0 đồng và QA bằng hồ sơ riêng. Không coi số bài, audio, test hoặc bản ghi tra cứu là bằng chứng người học thành thạo hay sẽ đỗ.
 
-## Trạng thái có bằng chứng
+## Hoàn thành trong lượt gần nhất
 
-- Git đã có baseline f4a3756; định danh/adapter dac4ae5; đối chiếu nguồn e2b7c7d; đợt N5 chức năng 91e46d4. Không push, không đưa dữ liệu học thật/runtime/cache vào Git.
-- JMdict/KANJIDIC2 đã có nguồn và giấy phép. Tách mục từ/cách viết/dạng chia/nghĩa theo bài; adapter 私/わたし giữ lịch sử cũ. Mẫu 30 từ/15 Kanji/15 câu/10 ngữ pháp được ghi đúng giới hạn; chưa có người duyệt độc lập. AI review thật bác sai はたち, nên không dùng làm bộ duyệt.
-- 63 ngữ cảnh từ N5 bổ sung, 18 câu áp dụng mới và Kanji 私 (7 nét). N5 có503 ứng viên mục từ; phần mới N4 có163; tích lũy666 theo entry đã loại trùng, không phải số từ đã thành thạo hoặc đủ cấp.
-- Đã đối chiếu thêm TUFS cho18 mục ngữ pháp; tổng28 phạm vi rà (23 N5,5 N4). Sửa bài16: không bắt mọi vế nốiくて/で có cùng chủ thể. Xem CONTENT_REVIEW.md và evaluation/n5-semantic-review-progress.json để biết từng bài đã rà gì.
-- Audio bảng nền đã có cho145 dòng ở bài3/4/5/11, dùng133 tài sản mới; 1日 lịch và khoảng một ngày có file riêng. TTS có kiểm kế hoạch đọc, chưa nghe duyệt ngữ âm độc lập. Catalog1954 tổng,1943 active,11 giữ lịch sử. Không dùng làm chuẩn chấm phát âm.
-- Metadata nguồn656 bản ghi đã giảm từ295446 xuống87653 byte, so hash mọi trường trước/sau giống nhau. JS khởi tạo giảm1367,22KB xuống1169,37KB; gzip342,22KB xuống338,41KB, vẫn còn lớn.
-- 104tests/19files và build qua. Edge QA: word-identity/backup, open-access, functional-gap, foundation-audio qua. So414 câu cũ với765 câu hiện tại: không đổi ID/lựa chọn/đáp án. Không tạo kết quả học thật.
+- Hòa giải báo cáo inventory: 240 dòng N4 gồm 222 mục từ/cụm và 18 mục loại khác. 15 mục grammar và 3 thuật ngữ kính ngữ không phải 18 từ vựng thiếu ngữ cảnh. Inventory được sửa để đếm từ thiếu riêng; 15/3 hiện theo dõi thành nhóm grammar/glossary. Đây là phân loại trong working scope, không chứng nhận phạm vi cấp đủ.
+- Kiểm tra hash `reference/working-scope-r1.json`; test đóng 61 ngữ cảnh từ R1 và 155 Kanji R1 qua. Danh sách khoảng trống đã được kiểm theo nghĩa/đọc nguồn, ví dụ, câu hỏi đọc; Kanji gắn từ thật và câu hỏi. Chưa có duyệt học thuật hoặc nghe độc lập.
+- Tạo thư viện tra cứu 2.999 chữ: 2.136 Jōyō theo nguồn chính thức và 863 chữ ngoài Jōyō theo metadata KANJIDIC2 grade 9/10. Có 214 bộ Khang Hy từ Unicode CJKRadicals; nghĩa/Hán Việt/nét gắn với chữ tương đương nguồn, không phải giải thích từ nguyên.
+- Thêm màn “Thư viện Kanji / Bộ thủ” trong Công cụ học, tìm kiếm/lọc, ví dụ liên kết ngược và ghi rõ tra cứu ≠ đã dạy. Năm lớp báo riêng: tra cứu 2.999, nét 297, có học liệu 296, luyện/ôn 296, có liên kết đánh giá 154. Không gán học liệu cho chữ chỉ vì nó có trong thư viện.
+- Kiểm: `npm.cmd test` — 22 file/111 test qua; `npm.cmd run build` qua; `node scripts/study-tools-ui.mjs` qua trên Edge thật, gồm tìm thư viện và đổi giữa Kanji/bộ thủ. QA dùng profile riêng, không dùng thành tích người học thật.
+- Build vẫn cảnh báo bundle chính 1.37 MB; chưa tối ưu vì còn thiếu nội dung cốt lõi. Không commit/push trong lượt này; working tree đã có các thay đổi chưa commit từ trước, được giữ nguyên.
 
-## Tiếp tục đúng thứ tự nhóm3
+## Tiếp tục từ đây — không đổi mẫu số trừ khi có gap cụ thể
 
-1. Chốt tiếp phạm vi độc lập và hoàn thiện lõi N5; 450 mục từ/cụm và105 chữ trong tập dự thảo đã có ngữ cảnh, **không chứng minh đủ N5**. Rà cả đáp án, từ hỗ trợ, tiên quyết, nghe/đọc và nhiệm vụ mới; không chỉ thêm số lượng.
-2. Bảng1–25 nêu cụ thể phần đã rà nguồn và phần chưa xác minh. Chưa được gán duyệt học thuật toàn bài. Phân vai từ chủ động/nhận biết/chú giải còn nhiều mục chưa phân loại.
-3. Sau lõi N5, tiếp N4: tập cũ240 mục gồm222 mục từ/cụm,15 cấu trúc và3 thuật ngữ. Sau bỏ thiếu giả/dùng lại, còn61 mục từ/cụm thiếu ngữ cảnh và155 Kanji mục tiêu chưa có bài. Tập này vẫn chưa xác lập đủ N4. Không gộpそうです đồng ý vớiそう truyền văn,やすい dễ với安い rẻ.
-4. Sau đó hoàn thiện luyện/ôn/đánh giá/kaiwa, rồi thư viện≥2500 Kanji/214 bộ thủ, xử lý AI có mục tiêu và nghiệm thu toàn thể. Thư viện hiện có159 chữ học/nét;525 hồ sơ tra nguồn không phải525 chữ đã dạy. Chưa có thư viện2500/214 hợp lệ.
-5. AI sinh giải thích/chữa viết/hội thoại linh hoạt vẫn thiếu/chưa đạt; giữ tác vụ hẹp đã kiểm, nguồn/quy tắc và hội thoại hướng dẫn gọi đúng tên. Không đổi mô hình hàng loạt hoặc dùng AI làm điều kiện học.
+1. **Đóng lõi N5 theo working scope hiện hành**, không thêm mục để tăng số. Duyệt từng chức năng/bài: giải thích, ví dụ/đáp án, học liệu phụ thuộc, nghe/đọc, áp dụng mới, luyện riêng đánh giá và đường ôn. Kiểm bằng mã liên kết/ID/asset/backup; nội dung cần đối chiếu TUFS/Irodori/JLPT theo phạm vi cụ thể. Chưa được gọi hoàn tất chỉ vì có 25 bài/450 mục từ/105 Kanji.
+2. **Khép liên kết grammar → áp dụng → đánh giá → ôn.** Snapshot hiện báo 34/144 grammar N5 và 74/86 grammar N4 có học+luyện+đánh giá riêng+ôn theo định nghĩa cấu trúc; phải xem đây là báo thiếu liên kết, không tự động gắn câu không phù hợp để tăng tỷ lệ. Xây/bổ sung ngân hàng đánh giá tách khỏi luyện, rồi đối chiếu nghĩa/đáp án.
+3. Hoàn thiện N4 sau khi N5 lõi qua tiêu chí triển khai; giữ R1 cố định. Các 15 grammar và 3 glossary trong inventory là nhóm nội dung riêng, cần đối chiếu trong grammar coverage, không quay lại đếm là thiếu từ vựng.
+4. Mở rộng kaiwa/đánh giá ở nơi còn thiếu: nhiệm vụ mới theo mục tiêu, đổi vai/dữ kiện, hỏi lại/xác nhận/sửa hiểu nhầm, thử sau nghỉ; bộ JLPT và kaiwa riêng. Chưa chấm lời nói độc lập; không đổi rubric tạm thành điểm JLPT.
+5. Thư viện tra cứu đã đạt ngưỡng đếm, nhưng ghi rõ giới hạn nguồn/giấy phép, biến thể và từng lớp phủ; chưa duyệt độc lập nghĩa/tên. Không chặn học N4 vì thiếu duyệt này.
+6. AI: xử lý tác vụ lỗi cụ thể bằng bộ ngữ nghĩa mới lặp ≥3 lần và held-out. Candidate giải thích/chữa viết rộng vẫn chưa đạt và không nối UI; không thay bằng FAQ/kịch bản để đóng.
+7. Nghiệm thu sau mỗi nhóm: unit test phù hợp, build, Edge/browser cho thay đổi UI, kiểm bảo toàn dữ liệu/backup. Ghi riêng nội dung chưa xác minh và tình trạng năng lực người học chưa đo.
 
-## Cách kiểm và khôi phục
+## Giới hạn đã biết
 
-Chạy START-WEBSITE.cmd hoặc npm.cmd start. Kiểm: npm.cmd test; npm.cmd run build; node scripts/word-identity-ui.mjs; node scripts/open-access-ui.mjs; node scripts/functional-gap-ui.mjs; node scripts/foundation-audio-ui.mjs. QA port5175, hồ sơ riêng. Tạo audio bảng: node scripts/generate-course-audio.mjs --foundation (engine VOICEVOX cục bộ50021); không chạy test đọc catalog giữa lúc script đang ghi catalog/index.
+- Chưa có người duyệt học thuật độc lập hoặc người nghe duyệt phát âm; TTS phát được không chứng minh chuẩn ngữ âm.
+- `public/knowledge-coverage.json` là bộ đếm liên kết cấu trúc trên nội dung hiện có, không phải chuẩn độ phủ toàn khóa: N5 hiện có 34/144 grammar liên kết và 2/509 mục từ; N4 có 74/86 grammar, 0/261 mục từ và 0/195 Kanji đạt đủ điều kiện đánh giá riêng theo bộ đếm này. Đây là gap để xử lý, không phủ nhận các bài luyện/vòng ôn đang chạy.
+- Người học chưa làm đánh giá thật trong phiên này; không có kết quả năng lực cá nhân, xác suất đỗ, hoặc dự đoán kaiwa.
+- AI gia sư sinh tự do, đánh giá phát âm/viết tay tự động và xác nhận JLPT readiness vẫn chưa đạt.
 
-Checkpoint mã đã kiểm ở .tmp-ui/checkpoint-n5-functional-passed; checkpoint mới theo commit sau đợt audio. Không coi checkpoint mã là backup dữ liệu học. Trước rollback xuất JSON tiến độ và kho ghi âm riêng theo BACKUP_GUIDE.md. Xem MASTER_CHECKLIST.md, SOURCES.md, VERIFICATION.md, REVIEW_QUEUE.md và HANDOFF_CURRENT.md.
+Chạy tại thư mục dự án: `npm.cmd test`, `npm.cmd run build`, `npm.cmd run test:tools`. Trước rollback xuất JSON tiến độ và kho ghi âm riêng theo BACKUP_GUIDE.md. Xem MASTER_CHECKLIST.md làm checklist tổng; tài liệu này chỉ ghi trạng thái và điểm tiếp tục.

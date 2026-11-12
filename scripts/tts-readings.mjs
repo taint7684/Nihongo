@@ -42,3 +42,6 @@ for(const[w,r]of [['高校生','こおこおせえ'],['留学生','りゅうが�
 
 // Calendar 8th: spellingようか, long-o synthesis plan; separate from duration八日間.
 lexicalPronunciations.set('8日','よおか');
+
+// R1 N4 lexical long vowels; not global ou/ei replacement.
+for(const[w,r]of [["出張","しゅっちょお"],["卒業","そつぎょお"],["卒業します","そつぎょおします"],["運動","うんどお"],["醤油","しょおゆ"],["健康","けんこお"],["調子","ちょおし"],["方法","ほおほお"],["社長","しゃちょお"],["部長","ぶちょお"],["ご説明","ごせつめえ"],["尊敬語","そんけえご"],["謙譲語","けんじょおご"],["丁寧語","てえねえご"]])lexicalPronunciations.set(w,r);

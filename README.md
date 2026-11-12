@@ -1,6 +1,6 @@
 # La bàn Nhật ngữ — Nihongo Compass
 
-Cập nhật 12/11: đã có học liệu tham chiếu1–50, bộ đánh giá nhóm N4, tổng hợpA và4nhiệm vụ tích lũy. Chưa xác nhận đủ toànN5/N4. Xem NEXT_STEPS.md, COVERAGE.md và N4_READINESS_MAP.md để biết phần còn thiếu.
+Cập nhật 12/11: có 25 bài tham chiếu N5, 25 bài tham chiếu N4, bộ đánh giá lấy mẫu và thư viện tra cứu 2.999 Kanji/214 bộ thủ. Chưa nghiệm thu toàn bộ nội dung và đường liên kết luyện→đánh giá→ôn; đây chưa phải khóa học đã xác nhận đủ.
 
 
 **Mục tiêu hiện hành: 0→N5→N4 theo PROJECT_BRIEF.md. Chưa đủ nội dung/đánh giá để làm nguồn học duy nhất toàn chặng.** Các nhóm công cụ mới đã chạy thật; không suy từ số bài hoặc test sang năng lực người học.
@@ -26,7 +26,7 @@ Mọi nội dung đã biên soạn đều mở: bài, flashcard, nghe/đọc/nó
 
 Nhập môn chữ/âm học song song với câu giao tiếp sau ba bài đầu. Tuyến chính có học liệu tự soạn theo chức năng của 25 bài Minna no Nihongo Shokyu I bản 2 (ISBN 9784883196036), ôn sau từng nhóm 5 bài và bộ tổng hợp mới. Không sao chép bài tập/audio sách. Bốn bài cầu nối cũ giữ ID, ở khám phá để tránh bắt học trùng.
 
-Mỗi bài tham chiếu đi từng phần: đích dùng → từ trong ngữ cảnh/nhớ lại → các vòng ví dụ–giải thích–thử ngay → nghe không nhìn chữ → tự đáp/hỏi lại → đọc/viết → nhiệm vụ đổi dữ kiện → tự kiểm/ôn. Học vài phần rồi lưu điểm dừng, không ép hoàn thành nói/viết mở mới tiếp bài. Có tra cứu đầy đủ nhưng không đẩy cả kho audio/lý thuyết lên một trang mặc định.
+Mỗi bài tham chiếu đi từng phần: đích dùng → từ trong ngữ cảnh/nhớ lại → các vòng ví dụ–giải thích–thử ngay → nghe không nhìn chữ → tự đáp/hỏi lại → đọc/viết → nhiệm vụ đổi dữ kiện → tự kiểm/ôn. Học vài phần rồi lưu điểm dừng, không ép hoàn thành nói/viết mở mới tiếp bài. Công cụ học mở riêng; thư viện tra cứu không tự ghi nhận đã học.
 
 - Từ có cách đọc, nghĩa, ví dụ và WAV từ/câu; gõ nhớ mục từ liên kết lịch flashcard chung, lưu vị trí mục đang học. Khớp mục từ không chứng minh dùng được trong câu.
 - Nghe phải phát hết mới trả lời, transcript ẩn trước, ghi trợ giúp/lượt phát; có tốc độ và A–B. Sai có lời giải và vào lịch ôn.
@@ -35,12 +35,13 @@ Mỗi bài tham chiếu đi từng phần: đích dùng → từ trong ngữ c�
 - Đọc có cách đọc/nghĩa, ghi khi mở trợ giúp trong vòng học mới. Kho tra cứu có furigana/tra từ dữ liệu bài. Viết lưu ý định/bản hiện tại và tối đa 100 phiên bản chủ động lưu/bài.
 - Nhiệm vụ đổi dữ kiện, ôn theo lỗi, kiểm sau nghỉ có thời điểm; dữ kiện từng gặp và mở gợi ý được ghi riêng. Ngân hàng vai còn nhỏ, không hứa mọi lần là ngữ liệu chưa gặp.
 - Bộ tổng hợp có báo cáo riêng từ/chữ, ngữ pháp, đọc và hai đoạn nghe, đường về bài cần củng cố; bằng chứng tự dùng tách riêng. Có đồng hồ buổi luyện, không tự coi là đề thi đủ dạng/thời gian. Đồng hồ đặt lại khi tải trang; câu trả lời vẫn lưu.
+- “Công cụ học → Thư viện Kanji / Bộ thủ” tra 2.136 Jōyō và 863 chữ ngoài Jōyō theo metadata KANJIDIC2; gồm 214 bộ Khang Hy. Mỗi chữ tách trạng thái tra cứu, nét, học liệu, luyện/ôn và đánh giá. Chỉ 297 chữ có nét KanjiVG trong tập tra cứu hiện tại; không nhận 2.999 mục là đã dạy.
 
 ## Phạm vi chưa hoàn thành
 
-Có 25 bài được biên soạn và các hoạt động chạy được KHÔNG có nghĩa khóa 0→N5 đã được xác nhận đủ. COVERAGE.md là ma trận từng bài; N5_READINESS_MAP.md ghi khoảng trống theo dạng thi. Chưa có thẩm định độc lập toàn bộ Việt–Nhật/ngữ âm; chưa có bằng chứng hiệu quả học của bạn. Bộ cuối chặng hiện lấy mẫu, chưa đủ suy mức sẵn sàng thi hoặc xác suất đỗ. Nói/viết mở, phát âm chưa được chấm độc lập.
+Có 25 bài N5 và 25 bài N4 cùng hoạt động chạy được KHÔNG có nghĩa khóa 0→N4 đã được xác nhận đủ. COVERAGE.md là ma trận từng bài; N5_READINESS_MAP.md/N4_READINESS_MAP.md ghi các khoảng trống. Chưa có thẩm định độc lập toàn bộ Việt–Nhật/ngữ âm; chưa có bằng chứng hiệu quả học của bạn. Bộ cuối chặng hiện lấy mẫu, chưa đủ suy mức sẵn sàng thi hoặc xác suất đỗ. Nói/viết mở, phát âm chưa được chấm độc lập.
 
-351 lượt mục từ trong 25 bài có nhiều từ dùng lại, không phải danh sách N5 đầy đủ. Các bộ từ/Kanji, biến thể dùng mẫu và ngữ liệu nghe cần tiếp tục đối chiếu mục tiêu, không lấy số đơn vị/câu làm chỉ tiêu đủ. Mục tiêu mới đến N4; học liệu N4 chưa biên soạn. Không mở rộng N3. Xem NEXT_STEPS.md cho điểm tiếp tục cụ thể.
+Tập tham chiếu đang khóa ở `working-scope-2026-11-12-r1`; 450 mục N5 và 240 dòng N4 có nhiều mục ngữ pháp/chú giải và từ dùng lại. Tập này là lựa chọn chức năng, không phải danh sách chính thức hoặc chứng minh đủ cấp. Tại thời điểm cập nhật, bộ đếm cấu trúc còn 34/144 grammar N5 và 74/86 grammar N4 liên kết đủ học+luyện+đánh giá+ôn; ngân hàng đánh giá từ/Kanji/giao tiếp cũng chưa phủ hết. Xem MASTER_CHECKLIST.md và NEXT_STEPS.md; không mở rộng N3.
 
 ## Dữ liệu và backup
 
