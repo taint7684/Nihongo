@@ -61,6 +61,11 @@ Ngữ cảnh cũ:guided-links có thể cheguidedMapbổ sung. SửaCycle/ cycle
 99khoảng trống N4cũ:16từnền,2matcher,15cấutrúc,3thuậtngữ,63thiếungữcảnh. Sau đợt N5mới,風邪/熱đãcó nềnthực tế bài17; phân loại dùnglại thêm2, còn61mục từ thiếu. Không gộpそうですđồngý vớiそうtruyềnvăn; không gộpやすいdễ với安いrẻ.
 TTS辛いđọc nhầm ở câu món ăn: chỉ sửa đầu vào câu này; câu生活が辛いkhông bị đổi. Hồi quy phân biệthaiý. 冷蔵庫chỉ định đầu vào trường âm để nhất quánkếhoạch; chưa phê duyệt accent/ngữâm.
 
+## QA đề mẫu — chờ lazy section / browser startup
+- Lỗi gốc: browser QA bấm “Luyện thi” ngay sau khi chuyển sang “Công cụ học”, đôi khi trước khi StudyTools lazy-load xong. Nguyên nhân là kiểm tra chỉ đợi cố định 100 ms. Sửa: harness đợi nút “Luyện thi” hiện diện sau chuyển trang trước khi bấm.
+- Lỗi gốc: trên Windows, lần đọc đầu `DevToolsActivePort` có thể trả `EBUSY` dù file vừa xuất hiện. Sửa: đợi port hợp lệ; chỉ retry `EBUSY`/`EPERM`, lỗi khác vẫn báo ngay, hết thời hạn thì assertion thất bại rõ ràng.
+- Hồi quy: chạy lại `scripts/n4-exam-tracker-ui.mjs`; đây là sửa độ ổn định QA, không thay đổi luồng học.
+
 
 ## Lỗi quy tắc bài16 tìm được khi đối chiếuTUFS049
 Lỗi gốc: câu giải thích bắt các vế nốiくて/でphải cùng chủ thể. NguồnTUFS049 cho phép hai chủ đề riêng, nên giới hạn cũ sai. Đã sửa thành trường hợp ví dụ cùng đối tượng và cho phép hai chủ đề rõ vớiは; thêmm16-functional-use-topics. Hồi quy bảo toàn câu cũ và hoạt động mới đúng vòng. Không sửa câu Nhật/audio cũ vốn đúng. Xem lại nếu mở rộng quan hệ nguyên nhân/văn phong, không suy mọi liên kết đều tự nhiên.

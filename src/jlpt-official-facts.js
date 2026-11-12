@@ -1,0 +1,70 @@
+// Metadata only. Official questions/audio are linked, never reproduced.
+export const jlptOfficialFacts = {
+  verifiedAt: '2026-11-12',
+  sources: {
+    sections: 'https://www.jlpt.jp/e/guideline/testsections.html',
+    scoring: 'https://www.jlpt.jp/e/guideline/results.html',
+    faq: 'https://www.jlpt.jp/e/faq/',
+    samples: 'https://www.jlpt.jp/e/samples/forlearners.html',
+    n5Purposes: 'https://www.jlpt.jp/e/guideline/pdf/n5_e_revised.pdf',
+    n4Purposes: 'https://www.jlpt.jp/e/guideline/pdf/n4_e_revised.pdf',
+  },
+  timingNoteVi: 'Thời lượng nghe có thể lệch nhẹ theo bản ghi âm.',
+  scoringNoteVi: 'Ba phần thi có thời gian riêng nhưng chỉ hai nhóm điểm. JLPT dùng điểm chuẩn hóa IRT; tỷ lệ đúng trong ứng dụng không đổi thành điểm JLPT.',
+  passRuleVi: 'Dự đủ phần thi, đạt tổng và đồng thời đạt ngưỡng từng nhóm điểm.',
+  samplesNoteVi: 'Mẫu chính thức minh họa dạng câu; không bảo đảm giống toàn bộ đề thực tế.',
+  taskTypes: {
+    kanjiReading: { labelVi: 'Đọc Kanji', group: 'vocabulary' },
+    orthography: { labelVi: 'Chọn cách viết', group: 'vocabulary' },
+    contextualExpressions: { labelVi: 'Từ theo ngữ cảnh', group: 'vocabulary' },
+    paraphrases: { labelVi: 'Diễn đạt tương đương', group: 'vocabulary' },
+    usage: { labelVi: 'Cách dùng từ', group: 'vocabulary' },
+    grammarForm: { labelVi: 'Chọn dạng ngữ pháp', group: 'grammar' },
+    sentenceComposition: { labelVi: 'Sắp câu', group: 'grammar' },
+    textGrammar: { labelVi: 'Ngữ pháp văn bản', group: 'grammar' },
+    shortPassage: { labelVi: 'Đọc đoạn ngắn', group: 'reading' },
+    mediumPassage: { labelVi: 'Đọc đoạn vừa', group: 'reading' },
+    informationRetrieval: { labelVi: 'Tìm thông tin', group: 'reading' },
+    taskComprehension: { labelVi: 'Nghe nhiệm vụ', group: 'listening' },
+    keyPoints: { labelVi: 'Nghe điểm chính', group: 'listening' },
+    verbalExpressions: { labelVi: 'Chọn phát ngôn', group: 'listening', descriptionVi: 'Xem hình, nghe tình huống, chọn lời phù hợp.' },
+    quickResponse: { labelVi: 'Phản hồi nhanh', group: 'listening', descriptionVi: 'Nghe lời ngắn, chọn đáp lời.' },
+  },
+  levels: {
+    N5: {
+      timedSections: [
+        { id: 'vocabulary', labelVi: 'Từ vựng', minutes: 20, scoringSectionId: 'knowledgeReading' },
+        { id: 'grammarReading', labelVi: 'Ngữ pháp và đọc', minutes: 40, scoringSectionId: 'knowledgeReading' },
+        { id: 'listening', labelVi: 'Nghe', minutes: 30, scoringSectionId: 'listening' },
+      ],
+      totalMaximum: 180,
+      overallPassMark: 80,
+      scoringSections: [
+        { id: 'knowledgeReading', labelVi: 'Từ vựng, ngữ pháp và đọc', minimum: 0, maximum: 120, passMark: 38 },
+        { id: 'listening', labelVi: 'Nghe', minimum: 0, maximum: 60, passMark: 19 },
+      ],
+      taskTypes: ['kanjiReading', 'orthography', 'contextualExpressions', 'paraphrases', 'grammarForm', 'sentenceComposition', 'textGrammar', 'shortPassage', 'mediumPassage', 'informationRetrieval', 'taskComprehension', 'keyPoints', 'verbalExpressions', 'quickResponse'],
+    },
+    N4: {
+      timedSections: [
+        { id: 'vocabulary', labelVi: 'Từ vựng', minutes: 25, scoringSectionId: 'knowledgeReading' },
+        { id: 'grammarReading', labelVi: 'Ngữ pháp và đọc', minutes: 55, scoringSectionId: 'knowledgeReading' },
+        { id: 'listening', labelVi: 'Nghe', minutes: 35, scoringSectionId: 'listening' },
+      ],
+      totalMaximum: 180,
+      overallPassMark: 90,
+      scoringSections: [
+        { id: 'knowledgeReading', labelVi: 'Từ vựng, ngữ pháp và đọc', minimum: 0, maximum: 120, passMark: 38 },
+        { id: 'listening', labelVi: 'Nghe', minimum: 0, maximum: 60, passMark: 19 },
+      ],
+      taskTypes: ['kanjiReading', 'orthography', 'contextualExpressions', 'paraphrases', 'usage', 'grammarForm', 'sentenceComposition', 'textGrammar', 'shortPassage', 'mediumPassage', 'informationRetrieval', 'taskComprehension', 'keyPoints', 'verbalExpressions', 'quickResponse'],
+    },
+  },
+  limits: {
+    rawAccuracyToScaledScore: false,
+    appReadinessValidated: false,
+    g9Passed: false,
+    n4PurposePdfResponseRetrieved: true,
+    n4PurposePdfTextParsed: false,
+  },
+};

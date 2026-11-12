@@ -1,0 +1,62 @@
+{
+  "verifiedAt": "2026-11-12",
+  "scope": "N5/N4 official facts; metadata and links only; no exam questions copied",
+  "status": "official tables verified; application readiness not certified",
+  "evidence": [
+    {
+      "url": "https://www.jlpt.jp/e/guideline/testsections.html",
+      "access": "fetched",
+      "locator": "Test sections and test times; Composition of test items",
+      "supports": ["N5 timed sections 20/40/30 minutes", "N4 timed sections 25/55/35 minutes", "14 N5 task types and 15 N4 task types", "vocabulary usage N4 yes / N5 no", "listening duration may vary slightly"],
+      "interpretationVi": "Dữ liệu taskTypes trong module bám đúng dấu có/không của bảng. Không thêm dạng đọc tích hợp hoặc nghe khái quát vào N4/N5."
+    },
+    {
+      "url": "https://www.jlpt.jp/e/guideline/results.html",
+      "access": "fetched",
+      "locator": "Sections 1, 2, 3; N4 and N5 rows",
+      "supports": ["two scoring sections despite three timed sections", "knowledge/grammar/reading 0-120 and listening 0-60", "total 0-180", "N5 overall minimum 80; N4 overall minimum 90", "both require knowledge/reading minimum 38 and listening minimum 19", "all timed sections must be taken"],
+      "interpretationVi": "38/120 là ngưỡng gộp kiến thức và đọc; không phải ngưỡng từ vựng hay đọc riêng. Tổng đạt nhưng một nhóm dưới ngưỡng vẫn không đỗ."
+    },
+    {
+      "url": "https://www.jlpt.jp/e/faq/",
+      "access": "fetched",
+      "locator": "Test sections/questions; Scores and determination of pass or fail",
+      "supports": ["IRT scaled scores depend on response pattern, not raw sum", "no direct conversation or composition test", "multiple-choice answers; some listening questions have three choices"],
+      "interpretationVi": "Không có hàm chuyển tỷ lệ đúng của ứng dụng thành điểm chuẩn hóa, xác suất đỗ hay năng lực nói/viết."
+    },
+    {
+      "url": "https://www.jlpt.jp/e/guideline/pdf/n5_e_revised.pdf",
+      "access": "fetched",
+      "locator": "N5 Purposes of test items, page 1",
+      "supports": ["verbal expressions: illustration plus heard circumstances", "quick response: appropriate response to heard short utterance"],
+      "interpretationVi": "Chọn lời theo tình huống có hình và đáp lời ngắn là hai thao tác khác nhau."
+    },
+    {
+      "url": "https://www.jlpt.jp/e/guideline/pdf/n4_e_revised.pdf",
+      "access": "PDF response retrieved; text not parsed",
+      "supports": [],
+      "limitationVi": "Chưa đối chiếu trực tiếp mô tả mục đích chi tiết của PDF N4; chỉ xác nhận danh mục dạng N4 bằng bảng HTML chính thức."
+    },
+    {
+      "url": "https://www.jlpt.jp/e/samples/forlearners.html",
+      "access": "fetched",
+      "locator": "JLPT sample questions",
+      "supports": ["sample page illustrates item types; actual booklet can differ"],
+      "reuse": "link only; no question, illustration, answer or audio reproduced"
+    }
+  ],
+  "readinessMapReview": {
+    "basis": ["N5_READINESS_MAP.md", "N4_READINESS_MAP.md"],
+    "methodVi": "Đọc bản đồ hiện có, kể cả phần bổ sung 12/11; chưa kiểm toán độc lập toàn bộ câu hỏi/audio hay thử người học.",
+    "N5": {
+      "reportedCoverageVi": "Bộ dạng riêng, A/B, sắp câu có vị trí sao, văn bản hai chỗ trống, đoạn đọc/bảng và nghe nhiều audio có hình đã được bản đồ ghi nhận.",
+      "remainingGapsVi": ["Ngân hàng song song còn hẹp; chưa có ma trận phủ và độ khó được duyệt độc lập.", "Chưa chứng minh thao tác chấm vị trí sao tương đương định dạng thi; bản đồ gọi đây là luyện toàn câu.", "Phần bổ sung mới đã có nghe phát ngôn có hình và phản hồi nhiều audio, vì vậy không kết luận hai dạng hoàn toàn vắng mặt; vẫn thiếu độ rộng và duyệt ngữ âm độc lập.", "Chưa có đề đủ dạng/thời gian với bằng chứng người học; không suy sẵn sàng thi từ số câu."]
+    },
+    "N4": {
+      "reportedCoverageVi": "Có bộ nhóm 26–50, tổng hợp A, các đoạn đọc và nghe; giao tiếp được đo riêng.",
+      "remainingGapsVi": ["Thiếu bộ đánh giá từ/chữ riêng chứng minh đủ đọc Kanji, chính tả, ngữ cảnh, tương đương và đặc biệt cách dùng từ N4.", "Sắp câu và ngữ pháp văn bản còn ít; thiếu phân bố độ khó và bộ song song.", "Đoạn ngắn/vừa, tìm thông tin từ bảng và bốn dạng nghe chưa được chứng minh phủ đủ và duyệt độc lập.", "Bản đồ nhắc tích hợp thông tin như mục tiêu học; không coi đó là dạng Integrated comprehension chính thức của N4.", "Chưa có đề đủ dạng/thời gian và dữ liệu người học xác nhận."]
+    }
+  },
+  "unproven": ["N4 purpose PDF detailed wording", "application-wide item-format fidelity", "independent language/audio quality review", "representative full-length parallel forms", "psychometric calibration or learner outcome validation"],
+  "decision": {"officialNumericFactsVerified": true, "G9": "not assessed; not marked passed", "rawAccuracyConversionAllowed": false, "readinessClaimAllowed": false}
+}
