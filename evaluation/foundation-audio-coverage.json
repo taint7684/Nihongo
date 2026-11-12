@@ -1,0 +1,2185 @@
+{
+  "at": "2026-11-12T08:12:45.856Z",
+  "rows": 145,
+  "newAssets": 133,
+  "missing": [],
+  "sourceComparison": "Hours/minutes/calendar entries cross-checked TUFS018/019/022, number/counter choices compared TUFS015/017; alternative pronunciations not exhausted",
+  "phoneticListeningReview": false,
+  "jobs": [
+    {
+      "kind": "word",
+      "text": "0",
+      "reading": "れい",
+      "audioText": "0",
+      "lessonId": "mnn-03",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "0",
+        "reading": "れい",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "5b39ef46e444727a3545"
+    },
+    {
+      "kind": "word",
+      "text": "1",
+      "reading": "いち",
+      "audioText": "1",
+      "lessonId": "mnn-03",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "1",
+        "reading": "いち",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "861b55f09f9c6f2fbdd6"
+    },
+    {
+      "kind": "word",
+      "text": "2",
+      "reading": "に",
+      "audioText": "2",
+      "lessonId": "mnn-03",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "2",
+        "reading": "に",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "7399287868feced5ec8f"
+    },
+    {
+      "kind": "word",
+      "text": "3",
+      "reading": "さん",
+      "audioText": "3",
+      "lessonId": "mnn-03",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "3",
+        "reading": "さん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "fb0e957ffa07a42adadb"
+    },
+    {
+      "kind": "word",
+      "text": "4",
+      "reading": "よん",
+      "audioText": "4",
+      "lessonId": "mnn-03",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "4",
+        "reading": "よん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "9a6b6451999cc527877f"
+    },
+    {
+      "kind": "word",
+      "text": "5",
+      "reading": "ご",
+      "audioText": "5",
+      "lessonId": "mnn-03",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "5",
+        "reading": "ご",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "2eaf600ef647bddfef1a"
+    },
+    {
+      "kind": "word",
+      "text": "6",
+      "reading": "ろく",
+      "audioText": "6",
+      "lessonId": "mnn-03",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "6",
+        "reading": "ろく",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "2931f74e87d42717e106"
+    },
+    {
+      "kind": "word",
+      "text": "7",
+      "reading": "なな",
+      "audioText": "7",
+      "lessonId": "mnn-03",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "7",
+        "reading": "なな",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "d4f392808dad3d8e3c59"
+    },
+    {
+      "kind": "word",
+      "text": "8",
+      "reading": "はち",
+      "audioText": "8",
+      "lessonId": "mnn-03",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "8",
+        "reading": "はち",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "433cdd0902466a4336fb"
+    },
+    {
+      "kind": "word",
+      "text": "9",
+      "reading": "きゅう",
+      "audioText": "9",
+      "lessonId": "mnn-03",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "9",
+        "reading": "きゅう",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "93d4808a323badc3f7e1"
+    },
+    {
+      "kind": "word",
+      "text": "10",
+      "reading": "じゅう",
+      "audioText": "10",
+      "lessonId": "mnn-03",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "10",
+        "reading": "じゅう",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "2009f325fe95cf3ed71d"
+    },
+    {
+      "kind": "word",
+      "text": "11",
+      "reading": "じゅういち",
+      "audioText": "11",
+      "lessonId": "mnn-03",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "11",
+        "reading": "じゅういち",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "bef2d166e3bc7d27b1de"
+    },
+    {
+      "kind": "word",
+      "text": "20",
+      "reading": "にじゅう",
+      "audioText": "20",
+      "lessonId": "mnn-03",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "20",
+        "reading": "にじゅう",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "85b175824c995f43c430"
+    },
+    {
+      "kind": "word",
+      "text": "100",
+      "reading": "ひゃく",
+      "audioText": "100",
+      "lessonId": "mnn-03",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "100",
+        "reading": "ひゃく",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "7ab0b0184e38fd8b41f0"
+    },
+    {
+      "kind": "word",
+      "text": "300",
+      "reading": "さんびゃく",
+      "audioText": "300",
+      "lessonId": "mnn-03",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "300",
+        "reading": "さんびゃく",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "135f7cf7db0acc57c01b"
+    },
+    {
+      "kind": "word",
+      "text": "600",
+      "reading": "ろっぴゃく",
+      "audioText": "600",
+      "lessonId": "mnn-03",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "600",
+        "reading": "ろっぴゃく",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "18ed850db5ae76c3b8eb"
+    },
+    {
+      "kind": "word",
+      "text": "800",
+      "reading": "はっぴゃく",
+      "audioText": "800",
+      "lessonId": "mnn-03",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "800",
+        "reading": "はっぴゃく",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "ee4ea64ac746d6ffeb0a"
+    },
+    {
+      "kind": "word",
+      "text": "1.000",
+      "reading": "せん",
+      "audioText": "1000",
+      "lessonId": "mnn-03",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "1.000",
+        "reading": "せん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "dcb7ba657333625fbc5d"
+    },
+    {
+      "kind": "word",
+      "text": "3.000",
+      "reading": "さんぜん",
+      "audioText": "3000",
+      "lessonId": "mnn-03",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "3.000",
+        "reading": "さんぜん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "074318a510e021e20e4f"
+    },
+    {
+      "kind": "word",
+      "text": "8.000",
+      "reading": "はっせん",
+      "audioText": "8000",
+      "lessonId": "mnn-03",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "8.000",
+        "reading": "はっせん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "78abd71076c380ff1b7e"
+    },
+    {
+      "kind": "word",
+      "text": "10.000",
+      "reading": "いちまん",
+      "audioText": "10000",
+      "lessonId": "mnn-03",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "10.000",
+        "reading": "いちまん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "e3c0c9a202cbfffcc5d2"
+    },
+    {
+      "kind": "word",
+      "text": "1.250円",
+      "reading": "せんにひゃくごじゅうえん",
+      "audioText": "1250円",
+      "lessonId": "mnn-03",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "1.250円",
+        "reading": "せんにひゃくごじゅうえん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "23302ded1fbe531018f9"
+    },
+    {
+      "kind": "word",
+      "text": "1階",
+      "reading": "いっかい",
+      "audioText": "1階",
+      "lessonId": "mnn-03",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "1階",
+        "reading": "いっかい",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "b684355277b9c5aca20c"
+    },
+    {
+      "kind": "word",
+      "text": "2階",
+      "reading": "にかい",
+      "audioText": "2階",
+      "lessonId": "mnn-03",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "2階",
+        "reading": "にかい",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "687189a2db6a8e02d9a5"
+    },
+    {
+      "kind": "word",
+      "text": "3階",
+      "reading": "さんがい",
+      "audioText": "3階",
+      "lessonId": "mnn-03",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "3階",
+        "reading": "さんがい",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "966257f3fa7eb3268bb2"
+    },
+    {
+      "kind": "word",
+      "text": "4階",
+      "reading": "よんかい",
+      "audioText": "4階",
+      "lessonId": "mnn-03",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "4階",
+        "reading": "よんかい",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "40635b8e4eac8288c663"
+    },
+    {
+      "kind": "word",
+      "text": "5階",
+      "reading": "ごかい",
+      "audioText": "5階",
+      "lessonId": "mnn-03",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "5階",
+        "reading": "ごかい",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "0f9c7080ce29495c8af5"
+    },
+    {
+      "kind": "word",
+      "text": "6階",
+      "reading": "ろっかい",
+      "audioText": "6階",
+      "lessonId": "mnn-03",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "6階",
+        "reading": "ろっかい",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "e64b44cf08a0120a0d8c"
+    },
+    {
+      "kind": "word",
+      "text": "7階",
+      "reading": "ななかい",
+      "audioText": "7階",
+      "lessonId": "mnn-03",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "7階",
+        "reading": "ななかい",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "c92a8bfa2cc988014cc4"
+    },
+    {
+      "kind": "word",
+      "text": "8階",
+      "reading": "はっかい",
+      "audioText": "8階",
+      "lessonId": "mnn-03",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "8階",
+        "reading": "はっかい",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "ca19afbf25d120a9d69c"
+    },
+    {
+      "kind": "word",
+      "text": "9階",
+      "reading": "きゅうかい",
+      "audioText": "9階",
+      "lessonId": "mnn-03",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "9階",
+        "reading": "きゅうかい",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "f87b31c670b162801e02"
+    },
+    {
+      "kind": "word",
+      "text": "10階",
+      "reading": "じゅっかい",
+      "audioText": "10階",
+      "lessonId": "mnn-03",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "10階",
+        "reading": "じゅっかい",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "1adf783654dd392a2654"
+    },
+    {
+      "kind": "word",
+      "text": "何階",
+      "reading": "なんがい",
+      "audioText": "何階",
+      "lessonId": "mnn-03",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "何階",
+        "reading": "なんがい",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "64c8147561fd263f1128"
+    },
+    {
+      "kind": "word",
+      "text": "1時",
+      "reading": "いちじ",
+      "audioText": "1時",
+      "lessonId": "mnn-04",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "1",
+        "reading": "いちじ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/018.html"
+      },
+      "assetId": "77b47f355ae2f0415346"
+    },
+    {
+      "kind": "word",
+      "text": "2時",
+      "reading": "にじ",
+      "audioText": "2時",
+      "lessonId": "mnn-04",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "2",
+        "reading": "にじ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/018.html"
+      },
+      "assetId": "5aca0ba5e8881ae63602"
+    },
+    {
+      "kind": "word",
+      "text": "3時",
+      "reading": "さんじ",
+      "audioText": "3時",
+      "lessonId": "mnn-04",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "3",
+        "reading": "さんじ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/018.html"
+      },
+      "assetId": "22b4bf6965992b29811a"
+    },
+    {
+      "kind": "word",
+      "text": "4時",
+      "reading": "よじ",
+      "audioText": "4時",
+      "lessonId": "mnn-04",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "4",
+        "reading": "よじ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/018.html"
+      },
+      "assetId": "716af7af2a0560e0417f"
+    },
+    {
+      "kind": "word",
+      "text": "5時",
+      "reading": "ごじ",
+      "audioText": "5時",
+      "lessonId": "mnn-04",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "5",
+        "reading": "ごじ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/018.html"
+      },
+      "assetId": "d4c3d5bd2b26697c78b1"
+    },
+    {
+      "kind": "word",
+      "text": "6時",
+      "reading": "ろくじ",
+      "audioText": "6時",
+      "lessonId": "mnn-04",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "6",
+        "reading": "ろくじ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/018.html"
+      },
+      "assetId": "209d848c9cacb3e0afd1"
+    },
+    {
+      "kind": "word",
+      "text": "7時",
+      "reading": "しちじ",
+      "audioText": "7時",
+      "lessonId": "mnn-04",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "7",
+        "reading": "しちじ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/018.html"
+      },
+      "assetId": "e95c744f899da18cf590"
+    },
+    {
+      "kind": "word",
+      "text": "8時",
+      "reading": "はちじ",
+      "audioText": "8時",
+      "lessonId": "mnn-04",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "8",
+        "reading": "はちじ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/018.html"
+      },
+      "assetId": "aab190868d167d5cb2a8"
+    },
+    {
+      "kind": "word",
+      "text": "9時",
+      "reading": "くじ",
+      "audioText": "9時",
+      "lessonId": "mnn-04",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "9",
+        "reading": "くじ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/018.html"
+      },
+      "assetId": "7390d9388a4aab6ed88a"
+    },
+    {
+      "kind": "word",
+      "text": "10時",
+      "reading": "じゅうじ",
+      "audioText": "10時",
+      "lessonId": "mnn-04",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "10",
+        "reading": "じゅうじ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/018.html"
+      },
+      "assetId": "f7404c725e256c1a2ad1"
+    },
+    {
+      "kind": "word",
+      "text": "11時",
+      "reading": "じゅういちじ",
+      "audioText": "11時",
+      "lessonId": "mnn-04",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "11",
+        "reading": "じゅういちじ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/018.html"
+      },
+      "assetId": "9c5aaf0e7ac99543d7af"
+    },
+    {
+      "kind": "word",
+      "text": "12時",
+      "reading": "じゅうにじ",
+      "audioText": "12時",
+      "lessonId": "mnn-04",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "12",
+        "reading": "じゅうにじ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/018.html"
+      },
+      "assetId": "d4faf65a827df3570218"
+    },
+    {
+      "kind": "word",
+      "text": "1分",
+      "reading": "いっぷん",
+      "audioText": "1分",
+      "lessonId": "mnn-04",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "1分",
+        "reading": "いっぷん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/019.html"
+      },
+      "assetId": "443990e0795f231da078"
+    },
+    {
+      "kind": "word",
+      "text": "2分",
+      "reading": "にふん",
+      "audioText": "2分",
+      "lessonId": "mnn-04",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "2分",
+        "reading": "にふん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/019.html"
+      },
+      "assetId": "eccdbcd3a9974978a40c"
+    },
+    {
+      "kind": "word",
+      "text": "3分",
+      "reading": "さんぷん",
+      "audioText": "3分",
+      "lessonId": "mnn-04",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "3分",
+        "reading": "さんぷん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/019.html"
+      },
+      "assetId": "e00f3604b074903c7b38"
+    },
+    {
+      "kind": "word",
+      "text": "4分",
+      "reading": "よんぷん",
+      "audioText": "4分",
+      "lessonId": "mnn-04",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "4分",
+        "reading": "よんぷん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/019.html"
+      },
+      "assetId": "ee7391131728da3cdebc"
+    },
+    {
+      "kind": "word",
+      "text": "5分",
+      "reading": "ごふん",
+      "audioText": "5分",
+      "lessonId": "mnn-04",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "5分",
+        "reading": "ごふん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/019.html"
+      },
+      "assetId": "8490d792c6796b80e742"
+    },
+    {
+      "kind": "word",
+      "text": "6分",
+      "reading": "ろっぷん",
+      "audioText": "6分",
+      "lessonId": "mnn-04",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "6分",
+        "reading": "ろっぷん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/019.html"
+      },
+      "assetId": "8cde9345f780b334e479"
+    },
+    {
+      "kind": "word",
+      "text": "7分",
+      "reading": "ななふん",
+      "audioText": "7分",
+      "lessonId": "mnn-04",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "7分",
+        "reading": "ななふん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/019.html"
+      },
+      "assetId": "2923eb031758aba5bafa"
+    },
+    {
+      "kind": "word",
+      "text": "8分",
+      "reading": "はっぷん",
+      "audioText": "8分",
+      "lessonId": "mnn-04",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "8分",
+        "reading": "はっぷん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/019.html"
+      },
+      "assetId": "0ccc7ebc069a59269096"
+    },
+    {
+      "kind": "word",
+      "text": "9分",
+      "reading": "きゅうふん",
+      "audioText": "9分",
+      "lessonId": "mnn-04",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "9分",
+        "reading": "きゅうふん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/019.html"
+      },
+      "assetId": "978ab63af2c06417a654"
+    },
+    {
+      "kind": "word",
+      "text": "10分",
+      "reading": "じゅっぷん",
+      "audioText": "10分",
+      "lessonId": "mnn-04",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "10分",
+        "reading": "じゅっぷん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/019.html"
+      },
+      "assetId": "eedd2d907b67d5a317cd"
+    },
+    {
+      "kind": "word",
+      "text": "15分",
+      "reading": "じゅうごふん",
+      "audioText": "15分",
+      "lessonId": "mnn-04",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "15分",
+        "reading": "じゅうごふん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/019.html"
+      },
+      "assetId": "7059b6630a512bc9226b"
+    },
+    {
+      "kind": "word",
+      "text": "30分",
+      "reading": "さんじゅっぷん",
+      "audioText": "30分",
+      "lessonId": "mnn-04",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "30分",
+        "reading": "さんじゅっぷん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/019.html"
+      },
+      "assetId": "4a1377328a8296e8614a"
+    },
+    {
+      "kind": "word",
+      "text": "半",
+      "reading": "はん",
+      "audioText": "半",
+      "lessonId": "mnn-04",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "半",
+        "reading": "はん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/019.html"
+      },
+      "assetId": "9f0fafb3d7583e90ba65"
+    },
+    {
+      "kind": "word",
+      "text": "4時半",
+      "reading": "よじはん",
+      "audioText": "4時半",
+      "lessonId": "mnn-04",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "4時半",
+        "reading": "よじはん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/019.html"
+      },
+      "assetId": "1e58ee2c261a481a6fd6"
+    },
+    {
+      "kind": "word",
+      "text": "月曜日",
+      "reading": "げつようび",
+      "audioText": "月曜日",
+      "lessonId": "mnn-04",
+      "foundationUse": {
+        "tableIndex": 2,
+        "label": "月曜日",
+        "reading": "げつようび",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "6a6ae239cf92d67e1417"
+    },
+    {
+      "kind": "word",
+      "text": "火曜日",
+      "reading": "かようび",
+      "audioText": "火曜日",
+      "lessonId": "mnn-04",
+      "foundationUse": {
+        "tableIndex": 2,
+        "label": "火曜日",
+        "reading": "かようび",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "1c49c686f885b0d362c2"
+    },
+    {
+      "kind": "word",
+      "text": "水曜日",
+      "reading": "すいようび",
+      "audioText": "水曜日",
+      "lessonId": "mnn-04",
+      "foundationUse": {
+        "tableIndex": 2,
+        "label": "水曜日",
+        "reading": "すいようび",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "3b50bc4de43bf31cdd09"
+    },
+    {
+      "kind": "word",
+      "text": "木曜日",
+      "reading": "もくようび",
+      "audioText": "木曜日",
+      "lessonId": "mnn-04",
+      "foundationUse": {
+        "tableIndex": 2,
+        "label": "木曜日",
+        "reading": "もくようび",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "495b61cf742697448c6e"
+    },
+    {
+      "kind": "word",
+      "text": "金曜日",
+      "reading": "きんようび",
+      "audioText": "金曜日",
+      "lessonId": "mnn-04",
+      "foundationUse": {
+        "tableIndex": 2,
+        "label": "金曜日",
+        "reading": "きんようび",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "4f43f4be5bab16c8fe23"
+    },
+    {
+      "kind": "word",
+      "text": "土曜日",
+      "reading": "どようび",
+      "audioText": "土曜日",
+      "lessonId": "mnn-04",
+      "foundationUse": {
+        "tableIndex": 2,
+        "label": "土曜日",
+        "reading": "どようび",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "c12630b0c12bd1bb3260"
+    },
+    {
+      "kind": "word",
+      "text": "日曜日",
+      "reading": "にちようび",
+      "audioText": "日曜日",
+      "lessonId": "mnn-04",
+      "foundationUse": {
+        "tableIndex": 2,
+        "label": "日曜日",
+        "reading": "にちようび",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "5afca35aa8618a3ec2f4"
+    },
+    {
+      "kind": "word",
+      "text": "1月",
+      "reading": "いちがつ",
+      "audioText": "1月",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "1月",
+        "reading": "いちがつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "a67f929a0d4c4e35ceae"
+    },
+    {
+      "kind": "word",
+      "text": "2月",
+      "reading": "にがつ",
+      "audioText": "2月",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "2月",
+        "reading": "にがつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "4716f756799dad7f6eab"
+    },
+    {
+      "kind": "word",
+      "text": "3月",
+      "reading": "さんがつ",
+      "audioText": "3月",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "3月",
+        "reading": "さんがつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "496093081dc776dbdb2e"
+    },
+    {
+      "kind": "word",
+      "text": "4月",
+      "reading": "しがつ",
+      "audioText": "4月",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "4月",
+        "reading": "しがつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "c51e9e8adfd3a7432d0d"
+    },
+    {
+      "kind": "word",
+      "text": "5月",
+      "reading": "ごがつ",
+      "audioText": "5月",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "5月",
+        "reading": "ごがつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "6f622d29da971aab7af3"
+    },
+    {
+      "kind": "word",
+      "text": "6月",
+      "reading": "ろくがつ",
+      "audioText": "6月",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "6月",
+        "reading": "ろくがつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "e4a7b877a6a687b2e9ef"
+    },
+    {
+      "kind": "word",
+      "text": "7月",
+      "reading": "しちがつ",
+      "audioText": "7月",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "7月",
+        "reading": "しちがつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "c9fb13a7dce0fa62ef52"
+    },
+    {
+      "kind": "word",
+      "text": "8月",
+      "reading": "はちがつ",
+      "audioText": "8月",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "8月",
+        "reading": "はちがつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "71dfc6b974417e5e768a"
+    },
+    {
+      "kind": "word",
+      "text": "9月",
+      "reading": "くがつ",
+      "audioText": "9月",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "9月",
+        "reading": "くがつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "da23d96d7dc8bac62060"
+    },
+    {
+      "kind": "word",
+      "text": "10月",
+      "reading": "じゅうがつ",
+      "audioText": "10月",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "10月",
+        "reading": "じゅうがつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "aa5f124aa2b7fb441cf3"
+    },
+    {
+      "kind": "word",
+      "text": "11月",
+      "reading": "じゅういちがつ",
+      "audioText": "11月",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "11月",
+        "reading": "じゅういちがつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "0ad5a8c44d2f7cc14c32"
+    },
+    {
+      "kind": "word",
+      "text": "12月",
+      "reading": "じゅうにがつ",
+      "audioText": "12月",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "12月",
+        "reading": "じゅうにがつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "fa0bb00f94b183055685"
+    },
+    {
+      "kind": "word",
+      "text": "1日",
+      "reading": "ついたち",
+      "audioText": "1日",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "1日",
+        "reading": "ついたち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "2581ead1398f7fad9985"
+    },
+    {
+      "kind": "word",
+      "text": "2日",
+      "reading": "ふつか",
+      "audioText": "2日",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "2日",
+        "reading": "ふつか",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "777e17c0eea099091534"
+    },
+    {
+      "kind": "word",
+      "text": "3日",
+      "reading": "みっか",
+      "audioText": "3日",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "3日",
+        "reading": "みっか",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "b1ecea9e32507213fbb5"
+    },
+    {
+      "kind": "word",
+      "text": "4日",
+      "reading": "よっか",
+      "audioText": "4日",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "4日",
+        "reading": "よっか",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "e49e12cdaedfa2820a29"
+    },
+    {
+      "kind": "word",
+      "text": "5日",
+      "reading": "いつか",
+      "audioText": "5日",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "5日",
+        "reading": "いつか",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "a9946490698c8bf492f5"
+    },
+    {
+      "kind": "word",
+      "text": "6日",
+      "reading": "むいか",
+      "audioText": "6日",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "6日",
+        "reading": "むいか",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "7ac768fd3dfb090d811d"
+    },
+    {
+      "kind": "word",
+      "text": "7日",
+      "reading": "なのか",
+      "audioText": "7日",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "7日",
+        "reading": "なのか",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "920a30f474c1fbd5182b"
+    },
+    {
+      "kind": "word",
+      "text": "8日",
+      "reading": "ようか",
+      "audioText": "8日",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "8日",
+        "reading": "ようか",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "d244234d268951f7df6f"
+    },
+    {
+      "kind": "word",
+      "text": "9日",
+      "reading": "ここのか",
+      "audioText": "9日",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "9日",
+        "reading": "ここのか",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "e4cff2d461e5e65962b9"
+    },
+    {
+      "kind": "word",
+      "text": "10日",
+      "reading": "とおか",
+      "audioText": "10日",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "10日",
+        "reading": "とおか",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "f7dbf034d6cdfced8b55"
+    },
+    {
+      "kind": "word",
+      "text": "11日",
+      "reading": "じゅういちにち",
+      "audioText": "11日",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "11日",
+        "reading": "じゅういちにち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "6c0665eda2605f2a2432"
+    },
+    {
+      "kind": "word",
+      "text": "12日",
+      "reading": "じゅうににち",
+      "audioText": "12日",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "12日",
+        "reading": "じゅうににち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "6af1559186675975e86b"
+    },
+    {
+      "kind": "word",
+      "text": "13日",
+      "reading": "じゅうさんにち",
+      "audioText": "13日",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "13日",
+        "reading": "じゅうさんにち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "c7c73cce5dfaf6becdeb"
+    },
+    {
+      "kind": "word",
+      "text": "14日",
+      "reading": "じゅうよっか",
+      "audioText": "14日",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "14日",
+        "reading": "じゅうよっか",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "e5277ac2d60f73a1db70"
+    },
+    {
+      "kind": "word",
+      "text": "15日",
+      "reading": "じゅうごにち",
+      "audioText": "15日",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "15日",
+        "reading": "じゅうごにち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "ea57a518ade3c46028dc"
+    },
+    {
+      "kind": "word",
+      "text": "16日",
+      "reading": "じゅうろくにち",
+      "audioText": "16日",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "16日",
+        "reading": "じゅうろくにち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "c160acbc54c1b26bf63f"
+    },
+    {
+      "kind": "word",
+      "text": "17日",
+      "reading": "じゅうしちにち",
+      "audioText": "17日",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "17日",
+        "reading": "じゅうしちにち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "6d988e92f05416c94a8b"
+    },
+    {
+      "kind": "word",
+      "text": "18日",
+      "reading": "じゅうはちにち",
+      "audioText": "18日",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "18日",
+        "reading": "じゅうはちにち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "904c55bda25b87e0de78"
+    },
+    {
+      "kind": "word",
+      "text": "19日",
+      "reading": "じゅうくにち",
+      "audioText": "19日",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "19日",
+        "reading": "じゅうくにち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "da8a0afb9a6b588030a4"
+    },
+    {
+      "kind": "word",
+      "text": "20日",
+      "reading": "はつか",
+      "audioText": "20日",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "20日",
+        "reading": "はつか",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "a52c169ede29825d3830"
+    },
+    {
+      "kind": "word",
+      "text": "21日",
+      "reading": "にじゅういちにち",
+      "audioText": "21日",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "21日",
+        "reading": "にじゅういちにち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "5005b70f88e87e19c715"
+    },
+    {
+      "kind": "word",
+      "text": "22日",
+      "reading": "にじゅうににち",
+      "audioText": "22日",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "22日",
+        "reading": "にじゅうににち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "8cfc5ed7a78bbf2a2b5b"
+    },
+    {
+      "kind": "word",
+      "text": "23日",
+      "reading": "にじゅうさんにち",
+      "audioText": "23日",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "23日",
+        "reading": "にじゅうさんにち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "c9a9c5d263cb49b419f0"
+    },
+    {
+      "kind": "word",
+      "text": "24日",
+      "reading": "にじゅうよっか",
+      "audioText": "24日",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "24日",
+        "reading": "にじゅうよっか",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "10853a2da01bea03831c"
+    },
+    {
+      "kind": "word",
+      "text": "25日",
+      "reading": "にじゅうごにち",
+      "audioText": "25日",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "25日",
+        "reading": "にじゅうごにち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "07369b6e715f1c4303ec"
+    },
+    {
+      "kind": "word",
+      "text": "26日",
+      "reading": "にじゅうろくにち",
+      "audioText": "26日",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "26日",
+        "reading": "にじゅうろくにち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "3eddbb311ab75c2171fa"
+    },
+    {
+      "kind": "word",
+      "text": "27日",
+      "reading": "にじゅうしちにち",
+      "audioText": "27日",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "27日",
+        "reading": "にじゅうしちにち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "e9111d6cadcba5fec3ed"
+    },
+    {
+      "kind": "word",
+      "text": "28日",
+      "reading": "にじゅうはちにち",
+      "audioText": "28日",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "28日",
+        "reading": "にじゅうはちにち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "eac1caf26e7817ee3786"
+    },
+    {
+      "kind": "word",
+      "text": "29日",
+      "reading": "にじゅうくにち",
+      "audioText": "29日",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "29日",
+        "reading": "にじゅうくにち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "d21b4ee6d25a802b15e5"
+    },
+    {
+      "kind": "word",
+      "text": "30日",
+      "reading": "さんじゅうにち",
+      "audioText": "30日",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "30日",
+        "reading": "さんじゅうにち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "04c478d16ef93e77d752"
+    },
+    {
+      "kind": "word",
+      "text": "31日",
+      "reading": "さんじゅういちにち",
+      "audioText": "31日",
+      "lessonId": "mnn-05",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "31日",
+        "reading": "さんじゅういちにち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      },
+      "assetId": "5e1d5cdc28096b3fb3fb"
+    },
+    {
+      "kind": "word",
+      "text": "1つ",
+      "reading": "ひとつ",
+      "audioText": "1つ",
+      "lessonId": "mnn-11",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "1つ",
+        "reading": "ひとつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "b62f82683c940aeff1ad"
+    },
+    {
+      "kind": "word",
+      "text": "2つ",
+      "reading": "ふたつ",
+      "audioText": "2つ",
+      "lessonId": "mnn-11",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "2つ",
+        "reading": "ふたつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "b182b6f0a4b0917b6e44"
+    },
+    {
+      "kind": "word",
+      "text": "3つ",
+      "reading": "みっつ",
+      "audioText": "3つ",
+      "lessonId": "mnn-11",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "3つ",
+        "reading": "みっつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "9a0f2b95867b9ffae5a0"
+    },
+    {
+      "kind": "word",
+      "text": "4つ",
+      "reading": "よっつ",
+      "audioText": "4つ",
+      "lessonId": "mnn-11",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "4つ",
+        "reading": "よっつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "47ede2a65a4b63d7efb7"
+    },
+    {
+      "kind": "word",
+      "text": "5つ",
+      "reading": "いつつ",
+      "audioText": "5つ",
+      "lessonId": "mnn-11",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "5つ",
+        "reading": "いつつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "2e6ba6b6d1417186ad2a"
+    },
+    {
+      "kind": "word",
+      "text": "6つ",
+      "reading": "むっつ",
+      "audioText": "6つ",
+      "lessonId": "mnn-11",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "6つ",
+        "reading": "むっつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "b2d1766250ca55ae05af"
+    },
+    {
+      "kind": "word",
+      "text": "7つ",
+      "reading": "ななつ",
+      "audioText": "7つ",
+      "lessonId": "mnn-11",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "7つ",
+        "reading": "ななつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "e75e2a596b4fba31b202"
+    },
+    {
+      "kind": "word",
+      "text": "8つ",
+      "reading": "やっつ",
+      "audioText": "8つ",
+      "lessonId": "mnn-11",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "8つ",
+        "reading": "やっつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "81328b0d91a48c9bc389"
+    },
+    {
+      "kind": "word",
+      "text": "9つ",
+      "reading": "ここのつ",
+      "audioText": "9つ",
+      "lessonId": "mnn-11",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "9つ",
+        "reading": "ここのつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "401c57cbdde9040d0b10"
+    },
+    {
+      "kind": "word",
+      "text": "10",
+      "reading": "とお",
+      "audioText": "10",
+      "lessonId": "mnn-11",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "10",
+        "reading": "とお",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "24adc8231f486094893c"
+    },
+    {
+      "kind": "word",
+      "text": "1人",
+      "reading": "ひとり",
+      "audioText": "1人",
+      "lessonId": "mnn-11",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "1人",
+        "reading": "ひとり",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "1fab12603afdd2fd6158"
+    },
+    {
+      "kind": "word",
+      "text": "2人",
+      "reading": "ふたり",
+      "audioText": "2人",
+      "lessonId": "mnn-11",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "2人",
+        "reading": "ふたり",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "bdd8c297ccf5226b41c5"
+    },
+    {
+      "kind": "word",
+      "text": "3人",
+      "reading": "さんにん",
+      "audioText": "3人",
+      "lessonId": "mnn-11",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "3人",
+        "reading": "さんにん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "29a1780159fa762ce72d"
+    },
+    {
+      "kind": "word",
+      "text": "4人",
+      "reading": "よにん",
+      "audioText": "4人",
+      "lessonId": "mnn-11",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "4人",
+        "reading": "よにん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "92751f675f3601e15028"
+    },
+    {
+      "kind": "word",
+      "text": "5人",
+      "reading": "ごにん",
+      "audioText": "5人",
+      "lessonId": "mnn-11",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "5人",
+        "reading": "ごにん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "b1ecbb5e52a6ac8cd5eb"
+    },
+    {
+      "kind": "word",
+      "text": "6人",
+      "reading": "ろくにん",
+      "audioText": "6人",
+      "lessonId": "mnn-11",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "6人",
+        "reading": "ろくにん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "de952ba92c54be45d60b"
+    },
+    {
+      "kind": "word",
+      "text": "7人",
+      "reading": "ななにん",
+      "audioText": "7人",
+      "lessonId": "mnn-11",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "7人",
+        "reading": "ななにん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "08055d72af83aa4cb3f5"
+    },
+    {
+      "kind": "word",
+      "text": "8人",
+      "reading": "はちにん",
+      "audioText": "8人",
+      "lessonId": "mnn-11",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "8人",
+        "reading": "はちにん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "4823f12878e3f6d00721"
+    },
+    {
+      "kind": "word",
+      "text": "9人",
+      "reading": "きゅうにん",
+      "audioText": "9人",
+      "lessonId": "mnn-11",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "9人",
+        "reading": "きゅうにん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "15c63329d8bc080f3a2f"
+    },
+    {
+      "kind": "word",
+      "text": "10人",
+      "reading": "じゅうにん",
+      "audioText": "10人",
+      "lessonId": "mnn-11",
+      "foundationUse": {
+        "tableIndex": 0,
+        "label": "10人",
+        "reading": "じゅうにん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "094990f2e91fdbd77760"
+    },
+    {
+      "kind": "word",
+      "text": "枚",
+      "reading": "まい",
+      "audioText": "枚",
+      "lessonId": "mnn-11",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "枚",
+        "reading": "まい",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "a693a4ff544f9b9113bc"
+    },
+    {
+      "kind": "word",
+      "text": "台",
+      "reading": "だい",
+      "audioText": "台",
+      "lessonId": "mnn-11",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "台",
+        "reading": "だい",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "4fc10359df2e07cce110"
+    },
+    {
+      "kind": "word",
+      "text": "冊",
+      "reading": "さつ",
+      "audioText": "冊",
+      "lessonId": "mnn-11",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "冊",
+        "reading": "さつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "829f3863a115c57d58a6"
+    },
+    {
+      "kind": "word",
+      "text": "1冊",
+      "reading": "いっさつ",
+      "audioText": "1冊",
+      "lessonId": "mnn-11",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "1冊",
+        "reading": "いっさつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "c46551b78c681ea192e3"
+    },
+    {
+      "kind": "word",
+      "text": "8冊",
+      "reading": "はっさつ",
+      "audioText": "8冊",
+      "lessonId": "mnn-11",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "8冊",
+        "reading": "はっさつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "6d9dba073bf294238aa8"
+    },
+    {
+      "kind": "word",
+      "text": "10冊",
+      "reading": "じゅっさつ",
+      "audioText": "10冊",
+      "lessonId": "mnn-11",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "10冊",
+        "reading": "じゅっさつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "74aa138e3fbee7e1e936"
+    },
+    {
+      "kind": "word",
+      "text": "1回",
+      "reading": "いっかい",
+      "audioText": "1回",
+      "lessonId": "mnn-11",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "1回",
+        "reading": "いっかい",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "91e85b1831401dbe2a91"
+    },
+    {
+      "kind": "word",
+      "text": "6回",
+      "reading": "ろっかい",
+      "audioText": "6回",
+      "lessonId": "mnn-11",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "6回",
+        "reading": "ろっかい",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "c18a8ea8566adb733855"
+    },
+    {
+      "kind": "word",
+      "text": "10回",
+      "reading": "じゅっかい",
+      "audioText": "10回",
+      "lessonId": "mnn-11",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "10回",
+        "reading": "じゅっかい",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "7797a0d8d43d55de120d"
+    },
+    {
+      "kind": "word",
+      "text": "1時間",
+      "reading": "いちじかん",
+      "audioText": "1時間",
+      "lessonId": "mnn-11",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "1時間",
+        "reading": "いちじかん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "62b3b3e39d2ba834ee5c"
+    },
+    {
+      "kind": "word",
+      "text": "2時間",
+      "reading": "にじかん",
+      "audioText": "2時間",
+      "lessonId": "mnn-11",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "2時間",
+        "reading": "にじかん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "d47a108f40d8d836b62b"
+    },
+    {
+      "kind": "word",
+      "text": "1日",
+      "reading": "いちにち",
+      "audioText": "1日",
+      "lessonId": "mnn-11",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "1日",
+        "reading": "いちにち",
+        "context": "duration",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "744b32d9fc051872676a"
+    },
+    {
+      "kind": "word",
+      "text": "2日間",
+      "reading": "ふつかかん",
+      "audioText": "2日間",
+      "lessonId": "mnn-11",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "2日間",
+        "reading": "ふつかかん",
+        "context": "duration",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "f9b7fbbe09dc4e633554"
+    },
+    {
+      "kind": "word",
+      "text": "1週間",
+      "reading": "いっしゅうかん",
+      "audioText": "1週間",
+      "lessonId": "mnn-11",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "1週間",
+        "reading": "いっしゅうかん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "a6f41fc07e0a005bca35"
+    },
+    {
+      "kind": "word",
+      "text": "1か月",
+      "reading": "いっかげつ",
+      "audioText": "1か月",
+      "lessonId": "mnn-11",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "1か月",
+        "reading": "いっかげつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "5b4892716f38f1a50819"
+    },
+    {
+      "kind": "word",
+      "text": "1年",
+      "reading": "いちねん",
+      "audioText": "1年",
+      "lessonId": "mnn-11",
+      "foundationUse": {
+        "tableIndex": 1,
+        "label": "1年",
+        "reading": "いちねん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      },
+      "assetId": "061916932c7307d0e493"
+    }
+  ]
+}

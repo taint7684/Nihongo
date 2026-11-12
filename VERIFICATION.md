@@ -90,3 +90,8 @@ So414câu checkpointcũ với764câu hiện tại:0ID/choices/answer thayđổi.
 ## Rà ngữ pháp tiếp12/11 —100tests/18files
 Đã đối chiếu trực tiếpTUFS067/069/045/049/072/083/084/086/093; thêm phạm vi nguồn cho18mục, tổng28mục grammar có phạm vi rà(23N5,5N4), không phê duyệt toàn230dòng. Sửa1lỗi giải thích bài16 bắt cùng chủ thể; thêm câu áp dụng riêng, hiện18câu chức năng mới. Bảng từng1–25trongCONTENT_REVIEW vàevaluation/n5-semantic-review-progress.json. Các bài chưa có lượt rà nguồn bổ sung được ghi rõ, không tự đánh hoàn thiện.
 Edgeidentity+backup vàopen-access chạy lại sau đợt từ mới đều qua; xemreport riêng. Không truy cập dữ liệu học thật.
+
+
+## Audio bảng nền và giảm metadata — 12/11/2026
+145/145 dòng có audio tra đúng chữ/cách đọc;133 tài sản mới,1954tổng/1943active/11retired. Pilot có lỗi kế hoạch trường âm8日, đã sửa và chạy lại0held; đợt toàn bộ cũng0held. Đã mở TUFS017/018/019/022 và015 để đối chiếu cấu trúc/cách đọc trong phạm vi ghi ởevaluation/foundation-audio-coverage.json; chưa nghe duyệt ngữ âm. Edge phát thực1日ついたち và1日いちにち, hai file khác,390px không tràn; phát không tạo câu trả lời/hoàn thành. Report.tmp-ui/foundation-audio/report.json.
+104tests/19files và build cuối qua. Một lượt test đọc catalog lúc generator chưa ghi xong index nên báo khác tập ID; chạy lại sau khi generator kết thúc đã qua, không bỏ assertion. Metadata656 bản ghi nén biểu diễn nhưng hash nội dung trước/sau giống nhau; evaluation/source-metadata-compaction.json. GóiJS khởi tạo1169,37KB/gzip338,41KB, vẫn lớn. 414câu cũ giữ nguyên so với765câu hiện tại.

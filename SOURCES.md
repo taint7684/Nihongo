@@ -113,3 +113,7 @@ Lỗi audio phát hiện thực:この料理は辛いですbị đọcつらい,
 
 ## Các nguồn ngữ pháp đã mở trực tiếp đợt rà tiếp
 https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/067.html (gốcます+たい,phủđịnh,を/が cóngữcảnh); card/069.html(muốncó); card/045.html(trạngthái/biếtkhôngbiết); card/049.html(nốitínhtừvàhaichủđề); card/072.html(khảnăng/điềukiện); explanation/083.html(điềukiện); card/084.html(nhượngbộ); explanation/086.html(hướnglợiích/vaivàtrợtừ); explanation/093.html(とき/điểmnhìn). BảnquyềnTUFS, chỉdẫnnguồn/đốichiếuquytắc; vídụ/bàitậpdựántựsoạn,khôngđónggóinguyênbàiTUFS. URLđầyđủgắnởtừnggrammarSourceReviews; phầnchưarànêuđúngphạmvi.
+
+
+## Audio bảng nền — học liệu tự soạn, đối chiếu 12/11/2026
+145 dòng hiện có của bảng dự án đã gắn audio, không sao chép audio hoặc định dạng bảng TUFS. Đối chiếu: https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/017.html (trợ số từ, người/vật/tầng và biến thể), explanation/015.html (các cách đọc số), card/018.html (giờ), card/019.html (phút), card/022.html (tháng/ngày/thứ). Ví dụ/bảng Việt của dự án giữ nguyên và bổ sung ghi chú. Audio chọn biến thể đầu tiên của dòng, không coi biến thể khác là sai.1日 lịch dùngついたち, khoảng một ngày dùngいちにち. Metadata foundationUses lưu ngữ cảnh; báo phủ tại evaluation/foundation-audio-coverage.json. TTSVOICEVOX engine0.26.1/四国めたん và điều khoản như catalog; không phải audio người Nhật thu và chưa người nghe duyệt độc lập.

@@ -1,0 +1,60 @@
+{
+  "time": "2026-11-12T08:09:53.099Z",
+  "engine": "0.26.1",
+  "speaker": {
+    "name": "四国めたん",
+    "speaker_uuid": "7ffcb7ce-00ec-4bdc-82cd-45a8889e43ff",
+    "styles": [
+      {
+        "name": "ノーマル",
+        "id": 2,
+        "type": "streaming_talk"
+      },
+      {
+        "name": "あまあま",
+        "id": 0,
+        "type": "streaming_talk"
+      },
+      {
+        "name": "ツンツン",
+        "id": 6,
+        "type": "streaming_talk"
+      },
+      {
+        "name": "セクシー",
+        "id": 4,
+        "type": "streaming_talk"
+      },
+      {
+        "name": "ささやき",
+        "id": 36,
+        "type": "streaming_talk"
+      },
+      {
+        "name": "ヒソヒソ",
+        "id": 37,
+        "type": "streaming_talk"
+      }
+    ],
+    "version": "0.17.0",
+    "supported_features": {
+      "permitted_synthesis_morphing": "SELF_ONLY"
+    }
+  },
+  "style": {
+    "name": "ノーマル",
+    "id": 2,
+    "type": "streaming_talk"
+  },
+  "scope": [
+    1
+  ],
+  "report": [
+    {
+      "id": "d244234d268951f7df6f",
+      "text": "8日",
+      "status": "generated-reading-match",
+      "ms": 535
+    }
+  ]
+}

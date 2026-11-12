@@ -9167,6 +9167,7 @@
       ],
       "summary": {
         "plannedWords": 450,
+        "missingLexicalContexts": 0,
         "plannedLexicalTargets": 450,
         "gapClasses": {
           "same-level-context": 450
@@ -14963,6 +14964,7 @@
       ],
       "summary": {
         "plannedWords": 240,
+        "missingLexicalContexts": 61,
         "plannedLexicalTargets": 222,
         "gapClasses": {
           "same-level-context": 141,

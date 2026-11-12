@@ -64,3 +64,7 @@ TTS辛いđọc nhầm ở câu món ăn: chỉ sửa đầu vào câu này; câ
 
 ## Lỗi quy tắc bài16 tìm được khi đối chiếuTUFS049
 Lỗi gốc: câu giải thích bắt các vế nốiくて/でphải cùng chủ thể. NguồnTUFS049 cho phép hai chủ đề riêng, nên giới hạn cũ sai. Đã sửa thành trường hợp ví dụ cùng đối tượng và cho phép hai chủ đề rõ vớiは; thêmm16-functional-use-topics. Hồi quy bảo toàn câu cũ và hoạt động mới đúng vòng. Không sửa câu Nhật/audio cũ vốn đúng. Xem lại nếu mở rộng quan hệ nguyên nhân/văn phong, không suy mọi liên kết đều tự nhiên.
+
+
+## Audio cùng chữ khác ngữ cảnh
+Không lấy chữ1日 làm khóa audio duy nhất: cảtext vàreading tham gia lookup để tách lịch/khoảng. Giờ chỉ ghi số ở cột bảng được thêm時 vào đầu vào audio; giữ nguyên ID bài/câu hỏi. Dấu chấm nhóm nghìn Việt trong1.250円 được bỏ ở đầu vào TTS. Trường âm8日 có kế hoạch lexical riêng, không thay toàn bộou/ei. Hồi quy và Edge xác nhận hai audio khác nhau; không suy từ playback sang phát âm đã duyệt. Không chạy kiểm catalog/index giữa lúc generator đang ghi hai file; luôn kiểm sau khi kết thúc, không nới assertion.

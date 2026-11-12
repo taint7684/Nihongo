@@ -1,8 +1,7 @@
 {
-  "at": "2026-11-12T07:58:15.564Z",
-  "baseline": ".tmp-ui/checkpoint-full-scope-start/src/content.js",
+  "at": "2026-11-12T08:18:23.293Z",
   "oldQuestionCount": 414,
-  "currentQuestionCount": 764,
+  "currentQuestionCount": 765,
   "changed": [],
-  "limits": "Code compatibility; isolated QA only; no real learner progress accessed"
+  "limits": "Code comparison, not learner progress or academic verification"
 }

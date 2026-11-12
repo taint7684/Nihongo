@@ -16,3 +16,7 @@ Giữ mô hình chỉ trong tác vụ đã đạt; không dùng Qwen4B làm chuy
 
 ## Chọn bổ sung lõiN5 —12/11
 Ưu tiên từ sinhhoạt có chỗ dùng:trường/nghề,địađiểm,tuầntháng,thứcăn,dụngcụ,tínhchất,sởthích,vịtrí,giađình,thờitiết,sứckhỏe,quầnáo. Đợt này63ngữcảnh/17câu áp dụng, nối lịch ôn hiện có. Vai active chỉ là ýđịnhchươngtrình,không phải đãthànhthạocủangườihọc. Có thể chỉnh danh sách/lesson ởn5-functional-lexicon.js; không đổiIDbài. 450mục dựthảo vẫn chưa đủ cơsở làm tài liệu duy nhất N5; phải tiếp tục rà nhu cầu và toàn bài.
+
+
+## Audio nền và tối ưu dữ liệu
+Chọn đọc biến thể đầu tiên khi bảng có nhiều biến thể đúng; ghi rõ trên giao diện, không yêu cầu thuộc cả bảng để học tiếp. Chỉ bật native audio khi có file; không tự ghi thành tích từ việc phát mẫu. Metadata nguồn dùng các bảng chuỗi dùng chung, khôi phục ra cùng656 bản ghi trước/sau; có hash đối chiếu. Không đổi ý nghĩa hay trạng thái duyệt.

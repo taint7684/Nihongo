@@ -2615,7 +2615,16 @@
       "actual": "ナンガイ",
       "method": "curated lexicon + particle rules; lexical long-vowel variants only"
     },
-    "ms": 507
+    "ms": 507,
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "何階",
+        "reading": "なんがい",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ]
   },
   {
     "id": "b0531fe0c041b416d795",
@@ -3453,7 +3462,16 @@
       "actual": "ハン",
       "method": "curated lexicon + particle rules; lexical long-vowel variants only"
     },
-    "ms": 418
+    "ms": 418,
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "半",
+        "reading": "はん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/019.html"
+      }
+    ]
   },
   {
     "id": "f0d0259fa9d2b5e52a5d",
@@ -29372,7 +29390,16 @@
       "actual": "マイ",
       "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
     },
-    "ms": 1605
+    "ms": 1605,
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "枚",
+        "reading": "まい",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ]
   },
   {
     "id": "2eea16f0ca7f28ff54c7",
@@ -29436,7 +29463,16 @@
       "actual": "ダイ",
       "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
     },
-    "ms": 1114
+    "ms": 1114,
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "台",
+        "reading": "だい",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ]
   },
   {
     "id": "14624be0e0c9c0441227",
@@ -29500,7 +29536,16 @@
       "actual": "サツ",
       "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
     },
-    "ms": 1272
+    "ms": 1272,
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "冊",
+        "reading": "さつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ]
   },
   {
     "id": "8ba7c33fd139d1dfcf62",
@@ -30205,7 +30250,16 @@
       "actual": "キンヨオビ",
       "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
     },
-    "ms": 1889
+    "ms": 1889,
+    "foundationUses": [
+      {
+        "tableIndex": 2,
+        "label": "金曜日",
+        "reading": "きんようび",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ]
   },
   {
     "id": "571f726e62be5a5916d5",
@@ -42991,7 +43045,16 @@
       "actual": "スイヨオビ",
       "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
     },
-    "ms": 668
+    "ms": 668,
+    "foundationUses": [
+      {
+        "tableIndex": 2,
+        "label": "水曜日",
+        "reading": "すいようび",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ]
   },
   {
     "id": "0fefac1674c864d81303",
@@ -43087,7 +43150,16 @@
       "actual": "ニチヨオビ",
       "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
     },
-    "ms": 830
+    "ms": 830,
+    "foundationUses": [
+      {
+        "tableIndex": 2,
+        "label": "日曜日",
+        "reading": "にちようび",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ]
   },
   {
     "id": "6baa2aaa5cbb664c3ffe",
@@ -43887,7 +43959,16 @@
       "actual": "ゲツヨオビ",
       "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
     },
-    "ms": 802
+    "ms": 802,
+    "foundationUses": [
+      {
+        "tableIndex": 2,
+        "label": "月曜日",
+        "reading": "げつようび",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ]
   },
   {
     "id": "566af00ee599e5eb800b",
@@ -43951,7 +44032,16 @@
       "actual": "カヨオビ",
       "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
     },
-    "ms": 630
+    "ms": 630,
+    "foundationUses": [
+      {
+        "tableIndex": 2,
+        "label": "火曜日",
+        "reading": "かようび",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ]
   },
   {
     "id": "a6e479854d0be3ac4513",
@@ -44015,7 +44105,16 @@
       "actual": "モクヨオビ",
       "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
     },
-    "ms": 684
+    "ms": 684,
+    "foundationUses": [
+      {
+        "tableIndex": 2,
+        "label": "木曜日",
+        "reading": "もくようび",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ]
   },
   {
     "id": "231d35964aadf9d3a741",
@@ -44079,7 +44178,16 @@
       "actual": "ドヨオビ",
       "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
     },
-    "ms": 642
+    "ms": 642,
+    "foundationUses": [
+      {
+        "tableIndex": 2,
+        "label": "土曜日",
+        "reading": "どようび",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ]
   },
   {
     "id": "664b91cb91d6318c9c5c",
@@ -58542,5 +58650,5458 @@
       "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
     },
     "ms": 991
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "1.250円",
+        "reading": "せんにひゃくごじゅうえん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "23302ded1fbe531018f9",
+    "kind": "word",
+    "text": "1.250円",
+    "reading": "せんにひゃくごじゅうえん",
+    "displayReading": "せんにひゃくごじゅうえん",
+    "vi": "",
+    "path": "/audio/tts/23302ded1fbe531018f9.wav",
+    "lessonIds": [
+      "mnn-03"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "1250円",
+    "forcedReading": true,
+    "sha256": "f2d43847ef19ca4b1838d7353369501de7cfac907ae6a4559d42f3fc76fa9ca7",
+    "checkedAt": "2026-11-12T08:08:15.618Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "センニヒャクゴジュウエン",
+      "actual": "センニヒャクゴジュウエン",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 960
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "3階",
+        "reading": "さんがい",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "966257f3fa7eb3268bb2",
+    "kind": "word",
+    "text": "3階",
+    "reading": "さんがい",
+    "displayReading": "さんがい",
+    "vi": "",
+    "path": "/audio/tts/966257f3fa7eb3268bb2.wav",
+    "lessonIds": [
+      "mnn-03"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "3階",
+    "forcedReading": false,
+    "sha256": "9828798a0ef08c0f3b1e3aacc3d407ec8669752aaa2e489dd91512bb524ca090",
+    "checkedAt": "2026-11-12T08:08:16.198Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "サンガイ",
+      "actual": "サンガイ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 560
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "4",
+        "reading": "よじ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/018.html"
+      }
+    ],
+    "id": "716af7af2a0560e0417f",
+    "kind": "word",
+    "text": "4時",
+    "reading": "よじ",
+    "displayReading": "よじ",
+    "vi": "",
+    "path": "/audio/tts/716af7af2a0560e0417f.wav",
+    "lessonIds": [
+      "mnn-04"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "4時",
+    "forcedReading": false,
+    "sha256": "98dbfcbabae8b388598aa00b92e631a85d5dc55d8c54e46bea7e798e7464e641",
+    "checkedAt": "2026-11-12T08:08:16.703Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ヨジ",
+      "actual": "ヨジ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 491
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "10分",
+        "reading": "じゅっぷん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/019.html"
+      }
+    ],
+    "id": "eedd2d907b67d5a317cd",
+    "kind": "word",
+    "text": "10分",
+    "reading": "じゅっぷん",
+    "displayReading": "じゅっぷん",
+    "vi": "",
+    "path": "/audio/tts/eedd2d907b67d5a317cd.wav",
+    "lessonIds": [
+      "mnn-04"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "10分",
+    "forcedReading": false,
+    "sha256": "d4ddc2b9976c095881f5027adedb798edceb98507982103e25018009f0549592",
+    "checkedAt": "2026-11-12T08:08:17.357Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ジュップン",
+      "actual": "ジュップン",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 636
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "4月",
+        "reading": "しがつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "c51e9e8adfd3a7432d0d",
+    "kind": "word",
+    "text": "4月",
+    "reading": "しがつ",
+    "displayReading": "しがつ",
+    "vi": "",
+    "path": "/audio/tts/c51e9e8adfd3a7432d0d.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "4月",
+    "forcedReading": false,
+    "sha256": "f94da5ac29fc2bac8934cde4e0bd7151554ed4974610cf61d3b97bf395e74aa1",
+    "checkedAt": "2026-11-12T08:08:17.993Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "シガツ",
+      "actual": "シガツ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 617
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "1日",
+        "reading": "ついたち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "2581ead1398f7fad9985",
+    "kind": "word",
+    "text": "1日",
+    "reading": "ついたち",
+    "displayReading": "ついたち",
+    "vi": "",
+    "path": "/audio/tts/2581ead1398f7fad9985.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "ついたち",
+    "forcedReading": true,
+    "sha256": "41bd232b8bd24d68c35aeecbfbd3e8e4e02c5663d5d81451b27097ed9c6e8235",
+    "checkedAt": "2026-11-12T08:08:18.699Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ツイタチ",
+      "actual": "ツイタチ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 688
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "14日",
+        "reading": "じゅうよっか",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "e5277ac2d60f73a1db70",
+    "kind": "word",
+    "text": "14日",
+    "reading": "じゅうよっか",
+    "displayReading": "じゅうよっか",
+    "vi": "",
+    "path": "/audio/tts/e5277ac2d60f73a1db70.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "14日",
+    "forcedReading": false,
+    "sha256": "05f6d7faf2ea83783960ca7e5074e839118c370ac0f4ffcc71c132cabe983f82",
+    "checkedAt": "2026-11-12T08:08:19.350Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ジュウヨッカ",
+      "actual": "ジュウヨッカ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 625
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "20日",
+        "reading": "はつか",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "a52c169ede29825d3830",
+    "kind": "word",
+    "text": "20日",
+    "reading": "はつか",
+    "displayReading": "はつか",
+    "vi": "",
+    "path": "/audio/tts/a52c169ede29825d3830.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "20日",
+    "forcedReading": false,
+    "sha256": "106e17a83030aed465d777f19ff96753f8dee2ce61ff18eb53a1e325a48ddc21",
+    "checkedAt": "2026-11-12T08:08:19.923Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ハツカ",
+      "actual": "ハツカ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 557
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "24日",
+        "reading": "にじゅうよっか",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "10853a2da01bea03831c",
+    "kind": "word",
+    "text": "24日",
+    "reading": "にじゅうよっか",
+    "displayReading": "にじゅうよっか",
+    "vi": "",
+    "path": "/audio/tts/10853a2da01bea03831c.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "24日",
+    "forcedReading": false,
+    "sha256": "fbcfe814b7280b03a8ba17a49e64b3803005edca1a3c9e30bafae52f69403d4f",
+    "checkedAt": "2026-11-12T08:08:20.654Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ニジュウヨッカ",
+      "actual": "ニジュウヨッカ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 714
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "1人",
+        "reading": "ひとり",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "1fab12603afdd2fd6158",
+    "kind": "word",
+    "text": "1人",
+    "reading": "ひとり",
+    "displayReading": "ひとり",
+    "vi": "",
+    "path": "/audio/tts/1fab12603afdd2fd6158.wav",
+    "lessonIds": [
+      "mnn-11"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "1人",
+    "forcedReading": false,
+    "sha256": "fcab56d3fbda463c3a8c73abcd4a7abae4eae68110e69ce5d78077ab54103baa",
+    "checkedAt": "2026-11-12T08:08:21.158Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ヒトリ",
+      "actual": "ヒトリ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 485
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "4人",
+        "reading": "よにん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "92751f675f3601e15028",
+    "kind": "word",
+    "text": "4人",
+    "reading": "よにん",
+    "displayReading": "よにん",
+    "vi": "",
+    "path": "/audio/tts/92751f675f3601e15028.wav",
+    "lessonIds": [
+      "mnn-11"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "4人",
+    "forcedReading": false,
+    "sha256": "068c27c05a60610ab05064cc3f0458624da4dd0aa8f54d2a2c83f5204b44f0d8",
+    "checkedAt": "2026-11-12T08:08:21.684Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ヨニン",
+      "actual": "ヨニン",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 509
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "1日",
+        "reading": "いちにち",
+        "context": "duration",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "744b32d9fc051872676a",
+    "kind": "word",
+    "text": "1日",
+    "reading": "いちにち",
+    "displayReading": "いちにち",
+    "vi": "",
+    "path": "/audio/tts/744b32d9fc051872676a.wav",
+    "lessonIds": [
+      "mnn-11"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "1日",
+    "forcedReading": false,
+    "sha256": "a13df5efbd8afa7a62023bf3f006472bb23aca87fbf2840fc463fb81c6c9c775",
+    "checkedAt": "2026-11-12T08:08:22.325Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "イチニチ",
+      "actual": "イチニチ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 622
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "8日",
+        "reading": "ようか",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "d244234d268951f7df6f",
+    "kind": "word",
+    "text": "8日",
+    "reading": "ようか",
+    "displayReading": "ようか",
+    "vi": "",
+    "path": "/audio/tts/d244234d268951f7df6f.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "8日",
+    "forcedReading": false,
+    "sha256": "678a4f3ec58a12905397a2fe0dd35e65455a010cfa70ed285365bb009cc1bdf0",
+    "checkedAt": "2026-11-12T08:09:53.052Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ヨオカ",
+      "actual": "ヨオカ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 535
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "0",
+        "reading": "れい",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "5b39ef46e444727a3545",
+    "kind": "word",
+    "text": "0",
+    "reading": "れい",
+    "displayReading": "れい",
+    "vi": "",
+    "path": "/audio/tts/5b39ef46e444727a3545.wav",
+    "lessonIds": [
+      "mnn-03"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "れい",
+    "forcedReading": true,
+    "sha256": "e2a90f122fab45aec9ee3f80d3bf118ae414f5dc5883df599f4165e72b1507d3",
+    "checkedAt": "2026-11-12T08:10:17.468Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "レイ",
+      "actual": "レイ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 426
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "1",
+        "reading": "いち",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "861b55f09f9c6f2fbdd6",
+    "kind": "word",
+    "text": "1",
+    "reading": "いち",
+    "displayReading": "いち",
+    "vi": "",
+    "path": "/audio/tts/861b55f09f9c6f2fbdd6.wav",
+    "lessonIds": [
+      "mnn-03"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "1",
+    "forcedReading": false,
+    "sha256": "2d71e3daa2719243f043b1167ee737055d8ed8043f187479f2376a009cc772b5",
+    "checkedAt": "2026-11-12T08:10:18.008Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "イチ",
+      "actual": "イチ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 523
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "2",
+        "reading": "に",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "7399287868feced5ec8f",
+    "kind": "word",
+    "text": "2",
+    "reading": "に",
+    "displayReading": "に",
+    "vi": "",
+    "path": "/audio/tts/7399287868feced5ec8f.wav",
+    "lessonIds": [
+      "mnn-03"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "2",
+    "forcedReading": false,
+    "sha256": "4c537f963e5c6c79497c3d6c92d914e52dc8cab1bf80709c2ef5429a00eae682",
+    "checkedAt": "2026-11-12T08:10:18.449Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ニ",
+      "actual": "ニ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 422
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "3",
+        "reading": "さん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "fb0e957ffa07a42adadb",
+    "kind": "word",
+    "text": "3",
+    "reading": "さん",
+    "displayReading": "さん",
+    "vi": "",
+    "path": "/audio/tts/fb0e957ffa07a42adadb.wav",
+    "lessonIds": [
+      "mnn-03"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "3",
+    "forcedReading": false,
+    "sha256": "af17dba59a7e09c2ab6115738016ee23b591ecd6494dec1a686bd7ff9f84478a",
+    "checkedAt": "2026-11-12T08:10:18.937Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "サン",
+      "actual": "サン",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 470
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "4",
+        "reading": "よん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "9a6b6451999cc527877f",
+    "kind": "word",
+    "text": "4",
+    "reading": "よん",
+    "displayReading": "よん",
+    "vi": "",
+    "path": "/audio/tts/9a6b6451999cc527877f.wav",
+    "lessonIds": [
+      "mnn-03"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "4",
+    "forcedReading": false,
+    "sha256": "18e2f961e27d62b420a8b358981a04e7631b0b953c48ef67436cf99a0a34a7d9",
+    "checkedAt": "2026-11-12T08:10:19.356Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ヨン",
+      "actual": "ヨン",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 403
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "5",
+        "reading": "ご",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "2eaf600ef647bddfef1a",
+    "kind": "word",
+    "text": "5",
+    "reading": "ご",
+    "displayReading": "ご",
+    "vi": "",
+    "path": "/audio/tts/2eaf600ef647bddfef1a.wav",
+    "lessonIds": [
+      "mnn-03"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "5",
+    "forcedReading": false,
+    "sha256": "284ca21d63794e518916cb5dbea007a8d84082b0bc67039cb0f056096080fb88",
+    "checkedAt": "2026-11-12T08:10:19.796Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ゴ",
+      "actual": "ゴ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 426
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "6",
+        "reading": "ろく",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "2931f74e87d42717e106",
+    "kind": "word",
+    "text": "6",
+    "reading": "ろく",
+    "displayReading": "ろく",
+    "vi": "",
+    "path": "/audio/tts/2931f74e87d42717e106.wav",
+    "lessonIds": [
+      "mnn-03"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "6",
+    "forcedReading": false,
+    "sha256": "600b7642bddcc832089a76056009db685a771a045e0978add46cd38fb68cc38c",
+    "checkedAt": "2026-11-12T08:10:20.322Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ロク",
+      "actual": "ロク",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 513
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "7",
+        "reading": "なな",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "d4f392808dad3d8e3c59",
+    "kind": "word",
+    "text": "7",
+    "reading": "なな",
+    "displayReading": "なな",
+    "vi": "",
+    "path": "/audio/tts/d4f392808dad3d8e3c59.wav",
+    "lessonIds": [
+      "mnn-03"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "7",
+    "forcedReading": false,
+    "sha256": "1b565cbface707bbdb7f2b23748612c71b87f64ec8cf479113d632bd7f9bbdbb",
+    "checkedAt": "2026-11-12T08:10:20.787Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ナナ",
+      "actual": "ナナ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 448
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "8",
+        "reading": "はち",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "433cdd0902466a4336fb",
+    "kind": "word",
+    "text": "8",
+    "reading": "はち",
+    "displayReading": "はち",
+    "vi": "",
+    "path": "/audio/tts/433cdd0902466a4336fb.wav",
+    "lessonIds": [
+      "mnn-03"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "8",
+    "forcedReading": false,
+    "sha256": "7edcb407648d989f4fc8dd098630c703c89a6fa7b3b7f4866e72d9319da52b62",
+    "checkedAt": "2026-11-12T08:10:21.295Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ハチ",
+      "actual": "ハチ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 493
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "9",
+        "reading": "きゅう",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "93d4808a323badc3f7e1",
+    "kind": "word",
+    "text": "9",
+    "reading": "きゅう",
+    "displayReading": "きゅう",
+    "vi": "",
+    "path": "/audio/tts/93d4808a323badc3f7e1.wav",
+    "lessonIds": [
+      "mnn-03"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "9",
+    "forcedReading": false,
+    "sha256": "8cd34f5acffe665fcd767f3c4dca9902597f3201f25192596deb845379569844",
+    "checkedAt": "2026-11-12T08:10:21.813Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "キュウ",
+      "actual": "キュウ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 500
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "10",
+        "reading": "じゅう",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "2009f325fe95cf3ed71d",
+    "kind": "word",
+    "text": "10",
+    "reading": "じゅう",
+    "displayReading": "じゅう",
+    "vi": "",
+    "path": "/audio/tts/2009f325fe95cf3ed71d.wav",
+    "lessonIds": [
+      "mnn-03"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "10",
+    "forcedReading": false,
+    "sha256": "a711a88738ce3cc5a7138bba7fd09cf479ff53e106250a8a91dcb63b6fcfba4d",
+    "checkedAt": "2026-11-12T08:10:22.270Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ジュウ",
+      "actual": "ジュウ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 441
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "11",
+        "reading": "じゅういち",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "bef2d166e3bc7d27b1de",
+    "kind": "word",
+    "text": "11",
+    "reading": "じゅういち",
+    "displayReading": "じゅういち",
+    "vi": "",
+    "path": "/audio/tts/bef2d166e3bc7d27b1de.wav",
+    "lessonIds": [
+      "mnn-03"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "11",
+    "forcedReading": false,
+    "sha256": "473b21793225a31d8ea5e17d47b7dd2431bf899cee636090766671c2cff64724",
+    "checkedAt": "2026-11-12T08:10:22.935Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ジュウイチ",
+      "actual": "ジュウイチ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 644
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "20",
+        "reading": "にじゅう",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "85b175824c995f43c430",
+    "kind": "word",
+    "text": "20",
+    "reading": "にじゅう",
+    "displayReading": "にじゅう",
+    "vi": "",
+    "path": "/audio/tts/85b175824c995f43c430.wav",
+    "lessonIds": [
+      "mnn-03"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "20",
+    "forcedReading": false,
+    "sha256": "311ab8a79ea792a86d41d7aeabccea857ec1b8a3f621a007bde2c9c125495349",
+    "checkedAt": "2026-11-12T08:10:23.437Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ニジュウ",
+      "actual": "ニジュウ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 487
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "100",
+        "reading": "ひゃく",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "7ab0b0184e38fd8b41f0",
+    "kind": "word",
+    "text": "100",
+    "reading": "ひゃく",
+    "displayReading": "ひゃく",
+    "vi": "",
+    "path": "/audio/tts/7ab0b0184e38fd8b41f0.wav",
+    "lessonIds": [
+      "mnn-03"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "100",
+    "forcedReading": false,
+    "sha256": "3c8e5c008f6ab89891d27a5b2d2c9e995b89dbf966a30db2eb6ecc6705909af7",
+    "checkedAt": "2026-11-12T08:10:24.000Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ヒャク",
+      "actual": "ヒャク",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 546
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "300",
+        "reading": "さんびゃく",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "135f7cf7db0acc57c01b",
+    "kind": "word",
+    "text": "300",
+    "reading": "さんびゃく",
+    "displayReading": "さんびゃく",
+    "vi": "",
+    "path": "/audio/tts/135f7cf7db0acc57c01b.wav",
+    "lessonIds": [
+      "mnn-03"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "300",
+    "forcedReading": false,
+    "sha256": "bea103c1384026a7fb7fd35ccb81757edf16c16a69585c34c2b6cbdccb6db64d",
+    "checkedAt": "2026-11-12T08:10:24.630Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "サンビャク",
+      "actual": "サンビャク",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 613
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "600",
+        "reading": "ろっぴゃく",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "18ed850db5ae76c3b8eb",
+    "kind": "word",
+    "text": "600",
+    "reading": "ろっぴゃく",
+    "displayReading": "ろっぴゃく",
+    "vi": "",
+    "path": "/audio/tts/18ed850db5ae76c3b8eb.wav",
+    "lessonIds": [
+      "mnn-03"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "600",
+    "forcedReading": false,
+    "sha256": "7795206af0e987152d311da9b2ef0bef9a66b366b45d7b4740c4abff57cee0c1",
+    "checkedAt": "2026-11-12T08:10:25.300Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ロッピャク",
+      "actual": "ロッピャク",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 652
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "800",
+        "reading": "はっぴゃく",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "ee4ea64ac746d6ffeb0a",
+    "kind": "word",
+    "text": "800",
+    "reading": "はっぴゃく",
+    "displayReading": "はっぴゃく",
+    "vi": "",
+    "path": "/audio/tts/ee4ea64ac746d6ffeb0a.wav",
+    "lessonIds": [
+      "mnn-03"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "800",
+    "forcedReading": false,
+    "sha256": "c292f51baba65844b80436e041b08bcb3a3db1f104fb1e0962e88d7d59fd800e",
+    "checkedAt": "2026-11-12T08:10:25.938Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ハッピャク",
+      "actual": "ハッピャク",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 623
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "1.000",
+        "reading": "せん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "dcb7ba657333625fbc5d",
+    "kind": "word",
+    "text": "1.000",
+    "reading": "せん",
+    "displayReading": "せん",
+    "vi": "",
+    "path": "/audio/tts/dcb7ba657333625fbc5d.wav",
+    "lessonIds": [
+      "mnn-03"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "1000",
+    "forcedReading": true,
+    "sha256": "7610e9dd61cc45daabc11bf7edb9dfb601bce74b03aa464d90ce51be200291c1",
+    "checkedAt": "2026-11-12T08:10:26.436Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "セン",
+      "actual": "セン",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 482
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "3.000",
+        "reading": "さんぜん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "074318a510e021e20e4f",
+    "kind": "word",
+    "text": "3.000",
+    "reading": "さんぜん",
+    "displayReading": "さんぜん",
+    "vi": "",
+    "path": "/audio/tts/074318a510e021e20e4f.wav",
+    "lessonIds": [
+      "mnn-03"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "3000",
+    "forcedReading": true,
+    "sha256": "7c3104e5c0a575000bc349384318466d6db49fc99cb092ac881b04131e7729c9",
+    "checkedAt": "2026-11-12T08:10:27.050Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "サンゼン",
+      "actual": "サンゼン",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 599
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "8.000",
+        "reading": "はっせん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "78abd71076c380ff1b7e",
+    "kind": "word",
+    "text": "8.000",
+    "reading": "はっせん",
+    "displayReading": "はっせん",
+    "vi": "",
+    "path": "/audio/tts/78abd71076c380ff1b7e.wav",
+    "lessonIds": [
+      "mnn-03"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "8000",
+    "forcedReading": true,
+    "sha256": "90001aa39bd80d9e065ea6b42efa7d80ebc08e5a9625ee264ef7be009fb0c05a",
+    "checkedAt": "2026-11-12T08:10:27.622Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ハッセン",
+      "actual": "ハッセン",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 553
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "10.000",
+        "reading": "いちまん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "e3c0c9a202cbfffcc5d2",
+    "kind": "word",
+    "text": "10.000",
+    "reading": "いちまん",
+    "displayReading": "いちまん",
+    "vi": "",
+    "path": "/audio/tts/e3c0c9a202cbfffcc5d2.wav",
+    "lessonIds": [
+      "mnn-03"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "10000",
+    "forcedReading": true,
+    "sha256": "dcd2c1823c32ea49467dc23d18cf8f9965edb30de45336fcd14a9c811a1f1425",
+    "checkedAt": "2026-11-12T08:10:28.225Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "イチマン",
+      "actual": "イチマン",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 588
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "1階",
+        "reading": "いっかい",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "b684355277b9c5aca20c",
+    "kind": "word",
+    "text": "1階",
+    "reading": "いっかい",
+    "displayReading": "いっかい",
+    "vi": "",
+    "path": "/audio/tts/b684355277b9c5aca20c.wav",
+    "lessonIds": [
+      "mnn-03"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "1階",
+    "forcedReading": false,
+    "sha256": "f933d039cd1c67fe2750a97bdd621820022011c0d7ffacd70edabd1a8c33fa3c",
+    "checkedAt": "2026-11-12T08:10:28.828Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "イッカイ",
+      "actual": "イッカイ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 583
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "2階",
+        "reading": "にかい",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "687189a2db6a8e02d9a5",
+    "kind": "word",
+    "text": "2階",
+    "reading": "にかい",
+    "displayReading": "にかい",
+    "vi": "",
+    "path": "/audio/tts/687189a2db6a8e02d9a5.wav",
+    "lessonIds": [
+      "mnn-03"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "2階",
+    "forcedReading": false,
+    "sha256": "bbd1e15cdce433b512c72ce891c5c2fa6300168adcf17d0d2c0d9f87486fc74a",
+    "checkedAt": "2026-11-12T08:10:29.326Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ニカイ",
+      "actual": "ニカイ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 483
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "4階",
+        "reading": "よんかい",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "40635b8e4eac8288c663",
+    "kind": "word",
+    "text": "4階",
+    "reading": "よんかい",
+    "displayReading": "よんかい",
+    "vi": "",
+    "path": "/audio/tts/40635b8e4eac8288c663.wav",
+    "lessonIds": [
+      "mnn-03"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "4階",
+    "forcedReading": false,
+    "sha256": "14a6d630f9fdcd67f933fd313fcc7d2a99b923b657c45f4f76788f06e59e62ad",
+    "checkedAt": "2026-11-12T08:10:29.876Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ヨンカイ",
+      "actual": "ヨンカイ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 529
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "5階",
+        "reading": "ごかい",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "0f9c7080ce29495c8af5",
+    "kind": "word",
+    "text": "5階",
+    "reading": "ごかい",
+    "displayReading": "ごかい",
+    "vi": "",
+    "path": "/audio/tts/0f9c7080ce29495c8af5.wav",
+    "lessonIds": [
+      "mnn-03"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "5階",
+    "forcedReading": false,
+    "sha256": "aac5ad5d7655ae0dd91432c128f18d9909604d7ccef0d32df4008e971df86b91",
+    "checkedAt": "2026-11-12T08:10:30.435Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ゴカイ",
+      "actual": "ゴカイ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 543
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "6階",
+        "reading": "ろっかい",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "e64b44cf08a0120a0d8c",
+    "kind": "word",
+    "text": "6階",
+    "reading": "ろっかい",
+    "displayReading": "ろっかい",
+    "vi": "",
+    "path": "/audio/tts/e64b44cf08a0120a0d8c.wav",
+    "lessonIds": [
+      "mnn-03"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "6階",
+    "forcedReading": false,
+    "sha256": "8d3b64c9f812cb0390d83183ef2a6776a7dd3849d2a1c014cdb209c52895fa79",
+    "checkedAt": "2026-11-12T08:10:31.031Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ロッカイ",
+      "actual": "ロッカイ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 579
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "7階",
+        "reading": "ななかい",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "c92a8bfa2cc988014cc4",
+    "kind": "word",
+    "text": "7階",
+    "reading": "ななかい",
+    "displayReading": "ななかい",
+    "vi": "",
+    "path": "/audio/tts/c92a8bfa2cc988014cc4.wav",
+    "lessonIds": [
+      "mnn-03"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "7階",
+    "forcedReading": false,
+    "sha256": "51753942697f152a2d78f89f66ff525c3afcc80184e4de85554e5aba452db411",
+    "checkedAt": "2026-11-12T08:10:31.832Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ナナカイ",
+      "actual": "ナナカイ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 786
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "8階",
+        "reading": "はっかい",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "ca19afbf25d120a9d69c",
+    "kind": "word",
+    "text": "8階",
+    "reading": "はっかい",
+    "displayReading": "はっかい",
+    "vi": "",
+    "path": "/audio/tts/ca19afbf25d120a9d69c.wav",
+    "lessonIds": [
+      "mnn-03"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "8階",
+    "forcedReading": false,
+    "sha256": "a2e7d8f2850ff4cd104ef4f541244dfab33e91e3a37101579fc0273a9341ac8c",
+    "checkedAt": "2026-11-12T08:10:32.661Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ハッカイ",
+      "actual": "ハッカイ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 805
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "9階",
+        "reading": "きゅうかい",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "f87b31c670b162801e02",
+    "kind": "word",
+    "text": "9階",
+    "reading": "きゅうかい",
+    "displayReading": "きゅうかい",
+    "vi": "",
+    "path": "/audio/tts/f87b31c670b162801e02.wav",
+    "lessonIds": [
+      "mnn-03"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "9階",
+    "forcedReading": false,
+    "sha256": "ca33e0aed1492232252d664317df6b9dd11ec9a37c96d04ca9f954a54935265d",
+    "checkedAt": "2026-11-12T08:10:33.346Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "キュウカイ",
+      "actual": "キュウカイ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 665
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "10階",
+        "reading": "じゅっかい",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "1adf783654dd392a2654",
+    "kind": "word",
+    "text": "10階",
+    "reading": "じゅっかい",
+    "displayReading": "じゅっかい",
+    "vi": "",
+    "path": "/audio/tts/1adf783654dd392a2654.wav",
+    "lessonIds": [
+      "mnn-03"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "10階",
+    "forcedReading": false,
+    "sha256": "8db65e6c39d416f120fc884d9803566e5b7721becfddc47c747e154253f6a82c",
+    "checkedAt": "2026-11-12T08:10:34.063Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ジュッカイ",
+      "actual": "ジュッカイ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 690
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "1",
+        "reading": "いちじ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/018.html"
+      }
+    ],
+    "id": "77b47f355ae2f0415346",
+    "kind": "word",
+    "text": "1時",
+    "reading": "いちじ",
+    "displayReading": "いちじ",
+    "vi": "",
+    "path": "/audio/tts/77b47f355ae2f0415346.wav",
+    "lessonIds": [
+      "mnn-04"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "1時",
+    "forcedReading": false,
+    "sha256": "921ac464a92ba12236da4af08c8fb04605d41683ad3e25db1f492b0bd29be489",
+    "checkedAt": "2026-11-12T08:10:34.771Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "イチジ",
+      "actual": "イチジ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 680
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "2",
+        "reading": "にじ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/018.html"
+      }
+    ],
+    "id": "5aca0ba5e8881ae63602",
+    "kind": "word",
+    "text": "2時",
+    "reading": "にじ",
+    "displayReading": "にじ",
+    "vi": "",
+    "path": "/audio/tts/5aca0ba5e8881ae63602.wav",
+    "lessonIds": [
+      "mnn-04"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "2時",
+    "forcedReading": false,
+    "sha256": "c69c4b05469f2768d9b3af66d0a65220ec251fee905e7087542870e58ea9fcb3",
+    "checkedAt": "2026-11-12T08:10:35.391Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ニジ",
+      "actual": "ニジ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 597
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "3",
+        "reading": "さんじ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/018.html"
+      }
+    ],
+    "id": "22b4bf6965992b29811a",
+    "kind": "word",
+    "text": "3時",
+    "reading": "さんじ",
+    "displayReading": "さんじ",
+    "vi": "",
+    "path": "/audio/tts/22b4bf6965992b29811a.wav",
+    "lessonIds": [
+      "mnn-04"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "3時",
+    "forcedReading": false,
+    "sha256": "26543b326a2197123275ab0cf7d931f0b119879b93336aa6a0d4ecdf59f10800",
+    "checkedAt": "2026-11-12T08:10:36.085Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "サンジ",
+      "actual": "サンジ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 662
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "5",
+        "reading": "ごじ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/018.html"
+      }
+    ],
+    "id": "d4c3d5bd2b26697c78b1",
+    "kind": "word",
+    "text": "5時",
+    "reading": "ごじ",
+    "displayReading": "ごじ",
+    "vi": "",
+    "path": "/audio/tts/d4c3d5bd2b26697c78b1.wav",
+    "lessonIds": [
+      "mnn-04"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "5時",
+    "forcedReading": false,
+    "sha256": "4853d3c4a64b302328a700713dfbd34585644518d4630bf5439aa3613e314800",
+    "checkedAt": "2026-11-12T08:10:36.695Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ゴジ",
+      "actual": "ゴジ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 587
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "6",
+        "reading": "ろくじ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/018.html"
+      }
+    ],
+    "id": "209d848c9cacb3e0afd1",
+    "kind": "word",
+    "text": "6時",
+    "reading": "ろくじ",
+    "displayReading": "ろくじ",
+    "vi": "",
+    "path": "/audio/tts/209d848c9cacb3e0afd1.wav",
+    "lessonIds": [
+      "mnn-04"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "6時",
+    "forcedReading": false,
+    "sha256": "30e3bd4af96c58009ad08f51ed38a27521dc1025dad0eeaefe89ccbef57185fd",
+    "checkedAt": "2026-11-12T08:10:37.356Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ロクジ",
+      "actual": "ロクジ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 639
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "7",
+        "reading": "しちじ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/018.html"
+      }
+    ],
+    "id": "e95c744f899da18cf590",
+    "kind": "word",
+    "text": "7時",
+    "reading": "しちじ",
+    "displayReading": "しちじ",
+    "vi": "",
+    "path": "/audio/tts/e95c744f899da18cf590.wav",
+    "lessonIds": [
+      "mnn-04"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "7時",
+    "forcedReading": false,
+    "sha256": "67147af27b5b6b5423fe87fde655f988d781e0e51d2e373c4b64c8cdffc1b344",
+    "checkedAt": "2026-11-12T08:10:37.995Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "シチジ",
+      "actual": "シチジ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 621
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "8",
+        "reading": "はちじ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/018.html"
+      }
+    ],
+    "id": "aab190868d167d5cb2a8",
+    "kind": "word",
+    "text": "8時",
+    "reading": "はちじ",
+    "displayReading": "はちじ",
+    "vi": "",
+    "path": "/audio/tts/aab190868d167d5cb2a8.wav",
+    "lessonIds": [
+      "mnn-04"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "8時",
+    "forcedReading": false,
+    "sha256": "54d3f7f46374ac839a94d178c5c64a521125a9208ba4d380bea633c722b0d3c8",
+    "checkedAt": "2026-11-12T08:10:38.632Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ハチジ",
+      "actual": "ハチジ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 619
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "9",
+        "reading": "くじ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/018.html"
+      }
+    ],
+    "id": "7390d9388a4aab6ed88a",
+    "kind": "word",
+    "text": "9時",
+    "reading": "くじ",
+    "displayReading": "くじ",
+    "vi": "",
+    "path": "/audio/tts/7390d9388a4aab6ed88a.wav",
+    "lessonIds": [
+      "mnn-04"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "9時",
+    "forcedReading": false,
+    "sha256": "0ee55a4c6ca9099d67d66a2e7d250969d744e722093e2df324ef446d1496bfa1",
+    "checkedAt": "2026-11-12T08:10:39.207Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "クジ",
+      "actual": "クジ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 554
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "10",
+        "reading": "じゅうじ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/018.html"
+      }
+    ],
+    "id": "f7404c725e256c1a2ad1",
+    "kind": "word",
+    "text": "10時",
+    "reading": "じゅうじ",
+    "displayReading": "じゅうじ",
+    "vi": "",
+    "path": "/audio/tts/f7404c725e256c1a2ad1.wav",
+    "lessonIds": [
+      "mnn-04"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "10時",
+    "forcedReading": false,
+    "sha256": "d9fb1c945744a41e9668c468eac2f49765c9e903125772591170626caa523dc0",
+    "checkedAt": "2026-11-12T08:10:39.853Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ジュウジ",
+      "actual": "ジュウジ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 628
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "11",
+        "reading": "じゅういちじ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/018.html"
+      }
+    ],
+    "id": "9c5aaf0e7ac99543d7af",
+    "kind": "word",
+    "text": "11時",
+    "reading": "じゅういちじ",
+    "displayReading": "じゅういちじ",
+    "vi": "",
+    "path": "/audio/tts/9c5aaf0e7ac99543d7af.wav",
+    "lessonIds": [
+      "mnn-04"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "11時",
+    "forcedReading": false,
+    "sha256": "93bb7d19235dca3ac757759136c4c9296219c198f10ac0cdfed344c2aa07fe98",
+    "checkedAt": "2026-11-12T08:10:40.587Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ジュウイチジ",
+      "actual": "ジュウイチジ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 715
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "12",
+        "reading": "じゅうにじ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/018.html"
+      }
+    ],
+    "id": "d4faf65a827df3570218",
+    "kind": "word",
+    "text": "12時",
+    "reading": "じゅうにじ",
+    "displayReading": "じゅうにじ",
+    "vi": "",
+    "path": "/audio/tts/d4faf65a827df3570218.wav",
+    "lessonIds": [
+      "mnn-04"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "12時",
+    "forcedReading": false,
+    "sha256": "3a2af637b6cd5a5e6d2d26a58e9d7eace6e15faa9203c2209cfff999ed4bcb07",
+    "checkedAt": "2026-11-12T08:10:41.222Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ジュウニジ",
+      "actual": "ジュウニジ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 616
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "1分",
+        "reading": "いっぷん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/019.html"
+      }
+    ],
+    "id": "443990e0795f231da078",
+    "kind": "word",
+    "text": "1分",
+    "reading": "いっぷん",
+    "displayReading": "いっぷん",
+    "vi": "",
+    "path": "/audio/tts/443990e0795f231da078.wav",
+    "lessonIds": [
+      "mnn-04"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "1分",
+    "forcedReading": false,
+    "sha256": "f53a2c294f0290f1f9da9373b96ab1b8b766a7d965f6b212e1e54c4fac75f554",
+    "checkedAt": "2026-11-12T08:10:41.840Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "イップン",
+      "actual": "イップン",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 598
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "2分",
+        "reading": "にふん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/019.html"
+      }
+    ],
+    "id": "eccdbcd3a9974978a40c",
+    "kind": "word",
+    "text": "2分",
+    "reading": "にふん",
+    "displayReading": "にふん",
+    "vi": "",
+    "path": "/audio/tts/eccdbcd3a9974978a40c.wav",
+    "lessonIds": [
+      "mnn-04"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "2分",
+    "forcedReading": false,
+    "sha256": "5e28feb22416ca4f8db3fc4942b2b24e1534b99cbb1989a1973191864024b508",
+    "checkedAt": "2026-11-12T08:10:42.338Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ニフン",
+      "actual": "ニフン",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 477
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "3分",
+        "reading": "さんぷん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/019.html"
+      }
+    ],
+    "id": "e00f3604b074903c7b38",
+    "kind": "word",
+    "text": "3分",
+    "reading": "さんぷん",
+    "displayReading": "さんぷん",
+    "vi": "",
+    "path": "/audio/tts/e00f3604b074903c7b38.wav",
+    "lessonIds": [
+      "mnn-04"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "3分",
+    "forcedReading": false,
+    "sha256": "05ec3995b0fe604c6988984cd6bf70eaa71edcb915b18f3c3e771a35d1432e11",
+    "checkedAt": "2026-11-12T08:10:42.961Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "サンプン",
+      "actual": "サンプン",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 604
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "4分",
+        "reading": "よんぷん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/019.html"
+      }
+    ],
+    "id": "ee7391131728da3cdebc",
+    "kind": "word",
+    "text": "4分",
+    "reading": "よんぷん",
+    "displayReading": "よんぷん",
+    "vi": "",
+    "path": "/audio/tts/ee7391131728da3cdebc.wav",
+    "lessonIds": [
+      "mnn-04"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "4分",
+    "forcedReading": false,
+    "sha256": "afb3116ab6fd17a5da8efbc9df8c98dc5407b62d05060303a3f64cb95ebfe9fc",
+    "checkedAt": "2026-11-12T08:10:43.568Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ヨンプン",
+      "actual": "ヨンプン",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 586
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "5分",
+        "reading": "ごふん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/019.html"
+      }
+    ],
+    "id": "8490d792c6796b80e742",
+    "kind": "word",
+    "text": "5分",
+    "reading": "ごふん",
+    "displayReading": "ごふん",
+    "vi": "",
+    "path": "/audio/tts/8490d792c6796b80e742.wav",
+    "lessonIds": [
+      "mnn-04"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "5分",
+    "forcedReading": false,
+    "sha256": "dc566680d6c197dee3c0b27eeb7741b21085c45e1102288f2b2062620aea0c9f",
+    "checkedAt": "2026-11-12T08:10:44.108Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ゴフン",
+      "actual": "ゴフン",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 522
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "6分",
+        "reading": "ろっぷん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/019.html"
+      }
+    ],
+    "id": "8cde9345f780b334e479",
+    "kind": "word",
+    "text": "6分",
+    "reading": "ろっぷん",
+    "displayReading": "ろっぷん",
+    "vi": "",
+    "path": "/audio/tts/8cde9345f780b334e479.wav",
+    "lessonIds": [
+      "mnn-04"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "6分",
+    "forcedReading": false,
+    "sha256": "48a078a34f2d91e539fdf22b0bda40224cfc403bf4ff691e3c941ac8ee5a9fd6",
+    "checkedAt": "2026-11-12T08:10:44.677Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ロップン",
+      "actual": "ロップン",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 549
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "7分",
+        "reading": "ななふん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/019.html"
+      }
+    ],
+    "id": "2923eb031758aba5bafa",
+    "kind": "word",
+    "text": "7分",
+    "reading": "ななふん",
+    "displayReading": "ななふん",
+    "vi": "",
+    "path": "/audio/tts/2923eb031758aba5bafa.wav",
+    "lessonIds": [
+      "mnn-04"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "7分",
+    "forcedReading": false,
+    "sha256": "fecf6cb1eaa2ae992bea724b73bca7811805dd029bec99036f0cb1082ffee118",
+    "checkedAt": "2026-11-12T08:10:45.267Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ナナフン",
+      "actual": "ナナフン",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 573
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "8分",
+        "reading": "はっぷん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/019.html"
+      }
+    ],
+    "id": "0ccc7ebc069a59269096",
+    "kind": "word",
+    "text": "8分",
+    "reading": "はっぷん",
+    "displayReading": "はっぷん",
+    "vi": "",
+    "path": "/audio/tts/0ccc7ebc069a59269096.wav",
+    "lessonIds": [
+      "mnn-04"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "8分",
+    "forcedReading": false,
+    "sha256": "ba8487af658ebb5d9392a0c8dd238a41b86f0a722ce06296153a1b4d7d9c5856",
+    "checkedAt": "2026-11-12T08:10:45.921Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ハップン",
+      "actual": "ハップン",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 630
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "9分",
+        "reading": "きゅうふん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/019.html"
+      }
+    ],
+    "id": "978ab63af2c06417a654",
+    "kind": "word",
+    "text": "9分",
+    "reading": "きゅうふん",
+    "displayReading": "きゅうふん",
+    "vi": "",
+    "path": "/audio/tts/978ab63af2c06417a654.wav",
+    "lessonIds": [
+      "mnn-04"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "9分",
+    "forcedReading": false,
+    "sha256": "550e7bba456487649cbf8c4689bbff700975b938143a47a27379b51246b374b1",
+    "checkedAt": "2026-11-12T08:10:46.558Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "キュウフン",
+      "actual": "キュウフン",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 616
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "15分",
+        "reading": "じゅうごふん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/019.html"
+      }
+    ],
+    "id": "7059b6630a512bc9226b",
+    "kind": "word",
+    "text": "15分",
+    "reading": "じゅうごふん",
+    "displayReading": "じゅうごふん",
+    "vi": "",
+    "path": "/audio/tts/7059b6630a512bc9226b.wav",
+    "lessonIds": [
+      "mnn-04"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "15分",
+    "forcedReading": false,
+    "sha256": "589ec2c81f24b22736ce9332011ef41faa0c08370df81fe9e2368025e4574780",
+    "checkedAt": "2026-11-12T08:10:47.199Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ジュウゴフン",
+      "actual": "ジュウゴフン",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 622
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "30分",
+        "reading": "さんじゅっぷん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/019.html"
+      }
+    ],
+    "id": "4a1377328a8296e8614a",
+    "kind": "word",
+    "text": "30分",
+    "reading": "さんじゅっぷん",
+    "displayReading": "さんじゅっぷん",
+    "vi": "",
+    "path": "/audio/tts/4a1377328a8296e8614a.wav",
+    "lessonIds": [
+      "mnn-04"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "30分",
+    "forcedReading": false,
+    "sha256": "ef115da36f48a129053227b3a09b55a61b8136788719f02de236097747d27a89",
+    "checkedAt": "2026-11-12T08:10:47.905Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "サンジュップン",
+      "actual": "サンジュップン",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 689
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "4時半",
+        "reading": "よじはん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/019.html"
+      }
+    ],
+    "id": "1e58ee2c261a481a6fd6",
+    "kind": "word",
+    "text": "4時半",
+    "reading": "よじはん",
+    "displayReading": "よじはん",
+    "vi": "",
+    "path": "/audio/tts/1e58ee2c261a481a6fd6.wav",
+    "lessonIds": [
+      "mnn-04"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "4時半",
+    "forcedReading": false,
+    "sha256": "54b41a206c1f396fa6e20dff1aea83dc6161d5a1ce4c87c6d85419d44571a83e",
+    "checkedAt": "2026-11-12T08:10:48.617Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ヨジハン",
+      "actual": "ヨジハン",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 690
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "1月",
+        "reading": "いちがつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "a67f929a0d4c4e35ceae",
+    "kind": "word",
+    "text": "1月",
+    "reading": "いちがつ",
+    "displayReading": "いちがつ",
+    "vi": "",
+    "path": "/audio/tts/a67f929a0d4c4e35ceae.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "1月",
+    "forcedReading": false,
+    "sha256": "74d05c15be1dcd17e23a55b38898fd1a39ac0be2924328c8a1aacecdcc954872",
+    "checkedAt": "2026-11-12T08:10:49.249Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "イチガツ",
+      "actual": "イチガツ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 611
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "2月",
+        "reading": "にがつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "4716f756799dad7f6eab",
+    "kind": "word",
+    "text": "2月",
+    "reading": "にがつ",
+    "displayReading": "にがつ",
+    "vi": "",
+    "path": "/audio/tts/4716f756799dad7f6eab.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "2月",
+    "forcedReading": false,
+    "sha256": "770d9dca03c884e533cc9bc92ac4ef3ce0f3e38b21ab5666bb2fe736fb6e36ab",
+    "checkedAt": "2026-11-12T08:10:49.878Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ニガツ",
+      "actual": "ニガツ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 609
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "3月",
+        "reading": "さんがつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "496093081dc776dbdb2e",
+    "kind": "word",
+    "text": "3月",
+    "reading": "さんがつ",
+    "displayReading": "さんがつ",
+    "vi": "",
+    "path": "/audio/tts/496093081dc776dbdb2e.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "3月",
+    "forcedReading": false,
+    "sha256": "225bf376da007c03051fa03bf17c0f3ae7b4826268e3d9b58acec3ea6ad834cd",
+    "checkedAt": "2026-11-12T08:10:50.605Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "サンガツ",
+      "actual": "サンガツ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 706
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "5月",
+        "reading": "ごがつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "6f622d29da971aab7af3",
+    "kind": "word",
+    "text": "5月",
+    "reading": "ごがつ",
+    "displayReading": "ごがつ",
+    "vi": "",
+    "path": "/audio/tts/6f622d29da971aab7af3.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "5月",
+    "forcedReading": false,
+    "sha256": "91ddce0dee721379dfb0faf557d669338d4d3250357c779f7224929894fddb6c",
+    "checkedAt": "2026-11-12T08:10:51.198Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ゴガツ",
+      "actual": "ゴガツ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 569
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "6月",
+        "reading": "ろくがつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "e4a7b877a6a687b2e9ef",
+    "kind": "word",
+    "text": "6月",
+    "reading": "ろくがつ",
+    "displayReading": "ろくがつ",
+    "vi": "",
+    "path": "/audio/tts/e4a7b877a6a687b2e9ef.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "6月",
+    "forcedReading": false,
+    "sha256": "98f768ecd1c7599c56da97ec694d4c4b9eebf93d8535d6b36abd7c2966e65d3e",
+    "checkedAt": "2026-11-12T08:10:51.856Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ロクガツ",
+      "actual": "ロクガツ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 640
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "7月",
+        "reading": "しちがつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "c9fb13a7dce0fa62ef52",
+    "kind": "word",
+    "text": "7月",
+    "reading": "しちがつ",
+    "displayReading": "しちがつ",
+    "vi": "",
+    "path": "/audio/tts/c9fb13a7dce0fa62ef52.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "7月",
+    "forcedReading": false,
+    "sha256": "548362ae4991e55302d4cabca384481e03898d154bebb0a825fcc753dfc5ec29",
+    "checkedAt": "2026-11-12T08:10:52.536Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "シチガツ",
+      "actual": "シチガツ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 662
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "8月",
+        "reading": "はちがつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "71dfc6b974417e5e768a",
+    "kind": "word",
+    "text": "8月",
+    "reading": "はちがつ",
+    "displayReading": "はちがつ",
+    "vi": "",
+    "path": "/audio/tts/71dfc6b974417e5e768a.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "8月",
+    "forcedReading": false,
+    "sha256": "645a5018b3de8510af3563dadd89e4f35bd14a0ff0e305f6b018865cabfb1c46",
+    "checkedAt": "2026-11-12T08:10:53.232Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ハチガツ",
+      "actual": "ハチガツ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 677
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "9月",
+        "reading": "くがつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "da23d96d7dc8bac62060",
+    "kind": "word",
+    "text": "9月",
+    "reading": "くがつ",
+    "displayReading": "くがつ",
+    "vi": "",
+    "path": "/audio/tts/da23d96d7dc8bac62060.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "9月",
+    "forcedReading": false,
+    "sha256": "59b1effd8d36ed78de8dff1f569d1b42ec75d6bd0eb9a62f6c6c6b13300a19b5",
+    "checkedAt": "2026-11-12T08:10:53.846Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "クガツ",
+      "actual": "クガツ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 593
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "10月",
+        "reading": "じゅうがつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "aa5f124aa2b7fb441cf3",
+    "kind": "word",
+    "text": "10月",
+    "reading": "じゅうがつ",
+    "displayReading": "じゅうがつ",
+    "vi": "",
+    "path": "/audio/tts/aa5f124aa2b7fb441cf3.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "10月",
+    "forcedReading": false,
+    "sha256": "9b282c571a9fa22a0372e0ce58266192c784160338410309c171f5bdbc618fbc",
+    "checkedAt": "2026-11-12T08:10:54.501Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ジュウガツ",
+      "actual": "ジュウガツ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 632
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "11月",
+        "reading": "じゅういちがつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "0ad5a8c44d2f7cc14c32",
+    "kind": "word",
+    "text": "11月",
+    "reading": "じゅういちがつ",
+    "displayReading": "じゅういちがつ",
+    "vi": "",
+    "path": "/audio/tts/0ad5a8c44d2f7cc14c32.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "11月",
+    "forcedReading": false,
+    "sha256": "766b65993983fc4049bae07bafab87790fc77e159ba6da5de9f732670ccc5ef4",
+    "checkedAt": "2026-11-12T08:10:55.304Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ジュウイチガツ",
+      "actual": "ジュウイチガツ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 782
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "12月",
+        "reading": "じゅうにがつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "fa0bb00f94b183055685",
+    "kind": "word",
+    "text": "12月",
+    "reading": "じゅうにがつ",
+    "displayReading": "じゅうにがつ",
+    "vi": "",
+    "path": "/audio/tts/fa0bb00f94b183055685.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "12月",
+    "forcedReading": false,
+    "sha256": "109cd51d92772662c6f8991253109a89d3407e030865dc2081c1475bd32b6801",
+    "checkedAt": "2026-11-12T08:10:56.047Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ジュウニガツ",
+      "actual": "ジュウニガツ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 723
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "2日",
+        "reading": "ふつか",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "777e17c0eea099091534",
+    "kind": "word",
+    "text": "2日",
+    "reading": "ふつか",
+    "displayReading": "ふつか",
+    "vi": "",
+    "path": "/audio/tts/777e17c0eea099091534.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "2日",
+    "forcedReading": false,
+    "sha256": "25a4d2d3ab2c803fe76a1c0bac4430b82f6d111ff8867c73740ee6cd1b7f1da1",
+    "checkedAt": "2026-11-12T08:10:56.639Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "フツカ",
+      "actual": "フツカ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 568
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "3日",
+        "reading": "みっか",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "b1ecea9e32507213fbb5",
+    "kind": "word",
+    "text": "3日",
+    "reading": "みっか",
+    "displayReading": "みっか",
+    "vi": "",
+    "path": "/audio/tts/b1ecea9e32507213fbb5.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "3日",
+    "forcedReading": false,
+    "sha256": "96e8e1c53f0043872c57287e159a62cee1f0320a835640f974f2b0e447948c2e",
+    "checkedAt": "2026-11-12T08:10:57.271Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ミッカ",
+      "actual": "ミッカ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 615
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "4日",
+        "reading": "よっか",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "e49e12cdaedfa2820a29",
+    "kind": "word",
+    "text": "4日",
+    "reading": "よっか",
+    "displayReading": "よっか",
+    "vi": "",
+    "path": "/audio/tts/e49e12cdaedfa2820a29.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "4日",
+    "forcedReading": false,
+    "sha256": "b37b5cdda352c83e55c022ec6277c09c06e7350a697f8737e1510af5051ecbc3",
+    "checkedAt": "2026-11-12T08:10:57.917Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ヨッカ",
+      "actual": "ヨッカ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 626
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "5日",
+        "reading": "いつか",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "a9946490698c8bf492f5",
+    "kind": "word",
+    "text": "5日",
+    "reading": "いつか",
+    "displayReading": "いつか",
+    "vi": "",
+    "path": "/audio/tts/a9946490698c8bf492f5.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "5日",
+    "forcedReading": false,
+    "sha256": "d6d9c79b3f12ca4cca3bc99eb5f3573f8a94c8221b1b8924f3a474119e5a474d",
+    "checkedAt": "2026-11-12T08:10:58.493Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "イツカ",
+      "actual": "イツカ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 556
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "6日",
+        "reading": "むいか",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "7ac768fd3dfb090d811d",
+    "kind": "word",
+    "text": "6日",
+    "reading": "むいか",
+    "displayReading": "むいか",
+    "vi": "",
+    "path": "/audio/tts/7ac768fd3dfb090d811d.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "6日",
+    "forcedReading": false,
+    "sha256": "fd676e3babcf5c5238b84d4c687568e92ecbd368fa9b67de69903162fe09fecb",
+    "checkedAt": "2026-11-12T08:10:59.038Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ムイカ",
+      "actual": "ムイカ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 526
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "7日",
+        "reading": "なのか",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "920a30f474c1fbd5182b",
+    "kind": "word",
+    "text": "7日",
+    "reading": "なのか",
+    "displayReading": "なのか",
+    "vi": "",
+    "path": "/audio/tts/920a30f474c1fbd5182b.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "7日",
+    "forcedReading": false,
+    "sha256": "88d70d9e629baadf01f99e74df2cd4105edc7f9597c9bf66d22aff0fc157d79e",
+    "checkedAt": "2026-11-12T08:10:59.672Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ナノカ",
+      "actual": "ナノカ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 611
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "9日",
+        "reading": "ここのか",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "e4cff2d461e5e65962b9",
+    "kind": "word",
+    "text": "9日",
+    "reading": "ここのか",
+    "displayReading": "ここのか",
+    "vi": "",
+    "path": "/audio/tts/e4cff2d461e5e65962b9.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "9日",
+    "forcedReading": false,
+    "sha256": "e322ad10016365cbe6ebc960afcffd7f5333648c7d829ff29a8077056ecdad0c",
+    "checkedAt": "2026-11-12T08:11:00.406Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ココノカ",
+      "actual": "ココノカ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 714
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "10日",
+        "reading": "とおか",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "f7dbf034d6cdfced8b55",
+    "kind": "word",
+    "text": "10日",
+    "reading": "とおか",
+    "displayReading": "とおか",
+    "vi": "",
+    "path": "/audio/tts/f7dbf034d6cdfced8b55.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "10日",
+    "forcedReading": false,
+    "sha256": "a1b80e938100bf8f46538f5a9901ba652141a14bf27c3c1a352485d195285a5f",
+    "checkedAt": "2026-11-12T08:11:01.162Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "トオカ",
+      "actual": "トオカ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 736
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "11日",
+        "reading": "じゅういちにち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "6c0665eda2605f2a2432",
+    "kind": "word",
+    "text": "11日",
+    "reading": "じゅういちにち",
+    "displayReading": "じゅういちにち",
+    "vi": "",
+    "path": "/audio/tts/6c0665eda2605f2a2432.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "11日",
+    "forcedReading": false,
+    "sha256": "3a3543b999b8fbd9e30b34e01e21658939b817b966e97884519cbc0e9ee6ebb9",
+    "checkedAt": "2026-11-12T08:11:02.642Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ジュウイチニチ",
+      "actual": "ジュウイチニチ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 1431
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "12日",
+        "reading": "じゅうににち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "6af1559186675975e86b",
+    "kind": "word",
+    "text": "12日",
+    "reading": "じゅうににち",
+    "displayReading": "じゅうににち",
+    "vi": "",
+    "path": "/audio/tts/6af1559186675975e86b.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "12日",
+    "forcedReading": false,
+    "sha256": "64f173cdd08d7b214d5d2d683dc6f557f140f81bb21614c28aa55b3cb9d397fc",
+    "checkedAt": "2026-11-12T08:11:03.952Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ジュウニニチ",
+      "actual": "ジュウニニチ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 1259
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "13日",
+        "reading": "じゅうさんにち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "c7c73cce5dfaf6becdeb",
+    "kind": "word",
+    "text": "13日",
+    "reading": "じゅうさんにち",
+    "displayReading": "じゅうさんにち",
+    "vi": "",
+    "path": "/audio/tts/c7c73cce5dfaf6becdeb.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "13日",
+    "forcedReading": false,
+    "sha256": "e4bbf92cdc6c97aed1e72cd6e5c3338b476260fd0189c95c5c8dd9ed6f36579e",
+    "checkedAt": "2026-11-12T08:11:05.283Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ジュウサンニチ",
+      "actual": "ジュウサンニチ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 1295
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "15日",
+        "reading": "じゅうごにち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "ea57a518ade3c46028dc",
+    "kind": "word",
+    "text": "15日",
+    "reading": "じゅうごにち",
+    "displayReading": "じゅうごにち",
+    "vi": "",
+    "path": "/audio/tts/ea57a518ade3c46028dc.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "15日",
+    "forcedReading": false,
+    "sha256": "b7669c8f2b9ba55512c47407dfc9d6ffd8cabbe79199f67ffb91f3e7e9e7256a",
+    "checkedAt": "2026-11-12T08:11:06.231Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ジュウゴニチ",
+      "actual": "ジュウゴニチ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 917
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "16日",
+        "reading": "じゅうろくにち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "c160acbc54c1b26bf63f",
+    "kind": "word",
+    "text": "16日",
+    "reading": "じゅうろくにち",
+    "displayReading": "じゅうろくにち",
+    "vi": "",
+    "path": "/audio/tts/c160acbc54c1b26bf63f.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "16日",
+    "forcedReading": false,
+    "sha256": "82deb731ab92d3292106a05c13faad87c01ec23e5e31209ec0401545e47b50df",
+    "checkedAt": "2026-11-12T08:11:07.132Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ジュウロクニチ",
+      "actual": "ジュウロクニチ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 877
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "17日",
+        "reading": "じゅうしちにち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "6d988e92f05416c94a8b",
+    "kind": "word",
+    "text": "17日",
+    "reading": "じゅうしちにち",
+    "displayReading": "じゅうしちにち",
+    "vi": "",
+    "path": "/audio/tts/6d988e92f05416c94a8b.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "17日",
+    "forcedReading": false,
+    "sha256": "f27c39bdd4e778223f208659d1ca5db9040148ae163a45b0b10c7e88eb076a40",
+    "checkedAt": "2026-11-12T08:11:08.006Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ジュウシチニチ",
+      "actual": "ジュウシチニチ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 850
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "18日",
+        "reading": "じゅうはちにち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "904c55bda25b87e0de78",
+    "kind": "word",
+    "text": "18日",
+    "reading": "じゅうはちにち",
+    "displayReading": "じゅうはちにち",
+    "vi": "",
+    "path": "/audio/tts/904c55bda25b87e0de78.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "18日",
+    "forcedReading": false,
+    "sha256": "6384438b8cf9f2d21cdd76d017880a4a5b96f86c221db1dd8c841130c19d10b1",
+    "checkedAt": "2026-11-12T08:11:08.970Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ジュウハチニチ",
+      "actual": "ジュウハチニチ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 941
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "19日",
+        "reading": "じゅうくにち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "da8a0afb9a6b588030a4",
+    "kind": "word",
+    "text": "19日",
+    "reading": "じゅうくにち",
+    "displayReading": "じゅうくにち",
+    "vi": "",
+    "path": "/audio/tts/da8a0afb9a6b588030a4.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "19日",
+    "forcedReading": false,
+    "sha256": "6fa86f7edd4f92387ea6659cd526146c2f28d8c18f26ffc2c9802d07dc218370",
+    "checkedAt": "2026-11-12T08:11:09.836Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ジュウクニチ",
+      "actual": "ジュウクニチ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 845
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "21日",
+        "reading": "にじゅういちにち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "5005b70f88e87e19c715",
+    "kind": "word",
+    "text": "21日",
+    "reading": "にじゅういちにち",
+    "displayReading": "にじゅういちにち",
+    "vi": "",
+    "path": "/audio/tts/5005b70f88e87e19c715.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "21日",
+    "forcedReading": false,
+    "sha256": "2ed2d3a2ef641155a6fa07d8020489bd16278fd15a63f98a9d71b38f0c3b20ff",
+    "checkedAt": "2026-11-12T08:11:10.893Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ニジュウイチニチ",
+      "actual": "ニジュウイチニチ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 1030
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "22日",
+        "reading": "にじゅうににち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "8cfc5ed7a78bbf2a2b5b",
+    "kind": "word",
+    "text": "22日",
+    "reading": "にじゅうににち",
+    "displayReading": "にじゅうににち",
+    "vi": "",
+    "path": "/audio/tts/8cfc5ed7a78bbf2a2b5b.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "22日",
+    "forcedReading": false,
+    "sha256": "e1b95d3dfb3743d1a20550afaa4e5c476529fd417969c2da4f1dde2cc17860e2",
+    "checkedAt": "2026-11-12T08:11:11.752Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ニジュウニニチ",
+      "actual": "ニジュウニニチ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 825
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "23日",
+        "reading": "にじゅうさんにち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "c9a9c5d263cb49b419f0",
+    "kind": "word",
+    "text": "23日",
+    "reading": "にじゅうさんにち",
+    "displayReading": "にじゅうさんにち",
+    "vi": "",
+    "path": "/audio/tts/c9a9c5d263cb49b419f0.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "23日",
+    "forcedReading": false,
+    "sha256": "e9b941ab2de4fd1226f18b3b13433c3b84768fd1b69c99fa8298deb6dcf95efa",
+    "checkedAt": "2026-11-12T08:11:12.630Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ニジュウサンニチ",
+      "actual": "ニジュウサンニチ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 859
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "25日",
+        "reading": "にじゅうごにち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "07369b6e715f1c4303ec",
+    "kind": "word",
+    "text": "25日",
+    "reading": "にじゅうごにち",
+    "displayReading": "にじゅうごにち",
+    "vi": "",
+    "path": "/audio/tts/07369b6e715f1c4303ec.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "25日",
+    "forcedReading": false,
+    "sha256": "49c7fc662fc5722e436a849a8fcb7e74b9ae6ede51e4378133e961edc37d77e6",
+    "checkedAt": "2026-11-12T08:11:13.619Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ニジュウゴニチ",
+      "actual": "ニジュウゴニチ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 966
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "26日",
+        "reading": "にじゅうろくにち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "3eddbb311ab75c2171fa",
+    "kind": "word",
+    "text": "26日",
+    "reading": "にじゅうろくにち",
+    "displayReading": "にじゅうろくにち",
+    "vi": "",
+    "path": "/audio/tts/3eddbb311ab75c2171fa.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "26日",
+    "forcedReading": false,
+    "sha256": "2b044a1ccf1a57b7c7a68b4679dd671f64c79ecac487e9dd3d4d8463a5c13113",
+    "checkedAt": "2026-11-12T08:11:14.605Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ニジュウロクニチ",
+      "actual": "ニジュウロクニチ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 957
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "27日",
+        "reading": "にじゅうしちにち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "e9111d6cadcba5fec3ed",
+    "kind": "word",
+    "text": "27日",
+    "reading": "にじゅうしちにち",
+    "displayReading": "にじゅうしちにち",
+    "vi": "",
+    "path": "/audio/tts/e9111d6cadcba5fec3ed.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "27日",
+    "forcedReading": false,
+    "sha256": "bff72b8c3a0dd6c6ce66f257180029cd4cf0dee3740a439dbe69e911895c1c6c",
+    "checkedAt": "2026-11-12T08:11:15.625Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ニジュウシチニチ",
+      "actual": "ニジュウシチニチ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 998
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "28日",
+        "reading": "にじゅうはちにち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "eac1caf26e7817ee3786",
+    "kind": "word",
+    "text": "28日",
+    "reading": "にじゅうはちにち",
+    "displayReading": "にじゅうはちにち",
+    "vi": "",
+    "path": "/audio/tts/eac1caf26e7817ee3786.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "28日",
+    "forcedReading": false,
+    "sha256": "09b6057a9a6d8b1a265ff155eaed46ad9767167e09f1761109d964cc2a543e1e",
+    "checkedAt": "2026-11-12T08:11:16.669Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ニジュウハチニチ",
+      "actual": "ニジュウハチニチ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 1015
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "29日",
+        "reading": "にじゅうくにち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "d21b4ee6d25a802b15e5",
+    "kind": "word",
+    "text": "29日",
+    "reading": "にじゅうくにち",
+    "displayReading": "にじゅうくにち",
+    "vi": "",
+    "path": "/audio/tts/d21b4ee6d25a802b15e5.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "29日",
+    "forcedReading": false,
+    "sha256": "ba4ff03c65715558075a5fc13a30c10fbb530d0a83292886c06432450bd84c88",
+    "checkedAt": "2026-11-12T08:11:17.540Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ニジュウクニチ",
+      "actual": "ニジュウクニチ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 847
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "30日",
+        "reading": "さんじゅうにち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "04c478d16ef93e77d752",
+    "kind": "word",
+    "text": "30日",
+    "reading": "さんじゅうにち",
+    "displayReading": "さんじゅうにち",
+    "vi": "",
+    "path": "/audio/tts/04c478d16ef93e77d752.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "30日",
+    "forcedReading": false,
+    "sha256": "c65fa10b5e1cbac82268910547768c409d6d05698d87f192129b429bec5e520b",
+    "checkedAt": "2026-11-12T08:11:18.448Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "サンジュウニチ",
+      "actual": "サンジュウニチ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 885
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "31日",
+        "reading": "さんじゅういちにち",
+        "context": "calendar-date",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/022.html"
+      }
+    ],
+    "id": "5e1d5cdc28096b3fb3fb",
+    "kind": "word",
+    "text": "31日",
+    "reading": "さんじゅういちにち",
+    "displayReading": "さんじゅういちにち",
+    "vi": "",
+    "path": "/audio/tts/5e1d5cdc28096b3fb3fb.wav",
+    "lessonIds": [
+      "mnn-05"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "31日",
+    "forcedReading": false,
+    "sha256": "e14466ff2d3be7df0d8bd7708ca6f052451719cbf465f04e20d9840b02c08130",
+    "checkedAt": "2026-11-12T08:11:19.579Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "サンジュウイチニチ",
+      "actual": "サンジュウイチニチ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 1103
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "1つ",
+        "reading": "ひとつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "b62f82683c940aeff1ad",
+    "kind": "word",
+    "text": "1つ",
+    "reading": "ひとつ",
+    "displayReading": "ひとつ",
+    "vi": "",
+    "path": "/audio/tts/b62f82683c940aeff1ad.wav",
+    "lessonIds": [
+      "mnn-11"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "1つ",
+    "forcedReading": false,
+    "sha256": "5c7c26d229c7a06ee749640fb4c6d5ac0dc3eca1123ed30d6612a71026144726",
+    "checkedAt": "2026-11-12T08:11:20.289Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ヒトツ",
+      "actual": "ヒトツ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 688
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "2つ",
+        "reading": "ふたつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "b182b6f0a4b0917b6e44",
+    "kind": "word",
+    "text": "2つ",
+    "reading": "ふたつ",
+    "displayReading": "ふたつ",
+    "vi": "",
+    "path": "/audio/tts/b182b6f0a4b0917b6e44.wav",
+    "lessonIds": [
+      "mnn-11"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "2つ",
+    "forcedReading": false,
+    "sha256": "c50927030a76331a1ca19aba0c5abd4d0f63dfaa16f21a388b1c147d660b59bd",
+    "checkedAt": "2026-11-12T08:11:21.040Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "フタツ",
+      "actual": "フタツ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 726
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "3つ",
+        "reading": "みっつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "9a0f2b95867b9ffae5a0",
+    "kind": "word",
+    "text": "3つ",
+    "reading": "みっつ",
+    "displayReading": "みっつ",
+    "vi": "",
+    "path": "/audio/tts/9a0f2b95867b9ffae5a0.wav",
+    "lessonIds": [
+      "mnn-11"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "3つ",
+    "forcedReading": false,
+    "sha256": "2f758952310a1e7426a15d96d9e38485e777ca0577e00be53235e39c8e2a4dd0",
+    "checkedAt": "2026-11-12T08:11:21.759Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ミッツ",
+      "actual": "ミッツ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 689
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "4つ",
+        "reading": "よっつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "47ede2a65a4b63d7efb7",
+    "kind": "word",
+    "text": "4つ",
+    "reading": "よっつ",
+    "displayReading": "よっつ",
+    "vi": "",
+    "path": "/audio/tts/47ede2a65a4b63d7efb7.wav",
+    "lessonIds": [
+      "mnn-11"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "4つ",
+    "forcedReading": false,
+    "sha256": "f23b08ff40993818a85b407c7325dd62b8dbd958e8ab5d64cb334488a0709831",
+    "checkedAt": "2026-11-12T08:11:22.445Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ヨッツ",
+      "actual": "ヨッツ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 660
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "5つ",
+        "reading": "いつつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "2e6ba6b6d1417186ad2a",
+    "kind": "word",
+    "text": "5つ",
+    "reading": "いつつ",
+    "displayReading": "いつつ",
+    "vi": "",
+    "path": "/audio/tts/2e6ba6b6d1417186ad2a.wav",
+    "lessonIds": [
+      "mnn-11"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "5つ",
+    "forcedReading": false,
+    "sha256": "b766bcbfdd3efb883b2acc0a32bdd22b48a52fc90b3a994affffc959e04e912c",
+    "checkedAt": "2026-11-12T08:11:23.067Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "イツツ",
+      "actual": "イツツ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 596
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "6つ",
+        "reading": "むっつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "b2d1766250ca55ae05af",
+    "kind": "word",
+    "text": "6つ",
+    "reading": "むっつ",
+    "displayReading": "むっつ",
+    "vi": "",
+    "path": "/audio/tts/b2d1766250ca55ae05af.wav",
+    "lessonIds": [
+      "mnn-11"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "6つ",
+    "forcedReading": false,
+    "sha256": "c057c4c33ba6e0c558285cc79f185ca7f7ef02757a24cfa902785990219433d0",
+    "checkedAt": "2026-11-12T08:11:23.754Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ムッツ",
+      "actual": "ムッツ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 665
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "7つ",
+        "reading": "ななつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "e75e2a596b4fba31b202",
+    "kind": "word",
+    "text": "7つ",
+    "reading": "ななつ",
+    "displayReading": "ななつ",
+    "vi": "",
+    "path": "/audio/tts/e75e2a596b4fba31b202.wav",
+    "lessonIds": [
+      "mnn-11"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "7つ",
+    "forcedReading": false,
+    "sha256": "4a9f6c863bd56a4e2df805008ace71d5972e1f10f086bef0fdc8d25c8faa4bc3",
+    "checkedAt": "2026-11-12T08:11:24.416Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ナナツ",
+      "actual": "ナナツ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 640
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "8つ",
+        "reading": "やっつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "81328b0d91a48c9bc389",
+    "kind": "word",
+    "text": "8つ",
+    "reading": "やっつ",
+    "displayReading": "やっつ",
+    "vi": "",
+    "path": "/audio/tts/81328b0d91a48c9bc389.wav",
+    "lessonIds": [
+      "mnn-11"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "8つ",
+    "forcedReading": false,
+    "sha256": "1da85d2ceb7c9e4f002d66d8d3e19facb115108d3127358ee971c653a9ad9fae",
+    "checkedAt": "2026-11-12T08:11:25.106Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ヤッツ",
+      "actual": "ヤッツ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 663
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "9つ",
+        "reading": "ここのつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "401c57cbdde9040d0b10",
+    "kind": "word",
+    "text": "9つ",
+    "reading": "ここのつ",
+    "displayReading": "ここのつ",
+    "vi": "",
+    "path": "/audio/tts/401c57cbdde9040d0b10.wav",
+    "lessonIds": [
+      "mnn-11"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "9つ",
+    "forcedReading": false,
+    "sha256": "7cf736700a8ffa349d2da90ecbcb0eed6ac4f172a8623310e8c7c0800b733649",
+    "checkedAt": "2026-11-12T08:11:25.866Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ココノツ",
+      "actual": "ココノツ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 739
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "10",
+        "reading": "とお",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "24adc8231f486094893c",
+    "kind": "word",
+    "text": "10",
+    "reading": "とお",
+    "displayReading": "とお",
+    "vi": "",
+    "path": "/audio/tts/24adc8231f486094893c.wav",
+    "lessonIds": [
+      "mnn-11"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "とお",
+    "forcedReading": true,
+    "sha256": "18de8edca1c21d1f5a566b58be5bad8fc30d5c302f2d18b00b51dc60e9c542f6",
+    "checkedAt": "2026-11-12T08:11:26.453Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "トオ",
+      "actual": "トオ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 566
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "2人",
+        "reading": "ふたり",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "bdd8c297ccf5226b41c5",
+    "kind": "word",
+    "text": "2人",
+    "reading": "ふたり",
+    "displayReading": "ふたり",
+    "vi": "",
+    "path": "/audio/tts/bdd8c297ccf5226b41c5.wav",
+    "lessonIds": [
+      "mnn-11"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "2人",
+    "forcedReading": false,
+    "sha256": "9cf06a7000e9b784fb0afea2cb74fa818283becad52ca6295ba96c70e3bad22f",
+    "checkedAt": "2026-11-12T08:11:27.070Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "フタリ",
+      "actual": "フタリ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 592
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "3人",
+        "reading": "さんにん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "29a1780159fa762ce72d",
+    "kind": "word",
+    "text": "3人",
+    "reading": "さんにん",
+    "displayReading": "さんにん",
+    "vi": "",
+    "path": "/audio/tts/29a1780159fa762ce72d.wav",
+    "lessonIds": [
+      "mnn-11"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "3人",
+    "forcedReading": false,
+    "sha256": "22a50b3f05b8880e3ed4ff439b23f28c84b53484a4151236593129646824884a",
+    "checkedAt": "2026-11-12T08:11:27.797Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "サンニン",
+      "actual": "サンニン",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 705
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "5人",
+        "reading": "ごにん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "b1ecbb5e52a6ac8cd5eb",
+    "kind": "word",
+    "text": "5人",
+    "reading": "ごにん",
+    "displayReading": "ごにん",
+    "vi": "",
+    "path": "/audio/tts/b1ecbb5e52a6ac8cd5eb.wav",
+    "lessonIds": [
+      "mnn-11"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "5人",
+    "forcedReading": false,
+    "sha256": "697ba86b86e47a8247e0ec181fdda9aef38503d2953a310741d5e57848c0b027",
+    "checkedAt": "2026-11-12T08:11:28.391Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ゴニン",
+      "actual": "ゴニン",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 567
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "6人",
+        "reading": "ろくにん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "de952ba92c54be45d60b",
+    "kind": "word",
+    "text": "6人",
+    "reading": "ろくにん",
+    "displayReading": "ろくにん",
+    "vi": "",
+    "path": "/audio/tts/de952ba92c54be45d60b.wav",
+    "lessonIds": [
+      "mnn-11"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "6人",
+    "forcedReading": false,
+    "sha256": "166eeaeb5dd32d03bb35d9f004059c58dceb142a028465bd3c1aa3ae95705ee2",
+    "checkedAt": "2026-11-12T08:11:29.087Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ロクニン",
+      "actual": "ロクニン",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 673
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "7人",
+        "reading": "ななにん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "08055d72af83aa4cb3f5",
+    "kind": "word",
+    "text": "7人",
+    "reading": "ななにん",
+    "displayReading": "ななにん",
+    "vi": "",
+    "path": "/audio/tts/08055d72af83aa4cb3f5.wav",
+    "lessonIds": [
+      "mnn-11"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "ななにん",
+    "forcedReading": true,
+    "sha256": "9be247def2665c2cd4fcd5244cb9091754abc116b2cffbed137ada917d67bc09",
+    "checkedAt": "2026-11-12T08:11:29.783Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ナナニン",
+      "actual": "ナナニン",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 670
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "8人",
+        "reading": "はちにん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "4823f12878e3f6d00721",
+    "kind": "word",
+    "text": "8人",
+    "reading": "はちにん",
+    "displayReading": "はちにん",
+    "vi": "",
+    "path": "/audio/tts/4823f12878e3f6d00721.wav",
+    "lessonIds": [
+      "mnn-11"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "8人",
+    "forcedReading": false,
+    "sha256": "87d26af475da4f5b948fc8cf18eeb386e228a37ad024108e64d6c5484d516e8b",
+    "checkedAt": "2026-11-12T08:11:30.476Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ハチニン",
+      "actual": "ハチニン",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 670
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "9人",
+        "reading": "きゅうにん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "15c63329d8bc080f3a2f",
+    "kind": "word",
+    "text": "9人",
+    "reading": "きゅうにん",
+    "displayReading": "きゅうにん",
+    "vi": "",
+    "path": "/audio/tts/15c63329d8bc080f3a2f.wav",
+    "lessonIds": [
+      "mnn-11"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "9人",
+    "forcedReading": false,
+    "sha256": "cc35d4dffdabae9a5e98ed1a36e010bd484cdf4c1f606704d3913736c8f870d5",
+    "checkedAt": "2026-11-12T08:11:31.186Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "キュウニン",
+      "actual": "キュウニン",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 688
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 0,
+        "label": "10人",
+        "reading": "じゅうにん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "094990f2e91fdbd77760",
+    "kind": "word",
+    "text": "10人",
+    "reading": "じゅうにん",
+    "displayReading": "じゅうにん",
+    "vi": "",
+    "path": "/audio/tts/094990f2e91fdbd77760.wav",
+    "lessonIds": [
+      "mnn-11"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "10人",
+    "forcedReading": false,
+    "sha256": "41db68871d9758f6b3f35be46e4d387a6755c61f97a0a14c54dbc321b964c8b2",
+    "checkedAt": "2026-11-12T08:11:31.834Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ジュウニン",
+      "actual": "ジュウニン",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 626
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "1冊",
+        "reading": "いっさつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "c46551b78c681ea192e3",
+    "kind": "word",
+    "text": "1冊",
+    "reading": "いっさつ",
+    "displayReading": "いっさつ",
+    "vi": "",
+    "path": "/audio/tts/c46551b78c681ea192e3.wav",
+    "lessonIds": [
+      "mnn-11"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "1冊",
+    "forcedReading": false,
+    "sha256": "6dd786d8a521d98c3396efd47fa567231619f3cb60be3e66b00c0a253f81a344",
+    "checkedAt": "2026-11-12T08:11:32.568Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "イッサツ",
+      "actual": "イッサツ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 705
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "8冊",
+        "reading": "はっさつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "6d9dba073bf294238aa8",
+    "kind": "word",
+    "text": "8冊",
+    "reading": "はっさつ",
+    "displayReading": "はっさつ",
+    "vi": "",
+    "path": "/audio/tts/6d9dba073bf294238aa8.wav",
+    "lessonIds": [
+      "mnn-11"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "8冊",
+    "forcedReading": false,
+    "sha256": "6a1e484d26959b3ccec23564ea7238dd35aac519df5396e4416c1a9b312af8e9",
+    "checkedAt": "2026-11-12T08:11:33.338Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ハッサツ",
+      "actual": "ハッサツ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 746
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "10冊",
+        "reading": "じゅっさつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "74aa138e3fbee7e1e936",
+    "kind": "word",
+    "text": "10冊",
+    "reading": "じゅっさつ",
+    "displayReading": "じゅっさつ",
+    "vi": "",
+    "path": "/audio/tts/74aa138e3fbee7e1e936.wav",
+    "lessonIds": [
+      "mnn-11"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "10冊",
+    "forcedReading": false,
+    "sha256": "58b8aa39098a45427a9b5f37fba1044e577c229bd8baf7f9e0fadd8581509b73",
+    "checkedAt": "2026-11-12T08:11:34.163Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ジュッサツ",
+      "actual": "ジュッサツ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 791
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "1回",
+        "reading": "いっかい",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "91e85b1831401dbe2a91",
+    "kind": "word",
+    "text": "1回",
+    "reading": "いっかい",
+    "displayReading": "いっかい",
+    "vi": "",
+    "path": "/audio/tts/91e85b1831401dbe2a91.wav",
+    "lessonIds": [
+      "mnn-11"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "1回",
+    "forcedReading": false,
+    "sha256": "7a4bf5b40561dcf25566c6078528940d7ec7d89616e85a05982960f9e3084120",
+    "checkedAt": "2026-11-12T08:11:34.885Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "イッカイ",
+      "actual": "イッカイ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 690
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "6回",
+        "reading": "ろっかい",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "c18a8ea8566adb733855",
+    "kind": "word",
+    "text": "6回",
+    "reading": "ろっかい",
+    "displayReading": "ろっかい",
+    "vi": "",
+    "path": "/audio/tts/c18a8ea8566adb733855.wav",
+    "lessonIds": [
+      "mnn-11"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "6回",
+    "forcedReading": false,
+    "sha256": "3258ce8d89fc944ff61aefd41fa6ce6522a4082039662bbc2f759a67aa7621ae",
+    "checkedAt": "2026-11-12T08:11:35.582Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ロッカイ",
+      "actual": "ロッカイ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 674
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "10回",
+        "reading": "じゅっかい",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "7797a0d8d43d55de120d",
+    "kind": "word",
+    "text": "10回",
+    "reading": "じゅっかい",
+    "displayReading": "じゅっかい",
+    "vi": "",
+    "path": "/audio/tts/7797a0d8d43d55de120d.wav",
+    "lessonIds": [
+      "mnn-11"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "10回",
+    "forcedReading": false,
+    "sha256": "2ecb137a3559d1d42a6e6964b13b5476926e285d0fb6b5290cc0b72a650eb00e",
+    "checkedAt": "2026-11-12T08:11:36.314Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ジュッカイ",
+      "actual": "ジュッカイ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 707
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "1時間",
+        "reading": "いちじかん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "62b3b3e39d2ba834ee5c",
+    "kind": "word",
+    "text": "1時間",
+    "reading": "いちじかん",
+    "displayReading": "いちじかん",
+    "vi": "",
+    "path": "/audio/tts/62b3b3e39d2ba834ee5c.wav",
+    "lessonIds": [
+      "mnn-11"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "1時間",
+    "forcedReading": false,
+    "sha256": "f76a141b33dd7ac26bb5861575e7873c4b08683543753f2c5e43949bac851c8d",
+    "checkedAt": "2026-11-12T08:11:37.104Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "イチジカン",
+      "actual": "イチジカン",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 764
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "2時間",
+        "reading": "にじかん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "d47a108f40d8d836b62b",
+    "kind": "word",
+    "text": "2時間",
+    "reading": "にじかん",
+    "displayReading": "にじかん",
+    "vi": "",
+    "path": "/audio/tts/d47a108f40d8d836b62b.wav",
+    "lessonIds": [
+      "mnn-11"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "2時間",
+    "forcedReading": false,
+    "sha256": "f83c7fba67f64e6660f49232ac1c70139f8b1c5e8115a4dbf6c2509909c04f03",
+    "checkedAt": "2026-11-12T08:11:37.946Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "ニジカン",
+      "actual": "ニジカン",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 810
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "2日間",
+        "reading": "ふつかかん",
+        "context": "duration",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "f9b7fbbe09dc4e633554",
+    "kind": "word",
+    "text": "2日間",
+    "reading": "ふつかかん",
+    "displayReading": "ふつかかん",
+    "vi": "",
+    "path": "/audio/tts/f9b7fbbe09dc4e633554.wav",
+    "lessonIds": [
+      "mnn-11"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "2日間",
+    "forcedReading": false,
+    "sha256": "d66c00068e076d4e942978bd09e26fdd502de336dd0a129c500cb679ee176ff0",
+    "checkedAt": "2026-11-12T08:11:38.773Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "フツカカン",
+      "actual": "フツカカン",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 797
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "1週間",
+        "reading": "いっしゅうかん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "a6f41fc07e0a005bca35",
+    "kind": "word",
+    "text": "1週間",
+    "reading": "いっしゅうかん",
+    "displayReading": "いっしゅうかん",
+    "vi": "",
+    "path": "/audio/tts/a6f41fc07e0a005bca35.wav",
+    "lessonIds": [
+      "mnn-11"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "1週間",
+    "forcedReading": false,
+    "sha256": "528482e94db080707326ed6e55eb5e016d2d13d946b3774ce781e8d43ff9bb1f",
+    "checkedAt": "2026-11-12T08:11:39.582Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "イッシュウカン",
+      "actual": "イッシュウカン",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 782
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "1か月",
+        "reading": "いっかげつ",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "5b4892716f38f1a50819",
+    "kind": "word",
+    "text": "1か月",
+    "reading": "いっかげつ",
+    "displayReading": "いっかげつ",
+    "vi": "",
+    "path": "/audio/tts/5b4892716f38f1a50819.wav",
+    "lessonIds": [
+      "mnn-11"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "1か月",
+    "forcedReading": false,
+    "sha256": "029dfa079582f1b7a4f6c322a4c8f095c2c89345d8ff655a0c3eff896717db71",
+    "checkedAt": "2026-11-12T08:11:40.495Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "イッカゲツ",
+      "actual": "イッカゲツ",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 882
+  },
+  {
+    "foundationUses": [
+      {
+        "tableIndex": 1,
+        "label": "1年",
+        "reading": "いちねん",
+        "context": "number-or-counter",
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/017.html"
+      }
+    ],
+    "id": "061916932c7307d0e493",
+    "kind": "word",
+    "text": "1年",
+    "reading": "いちねん",
+    "displayReading": "いちねん",
+    "vi": "",
+    "path": "/audio/tts/061916932c7307d0e493.wav",
+    "lessonIds": [
+      "mnn-11"
+    ],
+    "taskIds": [],
+    "engine": "VOICEVOX Engine 0.26.1",
+    "speaker": "四国めたん",
+    "speakerVersion": "0.17.0",
+    "style": "ノーマル",
+    "styleId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "terms": "https://zunko.jp/con_ongen_kiyaku.html",
+    "source": "https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1",
+    "synthesisText": "1年",
+    "forcedReading": false,
+    "sha256": "c88840fda5108c4954f755ec97409e55f8191f23f0925f3f38c4c9d5ece4e81b",
+    "checkedAt": "2026-11-12T08:11:41.185Z",
+    "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập",
+    "readingCheck": {
+      "expected": "イチネン",
+      "actual": "イチネン",
+      "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+    },
+    "ms": 667
   }
 ]

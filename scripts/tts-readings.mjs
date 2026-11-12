@@ -39,3 +39,6 @@ for(const[w,r]of [['変更','へんこお'],['ご用','ごよお']])lexicalPronu
 
 // Explicit lexical readings for N5 functional gap batch; spelling remains unchanged in lessons.
 for(const[w,r]of [['高校生','こおこおせえ'],['留学生','りゅうがくせえ'],['教科書','きょおかしょ'],['銀行','ぎんこお'],['東京','とおきょお'],['冷蔵庫','れえぞおこ'],['兄弟','きょおだい']])lexicalPronunciations.set(w,r);
+
+// Calendar 8th: spellingようか, long-o synthesis plan; separate from duration八日間.
+lexicalPronunciations.set('8日','よおか');
