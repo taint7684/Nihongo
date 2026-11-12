@@ -41,3 +41,12 @@ Tiếp ngay bước2: rà word-evidence uses726,601singlecandidate/59ambiguous/6
 
 ## Hiện hành — nhóm2 có mẫu và kiểm tra12/11
 Đã chọn nghĩa theo nguồn cho656lượt tuyến chính+6cụm/tên,613đầu mục ứng viên tích lũy(N5441,N4mới172); không phải đủ cấp.503hồ sơ Kanji tra,158mục học/nét.93tests/build/Edge identity+tools qua. Mẫu30/15/15/10 và phản hồi Qwen thật tại evaluation/source-review; AI bác saiはたち nên không dùng xác nhận. Tỷ lệ/giới hạn trong VERIFICATION. Ngay tiếp nhóm3: đối chiếu thựcMinnaI/II(syllabus cùngfile, cùng nguồn) vớiJF Irodori(dữ liệu privatecache), chọn lõi độc lập, phân loại99thiếu cũ, bùN5trướcN4. Tập hiện tại vẫn dự thảo388/240từ104/185chữ; không tự nhận đủ N4. GiữID/schema1 và toàn bộ yêu cầuCURRENT_MISSION.
+
+
+## HIỆN HÀNH — tiếp nhóm3, đợt chức năngN5 đã chạyQA
+Đã thêm63ngữcảnh từ N5,17thực hành áp dụng,113audio mới(1821tổng/1811active),私7nét; khôngthêm/đổiIDbài. N5ứngviên503,N4mới163,tíchlũy666theoentryđãloạitrùng; khôngphảiđủcấp.529+190lượtnghĩatuyếnchínhđốichiếunguồn,6cụm/tênriêng.99tests/18files;EdgeQAnewword/audio/cycle/mobilequa,414câucũkhôngđổi. Vònghọc hợpmapcũ+mới, khôngchehoạtđộngbổsung. Nguồnchỉhiệnnghĩađanghọc,tránhtrộnđồngâm.
+Đối chiếuMinna/JFthực tếởpublic/curriculum-source-comparison.json; targetN5dựthảo450từ/105chữ,N4cũ240mục(222lexical+15grammar+3glossary)/185chữ. N4còn61mục từthiếungữcảnh sau bỏthiếugiả/dùnglại; chưađượcphép suyN5/N4đủtừcount. Tiếp tục chốttoànlõi vàrànội dungN5 trướcN4, nhấtlàtừ/âm/đánhgiátheotìnhhuốngchưaphủ. Chưa làmthưviện2500/214, AIinteractivengườihọcchưađạt; khôngđổi thànhtuyênbốđãhoànthành. Bằngchứngđợt:evaluation/n5-functional-batch.json. Bảostudy-room/userprofile/schema1/backup/ID nhưcũ.
+
+
+### Điểm tiếp tục sau rà ngữ pháp
+100tests/18files.18mục grammar đối chiếuTUFS bổsung(tổng28phạmvirà),đãsửalỗibài16bắtcùngchủthể;18câuthựchànhchứcnăngmới(thay17ởdòngtrước). Bảng1–25cụthể:evaluation/n5-semantic-review-progress.json/CONTENT_REVIEW. Vẫn nhóm3chưahoàntất; ràngữâm/kiếnthứcvàđủtìnhhuốngcònnhiều,phảitiếplõiN5trướcN4. Khôngnhảy2500Kanji/214bộhoặcAIđểbỏqualõi. KếtquảQAidentity/open-accesslầntiếptrênQAqua.

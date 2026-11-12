@@ -80,3 +80,13 @@ Mọi profile kiểm tra tách riêng; không có bằng chứng người dùng 
 ## 12/11/2026 — nhóm định danh/nguồn
 93tests/17files và production build qua. Edge QA word-identity qua: lịch/ghi chú cũわたし giữ nguyên, câu trả lời mới私 cóusageId, không tạo hoàn thành giả, exportbackupv1 thực và validate lại. study-tools qua: từ/flashcard/grammar/drawing/listen/read/write/backup trong QA riêng. Không dùng hồ sơ thật. Reports .tmp-ui/word-identity/report.json và .tmp-ui/study-tools/report.json (xem đường dẫn trong script).
 Đối chiếu mẫu:0/30 lỗi nghĩa/cách đọc phát hiện ở30từ sau sửa;1/30 lỗi loại từあのđã sửa,privatepronoun bổ sung loại; Kanji0/15 sai trường dữ liệu nguồn sau thayHánViệt,1/15 thiếu mục học riêng(私); câu0/15 lỗi phát hiện trong phạm vi rà; grammar1/10 thiếu trường hợp chiaう→わ đã bổ sung. Các tỷ lệ chỉ mô tả mẫu, không chứng minh toàn kho đúng. Không nghe duyệt ngữ âm, không đánh giá năng lực người dùng. Chi tiết mẫu và nguồn được giữ trong evaluation/source-review. AI review thật không đạt; mock không được tính thay.
+
+
+## Đợt N5 chức năng —12/11/2026
+99tests/18files qua; build sau bổ sung qua (distindex07:46UTC). EdgeQA .tmp-ui/functional-gap/report.json:phátWAVtừ辛いvàcâu thực códuration/currentTime,khônglỗigiảimã; nguồn chỉ hiệnnghĩa cay đang học; gõnhớ/lịch ôn giữ khi reload;0bài tự hoànthành; câu nhờ bậtđèn mới xuất hiện trong vòng học14;390pxkhôngtràn. AIbịchặntrongQA,khôngđánhgiámôhình. MộtlầnQAđầu saischemafixture(at) đãsửa, khôngphảilỗidữliệungườidùng.
+So414câu checkpointcũ với764câu hiện tại:0ID/choices/answer thayđổi. Reportevaluation/legacy-compatibility-20261112.json. Nănglựcthậtngườihọcchưađo. Audio1821tổng/1811active,113tài sảnmới; khôngđồngnghĩa1821mụcđãhọc hoặc duyệtngữâm.
+
+
+## Rà ngữ pháp tiếp12/11 —100tests/18files
+Đã đối chiếu trực tiếpTUFS067/069/045/049/072/083/084/086/093; thêm phạm vi nguồn cho18mục, tổng28mục grammar có phạm vi rà(23N5,5N4), không phê duyệt toàn230dòng. Sửa1lỗi giải thích bài16 bắt cùng chủ thể; thêm câu áp dụng riêng, hiện18câu chức năng mới. Bảng từng1–25trongCONTENT_REVIEW vàevaluation/n5-semantic-review-progress.json. Các bài chưa có lượt rà nguồn bổ sung được ghi rõ, không tự đánh hoàn thiện.
+Edgeidentity+backup vàopen-access chạy lại sau đợt từ mới đều qua; xemreport riêng. Không truy cập dữ liệu học thật.

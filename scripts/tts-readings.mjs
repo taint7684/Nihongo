@@ -36,3 +36,6 @@ for(const[w,r]of [['ちょうど','ちょおど'],['申します','もおしま�
 lexicalPronunciations.set('ようです','よおです');
 
 for(const[w,r]of [['変更','へんこお'],['ご用','ごよお']])lexicalPronunciations.set(w,r);
+
+// Explicit lexical readings for N5 functional gap batch; spelling remains unchanged in lessons.
+for(const[w,r]of [['高校生','こおこおせえ'],['留学生','りゅうがくせえ'],['教科書','きょおかしょ'],['銀行','ぎんこお'],['東京','とおきょお'],['冷蔵庫','れえぞおこ'],['兄弟','きょおだい']])lexicalPronunciations.set(w,r);

@@ -98,3 +98,34 @@ Rà36–40: mục tiêuように khác đã đạtようになった và tự k�
 - Capstone: 4 mục đích, mỗi mục2 ý định khác nhau, câu mẫu đúng/câu đảo ý/ngoài phạm vi tách riêng; nhánh hỏi lại cố định. Phản hồi mở cuối chưa chấm.
 
 Không xác nhận đã rà học thuật mọi từ/câu bài1–50. Độ phủ thành phần (COVERAGE) và kiểm cấu trúc không thay thế việc này.
+
+
+## Rà theo nguồn thực12/11 — không đồng nghĩa đã hoàn thiện toàn bài
+
+| Bài | Mục ngữ pháp đã đối chiếu trong phạm vi ghi rõ | Từ/ngữ cảnh bổ sung | Phần còn lại |
+|---|---|---|---|
+| 1 | mnn-01-g0: Câu danh từ, chủ đềは và cách đọc trợ từ; ví dụ/ý nghĩa trong phạm vi bài; mnn-01-g1: Phủ định câu danh từ và biến thểじゃ; không đảo ý; mnn-01-g2: Câu hỏi vớiか trong mẫu lịch sự; mnn-01-g3: も với thông tin cùng thuộc tính; mnn-01-g4: N1のN2: quan hệ danh từ; không quy mọiのthành sở hữu | 高校生、留学生 | Chưa rà độc lập toàn bộ bài/ngữ âm/năng lực người học |
+| 2 | Chưa có lượt nguồn bổ sung ở đợt này; các nhãn kiểm cấu trúc cũ không là duyệt học thuật | 消しゴム、教科書 | Chưa rà độc lập toàn bộ bài/ngữ âm/năng lực người học |
+| 3 | Chưa có lượt nguồn bổ sung ở đợt này; các nhãn kiểm cấu trúc cũ không là duyệt học thuật | 銀行、郵便局、スーパー、デパート | Chưa rà độc lập toàn bộ bài/ngữ âm/năng lực người học |
+| 4 | Chưa có lượt nguồn bổ sung ở đợt này; các nhãn kiểm cấu trúc cũ không là duyệt học thuật | 今週、来週、先週 | Chưa rà độc lập toàn bộ bài/ngữ âm/năng lực người học |
+| 5 | Chưa có lượt nguồn bổ sung ở đợt này; các nhãn kiểm cấu trúc cũ không là duyệt học thuật | 毎月、毎年、タクシー | Chưa rà độc lập toàn bộ bài/ngữ âm/năng lực người học |
+| 6 | Chưa có lượt nguồn bổ sung ở đợt này; các nhãn kiểm cấu trúc cũ không là duyệt học thuật | 牛肉、豚肉、鶏肉、ジュース、ビール | Chưa rà độc lập toàn bộ bài/ngữ âm/năng lực người học |
+| 7 | Chưa có lượt nguồn bổ sung ở đợt này; các nhãn kiểm cấu trúc cũ không là duyệt học thuật | スプーン、フォーク、ナイフ | Chưa rà độc lập toàn bộ bài/ngữ âm/năng lực người học |
+| 8 | Chưa có lượt nguồn bổ sung ở đợt này; các nhãn kiểm cấu trúc cũ không là duyệt học thuật | おいしい、まずい、楽しい、つまらない、重い、軽い、低い | Chưa rà độc lập toàn bộ bài/ngữ âm/năng lực người học |
+| 9 | Chưa có lượt nguồn bổ sung ở đợt này; các nhãn kiểm cấu trúc cũ không là duyệt học thuật | 歌、テニス、サッカー、漢字、ひらがな、カタカナ | Chưa rà độc lập toàn bộ bài/ngữ âm/năng lực người học |
+| 10 | Chưa có lượt nguồn bổ sung ở đợt này; các nhãn kiểm cấu trúc cũ không là duyệt học thuật | 庭、箱、冷蔵庫、ベッド、鳥 | Chưa rà độc lập toàn bộ bài/ngữ âm/năng lực người học |
+| 11 | Chưa có lượt nguồn bổ sung ở đợt này; các nhãn kiểm cấu trúc cũ không là duyệt học thuật | 夫、妻、兄弟 | Chưa rà độc lập toàn bộ bài/ngữ âm/năng lực người học |
+| 12 | Chưa có lượt nguồn bổ sung ở đợt này; các nhãn kiểm cấu trúc cũ không là duyệt học thuật | 曇り、晴れ、甘い、辛い、風 | Chưa rà độc lập toàn bộ bài/ngữ âm/năng lực người học |
+| 13 | mnn-13-g0: Muốn có vật,Nがほしい và phủ định; chưa xác nhận mọi sắc thái xã hội; mnn-13-g1: Gốcます+たい,phủ định và đối tượngを/が trong ngữ cảnh; không sửa tự động một biến thể thành sai | 海、プール、レストラン | Chưa rà độc lập toàn bộ bài/ngữ âm/năng lực người học |
+| 14 | Chưa có lượt nguồn bổ sung ở đợt này; các nhãn kiểm cấu trúc cũ không là duyệt học thuật | つけます、止めます、コピーします | Chưa rà độc lập toàn bộ bài/ngữ âm/năng lực người học |
+| 15 | mnn-15-g2: ています chỉ trạng thái; 知っています/知りません, không ép nghĩa đang thực hiện | Không thêm ở đợt này | Chưa rà độc lập toàn bộ bài/ngữ âm/năng lực người học |
+| 16 | mnn-16-g2: Aくて/NAで/Nで; ví dụ cùng đối tượng; không bắt buộc mọi vế cùng chủ thể; mnn-16-g5: Đã sửa giới hạn cùng chủ thể sai: hai vế có thể nêu hai chủ đề; quan hệ ngữ cảnh phải rõ | 顔、手 | Chưa rà độc lập toàn bộ bài/ngữ âm/năng lực người học |
+| 17 | Chưa có lượt nguồn bổ sung ở đợt này; các nhãn kiểm cấu trúc cũ không là duyệt học thuật | 風邪、熱 | Chưa rà độc lập toàn bộ bài/ngữ âm/năng lực người học |
+| 18 | mnn-18-g1: V辞書形ことができる cho khả năng/điều kiện; không suy thành đã thành thạo | 旅行 | Chưa rà độc lập toàn bộ bài/ngữ âm/năng lực người học |
+| 19 | Chưa có lượt nguồn bổ sung ở đợt này; các nhãn kiểm cấu trúc cũ không là duyệt học thuật | 走ります | Chưa rà độc lập toàn bộ bài/ngữ âm/năng lực người học |
+| 20 | Chưa có lượt nguồn bổ sung ở đợt này; các nhãn kiểm cấu trúc cũ không là duyệt học thuật | Không thêm ở đợt này | Chưa rà độc lập toàn bộ bài/ngữ âm/năng lực người học |
+| 21 | Chưa có lượt nguồn bổ sung ở đợt này; các nhãn kiểm cấu trúc cũ không là duyệt học thuật | Không thêm ở đợt này | Chưa rà độc lập toàn bộ bài/ngữ âm/năng lực người học |
+| 22 | Chưa có lượt nguồn bổ sung ở đợt này; các nhãn kiểm cấu trúc cũ không là duyệt học thuật | 服、ズボン、スカート | Chưa rà độc lập toàn bộ bài/ngữ âm/năng lực người học |
+| 23 | mnn-23-g0: Nの/NAな/Aい trướcとき; chưa coi mọi cách dùngとき đã dạy hết; mnn-23-g1: Vる/Vた với điểm nhìn trước/sau hoàn tất ở hành động; trạng thái có trường hợp khác; mnn-23-g2: と với kết quả thường lệ/máy móc, ví dụ thao tác và giới hạn ý chí trong khung sơ cấp; mnn-23-g4: Phân biệtVるとき/Vたとき trong ví dụ hành động; không quy thành mọi thì của toàn câu | Không thêm ở đợt này | Chưa rà độc lập toàn bộ bài/ngữ âm/năng lực người học |
+| 24 | mnn-24-g1: Hướng lợi ích/người thực hiện vớiてあげる trong ví dụ cho mượn; tránh kể công; không ápにcho mọi động từ; mnn-24-g2: てもらう: người nhận làm chủ thể,người giúp thườngに; nguồn cũng cóからtrong trường hợp riêng; mnn-24-g3: てくれる: chủ thể là người giúp,hướng lợi ích phía người nói; chưa suy mọiてもらうđều đổi được; mnn-24-g4: Hai góc nhìn cho ví dụ dạy/giải thích;không coi hoán đổi đúng ở mọi ngữ cảnh ý chí | Không thêm ở đợt này | Chưa rà độc lập toàn bộ bài/ngữ âm/năng lực người học |
+| 25 | mnn-25-g0: たら tạo điều kiện từた, có thể nói tương lai và lời mời/yêu cầu; mnn-25-g1: Cách tạoAかったら/NA,Nだったら; không gán nghĩa đã xảy ra chỉ từ dạngた; mnn-25-g3: ても/Aくても/NAでも chỉ nhượng bộ; ví dụ giữ kế hoạch dù có trở ngại; mnn-25-g4: Đối chiếu điều kiện/nhượng bộ và khẳng định/phủ định; không coi hai kế hoạch như nhau | Không thêm ở đợt này | Chưa rà độc lập toàn bộ bài/ngữ âm/năng lực người học |

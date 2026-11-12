@@ -12,3 +12,7 @@
 
 ## Quyết định nguồn12/11
 Giữ mô hình chỉ trong tác vụ đã đạt; không dùng Qwen4B làm chuyên gia duyệt do phản hồi thật sai. Lượt nguồn là trạng thái đối chiếu, không phê duyệt toàn ví dụ. 6cụm/tên giữ khóa cũ nhưng không đếm thành đầu mục mới; có thể xem/thay phân loại trong compositional-word-reviews.js. Nhãn vai trò học cũ còn nhiều nhận biết/chưa phân loại, phải chọn lại khi chốt lõi bước3.
+
+
+## Chọn bổ sung lõiN5 —12/11
+Ưu tiên từ sinhhoạt có chỗ dùng:trường/nghề,địađiểm,tuầntháng,thứcăn,dụngcụ,tínhchất,sởthích,vịtrí,giađình,thờitiết,sứckhỏe,quầnáo. Đợt này63ngữcảnh/17câu áp dụng, nối lịch ôn hiện có. Vai active chỉ là ýđịnhchươngtrình,không phải đãthànhthạocủangườihọc. Có thể chỉnh danh sách/lesson ởn5-functional-lexicon.js; không đổiIDbài. 450mục dựthảo vẫn chưa đủ cơsở làm tài liệu duy nhất N5; phải tiếp tục rà nhu cầu và toàn bài.

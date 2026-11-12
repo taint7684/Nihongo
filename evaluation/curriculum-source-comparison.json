@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-12T07:46:00.545Z",
+  "sources": [
+    {
+      "name": "3A Minna no Nihongo I/II, second edition",
+      "url": "https://www.3anet.co.jp/np/secure/0-0001-03-230000/0-0001-03-230000-1.pdf",
+      "role": "Scope/order reference, same author/publisher and same syllabus file for I and II; count as ONE source",
+      "rights": "No textbook text/audio redistribution; project authors its own lessons"
+    },
+    {
+      "name": "Japan Foundation Irodori Starter/Elementary1/Elementary2",
+      "url": "https://www.irodori.jpf.go.jp/en/resources.html",
+      "role": "Independent authorship and Can-do life-situation approach; factual comparison only, not official N5/N4 equivalence",
+      "rights": "Full workbooks and translations remain in ignored private source cache, not redistributed"
+    },
+    {
+      "name": "Official JLPT level description",
+      "url": "https://www.jlpt.jp/e/about/levelsummary.html",
+      "role": "Reading/listening outcomes; not a vocabulary/kanji list"
+    }
+  ],
+  "independence": "3A and Japan Foundation are distinct creators/approaches; JMdict JSON mirror is NOT another independent curriculum source.",
+  "sufficiencyEstablished": false,
+  "comparisonRule": "Exact surface match or shared JMdict candidate; shared candidate is not proof of same sense. Absence from Irodori does not mean unnecessary for JLPT.",
+  "levels": {
+    "N5": {
+      "selectedWords": 450,
+      "exactForms": 318,
+      "sharedCandidates": 81,
+      "noAutomaticMatch": 51,
+      "selectedKanji": 105,
+      "kanjiAlsoInIrodori": 104
+    },
+    "N4": {
+      "selectedWords": 240,
+      "exactForms": 95,
+      "sharedCandidates": 59,
+      "noAutomaticMatch": 86,
+      "selectedKanji": 185,
+      "kanjiAlsoInIrodori": 112
+    }
+  }
+}

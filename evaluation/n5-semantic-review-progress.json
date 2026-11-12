@@ -1,0 +1,1172 @@
+{
+  "at": "2026-11-12T08:05:33.489Z",
+  "type": "Bounded source comparison, not independent specialist approval",
+  "rows": [
+    {
+      "lesson": 1,
+      "id": "mnn-01",
+      "newWordContexts": [
+        "高校生",
+        "留学生"
+      ],
+      "sourceReviewedGrammar": [
+        {
+          "id": "mnn-01-g0",
+          "pattern": "N1 は N2 です",
+          "sourceReview": {
+            "sources": [
+              "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/002.html",
+              "https://www.irodori.jpf.go.jp/assets/data/Grammar_all.pdf#page=1"
+            ],
+            "scope": "Câu danh từ, chủ đềは và cách đọc trợ từ; ví dụ/ý nghĩa trong phạm vi bài",
+            "date": "2026-11-12",
+            "status": "Đối chiếu nguồn trong phạm vi ghi rõ; AI biên soạn rà, chưa người duyệt độc lập"
+          }
+        },
+        {
+          "id": "mnn-01-g1",
+          "pattern": "N は N ではありません",
+          "sourceReview": {
+            "sources": [
+              "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/001.html",
+              "https://www.irodori.jpf.go.jp/assets/data/Grammar_all.pdf#page=4"
+            ],
+            "scope": "Phủ định câu danh từ và biến thểじゃ; không đảo ý",
+            "date": "2026-11-12",
+            "status": "Đối chiếu nguồn trong phạm vi ghi rõ; AI biên soạn rà, chưa người duyệt độc lập"
+          }
+        },
+        {
+          "id": "mnn-01-g2",
+          "pattern": "N ですか",
+          "sourceReview": {
+            "sources": [
+              "https://www.irodori.jpf.go.jp/assets/data/Grammar_all.pdf#page=3"
+            ],
+            "scope": "Câu hỏi vớiか trong mẫu lịch sự",
+            "date": "2026-11-12",
+            "status": "Đối chiếu nguồn trong phạm vi ghi rõ; AI biên soạn rà, chưa người duyệt độc lập"
+          }
+        },
+        {
+          "id": "mnn-01-g3",
+          "pattern": "N も N です",
+          "sourceReview": {
+            "sources": [
+              "https://www.irodori.jpf.go.jp/assets/data/Grammar_all.pdf#page=3"
+            ],
+            "scope": "も với thông tin cùng thuộc tính",
+            "date": "2026-11-12",
+            "status": "Đối chiếu nguồn trong phạm vi ghi rõ; AI biên soạn rà, chưa người duyệt độc lập"
+          }
+        },
+        {
+          "id": "mnn-01-g4",
+          "pattern": "N1 の N2",
+          "sourceReview": {
+            "sources": [
+              "https://www.irodori.jpf.go.jp/assets/data/Grammar_all.pdf"
+            ],
+            "scope": "N1のN2: quan hệ danh từ; không quy mọiのthành sở hữu",
+            "date": "2026-11-12",
+            "status": "Đối chiếu nguồn trong phạm vi ghi rõ; AI biên soạn rà, chưa người duyệt độc lập"
+          }
+        },
+        {
+          "id": "mnn-01-g5",
+          "pattern": "Tên + さん",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-01-g6",
+          "pattern": "だれ / N は何ですか",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-01-g7",
+          "pattern": "N は số + 歳です",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-01-g8",
+          "pattern": "何歳／おいくつですか",
+          "sourceReview": null
+        }
+      ],
+      "remaining": "Chưa xác nhận toàn bộ từ/ví dụ/đáp án/nghe/đọc và nhiệm vụ đủ để làm nguồn học duy nhất; audio chưa người nghe duyệt độc lập"
+    },
+    {
+      "lesson": 2,
+      "id": "mnn-02",
+      "newWordContexts": [
+        "消しゴム",
+        "教科書"
+      ],
+      "sourceReviewedGrammar": [
+        {
+          "id": "mnn-02-g0",
+          "pattern": "これ / それ / あれ",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-02-g1",
+          "pattern": "この + N",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-02-g2",
+          "pattern": "N の N / N の",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-02-g3",
+          "pattern": "だれの N ですか",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-02-g4",
+          "pattern": "N1ですか、N2ですか",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-02-g5",
+          "pattern": "N1 の N2",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-02-g6",
+          "pattern": "何のN／だれのN",
+          "sourceReview": null
+        }
+      ],
+      "remaining": "Chưa xác nhận toàn bộ từ/ví dụ/đáp án/nghe/đọc và nhiệm vụ đủ để làm nguồn học duy nhất; audio chưa người nghe duyệt độc lập"
+    },
+    {
+      "lesson": 3,
+      "id": "mnn-03",
+      "newWordContexts": [
+        "銀行",
+        "郵便局",
+        "スーパー",
+        "デパート"
+      ],
+      "sourceReviewedGrammar": [
+        {
+          "id": "mnn-03-g0",
+          "pattern": "ここ / そこ / あそこ",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-03-g1",
+          "pattern": "N はどこですか",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-03-g2",
+          "pattern": "こちら / そちら / あちら",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-03-g3",
+          "pattern": "N はいくらですか",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-03-g4",
+          "pattern": "N1 (quốc gia/công ty) の N2",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-03-g5",
+          "pattern": "どこのN／お国はどちらですか",
+          "sourceReview": null
+        }
+      ],
+      "remaining": "Chưa xác nhận toàn bộ từ/ví dụ/đáp án/nghe/đọc và nhiệm vụ đủ để làm nguồn học duy nhất; audio chưa người nghe duyệt độc lập"
+    },
+    {
+      "lesson": 4,
+      "id": "mnn-04",
+      "newWordContexts": [
+        "今週",
+        "来週",
+        "先週"
+      ],
+      "sourceReviewedGrammar": [
+        {
+          "id": "mnn-04-g0",
+          "pattern": "何時ですか / số + 時",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-04-g1",
+          "pattern": "ます / ません / ました / ませんでした",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-04-g2",
+          "pattern": "giờ に + V",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-04-g3",
+          "pattern": "A から B まで",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-04-g4",
+          "pattern": "六時に／毎日／きょう",
+          "sourceReview": null
+        }
+      ],
+      "remaining": "Chưa xác nhận toàn bộ từ/ví dụ/đáp án/nghe/đọc và nhiệm vụ đủ để làm nguồn học duy nhất; audio chưa người nghe duyệt độc lập"
+    },
+    {
+      "lesson": 5,
+      "id": "mnn-05",
+      "newWordContexts": [
+        "毎月",
+        "毎年",
+        "タクシー"
+      ],
+      "sourceReviewedGrammar": [
+        {
+          "id": "mnn-05-g0",
+          "pattern": "nơi へ 行きます",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-05-g1",
+          "pattern": "phương tiện で V",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-05-g2",
+          "pattern": "người と V",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-05-g3",
+          "pattern": "いつ V ますか",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-05-g4",
+          "pattern": "どこへも行きません",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-05-g5",
+          "pattern": "いつ／何月何日／誕生日",
+          "sourceReview": null
+        }
+      ],
+      "remaining": "Chưa xác nhận toàn bộ từ/ví dụ/đáp án/nghe/đọc và nhiệm vụ đủ để làm nguồn học duy nhất; audio chưa người nghe duyệt độc lập"
+    },
+    {
+      "lesson": 6,
+      "id": "mnn-06",
+      "newWordContexts": [
+        "牛肉",
+        "豚肉",
+        "鶏肉",
+        "ジュース",
+        "ビール"
+      ],
+      "sourceReviewedGrammar": [
+        {
+          "id": "mnn-06-g0",
+          "pattern": "N を Vます",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-06-g1",
+          "pattern": "N (địa điểm) で Vます",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-06-g2",
+          "pattern": "何を Vますか",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-06-g3",
+          "pattern": "Vませんか / Vましょう",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-06-g4",
+          "pattern": "何をしますか",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-06-g5",
+          "pattern": "giờ に nơi で 会いましょう",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-06-g6",
+          "pattern": "Vませんか → すみません、ちょっと…",
+          "sourceReview": null
+        }
+      ],
+      "remaining": "Chưa xác nhận toàn bộ từ/ví dụ/đáp án/nghe/đọc và nhiệm vụ đủ để làm nguồn học duy nhất; audio chưa người nghe duyệt độc lập"
+    },
+    {
+      "lesson": 7,
+      "id": "mnn-07",
+      "newWordContexts": [
+        "スプーン",
+        "フォーク",
+        "ナイフ"
+      ],
+      "sourceReviewedGrammar": [
+        {
+          "id": "mnn-07-g0",
+          "pattern": "N で Vます",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-07-g1",
+          "pattern": "Người cho は người nhận に vật を あげます",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-07-g2",
+          "pattern": "Người nhận は người cho に vật を もらいます",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-07-g3",
+          "pattern": "もう Vましたか",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-07-g4",
+          "pattern": "～は日本語で何ですか",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-07-g5",
+          "pattern": "人に／人・組織から もらいます",
+          "sourceReview": null
+        }
+      ],
+      "remaining": "Chưa xác nhận toàn bộ từ/ví dụ/đáp án/nghe/đọc và nhiệm vụ đủ để làm nguồn học duy nhất; audio chưa người nghe duyệt độc lập"
+    },
+    {
+      "lesson": 8,
+      "id": "mnn-08",
+      "newWordContexts": [
+        "おいしい",
+        "まずい",
+        "楽しい",
+        "つまらない",
+        "重い",
+        "軽い",
+        "低い"
+      ],
+      "sourceReviewedGrammar": [
+        {
+          "id": "mnn-08-g0",
+          "pattern": "Aいです / NAです",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-08-g1",
+          "pattern": "Aくないです / NAではありません",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-08-g2",
+          "pattern": "Aい N / NAな N",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-08-g3",
+          "pattern": "とても / あまり + phủ định / ～が、～",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-08-g4",
+          "pattern": "どうですか / どんな Nですか",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-08-g5",
+          "pattern": "いい → よくない／あまりAくない",
+          "sourceReview": null
+        }
+      ],
+      "remaining": "Chưa xác nhận toàn bộ từ/ví dụ/đáp án/nghe/đọc và nhiệm vụ đủ để làm nguồn học duy nhất; audio chưa người nghe duyệt độc lập"
+    },
+    {
+      "lesson": 9,
+      "id": "mnn-09",
+      "newWordContexts": [
+        "歌",
+        "テニス",
+        "サッカー",
+        "漢字",
+        "ひらがな",
+        "カタカナ"
+      ],
+      "sourceReviewedGrammar": [
+        {
+          "id": "mnn-09-g0",
+          "pattern": "N は N が好きです",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-09-g1",
+          "pattern": "N が上手です / 下手です",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-09-g2",
+          "pattern": "N がわかります / N があります",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-09-g3",
+          "pattern": "Câu lịch sự から、câu kết quả",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-09-g4",
+          "pattern": "どうして / 全然 Vません",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-09-g5",
+          "pattern": "よく／だいたい／少し／全然",
+          "sourceReview": null
+        }
+      ],
+      "remaining": "Chưa xác nhận toàn bộ từ/ví dụ/đáp án/nghe/đọc và nhiệm vụ đủ để làm nguồn học duy nhất; audio chưa người nghe duyệt độc lập"
+    },
+    {
+      "lesson": 10,
+      "id": "mnn-10",
+      "newWordContexts": [
+        "庭",
+        "箱",
+        "冷蔵庫",
+        "ベッド",
+        "鳥"
+      ],
+      "sourceReviewedGrammar": [
+        {
+          "id": "mnn-10-g0",
+          "pattern": "Địa điểm に vật が あります",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-10-g1",
+          "pattern": "Địa điểm に người/động vật が います",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-10-g2",
+          "pattern": "Đối tượng は địa điểm に あります/います",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-10-g3",
+          "pattern": "N の 上/下/中/前/隣 / N や N (など)",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-10-g4",
+          "pattern": "何がありますか / だれがいますか",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-10-g5",
+          "pattern": "N1 と N2 の間",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-10-g6",
+          "pattern": "人は場所にいます／場所でVます",
+          "sourceReview": null
+        }
+      ],
+      "remaining": "Chưa xác nhận toàn bộ từ/ví dụ/đáp án/nghe/đọc và nhiệm vụ đủ để làm nguồn học duy nhất; audio chưa người nghe duyệt độc lập"
+    },
+    {
+      "lesson": 11,
+      "id": "mnn-11",
+      "newWordContexts": [
+        "夫",
+        "妻",
+        "兄弟"
+      ],
+      "sourceReviewedGrammar": [
+        {
+          "id": "mnn-11-g0",
+          "pattern": "N を số + lượng từ Vます",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-11-g1",
+          "pattern": "người が số + 人います",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-11-g2",
+          "pattern": "khoảng thời gian Vます",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-11-g3",
+          "pattern": "khoảng thời gian に số + 回",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-11-g4",
+          "pattern": "AからBまで thời lượng かかります",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-11-g5",
+          "pattern": "枚／台／冊・何枚／何台",
+          "sourceReview": null
+        }
+      ],
+      "remaining": "Chưa xác nhận toàn bộ từ/ví dụ/đáp án/nghe/đọc và nhiệm vụ đủ để làm nguồn học duy nhất; audio chưa người nghe duyệt độc lập"
+    },
+    {
+      "lesson": 12,
+      "id": "mnn-12",
+      "newWordContexts": [
+        "曇り",
+        "晴れ",
+        "甘い",
+        "辛い",
+        "風"
+      ],
+      "sourceReviewedGrammar": [
+        {
+          "id": "mnn-12-g0",
+          "pattern": "N／NAでした・ではありませんでした",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-12-g1",
+          "pattern": "Aかったです／Aくなかったです",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-12-g2",
+          "pattern": "AはBより tính từです",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-12-g3",
+          "pattern": "AとBとどちらが…／Aのほうが…",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-12-g4",
+          "pattern": "Nhómで何／どこ／だれが一番…",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-12-g5",
+          "pattern": "どちら／何が一番",
+          "sourceReview": null
+        }
+      ],
+      "remaining": "Chưa xác nhận toàn bộ từ/ví dụ/đáp án/nghe/đọc và nhiệm vụ đủ để làm nguồn học duy nhất; audio chưa người nghe duyệt độc lập"
+    },
+    {
+      "lesson": 13,
+      "id": "mnn-13",
+      "newWordContexts": [
+        "海",
+        "プール",
+        "レストラン"
+      ],
+      "sourceReviewedGrammar": [
+        {
+          "id": "mnn-13-g0",
+          "pattern": "N が欲しいです",
+          "sourceReview": {
+            "sources": [
+              "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/069.html"
+            ],
+            "scope": "Muốn có vật,Nがほしい và phủ định; chưa xác nhận mọi sắc thái xã hội",
+            "date": "2026-11-12",
+            "status": "Đối chiếu nguồn trong phạm vi ghi rõ; AI biên soạn rà, chưa người duyệt độc lập"
+          }
+        },
+        {
+          "id": "mnn-13-g1",
+          "pattern": "V bỏ ます + たいです",
+          "sourceReview": {
+            "sources": [
+              "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/067.html"
+            ],
+            "scope": "Gốcます+たい,phủ định và đối tượngを/が trong ngữ cảnh; không sửa tự động một biến thể thành sai",
+            "date": "2026-11-12",
+            "status": "Đối chiếu nguồn trong phạm vi ghi rõ; AI biên soạn rà, chưa người duyệt độc lập"
+          }
+        },
+        {
+          "id": "mnn-13-g2",
+          "pattern": "nơi へ V bỏ ます に行きます／N に行きます",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-13-g3",
+          "pattern": "場所に入ります／場所を出ます・何か／どこか",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-13-g4",
+          "pattern": "Nが欲しい／Vたい／何か",
+          "sourceReview": null
+        }
+      ],
+      "remaining": "Chưa xác nhận toàn bộ từ/ví dụ/đáp án/nghe/đọc và nhiệm vụ đủ để làm nguồn học duy nhất; audio chưa người nghe duyệt độc lập"
+    },
+    {
+      "lesson": 14,
+      "id": "mnn-14",
+      "newWordContexts": [
+        "つけます",
+        "止めます",
+        "コピーします"
+      ],
+      "sourceReviewedGrammar": [
+        {
+          "id": "mnn-14-g0",
+          "pattern": "Nhóm 1 biến âm / nhóm 2 bỏ ます+て / nhóm 3 riêng",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-14-g1",
+          "pattern": "Vてください",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-14-g2",
+          "pattern": "Vています",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-14-g3",
+          "pattern": "V bỏ ます + ましょうか",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-14-g4",
+          "pattern": "帰ります→帰って／見ます→見て",
+          "sourceReview": null
+        }
+      ],
+      "remaining": "Chưa xác nhận toàn bộ từ/ví dụ/đáp án/nghe/đọc và nhiệm vụ đủ để làm nguồn học duy nhất; audio chưa người nghe duyệt độc lập"
+    },
+    {
+      "lesson": 15,
+      "id": "mnn-15",
+      "newWordContexts": [],
+      "sourceReviewedGrammar": [
+        {
+          "id": "mnn-15-g0",
+          "pattern": "Vてもいいですか",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-15-g1",
+          "pattern": "Vてはいけません",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-15-g2",
+          "pattern": "Vています（trạng thái）／知っています・知りません",
+          "sourceReview": {
+            "sources": [
+              "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/045.html"
+            ],
+            "scope": "ています chỉ trạng thái; 知っています/知りません, không ép nghĩa đang thực hiện",
+            "date": "2026-11-12",
+            "status": "Đối chiếu nguồn trong phạm vi ghi rõ; AI biên soạn rà, chưa người duyệt độc lập"
+          }
+        },
+        {
+          "id": "mnn-15-g3",
+          "pattern": "場所で働いています／Nを売っています",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-15-g4",
+          "pattern": "てもいいですか／知っていますか",
+          "sourceReview": null
+        }
+      ],
+      "remaining": "Chưa xác nhận toàn bộ từ/ví dụ/đáp án/nghe/đọc và nhiệm vụ đủ để làm nguồn học duy nhất; audio chưa người nghe duyệt độc lập"
+    },
+    {
+      "lesson": 16,
+      "id": "mnn-16",
+      "newWordContexts": [
+        "顔",
+        "手"
+      ],
+      "sourceReviewedGrammar": [
+        {
+          "id": "mnn-16-g0",
+          "pattern": "Vて、Vて、Vます",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-16-g1",
+          "pattern": "VてからVます",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-16-g2",
+          "pattern": "Aくて／NAで／Nで",
+          "sourceReview": {
+            "sources": [
+              "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/049.html"
+            ],
+            "scope": "Aくて/NAで/Nで; ví dụ cùng đối tượng; không bắt buộc mọi vế cùng chủ thể",
+            "date": "2026-11-12",
+            "status": "Đối chiếu nguồn trong phạm vi ghi rõ; AI biên soạn rà, chưa người duyệt độc lập"
+          }
+        },
+        {
+          "id": "mnn-16-g3",
+          "pattern": "N1はN2がAです",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-16-g4",
+          "pattern": "どのN／どれ",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-16-g5",
+          "pattern": "Aくて／NAで／Nで",
+          "sourceReview": {
+            "sources": [
+              "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/049.html"
+            ],
+            "scope": "Đã sửa giới hạn cùng chủ thể sai: hai vế có thể nêu hai chủ đề; quan hệ ngữ cảnh phải rõ",
+            "date": "2026-11-12",
+            "status": "Đối chiếu nguồn trong phạm vi ghi rõ; AI biên soạn rà, chưa người duyệt độc lập"
+          }
+        }
+      ],
+      "remaining": "Chưa xác nhận toàn bộ từ/ví dụ/đáp án/nghe/đọc và nhiệm vụ đủ để làm nguồn học duy nhất; audio chưa người nghe duyệt độc lập"
+    },
+    {
+      "lesson": 17,
+      "id": "mnn-17",
+      "newWordContexts": [
+        "風邪",
+        "熱"
+      ],
+      "sourceReviewedGrammar": [
+        {
+          "id": "mnn-17-g0",
+          "pattern": "Nhóm 1 âm hàng a + ない／nhóm 2 bỏ ます + ない",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-17-g1",
+          "pattern": "Vないでください",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-17-g2",
+          "pattern": "Vなければなりません",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-17-g3",
+          "pattern": "Vなくてもいいです",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-17-g4",
+          "pattern": "Nは…",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-17-g5",
+          "pattern": "までに／まで",
+          "sourceReview": null
+        }
+      ],
+      "remaining": "Chưa xác nhận toàn bộ từ/ví dụ/đáp án/nghe/đọc và nhiệm vụ đủ để làm nguồn học duy nhất; audio chưa người nghe duyệt độc lập"
+    },
+    {
+      "lesson": 18,
+      "id": "mnn-18",
+      "newWordContexts": [
+        "旅行"
+      ],
+      "sourceReviewedGrammar": [
+        {
+          "id": "mnn-18-g0",
+          "pattern": "Nhóm 1 hàng u／nhóm 2 +る／nhóm 3 する・来る",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-18-g1",
+          "pattern": "V từ điển + ことができます／Nができます",
+          "sourceReview": {
+            "sources": [
+              "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/072.html"
+            ],
+            "scope": "V辞書形ことができる cho khả năng/điều kiện; không suy thành đã thành thạo",
+            "date": "2026-11-12",
+            "status": "Đối chiếu nguồn trong phạm vi ghi rõ; AI biên soạn rà, chưa người duyệt độc lập"
+          }
+        },
+        {
+          "id": "mnn-18-g2",
+          "pattern": "趣味はV từ điểnことです",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-18-g3",
+          "pattern": "V từ điển前に／Nの前に／khoảng thời gian前に",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-18-g4",
+          "pattern": "Vる前に／Nの前に／期間前に",
+          "sourceReview": null
+        }
+      ],
+      "remaining": "Chưa xác nhận toàn bộ từ/ví dụ/đáp án/nghe/đọc và nhiệm vụ đủ để làm nguồn học duy nhất; audio chưa người nghe duyệt độc lập"
+    },
+    {
+      "lesson": 19,
+      "id": "mnn-19",
+      "newWordContexts": [
+        "走ります"
+      ],
+      "sourceReviewedGrammar": [
+        {
+          "id": "mnn-19-g0",
+          "pattern": "Dạng て: て→た、で→だ",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-19-g1",
+          "pattern": "Vたことがあります／ありません",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-19-g2",
+          "pattern": "Vたり、Vたりします",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-19-g3",
+          "pattern": "Aくなります／NA・Nになります",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-19-g4",
+          "pattern": "一度もVたことがありません",
+          "sourceReview": null
+        }
+      ],
+      "remaining": "Chưa xác nhận toàn bộ từ/ví dụ/đáp án/nghe/đọc và nhiệm vụ đủ để làm nguồn học duy nhất; audio chưa người nghe duyệt độc lập"
+    },
+    {
+      "lesson": 20,
+      "id": "mnn-20",
+      "newWordContexts": [],
+      "sourceReviewedGrammar": [
+        {
+          "id": "mnn-20-g0",
+          "pattern": "V từ điển／ない／た／なかった",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-20-g1",
+          "pattern": "N・NAだ／じゃない／だった／じゃなかった",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-20-g2",
+          "pattern": "Aい／Aくない／Aかった／Aくなかった",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-20-g3",
+          "pattern": "Câu hỏi thân mật thường dựa vào ngữ điệu/？",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-20-g4",
+          "pattern": "です・ます ↔ thể thường",
+          "sourceReview": null
+        }
+      ],
+      "remaining": "Chưa xác nhận toàn bộ từ/ví dụ/đáp án/nghe/đọc và nhiệm vụ đủ để làm nguồn học duy nhất; audio chưa người nghe duyệt độc lập"
+    },
+    {
+      "lesson": 21,
+      "id": "mnn-21",
+      "newWordContexts": [],
+      "sourceReviewedGrammar": [
+        {
+          "id": "mnn-21-g0",
+          "pattern": "Thể thường + と思います",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-21-g1",
+          "pattern": "Vない／Vた／Aかった + と思います",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-21-g2",
+          "pattern": "Người は「lời trực tiếp」と言いました／thể thường と言いました",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-21-g3",
+          "pattern": "Thể thường + でしょう？ (N/NA bỏ だ)",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-21-g4",
+          "pattern": "と言いました／と思います",
+          "sourceReview": null
+        }
+      ],
+      "remaining": "Chưa xác nhận toàn bộ từ/ví dụ/đáp án/nghe/đọc và nhiệm vụ đủ để làm nguồn học duy nhất; audio chưa người nghe duyệt độc lập"
+    },
+    {
+      "lesson": 22,
+      "id": "mnn-22",
+      "newWordContexts": [
+        "服",
+        "ズボン",
+        "スカート"
+      ],
+      "sourceReviewedGrammar": [
+        {
+          "id": "mnn-22-g0",
+          "pattern": "V thể thường + N",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-22-g1",
+          "pattern": "Người が V thể thường + N",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-22-g2",
+          "pattern": "Vた／Vている／V từ điển + N",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-22-g3",
+          "pattern": "V thể thường + 時間／約束／N",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-22-g4",
+          "pattern": "Vる時間／Vる約束／Vる用事",
+          "sourceReview": null
+        }
+      ],
+      "remaining": "Chưa xác nhận toàn bộ từ/ví dụ/đáp án/nghe/đọc và nhiệm vụ đủ để làm nguồn học duy nhất; audio chưa người nghe duyệt độc lập"
+    },
+    {
+      "lesson": 23,
+      "id": "mnn-23",
+      "newWordContexts": [],
+      "sourceReviewedGrammar": [
+        {
+          "id": "mnn-23-g0",
+          "pattern": "Nの／NAな／Aい + とき",
+          "sourceReview": {
+            "sources": [
+              "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/093.html"
+            ],
+            "scope": "Nの/NAな/Aい trướcとき; chưa coi mọi cách dùngとき đã dạy hết",
+            "date": "2026-11-12",
+            "status": "Đối chiếu nguồn trong phạm vi ghi rõ; AI biên soạn rà, chưa người duyệt độc lập"
+          }
+        },
+        {
+          "id": "mnn-23-g1",
+          "pattern": "Vる／Vない／Vた + とき",
+          "sourceReview": {
+            "sources": [
+              "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/093.html"
+            ],
+            "scope": "Vる/Vた với điểm nhìn trước/sau hoàn tất ở hành động; trạng thái có trường hợp khác",
+            "date": "2026-11-12",
+            "status": "Đối chiếu nguồn trong phạm vi ghi rõ; AI biên soạn rà, chưa người duyệt độc lập"
+          }
+        },
+        {
+          "id": "mnn-23-g2",
+          "pattern": "V từ điển + と、kết quả",
+          "sourceReview": {
+            "sources": [
+              "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/083.html"
+            ],
+            "scope": "と với kết quả thường lệ/máy móc, ví dụ thao tác và giới hạn ý chí trong khung sơ cấp",
+            "date": "2026-11-12",
+            "status": "Đối chiếu nguồn trong phạm vi ghi rõ; AI biên soạn rà, chưa người duyệt độc lập"
+          }
+        },
+        {
+          "id": "mnn-23-g3",
+          "pattern": "道を行く／角を曲がる／橋を渡る",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-23-g4",
+          "pattern": "Vるとき／Vたとき",
+          "sourceReview": {
+            "sources": [
+              "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/093.html"
+            ],
+            "scope": "Phân biệtVるとき/Vたとき trong ví dụ hành động; không quy thành mọi thì của toàn câu",
+            "date": "2026-11-12",
+            "status": "Đối chiếu nguồn trong phạm vi ghi rõ; AI biên soạn rà, chưa người duyệt độc lập"
+          }
+        }
+      ],
+      "remaining": "Chưa xác nhận toàn bộ từ/ví dụ/đáp án/nghe/đọc và nhiệm vụ đủ để làm nguồn học duy nhất; audio chưa người nghe duyệt độc lập"
+    },
+    {
+      "lesson": 24,
+      "id": "mnn-24",
+      "newWordContexts": [],
+      "sourceReviewedGrammar": [
+        {
+          "id": "mnn-24-g0",
+          "pattern": "Người cho が／は (わたしに) Nをくれます",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-24-g1",
+          "pattern": "Người làm は người nhận に Vてあげます",
+          "sourceReview": {
+            "sources": [
+              "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/086.html"
+            ],
+            "scope": "Hướng lợi ích/người thực hiện vớiてあげる trong ví dụ cho mượn; tránh kể công; không ápにcho mọi động từ",
+            "date": "2026-11-12",
+            "status": "Đối chiếu nguồn trong phạm vi ghi rõ; AI biên soạn rà, chưa người duyệt độc lập"
+          }
+        },
+        {
+          "id": "mnn-24-g2",
+          "pattern": "Người nhận は người giúp に Vてもらいます",
+          "sourceReview": {
+            "sources": [
+              "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/086.html"
+            ],
+            "scope": "てもらう: người nhận làm chủ thể,người giúp thườngに; nguồn cũng cóからtrong trường hợp riêng",
+            "date": "2026-11-12",
+            "status": "Đối chiếu nguồn trong phạm vi ghi rõ; AI biên soạn rà, chưa người duyệt độc lập"
+          }
+        },
+        {
+          "id": "mnn-24-g3",
+          "pattern": "Người giúp が／は (わたしに) Vてくれます",
+          "sourceReview": {
+            "sources": [
+              "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/086.html"
+            ],
+            "scope": "てくれる: chủ thể là người giúp,hướng lợi ích phía người nói; chưa suy mọiてもらうđều đổi được",
+            "date": "2026-11-12",
+            "status": "Đối chiếu nguồn trong phạm vi ghi rõ; AI biên soạn rà, chưa người duyệt độc lập"
+          }
+        },
+        {
+          "id": "mnn-24-g4",
+          "pattern": "AがVてくれる ↔ 私はAにVてもらう",
+          "sourceReview": {
+            "sources": [
+              "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/086.html"
+            ],
+            "scope": "Hai góc nhìn cho ví dụ dạy/giải thích;không coi hoán đổi đúng ở mọi ngữ cảnh ý chí",
+            "date": "2026-11-12",
+            "status": "Đối chiếu nguồn trong phạm vi ghi rõ; AI biên soạn rà, chưa người duyệt độc lập"
+          }
+        }
+      ],
+      "remaining": "Chưa xác nhận toàn bộ từ/ví dụ/đáp án/nghe/đọc và nhiệm vụ đủ để làm nguồn học duy nhất; audio chưa người nghe duyệt độc lập"
+    },
+    {
+      "lesson": 25,
+      "id": "mnn-25",
+      "newWordContexts": [],
+      "sourceReviewedGrammar": [
+        {
+          "id": "mnn-25-g0",
+          "pattern": "Thể た + ら、…",
+          "sourceReview": {
+            "sources": [
+              "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/083.html"
+            ],
+            "scope": "たら tạo điều kiện từた, có thể nói tương lai và lời mời/yêu cầu",
+            "date": "2026-11-12",
+            "status": "Đối chiếu nguồn trong phạm vi ghi rõ; AI biên soạn rà, chưa người duyệt độc lập"
+          }
+        },
+        {
+          "id": "mnn-25-g1",
+          "pattern": "Aかったら／NAだったら／Nだったら",
+          "sourceReview": {
+            "sources": [
+              "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/083.html"
+            ],
+            "scope": "Cách tạoAかったら/NA,Nだったら; không gán nghĩa đã xảy ra chỉ từ dạngた",
+            "date": "2026-11-12",
+            "status": "Đối chiếu nguồn trong phạm vi ghi rõ; AI biên soạn rà, chưa người duyệt độc lập"
+          }
+        },
+        {
+          "id": "mnn-25-g2",
+          "pattern": "Vたら、…",
+          "sourceReview": null
+        },
+        {
+          "id": "mnn-25-g3",
+          "pattern": "Vて + も／Aくても／NAでも／Nでも",
+          "sourceReview": {
+            "sources": [
+              "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/084.html"
+            ],
+            "scope": "ても/Aくても/NAでも chỉ nhượng bộ; ví dụ giữ kế hoạch dù có trở ngại",
+            "date": "2026-11-12",
+            "status": "Đối chiếu nguồn trong phạm vi ghi rõ; AI biên soạn rà, chưa người duyệt độc lập"
+          }
+        },
+        {
+          "id": "mnn-25-g4",
+          "pattern": "雨が降ったら／雨が降っても",
+          "sourceReview": {
+            "sources": [
+              "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/083.html",
+              "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/084.html"
+            ],
+            "scope": "Đối chiếu điều kiện/nhượng bộ và khẳng định/phủ định; không coi hai kế hoạch như nhau",
+            "date": "2026-11-12",
+            "status": "Đối chiếu nguồn trong phạm vi ghi rõ; AI biên soạn rà, chưa người duyệt độc lập"
+          }
+        }
+      ],
+      "remaining": "Chưa xác nhận toàn bộ từ/ví dụ/đáp án/nghe/đọc và nhiệm vụ đủ để làm nguồn học duy nhất; audio chưa người nghe duyệt độc lập"
+    }
+  ]
+}

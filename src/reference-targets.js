@@ -1,6 +1,7 @@
+import{n5FunctionalLexicon}from './n5-functional-lexicon.js';
 // Frozen program selection by functional goals, independent of which entries are currently implemented.
 // Not an official JLPT vocabulary/Kanji list; no textbook word-list reproduction.
-export const targetVersion='2026-11-12-source-audit-v2';
+export const targetVersion='2026-11-12-functional-crosscheck-v3';
 const n5Words=[
 '私 名前 学生 先生 会社員 社員 医者 研究者 大学 会社 日本 ベトナム 人 誰 何歳 二十歳 はい いいえ',
 '本 辞書 雑誌 新聞 ノート 手帳 名刺 カード 鉛筆 ボールペン かばん 傘 時計 何 これ それ あれ この その あの',
@@ -64,3 +65,10 @@ referenceTargets.levels.N5.functions=['紹介/年齢/組織|名詞肯定・否�
 referenceTargets.levels.N4.functions=['んです/説明要求/丁寧依頼/助言を求める','可能形/見える聞こえる/しか/対比/できる完成','ながら/習慣/し・それに/理由で断る','自他・状態/完了/遺憾','てある/準備/措置/放置','意向形/と思う/つもり/予定/未完了','ほうがいい/でしょう/かもしれない','命令・禁止/意味/伝言','とおり/あとで/ないで','ば/なら/条件助言','ように目標/ようになる/ようにする','受身/被害/物・出来事の受身','の名詞化/忘れる/知っている/焦点構文','て・で原因/ので','間接疑問/かどうか/てみる','授受敬語/いただく/くださる/てやる','ために目的/のに用途/費用・時間','そう様態/てくる一時離脱','すぎる/やすいにくい/形容詞副詞/する','場合/のに逆接','ところ/たばかり/はず','そう伝聞/よう推量/根拠','使役/許可依頼','尊敬語/特別形/おVになる','謙譲語/丁重語/特別形'];
 
 referenceTargets.exclusions=[{level:'N4',char:'さ',reason:'Kana vô tình nằm trong chuỗi mục tiêu 高さ; không phải Kanji. Giữ 高さ là mục từ, chỉ bỏ さ khỏi bộ đếm Kanji.'}];
+
+// Selected by functional gaps before insertion, not computed from existing lesson words.
+for(const[n,text]of n5FunctionalLexicon){const group=referenceTargets.levels.N5.vocabulary.find(g=>g.referenceLesson===n);if(!group.words.includes(text))group.words.push(text);}
+referenceTargets.sources.push("https://www.irodori.jpf.go.jp/en/resources.html","https://www.jlpt.jp/e/about/levelsummary.html");
+
+// 私 appears in JF Starter lesson3 and is used from the first self-introduction here.
+if(!referenceTargets.levels.N5.kanji.includes("私"))referenceTargets.levels.N5.kanji.push("私");

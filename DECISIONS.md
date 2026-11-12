@@ -54,3 +54,13 @@ Rà Kanji phát hiện một số metadata cũ đặt nghĩa cả từ (学生/�
 - Script=Han gồm々; bộ chọn chữ tra dùng Unified_Ideograph, không đếm dấu lặp là Kanji riêng. Kanaさlọt từ高さ đã bỏ khỏi target chữ.
 - AI bácはたち sai; nguồn JMdict1600790 được ưu tiên. Không đổi câu theo AI và không gọi đây là duyệt độc lập.
 - 私 có từ vựng và hồ sơ KANJIDIC mới, chưa có mục Kanji học/nét trong158chữ. Ghi thiếu để xử lý ở lõi N5, không che bằng số hồ sơ tra.
+
+
+## Đợt chức năng N5
+Ngữ cảnh cũ:guided-links có thể cheguidedMapbổ sung. SửaCycle/ cycleQuestions dùng hợp hai nguồn theoID, giữthứtự/loạitrùng; hồi quy xác nhận17câu mới vào đúng vòng và câu cũ còn. Xin xem lại nếu thay cách chia chương.
+99khoảng trống N4cũ:16từnền,2matcher,15cấutrúc,3thuậtngữ,63thiếungữcảnh. Sau đợt N5mới,風邪/熱đãcó nềnthực tế bài17; phân loại dùnglại thêm2, còn61mục từ thiếu. Không gộpそうですđồngý vớiそうtruyềnvăn; không gộpやすいdễ với安いrẻ.
+TTS辛いđọc nhầm ở câu món ăn: chỉ sửa đầu vào câu này; câu生活が辛いkhông bị đổi. Hồi quy phân biệthaiý. 冷蔵庫chỉ định đầu vào trường âm để nhất quánkếhoạch; chưa phê duyệt accent/ngữâm.
+
+
+## Lỗi quy tắc bài16 tìm được khi đối chiếuTUFS049
+Lỗi gốc: câu giải thích bắt các vế nốiくて/でphải cùng chủ thể. NguồnTUFS049 cho phép hai chủ đề riêng, nên giới hạn cũ sai. Đã sửa thành trường hợp ví dụ cùng đối tượng và cho phép hai chủ đề rõ vớiは; thêmm16-functional-use-topics. Hồi quy bảo toàn câu cũ và hoạt động mới đúng vòng. Không sửa câu Nhật/audio cũ vốn đúng. Xem lại nếu mở rộng quan hệ nguyên nhân/văn phong, không suy mọi liên kết đều tự nhiên.

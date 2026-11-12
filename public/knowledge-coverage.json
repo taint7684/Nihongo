@@ -6,12 +6,12 @@
     "N5": {
       "summary": {
         "words": {
-          "total": 447,
+          "total": 509,
           "structurallyLinked": 2,
           "academicApproval": 0
         },
         "kanji": {
-          "total": 122,
+          "total": 123,
           "structurallyLinked": 0,
           "academicApproval": 0
         },
@@ -377,6 +377,32 @@
             "quality": "project-authored; not independently reviewed"
           },
           {
+            "id": "word:高校生",
+            "key": "高校生",
+            "text": "高校生",
+            "lessonIds": [
+              "mnn-01"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:留学生",
+            "key": "留学生",
+            "text": "留学生",
+            "lessonIds": [
+              "mnn-01"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
             "id": "word:かばん",
             "key": "かばん",
             "text": "かばん",
@@ -655,6 +681,32 @@
             "id": "word:時計",
             "key": "時計",
             "text": "時計",
+            "lessonIds": [
+              "mnn-02"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:消しゴム",
+            "key": "消しゴム",
+            "text": "消しゴム",
+            "lessonIds": [
+              "mnn-02"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:教科書",
+            "key": "教科書",
+            "text": "教科書",
             "lessonIds": [
               "mnn-02"
             ],
@@ -1060,6 +1112,58 @@
             "id": "word:八",
             "key": "八",
             "text": "八",
+            "lessonIds": [
+              "mnn-03"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:銀行",
+            "key": "銀行",
+            "text": "銀行",
+            "lessonIds": [
+              "mnn-03"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:郵便局",
+            "key": "郵便局",
+            "text": "郵便局",
+            "lessonIds": [
+              "mnn-03"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:スーパー",
+            "key": "スーパー",
+            "text": "スーパー",
+            "lessonIds": [
+              "mnn-03"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:デパート",
+            "key": "デパート",
+            "text": "デパート",
             "lessonIds": [
               "mnn-03"
             ],
@@ -1503,6 +1607,45 @@
             "quality": "project-authored; not independently reviewed"
           },
           {
+            "id": "word:今週",
+            "key": "今週",
+            "text": "今週",
+            "lessonIds": [
+              "mnn-04"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:来週",
+            "key": "来週",
+            "text": "来週",
+            "lessonIds": [
+              "mnn-04"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:先週",
+            "key": "先週",
+            "text": "先週",
+            "lessonIds": [
+              "mnn-04"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
             "id": "word:行きます",
             "key": "行きます",
             "text": "行きます",
@@ -1714,6 +1857,45 @@
             "id": "word:船",
             "key": "船",
             "text": "船",
+            "lessonIds": [
+              "mnn-05"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:毎月",
+            "key": "毎月",
+            "text": "毎月",
+            "lessonIds": [
+              "mnn-05"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:毎年",
+            "key": "毎年",
+            "text": "毎年",
+            "lessonIds": [
+              "mnn-05"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:タクシー",
+            "key": "タクシー",
+            "text": "タクシー",
             "lessonIds": [
               "mnn-05"
             ],
@@ -2052,6 +2234,71 @@
             "quality": "project-authored; not independently reviewed"
           },
           {
+            "id": "word:牛肉",
+            "key": "牛肉",
+            "text": "牛肉",
+            "lessonIds": [
+              "mnn-06"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:豚肉",
+            "key": "豚肉",
+            "text": "豚肉",
+            "lessonIds": [
+              "mnn-06"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:鶏肉",
+            "key": "鶏肉",
+            "text": "鶏肉",
+            "lessonIds": [
+              "mnn-06"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:ジュース",
+            "key": "ジュース",
+            "text": "ジュース",
+            "lessonIds": [
+              "mnn-06"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:ビール",
+            "key": "ビール",
+            "text": "ビール",
+            "lessonIds": [
+              "mnn-06"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
             "id": "word:書きます",
             "key": "書きます",
             "text": "書きます",
@@ -2254,6 +2501,45 @@
             "lessonIds": [
               "mnn-07",
               "mnn-13"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:スプーン",
+            "key": "スプーン",
+            "text": "スプーン",
+            "lessonIds": [
+              "mnn-07"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:フォーク",
+            "key": "フォーク",
+            "text": "フォーク",
+            "lessonIds": [
+              "mnn-07"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:ナイフ",
+            "key": "ナイフ",
+            "text": "ナイフ",
+            "lessonIds": [
+              "mnn-07"
             ],
             "hasLesson": true,
             "hasPractice": true,
@@ -2549,6 +2835,97 @@
             "quality": "project-authored; not independently reviewed"
           },
           {
+            "id": "word:おいしい",
+            "key": "おいしい",
+            "text": "おいしい",
+            "lessonIds": [
+              "mnn-08"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:まずい",
+            "key": "まずい",
+            "text": "まずい",
+            "lessonIds": [
+              "mnn-08"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:楽しい",
+            "key": "楽しい",
+            "text": "楽しい",
+            "lessonIds": [
+              "mnn-08"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:つまらない",
+            "key": "つまらない",
+            "text": "つまらない",
+            "lessonIds": [
+              "mnn-08"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:重い",
+            "key": "重い",
+            "text": "重い",
+            "lessonIds": [
+              "mnn-08"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:軽い",
+            "key": "軽い",
+            "text": "軽い",
+            "lessonIds": [
+              "mnn-08"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:低い",
+            "key": "低い",
+            "text": "低い",
+            "lessonIds": [
+              "mnn-08"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
             "id": "word:好き",
             "key": "好き",
             "text": "好き",
@@ -2747,6 +3124,84 @@
             "id": "word:スポーツ",
             "key": "スポーツ",
             "text": "スポーツ",
+            "lessonIds": [
+              "mnn-09"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:歌",
+            "key": "歌",
+            "text": "歌",
+            "lessonIds": [
+              "mnn-09"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:テニス",
+            "key": "テニス",
+            "text": "テニス",
+            "lessonIds": [
+              "mnn-09"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:サッカー",
+            "key": "サッカー",
+            "text": "サッカー",
+            "lessonIds": [
+              "mnn-09"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:漢字",
+            "key": "漢字",
+            "text": "漢字",
+            "lessonIds": [
+              "mnn-09"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:ひらがな",
+            "key": "ひらがな",
+            "text": "ひらがな",
+            "lessonIds": [
+              "mnn-09"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:カタカナ",
+            "key": "カタカナ",
+            "text": "カタカナ",
             "lessonIds": [
               "mnn-09"
             ],
@@ -3110,6 +3565,71 @@
             "quality": "project-authored; not independently reviewed"
           },
           {
+            "id": "word:庭",
+            "key": "庭",
+            "text": "庭",
+            "lessonIds": [
+              "mnn-10"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:箱",
+            "key": "箱",
+            "text": "箱",
+            "lessonIds": [
+              "mnn-10"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:冷蔵庫",
+            "key": "冷蔵庫",
+            "text": "冷蔵庫",
+            "lessonIds": [
+              "mnn-10"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:ベッド",
+            "key": "ベッド",
+            "text": "ベッド",
+            "lessonIds": [
+              "mnn-10"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:鳥",
+            "key": "鳥",
+            "text": "鳥",
+            "lessonIds": [
+              "mnn-10"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
             "id": "word:りんご",
             "key": "りんご",
             "text": "りんご",
@@ -3422,6 +3942,45 @@
             "quality": "project-authored; not independently reviewed"
           },
           {
+            "id": "word:夫",
+            "key": "夫",
+            "text": "夫",
+            "lessonIds": [
+              "mnn-11"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:妻",
+            "key": "妻",
+            "text": "妻",
+            "lessonIds": [
+              "mnn-11"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:兄弟",
+            "key": "兄弟",
+            "text": "兄弟",
+            "lessonIds": [
+              "mnn-11"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
             "id": "word:暑い",
             "key": "暑い",
             "text": "暑い",
@@ -3708,6 +4267,71 @@
             "quality": "project-authored; not independently reviewed"
           },
           {
+            "id": "word:曇り",
+            "key": "曇り",
+            "text": "曇り",
+            "lessonIds": [
+              "mnn-12"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:晴れ",
+            "key": "晴れ",
+            "text": "晴れ",
+            "lessonIds": [
+              "mnn-12"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:甘い",
+            "key": "甘い",
+            "text": "甘い",
+            "lessonIds": [
+              "mnn-12"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:辛い",
+            "key": "辛い",
+            "text": "辛い",
+            "lessonIds": [
+              "mnn-12"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:風",
+            "key": "風",
+            "text": "風",
+            "lessonIds": [
+              "mnn-12"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
             "id": "word:欲しい",
             "key": "欲しい",
             "text": "欲しい",
@@ -3867,6 +4491,45 @@
             "id": "word:どこか",
             "key": "どこか",
             "text": "どこか",
+            "lessonIds": [
+              "mnn-13"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:海",
+            "key": "海",
+            "text": "海",
+            "lessonIds": [
+              "mnn-13"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:プール",
+            "key": "プール",
+            "text": "プール",
+            "lessonIds": [
+              "mnn-13"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:レストラン",
+            "key": "レストラン",
+            "text": "レストラン",
             "lessonIds": [
               "mnn-13"
             ],
@@ -4088,6 +4751,45 @@
             "id": "word:ドア",
             "key": "ドア",
             "text": "ドア",
+            "lessonIds": [
+              "mnn-14"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:つけます",
+            "key": "つけます",
+            "text": "つけます",
+            "lessonIds": [
+              "mnn-14"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:止めます",
+            "key": "止めます",
+            "text": "止めます",
+            "lessonIds": [
+              "mnn-14"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:コピーします",
+            "key": "コピーします",
+            "text": "コピーします",
             "lessonIds": [
               "mnn-14"
             ],
@@ -4566,6 +5268,33 @@
             "quality": "project-authored; not independently reviewed"
           },
           {
+            "id": "word:顔",
+            "key": "顔",
+            "text": "顔",
+            "lessonIds": [
+              "mnn-16"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:手",
+            "key": "手",
+            "text": "手",
+            "lessonIds": [
+              "mnn-16",
+              "mnn-18"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
             "id": "word:忘れます",
             "key": "忘れます",
             "text": "忘れます",
@@ -4761,6 +5490,32 @@
             "quality": "project-authored; not independently reviewed"
           },
           {
+            "id": "word:風邪",
+            "key": "風邪",
+            "text": "風邪",
+            "lessonIds": [
+              "mnn-17"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:熱",
+            "key": "熱",
+            "text": "熱",
+            "lessonIds": [
+              "mnn-17"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
             "id": "word:できます",
             "key": "できます",
             "text": "できます",
@@ -4816,19 +5571,6 @@
             "id": "word:洗います",
             "key": "洗います",
             "text": "洗います",
-            "lessonIds": [
-              "mnn-18"
-            ],
-            "hasLesson": true,
-            "hasPractice": true,
-            "hasReviewCapability": true,
-            "assessmentIds": [],
-            "quality": "project-authored; not independently reviewed"
-          },
-          {
-            "id": "word:手",
-            "key": "手",
-            "text": "手",
             "lessonIds": [
               "mnn-18"
             ],
@@ -4933,6 +5675,19 @@
             "id": "word:動物",
             "key": "動物",
             "text": "動物",
+            "lessonIds": [
+              "mnn-18"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:旅行",
+            "key": "旅行",
+            "text": "旅行",
             "lessonIds": [
               "mnn-18"
             ],
@@ -5115,6 +5870,19 @@
             "id": "word:去年",
             "key": "去年",
             "text": "去年",
+            "lessonIds": [
+              "mnn-19"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:走ります",
+            "key": "走ります",
+            "text": "走ります",
             "lessonIds": [
               "mnn-19"
             ],
@@ -5505,6 +6273,45 @@
             "id": "word:青い",
             "key": "青い",
             "text": "青い",
+            "lessonIds": [
+              "mnn-22"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:服",
+            "key": "服",
+            "text": "服",
+            "lessonIds": [
+              "mnn-22"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:ズボン",
+            "key": "ズボン",
+            "text": "ズボン",
+            "lessonIds": [
+              "mnn-22"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "project-authored; not independently reviewed"
+          },
+          {
+            "id": "word:スカート",
+            "key": "スカート",
+            "text": "スカート",
             "lessonIds": [
               "mnn-22"
             ],
@@ -5987,6 +6794,15 @@
           {
             "id": "kanji:社",
             "text": "社",
+            "hasLesson": true,
+            "hasPractice": true,
+            "hasReviewCapability": true,
+            "assessmentIds": [],
+            "quality": "source stroke data; readings/meanings not independently reviewed"
+          },
+          {
+            "id": "kanji:私",
+            "text": "私",
             "hasLesson": true,
             "hasPractice": true,
             "hasReviewCapability": true,

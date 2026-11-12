@@ -1,0 +1,45 @@
+{
+  "at": "2026-11-12T08:00:01.484Z",
+  "scope": "N5 functional gaps batch; entire stage3 remains incomplete",
+  "newTeachingContexts": 63,
+  "newPracticeTasks": 18,
+  "lessons": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    16,
+    17,
+    18,
+    19,
+    22
+  ],
+  "source": "JMdict selected entries/senses pinned per row; project-authored Vietnamese/examples; no independent specialist",
+  "exampleReview": "Author source/grammar comparison in current context; no independent human or accepted fresh AI approval",
+  "audio": {
+    "catalog": 1821,
+    "active": 1810,
+    "newAssets": 113,
+    "heldLastRun": 0,
+    "phoneticListeningReview": false,
+    "actualPlayback": ".tmp-ui/functional-gap/report.json"
+  },
+  "kanji": {
+    "taughtUnique": 159,
+    "new": "私",
+    "strokes": 159
+  },
+  "compatibility": "evaluation/legacy-compatibility-20261112.json",
+  "completenessEstablished": false,
+  "extraReview": "evaluation/n5-semantic-review-progress.json"
+}
