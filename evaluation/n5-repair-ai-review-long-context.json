@@ -1,0 +1,19 @@
+{
+  "time": "2026-11-12T01:13:37.271Z",
+  "type": "AI review only; model may report false issues",
+  "model": "existing qwen3:4b CPU",
+  "results": [
+    {
+      "group": 1,
+      "repeat": 1,
+      "ms": 90022,
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "group": 1,
+      "repeat": 2,
+      "ms": 90008,
+      "error": "The operation was aborted due to timeout"
+    }
+  ]
+}

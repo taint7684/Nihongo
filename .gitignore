@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.tmp-ui/
+.runtime/
+.env*
+
+# Local source archives, runtime and personal exports stay outside Git
+.sources/
+backups/
+recordings/
+*.log
+*.backup.json
+la-ban-nhat-ngu*.json
+nihongo-voice*.json

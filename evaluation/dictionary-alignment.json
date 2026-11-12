@@ -1,0 +1,11 @@
+{
+  "time": "2026-11-12T06:39:37.950Z",
+  "uses": 726,
+  "uniqueDictionaryEntries": 1064,
+  "singleCandidate": 601,
+  "ambiguous": 59,
+  "unresolved": 66,
+  "coreKanji": 297,
+  "sourceKanji": 13108,
+  "warning": "Code/source alignment only, not semantic approval"
+}

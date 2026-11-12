@@ -1,0 +1,45 @@
+{
+  "version": "2026-11-11-provisional",
+  "status": "trial criteria selected under user delegation; not independently validated",
+  "authority": "Người dùng ủy quyền: tôi chưa biết nhưng cứ làm tốt nhất giúp tôi. Không coi đây là duyệt chuyên môn độc lập.",
+  "minNewScenarios": {
+    "N5": 3,
+    "N4": 4
+  },
+  "delayHours": 48,
+  "dimensions": [
+    "Hoàn thành mục đích",
+    "Hiểu câu hỏi",
+    "Đáp và duy trì tương tác",
+    "Dễ hiểu",
+    "Chính xác phù hợp",
+    "Xử lý khi không hiểu",
+    "Mức hỗ trợ"
+  ],
+  "scale": {
+    "0": "Chưa thể hiện",
+    "1": "Một phần hoặc cần gợi ý",
+    "2": "Thực hiện trong điều kiện đã ghi"
+  },
+  "minimum": {
+    "N5": {
+      "purpose": 2,
+      "understanding": 2,
+      "interaction": 1,
+      "intelligibility": 1,
+      "accuracy": 1,
+      "repair": 1
+    },
+    "N4": {
+      "purpose": 2,
+      "understanding": 2,
+      "interaction": 2,
+      "intelligibility": 1,
+      "accuracy": 1,
+      "repair": 1
+    }
+  },
+  "automaticSpeechPass": false,
+  "officialJLPTKaiwa": false,
+  "cefrEquivalence": null
+}

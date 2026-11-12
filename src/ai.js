@@ -1,0 +1,19 @@
+import {KAIWA_APPROVED} from './task-approval.js';
+import {groundedReply,turns,kaiwaIntent}from './ai-policy.js';
+export async function checkConnection(signal){const r=await fetch('/ollama/api/tags',{signal});if(!r.ok)throw Error('Ollama chưa phản hồi.');const b=await r.json();if(!Array.isArray(b.models))throw Error('Phản hồi không hợp lệ.');return b.models.map(m=>m.name)}
+async function fetchLocal(url,options){try{return await fetch(url,options)}catch(e){if(['AbortError','TimeoutError'].includes(e.name))throw e;throw Error('Không kết nối được AI cục bộ. Bài học vẫn được giữ; kiểm tra Ollama hoặc dùng nội dung có sẵn.')}}
+export async function generateCandidate({model,messages,lesson,mode,signal}){
+ const task=mode==='writing'?'Không thay đổi ý hoặc đảo khẳng định/phủ định. Câu đúng không được sửa thành sai. Nếu chưa rõ ý, hỏi lại. Tách Lỗi ngữ pháp, Tự nhiên hơn, Diễn đạt khác.':mode==='kaiwa'?'Chỉ chọn mã lượt hội thoại phù hợp từ danh sách. Trả JSON {"turnId":"greet|askName|acknowledge|repeat"}. Không viết câu mới. Gặp tên người học thì acknowledge; được hỏi tên thì askName; yêu cầu nhắc lại thì repeat; chào lần đầu thì greet.':'Giải thích đúng dữ liệu nguồn, không suy diễn quy tắc chưa có.';
+ const r=await fetchLocal('/ollama/api/chat',{method:'POST',headers:{'Content-Type':'application/json'},signal,body:JSON.stringify({model,think:false,stream:false,...(mode==='kaiwa'?{format:{type:'object',properties:{turnId:{type:'string',enum:['greet','askName','acknowledge','repeat']}},required:['turnId'],additionalProperties:false}}:{}),messages:[{role:'system',content:task+' /no_think. Trả lời ngắn trực tiếp bằng tiếng Việt, không viết quá trình suy nghĩ. '+(mode==='kaiwa'?'Không cần giải thích nội dung bài.':'Dữ liệu bài: '+JSON.stringify({goal:lesson.goal,notes:lesson.notes,cards:lesson.cards}))},...messages.slice(-6)],options:{num_gpu:0,num_ctx:4096,num_predict:192,temperature:0}})});
+ if(!r.ok)throw Error(r.status===404?'Chưa tải mô hình đã chọn.':'AI không xử lý được yêu cầu; bài vẫn được giữ.');const b=await r.json();if(typeof b.message?.content!=='string'||!b.message.content.trim())throw Error('AI chưa trả nội dung.');return b.message.content;
+}
+export async function chat(args){let text=args.messages.at(-1)?.content||'';if(args.mode==='writing'&&!/[ぁ-んァ-ヶ一-龯]/.test(text)&&/muốn nói|muốn diễn đạt|ý tôi là|ý định là/i.test(text)){const prior=args.messages.slice(0,-1).reverse().find(m=>m.role==='user'&&/[ぁ-んァ-ヶ一-龯]/.test(m.content));if(prior)text+='\nCâu trước: '+prior.content;}const grounded=groundedReply({text,lesson:args.lesson,mode:args.mode});if(grounded)return grounded;
+ if(args.mode!=='kaiwa')return '[Giới hạn tác vụ] Chưa mở sinh tự do cho tác vụ này.';
+ // Model chooses a vetted turn only. No model-generated Japanese is published here.
+ const expected=kaiwaIntent(text);
+ if(expected==='acknowledge')return '[Hội thoại hướng dẫn · không gọi mô hình]\n'+turns.acknowledge.ja+' — '+turns.acknowledge.vi+'\nPhản hồi tên dùng câu đã đối chiếu; thử mô hình cho nhánh này chưa đạt.';
+ if(!expected)return '[Hội thoại hướng dẫn · không gọi mô hình]\nHiện chỉ hỗ trợ chào, hỏi tên và xin nhắc lại. Bạn muốn thử tình huống nào? Hội thoại tự do chưa mở.';
+ if(args.model!=='qwen3:4b'||!KAIWA_APPROVED)return '[Hội thoại hướng dẫn · không gọi mô hình]\n'+turns[expected].ja+' — '+turns[expected].vi+'\nChưa mở mô hình đang chọn cho tác vụ này.';
+ const raw=await generateCandidate(args);let id;try{id=JSON.parse(raw).turnId}catch{}if(!Object.hasOwn(turns,id)||id!==expected)return '[Hội thoại hướng dẫn · phản hồi mô hình bị loại]\n'+turns.repeat.ja+' — '+turns.repeat.vi+'\nMô hình không trả mã hợp lệ; không hiển thị câu sinh chưa kiểm tra.';
+ const t=turns[id];return '[AI chọn lượt · câu từ kho đối chiếu, không hội thoại tự do]\n'+t.ja+' — '+t.vi;
+}

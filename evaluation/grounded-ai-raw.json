@@ -1,0 +1,619 @@
+{
+  "time": "2026-11-11T14:27:36.481Z",
+  "model": "qwen3:4b",
+  "source": {
+    "id": "mnn-01",
+    "rules": [
+      "学生です: trong giới thiệu, tôi là sinh viên.",
+      "学生ではありません: trong giới thiệu, tôi không phải sinh viên.",
+      "学生じゃありません: phủ định danh từ cùng ý với 学生ではありません, thường dùng trong hội thoại.",
+      "Không đổi phủ định thành khẳng định nếu người học không yêu cầu đổi ý.",
+      "Chưa có căn cứ cho kính ngữ ngoài bài này."
+    ],
+    "examples": [
+      "学生です。",
+      "学生ではありません。",
+      "学生じゃありません。"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "d-plain",
+      "split": "development",
+      "question": "Vì sao 学生ではありません không có nghĩa là tôi là sinh viên?",
+      "focus": "phủ định phải được giữ",
+      "repeat": 1,
+      "ms": 23590,
+      "raw": {
+        "model": "qwen3:4b",
+        "created_at": "2026-11-11T14:23:17.9558523Z",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"inScope\": true,\n  \"explanation\": \"Trong nguồn, có quy tắc: '学生ではありません: trong giới thiệu, tôi không phải sinh viên.' Điều này cho thấy '学生ではありません' có nghĩa là 'tôi không phải sinh viên', không phải 'tôi là sinh viên'. Do đó, '学生ではありません' không có nghĩa là 'tôi là sinh viên'.\",\n  \"example\": \"学生ではありません。 (Tôi không phải sinh viên)\",\n  \"needClarification\": false\n}"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 23579529700,
+        "load_duration": 4651270100,
+        "prompt_eval_count": 206,
+        "prompt_eval_cached_count": 0,
+        "prompt_eval_duration": 4174606000,
+        "eval_count": 111,
+        "eval_duration": 14721076000
+      },
+      "parsed": {
+        "inScope": true,
+        "explanation": "Trong nguồn, có quy tắc: '学生ではありません: trong giới thiệu, tôi không phải sinh viên.' Điều này cho thấy '学生ではありません' có nghĩa là 'tôi không phải sinh viên', không phải 'tôi là sinh viên'. Do đó, '学生ではありません' không có nghĩa là 'tôi là sinh viên'.",
+        "example": "学生ではありません。 (Tôi không phải sinh viên)",
+        "needClarification": false
+      },
+      "syntaxPass": true,
+      "meaningPass": null
+    },
+    {
+      "id": "d-plain",
+      "split": "development",
+      "question": "Vì sao 学生ではありません không có nghĩa là tôi là sinh viên?",
+      "focus": "phủ định phải được giữ",
+      "repeat": 2,
+      "ms": 15898,
+      "raw": {
+        "model": "qwen3:4b",
+        "created_at": "2026-11-11T14:23:33.8459001Z",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"inScope\": true,\n  \"explanation\": \"Trong nguồn, có quy tắc: '学生ではありません: trong giới thiệu, tôi không phải sinh viên.' Điều này cho thấy '学生ではありません' có nghĩa là 'tôi không phải sinh viên', không phải 'tôi là sinh viên'. Do đó, '学生ではありません' không có nghĩa là 'tôi là sinh viên'.\",\n  \"example\": \"学生ではありません。 (Tôi không phải sinh viên)\",\n  \"needClarification\": false\n}"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 15880480700,
+        "load_duration": 12850700,
+        "prompt_eval_count": 206,
+        "prompt_eval_cached_count": 205,
+        "prompt_eval_duration": 165728000,
+        "eval_count": 111,
+        "eval_duration": 15695457000
+      },
+      "parsed": {
+        "inScope": true,
+        "explanation": "Trong nguồn, có quy tắc: '学生ではありません: trong giới thiệu, tôi không phải sinh viên.' Điều này cho thấy '学生ではありません' có nghĩa là 'tôi không phải sinh viên', không phải 'tôi là sinh viên'. Do đó, '学生ではありません' không có nghĩa là 'tôi là sinh viên'.",
+        "example": "学生ではありません。 (Tôi không phải sinh viên)",
+        "needClarification": false
+      },
+      "syntaxPass": true,
+      "meaningPass": null
+    },
+    {
+      "id": "d-plain",
+      "split": "development",
+      "question": "Vì sao 学生ではありません không có nghĩa là tôi là sinh viên?",
+      "focus": "phủ định phải được giữ",
+      "repeat": 3,
+      "ms": 16263,
+      "raw": {
+        "model": "qwen3:4b",
+        "created_at": "2026-11-11T14:23:50.1077769Z",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"inScope\": true,\n  \"explanation\": \"Trong nguồn, có quy tắc: '学生ではありません: trong giới thiệu, tôi không phải sinh viên.' Điều này cho thấy '学生ではありません' có nghĩa là 'tôi không phải sinh viên', không phải 'tôi là sinh viên'. Do đó, '学生ではありません' không có nghĩa là 'tôi là sinh viên'.\",\n  \"example\": \"学生ではありません。 (Tôi không phải sinh viên)\",\n  \"needClarification\": false\n}"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 16243061200,
+        "load_duration": 9321200,
+        "prompt_eval_count": 206,
+        "prompt_eval_cached_count": 205,
+        "prompt_eval_duration": 175901000,
+        "eval_count": 110,
+        "eval_duration": 16050450000
+      },
+      "parsed": {
+        "inScope": true,
+        "explanation": "Trong nguồn, có quy tắc: '学生ではありません: trong giới thiệu, tôi không phải sinh viên.' Điều này cho thấy '学生ではありません' có nghĩa là 'tôi không phải sinh viên', không phải 'tôi là sinh viên'. Do đó, '学生ではありません' không có nghĩa là 'tôi là sinh viên'.",
+        "example": "学生ではありません。 (Tôi không phải sinh viên)",
+        "needClarification": false
+      },
+      "syntaxPass": true,
+      "meaningPass": null
+    },
+    {
+      "id": "d-follow",
+      "split": "development",
+      "question": "Giải thích ngắn hơn cho người chưa biết gì, một ví dụ thôi.",
+      "prior": "Tôi chưa hiểu khẳng định với phủ định.",
+      "focus": "diễn giải theo người mới",
+      "repeat": 1,
+      "ms": 14415,
+      "raw": {
+        "model": "qwen3:4b",
+        "created_at": "2026-11-11T14:24:04.5386319Z",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"inScope\": true,\n  \"explanation\": \"Khẳng định: 'Tôi là sinh viên' (学生です). Phủ định: 'Tôi không phải sinh viên' (学生ではありません).\",\n  \"example\": \"学生です。 (Tôi là sinh viên).\",\n  \"needClarification\": false\n}"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 14384577500,
+        "load_duration": 43743300,
+        "prompt_eval_count": 239,
+        "prompt_eval_cached_count": 182,
+        "prompt_eval_duration": 2396440000,
+        "eval_count": 72,
+        "eval_duration": 11927950000
+      },
+      "parsed": {
+        "inScope": true,
+        "explanation": "Khẳng định: 'Tôi là sinh viên' (学生です). Phủ định: 'Tôi không phải sinh viên' (学生ではありません).",
+        "example": "学生です。 (Tôi là sinh viên).",
+        "needClarification": false
+      },
+      "syntaxPass": true,
+      "meaningPass": null
+    },
+    {
+      "id": "d-follow",
+      "split": "development",
+      "question": "Giải thích ngắn hơn cho người chưa biết gì, một ví dụ thôi.",
+      "prior": "Tôi chưa hiểu khẳng định với phủ định.",
+      "focus": "diễn giải theo người mới",
+      "repeat": 2,
+      "ms": 10145,
+      "raw": {
+        "model": "qwen3:4b",
+        "created_at": "2026-11-11T14:24:14.6803269Z",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"inScope\": true,\n  \"explanation\": \"Khẳng định: 'Tôi là sinh viên' (学生です). Phủ định: 'Tôi không phải sinh viên' (学生ではありません).\",\n  \"example\": \"学生です。 (Tôi là sinh viên).\",\n  \"needClarification\": false\n}"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 10134137400,
+        "load_duration": 7854600,
+        "prompt_eval_count": 239,
+        "prompt_eval_cached_count": 238,
+        "prompt_eval_duration": 186913000,
+        "eval_count": 72,
+        "eval_duration": 9926685000
+      },
+      "parsed": {
+        "inScope": true,
+        "explanation": "Khẳng định: 'Tôi là sinh viên' (学生です). Phủ định: 'Tôi không phải sinh viên' (学生ではありません).",
+        "example": "学生です。 (Tôi là sinh viên).",
+        "needClarification": false
+      },
+      "syntaxPass": true,
+      "meaningPass": null
+    },
+    {
+      "id": "d-follow",
+      "split": "development",
+      "question": "Giải thích ngắn hơn cho người chưa biết gì, một ví dụ thôi.",
+      "prior": "Tôi chưa hiểu khẳng định với phủ định.",
+      "focus": "diễn giải theo người mới",
+      "repeat": 3,
+      "ms": 11495,
+      "raw": {
+        "model": "qwen3:4b",
+        "created_at": "2026-11-11T14:24:26.17205Z",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"inScope\": true,\n  \"explanation\": \"Khẳng định: 'Tôi là sinh viên' (学生です). Phủ định: 'Tôi không phải sinh viên' (学生ではありません).\",\n  \"example\": \"学生です。 (Tôi là sinh viên).\",\n  \"needClarification\": false\n}"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 11461468700,
+        "load_duration": 18646100,
+        "prompt_eval_count": 239,
+        "prompt_eval_cached_count": 238,
+        "prompt_eval_duration": 188752000,
+        "eval_count": 72,
+        "eval_duration": 11233459000
+      },
+      "parsed": {
+        "inScope": true,
+        "explanation": "Khẳng định: 'Tôi là sinh viên' (学生です). Phủ định: 'Tôi không phải sinh viên' (学生ではありません).",
+        "example": "学生です。 (Tôi là sinh viên).",
+        "needClarification": false
+      },
+      "syntaxPass": true,
+      "meaningPass": null
+    },
+    {
+      "id": "d-valid",
+      "split": "development",
+      "question": "Tôi muốn nói tôi không là sinh viên: 学生ではありません。 Câu này sai không?",
+      "focus": "không sửa câu đúng thành khẳng định",
+      "repeat": 1,
+      "ms": 11528,
+      "raw": {
+        "model": "qwen3:4b",
+        "created_at": "2026-11-11T14:24:37.7113256Z",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"inScope\": true,\n  \"explanation\": \"Câu '学生ではありません。' là đúng. Trong nguồn, có ví dụ '学生ではありません。' và quy tắc '学生ではありません: trong giới thiệu, tôi không phải sinh viên.' Do đó, câu này không sai.\",\n  \"example\": \"学生ではありません。\",\n  \"needClarification\": false\n}"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 11521817500,
+        "load_duration": 73970200,
+        "prompt_eval_count": 209,
+        "prompt_eval_cached_count": 183,
+        "prompt_eval_duration": 913974000,
+        "eval_count": 83,
+        "eval_duration": 10527974000
+      },
+      "parsed": {
+        "inScope": true,
+        "explanation": "Câu '学生ではありません。' là đúng. Trong nguồn, có ví dụ '学生ではありません。' và quy tắc '学生ではありません: trong giới thiệu, tôi không phải sinh viên.' Do đó, câu này không sai.",
+        "example": "学生ではありません。",
+        "needClarification": false
+      },
+      "syntaxPass": true,
+      "meaningPass": null
+    },
+    {
+      "id": "d-valid",
+      "split": "development",
+      "question": "Tôi muốn nói tôi không là sinh viên: 学生ではありません。 Câu này sai không?",
+      "focus": "không sửa câu đúng thành khẳng định",
+      "repeat": 2,
+      "ms": 10604,
+      "raw": {
+        "model": "qwen3:4b",
+        "created_at": "2026-11-11T14:24:48.3055358Z",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"inScope\": true,\n  \"explanation\": \"Câu '学生ではありません。' đúng. Trong nguồn, có ví dụ '学生ではありません。' và quy tắc '学生ではありません: trong giới thiệu, tôi không phải sinh viên.' Do đó, câu này không sai.\",\n  \"example\": \"学生ではありません。\",\n  \"needClarification\": false\n}"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 10583969700,
+        "load_duration": 8317700,
+        "prompt_eval_count": 209,
+        "prompt_eval_cached_count": 208,
+        "prompt_eval_duration": 155939000,
+        "eval_count": 81,
+        "eval_duration": 10412617000
+      },
+      "parsed": {
+        "inScope": true,
+        "explanation": "Câu '学生ではありません。' đúng. Trong nguồn, có ví dụ '学生ではありません。' và quy tắc '学生ではありません: trong giới thiệu, tôi không phải sinh viên.' Do đó, câu này không sai.",
+        "example": "学生ではありません。",
+        "needClarification": false
+      },
+      "syntaxPass": true,
+      "meaningPass": null
+    },
+    {
+      "id": "d-valid",
+      "split": "development",
+      "question": "Tôi muốn nói tôi không là sinh viên: 学生ではありません。 Câu này sai không?",
+      "focus": "không sửa câu đúng thành khẳng định",
+      "repeat": 3,
+      "ms": 13618,
+      "raw": {
+        "model": "qwen3:4b",
+        "created_at": "2026-11-11T14:25:01.9267194Z",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"inScope\": true,\n  \"explanation\": \"Câu '学生ではありません。' là đúng theo quy tắc đã cho. Trong nguồn, có ví dụ '学生ではありません。' và quy tắc '学生ではありません: trong giới thiệu, tôi không phải sinh viên.' Do đó, câu này không sai.\",\n  \"example\": \"学生ではありません。\",\n  \"needClarification\": false\n}"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 13601676500,
+        "load_duration": 10566600,
+        "prompt_eval_count": 209,
+        "prompt_eval_cached_count": 208,
+        "prompt_eval_duration": 186029000,
+        "eval_count": 88,
+        "eval_duration": 13398415000
+      },
+      "parsed": {
+        "inScope": true,
+        "explanation": "Câu '学生ではありません。' là đúng theo quy tắc đã cho. Trong nguồn, có ví dụ '学生ではありません。' và quy tắc '学生ではありません: trong giới thiệu, tôi không phải sinh viên.' Do đó, câu này không sai.",
+        "example": "学生ではありません。",
+        "needClarification": false
+      },
+      "syntaxPass": true,
+      "meaningPass": null
+    },
+    {
+      "id": "h-variant",
+      "split": "heldout",
+      "question": "Nếu tôi viết 学生じゃありません thay vì 学生ではありません thì có đổi ý không?",
+      "focus": "biến thể phủ định cùng nghĩa",
+      "repeat": 1,
+      "ms": 14533,
+      "raw": {
+        "model": "qwen3:4b",
+        "created_at": "2026-11-11T14:25:16.4624896Z",
+        "message": {
+          "role": "assistant",
+          "content": "{ \"inScope\": true, \"explanation\": \"Theo quy tắc trong nguồn, '学生じゃありません' là phủ định danh từ cùng ý với '学生ではありません', thường dùng trong hội thoại. Do đó, khi viết '学生じゃありません' thay vì '学生ではありません', đây là phủ định và không đổi ý. Không có căn cứ cho kính ngữ ngoài bài này, nên không cần đổi ý.\", \"example\": \"学生じゃありません。\",\"needClarification\": false }"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 14516886800,
+        "load_duration": 12536300,
+        "prompt_eval_count": 211,
+        "prompt_eval_cached_count": 182,
+        "prompt_eval_duration": 981566000,
+        "eval_count": 105,
+        "eval_duration": 13512951000
+      },
+      "parsed": {
+        "inScope": true,
+        "explanation": "Theo quy tắc trong nguồn, '学生じゃありません' là phủ định danh từ cùng ý với '学生ではありません', thường dùng trong hội thoại. Do đó, khi viết '学生じゃありません' thay vì '学生ではありません', đây là phủ định và không đổi ý. Không có căn cứ cho kính ngữ ngoài bài này, nên không cần đổi ý.",
+        "example": "学生じゃありません。",
+        "needClarification": false
+      },
+      "syntaxPass": true,
+      "meaningPass": null
+    },
+    {
+      "id": "h-variant",
+      "split": "heldout",
+      "question": "Nếu tôi viết 学生じゃありません thay vì 学生ではありません thì có đổi ý không?",
+      "focus": "biến thể phủ định cùng nghĩa",
+      "repeat": 2,
+      "ms": 12121,
+      "raw": {
+        "model": "qwen3:4b",
+        "created_at": "2026-11-11T14:25:28.591199Z",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"inScope\": true,\n  \"explanation\": \"Theo quy tắc trong nguồn, '学生じゃありません' là phủ định danh từ cùng ý với '学生ではありません', thường dùng trong hội thoại. Do đó, khi viết '学生じゃありません' thay vì '学生ではありません', không đổi ý.\",\n  \"example\": \"学生じゃありません。\",\n  \"needClarification\": false\n}"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 12110677300,
+        "load_duration": 8193500,
+        "prompt_eval_count": 211,
+        "prompt_eval_cached_count": 210,
+        "prompt_eval_duration": 163415000,
+        "eval_count": 88,
+        "eval_duration": 11929792000
+      },
+      "parsed": {
+        "inScope": true,
+        "explanation": "Theo quy tắc trong nguồn, '学生じゃありません' là phủ định danh từ cùng ý với '学生ではありません', thường dùng trong hội thoại. Do đó, khi viết '学生じゃありません' thay vì '学生ではありません', không đổi ý.",
+        "example": "学生じゃありません。",
+        "needClarification": false
+      },
+      "syntaxPass": true,
+      "meaningPass": null
+    },
+    {
+      "id": "h-variant",
+      "split": "heldout",
+      "question": "Nếu tôi viết 学生じゃありません thay vì 学生ではありません thì có đổi ý không?",
+      "focus": "biến thể phủ định cùng nghĩa",
+      "repeat": 3,
+      "ms": 15772,
+      "raw": {
+        "model": "qwen3:4b",
+        "created_at": "2026-11-11T14:25:44.3674977Z",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"inScope\": true,\n  \"explanation\": \"Theo quy tắc trong nguồn, '学生じゃありません' là phủ định danh từ cùng ý với '学生ではありません', thường dùng trong hội thoại. Do đó, khi viết '学生じゃありません' thay vì '学生ではありません', không đổi ý.\",\n  \"example\": \"学生じゃありません。\",\n  \"needClarification\": false\n}"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 15760861600,
+        "load_duration": 16224600,
+        "prompt_eval_count": 211,
+        "prompt_eval_cached_count": 210,
+        "prompt_eval_duration": 222578000,
+        "eval_count": 90,
+        "eval_duration": 15505688000
+      },
+      "parsed": {
+        "inScope": true,
+        "explanation": "Theo quy tắc trong nguồn, '学生じゃありません' là phủ định danh từ cùng ý với '学生ではありません', thường dùng trong hội thoại. Do đó, khi viết '学生じゃありません' thay vì '学生ではありません', không đổi ý.",
+        "example": "学生じゃありません。",
+        "needClarification": false
+      },
+      "syntaxPass": true,
+      "meaningPass": null
+    },
+    {
+      "id": "h-meaning",
+      "split": "heldout",
+      "question": "Tôi muốn nói tôi là sinh viên nhưng viết 学生ではありません. Gợi ý trước, đừng đưa ngay đáp án.",
+      "focus": "giữ ý muốn, gợi ý trước đáp án",
+      "repeat": 1,
+      "ms": 18704,
+      "raw": {
+        "model": "qwen3:4b",
+        "created_at": "2026-11-11T14:26:03.0641524Z",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"inScope\": true,\n  \"explanation\": \"Trong nguồn, có quy tắc: '学生です: trong giới thiệu, tôi là sinh viên.' và '学生ではありません: trong giới thiệu, tôi không phải sinh viên.' Bạn muốn nói 'tôi là sinh viên' nhưng viết sai thành '学生ではありません' (không phải sinh viên). Gợi ý: Hãy kiểm tra lại từ '学生' và cấu trúc phủ định.\",\n  \"example\": \"学生です。 (đúng) vs 学生ではありません。 (sai)\",\n  \"needClarification\": false\n}"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 18689649200,
+        "load_duration": 15601400,
+        "prompt_eval_count": 215,
+        "prompt_eval_cached_count": 182,
+        "prompt_eval_duration": 1333821000,
+        "eval_count": 128,
+        "eval_duration": 17330947000
+      },
+      "parsed": {
+        "inScope": true,
+        "explanation": "Trong nguồn, có quy tắc: '学生です: trong giới thiệu, tôi là sinh viên.' và '学生ではありません: trong giới thiệu, tôi không phải sinh viên.' Bạn muốn nói 'tôi là sinh viên' nhưng viết sai thành '学生ではありません' (không phải sinh viên). Gợi ý: Hãy kiểm tra lại từ '学生' và cấu trúc phủ định.",
+        "example": "学生です。 (đúng) vs 学生ではありません。 (sai)",
+        "needClarification": false
+      },
+      "syntaxPass": true,
+      "meaningPass": null
+    },
+    {
+      "id": "h-meaning",
+      "split": "heldout",
+      "question": "Tôi muốn nói tôi là sinh viên nhưng viết 学生ではありません. Gợi ý trước, đừng đưa ngay đáp án.",
+      "focus": "giữ ý muốn, gợi ý trước đáp án",
+      "repeat": 2,
+      "ms": 17202,
+      "raw": {
+        "model": "qwen3:4b",
+        "created_at": "2026-11-11T14:26:20.2667938Z",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"inScope\": true,\n  \"explanation\": \"Trong nguồn, có quy tắc: '学生です: trong giới thiệu, tôi là sinh viên.' và '学生ではありません: trong giới thiệu, tôi không phải sinh viên.' Bạn đang muốn nói 'tôi là sinh viên' nhưng viết sai thành '学生ではありません' (tương ứng với 'tôi không phải sinh viên'). Đáp án đúng là '学生です' (tương ứng với 'tôi là sinh viên').\",\n  \"example\": \"学生です。\",\n  \"needClarification\": false\n}"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 17186409400,
+        "load_duration": 8411500,
+        "prompt_eval_count": 215,
+        "prompt_eval_cached_count": 214,
+        "prompt_eval_duration": 170321000,
+        "eval_count": 126,
+        "eval_duration": 17000789000
+      },
+      "parsed": {
+        "inScope": true,
+        "explanation": "Trong nguồn, có quy tắc: '学生です: trong giới thiệu, tôi là sinh viên.' và '学生ではありません: trong giới thiệu, tôi không phải sinh viên.' Bạn đang muốn nói 'tôi là sinh viên' nhưng viết sai thành '学生ではありません' (tương ứng với 'tôi không phải sinh viên'). Đáp án đúng là '学生です' (tương ứng với 'tôi là sinh viên').",
+        "example": "学生です。",
+        "needClarification": false
+      },
+      "syntaxPass": true,
+      "meaningPass": null
+    },
+    {
+      "id": "h-meaning",
+      "split": "heldout",
+      "question": "Tôi muốn nói tôi là sinh viên nhưng viết 学生ではありません. Gợi ý trước, đừng đưa ngay đáp án.",
+      "focus": "giữ ý muốn, gợi ý trước đáp án",
+      "repeat": 3,
+      "ms": 18331,
+      "raw": {
+        "model": "qwen3:4b",
+        "created_at": "2026-11-11T14:26:38.6021858Z",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"inScope\": true,\n  \"explanation\": \"Trong nguồn, có quy tắc: '学生です: trong giới thiệu, tôi là sinh viên.' và '学生ではありません: trong giới thiệu, tôi không phải sinh viên.' Bạn muốn nói 'tôi là sinh viên' nhưng viết sai thành '学生ではありません' (không phải sinh viên). Gợi ý: Hãy kiểm tra lại từ '学生' và cấu trúc phủ định. Đúng là '学生です' để nói 'tôi là sinh viên'.\",\n  \"example\": \"学生です。\",\n  \"needClarification\": false\n}"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 18311604500,
+        "load_duration": 12172900,
+        "prompt_eval_count": 215,
+        "prompt_eval_cached_count": 214,
+        "prompt_eval_duration": 194803000,
+        "eval_count": 132,
+        "eval_duration": 18082007000
+      },
+      "parsed": {
+        "inScope": true,
+        "explanation": "Trong nguồn, có quy tắc: '学生です: trong giới thiệu, tôi là sinh viên.' và '学生ではありません: trong giới thiệu, tôi không phải sinh viên.' Bạn muốn nói 'tôi là sinh viên' nhưng viết sai thành '学生ではありません' (không phải sinh viên). Gợi ý: Hãy kiểm tra lại từ '学生' và cấu trúc phủ định. Đúng là '学生です' để nói 'tôi là sinh viên'.",
+        "example": "学生です。",
+        "needClarification": false
+      },
+      "syntaxPass": true,
+      "meaningPass": null
+    },
+    {
+      "id": "h-unknown",
+      "split": "heldout",
+      "question": "Giải thích kính ngữ おっしゃいます với kính ngữ trong phỏng vấn xin việc.",
+      "focus": "ngoài nguồn, không bịa quy tắc",
+      "repeat": 1,
+      "ms": 16030,
+      "raw": {
+        "model": "qwen3:4b",
+        "created_at": "2026-11-11T14:26:54.6333785Z",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"inScope\": true,\n  \"explanation\": \"Theo nguồn đã cho, chỉ có các ví dụ về '学生です', '学生ではありません', '学生じゃありません' và quy tắc liên quan đến giới thiệu. Không có thông tin về kính ngữ 'おっしゃいます' hoặc phỏng vấn xin việc trong nguồn. Do đó, không có căn cứ để giải thích kính ngữ này.\",\n  \"example\": \"Không có ví dụ trong nguồn\",\n  \"needClarification\": true\n}"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 16015217900,
+        "load_duration": 7073000,
+        "prompt_eval_count": 211,
+        "prompt_eval_cached_count": 182,
+        "prompt_eval_duration": 969472000,
+        "eval_count": 113,
+        "eval_duration": 15031313000
+      },
+      "parsed": {
+        "inScope": true,
+        "explanation": "Theo nguồn đã cho, chỉ có các ví dụ về '学生です', '学生ではありません', '学生じゃありません' và quy tắc liên quan đến giới thiệu. Không có thông tin về kính ngữ 'おっしゃいます' hoặc phỏng vấn xin việc trong nguồn. Do đó, không có căn cứ để giải thích kính ngữ này.",
+        "example": "Không có ví dụ trong nguồn",
+        "needClarification": true
+      },
+      "syntaxPass": true,
+      "meaningPass": null
+    },
+    {
+      "id": "h-unknown",
+      "split": "heldout",
+      "question": "Giải thích kính ngữ おっしゃいます với kính ngữ trong phỏng vấn xin việc.",
+      "focus": "ngoài nguồn, không bịa quy tắc",
+      "repeat": 2,
+      "ms": 19088,
+      "raw": {
+        "model": "qwen3:4b",
+        "created_at": "2026-11-11T14:27:13.7275176Z",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"inScope\": true,\n  \"explanation\": \"Trong nguồn đã cung cấp, không có thông tin về kính ngữ 'おっしゃいます' hoặc phỏng vấn xin việc. Các quy tắc chỉ đề cập đến cách dùng '学生です', '学生ではありません', '学生じゃありません' trong giới thiệu. Do đó, không có căn cứ để giải thích kính ngữ 'おっしゃいます' trong bối cảnh phỏng vấn xin việc.\",\n  \"example\": \"Không có ví dụ trong nguồn về kính ngữ 'おっしゃいます' hoặc phỏng vấn xin việc.\",\n  \"needClarification\": true\n}"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 19075778500,
+        "load_duration": 9359800,
+        "prompt_eval_count": 211,
+        "prompt_eval_cached_count": 210,
+        "prompt_eval_duration": 170183000,
+        "eval_count": 143,
+        "eval_duration": 18889322000
+      },
+      "parsed": {
+        "inScope": true,
+        "explanation": "Trong nguồn đã cung cấp, không có thông tin về kính ngữ 'おっしゃいます' hoặc phỏng vấn xin việc. Các quy tắc chỉ đề cập đến cách dùng '学生です', '学生ではありません', '学生じゃありません' trong giới thiệu. Do đó, không có căn cứ để giải thích kính ngữ 'おっしゃいます' trong bối cảnh phỏng vấn xin việc.",
+        "example": "Không có ví dụ trong nguồn về kính ngữ 'おっしゃいます' hoặc phỏng vấn xin việc.",
+        "needClarification": true
+      },
+      "syntaxPass": true,
+      "meaningPass": null
+    },
+    {
+      "id": "h-unknown",
+      "split": "heldout",
+      "question": "Giải thích kính ngữ おっしゃいます với kính ngữ trong phỏng vấn xin việc.",
+      "focus": "ngoài nguồn, không bịa quy tắc",
+      "repeat": 3,
+      "ms": 22746,
+      "raw": {
+        "model": "qwen3:4b",
+        "created_at": "2026-11-11T14:27:36.480794Z",
+        "message": {
+          "role": "assistant",
+          "content": "{ \"inScope\": true, \"explanation\": \"Câu hỏi yêu cầu giải thích kính ngữ 'おっしゃいます' trong phỏng vấn xin việc. Tuy nhiên, trong nguồn cung cấp, chỉ có các quy tắc về cách giới thiệu bản thân (学生です, 学生ではありません, 学生じゃありません) và không có thông tin về kính ngữ trong phỏng vấn xin việc. Các quy tắc trong nguồn không đề cập đến kính ngữ như 'おっしゃいます' hay ngữ cảnh phỏng vấn xin việc. Do đó, không có căn cứ để giải thích kính ngữ này từ nguồn đã cho.\", \"example\": \"Không có ví dụ trong nguồn về kính ngữ trong phỏng: 'おっしゃいます'.\",\"needClarification\": true }"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 22742187400,
+        "load_duration": 8457500,
+        "prompt_eval_count": 211,
+        "prompt_eval_cached_count": 210,
+        "prompt_eval_duration": 185862000,
+        "eval_count": 173,
+        "eval_duration": 22539933000
+      },
+      "parsed": {
+        "inScope": true,
+        "explanation": "Câu hỏi yêu cầu giải thích kính ngữ 'おっしゃいます' trong phỏng vấn xin việc. Tuy nhiên, trong nguồn cung cấp, chỉ có các quy tắc về cách giới thiệu bản thân (学生です, 学生ではありません, 学生じゃありません) và không có thông tin về kính ngữ trong phỏng vấn xin việc. Các quy tắc trong nguồn không đề cập đến kính ngữ như 'おっしゃいます' hay ngữ cảnh phỏng vấn xin việc. Do đó, không có căn cứ để giải thích kính ngữ này từ nguồn đã cho.",
+        "example": "Không có ví dụ trong nguồn về kính ngữ trong phỏng: 'おっしゃいます'.",
+        "needClarification": true
+      },
+      "syntaxPass": true,
+      "meaningPass": null
+    }
+  ],
+  "publication": "not approved; semantic review required, heldout cases must not be used to patch individual answers"
+}

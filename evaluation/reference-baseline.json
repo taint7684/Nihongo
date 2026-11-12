@@ -1,0 +1,13 @@
+{
+  "at": "2026-11-12T06:30:00.208Z",
+  "unit": {
+    "passed": 85,
+    "files": 16,
+    "lastRun": "2026-11-12 12:38 local before read-only audit"
+  },
+  "lessons": 100,
+  "questions": 747,
+  "referenceHash": "ed4e149537ccdafafe0c7d8b7cd3a30420bb2ba13275b06b9d2355a169f37e59",
+  "previousReadOnlyAudit": "2026-11-12 13:19 local, runtime GUI/asset/legacy compatibility verified",
+  "humanEvidence": false
+}

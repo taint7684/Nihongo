@@ -1,0 +1,227 @@
+{
+  "time": "2026-11-12T01:24:32.314Z",
+  "type": "AI review only; model may report false issues",
+  "model": "existing qwen3:4b CPU",
+  "results": [
+    {
+      "group": 1,
+      "repeat": 1,
+      "ms": 79019,
+      "raw": {
+        "model": "qwen3:4b",
+        "created_at": "2026-11-12T01:15:43.394792Z",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"lessons\": [\n    {\n      \"number\": 1,\n      \"pattern\": \"何歳／おいくつですか\",\n      \"example\": {\n        \"ja\": \"何歳ですか。\",\n        \"reading\": \"なんさいですか。\",\n        \"vi\": \"Bạn bao nhiêu tuổi?\"\n      },\n      \"prompt\": \"Vai giả 20 tuổi, chọn đáp án tuổi.\",\n      \"choices\": [\n        \"二十歳です。\",\n        \"二十人です。\",\n        \"二十円です。\"\n      ],\n      \"answer\": 0\n    },\n    {\n      \"number\": 2,\n      \"pattern\": \"何のN／だれのN\",\n      \"example\": {\n        \"ja\": \"これは何の本ですか。\",\n        \"reading\": \"これはなんのほんですか。\",\n        \"vi\": \"Đây là sách về lĩnh vực gì?\"\n      },\n      \"prompt\": \"Người kia nói 日本語の本です。 Họ đang nêu gì?\",\n      \"choices\": [\n        \"nội dung/lĩnh vực sách\",\n        \"người sở hữu\",\n        \"giá sách\"\n      ],\n      \"answer\": 0\n    },\n    {\n      \"number\": 3,\n      \"pattern\": \"どこのN／お国はどちらですか\",\n      \"example\": {\n        \"ja\": \"お国はどちらですか。\",\n        \"reading\": \"おくにはどちらですか。\",\n        \"vi\":"
+        },
+        "done": true,
+        "done_reason": "length",
+        "total_duration": 78936555800,
+        "load_duration": 4944929000,
+        "prompt_eval_count": 1210,
+        "prompt_eval_cached_count": 0,
+        "prompt_eval_duration": 27876776000,
+        "eval_count": 300,
+        "eval_duration": 46066058000
+      }
+    },
+    {
+      "group": 1,
+      "repeat": 2,
+      "ms": 56521,
+      "raw": {
+        "model": "qwen3:4b",
+        "created_at": "2026-11-12T01:16:39.9519668Z",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"lessons\": [\n    {\n      \"number\": 1,\n      \"pattern\": \"何歳／おいくつですか\",\n      \"example\": {\n        \"ja\": \"何歳ですか。\",\n        \"reading\": \"なんさいですか。\",\n        \"vi\": \"Bạn bao nhiêu tuổi?\"\n      },\n      \"prompt\": \"Vai giả 20 tuổi, chọn đáp án tuổi.\",\n      \"choices\": [\n        \"二十歳です。\",\n        \"二十人です。\",\n        \"二十円です。\"\n      ],\n      \"answer\": 0\n    },\n    {\n      \"number\": 2,\n      \"pattern\": \"何のN／だれのN\",\n      \"example\": {\n        \"ja\": \"これは何の本ですか。\",\n        \"reading\": \"これはなんのほんですか。\",\n        \"vi\": \"Đây là sách về lĩnh vực gì?\"\n      },\n      \"prompt\": \"Người kia nói 日本語の本です。 Họ đang nêu gì?\",\n      \"choices\": [\n        \"nội dung/lĩnh vực sách\",\n        \"người sở hữu\",\n        \"giá sách\"\n      ],\n      \"answer\": 0\n    },\n    {\n      \"number\": 3,\n      \"pattern\": \"どこのN／お国はどちらですか\",\n      \"example\": {\n        \"ja\": \"お国はどちらですか。\",\n        \"reading\": \"おくにはどちらですか。\",\n        \"vi\":"
+        },
+        "done": true,
+        "done_reason": "length",
+        "total_duration": 56499404000,
+        "load_duration": 17352200,
+        "prompt_eval_count": 1210,
+        "prompt_eval_cached_count": 1209,
+        "prompt_eval_duration": 214931000,
+        "eval_count": 300,
+        "eval_duration": 56225009000
+      }
+    },
+    {
+      "group": 1,
+      "repeat": 3,
+      "ms": 54092,
+      "raw": {
+        "model": "qwen3:4b",
+        "created_at": "2026-11-12T01:17:34.0446085Z",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"lessons\": [\n    {\n      \"number\": 1,\n      \"pattern\": \"何歳／おいくつですか\",\n      \"example\": {\n        \"ja\": \"何歳ですか。\",\n        \"reading\": \"なんさいですか。\",\n        \"vi\": \"Bạn bao nhiêu tuổi?\"\n      },\n      \"prompt\": \"Vai giả 20 tuổi, chọn đáp án tuổi.\",\n      \"choices\": [\n        \"二十歳です。\",\n        \"二十人です。\",\n        \"二十円です。\"\n      ],\n      \"answer\": 0\n    },\n    {\n      \"number\": 2,\n      \"pattern\": \"何のN／だれのN\",\n      \"example\": {\n        \"ja\": \"これは何の本ですか。\",\n        \"reading\": \"これはなんのほんですか。\",\n        \"vi\": \"Đây là sách về lĩnh vực gì?\"\n      },\n      \"prompt\": \"Người kia nói 日本語の本です。 Họ đang nêu gì?\",\n      \"choices\": [\n        \"nội dung/lĩnh vực sách\",\n        \"người sở hữu\",\n        \"giá sách\"\n      ],\n      \"answer\": 0\n    },\n    {\n      \"number\": 3,\n      \"pattern\": \"どこのN／お国はどちらですか\",\n      \"example\": {\n        \"ja\": \"お国はどちらですか。\",\n        \"reading\": \"おくにはどちらですか。\",\n        \"vi\":"
+        },
+        "done": true,
+        "done_reason": "length",
+        "total_duration": 54059874800,
+        "load_duration": 146034000,
+        "prompt_eval_count": 1210,
+        "prompt_eval_cached_count": 1209,
+        "prompt_eval_duration": 239049000,
+        "eval_count": 300,
+        "eval_duration": 53620594000
+      }
+    },
+    {
+      "group": 2,
+      "repeat": 1,
+      "ms": 81139,
+      "raw": {
+        "model": "qwen3:4b",
+        "created_at": "2026-11-12T01:18:55.1871714Z",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"lessons\": [\n    {\n      \"number\": 6,\n      \"pattern\": \"Vませんか → すみません、ちょっと…\",\n      \"example\": {\n        \"ja\": \"あした、一緒に勉強しませんか。\",\n        \"reading\": \"あした、いっしょにべんきょうしませんか。\",\n        \"vi\": \"Ngày mai cùng học nhé?\"\n      },\n      \"prompt\": \"Bạn không thể nhận lời mời; chọn phản hồi lịch sự.\",\n      \"choices\": [\n        \"すみません、あしたはちょっと…。\",\n        \"はい、一緒に勉強しましょう。\",\n        \"これは本です。\"\n      ],\n      \"answer\": 0\n    },\n    {\n      \"number\": 7,\n      \"pattern\": \"人に／人・組織から もらいます\",\n      \"example\": {\n        \"ja\": \"学校から本をもらいました。\",\n        \"reading\": \"がっこうからほんをもらいました。\",\n        \"vi\": \"Tôi đã nhận sách từ trường.\"\n      },\n      \"prompt\": \"Ai là nguồn cho trong わたしは会社からペンをもらいました。?\",\n      \"choices\": [\n        \"công ty\",\n        \"tôi\",\n        \"chưa biết\"\n      ],\n      \"answer\": 0\n    },\n    {\n      \"number\": 8,\n      \"pattern\": \"いい → よく"
+        },
+        "done": true,
+        "done_reason": "length",
+        "total_duration": 81102580600,
+        "load_duration": 174450400,
+        "prompt_eval_count": 1157,
+        "prompt_eval_cached_count": 97,
+        "prompt_eval_duration": 31003853000,
+        "eval_count": 300,
+        "eval_duration": 49767549000
+      }
+    },
+    {
+      "group": 2,
+      "repeat": 2,
+      "ms": 49603,
+      "raw": {
+        "model": "qwen3:4b",
+        "created_at": "2026-11-12T01:19:44.7912638Z",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"lessons\": [\n    {\n      \"number\": 6,\n      \"pattern\": \"Vませんか → すみません、ちょっと…\",\n      \"example\": {\n        \"ja\": \"あした、一緒に勉強しませんか。\",\n        \"reading\": \"あした、いっしょにべんきょうしませんか。\",\n        \"vi\": \"Ngày mai cùng học nhé?\"\n      },\n      \"prompt\": \"Bạn không thể nhận lời mời; chọn phản hồi lịch sự.\",\n      \"choices\": [\n        \"すみません、あしたはちょっと…。\",\n        \"はい、一緒に勉強しましょう。\",\n        \"これは本です。\"\n      ],\n      \"answer\": 0\n    },\n    {\n      \"number\": 7,\n      \"pattern\": \"人に／人・組織から もらいます\",\n      \"example\": {\n        \"ja\": \"学校から本をもらいました。\",\n        \"reading\": \"がっこうからほんをもらいました。\",\n        \"vi\": \"Tôi đã nhận sách từ trường.\"\n      },\n      \"prompt\": \"Ai là nguồn cho trong わたしは会社からペンをもらいました。?\",\n      \"choices\": [\n        \"công ty\",\n        \"tôi\",\n        \"chưa biết\"\n      ],\n      \"answer\": 0\n    },\n    {\n      \"number\": 8,\n      \"pattern\": \"いい → よく"
+        },
+        "done": true,
+        "done_reason": "length",
+        "total_duration": 49596467100,
+        "load_duration": 6134600,
+        "prompt_eval_count": 1157,
+        "prompt_eval_cached_count": 1156,
+        "prompt_eval_duration": 184792000,
+        "eval_count": 300,
+        "eval_duration": 49387975000
+      }
+    },
+    {
+      "group": 2,
+      "repeat": 3,
+      "ms": 44104,
+      "raw": {
+        "model": "qwen3:4b",
+        "created_at": "2026-11-12T01:20:28.8969833Z",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"lessons\": [\n    {\n      \"number\": 6,\n      \"pattern\": \"Vませんか → すみません、ちょっと…\",\n      \"example\": {\n        \"ja\": \"あした、一緒に勉強しませんか。\",\n        \"reading\": \"あした、いっしょにべんきょうしませんか。\",\n        \"vi\": \"Ngày mai cùng học nhé?\"\n      },\n      \"prompt\": \"Bạn không thể nhận lời mời; chọn phản hồi lịch sự.\",\n      \"choices\": [\n        \"すみません、あしたはちょっと…。\",\n        \"はい、一緒に勉強しましょう。\",\n        \"これは本です。\"\n      ],\n      \"answer\": 0\n    },\n    {\n      \"number\": 7,\n      \"pattern\": \"人に／人・組織から もらいます\",\n      \"example\": {\n        \"ja\": \"学校から本をもらいました。\",\n        \"reading\": \"がっこうからほんをもらいました。\",\n        \"vi\": \"Tôi đã nhận sách từ trường.\"\n      },\n      \"prompt\": \"Ai là nguồn cho trong わたしは会社からペンをもらいました。?\",\n      \"choices\": [\n        \"công ty\",\n        \"tôi\",\n        \"chưa biết\"\n      ],\n      \"answer\": 0\n    },\n    {\n      \"number\": 8,\n      \"pattern\": \"いい → よく"
+        },
+        "done": true,
+        "done_reason": "length",
+        "total_duration": 44097787000,
+        "load_duration": 6900700,
+        "prompt_eval_count": 1157,
+        "prompt_eval_cached_count": 1156,
+        "prompt_eval_duration": 191357000,
+        "eval_count": 300,
+        "eval_duration": 43866229000
+      }
+    },
+    {
+      "group": 3,
+      "repeat": 1,
+      "ms": 67908,
+      "raw": {
+        "model": "qwen3:4b",
+        "created_at": "2026-11-12T01:21:36.8088891Z",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"lessons\": [\n    {\n      \"number\": 11,\n      \"pattern\": \"枚／台／冊・何枚／何台\",\n      \"example\": {\n        \"ja\": \"切手を三枚買います。\",\n        \"reading\": \"きってをさんまいかいます。\",\n        \"vi\": \"Tôi mua ba con tem.\"\n      },\n      \"prompt\": \"Mua hai máy tính, chọn cụm phù hợp.\",\n      \"choices\": [\n        \"パソコンを二台買います。\",\n        \"パソコンを二人買います。\",\n        \"パソコンを二時間買います。\"\n      ],\n      \"answer\": 0\n    },\n    {\n      \"number\": 12,\n      \"pattern\": \"どちら／何が一番\",\n      \"example\": {\n        \"ja\": \"春と秋とどちらが好きですか。\",\n        \"reading\": \"はるとあきとどちらがすきですか。\",\n        \"vi\": \"Bạn thích mùa xuân hay mùa thu hơn?\"\n      },\n      \"prompt\": \"Trong ba cửa hàng A/B/C, C rẻ nhất. Chọn câu.\",\n      \"choices\": [\n        \"三つの店で、Cが一番安いです。\",\n        \"Cは一番高いです。\",\n        \"Cは店ではありません。\"\n      ],\n      \"answer\": 0\n    },\n    {\n      \"number\": 13,\n      \"pattern\": \"Nが欲しい／Vたい／何か"
+        },
+        "done": true,
+        "done_reason": "length",
+        "total_duration": 67901566900,
+        "load_duration": 9432600,
+        "prompt_eval_count": 1129,
+        "prompt_eval_cached_count": 97,
+        "prompt_eval_duration": 23061710000,
+        "eval_count": 300,
+        "eval_duration": 44740564000
+      }
+    },
+    {
+      "group": 3,
+      "repeat": 2,
+      "ms": 44057,
+      "raw": {
+        "model": "qwen3:4b",
+        "created_at": "2026-11-12T01:22:20.8701175Z",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"lessons\": [\n    {\n      \"number\": 11,\n      \"pattern\": \"枚／台／冊・何枚／何台\",\n      \"example\": {\n        \"ja\": \"切手を三枚買います。\",\n        \"reading\": \"きってをさんまいかいます。\",\n        \"vi\": \"Tôi mua ba con tem.\"\n      },\n      \"prompt\": \"Mua hai máy tính, chọn cụm phù hợp.\",\n      \"choices\": [\n        \"パソコンを二台買います。\",\n        \"パソコンを二人買います。\",\n        \"パソコンを二時間買います。\"\n      ],\n      \"answer\": 0\n    },\n    {\n      \"number\": 12,\n      \"pattern\": \"どちら／何が一番\",\n      \"example\": {\n        \"ja\": \"春と秋とどちらが好きですか。\",\n        \"reading\": \"はるとあきとどちらがすきですか。\",\n        \"vi\": \"Bạn thích mùa xuân hay mùa thu hơn?\"\n      },\n      \"prompt\": \"Trong ba cửa hàng A/B/C, C rẻ nhất. Chọn câu.\",\n      \"choices\": [\n        \"三つの店で、Cが一番安いです。\",\n        \"Cは一番高いです。\",\n        \"Cは店ではありません。\"\n      ],\n      \"answer\": 0\n    },\n    {\n      \"number\": 13,\n      \"pattern\": \"Nが欲しい／Vたい／何か"
+        },
+        "done": true,
+        "done_reason": "length",
+        "total_duration": 44051561800,
+        "load_duration": 12197300,
+        "prompt_eval_count": 1129,
+        "prompt_eval_cached_count": 1128,
+        "prompt_eval_duration": 180067000,
+        "eval_count": 300,
+        "eval_duration": 43821826000
+      }
+    },
+    {
+      "group": 3,
+      "repeat": 3,
+      "ms": 50410,
+      "raw": {
+        "model": "qwen3:4b",
+        "created_at": "2026-11-12T01:23:11.28067Z",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"lessons\": [\n    {\n      \"number\": 11,\n      \"pattern\": \"枚／台／冊・何枚／何台\",\n      \"example\": {\n        \"ja\": \"切手を三枚買います。\",\n        \"reading\": \"きってをさんまいかいます。\",\n        \"vi\": \"Tôi mua ba con tem.\"\n      },\n      \"prompt\": \"Mua hai máy tính, chọn cụm phù hợp.\",\n      \"choices\": [\n        \"パソコンを二台買います。\",\n        \"パソコンを二人買います。\",\n        \"パソコンを二時間買います。\"\n      ],\n      \"answer\": 0\n    },\n    {\n      \"number\": 12,\n      \"pattern\": \"どちら／何が一番\",\n      \"example\": {\n        \"ja\": \"春と秋とどちらが好きですか。\",\n        \"reading\": \"はるとあきとどちらがすきですか。\",\n        \"vi\": \"Bạn thích mùa xuân hay mùa thu hơn?\"\n      },\n      \"prompt\": \"Trong ba cửa hàng A/B/C, C rẻ nhất. Chọn câu.\",\n      \"choices\": [\n        \"三つの店で、Cが一番安いです。\",\n        \"Cは一番高いです。\",\n        \"Cは店ではありません。\"\n      ],\n      \"answer\": 0\n    },\n    {\n      \"number\": 13,\n      \"pattern\": \"Nが欲しい／Vたい／何か"
+        },
+        "done": true,
+        "done_reason": "length",
+        "total_duration": 50398975100,
+        "load_duration": 14541200,
+        "prompt_eval_count": 1129,
+        "prompt_eval_cached_count": 1128,
+        "prompt_eval_duration": 188643000,
+        "eval_count": 300,
+        "eval_duration": 50166968000
+      }
+    },
+    {
+      "group": 4,
+      "repeat": 1,
+      "ms": 81027,
+      "raw": {
+        "model": "qwen3:4b",
+        "created_at": "2026-11-12T01:24:32.3124999Z",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"lessons\": [\n    {\n      \"number\": 16,\n      \"pattern\": \"Aくて／NAで／Nで\",\n      \"example\": {\n        \"ja\": \"この町は静かで便利です。\",\n        \"reading\": \"このまちはしずかでべんりです。\",\n        \"vi\": \"Thị trấn này yên tĩnh và tiện lợi.\"\n      },\n      \"prompt\": \"Nối hai nhận xét 部屋は広いです。明るいです。\",\n      \"choices\": [\n        \"部屋は広くて明るいです。\",\n        \"部屋は広いで明るいです。\",\n        \"部屋は広な明るいです。\"\n      ],\n      \"answer\": 0\n    },\n    {\n      \"number\": 17,\n      \"pattern\": \"までに／まで\",\n      \"example\": {\n        \"ja\": \"金曜日までに本を返してください。\",\n        \"reading\": \"きんようびまでにほんをかえしてください。\",\n        \"vi\": \"Xin trả sách chậm nhất vào thứ Sáu.\"\n      },\n      \"prompt\": \"Cần nộp trước hoặc đúng 5 giờ, chọn cụm hạn chót.\",\n      \"choices\": [\n        \"五時までに\",\n        \"五時から\",\n        \"五時と\"\n      ],\n      \"answer\": 0\n    },\n   "
+        },
+        "done": true,
+        "done_reason": "length",
+        "total_duration": 81019006600,
+        "load_duration": 35089800,
+        "prompt_eval_count": 1196,
+        "prompt_eval_cached_count": 98,
+        "prompt_eval_duration": 31768959000,
+        "eval_count": 300,
+        "eval_duration": 49122538000
+      }
+    }
+  ]
+}

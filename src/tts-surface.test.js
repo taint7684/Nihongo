@@ -1,0 +1,4 @@
+import{it,expect}from'vitest';import fs from'node:fs';import{prepareSynthesisText}from'../scripts/tts-surface.mjs';
+it('does not corrupt multi-digit durations while disambiguating a standalone ten minutes',()=>{expect(prepareSynthesisText('駅まで行くのに三十分かかります。')).toContain('三十分かかります');expect(prepareSynthesisText('二十分かかります。')).toContain('二十分かかります');expect(prepareSynthesisText('十分かかります。')).toBe('10分かかります。');expect(prepareSynthesisText('三十分かかります。')).not.toContain('三10分');});
+it('resolves only the declared contextual homographs',()=>{expect(prepareSynthesisText('雨が降りました。')).toBe('雨がふりました。');expect(prepareSynthesisText('電車を降ります。')).toBe('電車を降ります。');expect(prepareSynthesisText('受付の方、その方、使い方')).toBe('受付のかた、そのかた、使い方');});
+it('has no active catalog file with the malformed duration substitution',()=>{const catalog=JSON.parse(fs.readFileSync('src/generated-audio.json'));expect(catalog.filter(a=>!a.retired&&/[一二三四五六七八九十百千万]10分/.test(a.synthesisText||''))).toEqual([]);});

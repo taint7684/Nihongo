@@ -1,0 +1,40 @@
+{
+  "at": "2026-11-12T06:39:37.877Z",
+  "sources": [
+    {
+      "name": "jmdict-eng.tgz",
+      "url": "https://github.com/scriptin/jmdict-simplified/releases/download/3.6.2%2B20261109214828/jmdict-eng-3.6.2%2B20261109214828.json.tgz",
+      "bytes": 11543003,
+      "sha256": "acf4beb64e7a0bb8f44b3aae9bf2b81cb0ecde462fb3679264ef66e92f25c04a",
+      "fetched": "2026-11-12T06:31:05.688Z"
+    },
+    {
+      "name": "kanjidic2.xml.gz",
+      "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz",
+      "bytes": 1488580,
+      "sha256": "a450ad0e66d938f2f1776e6339b21cf3037d9eba4fd0cf46be232fd40a37ac8b",
+      "fetched": "2026-11-12T06:31:08.896Z"
+    },
+    {
+      "name": "licence.html",
+      "url": "https://www.edrdg.org/edrdg/licence.html",
+      "bytes": 13587,
+      "sha256": "52f60ea9ca68170a2f0663d7dba381ebf1bd57c17a3347dfe21153865c156692",
+      "fetched": "2026-11-12T06:31:09.790Z"
+    },
+    {
+      "name": "mirror-README.md",
+      "url": "https://raw.githubusercontent.com/scriptin/jmdict-simplified/master/README.md",
+      "bytes": 9728,
+      "sha256": "2abd41830dc9dd52110eae6eaf2e2f3b3933b3975f4ca3c27a9a11640d93b7fa",
+      "fetched": "2026-11-12T06:31:11.932Z"
+    }
+  ],
+  "jmdictDate": "2026-11-09",
+  "kanjidicDate": "2026-11-12",
+  "dictionaryCharacters": 13108,
+  "coreCharacters": 297,
+  "currentSourceVocabularyCount": 219040,
+  "derivedDataLicense": "CC BY-SA 4.0",
+  "update": "Run documented source refresh monthly, inspect diff and re-run source/compatibility checks. No automatic uploads."
+}

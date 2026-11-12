@@ -1,0 +1,51 @@
+{
+  "time": "2026-11-11T14:09:49.471Z",
+  "git": "Not a git repository; backup checkpoints used",
+  "tests": {
+    "files": 6,
+    "passed": 40
+  },
+  "requirements": [
+    {
+      "id": "NAV-TOOLS",
+      "expected": "Direct word/grammar/kanji access",
+      "method": "code and existing UI",
+      "status": "not-met",
+      "evidence": "navigation lacks separate tools; vocabulary/grammar in LessonExperience drawer"
+    },
+    {
+      "id": "KANJI-WRITE",
+      "expected": "source strokes, draw/undo/save",
+      "method": "code search",
+      "status": "not-met",
+      "evidence": "No canvas/kanji stroke data"
+    },
+    {
+      "id": "VOICE-SAVE",
+      "expected": "user-controlled persistence across sessions",
+      "method": "Recorder code",
+      "status": "not-met",
+      "evidence": "URL Blob only, removed on unmount"
+    },
+    {
+      "id": "OPEN-ACCESS",
+      "expected": "10→3→25, no invented completion",
+      "method": "scripts/open-access-ui.mjs",
+      "status": "running"
+    },
+    {
+      "id": "AI-FREE",
+      "expected": "understands self-created learner text in evaluated scope",
+      "method": "AI_QUALITY.md",
+      "status": "not-met",
+      "evidence": "Only narrow guided choices approved; not a free conversational tutor"
+    },
+    {
+      "id": "N4-CONTENT",
+      "expected": "core lessons, practice, review and assessment",
+      "method": "content.js and Curriculum.jsx",
+      "status": "not-met",
+      "evidence": "No N4 course units"
+    }
+  ]
+}

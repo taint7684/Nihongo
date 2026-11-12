@@ -1,0 +1,125 @@
+{
+  "time": "2026-11-11T15:11:49.145Z",
+  "scope": "student noun statements only, fresh acceptance probes; not broad tutor/writing/kaiwa approval",
+  "results": [
+    {
+      "id": "fresh-a",
+      "repeat": 1,
+      "calls": 1,
+      "ms": 24259,
+      "output": "[AI diễn giải từ nguồn hẹp · chưa duyệt độc lập]\nCâu 'わたしは学生じゃありません' giữ ý 'không phải sinh viên' đúng. Trong nguồn, có ghi: '学生じゃありません: cùng ý phủ định với 学生ではありません, thường dùng trong hội thoại.' và ví dụ 'わたしは学生じゃありません.' nên câu này dùng để nói 'tôi không phải sinh viên' (không phải sinh viên).\nVí dụ: Câu này dùng trong hội thoại để phủ định 'tôi là sinh viên'.\nNguồn dữ liệu cố định: mnn-01-noun-student-v1. Không dùng để tự sửa điểm/đáp án chuẩn.",
+      "manualSemanticReview": null
+    },
+    {
+      "id": "fresh-a",
+      "repeat": 2,
+      "calls": 1,
+      "ms": 19919,
+      "output": "[AI diễn giải từ nguồn hẹp · chưa duyệt độc lập]\nCâu 'わたしは学生じゃありません' giữ ý 'không phải sinh viên' đúng. Trong ngữ cảnh giới thiệu, '学生じゃありません' có nghĩa là 'không phải sinh' (trong tiếng Nhật). Cụm 'わたしは' (tôi) kết hợp với '学生じゃありません' tạo thành câu 'tôi không phải sinh viên'. Đây là cách nói thông thường trong hội thoại, như trong ví dụ của nguồn: 'わたしは学生じゃありません。' (tôi không phải sinh viên).\nVí dụ: わたしは学生じゃありません。 (Tôi không phải sinh viên.)\nNguồn dữ liệu cố định: mnn-01-noun-student-v1. Không dùng để tự sửa điểm/đáp án chuẩn.",
+      "manualSemanticReview": null
+    },
+    {
+      "id": "fresh-a",
+      "repeat": 3,
+      "calls": 1,
+      "ms": 14558,
+      "output": "[AI diễn giải từ nguồn hẹp · chưa duyệt độc lập]\nCâu 'わたしは学生じゃありません' giữ ý 'không phải sinh viên' đúng. Trong nguồn, có ghi: '学生じゃありません: cùng ý phủ định với 学生ではありません, thường dùng trong hội thoại.' và ví dụ 'わたしは学生じゃありません。' nên câu này đúng.\nVí dụ: Câu này dùng trong hội thoại để nói 'tôi không phải sinh viên'.\nNguồn dữ liệu cố định: mnn-01-noun-student-v1. Không dùng để tự sửa điểm/đáp án chuẩn.",
+      "manualSemanticReview": null
+    },
+    {
+      "id": "fresh-b",
+      "repeat": 1,
+      "calls": 1,
+      "ms": 15825,
+      "output": "[AI diễn giải từ nguồn hẹp · chưa duyệt độc lập]\nTrong ngữ cảnh giới thiệu, câu '学生ではありません' có nghĩa là 'tôi không phải sinh viên'. Đây là cách nói phủ định thông thường trong tiếng Nhật để diễn đạt rằng người nói không thuộc nhóm sinh viên. Cụm từ này được dùng trong các tình huống giới thiệu bản thân, như khi bạn muốn nói rằng bạn không phải sinh viên.\nVí dụ: 学生ではありません。 → Tôi không phải sinh viên.\nNguồn dữ liệu cố định: mnn-01-noun-student-v1. Không dùng để tự sửa điểm/đáp án chuẩn.",
+      "manualSemanticReview": null
+    },
+    {
+      "id": "fresh-b",
+      "repeat": 2,
+      "calls": 1,
+      "ms": 12148,
+      "output": "[AI diễn giải từ nguồn hẹp · chưa duyệt độc lập]\nTrong ngữ cảnh giới thiệu, câu '学生ではありません' có nghĩa là 'tôi không phải sinh viên'. Đây là cách nói phủ định thông thường trong hội thoại tiếng Nhật. Cụm từ này dùng để khẳng định bạn không thuộc nhóm sinh viên.\nVí dụ: 学生ではありません。 → Tôi không phải sinh viên.\nNguồn dữ liệu cố định: mnn-01-noun-student-v1. Không dùng để tự sửa điểm/đáp án chuẩn.",
+      "manualSemanticReview": null
+    },
+    {
+      "id": "fresh-b",
+      "repeat": 3,
+      "calls": 1,
+      "ms": 13568,
+      "output": "[AI diễn giải từ nguồn hẹp · chưa duyệt độc lập]\nTrong bài 1, わたしは nêu chủ đề người nói; trong ngữ cảnh này là tôi. Học sinh không phải sinh viên: bạn không phải sinh viên. (Cụm từ này dùng trong giới thiệu, ví dụ như khi bạn nói: 'Tôi không phải sinh viên').\nVí dụ: 学生ではありません。 = Tôi không phải sinh viên.\nNguồn dữ liệu cố định: mnn-01-noun-student-v1. Không dùng để tự sửa điểm/đáp án chuẩn.",
+      "manualSemanticReview": null
+    },
+    {
+      "id": "fresh-c",
+      "repeat": 1,
+      "calls": 1,
+      "ms": 21788,
+      "error": "AI sinh phần tiếng Nhật ngoài nguồn; phản hồi bị giữ lại."
+    },
+    {
+      "id": "fresh-c",
+      "repeat": 2,
+      "calls": 1,
+      "ms": 29475,
+      "output": "[AI diễn giải từ nguồn hẹp · chưa duyệt độc lập]\nVề câu hỏi của người học: Nếu bỏ phần phủ định trong câu '学生じゃありません' thì nghĩa sẽ thay đổi. Trong nguồn, có các ví dụ về cách diễn đạt phủ định và khẳng định: '学生です' (tôi là sinh viên), '学生ではありません' (tôi không phải sinh: phủ định), '学生じゃありません' (cùng ý phủ định với '学生ではありません'). Nếu bỏ phần phủ định, câu sẽ trở thành '学生' mà không có ngữ cảnh giới thiệu, nên không đủ để diễn đạt ý nghĩa hoàn chỉnh. Trong ngữ cảnh giới thiệu, cần có chủ ngữ và động từ phủ định để rõ ràng.\nVí dụ: Ví dụ: Nếu nói '学生' mà không có phủ định, người nghe sẽ không biết bạn đang nói gì. Cần có ngữ cảnh như 'わたしは学生です' (tôi là sinh viên) hoặc 'わたしは学生ではありません' (tôi không phải sinh viên) để rõ ràng.\nNguồn dữ liệu cố định: mnn-01-noun-student-v1. Không dùng để tự sửa điểm/đáp án chuẩn.",
+      "manualSemanticReview": null
+    },
+    {
+      "id": "fresh-c",
+      "repeat": 3,
+      "calls": 1,
+      "ms": 13626,
+      "output": "[AI diễn giải từ nguồn hẹp · chưa duyệt độc lập]\nTheo nguồn đã cho, '学生じゃありません' là cách nói phủ định của '学生です' trong ngữ cảnh giới thiệu. Nếu bỏ phần phủ định (không có 'じゃありません'), thì sẽ trở thành '学生です' nghĩa là 'tôi là sinh viên'. Do đó, nghĩa sẽ thay đổi từ phủ định sang khẳng định.\nVí dụ: 学生です: tôi là sinh viên\nNguồn dữ liệu cố định: mnn-01-noun-student-v1. Không dùng để tự sửa điểm/đáp án chuẩn.",
+      "manualSemanticReview": null
+    },
+    {
+      "id": "guard-hint",
+      "repeat": 1,
+      "calls": 0,
+      "ms": 0,
+      "output": "[Gợi ý từ nguồn · không gọi mô hình]\nBước đầu: xác định ý bạn muốn nói là khẳng định hay phủ định. Sau đó so với ý câu đang viết. Chưa cần đổi câu ngay; hãy chỉ ra phần bạn nghĩ tạo nghĩa phủ định.",
+      "manualSemanticReview": null
+    },
+    {
+      "id": "guard-hint",
+      "repeat": 2,
+      "calls": 0,
+      "ms": 0,
+      "output": "[Gợi ý từ nguồn · không gọi mô hình]\nBước đầu: xác định ý bạn muốn nói là khẳng định hay phủ định. Sau đó so với ý câu đang viết. Chưa cần đổi câu ngay; hãy chỉ ra phần bạn nghĩ tạo nghĩa phủ định.",
+      "manualSemanticReview": null
+    },
+    {
+      "id": "guard-hint",
+      "repeat": 3,
+      "calls": 0,
+      "ms": 0,
+      "output": "[Gợi ý từ nguồn · không gọi mô hình]\nBước đầu: xác định ý bạn muốn nói là khẳng định hay phủ định. Sau đó so với ý câu đang viết. Chưa cần đổi câu ngay; hãy chỉ ra phần bạn nghĩ tạo nghĩa phủ định.",
+      "manualSemanticReview": null
+    },
+    {
+      "id": "guard-outside",
+      "repeat": 1,
+      "calls": 0,
+      "ms": 0,
+      "output": "[Giới hạn AI giải thích] Câu có phần tiếng Nhật ngoài nguồn đang kiểm. Tôi chưa có căn cứ để tự phân tích phần ấy; không kết luận đúng/sai.",
+      "manualSemanticReview": null
+    },
+    {
+      "id": "guard-outside",
+      "repeat": 2,
+      "calls": 0,
+      "ms": 0,
+      "output": "[Giới hạn AI giải thích] Câu có phần tiếng Nhật ngoài nguồn đang kiểm. Tôi chưa có căn cứ để tự phân tích phần ấy; không kết luận đúng/sai.",
+      "manualSemanticReview": null
+    },
+    {
+      "id": "guard-outside",
+      "repeat": 3,
+      "calls": 0,
+      "ms": 0,
+      "output": "[Giới hạn AI giải thích] Câu có phần tiếng Nhật ngoài nguồn đang kiểm. Tôi chưa có căn cứ để tự phân tích phần ấy; không kết luận đúng/sai.",
+      "manualSemanticReview": null
+    }
+  ]
+}

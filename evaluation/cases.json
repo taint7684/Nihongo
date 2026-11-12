@@ -1,0 +1,195 @@
+{
+  "version": "2026-11-11",
+  "cases": [
+    {
+      "id": "BASE",
+      "condition": "Dự án hiện hữu",
+      "steps": "Đọc mã/docs/Git và chạy nền",
+      "expected": "Giữ bản gốc và biết trạng thái thật",
+      "method": "Mã + CLI",
+      "evidence": "evaluation/baseline.json",
+      "status": "đạt",
+      "limit": "Không Git; dùng checkpoint, nền 40 test"
+    },
+    {
+      "id": "NAV-01",
+      "condition": "Profile mới chưa học",
+      "steps": "Mở 10→3→25/reload",
+      "expected": "Không khóa, không tự hoàn thành bài trước",
+      "method": "Edge",
+      "evidence": "scripts/open-access-ui.mjs / .tmp-ui/open-access/report.json",
+      "status": "đạt",
+      "limit": "QA riêng, không dữ liệu học thật"
+    },
+    {
+      "id": "WORD-01",
+      "condition": "Từ cùng key",
+      "steps": "Gõ rồi flashcard/ghi chú",
+      "expected": "Một lịch, phân biệt kiểm gõ/tự báo cáo",
+      "method": "Unit + Edge",
+      "evidence": ".tmp-ui/study-tools/report.json",
+      "status": "đạt",
+      "limit": "Sau xem học liệu có afterModel; không suy nhớ lâu"
+    },
+    {
+      "id": "WORD-02",
+      "condition": "Nhớ/nghe chép",
+      "steps": "Mở chế độ",
+      "expected": "Danh sách và tìm kiếm không lộ đáp án",
+      "method": "Edge",
+      "evidence": ".tmp-ui/study-tools/report.json",
+      "status": "đạt",
+      "limit": "Nghe chép cần phát hết; chưa đo hiệu quả học"
+    },
+    {
+      "id": "KANJI-01",
+      "condition": "Dữ liệu source ghim",
+      "steps": "Tải nét, animate, vẽ/undo/reload/backup",
+      "expected": "Nguồn/license và bản viết được giữ",
+      "method": "Unit/hash + Edge",
+      "evidence": "public/kanji/manifest.json / .tmp-ui/study-tools/report.json",
+      "status": "đạt",
+      "limit": "46 source; không nhận dạng/chấm nét"
+    },
+    {
+      "id": "KANJI-TOUCH",
+      "condition": "Thiết bị cảm ứng thật",
+      "steps": "Vẽ/chuyển chế độ",
+      "expected": "Cảm ứng dùng tốt",
+      "method": "Thiết bị thật",
+      "evidence": "Pointer events có trong mã; chưa máy thật",
+      "status": "chưa kiểm tra",
+      "limit": "Responsive 390px không phải kiểm ngón tay thật"
+    },
+    {
+      "id": "GRAM-01",
+      "condition": "Ngữ pháp được chọn",
+      "steps": "Tìm, thử, về bài",
+      "expected": "Chung question ID/đáp án",
+      "method": "Edge",
+      "evidence": ".tmp-ui/study-tools/report.json",
+      "status": "đạt",
+      "limit": "Chưa thẩm định toàn bộ ngữ pháp"
+    },
+    {
+      "id": "VOICE-01",
+      "condition": "Mic QA giả",
+      "steps": "Ghi/lưu/reload/phát/xuất/xóa/nhập",
+      "expected": "Blob giữ qua buổi, không trùng/ghi đè",
+      "method": "MediaRecorder/IndexedDB thật, input giả",
+      "evidence": ".tmp-ui/voice-storage/report.json",
+      "status": "đạt",
+      "limit": "Không kết quả nói của người dùng"
+    },
+    {
+      "id": "VOICE-FAULT",
+      "condition": "Transaction có lỗi",
+      "steps": "Ném lỗi sau queue write",
+      "expected": "Abort nguyên tử, dữ liệu cũ giữ",
+      "method": "Fault injection Edge",
+      "evidence": ".tmp-ui/voice-storage/report.json",
+      "status": "đạt",
+      "limit": "Không thử phá kho thật"
+    },
+    {
+      "id": "SRS-01",
+      "condition": "Lịch từ cũ/mới",
+      "steps": "Đánh giá sớm/đến hạn/sai",
+      "expected": "SM-2 biến thể có tài liệu, giữ due cũ khi load",
+      "method": "Unit + Edge",
+      "evidence": "SRS.md / tools-state.test.js",
+      "status": "đạt",
+      "limit": "Không bằng chứng thuật toán tối ưu cho người này"
+    },
+    {
+      "id": "SCHEMA-01",
+      "condition": "Backup v1 trước field mới",
+      "steps": "Xuất/nhập notes/vector/evidence",
+      "expected": "Không mất field cũ, field mới mặc định",
+      "method": "Unit + Edge",
+      "evidence": "tools-state.test.js / .tmp-ui/study-tools/report.json",
+      "status": "đạt",
+      "limit": "Kho ghi âm xuất riêng, không Blob trong JSON tiến độ"
+    },
+    {
+      "id": "N5-FND",
+      "condition": "Bài 3/4/5/11",
+      "steps": "Mở bảng trong vòng và nghe ngữ liệu mới",
+      "expected": "Có nền tại chỗ, đáp án có lý do và lỗi vào ôn",
+      "method": "Code + Edge",
+      "evidence": ".tmp-ui/n5-foundation/report.json",
+      "status": "đạt",
+      "limit": "Đạt vận hành; âm chưa nghe duyệt độc lập"
+    },
+    {
+      "id": "AUDIO-ACA",
+      "condition": "TTS có file",
+      "steps": "Đối chiếu đọc và nghe duyệt",
+      "expected": "Tách kỹ thuật/ngữ âm",
+      "method": "Nguồn + rà + người nghe",
+      "evidence": "AUDIO_REVIEW.md",
+      "status": "chưa đạt",
+      "limit": "Có so khớp kế hoạch; chưa người độc lập nghe duyệt"
+    },
+    {
+      "id": "AI-REAL",
+      "condition": "4B đã có",
+      "steps": "6 ca ×3 + 3 ca mới ×3",
+      "expected": "Giữ ý/nguồn, hỏi tiếp, gợi ý trước đáp án",
+      "method": "LLM local thật",
+      "evidence": "evaluation/grounded-ai-raw.json / explainer-wrapper-raw.json",
+      "status": "chưa đạt",
+      "limit": "Còn lỗi nghĩa Việt và lộ đáp án; candidate không nối UI"
+    },
+    {
+      "id": "AI-BOUND",
+      "condition": "Yêu cầu treo",
+      "steps": "Hủy/timeout/học tiếp",
+      "expected": "Không mất câu hỏi/bài",
+      "method": "Mock transport/timer, Edge thật",
+      "evidence": ".tmp-ui/ai-boundary/report.json",
+      "status": "đạt",
+      "limit": "Không độ chính xác hoặc latency model"
+    },
+    {
+      "id": "CAN-DO",
+      "condition": "Thang chưa được thẩm định",
+      "steps": "Chọn theo ủy quyền",
+      "expected": "Không điểm kaiwa chính thức/tự công nhận",
+      "method": "Config + UI",
+      "evidence": "communication-criteria.json",
+      "status": "đạt",
+      "limit": "Chỉ thang thử nghiệm; chưa đo người học"
+    },
+    {
+      "id": "N5-COVER",
+      "condition": "Danh mục hiện có",
+      "steps": "Đo liên kết và liệt kê thiếu",
+      "expected": "Không coi số lượng là đủ",
+      "method": "Script + nguồn",
+      "evidence": "KNOWLEDGE_COVERAGE.md",
+      "status": "chưa đạt",
+      "limit": "Mẫu số dự thảo chưa đủ cấp; assessment riêng còn ít"
+    },
+    {
+      "id": "N4-COVER",
+      "condition": "Mục tiêu mới N4",
+      "steps": "Bản đồ Minna II/Can-do",
+      "expected": "Đủ học liệu cốt lõi trong website",
+      "method": "Nguồn + dữ liệu",
+      "evidence": "curriculum-map.json",
+      "status": "chưa đạt",
+      "limit": "Có đề cương; chưa bài/từ/đánh giá N4 thực"
+    },
+    {
+      "id": "LEARNER",
+      "condition": "Chưa có dữ liệu học thật",
+      "steps": "Đo sau nghỉ/tình huống mới",
+      "expected": "Bằng chứng năng lực thật",
+      "method": "Người học thực",
+      "evidence": "Chưa cung cấp",
+      "status": "chưa kiểm tra",
+      "limit": "Không tạo lời nhận xét hoặc kết quả giả"
+    }
+  ]
+}

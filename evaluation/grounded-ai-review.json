@@ -1,0 +1,51 @@
+{
+  "time": "2026-11-11T15:15:15.966Z",
+  "type": "AI/content review by assistant, not independent academic approval",
+  "firstRound": {
+    "calls": 18,
+    "syntaxPass": 18,
+    "latencyMs": {
+      "min": 10145,
+      "median": 15898,
+      "max": 23590
+    },
+    "findings": [
+      {
+        "case": "d-plain/d-follow/d-valid",
+        "finding": "Source-grounded explanations generally keep correct negative intent and existing valid sentence in this narrow set; verbose/repetitive in some runs."
+      },
+      {
+        "case": "h-meaning",
+        "finding": "3/3 reveal answer despite request for a hint; do not approve hint task from model."
+      },
+      {
+        "case": "h-unknown",
+        "finding": "3/3 acknowledge missing source in text but inScope flag remains true; do not rely on that flag alone."
+      },
+      {
+        "case": "h-variant",
+        "finding": "One run includes irrelevant honorific-source statement, even while core negative meaning is retained."
+      }
+    ]
+  },
+  "wrapper": {
+    "realCalls": 9,
+    "ruleOnly": 6,
+    "findings": [
+      {
+        "case": "fresh-b/3",
+        "finding": "Adds unsupported school-student/university-student distinction and confusing substitution; code structure/Japanese allowlist did not catch Vietnamese semantic problem."
+      },
+      {
+        "case": "fresh-c/1",
+        "finding": "Japanese outside source caught and withheld by guard."
+      },
+      {
+        "case": "fresh-c/2",
+        "finding": "Adds unsupported requirement for explicit subject and negative verb; unacceptable for a beginner."
+      }
+    ],
+    "publication": "NOT APPROVED; experiment not connected to product AI"
+  },
+  "memory": "api/ps snapshot size=3186108660 bytes, size_vram=0, ctx4096; not peak RSS. Server working-set snapshot separately recorded after runner expired; peak process RAM not measured."
+}

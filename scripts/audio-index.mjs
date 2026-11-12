@@ -1,0 +1,2 @@
+import fs from'node:fs';
+export function writeAudioIndex(catalog){const fields=['id','kind','text','reading','path','taskIds','credit','engine','status','terms','forcedReading'];const index=catalog.filter(a=>!a.retired).map(a=>Object.fromEntries(fields.filter(k=>a[k]!==undefined).map(k=>[k,a[k]])));fs.writeFileSync('src/audio-index.json',JSON.stringify(index));fs.mkdirSync('public/audio/tts',{recursive:true});fs.writeFileSync('public/audio/tts/index.json',JSON.stringify(index));return index;}

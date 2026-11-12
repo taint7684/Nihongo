@@ -1,0 +1,113 @@
+{
+  "version": "2026-11-12",
+  "referenceI": {
+    "edition": "Minna no Nihongo Shokyu I Second Edition",
+    "source": "https://www.3anet.co.jp/np/books/2300/"
+  },
+  "referenceII": {
+    "edition": "Minna no Nihongo Shokyu II Second Edition",
+    "source": "https://www.3anet.co.jp/np/books/2400/",
+    "scope": "26–50, theo mục lục và syllabus chính thức, chỉ tham khảo cấu trúc"
+  },
+  "phases": [
+    {
+      "id": "entry",
+      "title": "Nhập môn",
+      "use": "Nối chữ–âm, gõ và hiểu câu giao tiếp rất ngắn có hỗ trợ.",
+      "prior": "Không yêu cầu kiến thức tiếng Nhật.",
+      "knowledge": "Kana, nhịp, dài/ngắt/ghép, ký hiệu và câu danh từ.",
+      "practice": "Nghe trong từ, nhận diện/gõ, tự giới thiệu.",
+      "evidence": "Tách nhìn nhận ra, gõ, nghe, tự nói và mức hỗ trợ.",
+      "review": "Lỗi chữ/âm và từ đã lưu theo lịch.",
+      "status": "Có nội dung; chưa đủ mẫu âm đơn được nghe duyệt."
+    },
+    {
+      "id": "n5",
+      "title": "Nền N5 · bài 1–25",
+      "use": "Giới thiệu, hỏi đồ/vị trí, mua đơn giản, hẹn gặp, nhờ/phép, kể và lập kế hoạch.",
+      "prior": "Kana học song song; mẫu cũ được nhắc khi cần, không khóa.",
+      "knowledge": "Bài Minna I bản 2 là khung; nguồn từ/chữ/ngữ pháp là danh sách tham chiếu của dự án.",
+      "practice": "Vòng nhỏ, gõ/flashcard/nghe/đọc/viết/kaiwa và đổi dữ kiện.",
+      "evidence": "Đáp án xác định riêng với tự kiểm nói/viết và phản hồi sau nghỉ.",
+      "review": "Đúng sau xem mẫu không tính là nhớ lâu; bù đúng lỗi.",
+      "status": "Có học liệu tự soạn và công cụ; độ đủ/học thuật chưa hoàn thành."
+    },
+    {
+      "id": "n5-check",
+      "title": "Ôn và đánh giá N5",
+      "use": "Xác định phần còn thiếu trước khi chuyển trọng tâm.",
+      "prior": "Khuyến nghị kiến thức 1–25, truy cập vẫn tự do.",
+      "knowledge": "Từ/chữ, chọn/sắp ngữ pháp, đọc thông tin, nghe nhiệm vụ/phản hồi.",
+      "practice": "Bộ luyện khác ngữ liệu tự kiểm; quản lý thời gian.",
+      "evidence": "Tách từng phần, chưa quy điểm JLPT hoặc kết luận sẵn sàng.",
+      "review": "Bài sai về đúng kỹ năng/bài, thêm ngữ liệu tương đương.",
+      "status": "Có bộ lấy mẫu, chưa đủ độ phủ/số bộ."
+    },
+    {
+      "id": "n4a",
+      "title": "N4 A · bài tham chiếu 26–30",
+      "use": "Giải thích khó khăn, hỏi cách xử lý, nói khả năng và chuẩn bị công việc.",
+      "prior": "Thể thường/て/ない, lý do, yêu cầu, trạng thái nền N5.",
+      "knowledge": "んです, khả năng, ながら/し, tự–tha động, hoàn tất/chuẩn bị.",
+      "practice": "Tình huống tự soạn phải có hỗ trợ từ/âm/ngữ pháp tại chỗ.",
+      "evidence": "Nghe/đọc hiểu lý do; tự hỏi/đáp khi thông tin thay đổi.",
+      "review": "Ôn phân biệt với mẫu cũ và chuyển góc nhìn.",
+      "status": "Có 5 bài tự soạn, vòng học và bộ đánh giá riêng của nhóm. Chưa xác nhận đủ phạm vi N4; chưa duyệt học thuật/ngữ âm độc lập."
+    },
+    {
+      "id": "n4b",
+      "title": "N4 B · bài tham chiếu 31–35",
+      "use": "Nói ý định, dự đoán, chuyển lời/chỉ dẫn, mô tả quy trình và điều kiện.",
+      "prior": "Các thể động từ và mốc thời gian N5, nền N4 A.",
+      "knowledge": "Ý hướng/つもり, lời khuyên/dự đoán, mệnh lệnh/cấm để nhận hiểu, theo/sau/không, điều kiện.",
+      "practice": "Đổi kế hoạch theo điều kiện, hỏi lại phần chưa hiểu.",
+      "evidence": "Giữ ý định/người nói, thực hiện thông tin trong quy trình.",
+      "review": "Phân biệt các điều kiện, sửa đúng chỗ lẫn nghĩa.",
+      "status": "Có 5 bài tự soạn, vòng học và bộ đánh giá riêng của nhóm. Chưa xác nhận đủ phạm vi N4; chưa duyệt học thuật/ngữ âm độc lập."
+    },
+    {
+      "id": "n4c",
+      "title": "N4 C · bài tham chiếu 36–40",
+      "use": "Kể thay đổi, trải nghiệm, sự việc xảy ra với mình, lý do và câu hỏi chưa biết.",
+      "prior": "N4 A/B; mệnh đề, danh từ hóa, cho nhận nền N5.",
+      "knowledge": "ように, bị động, の danh từ hóa, て/ので nguyên nhân, câu hỏi lồng/かどうか.",
+      "practice": "Kể sự việc qua nhiều góc nhìn và xác nhận nguồn thông tin.",
+      "evidence": "Không đảo người chịu tác động; nghe nắm điều cần xác nhận.",
+      "review": "Mệnh đề/nối ý/chủ thể trong ngữ cảnh mới.",
+      "status": "Có 5 bài tự soạn, vòng học và bộ đánh giá riêng của nhóm. Chưa xác nhận đủ phạm vi N4; chưa duyệt học thuật/ngữ âm độc lập."
+    },
+    {
+      "id": "n4d",
+      "title": "N4 D · bài tham chiếu 41–45",
+      "use": "Nhờ giúp theo quan hệ, nói mục đích, cảm nhận thay đổi và ứng phó sự cố.",
+      "prior": "Nền N5 cho nhận/nhờ, các mệnh đề N4 đã học.",
+      "knowledge": "Cho nhận theo quan hệ, mục đích, vẻ ngoài/thử, mức độ/cách làm, trường hợp/nhượng bộ.",
+      "practice": "Đóng vai dịch vụ và đổi phương án khi có trở ngại.",
+      "evidence": "Hoàn thành ý, chọn cách nói phù hợp, không suy hình thức thành ý khác.",
+      "review": "So sánh các lời nhờ/lý do/điều kiện theo mục đích.",
+      "status": "Có 5 bài tự soạn, vòng học và bộ đánh giá riêng của nhóm. Chưa xác nhận đủ phạm vi N4; chưa duyệt học thuật/ngữ âm độc lập."
+    },
+    {
+      "id": "n4e",
+      "title": "N4 E · bài tham chiếu 46–50",
+      "use": "Báo tiến độ, truyền tin, mô tả nhận biết, nhờ phép và giao tiếp lịch sự theo vai.",
+      "prior": "N4 trước đó và thái độ/xã hội được giải thích tại chỗ.",
+      "knowledge": "ところ/ばかり, truyền đạt/suy đoán, sai khiến, tôn kính/khiêm nhường.",
+      "practice": "Nghe/chuyển thông tin và xử lý lượt hỏi tiếp trong ngữ cảnh giới hạn.",
+      "evidence": "Nguồn tin, ai làm/được phép, vai xã hội; không ép mọi tình huống dùng kính ngữ.",
+      "review": "Mẫu theo vai và mốc thời gian, không học rời danh sách.",
+      "status": "Có 5 bài tự soạn, vòng học và bộ đánh giá riêng của nhóm. Chưa xác nhận đủ phạm vi N4; chưa duyệt học thuật/ngữ âm độc lập."
+    },
+    {
+      "id": "n4-check",
+      "title": "Ôn và đánh giá N4",
+      "use": "Tìm lỗ hổng theo kiến thức/đọc/nghe và mục đích giao tiếp.",
+      "prior": "Khuyến nghị nền N5/N4, mọi nội dung có vẫn mở.",
+      "knowledge": "Đối chiếu dạng hiện hành JLPT; không coi xong Minna II là đủ.",
+      "practice": "Nhiều bộ mới, thời gian từng phần, nhiệm vụ tích lũy.",
+      "evidence": "Hồ sơ JLPT và giao tiếp tách riêng, thang giao tiếp tạm theo ủy quyền, chưa thẩm định.",
+      "review": "Bù đúng phần yếu, kiểm lại sau nghỉ với dữ kiện khác.",
+      "status": "Có 5 bộ nhóm và bộ tổng hợp A bằng ngữ liệu riêng; còn thiếu dạng, độ khó và đánh giá giao tiếp độc lập để kết luận đủ chặng."
+    }
+  ]
+}

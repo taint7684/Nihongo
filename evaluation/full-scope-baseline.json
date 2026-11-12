@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-11",
+  "unit": {
+    "files": 10,
+    "passed": 54
+  },
+  "sourceCheckpoint": ".tmp-ui/checkpoint-full-scope-start",
+  "scope": "0–N5–N4",
+  "learnerEvidence": "none generated",
+  "n4": "map only",
+  "reference": "draft subset",
+  "ai": "broad candidate not approved"
+}

@@ -1,0 +1,16 @@
+﻿[
+    {
+        "ProcessId":  17372,
+        "ParentProcessId":  19968,
+        "Name":  "ollama.exe",
+        "ExecutablePath":  "C:\\Users\\LENOVO\\Desktop\\Nihongo-Compass\\.runtime\\ollama\\ollama.exe",
+        "WorkingSetSize":  26189824
+    },
+    {
+        "ProcessId":  22644,
+        "ParentProcessId":  19504,
+        "Name":  "run.exe",
+        "ExecutablePath":  "C:\\Users\\LENOVO\\Desktop\\Nihongo-Compass\\.runtime\\voicevox\\windows-cpu\\run.exe",
+        "WorkingSetSize":  427237376
+    }
+]

@@ -1,0 +1,34 @@
+{
+  "time": "2026-11-11T14:24:56.750Z",
+  "requirements": [
+    "NAV",
+    "WORD",
+    "KANJI",
+    "GRAM"
+  ],
+  "software": {
+    "browser": [
+      "WORD: search, note, hide answer list during recall; checked answer and shared schedule saved",
+      "FLASHCARD: same word key/schedule, self-report does not become a checked recall attempt",
+      "GRAMMAR: direct library, original question ID saved once, linked lesson shares answer",
+      "KANJI: actual pinned paths animate; mouse drawing, undo, save/reload and self-review work; no recognition or score",
+      "LISTEN/READ/WRITE: direct audio, lookup/save and original writing draft storage",
+      "BACKUP: notes, checked evidence and handwritten vector strokes exported/imported through UI"
+    ],
+    "unitTests": "45 passed at group checkpoint; final regression 54 tests"
+  },
+  "academic": "Not independently reviewed; path source is licensed data, not recognition or grading",
+  "review": {
+    "violationsFound": [
+      "Recall list leaked target word",
+      "First wordPool entry could lack contextual example",
+      "Early repeated ratings could extend due without delayed recall"
+    ],
+    "repairs": [
+      "Hide list/search while recalling/dictating",
+      "Prefer existing rich contextual entry while retaining word key",
+      "SM2 documented variant preserves due on early review"
+    ]
+  },
+  "AIReview": "evaluation/tools-ai-review.json collected in fresh contexts; AI-only, false positives rejected, verified transaction bug repaired and fault-tested"
+}

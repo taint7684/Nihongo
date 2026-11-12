@@ -1,0 +1,184 @@
+[
+  {
+    "kana": "あ",
+    "id": "a",
+    "file": "Ja-A.oga",
+    "author": "Hakatanoshio117117",
+    "source": "https://commons.wikimedia.org/wiki/File:Ja-A.oga",
+    "license": "Public domain",
+    "checked": "2026-11-11",
+    "available": true,
+    "sha256": "37d8b51acbdec5f1a4768520c4ad94a14f21f1230f33a2d7f50406ca9b32aff6",
+    "quality": "Metadata/file checked; no independent phonetic review",
+    "labels": [
+      "あ",
+      "ア"
+    ],
+    "path": "/audio/a.ogg",
+    "kind": "illustration-long"
+  },
+  {
+    "kana": "い",
+    "id": "i",
+    "file": "Japanese I.ogg",
+    "author": "Hakatanoshio117117",
+    "source": "https://commons.wikimedia.org/wiki/File:Japanese_I.ogg",
+    "license": "Public domain",
+    "checked": "2026-11-11",
+    "available": true,
+    "sha256": "39a55eee1bd2dbacbee318c7c7a4f499d905b909dcf0b3400961b1142801e9f2",
+    "quality": "Metadata/file checked; no independent phonetic review",
+    "labels": [
+      "い",
+      "イ"
+    ],
+    "path": "/audio/i.ogg",
+    "kind": "illustration-long"
+  },
+  {
+    "kana": "う",
+    "id": "u",
+    "file": "Ja-U.oga",
+    "author": "Spacecat2~commonswiki (metadata assumed)",
+    "source": "https://commons.wikimedia.org/wiki/File:Ja-U.oga",
+    "license": "Public domain",
+    "checked": "2026-11-11",
+    "available": true,
+    "sha256": "5ee8b8ef3a7347acd102ab02cd868efce3c4be15aaf561310c4189be1a1199ed",
+    "quality": "Metadata/file checked; no independent phonetic review",
+    "labels": [
+      "う",
+      "ウ"
+    ],
+    "path": "/audio/u.ogg",
+    "kind": "short-reference"
+  },
+  {
+    "kana": "え",
+    "id": "e",
+    "file": "Ja-E.oga",
+    "author": "Hakatanoshio117117",
+    "source": "https://commons.wikimedia.org/wiki/File:Ja-E.oga",
+    "license": "Public domain",
+    "checked": "2026-11-11",
+    "available": true,
+    "sha256": "d529d33b371fd63b3edeb2e3be5e785d90d4fba66281be9b55076a477a3ee297",
+    "quality": "Metadata/file checked; no independent phonetic review",
+    "labels": [
+      "え",
+      "エ"
+    ],
+    "path": "/audio/e.ogg",
+    "kind": "illustration-long"
+  },
+  {
+    "kana": "お",
+    "id": "o",
+    "file": "Ja-O.oga",
+    "author": "Spacecat2~commonswiki (metadata assumed)",
+    "source": "https://commons.wikimedia.org/wiki/File:Ja-O.oga",
+    "license": "Public domain",
+    "checked": "2026-11-11",
+    "available": true,
+    "sha256": "632b92814120e466ab19900f7eaa43492fa76d7a0774d5c7fb8d9b110a612dfe",
+    "quality": "Metadata/file checked; no independent phonetic review",
+    "labels": [
+      "お",
+      "オ"
+    ],
+    "path": "/audio/o.ogg",
+    "kind": "short-reference"
+  },
+  {
+    "id": "ka",
+    "labels": [
+      "か",
+      "カ"
+    ],
+    "path": "/audio/ka.ogg",
+    "kind": "illustration",
+    "source": "https://commons.wikimedia.org/wiki/File:Ja-Ka.oga",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "author": "Hakatanoshio117117",
+    "sha256": "107c6a8dd0c25facc62a0af6eb6fe229ecdf9459dc491b7c0e401ca4da76e6e3",
+    "quality": "Source metadata and format checked; no independent phonetic review",
+    "checked": "2026-11-11"
+  },
+  {
+    "id": "ki",
+    "labels": [
+      "き",
+      "キ"
+    ],
+    "path": "/audio/ki.ogg",
+    "kind": "illustration",
+    "source": "https://commons.wikimedia.org/wiki/File:Japanese_ki.ogg",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "author": "Hakatanoshio117117",
+    "sha256": "79e1d4fbbe2a8e138f7bed9f66ae367abfa2593aca326ee67afbd47585b12a35",
+    "quality": "Source metadata and format checked; no independent phonetic review",
+    "checked": "2026-11-11"
+  },
+  {
+    "id": "ke",
+    "labels": [
+      "け",
+      "ケ"
+    ],
+    "path": "/audio/ke.ogg",
+    "kind": "illustration",
+    "source": "https://commons.wikimedia.org/wiki/File:Japanese_ke.ogg",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "author": "Hakatanoshio117117",
+    "sha256": "5f3864b1d55684921acdb96d5398bfce9db97fff007fdcd5fd733aca95fbc3eb",
+    "quality": "Source metadata and format checked; no independent phonetic review",
+    "checked": "2026-11-11"
+  },
+  {
+    "id": "sa",
+    "labels": [
+      "さ",
+      "サ"
+    ],
+    "path": "/audio/sa.ogg",
+    "kind": "illustration",
+    "source": "https://commons.wikimedia.org/wiki/File:Japanese_sa.ogg",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "author": "Hakatanoshio117117",
+    "sha256": "bd830bfc77f16d3c8e186e7e98654ff76bbf56649ed94fa5a49beb5c1bf7fa4a",
+    "quality": "Source metadata and format checked; no independent phonetic review",
+    "checked": "2026-11-11"
+  },
+  {
+    "id": "word-なまえ",
+    "labels": [
+      "なまえ"
+    ],
+    "path": "/audio/word-namae.ogg",
+    "kind": "word",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ja-namae.ogg",
+    "author": "FreeMediaKid!",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sha256": "5df53662091566ac7637c4e1415f208c84a0dc2ae8352cc3653f5d2ec14a2fd6",
+    "quality": "Người đọc tự khai không phải bản ngữ; chỉ tham khảo nhận diện từ, chưa duyệt ngữ âm độc lập."
+  },
+  {
+    "id": "word-いぬ",
+    "labels": [
+      "いぬ"
+    ],
+    "path": "/audio/word-inu.ogg",
+    "kind": "word",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ja-inu-anglonative.oga",
+    "author": "FreeMediaKid!",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sha256": "dcb6bf35767504c647bac88f609a3d954ed8eb6af40ce1805cf937f5ad59d862",
+    "quality": "Người đọc tự khai không phải bản ngữ; chỉ tham khảo nhận diện từ, chưa duyệt ngữ âm độc lập."
+  }
+]

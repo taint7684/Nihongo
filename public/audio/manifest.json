@@ -1,0 +1,62 @@
+[
+  {
+    "kana": "あ",
+    "id": "a",
+    "file": "Ja-A.oga",
+    "author": "Hakatanoshio117117",
+    "source": "https://commons.wikimedia.org/wiki/File:Ja-A.oga",
+    "license": "Public domain",
+    "checked": "2026-11-11",
+    "available": true,
+    "sha256": "37d8b51acbdec5f1a4768520c4ad94a14f21f1230f33a2d7f50406ca9b32aff6",
+    "quality": "Metadata/file checked; no independent phonetic review"
+  },
+  {
+    "kana": "い",
+    "id": "i",
+    "file": "Japanese I.ogg",
+    "author": "Hakatanoshio117117",
+    "source": "https://commons.wikimedia.org/wiki/File:Japanese_I.ogg",
+    "license": "Public domain",
+    "checked": "2026-11-11",
+    "available": true,
+    "sha256": "39a55eee1bd2dbacbee318c7c7a4f499d905b909dcf0b3400961b1142801e9f2",
+    "quality": "Metadata/file checked; no independent phonetic review"
+  },
+  {
+    "kana": "う",
+    "id": "u",
+    "file": "Ja-U.oga",
+    "author": "Spacecat2~commonswiki (metadata assumed)",
+    "source": "https://commons.wikimedia.org/wiki/File:Ja-U.oga",
+    "license": "Public domain",
+    "checked": "2026-11-11",
+    "available": true,
+    "sha256": "5ee8b8ef3a7347acd102ab02cd868efce3c4be15aaf561310c4189be1a1199ed",
+    "quality": "Metadata/file checked; no independent phonetic review"
+  },
+  {
+    "kana": "え",
+    "id": "e",
+    "file": "Ja-E.oga",
+    "author": "Hakatanoshio117117",
+    "source": "https://commons.wikimedia.org/wiki/File:Ja-E.oga",
+    "license": "Public domain",
+    "checked": "2026-11-11",
+    "available": true,
+    "sha256": "d529d33b371fd63b3edeb2e3be5e785d90d4fba66281be9b55076a477a3ee297",
+    "quality": "Metadata/file checked; no independent phonetic review"
+  },
+  {
+    "kana": "お",
+    "id": "o",
+    "file": "Ja-O.oga",
+    "author": "Spacecat2~commonswiki (metadata assumed)",
+    "source": "https://commons.wikimedia.org/wiki/File:Ja-O.oga",
+    "license": "Public domain",
+    "checked": "2026-11-11",
+    "available": true,
+    "sha256": "632b92814120e466ab19900f7eaa43492fa76d7a0774d5c7fb8d9b110a612dfe",
+    "quality": "Metadata/file checked; no independent phonetic review"
+  }
+]

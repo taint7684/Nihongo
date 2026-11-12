@@ -1,0 +1,334 @@
+{
+  "time": "2026-11-11T14:42:21.701Z",
+  "reviewType": "AI review only, not independent academic or security certification",
+  "model": "existing qwen3:4b local",
+  "results": [
+    {
+      "id": "WORD",
+      "repeat": 1,
+      "error": "The operation was aborted due to timeout",
+      "ms": 90021
+    },
+    {
+      "id": "WORD",
+      "repeat": 2,
+      "ms": 58051,
+      "raw": {
+        "model": "qwen3:4b",
+        "created_at": "2026-11-11T14:35:10.4582768Z",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"violations\": [\n    {\n      \"severity\": \"high\",\n      \"code\": \"no_fake_long_term_mastery\",\n      \"evidence\": \"The `nextSM2` function uses `old?.ease` without checking if `old` exists, potentially causing `undefined` to be used in calculations. This can lead to fake long-term mastery if `old` is not present for a new word.\",\n      \"fix\": \"Add a check for `old` existence before accessing `old.ease` in `nextSM2`.\"\n    },\n    {\n      \"severity\": \"high\",\n      \"code\": \"separate_checked_vs_self_report_evidence\",\n      \"evidence\": \"The `checkedWord` function adds evidence to `wordEvidence` with `afterModel:true`, but the `scheduleWord` function does not separate checked vs self-report evidence as required. The evidence is mixed in the same array.\",\n      \"fix\": \"Ensure `wordEvidence` is split into `checkedEvidence` and `selfReportEvidence` with distinct types.\"\n    },\n    {\n      \"severity\": \"medium\",\n      \"code\": \"early_repeat_cannot_extend_schedule\",\n      \"evidence\": \"The `nextSM2` function calculates `intervalDays` for the first repetition as `1` when `repetitions===1`, which may extend the schedule too early for a new word.\",\n      \"fix\": \"Adjust the initial interval to be longer than 1 day for the first repetition to prevent early schedule extension.\"\n    }\n  ],\n  \"limitations\": \"The analysis is based solely on the provided code and audit criteria. No external context or academic review was performed.\"\n}"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 58022430700,
+        "load_duration": 9927200,
+        "prompt_eval_count": 1444,
+        "prompt_eval_cached_count": 1443,
+        "prompt_eval_duration": 198667000,
+        "eval_count": 344,
+        "eval_duration": 57528467000
+      },
+      "parsed": {
+        "violations": [
+          {
+            "severity": "high",
+            "code": "no_fake_long_term_mastery",
+            "evidence": "The `nextSM2` function uses `old?.ease` without checking if `old` exists, potentially causing `undefined` to be used in calculations. This can lead to fake long-term mastery if `old` is not present for a new word.",
+            "fix": "Add a check for `old` existence before accessing `old.ease` in `nextSM2`."
+          },
+          {
+            "severity": "high",
+            "code": "separate_checked_vs_self_report_evidence",
+            "evidence": "The `checkedWord` function adds evidence to `wordEvidence` with `afterModel:true`, but the `scheduleWord` function does not separate checked vs self-report evidence as required. The evidence is mixed in the same array.",
+            "fix": "Ensure `wordEvidence` is split into `checkedEvidence` and `selfReportEvidence` with distinct types."
+          },
+          {
+            "severity": "medium",
+            "code": "early_repeat_cannot_extend_schedule",
+            "evidence": "The `nextSM2` function calculates `intervalDays` for the first repetition as `1` when `repetitions===1`, which may extend the schedule too early for a new word.",
+            "fix": "Adjust the initial interval to be longer than 1 day for the first repetition to prevent early schedule extension."
+          }
+        ],
+        "limitations": "The analysis is based solely on the provided code and audit criteria. No external context or academic review was performed."
+      }
+    },
+    {
+      "id": "WORD",
+      "repeat": 3,
+      "ms": 52269,
+      "raw": {
+        "model": "qwen3:4b",
+        "created_at": "2026-11-11T14:36:02.746646Z",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"violations\": [\n    {\n      \"severity\": \"high\",\n      \"code\": \"no_fake_long_term_mastery\",\n      \"evidence\": \"The `nextSM2` function uses `old?.ease` without checking if `old` exists, which can lead to fake long-term mastery if `old` is falsy but `ease` is still used in calculations.\",\n      \"fix\": \"Ensure `old` is truthy before accessing `old?.ease` to prevent fake long-term mastery calculations.\"\n    },\n    {\n      \"severity\": \"high\",\n      \"code\": \"separate_checked_vs_self_report_evidence\",\n      \"evidence\": \"The `checkedWord` function mixes `wordEvidence` with self-reported evidence by directly appending to `state.wordEvidence` without separating checked vs self-report evidence.\",\n      \"fix\": \"Separate checked and self-reported evidence in `wordEvidence` to ensure distinct evidence types.\"\n    },\n    {\n      \"severity\": \"medium\",\n      \"code\": \"early_repeat_cannot_extend_schedule\",\n      \"evidence\": \"The `nextSM2` function calculates `intervalDays` for `repetitions === 1` as 1 day, which may extend the schedule too early without sufficient mastery.\",\n      \"fix\": \"Adjust the interval for the first repetition to ensure it doesn't extend the schedule prematurely.\"\n    }\n  ],\n  \"limitations\": \"The analysis is limited to the provided code and does not include external context or academic review.\"\n}"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 52263150000,
+        "load_duration": 7044900,
+        "prompt_eval_count": 1444,
+        "prompt_eval_cached_count": 1443,
+        "prompt_eval_duration": 207988000,
+        "eval_count": 310,
+        "eval_duration": 52027144000
+      },
+      "parsed": {
+        "violations": [
+          {
+            "severity": "high",
+            "code": "no_fake_long_term_mastery",
+            "evidence": "The `nextSM2` function uses `old?.ease` without checking if `old` exists, which can lead to fake long-term mastery if `old` is falsy but `ease` is still used in calculations.",
+            "fix": "Ensure `old` is truthy before accessing `old?.ease` to prevent fake long-term mastery calculations."
+          },
+          {
+            "severity": "high",
+            "code": "separate_checked_vs_self_report_evidence",
+            "evidence": "The `checkedWord` function mixes `wordEvidence` with self-reported evidence by directly appending to `state.wordEvidence` without separating checked vs self-report evidence.",
+            "fix": "Separate checked and self-reported evidence in `wordEvidence` to ensure distinct evidence types."
+          },
+          {
+            "severity": "medium",
+            "code": "early_repeat_cannot_extend_schedule",
+            "evidence": "The `nextSM2` function calculates `intervalDays` for `repetitions === 1` as 1 day, which may extend the schedule too early without sufficient mastery.",
+            "fix": "Adjust the interval for the first repetition to ensure it doesn't extend the schedule prematurely."
+          }
+        ],
+        "limitations": "The analysis is limited to the provided code and does not include external context or academic review."
+      }
+    },
+    {
+      "id": "KANJI",
+      "repeat": 1,
+      "error": "The operation was aborted due to timeout",
+      "ms": 90008
+    },
+    {
+      "id": "KANJI",
+      "repeat": 2,
+      "ms": 54920,
+      "raw": {
+        "model": "qwen3:4b",
+        "created_at": "2026-11-11T14:38:27.6523336Z",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"violations\": [\n    {\n      \"severity\": \"high\",\n      \"code\": \"missing_handwriting_scoring\",\n      \"evidence\": \"No automatic handwriting scoring implemented in the code; the component only saves strokes but does not evaluate correctness against the target paths\",\n      \"fix\": \"Add a scoring mechanism that compares user strokes with target paths (e.g., using stroke count, path similarity, or manual scoring) to determine correctness\"\n    },\n    {\n      \"severity\": \"medium\",\n      \"code\": \"inconsistent_error_handling\",\n      \"evidence\": \"Error messages are set but not handled consistently; for example, when fetching data fails, the error message is displayed but the component does not provide a fallback for free writing\",\n      \"fix\": \"Ensure all error paths have consistent fallback behavior, particularly allowing free writing when data is unavailable\"\n    },\n    {\n      \"severity\": \"low\",\n      \"code\": \"unhandled_pointer_cancel\",\n      \"evidence\": \"The `onPointerCancel` event is handled by `end` function but `active.current` is not reset properly when pointer is canceled\",\n      \"fix\": \"Add a check to reset `active.current` when pointer cancel occurs to prevent stale stroke data\"\n    }\n  ],\n  \"limitations\": \"The analysis is limited to the provided code and does not include external dependencies or runtime behavior. No independent academic review was performed.\"\n}"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 54885600200,
+        "load_duration": 23913600,
+        "prompt_eval_count": 1686,
+        "prompt_eval_cached_count": 1685,
+        "prompt_eval_duration": 258091999,
+        "eval_count": 291,
+        "eval_duration": 54264022000
+      },
+      "parsed": {
+        "violations": [
+          {
+            "severity": "high",
+            "code": "missing_handwriting_scoring",
+            "evidence": "No automatic handwriting scoring implemented in the code; the component only saves strokes but does not evaluate correctness against the target paths",
+            "fix": "Add a scoring mechanism that compares user strokes with target paths (e.g., using stroke count, path similarity, or manual scoring) to determine correctness"
+          },
+          {
+            "severity": "medium",
+            "code": "inconsistent_error_handling",
+            "evidence": "Error messages are set but not handled consistently; for example, when fetching data fails, the error message is displayed but the component does not provide a fallback for free writing",
+            "fix": "Ensure all error paths have consistent fallback behavior, particularly allowing free writing when data is unavailable"
+          },
+          {
+            "severity": "low",
+            "code": "unhandled_pointer_cancel",
+            "evidence": "The `onPointerCancel` event is handled by `end` function but `active.current` is not reset properly when pointer is canceled",
+            "fix": "Add a check to reset `active.current` when pointer cancel occurs to prevent stale stroke data"
+          }
+        ],
+        "limitations": "The analysis is limited to the provided code and does not include external dependencies or runtime behavior. No independent academic review was performed."
+      }
+    },
+    {
+      "id": "KANJI",
+      "repeat": 3,
+      "ms": 63072,
+      "raw": {
+        "model": "qwen3:4b",
+        "created_at": "2026-11-11T14:39:30.741302Z",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"violations\": [\n    {\n      \"severity\": \"high\",\n      \"code\": \"missing_handwriting_scoring\",\n      \"evidence\": \"No automatic handwriting scoring implemented; the component only saves strokes and allows free writing without validation\",\n      \"fix\": \"Implement a scoring mechanism that evaluates strokes against the target path using a distance metric (e.g., Manhattan distance) to determine correctness, but note this is not required for the current audit scope\"\n    },\n    {\n      \"severity\": \"medium\",\n      \"code\": \"inconsistent_svg_path_handling\",\n      \"evidence\": \"SVG paths for strokes are generated using `s.map((p,j)=>(j?'L':'M')+p[0].toFixed(2)+' '+p[1].toFixed(2))` which may produce invalid paths if the first point is not properly handled\",\n      \"fix\": \"Ensure the first point of each stroke is always 'M' followed by coordinates, and validate path strings before rendering to prevent invalid SVG paths\"\n    },\n    {\n      \"severity\": \"low\",\n      \"code\": \"unhandled_error_in_fetch\",\n      \"evidence\": \"The fetch request throws an error if the response is not OK, but the error is caught and set to state without checking if the error is network-related or server-side\",\n      \"fix\": \"Add a network error check and provide a more specific error message for network issues, e.g., 'Network error: Could not connect to server'\"\n    }\n  ],\n  \"limitations\": \"The audit was conducted based on the provided code and does not include external dependencies or runtime environment details. The analysis focuses on observable behavior and code structure without speculative features.\"\n}"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 63055294400,
+        "load_duration": 23693100,
+        "prompt_eval_count": 1686,
+        "prompt_eval_cached_count": 1685,
+        "prompt_eval_duration": 228001000,
+        "eval_count": 348,
+        "eval_duration": 62778779000
+      },
+      "parsed": {
+        "violations": [
+          {
+            "severity": "high",
+            "code": "missing_handwriting_scoring",
+            "evidence": "No automatic handwriting scoring implemented; the component only saves strokes and allows free writing without validation",
+            "fix": "Implement a scoring mechanism that evaluates strokes against the target path using a distance metric (e.g., Manhattan distance) to determine correctness, but note this is not required for the current audit scope"
+          },
+          {
+            "severity": "medium",
+            "code": "inconsistent_svg_path_handling",
+            "evidence": "SVG paths for strokes are generated using `s.map((p,j)=>(j?'L':'M')+p[0].toFixed(2)+' '+p[1].toFixed(2))` which may produce invalid paths if the first point is not properly handled",
+            "fix": "Ensure the first point of each stroke is always 'M' followed by coordinates, and validate path strings before rendering to prevent invalid SVG paths"
+          },
+          {
+            "severity": "low",
+            "code": "unhandled_error_in_fetch",
+            "evidence": "The fetch request throws an error if the response is not OK, but the error is caught and set to state without checking if the error is network-related or server-side",
+            "fix": "Add a network error check and provide a more specific error message for network issues, e.g., 'Network error: Could not connect to server'"
+          }
+        ],
+        "limitations": "The audit was conducted based on the provided code and does not include external dependencies or runtime environment details. The analysis focuses on observable behavior and code structure without speculative features."
+      }
+    },
+    {
+      "id": "VOICE",
+      "repeat": 1,
+      "ms": 63473,
+      "raw": {
+        "model": "qwen3:4b",
+        "created_at": "2026-11-11T14:40:34.2166449Z",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"violations\": [\n    {\n      \"severity\": \"high\",\n      \"code\": \"indexedDB:transaction-abort-handling\",\n      \"evidence\": \"The transaction.onabort handler rejects with a generic error message 'Kho ghi âm không lưu được.' instead of the actual error\",\n      \"fix\": \"Use transaction.onerror for error handling and avoid generic messages\"\n    },\n    {\n      \"severity\": \"medium\",\n      \"code\": \"indexedDB:object-store-key-path\",\n      \"evidence\": \"The object store 'clips' has keyPath 'id' but the code does not validate that the 'id' is unique across all operations\",\n      \"fix\": \"Add uniqueness validation for 'id' in all operations\"\n    },\n    {\n      \"severity\": \"low\",\n      \"code\": \"audio-processing:base64-validation\",\n      \"evidence\": \"The base64 string validation uses a regex that may not cover all valid base64 strings (e.g., missing padding handling)\",\n      \"fix\": \"Use a more robust base64 validation function\"\n    }\n  ],\n  \"limitations\": \"The analysis is limited to the provided code and does not consider external factors like browser compatibility or specific edge cases in IndexedDB.\"\n}"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 63457529400,
+        "load_duration": 5881800,
+        "prompt_eval_count": 952,
+        "prompt_eval_cached_count": 62,
+        "prompt_eval_duration": 23300935000,
+        "eval_count": 263,
+        "eval_duration": 40055063000
+      },
+      "parsed": {
+        "violations": [
+          {
+            "severity": "high",
+            "code": "indexedDB:transaction-abort-handling",
+            "evidence": "The transaction.onabort handler rejects with a generic error message 'Kho ghi âm không lưu được.' instead of the actual error",
+            "fix": "Use transaction.onerror for error handling and avoid generic messages"
+          },
+          {
+            "severity": "medium",
+            "code": "indexedDB:object-store-key-path",
+            "evidence": "The object store 'clips' has keyPath 'id' but the code does not validate that the 'id' is unique across all operations",
+            "fix": "Add uniqueness validation for 'id' in all operations"
+          },
+          {
+            "severity": "low",
+            "code": "audio-processing:base64-validation",
+            "evidence": "The base64 string validation uses a regex that may not cover all valid base64 strings (e.g., missing padding handling)",
+            "fix": "Use a more robust base64 validation function"
+          }
+        ],
+        "limitations": "The analysis is limited to the provided code and does not consider external factors like browser compatibility or specific edge cases in IndexedDB."
+      }
+    },
+    {
+      "id": "VOICE",
+      "repeat": 2,
+      "ms": 56548,
+      "raw": {
+        "model": "qwen3:4b",
+        "created_at": "2026-11-11T14:41:30.7663294Z",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"violations\": [\n    {\n      \"severity\": \"high\",\n      \"code\": \"indexedDB\",\n      \"evidence\": \"The `open` function uses `indexedDB.open` without checking for existing database version or handling upgrade correctly. The `onupgradeneeded` handler is called but the database version is not incremented properly, which can cause issues if the database is already present.\",\n      \"fix\": \"Ensure the database version is incremented in the `onupgradeneeded` handler to avoid conflicts with existing databases.\"\n    },\n    {\n      \"severity\": \"medium\",\n      \"code\": \"indexedDB\",\n      \"evidence\": \"The `transact` function does not handle the `onerror` event properly for the transaction, leading to potential unhandled errors.\",\n      \"fix\": \"Add proper error handling for the transaction's `onerror` event to ensure errors are properly propagated.\"\n    },\n    {\n      \"severity\": \"low\",\n      \"code\": \"audio\",\n      \"evidence\": \"The `validateVoiceArchive` function does not validate the `base64` string for being a valid audio data URL, which could lead to invalid audio files.\",\n      \"fix\": \"Add validation for the `base64` string to ensure it matches the expected format for audio data URLs.\"\n    }\n  ],\n  \"limitations\": \"The analysis is limited to the provided code and does not consider external factors such as browser compatibility or specific edge cases in IndexedDB operations.\"\n}"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 56532187500,
+        "load_duration": 10761700,
+        "prompt_eval_count": 952,
+        "prompt_eval_cached_count": 951,
+        "prompt_eval_duration": 282695000,
+        "eval_count": 310,
+        "eval_duration": 56220192000
+      },
+      "parsed": {
+        "violations": [
+          {
+            "severity": "high",
+            "code": "indexedDB",
+            "evidence": "The `open` function uses `indexedDB.open` without checking for existing database version or handling upgrade correctly. The `onupgradeneeded` handler is called but the database version is not incremented properly, which can cause issues if the database is already present.",
+            "fix": "Ensure the database version is incremented in the `onupgradeneeded` handler to avoid conflicts with existing databases."
+          },
+          {
+            "severity": "medium",
+            "code": "indexedDB",
+            "evidence": "The `transact` function does not handle the `onerror` event properly for the transaction, leading to potential unhandled errors.",
+            "fix": "Add proper error handling for the transaction's `onerror` event to ensure errors are properly propagated."
+          },
+          {
+            "severity": "low",
+            "code": "audio",
+            "evidence": "The `validateVoiceArchive` function does not validate the `base64` string for being a valid audio data URL, which could lead to invalid audio files.",
+            "fix": "Add validation for the `base64` string to ensure it matches the expected format for audio data URLs."
+          }
+        ],
+        "limitations": "The analysis is limited to the provided code and does not consider external factors such as browser compatibility or specific edge cases in IndexedDB operations."
+      }
+    },
+    {
+      "id": "VOICE",
+      "repeat": 3,
+      "ms": 50922,
+      "raw": {
+        "model": "qwen3:4b",
+        "created_at": "2026-11-11T14:42:21.6888283Z",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"violations\": [\n    {\n      \"severity\": \"high\",\n      \"code\": \"indexedDB transaction handling\",\n      \"evidence\": \"The `transact` function uses a nested promise chain without proper error handling for the transaction's `onabort` event, which can lead to silent failures when the transaction is aborted due to constraints.\",\n      \"fix\": \"Add explicit error handling for `onabort` in the transaction promise chain to ensure errors are propagated correctly.\"\n    },\n    {\n      \"severity\": \"medium\",\n      \"code\": \"invalid base64 validation\",\n      \"evidence\": \"The `validateVoiceArchive` function checks for `c.base64` using a regex that does not account for the potential presence of `=` padding characters in base64 strings, which can cause false negatives.\",\n      \"fix\": \"Modify the regex to allow for optional padding characters (`=`) in base64 strings to ensure valid base64 strings are accepted.\"\n    },\n    {\n      \"severity\": \"low\",\n      \"code\": \"unhandled promise rejection\",\n      \"evidence\": \"The `transact` function does not handle the case where the `callback` function throws an error, which can result in unhandled promise rejections.\",\n      \"fix\": \"Wrap the `callback` function in a try-catch block and propagate errors through the promise chain.\"\n    }\n  ],\n  \"limitations\": \"The analysis is limited to the provided code snippet and does not consider external dependencies or runtime environments.\"\n}"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 50903953300,
+        "load_duration": 8369300,
+        "prompt_eval_count": 952,
+        "prompt_eval_cached_count": 951,
+        "prompt_eval_duration": 203347000,
+        "eval_count": 314,
+        "eval_duration": 50677649000
+      },
+      "parsed": {
+        "violations": [
+          {
+            "severity": "high",
+            "code": "indexedDB transaction handling",
+            "evidence": "The `transact` function uses a nested promise chain without proper error handling for the transaction's `onabort` event, which can lead to silent failures when the transaction is aborted due to constraints.",
+            "fix": "Add explicit error handling for `onabort` in the transaction promise chain to ensure errors are propagated correctly."
+          },
+          {
+            "severity": "medium",
+            "code": "invalid base64 validation",
+            "evidence": "The `validateVoiceArchive` function checks for `c.base64` using a regex that does not account for the potential presence of `=` padding characters in base64 strings, which can cause false negatives.",
+            "fix": "Modify the regex to allow for optional padding characters (`=`) in base64 strings to ensure valid base64 strings are accepted."
+          },
+          {
+            "severity": "low",
+            "code": "unhandled promise rejection",
+            "evidence": "The `transact` function does not handle the case where the `callback` function throws an error, which can result in unhandled promise rejections.",
+            "fix": "Wrap the `callback` function in a try-catch block and propagate errors through the promise chain."
+          }
+        ],
+        "limitations": "The analysis is limited to the provided code snippet and does not consider external dependencies or runtime environments."
+      }
+    }
+  ]
+}

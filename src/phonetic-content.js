@@ -1,0 +1,8 @@
+import{introAudio}from './intro-audio-content.js';
+export const phoneticPractice={
+'sound-long':[{id:'sound-long-family',source:'https://www.coelang.tufs.ac.jp/ja/en/pmod/practical/02-02-01.php',words:[{text:'おばさん',reading:'おばさん',meaning:'cô/dì; người phụ nữ trung niên theo ngữ cảnh',mora:4},{text:'おばあさん',reading:'おばあさん',meaning:'bà; người phụ nữ cao tuổi theo ngữ cảnh',mora:5}],explanation:'お / ば / さ / ん: 4 mora. お / ば / あ / さ / ん: 5 mora; phần dài không được bỏ mất.'},{id:'sound-long-building',source:'https://www.coelang.tufs.ac.jp/ja/en/pmod/practical/02-02-01.php',words:[{text:'ビル',reading:'ビル',meaning:'tòa nhà',mora:2},{text:'ビール',reading:'ビール',meaning:'bia, chỉ học nghĩa từ',mora:3}],explanation:'ビ / ル có 2 nhịp; ビ / ー / ル có 3 nhịp. Đây là nghe phân biệt từ, không chấm phát âm.'}],
+'sound-stop':[{id:'sound-stop-slope',source:'https://www.coelang.tufs.ac.jp/ja/en/pmod/practical/01-10-01.php',words:[{text:'さか',audioText:'坂',reading:'さか',meaning:'dốc',mora:2},{text:'さっか',audioText:'作家',reading:'さっか',meaning:'nhà văn/tác giả',mora:3}],explanation:'さ / か: 2 mora. さ / っ / か: 3 mora; っ nhỏ giữ một nhịp, không đọc thành つ.'}],
+'sound-glide':[{id:'sound-glide-hospital',source:'https://www.coelang.tufs.ac.jp/ja/en/pmod/practical/01-10-01.php',words:[{text:'びょういん',audioText:'病院',reading:'びょういん',compareReading:'びょおいん',meaning:'bệnh viện',mora:4},{text:'びよういん',audioText:'美容院',reading:'びよういん',compareReading:'びよおいん',meaning:'hiệu làm tóc/làm đẹp',mora:5}],explanation:'びょ / う / い / ん: 4 mora; び / よ / う / い / ん: 5 mora. ょ nhỏ tạo âm ghép; よ thường tạo nhịp riêng.'}]
+};
+
+Object.assign(phoneticPractice,introAudio);
