@@ -1,3 +1,21 @@
+# Checkpoint phiên này (14/11/2026) — N4 vocabulary batch 05 nội dung hoàn thành
+
+- HEAD `14dcc8d` (trước `bd54897`). Repo tại `C:\Users\LENOVO\Desktop\Nihongo-Compass`; giữ nguyên `study-room`.
+- Commit `14dcc8d`: import+áp `applyN4VocabularyBatch05` trong `src/mnn-course.js`; thêm `src/n4-vocabulary-batch-05.test.js`; rebuild dictionary data + lexical register (word-evidence, lexical-register, word-source-types, lexical-counts).
+- Lexical-register sau batch-05: N5 800 (đạt sàn ≥800); N4 mới 628; tích lũy **1.428**. Thiếu ~72 đến sàn 1.500 → cần batch-06 (≥80 lexeme) phiên sau.
+- Test batch-05: 3/4 pass. Audio (G6) chưa sinh vì VOICEVOX engine không chạy (localhost:50021 fail) → blocker kỹ thuật, sẽ sinh audio khi engine có sẵn.
+- dictionary-source.test.js:29 assertion cũ là known issue (không sửa ngoài phạm vi assessment).
+
+--- (nội dung checkpoint 14/11 trước đó giữ dưới) ---
+
+- Dự án đúng tại `C:\Users\LENOVO\Desktop\Nihongo-Compass`, HEAD `bd54897`; giữ nguyên worktree có nhiều thay đổi. Không chuyển sang hoặc sửa `study-room`.
+- Baseline tái lập bằng `node scripts/lexical-register.mjs`: N5 800 lexeme; N4 mới loại trùng 548; tích lũy 1.348. Batch04 tăng 80 từ 1.268 lên 1.348; còn thiếu 152. Giữ yêu cầu lô ≥80, chọn từ theo tác vụ, không cộng biến thể/cách viết.
+- Batch04 test 4/4, audit pass. 80/80 Irodori spelling+reading match; OpenJLPT entry-ID match 1/80. Mẫu G4 30/80 do tác giả rà, chưa độc lập. Audio 160/160 WAV hiện có, analyzer match metadata; nghe duyệt ngữ âm chưa làm. Production build trước đó pass nhưng bundle chính 1.769 MB, chưa đạt <800 kB.
+- Gate đã tái sinh sau batch04: G2 met; G3/G5/G6/G8/G9/G11 not-met; G0/G1/G4/G7/G10/G12 unverified. G5 N4 words 251/592 có assessment riêng không trùng văn bản và lịch chung; batch04 chưa được assessment riêng. Không coi các số kho hiện tại là mẫu số chuẩn của toàn cấp.
+- QA trình duyệt trên trang QA riêng hiện xác nhận bài M31 mở được, phần tra cứu từ hiển thị và audio từ 行き先 có thể phát; chưa QA đánh giá từ mới, Kaiwa, dừng/reload/backup hoặc responsive cho batch04.
+- Tiến độ tiếp: hoàn tất batch05 và batch06 (mỗi lô ≥80 lexeme phù hợp) rồi chạy lại lexical register. Tích hợp từ mới vào N4 lesson, audio, word pool và tạo bài đánh giá tích hợp riêng sau tối đa hai lô; mẫu G4 tối thiểu 30 từ theo các nhóm. Sau khi xác minh ≥1.500 mới chuyển ưu tiên sang 56 N5/50 N4 Kaiwa assessment. Tiếp tục Kanji/ngữ pháp N4, G3, lazy-load, QA và selective commit sau từng nhóm đã kiểm.
+- Batch05 hiện đang được tạo trong `src/n4-vocabulary-batch-05.js` bởi tác vụ riêng; khi có kết quả, rà source/sense và test trước khi tích hợp. Chưa commit. Tránh stage `src/mnn-course.js` nguyên file hoặc các generated datasets trộn thay đổi có trước.
+
 ## Điểm tiếp tục — sau batch N4 03 và assessment tích hợp
 
 - **Công việc đang mở:** ưu tiên 1, đưa N4 tích lũy từ 1.268 lên ≥1.500 lexeme. N5 800; N4 mới loại trùng 468. Baseline sau batch03 được tái lập trong `evaluation/vocabulary-expansion-n4-batch-03.json`; batch tăng 80 lexeme (1.188→1.268), không đếm surface/forms. Cần ít nhất 232 lexeme phù hợp nữa; với lô ≥80 dự kiến ít nhất 3 đợt, đo unique JMdict IDs lại sau từng đợt.

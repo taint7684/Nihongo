@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-14T01:49:29.146Z",
+  "generatedAt": "2026-11-14T04:57:58.549Z",
   "command": "node scripts/done-gates.mjs",
   "overall": "not-met",
   "verification": "Code/data audit only; synthetic in-memory scheduling checks do not prove semantic quality or learner mastery. This script does not run tests, build, browser, audio or learner assessment; separately run validation is recorded in NEXT_STEPS.md.",
@@ -17,9 +17,9 @@
       "status": "unverified",
       "reason": "Git/baseline và 50 ID có bằng chứng; QA hiện hữu không được coi là đã chạy mới. Chưa chứng minh toàn bộ khôi phục/migration trên HEAD hiện tại.",
       "measurements": {
-        "head": "32f79797706b8cdd91c494c51dc35cd1311857c4 Clarify project checkpoint history",
+        "head": "14dcc8d0275547a9e67b0bd4a01f9d1e597be057 Integrate N4 vocabulary batch 05 (80 lexemes, lessons 26-49)",
         "baselineExists": true,
-        "workingChanges": 4638,
+        "workingChanges": 3703,
         "lessonIds1To50Intact": true,
         "existingQA": [
           {
@@ -150,40 +150,40 @@
           }
         },
         "N4": {
-          "surfaceKeys": 512,
-          "usageRecords": 516,
-          "candidateLexemes": 507,
+          "surfaceKeys": 672,
+          "usageRecords": 676,
+          "candidateLexemes": 667,
           "unresolvedForms": 0,
           "composedOrNamedUses": 3,
-          "sourceComparedUsages": 513,
+          "sourceComparedUsages": 673,
           "roles": {
-            "active": 312,
+            "active": 472,
             "recognition": 165,
             "not-yet-classified": 39
           }
         },
         "N4New": {
-          "surfaceKeys": 473,
-          "usageRecords": 474,
-          "candidateLexemes": 468,
+          "surfaceKeys": 633,
+          "usageRecords": 634,
+          "candidateLexemes": 628,
           "unresolvedForms": 0,
           "composedOrNamedUses": 3,
-          "sourceComparedUsages": 471,
+          "sourceComparedUsages": 631,
           "roles": {
-            "active": 308,
+            "active": 468,
             "recognition": 141,
             "not-yet-classified": 25
           }
         },
         "cumulative": {
-          "surfaceKeys": 1289,
-          "usageRecords": 1345,
-          "candidateLexemes": 1268,
+          "surfaceKeys": 1449,
+          "usageRecords": 1505,
+          "candidateLexemes": 1428,
           "unresolvedForms": 0,
           "composedOrNamedUses": 6,
-          "sourceComparedUsages": 1339,
+          "sourceComparedUsages": 1499,
           "roles": {
-            "active": 754,
+            "active": 914,
             "recognition": 433,
             "not-yet-classified": 158
           }
@@ -198,7 +198,7 @@
         {
           "path": "evaluation/lexical-counts.json",
           "exists": true,
-          "sha256": "7e6df0165ed762504b4ee270f7ef166e5756b5dde20a968ed93d26da804cc93b"
+          "sha256": "32ff05df2a83c274b51bc9bccc7b8ea5422d3e2e1e84af9efc4d4bad46f1b884"
         },
         {
           "path": ".tmp-ui/word-identity/report.json",
@@ -211,30 +211,30 @@
       "id": "G2",
       "title": "Đối chiếu nguồn 100%",
       "status": "met",
-      "reason": "1339/1339 lượt từ lõi có sense JMdict; 6/6 ngoại lệ có nguồn riêng; 90/90 trường hợp mơ hồ được thu hẹp theo usage; 298/298 Kanji có hồ sơ KANJIDIC2 hợp lệ, 298 có nghĩa và 298 có cách đọc. Manifest, license file và attribution được kiểm. G2 chỉ xác nhận so sánh/truy vết nguồn theo từng mục; trạng thái review là của tác giả dự án, không phải đánh giá ngôn ngữ độc lập. Độ chính xác độc lập vẫn thuộc G4.",
+      "reason": "1499/1499 lượt từ lõi có sense JMdict; 6/6 ngoại lệ có nguồn riêng; 97/97 trường hợp mơ hồ được thu hẹp theo usage; 298/298 Kanji có hồ sơ KANJIDIC2 hợp lệ, 298 có nghĩa và 298 có cách đọc. Manifest, license file và attribution được kiểm. G2 chỉ xác nhận so sánh/truy vết nguồn theo từng mục; trạng thái review là của tác giả dự án, không phải đánh giá ngôn ngữ độc lập. Độ chính xác độc lập vẫn thuộc G4.",
       "measurements": {
         "dictionaryAlignment": {
-          "time": "2026-11-14T01:30:35.981Z",
-          "uses": 1409,
-          "uniqueDictionaryEntries": 1777,
-          "singleCandidate": 1288,
-          "ambiguous": 115,
+          "time": "2026-11-14T04:36:02.559Z",
+          "uses": 1569,
+          "uniqueDictionaryEntries": 1948,
+          "singleCandidate": 1441,
+          "ambiguous": 122,
           "unresolved": 6,
-          "lookupKanji": 753,
+          "lookupKanji": 798,
           "sourceKanji": 13108,
           "warning": "Code/source alignment only, not semantic approval"
         },
         "sourceCoverage": {
-          "dictionaryUnits": 1339,
-          "selectedSourceSenses": 1339,
+          "dictionaryUnits": 1499,
+          "selectedSourceSenses": 1499,
           "unlinkedDictionaryUnits": [],
           "separatelyClassifiedCompositions": 6,
           "compositionsWithSource": 6,
           "rawMatcherUnresolved": 6,
           "rawUnresolvedClassifiedAsCompositions": 6,
           "unclassifiedRawUnresolved": [],
-          "ambiguousCoreUsages": 90,
-          "resolvedAmbiguousCoreUsages": 90,
+          "ambiguousCoreUsages": 97,
+          "resolvedAmbiguousCoreUsages": 97,
           "unresolvedAmbiguousCoreUsages": [],
           "distinctCoreKanji": 298,
           "kanjiSourceRecords": 298,
@@ -251,27 +251,27 @@
         {
           "path": "evaluation/dictionary-alignment.json",
           "exists": true,
-          "sha256": "d0ea1041e44349819a024417354dc152431d3ba49e06e0361f7b0af4941e3913"
+          "sha256": "d50a67fdb5fcfc055a5f5e5d78c56d4989ad1737c804fe19eef2b0dbf8ab6b55"
         },
         {
           "path": "evaluation/lexical-counts.json",
           "exists": true,
-          "sha256": "7e6df0165ed762504b4ee270f7ef166e5756b5dde20a968ed93d26da804cc93b"
+          "sha256": "32ff05df2a83c274b51bc9bccc7b8ea5422d3e2e1e84af9efc4d4bad46f1b884"
         },
         {
           "path": "public/lexical-register.json",
           "exists": true,
-          "sha256": "45f9199aaa5092f9f6d64c6087bd93ae75bd626ed13914801a840fa65814fd0a"
+          "sha256": "e74c4e16a1e2c4981bb86859b68de369be5e5f9b28b87ebe388ef80be56c8963"
         },
         {
           "path": "public/dictionaries/word-evidence.json",
           "exists": true,
-          "sha256": "984ff27394db0e8f1aa961990336c304498ac42d522e1f812d6fa092490162a7"
+          "sha256": "160d7e0cc8653ce5b30ef787e07343b6166c3b6617b7dfdd8f612a436f5fe2b1"
         },
         {
           "path": "public/dictionaries/source-manifest.json",
           "exists": true,
-          "sha256": "16047d0d0d8821aa4b14afbeb65508423ff879eb2b562f77d284ca33e327c184"
+          "sha256": "774ab505030a7d8dd6c59af20603ec5313875354507420e1be6b240498406ac3"
         },
         {
           "path": "public/dictionaries/licenses/edrdg.html",
@@ -33555,17 +33555,17 @@
         "words": {
           "inScope": true,
           "status": "partial",
-          "total": 512,
-          "lesson": 512,
-          "practice": 512,
+          "total": 672,
+          "lesson": 672,
+          "practice": 672,
           "declaredAssessment": 399,
           "separateAssessmentNoTextOverlap": 251,
           "commonReviewLinked": 399,
           "closed": 251,
           "missingLesson": 0,
           "missingPractice": 0,
-          "missingSeparateAssessment": 261,
-          "unverifiedReview": 113,
+          "missingSeparateAssessment": 421,
+          "unverifiedReview": 273,
           "referenceDenominatorEstablished": false,
           "scope": "Existing content only; not full-level denominator",
           "assessmentEvidenceByType": {
@@ -37143,6 +37143,60 @@
             "hasSeparateAssessment": true,
             "missing": [],
             "complete": true
+          },
+          {
+            "id": "word:かなり",
+            "text": "かなり",
+            "lessonIds": [
+              "mnn-26"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:ついでに",
+            "text": "ついでに",
+            "lessonIds": [
+              "mnn-26"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:まず",
+            "text": "まず",
+            "lessonIds": [
+              "mnn-26"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
           },
           {
             "id": "word:ごみ",
@@ -46280,6 +46334,24 @@
             "complete": true
           },
           {
+            "id": "word:外国",
+            "text": "外国",
+            "lessonIds": [
+              "mnn-27"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
             "id": "word:景色",
             "text": "景色",
             "lessonIds": [
@@ -48404,6 +48476,168 @@
             "hasSeparateAssessment": true,
             "missing": [],
             "complete": true
+          },
+          {
+            "id": "word:後輩",
+            "text": "後輩",
+            "lessonIds": [
+              "mnn-28"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:同僚",
+            "text": "同僚",
+            "lessonIds": [
+              "mnn-28"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:主任",
+            "text": "主任",
+            "lessonIds": [
+              "mnn-28"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:メンバー",
+            "text": "メンバー",
+            "lessonIds": [
+              "mnn-28"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:所属",
+            "text": "所属",
+            "lessonIds": [
+              "mnn-28"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:業者",
+            "text": "業者",
+            "lessonIds": [
+              "mnn-28"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:通訳",
+            "text": "通訳",
+            "lessonIds": [
+              "mnn-28"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:指示",
+            "text": "指示",
+            "lessonIds": [
+              "mnn-28"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:介護",
+            "text": "介護",
+            "lessonIds": [
+              "mnn-28"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
           },
           {
             "id": "word:人気",
@@ -61415,7 +61649,7 @@
                 "evidenceKind": "meaning",
                 "assessmentScope": "Integrated response covers linked words in context; not separate proof for every word.",
                 "validationStatus": null,
-                "textCount": 5,
+                "textCount": 6,
                 "hasJapaneseSentenceContext": true,
                 "scheduleCheck": {
                   "correctSchedules": true,
@@ -61744,6 +61978,438 @@
             "hasSeparateAssessment": true,
             "missing": [],
             "complete": true
+          },
+          {
+            "id": "word:アナウンス",
+            "text": "アナウンス",
+            "lessonIds": [
+              "mnn-29"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:遅れ",
+            "text": "遅れ",
+            "lessonIds": [
+              "mnn-29"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:貴重品",
+            "text": "貴重品",
+            "lessonIds": [
+              "mnn-29"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:落とし物",
+            "text": "落とし物",
+            "lessonIds": [
+              "mnn-29"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:返却",
+            "text": "返却",
+            "lessonIds": [
+              "mnn-29"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:電気製品",
+            "text": "電気製品",
+            "lessonIds": [
+              "mnn-29"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:ガス",
+            "text": "ガス",
+            "lessonIds": [
+              "mnn-29"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:充電",
+            "text": "充電",
+            "lessonIds": [
+              "mnn-29"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:乾電池",
+            "text": "乾電池",
+            "lessonIds": [
+              "mnn-29"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:スマホ",
+            "text": "スマホ",
+            "lessonIds": [
+              "mnn-29"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:インターネット",
+            "text": "インターネット",
+            "lessonIds": [
+              "mnn-29"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:イヤホン",
+            "text": "イヤホン",
+            "lessonIds": [
+              "mnn-29"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:ワイヤレス",
+            "text": "ワイヤレス",
+            "lessonIds": [
+              "mnn-29"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:マナーモード",
+            "text": "マナーモード",
+            "lessonIds": [
+              "mnn-29"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:点検",
+            "text": "点検",
+            "lessonIds": [
+              "mnn-29"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:状態",
+            "text": "状態",
+            "lessonIds": [
+              "mnn-29"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:汚れ",
+            "text": "汚れ",
+            "lessonIds": [
+              "mnn-29"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:動かす",
+            "text": "動かす",
+            "lessonIds": [
+              "mnn-29"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:消える",
+            "text": "消える",
+            "lessonIds": [
+              "mnn-29"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:つながる",
+            "text": "つながる",
+            "lessonIds": [
+              "mnn-29"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:つまる",
+            "text": "つまる",
+            "lessonIds": [
+              "mnn-29"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:ラッシュ",
+            "text": "ラッシュ",
+            "lessonIds": [
+              "mnn-29"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:知り合い",
+            "text": "知り合い",
+            "lessonIds": [
+              "mnn-29"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:知り合う",
+            "text": "知り合う",
+            "lessonIds": [
+              "mnn-29"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
           },
           {
             "id": "word:破れます",
@@ -66833,7 +67499,7 @@
                 "evidenceKind": "meaning",
                 "assessmentScope": "Integrated response covers linked words in context; not separate proof for every word.",
                 "validationStatus": null,
-                "textCount": 5,
+                "textCount": 6,
                 "hasJapaneseSentenceContext": true,
                 "scheduleCheck": {
                   "correctSchedules": true,
@@ -68290,6 +68956,114 @@
             "complete": true
           },
           {
+            "id": "word:はずす",
+            "text": "はずす",
+            "lessonIds": [
+              "mnn-30"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:取り出す",
+            "text": "取り出す",
+            "lessonIds": [
+              "mnn-30"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:戻す",
+            "text": "戻す",
+            "lessonIds": [
+              "mnn-30"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:カバー",
+            "text": "カバー",
+            "lessonIds": [
+              "mnn-30"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:くり返す",
+            "text": "くり返す",
+            "lessonIds": [
+              "mnn-30"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:撮影",
+            "text": "撮影",
+            "lessonIds": [
+              "mnn-30"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
             "id": "word:貼ります",
             "text": "貼ります",
             "lessonIds": [
@@ -69416,6 +70190,384 @@
             "hasSeparateAssessment": true,
             "missing": [],
             "complete": true
+          },
+          {
+            "id": "word:行き先",
+            "text": "行き先",
+            "lessonIds": [
+              "mnn-31"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:海外",
+            "text": "海外",
+            "lessonIds": [
+              "mnn-31"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:ホテル",
+            "text": "ホテル",
+            "lessonIds": [
+              "mnn-31"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:宿",
+            "text": "宿",
+            "lessonIds": [
+              "mnn-31"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:民宿",
+            "text": "民宿",
+            "lessonIds": [
+              "mnn-31"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:日帰り",
+            "text": "日帰り",
+            "lessonIds": [
+              "mnn-31"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:入場券",
+            "text": "入場券",
+            "lessonIds": [
+              "mnn-31"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:チケット",
+            "text": "チケット",
+            "lessonIds": [
+              "mnn-31"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:パンフレット",
+            "text": "パンフレット",
+            "lessonIds": [
+              "mnn-31"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:観光客",
+            "text": "観光客",
+            "lessonIds": [
+              "mnn-31"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:ロビー",
+            "text": "ロビー",
+            "lessonIds": [
+              "mnn-31"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:定休日",
+            "text": "定休日",
+            "lessonIds": [
+              "mnn-31"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:年中無休",
+            "text": "年中無休",
+            "lessonIds": [
+              "mnn-31"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:募集",
+            "text": "募集",
+            "lessonIds": [
+              "mnn-31"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:店長",
+            "text": "店長",
+            "lessonIds": [
+              "mnn-31"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:最新",
+            "text": "最新",
+            "lessonIds": [
+              "mnn-31"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:頼む",
+            "text": "頼む",
+            "lessonIds": [
+              "mnn-31"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:それなら",
+            "text": "それなら",
+            "lessonIds": [
+              "mnn-31"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:直接",
+            "text": "直接",
+            "lessonIds": [
+              "mnn-31"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:先ほど",
+            "text": "先ほど",
+            "lessonIds": [
+              "mnn-31"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:さっき",
+            "text": "さっき",
+            "lessonIds": [
+              "mnn-31"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
           },
           {
             "id": "word:残ります",
@@ -80737,6 +81889,42 @@
             "complete": true
           },
           {
+            "id": "word:特徴",
+            "text": "特徴",
+            "lessonIds": [
+              "mnn-32"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:本物",
+            "text": "本物",
+            "lessonIds": [
+              "mnn-32"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
             "id": "word:運動",
             "text": "運動",
             "lessonIds": [
@@ -87072,6 +88260,222 @@
             "complete": true
           },
           {
+            "id": "word:横断歩道",
+            "text": "横断歩道",
+            "lessonIds": [
+              "mnn-33"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:消費期限",
+            "text": "消費期限",
+            "lessonIds": [
+              "mnn-33"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:賞味期限",
+            "text": "賞味期限",
+            "lessonIds": [
+              "mnn-33"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:小麦",
+            "text": "小麦",
+            "lessonIds": [
+              "mnn-33"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:乳製品",
+            "text": "乳製品",
+            "lessonIds": [
+              "mnn-33"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:ピーナッツ",
+            "text": "ピーナッツ",
+            "lessonIds": [
+              "mnn-33"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:生",
+            "text": "生",
+            "lessonIds": [
+              "mnn-33"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:スタッフ",
+            "text": "スタッフ",
+            "lessonIds": [
+              "mnn-33"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:原稿",
+            "text": "原稿",
+            "lessonIds": [
+              "mnn-33"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:農家",
+            "text": "農家",
+            "lessonIds": [
+              "mnn-33"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:とりあえず",
+            "text": "とりあえず",
+            "lessonIds": [
+              "mnn-33"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:絶対に",
+            "text": "絶対に",
+            "lessonIds": [
+              "mnn-33"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
             "id": "word:読み方",
             "text": "読み方",
             "lessonIds": [
@@ -91407,7 +92811,7 @@
                 "evidenceKind": "meaning",
                 "assessmentScope": "Integrated response covers linked words in context; not separate proof for every word.",
                 "validationStatus": null,
-                "textCount": 5,
+                "textCount": 6,
                 "hasJapaneseSentenceContext": true,
                 "scheduleCheck": {
                   "correctSchedules": true,
@@ -91657,7 +93061,7 @@
                 "evidenceKind": "meaning",
                 "assessmentScope": "Integrated response covers linked words in context; not separate proof for every word.",
                 "validationStatus": null,
-                "textCount": 5,
+                "textCount": 6,
                 "hasJapaneseSentenceContext": true,
                 "scheduleCheck": {
                   "correctSchedules": true,
@@ -92143,7 +93547,7 @@
                 "evidenceKind": "meaning",
                 "assessmentScope": "Integrated response covers linked words in context; not separate proof for every word.",
                 "validationStatus": null,
-                "textCount": 5,
+                "textCount": 6,
                 "hasJapaneseSentenceContext": true,
                 "scheduleCheck": {
                   "correctSchedules": true,
@@ -92545,7 +93949,7 @@
                 "evidenceKind": "meaning",
                 "assessmentScope": "Integrated response covers linked words in context; not separate proof for every word.",
                 "validationStatus": null,
-                "textCount": 5,
+                "textCount": 6,
                 "hasJapaneseSentenceContext": true,
                 "scheduleCheck": {
                   "correctSchedules": true,
@@ -92666,6 +94070,438 @@
             "hasSeparateAssessment": true,
             "missing": [],
             "complete": true
+          },
+          {
+            "id": "word:やり方",
+            "text": "やり方",
+            "lessonIds": [
+              "mnn-34"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:フタ",
+            "text": "フタ",
+            "lessonIds": [
+              "mnn-34"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:両面",
+            "text": "両面",
+            "lessonIds": [
+              "mnn-34"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:白黒",
+            "text": "白黒",
+            "lessonIds": [
+              "mnn-34"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:材料",
+            "text": "材料",
+            "lessonIds": [
+              "mnn-34"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:調味料",
+            "text": "調味料",
+            "lessonIds": [
+              "mnn-34"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:小麦粉",
+            "text": "小麦粉",
+            "lessonIds": [
+              "mnn-34"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:豆腐",
+            "text": "豆腐",
+            "lessonIds": [
+              "mnn-34"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:油",
+            "text": "油",
+            "lessonIds": [
+              "mnn-34"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:ソース",
+            "text": "ソース",
+            "lessonIds": [
+              "mnn-34"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:バター",
+            "text": "バター",
+            "lessonIds": [
+              "mnn-34"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:温める",
+            "text": "温める",
+            "lessonIds": [
+              "mnn-34"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:煮る",
+            "text": "煮る",
+            "lessonIds": [
+              "mnn-34"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:ゆでる",
+            "text": "ゆでる",
+            "lessonIds": [
+              "mnn-34"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:蒸す",
+            "text": "蒸す",
+            "lessonIds": [
+              "mnn-34"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:半分",
+            "text": "半分",
+            "lessonIds": [
+              "mnn-34"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:まとめる",
+            "text": "まとめる",
+            "lessonIds": [
+              "mnn-34"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:だから",
+            "text": "だから",
+            "lessonIds": [
+              "mnn-34"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:ですから",
+            "text": "ですから",
+            "lessonIds": [
+              "mnn-34"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:そうしたら",
+            "text": "そうしたら",
+            "lessonIds": [
+              "mnn-34"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:ほとんど",
+            "text": "ほとんど",
+            "lessonIds": [
+              "mnn-34"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:しっかり",
+            "text": "しっかり",
+            "lessonIds": [
+              "mnn-34"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:ちゃんと",
+            "text": "ちゃんと",
+            "lessonIds": [
+              "mnn-34"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:別々",
+            "text": "別々",
+            "lessonIds": [
+              "mnn-34"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
           },
           {
             "id": "word:醤油",
@@ -94328,6 +96164,168 @@
             "hasSeparateAssessment": true,
             "missing": [],
             "complete": true
+          },
+          {
+            "id": "word:つきあたり",
+            "text": "つきあたり",
+            "lessonIds": [
+              "mnn-35"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:交差点",
+            "text": "交差点",
+            "lessonIds": [
+              "mnn-35"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:方角",
+            "text": "方角",
+            "lessonIds": [
+              "mnn-35"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:地元",
+            "text": "地元",
+            "lessonIds": [
+              "mnn-35"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:そろそろ",
+            "text": "そろそろ",
+            "lessonIds": [
+              "mnn-35"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:もしかしたら",
+            "text": "もしかしたら",
+            "lessonIds": [
+              "mnn-35"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:今回",
+            "text": "今回",
+            "lessonIds": [
+              "mnn-35"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:次回",
+            "text": "次回",
+            "lessonIds": [
+              "mnn-35"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:当日",
+            "text": "当日",
+            "lessonIds": [
+              "mnn-35"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
           },
           {
             "id": "word:島",
@@ -97981,7 +99979,7 @@
                 "evidenceKind": "meaning",
                 "assessmentScope": "Integrated response covers linked words in context; not separate proof for every word.",
                 "validationStatus": null,
-                "textCount": 5,
+                "textCount": 6,
                 "hasJapaneseSentenceContext": true,
                 "scheduleCheck": {
                   "correctSchedules": true,
@@ -98231,7 +100229,7 @@
                 "evidenceKind": "meaning",
                 "assessmentScope": "Integrated response covers linked words in context; not separate proof for every word.",
                 "validationStatus": null,
-                "textCount": 5,
+                "textCount": 6,
                 "hasJapaneseSentenceContext": true,
                 "scheduleCheck": {
                   "correctSchedules": true,
@@ -98481,7 +100479,7 @@
                 "evidenceKind": "meaning",
                 "assessmentScope": "Integrated response covers linked words in context; not separate proof for every word.",
                 "validationStatus": null,
-                "textCount": 5,
+                "textCount": 6,
                 "hasJapaneseSentenceContext": true,
                 "scheduleCheck": {
                   "correctSchedules": true,
@@ -98731,7 +100729,7 @@
                 "evidenceKind": "meaning",
                 "assessmentScope": "Integrated response covers linked words in context; not separate proof for every word.",
                 "validationStatus": null,
-                "textCount": 5,
+                "textCount": 6,
                 "hasJapaneseSentenceContext": true,
                 "scheduleCheck": {
                   "correctSchedules": true,
@@ -98981,7 +100979,7 @@
                 "evidenceKind": "meaning",
                 "assessmentScope": "Integrated response covers linked words in context; not separate proof for every word.",
                 "validationStatus": null,
-                "textCount": 5,
+                "textCount": 6,
                 "hasJapaneseSentenceContext": true,
                 "scheduleCheck": {
                   "correctSchedules": true,
@@ -99537,7 +101535,7 @@
                 "evidenceKind": "meaning",
                 "assessmentScope": "Integrated response covers linked words in context; not separate proof for every word.",
                 "validationStatus": null,
-                "textCount": 5,
+                "textCount": 6,
                 "hasJapaneseSentenceContext": true,
                 "scheduleCheck": {
                   "correctSchedules": true,
@@ -99866,6 +101864,150 @@
             "hasSeparateAssessment": true,
             "missing": [],
             "complete": true
+          },
+          {
+            "id": "word:動画",
+            "text": "動画",
+            "lessonIds": [
+              "mnn-38"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:大きさ",
+            "text": "大きさ",
+            "lessonIds": [
+              "mnn-38"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:缶",
+            "text": "缶",
+            "lessonIds": [
+              "mnn-38"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:プラスチック",
+            "text": "プラスチック",
+            "lessonIds": [
+              "mnn-38"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:分ける",
+            "text": "分ける",
+            "lessonIds": [
+              "mnn-38"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:自然",
+            "text": "自然",
+            "lessonIds": [
+              "mnn-38"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:床",
+            "text": "床",
+            "lessonIds": [
+              "mnn-38"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:中身",
+            "text": "中身",
+            "lessonIds": [
+              "mnn-38"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
           },
           {
             "id": "word:楽しみ",
@@ -105249,6 +107391,24 @@
             "complete": true
           },
           {
+            "id": "word:おしゃべり",
+            "text": "おしゃべり",
+            "lessonIds": [
+              "mnn-39"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
             "id": "word:地震",
             "text": "地震",
             "lessonIds": [
@@ -107017,6 +109177,42 @@
             "complete": true
           },
           {
+            "id": "word:カラー",
+            "text": "カラー",
+            "lessonIds": [
+              "mnn-40"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:情報",
+            "text": "情報",
+            "lessonIds": [
+              "mnn-40"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
             "id": "word:数えます",
             "text": "数えます",
             "lessonIds": [
@@ -108163,6 +110359,42 @@
             "hasSeparateAssessment": true,
             "missing": [],
             "complete": true
+          },
+          {
+            "id": "word:預かる",
+            "text": "預かる",
+            "lessonIds": [
+              "mnn-41"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:預ける",
+            "text": "預ける",
+            "lessonIds": [
+              "mnn-41"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
           },
           {
             "id": "word:息子",
@@ -112930,6 +115162,330 @@
             "complete": true
           },
           {
+            "id": "word:価格",
+            "text": "価格",
+            "lessonIds": [
+              "mnn-42"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:送料",
+            "text": "送料",
+            "lessonIds": [
+              "mnn-42"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:配送",
+            "text": "配送",
+            "lessonIds": [
+              "mnn-42"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:宅配便",
+            "text": "宅配便",
+            "lessonIds": [
+              "mnn-42"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:貸し出し",
+            "text": "貸し出し",
+            "lessonIds": [
+              "mnn-42"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:販売",
+            "text": "販売",
+            "lessonIds": [
+              "mnn-42"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:セール",
+            "text": "セール",
+            "lessonIds": [
+              "mnn-42"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:クーポン",
+            "text": "クーポン",
+            "lessonIds": [
+              "mnn-42"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:消費税",
+            "text": "消費税",
+            "lessonIds": [
+              "mnn-42"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:税込",
+            "text": "税込",
+            "lessonIds": [
+              "mnn-42"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:キャッシュカード",
+            "text": "キャッシュカード",
+            "lessonIds": [
+              "mnn-42"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:紙幣",
+            "text": "紙幣",
+            "lessonIds": [
+              "mnn-42"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:ポイント",
+            "text": "ポイント",
+            "lessonIds": [
+              "mnn-42"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:メーカー",
+            "text": "メーカー",
+            "lessonIds": [
+              "mnn-42"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:機種",
+            "text": "機種",
+            "lessonIds": [
+              "mnn-42"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:機能",
+            "text": "機能",
+            "lessonIds": [
+              "mnn-42"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:予算",
+            "text": "予算",
+            "lessonIds": [
+              "mnn-42"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:食器",
+            "text": "食器",
+            "lessonIds": [
+              "mnn-42"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
             "id": "word:仕事",
             "text": "仕事",
             "lessonIds": [
@@ -115554,6 +118110,24 @@
             "complete": true
           },
           {
+            "id": "word:神社",
+            "text": "神社",
+            "lessonIds": [
+              "mnn-43"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
             "id": "word:今にも",
             "text": "今にも",
             "lessonIds": [
@@ -117607,7 +120181,7 @@
                 "evidenceKind": "meaning",
                 "assessmentScope": "Integrated response covers linked words in context; not separate proof for every word.",
                 "validationStatus": null,
-                "textCount": 5,
+                "textCount": 6,
                 "hasJapaneseSentenceContext": true,
                 "scheduleCheck": {
                   "correctSchedules": true,
@@ -117857,7 +120431,7 @@
                 "evidenceKind": "meaning",
                 "assessmentScope": "Integrated response covers linked words in context; not separate proof for every word.",
                 "validationStatus": null,
-                "textCount": 5,
+                "textCount": 6,
                 "hasJapaneseSentenceContext": true,
                 "scheduleCheck": {
                   "correctSchedules": true,
@@ -118602,6 +121176,60 @@
             "hasSeparateAssessment": true,
             "missing": [],
             "complete": true
+          },
+          {
+            "id": "word:ボリューム",
+            "text": "ボリューム",
+            "lessonIds": [
+              "mnn-44"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:くわしい",
+            "text": "くわしい",
+            "lessonIds": [
+              "mnn-44"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:おじゃまします",
+            "text": "おじゃまします",
+            "lessonIds": [
+              "mnn-44"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
           },
           {
             "id": "word:場合",
@@ -120586,6 +123214,132 @@
             "complete": true
           },
           {
+            "id": "word:親戚",
+            "text": "親戚",
+            "lessonIds": [
+              "mnn-45"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:夫婦",
+            "text": "夫婦",
+            "lessonIds": [
+              "mnn-45"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:孫",
+            "text": "孫",
+            "lessonIds": [
+              "mnn-45"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:若い",
+            "text": "若い",
+            "lessonIds": [
+              "mnn-45"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:女性",
+            "text": "女性",
+            "lessonIds": [
+              "mnn-45"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:奥さん",
+            "text": "奥さん",
+            "lessonIds": [
+              "mnn-45"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:行事",
+            "text": "行事",
+            "lessonIds": [
+              "mnn-45"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
             "id": "word:受付",
             "text": "受付",
             "lessonIds": [
@@ -121869,7 +124623,7 @@
                 "evidenceKind": "meaning",
                 "assessmentScope": "Integrated response covers linked words in context; not separate proof for every word.",
                 "validationStatus": null,
-                "textCount": 5,
+                "textCount": 6,
                 "hasJapaneseSentenceContext": true,
                 "scheduleCheck": {
                   "correctSchedules": true,
@@ -122406,6 +125160,42 @@
             "hasSeparateAssessment": true,
             "missing": [],
             "complete": true
+          },
+          {
+            "id": "word:家庭",
+            "text": "家庭",
+            "lessonIds": [
+              "mnn-46"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:祭り",
+            "text": "祭り",
+            "lessonIds": [
+              "mnn-46"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
           },
           {
             "id": "word:今から",
@@ -123038,6 +125828,60 @@
             "complete": true
           },
           {
+            "id": "word:祝う",
+            "text": "祝う",
+            "lessonIds": [
+              "mnn-47"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:飲み会",
+            "text": "飲み会",
+            "lessonIds": [
+              "mnn-47"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:誘う",
+            "text": "誘う",
+            "lessonIds": [
+              "mnn-47"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
             "id": "word:火",
             "text": "火",
             "lessonIds": [
@@ -123644,6 +126488,42 @@
             "hasSeparateAssessment": true,
             "missing": [],
             "complete": true
+          },
+          {
+            "id": "word:とにかく",
+            "text": "とにかく",
+            "lessonIds": [
+              "mnn-48"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
+          },
+          {
+            "id": "word:本日",
+            "text": "本日",
+            "lessonIds": [
+              "mnn-48"
+            ],
+            "hasLesson": true,
+            "hasPractice": true,
+            "review": "capability-only",
+            "assessmentIds": [],
+            "assessmentChecks": [],
+            "hasSeparateAssessment": false,
+            "missing": [
+              "separate-assessment",
+              "common-review-link-unverified"
+            ],
+            "complete": false
           },
           {
             "id": "word:休ませます",
@@ -139572,7 +142452,7 @@
         ]
       }
     ],
-    "trainingCorpusSize": 2972
+    "trainingCorpusSize": 3150
   },
   "matcherAudit": {
     "oldSummary": {
@@ -139600,7 +142480,7 @@
       },
       "N4": {
         "words": {
-          "total": 432,
+          "total": 592,
           "structurallyLinked": 153,
           "academicApproval": 0
         },

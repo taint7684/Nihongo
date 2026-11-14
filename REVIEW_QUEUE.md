@@ -1,3 +1,20 @@
+# Cập nhật mới — N4 vocabulary batch 05 nội dung hoàn thành (14/11/2026, phiên này)
+
+- Commit `14dcc8d` (HEAD). Import và áp `applyN4VocabularyBatch05` vào `src/mnn-course.js`; thêm `src/n4-vocabulary-batch-05.test.js`.
+- Rebuild `public/dictionaries/word-evidence.json` + `public/lexical-register.json` + `src/word-source-types.js` + `evaluation/lexical-counts.json`: batch 05 giờ đã aligned vào register.
+- Kết quả lexical-register: N5 800 candidate lexemes (đạt sàn ≥800); N4 mới 628; tích lũy **1.428**. Vẫn thiếu ~72 so với sàn 1.500 → cần batch 06 (≥80 lexeme) ở phiên sau.
+- Test batch-05: 3/4 pass (80 distinct JMdict lexemes; 80/80 Irodori exact spelling+reading; OpenJLPT N4/N5 crosswalk; review-pool scheduling). 1/4 fail: audio assets chưa sinh vì **VOICEVOX engine không chạy** (fetch localhost:50021 fail) → blocker kỹ thuật, không giảm tiêu chuẩn, sẽ sinh audio + chạy test lại khi engine có sẵn (G6 audio review).
+- dictionary-source.test.js:29 assertion cũ (đòi status chứa "dịch") là known issue từ phiên trước, không sửa ngoài phạm vi assessment.
+- Chưa commit: worktree vẫn có nhiều thay đổi từ các vòng trước (dữ liệu, audio catalog, coverage, knowledge-coverage...). Chỉ commit file đã xác định của batch-05.
+
+- Đo lại từ mã bằng `node scripts/lexical-register.mjs`: N5 **800** lexeme; N4 mới, loại trùng N5 **548**; tích lũy **1.348**. Batch04 thêm 80 JMdict entry IDs duy nhất, từ tích lũy 1.268 lên 1.348; mục tiêu chương trình 1.500 còn thiếu 152. Số surface/usage không được cộng vào lexeme count.
+- 80/80 có spelling+reading occurrence trong snapshot Irodori Elementary 2; 1/80 có entry-ID match trong OpenJLPT N4, cụ thể ガス. 79 trường hợp còn lại là bất đồng phạm vi của snapshot cộng đồng; không tự xem là lỗi, cũng không lấy Irodori membership làm bằng chứng JLPT. Minna II bản 2 chỉ là mapping chức năng.
+- Mỗi mục có nghĩa Việt theo ngữ cảnh, ví dụ tự soạn, lý do dùng, link bài, JMdict entry/sense và lịch ôn chung. Audit chọn mẫu phân tầng 30/80 theo các nhóm travel/service/device/food-label. Rà bởi tác giả dự án, chưa độc lập; không dùng ngưỡng 3% để chứng nhận toàn kho. Báo cáo tái lập: `evaluation/vocabulary-expansion-n4-batch-04.json`.
+- Audio: 160/160 asset WAV tồn tại và analyzer khớp metadata, VOICEVOX local Engine 0.26.1. Một audio từ 行き先 được phát thành công trên production preview. Chưa có nghe duyệt ngữ âm.
+- `npx vitest run src/n4-vocabulary-batch-04.test.js --maxWorkers=2`: 1 file/4 test pass. `node scripts/n4-vocabulary-batch-04-audit.mjs`: pass. Browser QA mới kiểm tra học liệu M31/audio trên tab QA; chưa kiểm đánh giá từ mới hoặc Kaiwa, không phải đánh giá năng lực người học.
+- `node scripts/done-gates.mjs` sinh lại gate: G2 met, G3/G5/G6/G8/G9/G11 not-met, G0/G1/G4/G7/G10/G12 unverified. Mẫu số assessment vẫn là kho làm việc, không phải inventory độc lập; N4 words tổng 592 usage, 251 có assessment riêng không trùng nguyên văn và lịch chung; batch04 chưa được nối assessment riêng. G5 chưa đạt.
+- Worktree có 3.623 đường dẫn thay đổi/tạo mới tại lần kiểm tra; không commit hàng loạt. Chỉ stage file/hunk đã xác định khi batch từ vựng đạt sàn và nhóm được QA.
+
 # Cập nhật mới — N4 vocabulary batch 03 và bài đánh giá tích hợp
 
 - Đo lại bằng `scripts/n4-vocabulary-batch-03-audit.mjs`: trước → sau batch03, N5 800/800; N4 mới, loại trùng 388→468; tích lũy 1.188→1.268 JMdict candidate lexemes. Lô thêm đúng 80 ID entry mới. Surface count riêng: N4 mới 393→473; tích lũy 1.209→1.289; không cộng surface/cách chia vào lexeme count.
