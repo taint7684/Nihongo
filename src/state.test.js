@@ -28,7 +28,7 @@ describe('local learning lifecycle',()=>{
  it('supports all three consecutive lessons and backup roundtrip with position',()=>{
   let s=fresh();s.profile={name:'Người mới',minutes:30};
   for(const l of lessons){expect(available(s,l)).toBe(true);s={...s,route:'practice',lessonId:l.id};for(const q of l.questions)s=recordAnswer(s,q,q.answer,1000);s=completeLesson(s,l,2000);}
-  expect(Object.keys(s.completed)).toHaveLength(lessons.length);expect(Object.keys(s.reviews)).toHaveLength(lessons.flatMap(l=>l.questions).filter(q=>!q.wordKey).length);for(const q of lessons.flatMap(l=>l.questions).filter(q=>q.wordKey)){expect(s.wordReviews[q.wordKey],q.id).toBeTruthy();expect(s.answers[q.id]?.correct,q.id).toBe(true);}
+  expect(Object.keys(s.completed)).toHaveLength(lessons.length);expect(Object.keys(s.reviews)).toHaveLength(lessons.flatMap(l=>l.questions).filter(q=>!q.wordKey&&!q.wordLinks).length);for(const q of lessons.flatMap(l=>l.questions).filter(q=>q.wordKey)){expect(s.wordReviews[q.wordKey],q.id).toBeTruthy();expect(s.answers[q.id]?.correct,q.id).toBe(true);}
   expect(validate(JSON.parse(JSON.stringify(s)))).toEqual(s);
  });
 });

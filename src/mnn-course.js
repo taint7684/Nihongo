@@ -3,6 +3,9 @@ import{applyN4GapContexts,applyN4KanjiSupports}from './n4-gap-contexts.js';
 import{applyN5FunctionalLexicon,applyN5FunctionalPractice,addPrivateKanji}from './n5-functional-lexicon.js';
 import{expandN5Kanji}from './n5-kanji-expansion.js';
 import{expandN5Lexicon}from './n5-lexical-expansion.js';
+import{applyN4VocabularyBatch01}from'./n4-vocabulary-batch-01.js';
+import{applyN4VocabularyBatch02}from'./n4-vocabulary-batch-02.js';
+import{applyN4VocabularyBatch03}from'./n4-vocabulary-batch-03.js';
 import{n4Units,n4Reference}from './n4-course.js';
 import{addN5Words}from './n5-word-supports.js';
 import{repairN5}from './n5-gap-repair.js';
@@ -33,7 +36,7 @@ const negativeUnit=mnnUnits.find(u=>u.number===17);negativeUnit.legacyQuestionId
 for(const u of mnnUnits)u.listeningTasks=listeningContent[u.number]||u.listeningTasks||[];
 repairN5(mnnUnits);addN5Words(mnnUnits);
 expandN5Lexicon(mnnUnits);expandN5Kanji(mnnUnits);applyN5FunctionalLexicon(mnnUnits);applyN5FunctionalPractice(mnnUnits);addPrivateKanji(mnnUnits);
-mnnUnits.push(...n4Units);applyN4GapContexts(mnnUnits);applyN4KanjiSupports(mnnUnits);applyN4KanjiPlan(mnnUnits);
+mnnUnits.push(...n4Units);applyN4VocabularyBatch01(mnnUnits);applyN4VocabularyBatch02(mnnUnits);applyN4VocabularyBatch03(mnnUnits);applyN4GapContexts(mnnUnits);applyN4KanjiSupports(mnnUnits);applyN4KanjiPlan(mnnUnits);
 const refFor=n=>n>25?n4Reference:reference;
 export function buildMnn(){return mnnUnits.map((u,i)=>({id:'mnn-'+String(u.number).padStart(2,'0'),number:'M'+String(u.number).padStart(2,'0'),level:u.number>25?'N4':'N5',stage:u.number>25?'Hướng N4':'Hướng N5',chapter:(u.number>25?'Minna II':'Minna I')+' bản 2 · '+u.number,kind:'grammar',referenceLesson:u.number,reference:refFor(u.number),prerequisite:i?'mnn-'+String(u.number-1).padStart(2,'0'):'hira-3',title:u.title,subtitle:'Học liệu tự soạn · trạng thái kiểm audio ghi riêng',minutes:30,glyph:u.kanji[0]?.char||'学',goal:u.canDo.join(' '),intro:u.scenario,scenario:u.scenario,canDo:u.canDo,cards:u.grammar.slice(0,2).map(g=>({kana:g.example.ja,latin:g.example.vi})),words:u.words,grammar:u.grammar,kanji:u.kanji,reading:u.reading,application:u.application,notes:u.grammar.map(g=>g.pattern+': '+g.explanation+' Lưu ý: '+g.pitfall),activity:'Làm từng vòng nhỏ: đọc ví dụ → giải thích → thử có hướng dẫn → tự dùng trong tình huống cuối bài. Bài có thể chia nhiều buổi.',tasks:{speaking:u.application.speaking,writing:u.application.writing},sources:[{name:refFor(u.number).edition+' · chỉ tham khảo phạm vi/thứ tự',url:refFor(u.number).source},{name:'TUFS · đối chiếu ngữ pháp, không sao chép bài',url:'https://www.coelang.tufs.ac.jp/mt/ja/gmod/'}],questions:u.questions,legacyQuestionIds:u.legacyQuestionIds,audit:u.audit,tables:u.tables,microPractice:u.microPractice,guidedMap:u.guidedMap,listeningTasks:u.listeningTasks,...(u.sourceUrls?{sources:[{name:refFor(u.number).edition+' · phạm vi/thứ tự',url:refFor(u.number).source},...u.sourceUrls.map(url=>({name:'Nguồn đối chiếu chức năng · ví dụ dự án tự soạn',url}))]}:{})}));}
 

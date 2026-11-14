@@ -1,60 +1,60 @@
 {
-  "time": "2026-11-12T07:45:57.386Z",
+  "time": "2026-11-14T01:30:38.761Z",
   "version": "2026-11-12-lexical-v1",
   "dictionaryDate": "2026-11-09",
   "identity": "Dictionary entry / writing / grammatical form / per-lesson meaning are separate. Unique candidate is not semantic approval. Unresolved entries never inflate the verified count.",
   "migration": "Read adapter for curated 私/わたし only. Schema1 legacy keys and histories retained; new evidence has optional usageId. Old evidence without usageId remains context-unspecified.",
   "summary": {
     "N5": {
-      "surfaceKeys": 509,
-      "usageRecords": 532,
-      "candidateLexemes": 503,
+      "surfaceKeys": 806,
+      "usageRecords": 829,
+      "candidateLexemes": 800,
       "unresolvedForms": 0,
       "composedOrNamedUses": 3,
-      "sourceComparedUsages": 529,
+      "sourceComparedUsages": 826,
       "roles": {
-        "active": 152,
-        "recognition": 261,
+        "active": 442,
+        "recognition": 268,
         "not-yet-classified": 119
       }
     },
     "N4": {
-      "surfaceKeys": 189,
-      "usageRecords": 193,
-      "candidateLexemes": 185,
+      "surfaceKeys": 512,
+      "usageRecords": 516,
+      "candidateLexemes": 507,
       "unresolvedForms": 0,
       "composedOrNamedUses": 3,
-      "sourceComparedUsages": 190,
+      "sourceComparedUsages": 513,
       "roles": {
-        "active": 0,
+        "active": 312,
         "recognition": 165,
-        "not-yet-classified": 28
+        "not-yet-classified": 39
       }
     },
     "N4New": {
-      "surfaceKeys": 167,
-      "usageRecords": 170,
-      "candidateLexemes": 163,
+      "surfaceKeys": 473,
+      "usageRecords": 474,
+      "candidateLexemes": 468,
       "unresolvedForms": 0,
       "composedOrNamedUses": 3,
-      "sourceComparedUsages": 167,
+      "sourceComparedUsages": 471,
       "roles": {
-        "active": 0,
-        "recognition": 146,
-        "not-yet-classified": 24
+        "active": 308,
+        "recognition": 141,
+        "not-yet-classified": 25
       }
     },
     "cumulative": {
-      "surfaceKeys": 683,
-      "usageRecords": 725,
-      "candidateLexemes": 666,
+      "surfaceKeys": 1289,
+      "usageRecords": 1345,
+      "candidateLexemes": 1268,
       "unresolvedForms": 0,
       "composedOrNamedUses": 6,
-      "sourceComparedUsages": 719,
+      "sourceComparedUsages": 1339,
       "roles": {
-        "active": 152,
-        "recognition": 426,
-        "not-yet-classified": 147
+        "active": 754,
+        "recognition": 433,
+        "not-yet-classified": 158
       }
     }
   }
