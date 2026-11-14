@@ -1,11 +1,17 @@
+import{placementSupportFor}from './n5-placement-support.js';
 import{applyN4KanjiPlan}from './n4-kanji-r1-plan.js';
 import{applyN4GapContexts,applyN4KanjiSupports}from './n4-gap-contexts.js';
 import{applyN5FunctionalLexicon,applyN5FunctionalPractice,addPrivateKanji}from './n5-functional-lexicon.js';
 import{expandN5Kanji}from './n5-kanji-expansion.js';
 import{expandN5Lexicon}from './n5-lexical-expansion.js';
+import{applyN5VocabularyBatch01}from './n5-vocabulary-batch-01.js';
+import{applyN5VocabularyBatch02}from './n5-vocabulary-batch-02.js';
+import{applyN5VocabularyBatch03}from './n5-vocabulary-batch-03.js';
 import{applyN4VocabularyBatch01}from'./n4-vocabulary-batch-01.js';
 import{applyN4VocabularyBatch02}from'./n4-vocabulary-batch-02.js';
 import{applyN4VocabularyBatch03}from'./n4-vocabulary-batch-03.js';
+import{applyN4VocabularyBatch04}from'./n4-vocabulary-batch-04.js';
+import{applyN4VocabularyBatch05}from'./n4-vocabulary-batch-05.js';
 import{n4Units,n4Reference}from './n4-course.js';
 import{addN5Words}from './n5-word-supports.js';
 import{repairN5}from './n5-gap-repair.js';
@@ -35,8 +41,25 @@ mnnUnits.find(u=>u.number===15).grammar[2].pattern='Vています（trạng thá
 const negativeUnit=mnnUnits.find(u=>u.number===17);negativeUnit.legacyQuestionIds=negativeUnit.questions.map(q=>q.id);negativeUnit.tables[0].rows.push(['あります','ない','ngoại lệ; không dùng あらない ở dạng mục tiêu']);negativeUnit.grammar[0].pitfall+=' Ngoại lệ: あります（ある）→ない; 買います→買わない.';negativeUnit.questions.push({id:'m17-x-aru',cycle:0,kind:'recall',prompt:'Gõ dạng ない của あります (Hiragana).',accepted:['ない'],choices:['ない','Chưa khớp'],answer:0,explanation:'ある phủ định bằng ない, không áp quy tắc nhóm 1 thành あらない.',skill:'ngoại lệ ある'});negativeUnit.guidedMap[0].push('m17-x-aru');negativeUnit.sourceUrls.push('https://www2.ninjal.ac.jp/basicverbbank/single_headwords/%E3%81%82%E3%82%8B-%E5%9C%A8%E3%82%8B%E3%83%BB%E6%9C%89%E3%82%8B.html');
 for(const u of mnnUnits)u.listeningTasks=listeningContent[u.number]||u.listeningTasks||[];
 repairN5(mnnUnits);addN5Words(mnnUnits);
-expandN5Lexicon(mnnUnits);expandN5Kanji(mnnUnits);applyN5FunctionalLexicon(mnnUnits);applyN5FunctionalPractice(mnnUnits);addPrivateKanji(mnnUnits);
-mnnUnits.push(...n4Units);applyN4VocabularyBatch01(mnnUnits);applyN4VocabularyBatch02(mnnUnits);applyN4VocabularyBatch03(mnnUnits);applyN4GapContexts(mnnUnits);applyN4KanjiSupports(mnnUnits);applyN4KanjiPlan(mnnUnits);
+expandN5Lexicon(mnnUnits);expandN5Kanji(mnnUnits);applyN5FunctionalLexicon(mnnUnits);applyN5VocabularyBatch01(mnnUnits);applyN5VocabularyBatch02(mnnUnits);applyN5VocabularyBatch03(mnnUnits);applyN5FunctionalPractice(mnnUnits);addPrivateKanji(mnnUnits);
+mnnUnits.push(...n4Units);applyN4VocabularyBatch01(mnnUnits);applyN4VocabularyBatch02(mnnUnits);applyN4VocabularyBatch03(mnnUnits);applyN4VocabularyBatch04(mnnUnits);applyN4VocabularyBatch05(mnnUnits);applyN4GapContexts(mnnUnits);applyN4KanjiSupports(mnnUnits);applyN4KanjiPlan(mnnUnits);
+const ownerPracticeUnit=mnnUnits.find(unit=>unit.number===2);
+if(!ownerPracticeUnit?.guidedMap)throw Error('Lesson 2 owner-question practice requires its existing guided map.');
+ownerPracticeUnit.questions.push(Q('m02-owner-ask','Bạn thấy một quyển vở trên bàn nhưng chưa biết chủ. Chọn câu hỏi về chủ sở hữu.',['このノートはだれのですか。','このノートはどこですか。','これはノートです。'],0,'だれの hỏi quyển vở thuộc về ai; hai lựa chọn kia hỏi vị trí hoặc chỉ nêu đồ vật.','đọc chủ sở hữu'));
+ownerPracticeUnit.guidedMap[3]=['m02-owner-ask'];
+const identityPracticeUnit=mnnUnits.find(unit=>unit.number===1);
+if(!identityPracticeUnit?.guidedMap)throw Error('Lesson 1 identity-question practice requires its existing guided map.');
+identityPracticeUnit.questions.push(Q('m01-who-person','Trong ảnh nhóm, bạn chỉ vào người ở phía xa và muốn hỏi người đó là ai. Chọn câu phù hợp.',['あの人はだれですか。','あの人は学生です。','あの人は先生です。'],0,'だれ hỏi ai; hai câu còn lại khẳng định người đó là học sinh hoặc giáo viên.','だれ'));
+identityPracticeUnit.guidedMap[6]=['m01-who-person'];
+// Add earlier lexical support without moving the original N4 usages or review keys.
+for(const unit of mnnUnits)for(const word of placementSupportFor(unit.number))if(!unit.words.some(w=>w.text===word.text))unit.words.push(word);
+// Narrow source corrections: do not turn beginner contrasts into universal rules.
+const tokiUnit=mnnUnits.find(u=>u.number===23);
+tokiUnit.grammar[1].explanation='Trong nhiều câu kể hành động, Vるとき và Vたとき làm rõ việc trước とき đã hoàn thành hay chưa so với câu chính; không chỉ nhìn thì cuối câu. Đây không phải quy tắc máy móc Vる luôn là trước và Vた luôn là sau. Với động từ trạng thái như いる／ある và câu chính quá khứ, có trường hợp dùng cả dạng không quá khứ hoặc quá khứ trước とき. Hãy xét loại động từ và ý của tình huống.';
+tokiUnit.grammar[1].qualificationSource={url:'https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/093.html',reviewedAt:'2026-11-13',scope:'Sections2/6: action ordering vs state predicates; author source comparison, not independent approval'};
+const receiveUnit=mnnUnits.find(u=>u.number===24);
+receiveUnit.grammar[2].explanation='Người nhận sự giúp đỡ làm chủ thể; người thực hiện giúp đỡ thường đi với に. Một số động từ có sự chuyển giao đồ vật hoặc thông tin, như gửi hoặc chỉ dạy, cũng cho phép dùng から để chỉ nguồn/người giúp. Không tự thay に bằng から cho mọi động từ. Dù dùng cách nào, phải giữ đúng ai làm và ai nhận lợi ích.';
+receiveUnit.grammar[2].qualificationSource={url:'https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/086.html',reviewedAt:'2026-11-13',scope:'Sections5/8: recipient subject and limited actor/source kara alternation; author source comparison, not independent approval'};
 const refFor=n=>n>25?n4Reference:reference;
 export function buildMnn(){return mnnUnits.map((u,i)=>({id:'mnn-'+String(u.number).padStart(2,'0'),number:'M'+String(u.number).padStart(2,'0'),level:u.number>25?'N4':'N5',stage:u.number>25?'Hướng N4':'Hướng N5',chapter:(u.number>25?'Minna II':'Minna I')+' bản 2 · '+u.number,kind:'grammar',referenceLesson:u.number,reference:refFor(u.number),prerequisite:i?'mnn-'+String(u.number-1).padStart(2,'0'):'hira-3',title:u.title,subtitle:'Học liệu tự soạn · trạng thái kiểm audio ghi riêng',minutes:30,glyph:u.kanji[0]?.char||'学',goal:u.canDo.join(' '),intro:u.scenario,scenario:u.scenario,canDo:u.canDo,cards:u.grammar.slice(0,2).map(g=>({kana:g.example.ja,latin:g.example.vi})),words:u.words,grammar:u.grammar,kanji:u.kanji,reading:u.reading,application:u.application,notes:u.grammar.map(g=>g.pattern+': '+g.explanation+' Lưu ý: '+g.pitfall),activity:'Làm từng vòng nhỏ: đọc ví dụ → giải thích → thử có hướng dẫn → tự dùng trong tình huống cuối bài. Bài có thể chia nhiều buổi.',tasks:{speaking:u.application.speaking,writing:u.application.writing},sources:[{name:refFor(u.number).edition+' · chỉ tham khảo phạm vi/thứ tự',url:refFor(u.number).source},{name:'TUFS · đối chiếu ngữ pháp, không sao chép bài',url:'https://www.coelang.tufs.ac.jp/mt/ja/gmod/'}],questions:u.questions,legacyQuestionIds:u.legacyQuestionIds,audit:u.audit,tables:u.tables,microPractice:u.microPractice,guidedMap:u.guidedMap,listeningTasks:u.listeningTasks,...(u.sourceUrls?{sources:[{name:refFor(u.number).edition+' · phạm vi/thứ tự',url:refFor(u.number).source},...u.sourceUrls.map(url=>({name:'Nguồn đối chiếu chức năng · ví dụ dự án tự soạn',url}))]}:{})}));}
 
