@@ -27,6 +27,7 @@ import{listeningContent}from './listening-content.js';
 import{enrichMnn}from './course-enrichment.js';
 import{nextUnits}from './mnn-next.js';
 import{reference}from './mnn-scope.js';
+import{n4VocabSeparateAssessment} from './n4-vocab-separate-assessment.js';
 const W=(text,reading,meaning,type='danh từ')=>({text,reading,meaning,type});
 const G=(functionName,pattern,explanation,ja,vi,pitfall)=>({functionName,pattern,explanation,example:{ja,vi},pitfall});
 const Q=(id,prompt,choices,answer,explanation,skill,assessment=false)=>({id,prompt,choices,answer,explanation,skill,assessment});
@@ -47,6 +48,9 @@ for(const u of mnnUnits)u.listeningTasks=listeningContent[u.number]||u.listening
 repairN5(mnnUnits);addN5Words(mnnUnits);
 expandN5Lexicon(mnnUnits);expandN5Kanji(mnnUnits);applyN5FunctionalLexicon(mnnUnits);applyN5VocabularyBatch01(mnnUnits);applyN5VocabularyBatch02(mnnUnits);applyN5VocabularyBatch03(mnnUnits);applyN5VocabularyBatch04(mnnUnits);applyN5FunctionalPractice(mnnUnits);addPrivateKanji(mnnUnits);
 mnnUnits.push(...n4Units);applyN4VocabularyBatch01(mnnUnits);applyN4VocabularyBatch02(mnnUnits);applyN4VocabularyBatch03(mnnUnits);applyN4VocabularyBatch04(mnnUnits);applyN4VocabularyBatch05(mnnUnits);applyN4VocabularyBatch06(mnnUnits);applyN4VocabularyBatch07(mnnUnits);applyN4VocabularyBatch08(mnnUnits);applyN4GapContexts(mnnUnits);applyN4KanjiSupports(mnnUnits);applyN4KanjiPlan(mnnUnits);
+// Inject separate vocabulary assessment questions for N4 words lacking them (G5)
+for(const u of mnnUnits)u.questions=u.questions.filter(q=>!q.id.startsWith('n4-vocab-sep-'));
+for(const q of n4VocabSeparateAssessment){const m=q.usageId.match(/^mnn-(\d+):/);if(!m)continue;const n=Number(m[1]);const u=mnnUnits.find(x=>x.number===n);if(u)u.questions.push(q);}
 const ownerPracticeUnit=mnnUnits.find(unit=>unit.number===2);
 if(!ownerPracticeUnit?.guidedMap)throw Error('Lesson 2 owner-question practice requires its existing guided map.');
 ownerPracticeUnit.questions.push(Q('m02-owner-ask','Bạn thấy một quyển vở trên bàn nhưng chưa biết chủ. Chọn câu hỏi về chủ sở hữu.',['このノートはだれのですか。','このノートはどこですか。','これはノートです。'],0,'だれの hỏi quyển vở thuộc về ai; hai lựa chọn kia hỏi vị trí hoặc chỉ nêu đồ vật.','đọc chủ sở hữu'));

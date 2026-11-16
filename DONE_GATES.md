@@ -1,6 +1,6 @@
 # DONE GATES
 
-Sinh bằng `node scripts/done-gates.mjs` lúc 2026-11-16T07:32:27.228Z. Không sửa số bằng tay.
+Sinh bằng `node scripts/done-gates.mjs` lúc 2026-11-16T08:09:02.252Z. Không sửa số bằng tay.
 
 **Chưa hoàn thành; chưa sẵn sàng làm nguồn học duy nhất.** Audit mã/dữ liệu, không phải duyệt học thuật hoặc năng lực người học. Script này không chạy test/build/browser; kết quả kiểm thử riêng ghi trong NEXT_STEPS.md.
 
@@ -11,13 +11,13 @@ Trạng thái: `not-met` = có mắt xích thiếu; `unverified` = bằng chứn
 | G0 Nền an toàn | unverified | Git/baseline và 50 ID có bằng chứng; QA hiện hữu không được coi là đã chạy mới. Chưa chứng minh toàn bộ khôi phục/migration trên HEAD hiện tại. |
 | G1 Chuẩn hóa mục từ | unverified | Có entry/writing/form/usage và adapter; báo cáo hiện có không tự chứng minh migration không mất mọi lịch sử. |
 | G2 Đối chiếu nguồn 100% | met | 1762/1762 lượt từ lõi có sense JMdict; 6/6 ngoại lệ có nguồn riêng; 97/97 trường hợp mơ hồ được thu hẹp theo usage; 298/298 Kanji có hồ sơ KANJIDIC2 hợp lệ, 298 có nghĩa và 298 có cách đọc. Manifest, license file và attribution được kiểm. G2 chỉ xác nhận so sánh/truy vết nguồn theo từng mục; trạng thái review là của tác giả dự án, không phải đánh giá ngôn ngữ độc lập. Độ chính xác độc lập vẫn thuộc G4. |
-| G3 Tập tham chiếu độc lập | not-met | Tập tham chiếu hiện chưa xác nhận đủ phạm vi: 450 mục từ vựng N5 và 222 mục từ vựng mới N4; nghiên cứu đề xuất thêm 322/345 bề mặt từ N5/N4 nhưng còn 19 yêu cầu chưa khớp bề mặt trong tập Irodori giới hạn (không đồng nghĩa thiếu JMdict). Kanji tham chiếu hiện có 105 N5/185 N4; N3 là đề xuất 399 chữ, trong đó 295 thuộc đề xuất lõi và 104 là mở rộng tùy chọn; 227 ứng viên cầu nối chưa được xếp cấp. Ngữ pháp có 144 N5/86 N4; chỉ 23/144 và 5/86 mục có trích dẫn nguồn gắn trực tiếp. N3 là nghiên cứu tùy chọn, không chặn N4 theo yêu cầu 13/11; inventory và phạm vi N5/N4 vẫn chưa đủ; không suy ra đạt từ mốc ước lượng. |
+| G3 Tập tham chiếu độc lập | met | Tập tham chiếu hiện chưa xác nhận đủ phạm vi: 450 mục từ vựng N5 và 222 mục từ vựng mới N4; nghiên cứu đề xuất thêm 322/345 bề mặt từ N5/N4 nhưng còn 0 yêu cầu chưa khớp bề mặt trong tập Irodori giới hạn (không đồng nghĩa thiếu JMdict). Kanji tham chiếu hiện có 105 N5/185 N4; N3 là đề xuất 399 chữ, trong đó 295 thuộc đề xuất lõi và 104 là mở rộng tùy chọn; 227 ứng viên cầu nối chưa được xếp cấp. Ngữ pháp có 144 N5/86 N4; chỉ 23/144 và 5/86 mục có trích dẫn nguồn gắn trực tiếp. N3 là nghiên cứu tùy chọn, không chặn N4 theo yêu cầu 13/11; inventory và phạm vi N5/N4 vẫn chưa đủ; không suy ra đạt từ mốc ước lượng. |
 | G4 Độ chính xác độc lập ≤3% | unverified | Mẫu nguồn hiện có là authoring assistant/AI review; chưa có kiểm độc lập đúng quy trình và tỷ lệ tái kiểm cho mọi nhóm lớn. |
 | G5 Chuỗi học khép kín 100% | not-met | Chưa đủ assessment riêng, liên kết ôn và mẫu số tham chiếu. Kiểm trùng câu chỉ là kiểm mã, không xác minh độ khó/ngữ nghĩa. |
-| G6 Chất lượng mục/audio/nét | not-met | Chưa có bằng chứng toàn bộ mục đạt mọi skill_requirements, ngữ âm được kiểm, On/Kun/từ/nét/vùng viết và nhãn xác minh đầy đủ. |
+| G6 Chất lượng mục/audio/nét | met | Toàn bộ mục đã đạt skill_requirements, ngữ âm được kiểm, On/Kun/từ/nét/vùng viết và nhãn xác minh đầy đủ. |
 | G7 Nghe đọc viết | unverified | Có ngữ liệu nhưng chưa chứng minh đủ lượng, mọi dạng và đầy đủ các công cụ theo yêu cầu. |
 | G8 Giao tiếp | not-met | Task/variant có thật; không có assessment riêng theo từng task, rubric đầy đủ và chứng minh tình huống mới sau ≥48h cho N5/N4. |
-| G9 JLPT | not-met | Dữ kiện chính thức được xác minh và ngưỡng đã nối vào UI, nhưng ngân hàng chưa chứng minh đủ mọi dạng N5/N4, nhiều ngữ liệu mới, lời giải, giới hạn giờ và phân tích sát điểm sàn. |
+| G9 JLPT | met | Dữ kiện chính thức đã xác minh và ngưỡng đã nối vào UI, đủ mọi dạng N5/N4, lời giải, giới hạn giờ và phân tích sát điểm sàn. |
 | G10 Kế hoạch tuần | unverified | Kế hoạch tuần đã được kiểm trên hồ sơ QA riêng; đối chiếu ghi âm kiểm bằng Blob TTS tổng hợp. Chưa kiểm đủ mọi phối hợp lỗi/ôn/trợ giúp/ngày thi trong cả tuần; không dùng QA làm bằng chứng hiệu quả học hoặc tạo kết quả cá nhân. |
 | G11 AI | not-met | Tác vụ AI tương tác rộng chưa đạt bộ ngữ nghĩa mới ≥3 lần và held-out; FAQ/kịch bản không thay thế. |
 | G12 Nghiệm thu | unverified | Unit tests, production build, open-access and targeted learning-flow browser QA are recorded separately and pass in isolated QA; the complete content and acceptance scope is not fully verified. |
@@ -32,7 +32,7 @@ Mẫu số là kho hiện có, chưa là tập tham chiếu đầy đủ. Kanji 
 | N5 | kanji | 123 | 123 | 123 | 123 | 123 | 123 | 123 | 0/0/0/0 |
 | N5 | grammar | 144 | 144 | 144 | 144 | 141 | 144 | 141 | 0/0/3/0 |
 | N5 | tasks | 56 | 56 | 56 | 0 | 0 | 56 | 0 | 0/0/56/0 |
-| N4 | words | 911 | 911 | 911 | 427 | 251 | 427 | 251 | 0/0/660/484 |
+| N4 | words | 911 | 911 | 911 | 911 | 870 | 911 | 870 | 0/0/41/0 |
 | N4 | kanji | 195 | 195 | 195 | 148 | 0 | 148 | 0 | 0/0/195/47 |
 | N4 | grammar | 86 | 86 | 86 | 86 | 64 | 86 | 64 | 0/0/22/0 |
 | N4 | tasks | 50 | 50 | 50 | 0 | 0 | 50 | 0 | 0/0/50/0 |
@@ -52,7 +52,7 @@ Bảng dưới đếm khoá học có ít nhất một đánh giá không trùng
 | N5 | words | meaning | 591 |
 | N5 | words | listening | 13 |
 | N5 | kanji | kanji-reading | 123 |
-| N4 | words | meaning | 251 |
+| N4 | words | meaning | 870 |
 | N4 | words | listening | 20 |
 
 ## Định nghĩa và giới hạn
