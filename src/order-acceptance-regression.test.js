@@ -1,0 +1,3 @@
+import{it,expect}from 'vitest';import{buildN5R1AssessmentBank}from './n5-r1-assessment-bank.js';
+it('accepts reviewed natural argument-order variants without changing the target meaning',()=>{const bank=buildN5R1AssessmentBank();expect(bank[5].questions.find(q=>q.kind==='order').accepted).toContain('お茶を休みの時間にクラブで飲みます。');expect(bank[18].questions.find(q=>q.kind==='order').accepted).toContain('高い山に去年友達と登りました。');expect(bank[18].questions.find(q=>q.kind==='order').accepted).not.toContain('去年友達と高い山に登りませんでした。');});
+it('does not equate fine weather with sunshine alone',()=>{const q=buildN5R1AssessmentBank()[20].questions.find(q=>q.id.endsWith('-read'));expect(q.choices[q.answer]).toContain('trời đẹp');expect(q.choices[q.answer]).not.toContain('nắng');});

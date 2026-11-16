@@ -28,6 +28,10 @@ import{enrichMnn}from './course-enrichment.js';
 import{nextUnits}from './mnn-next.js';
 import{reference}from './mnn-scope.js';
 import{n4VocabSeparateAssessment} from './n4-vocab-separate-assessment.js';
+import{n4KanjiSeparateAssessment} from './n4-kanji-separate-assessment.js';
+import{n4GrammarSeparateAssessment} from './n4-grammar-separate-assessment.js';
+import{n4KaiwaSeparateAssessment} from './n4-kaiwa-separate-assessment.js';
+import{n4VocabSeparateAssessment41} from './n4-vocab-separate-assessment-41.js';
 const W=(text,reading,meaning,type='danh từ')=>({text,reading,meaning,type});
 const G=(functionName,pattern,explanation,ja,vi,pitfall)=>({functionName,pattern,explanation,example:{ja,vi},pitfall});
 const Q=(id,prompt,choices,answer,explanation,skill,assessment=false)=>({id,prompt,choices,answer,explanation,skill,assessment});
@@ -51,6 +55,12 @@ mnnUnits.push(...n4Units);applyN4VocabularyBatch01(mnnUnits);applyN4VocabularyBa
 // Inject separate vocabulary assessment questions for N4 words lacking them (G5)
 for(const u of mnnUnits)u.questions=u.questions.filter(q=>!q.id.startsWith('n4-vocab-sep-'));
 for(const q of n4VocabSeparateAssessment){const m=q.usageId.match(/^mnn-(\d+):/);if(!m)continue;const n=Number(m[1]);const u=mnnUnits.find(x=>x.number===n);if(u)u.questions.push(q);}
+// Inject separate assessments for N4 kanji, grammar, kaiwa, and remaining vocab (G5) — files authored by Cline
+const lessonNo=u=>Number(String(u.number).replace(/^M/,''));
+for(const q of n4KanjiSeparateAssessment){const m=q.usageId.match(/^mnn-(\d+):/);if(!m)continue;const n=Number(m[1]);const u=mnnUnits.find(x=>lessonNo(x)===n);if(u){const k=u.kanji.find(x=>x.char===q.skill);if(k){if(!k.assessmentId)k.assessmentId=q.id;}else{u.kanji.push({char:q.skill,wordKey:q.wordKey,inWord:q.wordKey,meaning:q.explanation,status:'assessment-linked',assessmentId:q.id});}u.questions.push(q);}}
+for(const q of n4GrammarSeparateAssessment){for(const gid of q.grammarIds||[]){const m=gid.match(/^mnn-(\d+)-g(\d+)$/);if(!m)continue;const n=Number(m[1]);const u=mnnUnits.find(x=>lessonNo(x)===n);if(u&&u.grammar[Number(m[2])]){const qid=q.id;if(!u.guidedMap[Number(m[2])])u.guidedMap[Number(m[2])]=[];if(!u.guidedMap[Number(m[2])].includes(qid))u.guidedMap[Number(m[2])].push(qid);u.questions.push(q);}}}
+for(const q of n4KaiwaSeparateAssessment){const m=q.usageId.match(/^mnn-(\d+):/);if(!m)continue;const n=Number(m[1]);const u=mnnUnits.find(x=>lessonNo(x)===n);if(u)u.questions.push(q);}
+for(const q of n4VocabSeparateAssessment41){const m=q.usageId.match(/^mnn-(\d+):/);if(!m)continue;const n=Number(m[1]);const u=mnnUnits.find(x=>lessonNo(x)===n);if(u)u.questions.push(q);}
 const ownerPracticeUnit=mnnUnits.find(unit=>unit.number===2);
 if(!ownerPracticeUnit?.guidedMap)throw Error('Lesson 2 owner-question practice requires its existing guided map.');
 ownerPracticeUnit.questions.push(Q('m02-owner-ask','Bạn thấy một quyển vở trên bàn nhưng chưa biết chủ. Chọn câu hỏi về chủ sở hữu.',['このノートはだれのですか。','このノートはどこですか。','これはノートです。'],0,'だれの hỏi quyển vở thuộc về ai; hai lựa chọn kia hỏi vị trí hoặc chỉ nêu đồ vật.','đọc chủ sở hữu'));

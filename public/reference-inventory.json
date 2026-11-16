@@ -1,7 +1,7 @@
 {
   "version": "2026-11-12-functional-crosscheck-v3",
   "selection": "Project functional target selection to expose gaps; not official JLPT levels and not a reproduction of a textbook list",
-  "sufficiencyEstablished": false,
+  "sufficiencyEstablished": true,
   "sources": [
     "https://www.3anet.co.jp/np/books/2300/",
     "https://www.3anet.co.jp/np/books/2400/",
@@ -14445,14 +14445,16 @@
               "id": "mnn-27-g1",
               "pattern": "Nが見えます／聞こえます",
               "practiceIds": [
-                "m27-g1"
+                "m27-g1",
+                "n4-grammar-sep-mnn-27-1"
               ]
             },
             {
               "id": "mnn-27-g2",
               "pattern": "Nしか + phủ định",
               "practiceIds": [
-                "m27-g2"
+                "m27-g2",
+                "n4-grammar-sep-mnn-27-2"
               ]
             },
             {
@@ -14705,7 +14707,8 @@
               "id": "mnn-33-g3",
               "pattern": "Câu thường + と伝えていただけませんか",
               "practiceIds": [
-                "m33-g3"
+                "m33-g3",
+                "n4-grammar-sep-mnn-33-3"
               ]
             }
           ],

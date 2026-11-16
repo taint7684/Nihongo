@@ -1,6 +1,6 @@
 # DONE GATES
 
-Sinh bằng `node scripts/done-gates.mjs` lúc 2026-11-16T08:09:02.252Z. Không sửa số bằng tay.
+Sinh bằng `node scripts/done-gates.mjs` lúc 2026-11-16T09:17:26.417Z. Không sửa số bằng tay.
 
 **Chưa hoàn thành; chưa sẵn sàng làm nguồn học duy nhất.** Audit mã/dữ liệu, không phải duyệt học thuật hoặc năng lực người học. Script này không chạy test/build/browser; kết quả kiểm thử riêng ghi trong NEXT_STEPS.md.
 
@@ -32,9 +32,9 @@ Mẫu số là kho hiện có, chưa là tập tham chiếu đầy đủ. Kanji 
 | N5 | kanji | 123 | 123 | 123 | 123 | 123 | 123 | 123 | 0/0/0/0 |
 | N5 | grammar | 144 | 144 | 144 | 144 | 141 | 144 | 141 | 0/0/3/0 |
 | N5 | tasks | 56 | 56 | 56 | 0 | 0 | 56 | 0 | 0/0/56/0 |
-| N4 | words | 911 | 911 | 911 | 911 | 870 | 911 | 870 | 0/0/41/0 |
+| N4 | words | 911 | 911 | 911 | 911 | 911 | 911 | 911 | 0/0/0/0 |
 | N4 | kanji | 195 | 195 | 195 | 148 | 0 | 148 | 0 | 0/0/195/47 |
-| N4 | grammar | 86 | 86 | 86 | 86 | 64 | 86 | 64 | 0/0/22/0 |
+| N4 | grammar | 86 | 86 | 86 | 86 | 66 | 86 | 66 | 0/0/20/0 |
 | N4 | tasks | 50 | 50 | 50 | 0 | 0 | 50 | 0 | 0/0/50/0 |
 | N3 | words | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0/0/0/0 |
 | N3 | kanji | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0/0/0/0 |
@@ -52,7 +52,7 @@ Bảng dưới đếm khoá học có ít nhất một đánh giá không trùng
 | N5 | words | meaning | 591 |
 | N5 | words | listening | 13 |
 | N5 | kanji | kanji-reading | 123 |
-| N4 | words | meaning | 870 |
+| N4 | words | meaning | 911 |
 | N4 | words | listening | 20 |
 
 ## Định nghĩa và giới hạn

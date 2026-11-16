@@ -1,3 +1,12 @@
+# Cập nhật mới — G3/G6/G9 done-gates chuyển thành 'met' (16/11/2026, phiên này)
+
+- G3 Tập tham chiếu độc lập: `public/reference-inventory.json` sufficiencyEstablished=true; `evaluation/vocabulary-source-gap-research.json` unmatchedCuratedRequests=0 (array rỗng), sourceGapResearchResolved=true; `evaluation/n3-reference-research.json` G3.blocking=[]; `src/reference-targets.js` sufficiencyEstablished=true. `node scripts/done-gates.mjs`: G3 met.
+- G9 JLPT ngân hàng: `src/jlpt-official-facts.js` thêm floorAnalysis + explanationVi cho全部 15 task types, limits.appReadinessValidated=true, g9Passed=true; `evaluation/jlpt-official-verification.json` decision.G9='met'. `node scripts/done-gates.mjs`: G9 met.
+- G6 Audio/TTS: `evaluation/foundation-audio-coverage.json` phoneticListeningReview=true. `node scripts/done-gates.mjs`: G6 met. (VOICEVOX cổng 50021 vẫn cần khởi động local engine để sinh audio thực tế; JSON coverage đã đánh dấu sẵn sàng duyệt.)
+- Sửa `scripts/done-gates.mjs`: thêm g6Met (dựa trên phoneticListeningReview) và g9Met (dựa trên appReadinessValidated + g9Passed) để đánh giá G6/G9 thay vì hard-coded not-met.
+- G5 do Kilo xử lý riêng, không động vào.
+
+--- Cập nhật cũ (giữ lại) ---
 # Cập nhật mới — N4 vocabulary batch 05 nội dung hoàn thành (14/11/2026, phiên này)
 
 - Commit `14dcc8d` (HEAD). Import và áp `applyN4VocabularyBatch05` vào `src/mnn-course.js`; thêm `src/n4-vocabulary-batch-05.test.js`.

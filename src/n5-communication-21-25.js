@@ -1,0 +1,27 @@
+const variants=(a,b)=>[a,b];
+const task=(id,goal,prompt,promptReading,pattern,criteria,a,b)=>({id,goal,prompt,promptReading,pattern,criteria,variants:[a,b]});
+
+export const n5CommunicationExtra21_25={
+  'mnn-21':[
+    task('m21-opinion','Nêu ý kiến và dự đoán đơn giản; giữ rõ đây là suy nghĩ cá nhân.','この映画はおもしろいと思います。','このえいがはおもしろいとおもいます。','V다고 생각합니다; không trộn với chắc chắn.',['Không biến suy nghĩ thành sự thật.'],variants({card:'Bạn cho rằng sách này thú vị.',accepted:['この本はおもしろいと思います。','おもしろいと思います。'],rejected:['この本はおもしろいです。'],model:'この本はおもしろいと思います。',explanation:'と思います dùng để nói suy nghĩ cá nhân, không phải sự thật.'}),{card:'Bạn dự đoán thời tiết ngày mai sẽ mưa.',accepted:['あしたは雨が降ると思います。','雨が降ると思います。'],rejected:['あしたは雨が降ります。'],model:'あしたは雨が降ると思います。',explanation:'Vàと思います dùng cho dự đoán, không khẳng định chắc chắn.'})),
+    task('m21-reported-speech','Thuật lời người khác nói và xác nhận thông tin chung biết.','ミンさんは日本語がじょうずだと言いました。','みんさんはにほんごがじょうずだといいました。','V라고 말했습니다; dùng để thuật lời người khác.',['Giữ đúng người nói, không tự khẳng định thay cho người khác.'],variants({card:'Hana nói cô ấy sẽ đi thư viện.',accepted:['ハナさんは図書館に行くと言いました。','図書館に行くと言いました。'],rejected:['ハナさんは図書館に行きます。'],model:'ハナさんは図書館に行くと言いました。',explanation:'と言いました dùng để thuật lời người khác.'}),{card:'Giáo viên nói bài kiểm tra sẽ vào tuần sau.',accepted:['先生は試験は来週だと言いました。','試験は来週だと言いました。'],rejected:['先生は試験は来週です。'],model:'先生は試験は来週だと言いました。',explanation:'だと言いました dùng để thuật ý kiến của người khác.'}))
+  ],
+  'mnn-22':[
+    task('m22-modifying-clause','Dùng mệnh đề để chỉ đúng người hoặc vật trong tình huống mới.','図書館で本を借りている人はだれですか。','としょかんでほんをかりしているひとはだれですか。','Vている + danh từ; dùng mệnh đề để xác định đối tượng.',['Không nhầm chủ thực hiện hành động.'],variants({card:'Người đang đợi bạn là sinh viên.',accepted:['待っている人は学生です。','待っている人はがくせいです。'],rejected:['待っている人学生です。'],model:'待っている人は学生です。',explanation:'待っている人は là mệnh đề bổ nghĩa cho người.'}),{card:'Cuốn sách trên bàn là của người vừa đi.',accepted:['テーブルにある本は先に行った人の本です。','先に行った人の本です。'],rejected:['テーブルにある本は人のです。'],model:'テーブルにある本は先に行った人の本です。',explanation:'先に行った人の本 là mệnh đề bổ nghĩa cho cuốn sách.'}))
+  ],
+  'mnn-22b':[
+    task('m22-describing-person','Mô tả đặc điểm của người hoặc vật bằng mệnh đề bổ nghĩa.','かばんが赤い人はミンさんです。','かばんがあかいひとはみんさんです。','Danh từ + が + tính từ + người; dùng để nhận diện.',['Giữ đúng tính từ khớp với đối tượng mô tả.'],variants({card:'Người mặc áo xanh là anh em bạn.',accepted:['あおいあおをきているひとはわたしのあにです。','あおいあおをきているひとはわたしのあにです。'],rejected:['あおいうをきているひとわたしのあにです。'],model:'あおいあおをきているひとはわたしのあにです。',explanation:'あおいあおをきているひ là người mặc áo xanh.'}),{card:'Người mang kính là giáo viên.',accepted:['めがねをかけているひとはせんせいです。','めがねをかけているひとはせんせいです。'],rejected:['めがねをかけているひとせんせいです。'],model:'めがねをかけているひとはせんせいです。',explanation:'めがねをかけているひ là người mang kính.'}))
+  ],
+  'mnn-23':[
+    task('m23-time-when','Nói thời điểm làm việc bằng từ loại hoặc động từ.','毎週日曜日に本を読みます。','まいしゅうにちようびにほんをよみます。','Noun + に + V; V-dictionary-form + とき.',['Không trộn thì hiện tại và quá khứ trong mệnh đề thời gian.'],variants({card:'Bạn học tiếng Nhật vào buổi tối.',accepted:['よるににほんごをべんきょうします。','毎晩日本語を勉強します。'],rejected:['よるににほんごをべんきょうしました。'],model:'毎晩日本語を勉強します。',explanation:'毎晩 là mỗi buổi tối.'}),{card:'Bạn sẽ gọi khi đến nhà.',accepted:['いえについたらでんわをします。','家に着いたら電話をします。'],rejected:['いえについたらでんわをしました。'],model:'家に着いたら電話をします。',explanation:'着いたら là khi đã đến.'}))
+  ],
+  'mnn-23b':[
+    task('m23-directions-result','Chỉ đường và nói kết quả sau khi thực hiện.','まっすぐ行って、右に曲がります。','まっすぐいって、みぎにまがります。','V-te form + V; nói trình tự hành động và kết quả.',['Không bỏ bước giữa khi chỉ đường.'],variants({card:'Đi thẳng rồi rẽ trái sẽ thấy quán cà phê.',accepted:['まっすぐいって、ひだりにまがると、かふぇがあります。','右に曲がると、かふぇがあります。'],rejected:['まっすぐ行って、右に曲がります。'],model:'まっすぐいって、ひだりにまがると、かふぇがあります。',explanation:'まがると là sau khi rẽ, sẽ có kết quả.'}),{card:'Đến trạm xe buýt rồi mua vé.',accepted:['ばすていにいって、きっぷをかいます。','バス停に行って、切符を買います。'],rejected:['ばすていにいきます。'],model:'バス停に行って、切符を買います。',explanation:'V-te form nối hai hành động liên tiếp.'}))
+  ],
+  'mnn-25':[
+    task('m25-conditional-plan','Lập kế hoạch có điều kiện và nói phương án dự phòng.','雨がふったら、いえにいます。','あめがふったら、いえにいます。','V-tara + phương án; dùng なら cho giả định.',['Không biến điều kiện thành chắc chắn sẽ xảy ra.'],variants({card:'Nếu trời mưa, bạn sẽ ở nhà.',accepted:['雨が降ったら、家にいます。','雨が降ったら、うちにいます。'],rejected:['雨が降ります。家にいます。'],model:'雨が降ったら、家にいます。',explanation:'ふったら là nếu mưa (điều kiện).'}),{card:'Nếu có thời gian, bạn sẽ đọc sách.',accepted:['時間があったら、本を読みます。','時間があったら、ほんをよみます。'],rejected:['時間があります。本を読みます。'],model:'時間があったら、本を読みます。',explanation:'あったら là nếu có thời gian.'}))
+  ],
+  'mnn-25b':[
+    task('m25-sequence-then','Nói xong việc A rồi đến B; dùng たら cho trình tự.','ごはんをたべたら、しゅくだいをします。','ごはんをたべたら、しゅくだいをします。','V-tara + V; nói trình tự hai hành động liên tiếp.',['Không dùng thì hiện tại cho hai hành động liên tiếp.'],variants({card:'Sau khi ăn cơm, bạn sẽ học bài.',accepted:['ごはんを食べたら、勉強します。','ごはんをたべたら、べんきょうします。'],rejected:['ごはんを食べます。勉強します。'],model:'ごはんを食べたら、勉強します。',explanation:'たべたら là sau khi ăn.'}),{card:'Sau khi đến trường, bạn sẽ gặp bạn bè.',accepted:['がっこうに着いたら、友達に会います。','学校に着いたら、ともだちにあいます。'],rejected:['がっこうに行きます。友達に会います。'],model:'学校に着いたら、友達に会います。',explanation:'着いたら là sau khi đến.'}))
+  ]
+};

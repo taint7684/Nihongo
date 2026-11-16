@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-16T08:09:02.252Z",
+  "generatedAt": "2026-11-16T09:17:26.417Z",
   "command": "node scripts/done-gates.mjs",
   "overall": "not-met",
   "verification": "Code/data audit only; synthetic in-memory scheduling checks do not prove semantic quality or learner mastery. This script does not run tests, build, browser, audio or learner assessment; separately run validation is recorded in NEXT_STEPS.md.",
@@ -17,9 +17,9 @@
       "status": "unverified",
       "reason": "Git/baseline và 50 ID có bằng chứng; QA hiện hữu không được coi là đã chạy mới. Chưa chứng minh toàn bộ khôi phục/migration trên HEAD hiện tại.",
       "measurements": {
-        "head": "7926f8b3d88d79c7a72ee0ecaae4b8296f9cd356 feat: complete N4 Kanji plan (195 chars) + grammar links (86/86)",
+        "head": "a5c16f98e7f72a28f1f574c50a4e069df841d003 feat: add separate vocabulary assessment for 911 N4 words (G5 progress)",
         "baselineExists": true,
-        "workingChanges": 3001,
+        "workingChanges": 3008,
         "lessonIds1To50Intact": true,
         "existingQA": [
           {
@@ -375,7 +375,7 @@
         {
           "path": "public/reference-inventory.json",
           "exists": true,
-          "sha256": "f3b4e1caac5aca2fbf3fb57705f78ec8075e2d4304b23e87cf5703225e8a8f9d"
+          "sha256": "a1c2ee6baa45cc5febfa73ad2e9bf43fda1ee108efe7e8ac0833c28e775cc52d"
         },
         {
           "path": "evaluation/curriculum-source-comparison.json",
@@ -459,6 +459,26 @@
           "path": "src/state.js",
           "exists": true,
           "sha256": "ec0e05ca52f60b9d3d3c4c3c186dfb8343047ba214588da4512f1abd7fa599cd"
+        },
+        {
+          "path": "src/n4-kanji-separate-assessment.js",
+          "exists": true,
+          "sha256": "34352d25e3a8a8c92faca7d0c2d1652e76c0383718e8988bbef11c566f020bbb"
+        },
+        {
+          "path": "src/n4-grammar-separate-assessment.js",
+          "exists": true,
+          "sha256": "0524aeb268d28e7a55710d9050a40edebaf60afd6fb01fbff0bdc03dddf829e5"
+        },
+        {
+          "path": "src/n4-kaiwa-separate-assessment.js",
+          "exists": true,
+          "sha256": "6202320c7f1b8de5fa998c0554fa0f63e864d8a72c2016594446f8a794d8ca25"
+        },
+        {
+          "path": "src/n4-vocab-separate-assessment-41.js",
+          "exists": true,
+          "sha256": "c8b89226f71bb30eb8657c49b044c254935c74a9d4ab764ac3db1a6ecacf2df9"
         }
       ]
     },
@@ -153316,17 +153336,17 @@
           "lesson": 911,
           "practice": 911,
           "declaredAssessment": 911,
-          "separateAssessmentNoTextOverlap": 870,
+          "separateAssessmentNoTextOverlap": 911,
           "commonReviewLinked": 911,
-          "closed": 870,
+          "closed": 911,
           "missingLesson": 0,
           "missingPractice": 0,
-          "missingSeparateAssessment": 41,
+          "missingSeparateAssessment": 0,
           "unverifiedReview": 0,
           "referenceDenominatorEstablished": false,
           "scope": "Existing content only; not full-level denominator",
           "assessmentEvidenceByType": {
-            "meaning": 870,
+            "meaning": 911,
             "listening": 20
           }
         },
@@ -153356,12 +153376,12 @@
           "lesson": 86,
           "practice": 86,
           "declaredAssessment": 86,
-          "separateAssessmentNoTextOverlap": 64,
+          "separateAssessmentNoTextOverlap": 66,
           "commonReviewLinked": 86,
-          "closed": 64,
+          "closed": 66,
           "missingLesson": 0,
           "missingPractice": 0,
-          "missingSeparateAssessment": 22,
+          "missingSeparateAssessment": 20,
           "unverifiedReview": 0,
           "referenceDenominatorEstablished": false,
           "scope": "Existing content only; not full-level denominator"
@@ -153794,7 +153814,8 @@
             "review": "word-assessment-linked",
             "assessmentIds": [
               "m26-r1-kanji-reading-75db-3044",
-              "n4-vocab-sep-mnn-26-5"
+              "n4-vocab-sep-mnn-26-5",
+              "n4-vocab-sep-41-mnn-26-1"
             ],
             "assessmentChecks": [
               {
@@ -153872,13 +153893,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-26-1",
+                "lessonId": "mnn-26",
+                "assessesWords": [
+                  "痛い"
+                ],
+                "wordKey": "痛い",
+                "usageId": "mnn-26:痛い",
+                "wordLinks": [
+                  {
+                    "wordKey": "痛い",
+                    "usageId": "mnn-26:痛い",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-26"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "痛い",
+                      "usageId": "mnn-26:痛い",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:用事",
@@ -157680,7 +157737,8 @@
             "hasPractice": true,
             "review": "word-assessment-linked",
             "assessmentIds": [
-              "n4-vocab-sep-mnn-26-18"
+              "n4-vocab-sep-mnn-26-18",
+              "n4-vocab-sep-41-mnn-26-2"
             ],
             "assessmentChecks": [
               {
@@ -157720,13 +157778,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-26-2",
+                "lessonId": "mnn-26",
+                "assessesWords": [
+                  "かなり"
+                ],
+                "wordKey": "かなり",
+                "usageId": "mnn-26:かなり",
+                "wordLinks": [
+                  {
+                    "wordKey": "かなり",
+                    "usageId": "mnn-26:かなり",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-26"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "かなり",
+                      "usageId": "mnn-26:かなり",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:ついでに",
@@ -158343,7 +158437,8 @@
             "review": "word-assessment-linked",
             "assessmentIds": [
               "m27-r1-kanji-reading-58f0",
-              "n4-vocab-sep-mnn-27-27"
+              "n4-vocab-sep-mnn-27-27",
+              "n4-kanji-sep-mnn-27-10"
             ],
             "assessmentChecks": [
               {
@@ -158404,6 +158499,44 @@
                 "assessmentScope": null,
                 "validationStatus": null,
                 "textCount": 1,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "声",
+                      "usageId": "mnn-27:声",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
+              },
+              {
+                "id": "n4-kanji-sep-mnn-27-10",
+                "lessonId": "mnn-27",
+                "assessesWords": [
+                  "声"
+                ],
+                "wordKey": "声",
+                "usageId": "mnn-27:声",
+                "wordLinks": [
+                  {
+                    "wordKey": "声",
+                    "usageId": "mnn-27:声",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-27"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
                 "hasJapaneseSentenceContext": true,
                 "scheduleCheck": {
                   "correctSchedules": true,
@@ -158684,7 +158817,8 @@
             "review": "word-assessment-linked",
             "assessmentIds": [
               "m27-r1-kanji-reading-97f3",
-              "n4-vocab-sep-mnn-27-31"
+              "n4-vocab-sep-mnn-27-31",
+              "n4-kanji-sep-mnn-27-15"
             ],
             "assessmentChecks": [
               {
@@ -158745,6 +158879,44 @@
                 "assessmentScope": null,
                 "validationStatus": null,
                 "textCount": 1,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "音",
+                      "usageId": "mnn-27:音",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
+              },
+              {
+                "id": "n4-kanji-sep-mnn-27-15",
+                "lessonId": "mnn-27",
+                "assessesWords": [
+                  "音"
+                ],
+                "wordKey": "音",
+                "usageId": "mnn-27:音",
+                "wordLinks": [
+                  {
+                    "wordKey": "音",
+                    "usageId": "mnn-27:音",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-27"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
                 "hasJapaneseSentenceContext": true,
                 "scheduleCheck": {
                   "correctSchedules": true,
@@ -168671,7 +168843,8 @@
             "hasPractice": true,
             "review": "word-assessment-linked",
             "assessmentIds": [
-              "n4-vocab-sep-mnn-27-58"
+              "n4-vocab-sep-mnn-27-58",
+              "n4-vocab-sep-41-mnn-27-3"
             ],
             "assessmentChecks": [
               {
@@ -168711,13 +168884,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-27-3",
+                "lessonId": "mnn-27",
+                "assessesWords": [
+                  "煩い"
+                ],
+                "wordKey": "煩い",
+                "usageId": "mnn-27:煩い",
+                "wordLinks": [
+                  {
+                    "wordKey": "煩い",
+                    "usageId": "mnn-27:煩い",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-27"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "煩い",
+                      "usageId": "mnn-27:煩い",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:景色",
@@ -169279,7 +169488,8 @@
             "review": "word-assessment-linked",
             "assessmentIds": [
               "m28-r1-kanji-reading-6b4c",
-              "n4-vocab-sep-mnn-28-66"
+              "n4-vocab-sep-mnn-28-66",
+              "n4-kanji-sep-mnn-28-17"
             ],
             "assessmentChecks": [
               {
@@ -169340,6 +169550,44 @@
                 "assessmentScope": null,
                 "validationStatus": null,
                 "textCount": 1,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "歌",
+                      "usageId": "mnn-28:歌",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
+              },
+              {
+                "id": "n4-kanji-sep-mnn-28-17",
+                "lessonId": "mnn-28",
+                "assessesWords": [
+                  "歌"
+                ],
+                "wordKey": "歌",
+                "usageId": "mnn-28:歌",
+                "wordLinks": [
+                  {
+                    "wordKey": "歌",
+                    "usageId": "mnn-28:歌",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-28"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
                 "hasJapaneseSentenceContext": true,
                 "scheduleCheck": {
                   "correctSchedules": true,
@@ -169469,7 +169717,8 @@
             "review": "word-assessment-linked",
             "assessmentIds": [
               "m28-r1-kanji-reading-71b1-5fc3",
-              "n4-vocab-sep-mnn-28-68"
+              "n4-vocab-sep-mnn-28-68",
+              "n4-vocab-sep-41-mnn-28-4"
             ],
             "assessmentChecks": [
               {
@@ -169547,13 +169796,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-28-4",
+                "lessonId": "mnn-28",
+                "assessesWords": [
+                  "熱心"
+                ],
+                "wordKey": "熱心",
+                "usageId": "mnn-28:熱心",
+                "wordLinks": [
+                  {
+                    "wordKey": "熱心",
+                    "usageId": "mnn-28:熱心",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-28"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "熱心",
+                      "usageId": "mnn-28:熱心",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:アルバイト",
@@ -172806,7 +173091,8 @@
             "review": "word-assessment-linked",
             "assessmentIds": [
               "m29-r1-kanji-reading-9375",
-              "n4-vocab-sep-mnn-29-94"
+              "n4-vocab-sep-mnn-29-94",
+              "n4-kanji-sep-mnn-29-33"
             ],
             "assessmentChecks": [
               {
@@ -172867,6 +173153,44 @@
                 "assessmentScope": null,
                 "validationStatus": null,
                 "textCount": 1,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "鍵",
+                      "usageId": "mnn-29:鍵",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
+              },
+              {
+                "id": "n4-kanji-sep-mnn-29-33",
+                "lessonId": "mnn-29",
+                "assessesWords": [
+                  "鍵"
+                ],
+                "wordKey": "鍵",
+                "usageId": "mnn-29:鍵",
+                "wordLinks": [
+                  {
+                    "wordKey": "鍵",
+                    "usageId": "mnn-29:鍵",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-29"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
                 "hasJapaneseSentenceContext": true,
                 "scheduleCheck": {
                   "correctSchedules": true,
@@ -197849,6 +198173,7 @@
             "review": "word-assessment-linked",
             "assessmentIds": [
               "n4-vocab-sep-mnn-30-210",
+              "n4-vocab-sep-41-mnn-30-5",
               "m48-r1-kanji-reading-53ef-611b-3044"
             ],
             "assessmentChecks": [
@@ -197873,6 +198198,44 @@
                 "validationStatus": null,
                 "textCount": 0,
                 "hasJapaneseSentenceContext": false,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "可愛い",
+                      "usageId": "mnn-30:可愛い",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-30-5",
+                "lessonId": "mnn-30",
+                "assessesWords": [
+                  "可愛い"
+                ],
+                "wordKey": "可愛い",
+                "usageId": "mnn-30:可愛い",
+                "wordLinks": [
+                  {
+                    "wordKey": "可愛い",
+                    "usageId": "mnn-30:可愛い",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-30"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
                 "scheduleCheck": {
                   "correctSchedules": true,
                   "incorrectSchedules": true,
@@ -197929,11 +198292,9 @@
                 "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:貼ります",
@@ -200651,7 +201012,8 @@
             "hasPractice": true,
             "review": "word-assessment-linked",
             "assessmentIds": [
-              "n4-vocab-sep-mnn-31-242"
+              "n4-vocab-sep-mnn-31-242",
+              "n4-vocab-sep-41-mnn-31-6"
             ],
             "assessmentChecks": [
               {
@@ -200691,13 +201053,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-31-6",
+                "lessonId": "mnn-31",
+                "assessesWords": [
+                  "直接"
+                ],
+                "wordKey": "直接",
+                "usageId": "mnn-31:直接",
+                "wordLinks": [
+                  {
+                    "wordKey": "直接",
+                    "usageId": "mnn-31:直接",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-31"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "直接",
+                      "usageId": "mnn-31:直接",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:先ほど",
@@ -201381,7 +201779,8 @@
             "hasPractice": true,
             "review": "word-assessment-linked",
             "assessmentIds": [
-              "n4-vocab-sep-mnn-31-255"
+              "n4-vocab-sep-mnn-31-255",
+              "n4-vocab-sep-41-mnn-31-7"
             ],
             "assessmentChecks": [
               {
@@ -201421,13 +201820,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-31-7",
+                "lessonId": "mnn-31",
+                "assessesWords": [
+                  "大抵"
+                ],
+                "wordKey": "大抵",
+                "usageId": "mnn-31:大抵",
+                "wordLinks": [
+                  {
+                    "wordKey": "大抵",
+                    "usageId": "mnn-31:大抵",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-31"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "大抵",
+                      "usageId": "mnn-31:大抵",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:歩く",
@@ -202902,7 +203337,8 @@
             "review": "word-assessment-linked",
             "assessmentIds": [
               "m32-r1-kanji-reading-98a8",
-              "n4-vocab-sep-mnn-32-280"
+              "n4-vocab-sep-mnn-32-280",
+              "n4-kanji-sep-mnn-32-59"
             ],
             "assessmentChecks": [
               {
@@ -202980,6 +203416,44 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-kanji-sep-mnn-32-59",
+                "lessonId": "mnn-32",
+                "assessesWords": [
+                  "風"
+                ],
+                "wordKey": "風",
+                "usageId": "mnn-32:風",
+                "wordLinks": [
+                  {
+                    "wordKey": "風",
+                    "usageId": "mnn-32:風",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-32"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "風",
+                      "usageId": "mnn-32:風",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
             "hasSeparateAssessment": true,
@@ -202996,7 +203470,8 @@
             "hasPractice": true,
             "review": "word-assessment-linked",
             "assessmentIds": [
-              "n4-vocab-sep-mnn-32-281"
+              "n4-vocab-sep-mnn-32-281",
+              "n4-vocab-sep-41-mnn-32-8"
             ],
             "assessmentChecks": [
               {
@@ -203036,13 +203511,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-32-8",
+                "lessonId": "mnn-32",
+                "assessesWords": [
+                  "強い"
+                ],
+                "wordKey": "強い",
+                "usageId": "mnn-32:強い",
+                "wordLinks": [
+                  {
+                    "wordKey": "強い",
+                    "usageId": "mnn-32:強い",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-32"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "強い",
+                      "usageId": "mnn-32:強い",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:間に合います",
@@ -203111,7 +203622,8 @@
             "review": "word-assessment-linked",
             "assessmentIds": [
               "m32-r1-kanji-reading-7121-7406",
-              "n4-vocab-sep-mnn-32-283"
+              "n4-vocab-sep-mnn-32-283",
+              "n4-vocab-sep-41-mnn-32-9"
             ],
             "assessmentChecks": [
               {
@@ -203189,13 +203701,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-32-9",
+                "lessonId": "mnn-32",
+                "assessesWords": [
+                  "無理"
+                ],
+                "wordKey": "無理",
+                "usageId": "mnn-32:無理",
+                "wordLinks": [
+                  {
+                    "wordKey": "無理",
+                    "usageId": "mnn-32:無理",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-32"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "無理",
+                      "usageId": "mnn-32:無理",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:心配",
@@ -215461,7 +216009,8 @@
             "hasPractice": true,
             "review": "word-assessment-linked",
             "assessmentIds": [
-              "n4-vocab-sep-mnn-32-313"
+              "n4-vocab-sep-mnn-32-313",
+              "n4-vocab-sep-41-mnn-32-10"
             ],
             "assessmentChecks": [
               {
@@ -215501,13 +216050,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-32-10",
+                "lessonId": "mnn-32",
+                "assessesWords": [
+                  "不味い"
+                ],
+                "wordKey": "不味い",
+                "usageId": "mnn-32:不味い",
+                "wordLinks": [
+                  {
+                    "wordKey": "不味い",
+                    "usageId": "mnn-32:不味い",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-32"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "不味い",
+                      "usageId": "mnn-32:不味い",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:使う",
@@ -215671,7 +216256,8 @@
             "review": "word-assessment-linked",
             "assessmentIds": [
               "m32-r1-reading-661f",
-              "n4-vocab-sep-mnn-32-316"
+              "n4-vocab-sep-mnn-32-316",
+              "n4-kanji-sep-mnn-32-63"
             ],
             "assessmentChecks": [
               {
@@ -215732,6 +216318,44 @@
                 "assessmentScope": null,
                 "validationStatus": null,
                 "textCount": 1,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "星",
+                      "usageId": "mnn-32:星",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
+              },
+              {
+                "id": "n4-kanji-sep-mnn-32-63",
+                "lessonId": "mnn-32",
+                "assessesWords": [
+                  "星"
+                ],
+                "wordKey": "星",
+                "usageId": "mnn-32:星",
+                "wordLinks": [
+                  {
+                    "wordKey": "星",
+                    "usageId": "mnn-32:星",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-32"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
                 "hasJapaneseSentenceContext": true,
                 "scheduleCheck": {
                   "correctSchedules": true,
@@ -215861,7 +216485,8 @@
             "review": "word-assessment-linked",
             "assessmentIds": [
               "m32-r1-kanji-reading-96ea",
-              "n4-vocab-sep-mnn-32-318"
+              "n4-vocab-sep-mnn-32-318",
+              "n4-kanji-sep-mnn-32-64"
             ],
             "assessmentChecks": [
               {
@@ -215922,6 +216547,44 @@
                 "assessmentScope": null,
                 "validationStatus": null,
                 "textCount": 1,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "雪",
+                      "usageId": "mnn-32:雪",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
+              },
+              {
+                "id": "n4-kanji-sep-mnn-32-64",
+                "lessonId": "mnn-32",
+                "assessesWords": [
+                  "雪"
+                ],
+                "wordKey": "雪",
+                "usageId": "mnn-32:雪",
+                "wordLinks": [
+                  {
+                    "wordKey": "雪",
+                    "usageId": "mnn-32:雪",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-32"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
                 "hasJapaneseSentenceContext": true,
                 "scheduleCheck": {
                   "correctSchedules": true,
@@ -216146,7 +216809,8 @@
             "review": "word-assessment-linked",
             "assessmentIds": [
               "m33-r1-kanji-reading-5371-967a",
-              "n4-vocab-sep-mnn-33-321"
+              "n4-vocab-sep-mnn-33-321",
+              "n4-vocab-sep-41-mnn-33-11"
             ],
             "assessmentChecks": [
               {
@@ -216224,13 +216888,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-33-11",
+                "lessonId": "mnn-33",
+                "assessesWords": [
+                  "危険"
+                ],
+                "wordKey": "危険",
+                "usageId": "mnn-33:危険",
+                "wordLinks": [
+                  {
+                    "wordKey": "危険",
+                    "usageId": "mnn-33:危険",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-33"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "危険",
+                      "usageId": "mnn-33:危険",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:禁止",
@@ -223634,7 +224334,8 @@
             "hasPractice": true,
             "review": "word-assessment-linked",
             "assessmentIds": [
-              "n4-vocab-sep-mnn-33-353"
+              "n4-vocab-sep-mnn-33-353",
+              "n4-vocab-sep-41-mnn-33-12"
             ],
             "assessmentChecks": [
               {
@@ -223674,13 +224375,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-33-12",
+                "lessonId": "mnn-33",
+                "assessesWords": [
+                  "結構"
+                ],
+                "wordKey": "結構",
+                "usageId": "mnn-33:結構",
+                "wordLinks": [
+                  {
+                    "wordKey": "結構",
+                    "usageId": "mnn-33:結構",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-33"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "結構",
+                      "usageId": "mnn-33:結構",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:９時",
@@ -224729,7 +225466,8 @@
             "review": "word-assessment-linked",
             "assessmentIds": [
               "m34-r1-kanji-reading-6b6f",
-              "n4-vocab-sep-mnn-34-369"
+              "n4-vocab-sep-mnn-34-369",
+              "n4-kanji-sep-mnn-34-78"
             ],
             "assessmentChecks": [
               {
@@ -224790,6 +225528,44 @@
                 "assessmentScope": null,
                 "validationStatus": null,
                 "textCount": 1,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "歯",
+                      "usageId": "mnn-34:歯",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
+              },
+              {
+                "id": "n4-kanji-sep-mnn-34-78",
+                "lessonId": "mnn-34",
+                "assessesWords": [
+                  "歯"
+                ],
+                "wordKey": "歯",
+                "usageId": "mnn-34:歯",
+                "wordLinks": [
+                  {
+                    "wordKey": "歯",
+                    "usageId": "mnn-34:歯",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-34"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
                 "hasJapaneseSentenceContext": true,
                 "scheduleCheck": {
                   "correctSchedules": true,
@@ -231453,7 +232229,8 @@
             "hasPractice": true,
             "review": "word-assessment-linked",
             "assessmentIds": [
-              "n4-vocab-sep-mnn-34-399"
+              "n4-vocab-sep-mnn-34-399",
+              "n4-kanji-sep-mnn-34-84"
             ],
             "assessmentChecks": [
               {
@@ -231476,6 +232253,44 @@
                 "assessmentScope": null,
                 "validationStatus": null,
                 "textCount": 1,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "油",
+                      "usageId": "mnn-34:油",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
+              },
+              {
+                "id": "n4-kanji-sep-mnn-34-84",
+                "lessonId": "mnn-34",
+                "assessesWords": [
+                  "油"
+                ],
+                "wordKey": "油",
+                "usageId": "mnn-34:油",
+                "wordLinks": [
+                  {
+                    "wordKey": "油",
+                    "usageId": "mnn-34:油",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-34"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
                 "hasJapaneseSentenceContext": true,
                 "scheduleCheck": {
                   "correctSchedules": true,
@@ -232293,7 +233108,8 @@
             "hasPractice": true,
             "review": "word-assessment-linked",
             "assessmentIds": [
-              "n4-vocab-sep-mnn-34-414"
+              "n4-vocab-sep-mnn-34-414",
+              "n4-vocab-sep-41-mnn-34-13"
             ],
             "assessmentChecks": [
               {
@@ -232333,13 +233149,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-34-13",
+                "lessonId": "mnn-34",
+                "assessesWords": [
+                  "別々"
+                ],
+                "wordKey": "別々",
+                "usageId": "mnn-34:別々",
+                "wordLinks": [
+                  {
+                    "wordKey": "別々",
+                    "usageId": "mnn-34:別々",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-34"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "別々",
+                      "usageId": "mnn-34:別々",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:伊太利",
@@ -232631,7 +233483,8 @@
             "hasPractice": true,
             "review": "word-assessment-linked",
             "assessmentIds": [
-              "n4-vocab-sep-mnn-34-420"
+              "n4-vocab-sep-mnn-34-420",
+              "n4-vocab-sep-41-mnn-34-14"
             ],
             "assessmentChecks": [
               {
@@ -232671,13 +233524,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-34-14",
+                "lessonId": "mnn-34",
+                "assessesWords": [
+                  "賑やか"
+                ],
+                "wordKey": "賑やか",
+                "usageId": "mnn-34:賑やか",
+                "wordLinks": [
+                  {
+                    "wordKey": "賑やか",
+                    "usageId": "mnn-34:賑やか",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-34"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "賑やか",
+                      "usageId": "mnn-34:賑やか",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:唯々",
@@ -233406,7 +234295,8 @@
             "review": "word-assessment-linked",
             "assessmentIds": [
               "m35-r1-kanji-reading-685c",
-              "n4-vocab-sep-mnn-35-431"
+              "n4-vocab-sep-mnn-35-431",
+              "n4-kanji-sep-mnn-35-90"
             ],
             "assessmentChecks": [
               {
@@ -233467,6 +234357,44 @@
                 "assessmentScope": null,
                 "validationStatus": null,
                 "textCount": 1,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "桜",
+                      "usageId": "mnn-35:桜",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
+              },
+              {
+                "id": "n4-kanji-sep-mnn-35-90",
+                "lessonId": "mnn-35",
+                "assessesWords": [
+                  "桜"
+                ],
+                "wordKey": "桜",
+                "usageId": "mnn-35:桜",
+                "wordLinks": [
+                  {
+                    "wordKey": "桜",
+                    "usageId": "mnn-35:桜",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-35"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
                 "hasJapaneseSentenceContext": true,
                 "scheduleCheck": {
                   "correctSchedules": true,
@@ -236995,7 +237923,8 @@
             "hasPractice": true,
             "review": "word-assessment-linked",
             "assessmentIds": [
-              "n4-vocab-sep-mnn-35-473"
+              "n4-vocab-sep-mnn-35-473",
+              "n4-vocab-sep-41-mnn-35-15"
             ],
             "assessmentChecks": [
               {
@@ -237035,13 +237964,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-35-15",
+                "lessonId": "mnn-35",
+                "assessesWords": [
+                  "痒い"
+                ],
+                "wordKey": "痒い",
+                "usageId": "mnn-35:痒い",
+                "wordLinks": [
+                  {
+                    "wordKey": "痒い",
+                    "usageId": "mnn-35:痒い",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-35"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "痒い",
+                      "usageId": "mnn-35:痒い",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:大腿",
@@ -237838,7 +238803,8 @@
             "review": "word-assessment-linked",
             "assessmentIds": [
               "m35-r1-reading-5cf6",
-              "n4-vocab-sep-mnn-35-488"
+              "n4-vocab-sep-mnn-35-488",
+              "n4-kanji-sep-mnn-35-92"
             ],
             "assessmentChecks": [
               {
@@ -237899,6 +238865,44 @@
                 "assessmentScope": null,
                 "validationStatus": null,
                 "textCount": 1,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "島",
+                      "usageId": "mnn-35:島",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
+              },
+              {
+                "id": "n4-kanji-sep-mnn-35-92",
+                "lessonId": "mnn-35",
+                "assessesWords": [
+                  "島"
+                ],
+                "wordKey": "島",
+                "usageId": "mnn-35:島",
+                "wordLinks": [
+                  {
+                    "wordKey": "島",
+                    "usageId": "mnn-35:島",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-35"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
                 "hasJapaneseSentenceContext": true,
                 "scheduleCheck": {
                   "correctSchedules": true,
@@ -239936,7 +240940,8 @@
             "review": "word-assessment-linked",
             "assessmentIds": [
               "m36-r1-reading-5065-5eb7",
-              "n4-vocab-sep-mnn-36-505"
+              "n4-vocab-sep-mnn-36-505",
+              "n4-vocab-sep-41-mnn-36-16"
             ],
             "assessmentChecks": [
               {
@@ -240014,13 +241019,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-36-16",
+                "lessonId": "mnn-36",
+                "assessesWords": [
+                  "健康"
+                ],
+                "wordKey": "健康",
+                "usageId": "mnn-36:健康",
+                "wordLinks": [
+                  {
+                    "wordKey": "健康",
+                    "usageId": "mnn-36:健康",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-36"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "健康",
+                      "usageId": "mnn-36:健康",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:ほめます",
@@ -240883,7 +241924,8 @@
             "review": "word-assessment-linked",
             "assessmentIds": [
               "m38-r1-kanji-reading-697d-3057-3044",
-              "n4-vocab-sep-mnn-38-517"
+              "n4-vocab-sep-mnn-38-517",
+              "n4-vocab-sep-41-mnn-38-17"
             ],
             "assessmentChecks": [
               {
@@ -240961,13 +242003,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-38-17",
+                "lessonId": "mnn-38",
+                "assessesWords": [
+                  "楽しい"
+                ],
+                "wordKey": "楽しい",
+                "usageId": "mnn-38:楽しい",
+                "wordLinks": [
+                  {
+                    "wordKey": "楽しい",
+                    "usageId": "mnn-38:楽しい",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-38"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "楽しい",
+                      "usageId": "mnn-38:楽しい",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:育てます",
@@ -246388,7 +247466,8 @@
             "review": "word-assessment-linked",
             "assessmentIds": [
               "m38-r1-reading-697d-3057-307f",
-              "n4-vocab-sep-mnn-38-555"
+              "n4-vocab-sep-mnn-38-555",
+              "n4-vocab-sep-41-mnn-38-18"
             ],
             "assessmentChecks": [
               {
@@ -246466,13 +247545,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-38-18",
+                "lessonId": "mnn-38",
+                "assessesWords": [
+                  "楽しみ"
+                ],
+                "wordKey": "楽しみ",
+                "usageId": "mnn-38:楽しみ",
+                "wordLinks": [
+                  {
+                    "wordKey": "楽しみ",
+                    "usageId": "mnn-38:楽しみ",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-38"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "楽しみ",
+                      "usageId": "mnn-38:楽しみ",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:電源",
@@ -246770,7 +247885,8 @@
             "review": "word-assessment-linked",
             "assessmentIds": [
               "m38-r1-reading-5927-597d-304d",
-              "n4-vocab-sep-mnn-38-559"
+              "n4-vocab-sep-mnn-38-559",
+              "n4-vocab-sep-41-mnn-38-19"
             ],
             "assessmentChecks": [
               {
@@ -246848,13 +247964,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-38-19",
+                "lessonId": "mnn-38",
+                "assessesWords": [
+                  "大好き"
+                ],
+                "wordKey": "大好き",
+                "usageId": "mnn-38:大好き",
+                "wordLinks": [
+                  {
+                    "wordKey": "大好き",
+                    "usageId": "mnn-38:大好き",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-38"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "大好き",
+                      "usageId": "mnn-38:大好き",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:消しゴム",
@@ -247075,7 +248227,8 @@
             "review": "word-assessment-linked",
             "assessmentIds": [
               "m39-r1-kanji-reading-6b8b-5ff5",
-              "n4-vocab-sep-mnn-39-563"
+              "n4-vocab-sep-mnn-39-563",
+              "n4-vocab-sep-41-mnn-39-20"
             ],
             "assessmentChecks": [
               {
@@ -247153,13 +248306,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-39-20",
+                "lessonId": "mnn-39",
+                "assessesWords": [
+                  "残念"
+                ],
+                "wordKey": "残念",
+                "usageId": "mnn-39:残念",
+                "wordLinks": [
+                  {
+                    "wordKey": "残念",
+                    "usageId": "mnn-39:残念",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-39"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "残念",
+                      "usageId": "mnn-39:残念",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:事故",
@@ -253596,7 +254785,8 @@
             "review": "word-assessment-linked",
             "assessmentIds": [
               "m39-r1-kanji-reading-60aa-3044",
-              "n4-vocab-sep-mnn-39-591"
+              "n4-vocab-sep-mnn-39-591",
+              "n4-vocab-sep-41-mnn-39-21"
             ],
             "assessmentChecks": [
               {
@@ -253674,13 +254864,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-39-21",
+                "lessonId": "mnn-39",
+                "assessesWords": [
+                  "悪い"
+                ],
+                "wordKey": "悪い",
+                "usageId": "mnn-39:悪い",
+                "wordLinks": [
+                  {
+                    "wordKey": "悪い",
+                    "usageId": "mnn-39:悪い",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-39"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "悪い",
+                      "usageId": "mnn-39:悪い",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:調べます",
@@ -254374,7 +255600,8 @@
             "hasPractice": true,
             "review": "word-assessment-linked",
             "assessmentIds": [
-              "n4-vocab-sep-mnn-40-600"
+              "n4-vocab-sep-mnn-40-600",
+              "n4-vocab-sep-41-mnn-40-22"
             ],
             "assessmentChecks": [
               {
@@ -254414,13 +255641,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-40-22",
+                "lessonId": "mnn-40",
+                "assessesWords": [
+                  "重い"
+                ],
+                "wordKey": "重い",
+                "usageId": "mnn-40:重い",
+                "wordLinks": [
+                  {
+                    "wordKey": "重い",
+                    "usageId": "mnn-40:重い",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-40"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "重い",
+                      "usageId": "mnn-40:重い",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:先に",
@@ -256512,7 +257775,8 @@
             "hasPractice": true,
             "review": "word-assessment-linked",
             "assessmentIds": [
-              "n4-vocab-sep-mnn-41-619"
+              "n4-vocab-sep-mnn-41-619",
+              "n4-vocab-sep-41-mnn-41-23"
             ],
             "assessmentChecks": [
               {
@@ -256552,13 +257816,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-41-23",
+                "lessonId": "mnn-41",
+                "assessesWords": [
+                  "お祝い"
+                ],
+                "wordKey": "お祝い",
+                "usageId": "mnn-41:お祝い",
+                "wordLinks": [
+                  {
+                    "wordKey": "お祝い",
+                    "usageId": "mnn-41:お祝い",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-41"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "お祝い",
+                      "usageId": "mnn-41:お祝い",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:やります",
@@ -258894,7 +260194,8 @@
             "hasPractice": true,
             "review": "word-assessment-linked",
             "assessmentIds": [
-              "n4-vocab-sep-mnn-42-641"
+              "n4-vocab-sep-mnn-42-641",
+              "n4-vocab-sep-41-mnn-42-24"
             ],
             "assessmentChecks": [
               {
@@ -258934,13 +260235,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-42-24",
+                "lessonId": "mnn-42",
+                "assessesWords": [
+                  "必要"
+                ],
+                "wordKey": "必要",
+                "usageId": "mnn-42:必要",
+                "wordLinks": [
+                  {
+                    "wordKey": "必要",
+                    "usageId": "mnn-42:必要",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-42"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "必要",
+                      "usageId": "mnn-42:必要",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:教育",
@@ -259049,7 +260386,8 @@
             "review": "word-assessment-linked",
             "assessmentIds": [
               "m42-r1-kanji-reading-8efd-3044",
-              "n4-vocab-sep-mnn-42-643"
+              "n4-vocab-sep-mnn-42-643",
+              "n4-vocab-sep-41-mnn-42-25"
             ],
             "assessmentChecks": [
               {
@@ -259127,13 +260465,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-42-25",
+                "lessonId": "mnn-42",
+                "assessesWords": [
+                  "軽い"
+                ],
+                "wordKey": "軽い",
+                "usageId": "mnn-42:軽い",
+                "wordLinks": [
+                  {
+                    "wordKey": "軽い",
+                    "usageId": "mnn-42:軽い",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-42"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "軽い",
+                      "usageId": "mnn-42:軽い",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:絵",
@@ -265602,7 +266976,8 @@
             "hasPractice": true,
             "review": "word-assessment-linked",
             "assessmentIds": [
-              "n4-vocab-sep-mnn-42-690"
+              "n4-vocab-sep-mnn-42-690",
+              "n4-vocab-sep-41-mnn-42-26"
             ],
             "assessmentChecks": [
               {
@@ -265642,13 +267017,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-42-26",
+                "lessonId": "mnn-42",
+                "assessesWords": [
+                  "温い"
+                ],
+                "wordKey": "温い",
+                "usageId": "mnn-42:温い",
+                "wordLinks": [
+                  {
+                    "wordKey": "温い",
+                    "usageId": "mnn-42:温い",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-42"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "温い",
+                      "usageId": "mnn-42:温い",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:酷い",
@@ -265660,7 +267071,8 @@
             "hasPractice": true,
             "review": "word-assessment-linked",
             "assessmentIds": [
-              "n4-vocab-sep-mnn-42-691"
+              "n4-vocab-sep-mnn-42-691",
+              "n4-vocab-sep-41-mnn-42-27"
             ],
             "assessmentChecks": [
               {
@@ -265700,13 +267112,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-42-27",
+                "lessonId": "mnn-42",
+                "assessesWords": [
+                  "酷い"
+                ],
+                "wordKey": "酷い",
+                "usageId": "mnn-42:酷い",
+                "wordLinks": [
+                  {
+                    "wordKey": "酷い",
+                    "usageId": "mnn-42:酷い",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-42"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "酷い",
+                      "usageId": "mnn-42:酷い",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:没る",
@@ -266150,7 +267598,8 @@
             "review": "word-assessment-linked",
             "assessmentIds": [
               "m42-r1-reading-5b89-5168",
-              "n4-vocab-sep-mnn-42-699"
+              "n4-vocab-sep-mnn-42-699",
+              "n4-vocab-sep-41-mnn-42-28"
             ],
             "assessmentChecks": [
               {
@@ -266228,13 +267677,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-42-28",
+                "lessonId": "mnn-42",
+                "assessesWords": [
+                  "安全"
+                ],
+                "wordKey": "安全",
+                "usageId": "mnn-42:安全",
+                "wordLinks": [
+                  {
+                    "wordKey": "安全",
+                    "usageId": "mnn-42:安全",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-42"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "安全",
+                      "usageId": "mnn-42:安全",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:雲",
@@ -266247,7 +267732,8 @@
             "review": "word-assessment-linked",
             "assessmentIds": [
               "m43-r1-kanji-reading-96f2",
-              "n4-vocab-sep-mnn-43-700"
+              "n4-vocab-sep-mnn-43-700",
+              "n4-kanji-sep-mnn-43-153"
             ],
             "assessmentChecks": [
               {
@@ -266308,6 +267794,44 @@
                 "assessmentScope": null,
                 "validationStatus": null,
                 "textCount": 1,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "雲",
+                      "usageId": "mnn-43:雲",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
+              },
+              {
+                "id": "n4-kanji-sep-mnn-43-153",
+                "lessonId": "mnn-43",
+                "assessesWords": [
+                  "雲"
+                ],
+                "wordKey": "雲",
+                "usageId": "mnn-43:雲",
+                "wordLinks": [
+                  {
+                    "wordKey": "雲",
+                    "usageId": "mnn-43:雲",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-43"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
                 "hasJapaneseSentenceContext": true,
                 "scheduleCheck": {
                   "correctSchedules": true,
@@ -266739,7 +268263,8 @@
             "review": "word-assessment-linked",
             "assessmentIds": [
               "m43-r1-kanji-reading-7a7a",
-              "n4-vocab-sep-mnn-43-706"
+              "n4-vocab-sep-mnn-43-706",
+              "n4-kanji-sep-mnn-43-154"
             ],
             "assessmentChecks": [
               {
@@ -266800,6 +268325,44 @@
                 "assessmentScope": null,
                 "validationStatus": null,
                 "textCount": 1,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "空",
+                      "usageId": "mnn-43:空",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
+              },
+              {
+                "id": "n4-kanji-sep-mnn-43-154",
+                "lessonId": "mnn-43",
+                "assessesWords": [
+                  "空"
+                ],
+                "wordKey": "空",
+                "usageId": "mnn-43:空",
+                "wordLinks": [
+                  {
+                    "wordKey": "空",
+                    "usageId": "mnn-43:空",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-43"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
                 "hasJapaneseSentenceContext": true,
                 "scheduleCheck": {
                   "correctSchedules": true,
@@ -269821,7 +271384,8 @@
             "review": "word-assessment-linked",
             "assessmentIds": [
               "m43-r1-reading-5bc2-3057-3044",
-              "n4-vocab-sep-mnn-43-722"
+              "n4-vocab-sep-mnn-43-722",
+              "n4-vocab-sep-41-mnn-43-29"
             ],
             "assessmentChecks": [
               {
@@ -269899,13 +271463,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-43-29",
+                "lessonId": "mnn-43",
+                "assessesWords": [
+                  "寂しい"
+                ],
+                "wordKey": "寂しい",
+                "usageId": "mnn-43:寂しい",
+                "wordLinks": [
+                  {
+                    "wordKey": "寂しい",
+                    "usageId": "mnn-43:寂しい",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-43"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "寂しい",
+                      "usageId": "mnn-43:寂しい",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:字",
@@ -269918,7 +271518,8 @@
             "review": "word-assessment-linked",
             "assessmentIds": [
               "m44-r1-kanji-reading-5b57",
-              "n4-vocab-sep-mnn-44-723"
+              "n4-vocab-sep-mnn-44-723",
+              "n4-kanji-sep-mnn-44-161"
             ],
             "assessmentChecks": [
               {
@@ -269996,6 +271597,44 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-kanji-sep-mnn-44-161",
+                "lessonId": "mnn-44",
+                "assessesWords": [
+                  "字"
+                ],
+                "wordKey": "字",
+                "usageId": "mnn-44:字",
+                "wordLinks": [
+                  {
+                    "wordKey": "字",
+                    "usageId": "mnn-44:字",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-44"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "字",
+                      "usageId": "mnn-44:字",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
             "hasSeparateAssessment": true,
@@ -270013,7 +271652,8 @@
             "review": "word-assessment-linked",
             "assessmentIds": [
               "m44-r1-kanji-reading-539a-3044",
-              "n4-vocab-sep-mnn-44-724"
+              "n4-vocab-sep-mnn-44-724",
+              "n4-vocab-sep-41-mnn-44-30"
             ],
             "assessmentChecks": [
               {
@@ -270091,13 +271731,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-44-30",
+                "lessonId": "mnn-44",
+                "assessesWords": [
+                  "厚い"
+                ],
+                "wordKey": "厚い",
+                "usageId": "mnn-44:厚い",
+                "wordLinks": [
+                  {
+                    "wordKey": "厚い",
+                    "usageId": "mnn-44:厚い",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-44"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "厚い",
+                      "usageId": "mnn-44:厚い",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:薄い",
@@ -270110,7 +271786,8 @@
             "review": "word-assessment-linked",
             "assessmentIds": [
               "m44-r1-kanji-reading-8584-3044",
-              "n4-vocab-sep-mnn-44-725"
+              "n4-vocab-sep-mnn-44-725",
+              "n4-vocab-sep-41-mnn-44-31"
             ],
             "assessmentChecks": [
               {
@@ -270188,13 +271865,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-44-31",
+                "lessonId": "mnn-44",
+                "assessesWords": [
+                  "薄い"
+                ],
+                "wordKey": "薄い",
+                "usageId": "mnn-44:薄い",
+                "wordLinks": [
+                  {
+                    "wordKey": "薄い",
+                    "usageId": "mnn-44:薄い",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-44"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "薄い",
+                      "usageId": "mnn-44:薄い",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:濃い",
@@ -270207,7 +271920,8 @@
             "review": "word-assessment-linked",
             "assessmentIds": [
               "m44-r1-kanji-reading-6fc3-3044",
-              "n4-vocab-sep-mnn-44-726"
+              "n4-vocab-sep-mnn-44-726",
+              "n4-vocab-sep-41-mnn-44-32"
             ],
             "assessmentChecks": [
               {
@@ -270285,13 +271999,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-44-32",
+                "lessonId": "mnn-44",
+                "assessesWords": [
+                  "濃い"
+                ],
+                "wordKey": "濃い",
+                "usageId": "mnn-44:濃い",
+                "wordLinks": [
+                  {
+                    "wordKey": "濃い",
+                    "usageId": "mnn-44:濃い",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-44"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "濃い",
+                      "usageId": "mnn-44:濃い",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:量",
@@ -270304,7 +272054,8 @@
             "review": "word-assessment-linked",
             "assessmentIds": [
               "m44-r1-kanji-reading-91cf",
-              "n4-vocab-sep-mnn-44-727"
+              "n4-vocab-sep-mnn-44-727",
+              "n4-kanji-sep-mnn-44-160"
             ],
             "assessmentChecks": [
               {
@@ -270382,6 +272133,44 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-kanji-sep-mnn-44-160",
+                "lessonId": "mnn-44",
+                "assessesWords": [
+                  "量"
+                ],
+                "wordKey": "量",
+                "usageId": "mnn-44:量",
+                "wordLinks": [
+                  {
+                    "wordKey": "量",
+                    "usageId": "mnn-44:量",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-44"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "量",
+                      "usageId": "mnn-44:量",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
             "hasSeparateAssessment": true,
@@ -270399,7 +272188,8 @@
             "review": "word-assessment-linked",
             "assessmentIds": [
               "m44-r1-kanji-reading-8272",
-              "n4-vocab-sep-mnn-44-728"
+              "n4-vocab-sep-mnn-44-728",
+              "n4-kanji-sep-mnn-44-162"
             ],
             "assessmentChecks": [
               {
@@ -270460,6 +272250,44 @@
                 "assessmentScope": null,
                 "validationStatus": null,
                 "textCount": 1,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "色",
+                      "usageId": "mnn-44:色",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
+              },
+              {
+                "id": "n4-kanji-sep-mnn-44-162",
+                "lessonId": "mnn-44",
+                "assessesWords": [
+                  "色"
+                ],
+                "wordKey": "色",
+                "usageId": "mnn-44:色",
+                "wordLinks": [
+                  {
+                    "wordKey": "色",
+                    "usageId": "mnn-44:色",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-44"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
                 "hasJapaneseSentenceContext": true,
                 "scheduleCheck": {
                   "correctSchedules": true,
@@ -274386,7 +276214,8 @@
             "hasPractice": true,
             "review": "word-assessment-linked",
             "assessmentIds": [
-              "n4-vocab-sep-mnn-44-756"
+              "n4-vocab-sep-mnn-44-756",
+              "n4-vocab-sep-41-mnn-44-33"
             ],
             "assessmentChecks": [
               {
@@ -274426,13 +276255,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-44-33",
+                "lessonId": "mnn-44",
+                "assessesWords": [
+                  "無道"
+                ],
+                "wordKey": "無道",
+                "usageId": "mnn-44:無道",
+                "wordLinks": [
+                  {
+                    "wordKey": "無道",
+                    "usageId": "mnn-44:無道",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-44"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "無道",
+                      "usageId": "mnn-44:無道",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:未だ",
@@ -274500,7 +276365,8 @@
             "hasPractice": true,
             "review": "word-assessment-linked",
             "assessmentIds": [
-              "n4-vocab-sep-mnn-44-758"
+              "n4-vocab-sep-mnn-44-758",
+              "n4-vocab-sep-41-mnn-44-34"
             ],
             "assessmentChecks": [
               {
@@ -274540,13 +276406,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-44-34",
+                "lessonId": "mnn-44",
+                "assessesWords": [
+                  "綺麗"
+                ],
+                "wordKey": "綺麗",
+                "usageId": "mnn-44:綺麗",
+                "wordLinks": [
+                  {
+                    "wordKey": "綺麗",
+                    "usageId": "mnn-44:綺麗",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-44"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "綺麗",
+                      "usageId": "mnn-44:綺麗",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:如何",
@@ -278028,7 +279930,8 @@
             "hasPractice": true,
             "review": "word-assessment-linked",
             "assessmentIds": [
-              "n4-vocab-sep-mnn-45-790"
+              "n4-vocab-sep-mnn-45-790",
+              "n4-vocab-sep-41-mnn-45-35"
             ],
             "assessmentChecks": [
               {
@@ -278068,13 +279971,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-45-35",
+                "lessonId": "mnn-45",
+                "assessesWords": [
+                  "若い"
+                ],
+                "wordKey": "若い",
+                "usageId": "mnn-45:若い",
+                "wordLinks": [
+                  {
+                    "wordKey": "若い",
+                    "usageId": "mnn-45:若い",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-45"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "若い",
+                      "usageId": "mnn-45:若い",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:女性",
@@ -278702,7 +280641,8 @@
             "hasPractice": true,
             "review": "word-assessment-linked",
             "assessmentIds": [
-              "n4-vocab-sep-mnn-45-802"
+              "n4-vocab-sep-mnn-45-802",
+              "n4-vocab-sep-41-mnn-45-36"
             ],
             "assessmentChecks": [
               {
@@ -278742,13 +280682,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-45-36",
+                "lessonId": "mnn-45",
+                "assessesWords": [
+                  "狭い"
+                ],
+                "wordKey": "狭い",
+                "usageId": "mnn-45:狭い",
+                "wordLinks": [
+                  {
+                    "wordKey": "狭い",
+                    "usageId": "mnn-45:狭い",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-45"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "狭い",
+                      "usageId": "mnn-45:狭い",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:受付",
@@ -281739,7 +283715,8 @@
             "hasPractice": true,
             "review": "word-assessment-linked",
             "assessmentIds": [
-              "n4-vocab-sep-mnn-47-826"
+              "n4-vocab-sep-mnn-47-826",
+              "n4-vocab-sep-41-mnn-47-37"
             ],
             "assessmentChecks": [
               {
@@ -281779,13 +283756,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-47-37",
+                "lessonId": "mnn-47",
+                "assessesWords": [
+                  "におい"
+                ],
+                "wordKey": "におい",
+                "usageId": "mnn-47:におい",
+                "wordLinks": [
+                  {
+                    "wordKey": "におい",
+                    "usageId": "mnn-47:におい",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-47"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "におい",
+                      "usageId": "mnn-47:におい",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:味",
@@ -282616,7 +284629,8 @@
             "review": "word-assessment-linked",
             "assessmentIds": [
               "m47-r1-reading-706b",
-              "n4-vocab-sep-mnn-47-835"
+              "n4-vocab-sep-mnn-47-835",
+              "n4-kanji-sep-mnn-47-178"
             ],
             "assessmentChecks": [
               {
@@ -282694,6 +284708,44 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-kanji-sep-mnn-47-178",
+                "lessonId": "mnn-47",
+                "assessesWords": [
+                  "火"
+                ],
+                "wordKey": "火",
+                "usageId": "mnn-47:火",
+                "wordLinks": [
+                  {
+                    "wordKey": "火",
+                    "usageId": "mnn-47:火",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-47"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "火",
+                      "usageId": "mnn-47:火",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
             "hasSeparateAssessment": true,
@@ -282711,7 +284763,8 @@
             "review": "word-assessment-linked",
             "assessmentIds": [
               "m47-r1-kanji-reading-5302-3044",
-              "n4-vocab-sep-mnn-47-836"
+              "n4-vocab-sep-mnn-47-836",
+              "n4-vocab-sep-41-mnn-47-38"
             ],
             "assessmentChecks": [
               {
@@ -282789,13 +284842,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-47-38",
+                "lessonId": "mnn-47",
+                "assessesWords": [
+                  "匂い"
+                ],
+                "wordKey": "匂い",
+                "usageId": "mnn-47:匂い",
+                "wordLinks": [
+                  {
+                    "wordKey": "匂い",
+                    "usageId": "mnn-47:匂い",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-47"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "匂い",
+                      "usageId": "mnn-47:匂い",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:待たせます",
@@ -283087,7 +285176,8 @@
             "hasPractice": true,
             "review": "word-assessment-linked",
             "assessmentIds": [
-              "n4-vocab-sep-mnn-48-842"
+              "n4-vocab-sep-mnn-48-842",
+              "n4-vocab-sep-41-mnn-48-39"
             ],
             "assessmentChecks": [
               {
@@ -283127,13 +285217,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-48-39",
+                "lessonId": "mnn-48",
+                "assessesWords": [
+                  "自由"
+                ],
+                "wordKey": "自由",
+                "usageId": "mnn-48:自由",
+                "wordLinks": [
+                  {
+                    "wordKey": "自由",
+                    "usageId": "mnn-48:自由",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-48"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "自由",
+                      "usageId": "mnn-48:自由",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:自己紹介",
@@ -285286,6 +287412,7 @@
             "review": "word-assessment-linked",
             "assessmentIds": [
               "n4-vocab-sep-mnn-49-862",
+              "n4-kanji-sep-mnn-49-184",
               "n4v-02-school-work"
             ],
             "assessmentChecks": [
@@ -285309,6 +287436,44 @@
                 "assessmentScope": null,
                 "validationStatus": null,
                 "textCount": 1,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "客",
+                      "usageId": "mnn-49:客",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
+              },
+              {
+                "id": "n4-kanji-sep-mnn-49-184",
+                "lessonId": "mnn-49",
+                "assessesWords": [
+                  "客"
+                ],
+                "wordKey": "客",
+                "usageId": "mnn-49:客",
+                "wordLinks": [
+                  {
+                    "wordKey": "客",
+                    "usageId": "mnn-49:客",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-49"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
                 "hasJapaneseSentenceContext": true,
                 "scheduleCheck": {
                   "correctSchedules": true,
@@ -286675,7 +288840,8 @@
             "hasPractice": true,
             "review": "word-assessment-linked",
             "assessmentIds": [
-              "n4-vocab-sep-mnn-49-879"
+              "n4-vocab-sep-mnn-49-879",
+              "n4-vocab-sep-41-mnn-49-40"
             ],
             "assessmentChecks": [
               {
@@ -286715,13 +288881,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-49-40",
+                "lessonId": "mnn-49",
+                "assessesWords": [
+                  "不道"
+                ],
+                "wordKey": "不道",
+                "usageId": "mnn-49:不道",
+                "wordLinks": [
+                  {
+                    "wordKey": "不道",
+                    "usageId": "mnn-49:不道",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-49"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "不道",
+                      "usageId": "mnn-49:不道",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:切る",
@@ -287573,7 +289775,8 @@
             "hasPractice": true,
             "review": "word-assessment-linked",
             "assessmentIds": [
-              "n4-vocab-sep-mnn-49-895"
+              "n4-vocab-sep-mnn-49-895",
+              "n4-vocab-sep-41-mnn-49-41"
             ],
             "assessmentChecks": [
               {
@@ -287613,13 +289816,49 @@
                   "method": "recordAnswer on isolated fresh states; no persistence"
                 },
                 "overlaps": []
+              },
+              {
+                "id": "n4-vocab-sep-41-mnn-49-41",
+                "lessonId": "mnn-49",
+                "assessesWords": [
+                  "汚い"
+                ],
+                "wordKey": "汚い",
+                "usageId": "mnn-49:汚い",
+                "wordLinks": [
+                  {
+                    "wordKey": "汚い",
+                    "usageId": "mnn-49:汚い",
+                    "kind": "meaning",
+                    "sourceLessonId": "mnn-49"
+                  }
+                ],
+                "evidenceKind": "meaning",
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": {
+                  "correctSchedules": true,
+                  "incorrectSchedules": true,
+                  "preservesUsageId": true,
+                  "perWord": [
+                    {
+                      "wordKey": "汚い",
+                      "usageId": "mnn-49:汚い",
+                      "correctSchedules": true,
+                      "incorrectSchedules": true,
+                      "preservesUsageId": true
+                    }
+                  ],
+                  "method": "recordAnswer on isolated fresh states; no persistence"
+                },
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "word:返す",
@@ -299556,11 +301795,13 @@
             "hasLesson": true,
             "hasPractice": true,
             "practiceIds": [
-              "m27-g1"
+              "m27-g1",
+              "n4-grammar-sep-mnn-27-1"
             ],
             "review": "question-linked",
             "assessmentIds": [
-              "n4a-27-3"
+              "n4a-27-3",
+              "n4-grammar-sep-mnn-27-1"
             ],
             "assessmentChecks": [
               {
@@ -299582,13 +301823,27 @@
                     ]
                   }
                 ]
+              },
+              {
+                "id": "n4-grammar-sep-mnn-27-1",
+                "lessonId": "mnn-27",
+                "assessesWords": [],
+                "grammarIds": [
+                  "mnn-27-g1"
+                ],
+                "wordLinks": [],
+                "evidenceKind": null,
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": null,
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "mnn-27-g2",
@@ -299599,11 +301854,13 @@
             "hasLesson": true,
             "hasPractice": true,
             "practiceIds": [
-              "m27-g2"
+              "m27-g2",
+              "n4-grammar-sep-mnn-27-2"
             ],
             "review": "question-linked",
             "assessmentIds": [
-              "n4a-27-2"
+              "n4a-27-2",
+              "n4-grammar-sep-mnn-27-2"
             ],
             "assessmentChecks": [
               {
@@ -299615,6 +301872,22 @@
                 "assessmentScope": null,
                 "validationStatus": null,
                 "textCount": 5,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": null,
+                "overlaps": []
+              },
+              {
+                "id": "n4-grammar-sep-mnn-27-2",
+                "lessonId": "mnn-27",
+                "assessesWords": [],
+                "grammarIds": [
+                  "mnn-27-g2"
+                ],
+                "wordLinks": [],
+                "evidenceKind": null,
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
                 "hasJapaneseSentenceContext": true,
                 "scheduleCheck": null,
                 "overlaps": []
@@ -300331,11 +302604,13 @@
             "hasLesson": true,
             "hasPractice": true,
             "practiceIds": [
-              "m33-g3"
+              "m33-g3",
+              "n4-grammar-sep-mnn-33-3"
             ],
             "review": "question-linked",
             "assessmentIds": [
-              "n4b-33-7"
+              "n4b-33-7",
+              "n4-grammar-sep-mnn-33-3"
             ],
             "assessmentChecks": [
               {
@@ -300357,13 +302632,27 @@
                     ]
                   }
                 ]
+              },
+              {
+                "id": "n4-grammar-sep-mnn-33-3",
+                "lessonId": "mnn-33",
+                "assessesWords": [],
+                "grammarIds": [
+                  "mnn-33-g3"
+                ],
+                "wordLinks": [],
+                "evidenceKind": null,
+                "assessmentScope": null,
+                "validationStatus": null,
+                "textCount": 3,
+                "hasJapaneseSentenceContext": true,
+                "scheduleCheck": null,
+                "overlaps": []
               }
             ],
-            "hasSeparateAssessment": false,
-            "missing": [
-              "separate-assessment"
-            ],
-            "complete": false
+            "hasSeparateAssessment": true,
+            "missing": [],
+            "complete": true
           },
           {
             "id": "mnn-34-g0",
@@ -303630,7 +305919,7 @@
       "n5-grammar-assessment-supp-24",
       "n5-grammar-assessment-supp-25"
     ],
-    "questions": 1904,
+    "questions": 2162,
     "withOverlap": [
       {
         "id": "m01-7",
