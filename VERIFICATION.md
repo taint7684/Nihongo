@@ -1,3 +1,20 @@
+> Cập nhật hiện hành 13/11/2026: xem [bàn giao có phạm vi và bằng chứng](HANDOFF_2026-11-13.md). Nội dung bên dưới giữ làm lịch sử; các số cũ không thay thế audit hiện tại. N3 là tùy chọn; mục tiêu lõi vẫn 0→N5→N4, chưa hoàn tất. Study Room là dự án riêng.
+
+## Kiểm tra mới — 13/11/2026
+
+- `npm.cmd test -- --maxWorkers=2`: **27 file, 139 test qua**, gồm backup v1 đã hoàn thành bộ bốn câu cũ và giữ câu mới chưa làm. Không nới validator để nhận fixture sai.
+- `npm.cmd run build`: qua; bundle chính **1.438,90 kB** (gzip 385,34 kB), còn cảnh báo chunk lớn. Không coi build là kiểm học thuật.
+- `node scripts/order-monthly-ui.mjs`: Edge thật, profile mới; 12 câu mới/sai/lời giải/lịch từ chung, đáp án thứ tự, phát Blob TTS, chống lưu trùng, reload, tải backup và mobile 390 px qua. AI bị chặn trong QA này; không phải benchmark mô hình.
+- `npm.cmd run test:access`: qua, mở tự do 10→3→25 và tiếp tục sau reload; chỉ lưu hoạt động thực làm.
+- `npm.cmd run test:voice`: qua, microphone tổng hợp + API thật; record/save/play/export/delete/import/duplicate-skip/transaction abort. Lần đầu harness gọi play trước audio sẵn sàng; đã chờ phần tử có readyState trước khi gọi lại, giữ nguyên kiểm phát hết.
+- `node scripts/audit-unmatched-reference.mjs`: hash JMdict khớp bản ghim; 19/19 có ứng viên, 2 có usage hiện tại. Không tự chọn nghĩa/cấp cho 19 mục.
+- `node scripts/done-gates.mjs`: sinh thành công; overall vẫn **not-met**. G2 đạt truy vết nguồn, G3/G5/G6/G8/G9/G11 chưa đạt; còn cổng chưa xác minh. N3 không bắt buộc, mẫu số N5/N4 giữ nguyên.
+- `git diff --check` trên các tệp tracked đã sửa liên quan: qua. Không stage/commit hàng loạt worktree có dữ liệu/output từ các vòng trước; không push.
+
+Các lần thất bại khi phát triển được sửa bằng ngữ liệu/fixture/harness phù hợp, không bỏ điều kiện: câu mới ban đầu trùng luyện; fixture completion thiếu answers bị validator từ chối; chờ phát audio không thay kiểm nội dung phát âm. Không dùng QA làm bằng chứng học thật. Không kiểm microphone vật lý hoặc duyệt ngữ âm độc lập.
+
+## Lịch sử giữ nguyên
+
 # Xác minh theo PROJECT_BRIEF — 11/11/2026
 
 ## Ba kết quả tách biệt

@@ -73,3 +73,28 @@ Lỗi gốc: câu giải thích bắt các vế nốiくて/でphải cùng ch�
 
 ## Audio cùng chữ khác ngữ cảnh
 Không lấy chữ1日 làm khóa audio duy nhất: cảtext vàreading tham gia lookup để tách lịch/khoảng. Giờ chỉ ghi số ở cột bảng được thêm時 vào đầu vào audio; giữ nguyên ID bài/câu hỏi. Dấu chấm nhóm nghìn Việt trong1.250円 được bỏ ở đầu vào TTS. Trường âm8日 có kế hoạch lexical riêng, không thay toàn bộou/ei. Hồi quy và Edge xác nhận hai audio khác nhau; không suy từ playback sang phát âm đã duyệt. Không chạy kiểm catalog/index giữa lúc generator đang ghi hai file; luôn kiểm sau khi kết thúc, không nới assertion.
+
+
+## G3 — phân tầng đề xuất Kanji N3 (12/11/2026)
+- Lỗi gốc: gộp consensus, danh sách cộng đồng, mở rộng theo chức năng và chữ cầu nối có thể làm con số đề xuất trông như danh sách N3 đã xác nhận.
+- Nguyên nhân: nguồn có phạm vi/chức năng khác nhau; mốc ~350/~650 chỉ là cảnh báo quy mô, không xác nhận độ phù hợp.
+- Sửa: giữ working-core proposal 295 (81 consensus + 214 community-selection), tách 104 functional-extension thành tùy chọn, tách 227 bridge candidates chưa xếp cấp; không pad/trim theo mốc. Chấp nhận Tanos mirror ghim hash cho nghiên cứu membership có ghi công, không suy parity artifact gốc hoặc CC license.
+- Hồi quy: `node scripts/done-gates.mjs` ghi riêng số và trạng thái chính sách; G3 vẫn `not-met` cho tới khi inventory và đối chiếu nguồn đủ, không tạo lesson/progress N3 từ nghiên cứu.
+
+## NAV-N5-ASSESSMENT — 12/11/2026
+- Lỗi gốc: sau khi hoàn thành Minna bài 1, trang Hôm nay đề xuất `n5-assessment-r1-01` thay vì bài 2.
+- Nguyên nhân: bộ chọn tuyến chính đưa mọi `track: assessment` vào thứ tự tuần tự; ngân hàng R1 có mốc `waitFor` từng bài nên chen giữa các bài Minna, trái mốc học và nhóm ôn đã định.
+- Sửa: đánh dấu riêng các bài ngân hàng R1 `autoRecommend:false`; bộ chọn chỉ bỏ chúng khỏi gợi ý tự động. ID, khả năng mở trực tiếp và các mốc đánh giá chính khác không đổi.
+- Hồi quy: `node scripts/learning-flow-ui.mjs` xác nhận hoàn thành `mnn-01` gợi ý bài 2; bài kana vẫn là nhánh song song, không bị khóa.
+- Xem lại nếu kế hoạch tuần có dữ liệu người học thật cho thấy ngân hàng này nên được gợi ý ở mốc khác; không tự xếp nó vào tuyến chính để tăng số đánh giá.
+
+## WORD-RECALL-ID — 12/11/2026
+- Lỗi gốc: lưu lượt nhớ từ phát sinh `ReferenceError: lesson is not defined`.
+- Nguyên nhân: prop `lesson` được đổi tên cục bộ thành `l`, nhưng `check()` lại đọc tên prop gốc.
+- Sửa: tạo khóa lịch từ bằng `l.id`, không đổi ID mục từ, lịch sử hay schema backup.
+- Hồi quy: `node scripts/learning-flow-ui.mjs` phát lại luồng thật; câu trả lời được lưu đúng lịch chung và trạng thái từ/vị trí buổi học còn sau reload.
+
+## QA-INTRO-AUDIO — 12/11/2026
+- Lỗi gốc: `test:access` tìm audio quiz trong `hira-k`, nơi hiện không có audio mục từ để mở bài nhận diện; selector cũ không chờ audio được tải.
+- Sửa: chuyển kiểm tra sang bài kana có audio từ đã đóng gói (`hira-n`) và chờ player thật trước khi phát. QA không tạo hoặc giả lập file/ngữ liệu âm thanh.
+- Hồi quy: `npm.cmd run test:access` phát được audio đề mẫu và audio từ nhập môn trên Edge; đây chỉ xác nhận playback/UI, không phải duyệt phát âm.

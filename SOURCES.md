@@ -1,3 +1,5 @@
+> Cập nhật hiện hành 13/11/2026: xem [bàn giao có phạm vi và bằng chứng](HANDOFF_2026-11-13.md). Nội dung bên dưới giữ làm lịch sử; các số cũ không thay thế audit hiện tại. N3 là tùy chọn; mục tiêu lõi vẫn 0→N5→N4, chưa hoàn tất. Study Room là dự án riêng.
+
 # Nguồn và quyền sử dụng — cập nhật 11/11/2026
 
 Trạng thái hiện hành: có học liệu tự soạn cho 25 bài tham chiếu và TTS từ/câu/đoạn; chi tiết số lượng theo catalog/COVERAGE.md. Các số 10 bài hoặc 11 audio trong phần lịch sử bên dưới mô tả mốc cũ, không phải tổng hiện tại.
@@ -30,7 +32,7 @@ public/audio/catalog.json và src/audio-catalog.json là danh mục hiện hành
 
 React/Vite/Vitest/plugin React MIT (LICENSE trong dependencies). [Ollama](https://github.com/ollama/ollama) MIT, portable v0.40.16 được đối chiếu digest asset chính thức trước chạy; .runtime/verified-release.json. [Qwen3 1.7B](https://ollama.com/library/qwen3:1.7b), [Qwen3 4B](https://ollama.com/library/qwen3:4b), [Qwen chính thức](https://huggingface.co/Qwen/Qwen3-4B): Apache-2.0, tải model không đồng nghĩa hạ tầng miễn phí. Ở đây chạy CPU/phần cứng sẵn có, không API trả phí/thẻ/trial. Mỗi blob đối chiếu SHA-256 manifest. Thử 4B do lỗi thật 1.7B, không tải nhiều ứng viên. AI_QUALITY.md ghi rõ thất bại.
 
-[EDRDG](https://www.edrdg.org/edrdg/licence.html): ứng viên từ điển CC BY-SA, CHƯA tích hợp JMdict/Kanjidic; tra tại chỗ hiện chỉ dùng mục từ dự án đã biên soạn, không tự nhận là từ điển đầy đủ.
+[EDRDG](https://www.edrdg.org/edrdg/licence.html): dữ liệu từ điển CC BY-SA 4.0; JMdict/KANJIDIC2 đã tích hợp ngày 12/11/2026 trong phạm vi ghi ở mục "dữ liệu từ điển thực tế". Không coi nguồn từ điển là danh sách JLPT hoặc duyệt độc lập nghĩa Việt/ví dụ.
 
 Khảo sát trải nghiệm trước đây: [Dũng Mori](https://online.dungmori.com/), [Riki](https://help.riki.edu.vn/huong-dan-vao-hoc-online/nhung-cau-hoi-thuong-gap), [Mazii](https://mazii.net/vi-VN), [MochiKanji](https://mochidemy.com/kanji/). Chỉ tham khảo mô tả chính thức; chưa trực tiếp trải nghiệm toàn bộ, không coi quảng cáo là bằng chứng hiệu quả, không sao chép nội dung.
 
@@ -66,7 +68,7 @@ Báo cáo pilot và truy vấn thật ở .tmp-ui/tts-pilot, .tmp-ui/tts-course.
 
 Giải thích thuật ngữ/bảng và nghe mới tự biên soạn, không sao chép câu/đề. TTS cùng giọng/phiên bản/điều khoản đã ghi; kế hoạch đọc có kiểm, ngữ âm chưa duyệt độc lập. SM-2 biến thể triển khai theo [mô tả Wozniak](https://super-memory.com/english/ol/sm2.htm), không sao chép code hoặc hứa hiệu quả; SRS.md ghi điều chỉnh.
 
-Chưa tích hợp JMdict/KANJIDIC/Tatoeba; chưa được xem nguồn mở nào cũng tự động tái phân phối. Nghĩa/đọc từ hiện vẫn là dữ liệu dự án theo bài, chưa danh mục từ điển đầy đủ.
+Tatoeba chưa tích hợp; giấy phép mở không tự động cho phép mọi kiểu tái phân phối. JMdict/KANJIDIC2 đã tích hợp theo hồ sơ nguồn ngày 12/11/2026; nghĩa Việt/ví dụ trong học liệu vẫn cần kiểm riêng, không suy từ việc có mục từ điển.
 
 Ngưỡng giao tiếp được chọn tạm theo ủy quyền “tôi chưa biết nhưng cứ làm tốt nhất giúp tôi”, không phải duyệt chuyên môn. communication-criteria.json không có automaticSpeechPass; không dùng tự báo cáo hoặc keyword để chứng minh đạt.
 
@@ -93,9 +95,9 @@ Hình tình huống public/learning-images/borrow-umbrella.svg vàstamp-counter.
 
 ## 12/11 — dữ liệu từ điển thực tế đã tích hợp
 
-JMdict English ngày2026-11-09,219040entries; JSON conversion scriptin/jmdict-simplified release3.6.2+20261109214828. KANJIDIC2 lấy trực tiếpEDRDG, ngày2026-11-12,version2026-316,13108chữ; chỉ tríchEnglish/Japanese/Vietnamese/classical radical/stroke/grade/nanori; không tái phân phốiSKIP/mã chỉ mục đặc biệt. Giấy phépCC BY-SA4.0,James William Breen/EDRDG và contributors. public/dictionaries/licenses/edrdg.html và jmdict-conversion.md giữ điều kiện/nguồn. CácJSON dẫn xuất theoCC BY-SA4.0. Không coi dictionary có cấpJLPT hiện hành.
+JMdict English ngày2026-11-09,219040entries; JSON conversion scriptin/jmdict-simplified release3.6.2+20261109214828. KANJIDIC2 lấy trực tiếpEDRDG, ngày2026-11-12,version2026-316,13108chữ; chỉ tríchEnglish/Japanese/Vietnamese/classical radical/stroke/grade/nanori; không tái phân phốiSKIP/mã chỉ mục đặc biệt. Giấy phépCC BY-SA4.0,James William Breen/EDRDG và contributors. public/dictionaries/licenses/edrdg.html và public/dictionaries/licenses/jmdict-conversion.md giữ điều kiện/nguồn. CácJSON dẫn xuất theoCC BY-SA4.0. Không coi dictionary có cấpJLPT hiện hành.
 Dữ liệu nguồn có SHA và URL tại public/dictionaries/source-manifest.json; raw cache ngoàiGit. Không tự gắn nhãn nghĩa Việt đã đối chiếu nếu chưa chọn sense/kiểm nghĩa. UI tra nguồn tải tại chỗ, không gửi câu hỏi người dùng.
-Irodori wordlist_all/sentence_patterns_list/kanji_list XLSX: lấy chính thứcJF12/11, so sánh nội bộ, không đóng gói nguyên workbook/đáp án/dịch vào app. MinnaI/IIsyllabus là cùngfile, không tính2nguồn độc lập. Irodori khác nhà biên soạn/phương pháp vớiMinna; JMdict/KANJIDIC là nguồn định nghĩa, không thay danh mục trình độ. Tanos không truy cập thành công ở vòng này, không giả đã đối chiếu.
+Irodori wordlist_all/sentence_patterns_list/kanji_list XLSX: lấy chính thứcJF12/11, so sánh nội bộ, không đóng gói nguyên workbook/đáp án/dịch vào app. MinnaI/IIsyllabus là cùngfile, không tính2nguồn độc lập. Irodori khác nhà biên soạn/phương pháp vớiMinna; JMdict/KANJIDIC là nguồn định nghĩa, không thay danh mục trình độ. Tanos membership page không tải trực tiếp được ở vòng này; mirror ghim hash và quyền attribution từ trang chia sẻ được ghi trong evaluation/n3-reference-research.json. Chưa xác minh parity với artifact gốc, không gán license Creative Commons.
 
 
 ## Đối chiếu nguồn 12/11/2026 — dữ liệu thực và giới hạn
@@ -125,3 +127,9 @@ https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/067.html (gốc�
 
 ## Audio bảng nền — học liệu tự soạn, đối chiếu 12/11/2026
 145 dòng hiện có của bảng dự án đã gắn audio, không sao chép audio hoặc định dạng bảng TUFS. Đối chiếu: https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/017.html (trợ số từ, người/vật/tầng và biến thể), explanation/015.html (các cách đọc số), card/018.html (giờ), card/019.html (phút), card/022.html (tháng/ngày/thứ). Ví dụ/bảng Việt của dự án giữ nguyên và bổ sung ghi chú. Audio chọn biến thể đầu tiên của dòng, không coi biến thể khác là sai.1日 lịch dùngついたち, khoảng một ngày dùngいちにち. Metadata foundationUses lưu ngữ cảnh; báo phủ tại evaluation/foundation-audio-coverage.json. TTSVOICEVOX engine0.26.1/四国めたん và điều khoản như catalog; không phải audio người Nhật thu và chưa người nghe duyệt độc lập.
+
+## Đối chiếu mới 13/11/2026
+
+12 tình huống đánh giá bổ sung bài 1–2 do dự án tự soạn, không sao chép bài sách. Nghĩa mục từ đối chiếu selected sense trong hồ sơ JMdict hiện có (ngày dữ liệu 2026-11-09, EDRDG/scriptin, CC BY-SA 4.0; attribution/license giữ trong manifest). IDs ghi trong `sourceEvidence` và đối chiếu với `sourceReview` của mục học. Đây là rà của AI biên soạn, không phải duyệt học thuật độc lập; không thêm audio mới.
+
+`evaluation/unmatched-reference-audit.json` phân biệt 19 yêu cầu không khớp cách viết trong Irodori với ứng viên JMdict. Có ứng viên từ điển không xác lập cấp JLPT, nghĩa được chọn hoặc quyền sao chép tài liệu Irodori. Script kiểm hash bản JMdict đã ghim; không tải dữ liệu mới hoặc đổi R1/R2.

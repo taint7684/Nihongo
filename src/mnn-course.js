@@ -7,6 +7,7 @@ import{expandN5Lexicon}from './n5-lexical-expansion.js';
 import{applyN5VocabularyBatch01}from './n5-vocabulary-batch-01.js';
 import{applyN5VocabularyBatch02}from './n5-vocabulary-batch-02.js';
 import{applyN5VocabularyBatch03}from './n5-vocabulary-batch-03.js';
+import{applyN5VocabularyBatch04}from './n5-vocabulary-batch-04.js';
 import{applyN4VocabularyBatch01}from'./n4-vocabulary-batch-01.js';
 import{applyN4VocabularyBatch02}from'./n4-vocabulary-batch-02.js';
 import{applyN4VocabularyBatch03}from'./n4-vocabulary-batch-03.js';
@@ -41,7 +42,7 @@ mnnUnits.find(u=>u.number===15).grammar[2].pattern='Vています（trạng thá
 const negativeUnit=mnnUnits.find(u=>u.number===17);negativeUnit.legacyQuestionIds=negativeUnit.questions.map(q=>q.id);negativeUnit.tables[0].rows.push(['あります','ない','ngoại lệ; không dùng あらない ở dạng mục tiêu']);negativeUnit.grammar[0].pitfall+=' Ngoại lệ: あります（ある）→ない; 買います→買わない.';negativeUnit.questions.push({id:'m17-x-aru',cycle:0,kind:'recall',prompt:'Gõ dạng ない của あります (Hiragana).',accepted:['ない'],choices:['ない','Chưa khớp'],answer:0,explanation:'ある phủ định bằng ない, không áp quy tắc nhóm 1 thành あらない.',skill:'ngoại lệ ある'});negativeUnit.guidedMap[0].push('m17-x-aru');negativeUnit.sourceUrls.push('https://www2.ninjal.ac.jp/basicverbbank/single_headwords/%E3%81%82%E3%82%8B-%E5%9C%A8%E3%82%8B%E3%83%BB%E6%9C%89%E3%82%8B.html');
 for(const u of mnnUnits)u.listeningTasks=listeningContent[u.number]||u.listeningTasks||[];
 repairN5(mnnUnits);addN5Words(mnnUnits);
-expandN5Lexicon(mnnUnits);expandN5Kanji(mnnUnits);applyN5FunctionalLexicon(mnnUnits);applyN5VocabularyBatch01(mnnUnits);applyN5VocabularyBatch02(mnnUnits);applyN5VocabularyBatch03(mnnUnits);applyN5FunctionalPractice(mnnUnits);addPrivateKanji(mnnUnits);
+expandN5Lexicon(mnnUnits);expandN5Kanji(mnnUnits);applyN5FunctionalLexicon(mnnUnits);applyN5VocabularyBatch01(mnnUnits);applyN5VocabularyBatch02(mnnUnits);applyN5VocabularyBatch03(mnnUnits);applyN5VocabularyBatch04(mnnUnits);applyN5FunctionalPractice(mnnUnits);addPrivateKanji(mnnUnits);
 mnnUnits.push(...n4Units);applyN4VocabularyBatch01(mnnUnits);applyN4VocabularyBatch02(mnnUnits);applyN4VocabularyBatch03(mnnUnits);applyN4VocabularyBatch04(mnnUnits);applyN4VocabularyBatch05(mnnUnits);applyN4GapContexts(mnnUnits);applyN4KanjiSupports(mnnUnits);applyN4KanjiPlan(mnnUnits);
 const ownerPracticeUnit=mnnUnits.find(unit=>unit.number===2);
 if(!ownerPracticeUnit?.guidedMap)throw Error('Lesson 2 owner-question practice requires its existing guided map.');

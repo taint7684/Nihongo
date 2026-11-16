@@ -1,6 +1,6 @@
 # DONE GATES
 
-Sinh bằng `node scripts/done-gates.mjs` lúc 2026-11-14T04:57:58.549Z. Không sửa số bằng tay.
+Sinh bằng `node scripts/done-gates.mjs` lúc 2026-11-16T02:31:57.874Z. Không sửa số bằng tay.
 
 **Chưa hoàn thành; chưa sẵn sàng làm nguồn học duy nhất.** Audit mã/dữ liệu, không phải duyệt học thuật hoặc năng lực người học. Script này không chạy test/build/browser; kết quả kiểm thử riêng ghi trong NEXT_STEPS.md.
 
@@ -10,7 +10,7 @@ Trạng thái: `not-met` = có mắt xích thiếu; `unverified` = bằng chứn
 |---|---|---|
 | G0 Nền an toàn | unverified | Git/baseline và 50 ID có bằng chứng; QA hiện hữu không được coi là đã chạy mới. Chưa chứng minh toàn bộ khôi phục/migration trên HEAD hiện tại. |
 | G1 Chuẩn hóa mục từ | unverified | Có entry/writing/form/usage và adapter; báo cáo hiện có không tự chứng minh migration không mất mọi lịch sử. |
-| G2 Đối chiếu nguồn 100% | met | 1499/1499 lượt từ lõi có sense JMdict; 6/6 ngoại lệ có nguồn riêng; 97/97 trường hợp mơ hồ được thu hẹp theo usage; 298/298 Kanji có hồ sơ KANJIDIC2 hợp lệ, 298 có nghĩa và 298 có cách đọc. Manifest, license file và attribution được kiểm. G2 chỉ xác nhận so sánh/truy vết nguồn theo từng mục; trạng thái review là của tác giả dự án, không phải đánh giá ngôn ngữ độc lập. Độ chính xác độc lập vẫn thuộc G4. |
+| G2 Đối chiếu nguồn 100% | met | 1522/1522 lượt từ lõi có sense JMdict; 6/6 ngoại lệ có nguồn riêng; 97/97 trường hợp mơ hồ được thu hẹp theo usage; 298/298 Kanji có hồ sơ KANJIDIC2 hợp lệ, 298 có nghĩa và 298 có cách đọc. Manifest, license file và attribution được kiểm. G2 chỉ xác nhận so sánh/truy vết nguồn theo từng mục; trạng thái review là của tác giả dự án, không phải đánh giá ngôn ngữ độc lập. Độ chính xác độc lập vẫn thuộc G4. |
 | G3 Tập tham chiếu độc lập | not-met | Tập tham chiếu hiện chưa xác nhận đủ phạm vi: 450 mục từ vựng N5 và 222 mục từ vựng mới N4; nghiên cứu đề xuất thêm 322/345 bề mặt từ N5/N4 nhưng còn 19 yêu cầu chưa khớp bề mặt trong tập Irodori giới hạn (không đồng nghĩa thiếu JMdict). Kanji tham chiếu hiện có 105 N5/185 N4; N3 là đề xuất 399 chữ, trong đó 295 thuộc đề xuất lõi và 104 là mở rộng tùy chọn; 227 ứng viên cầu nối chưa được xếp cấp. Ngữ pháp có 144 N5/86 N4; chỉ 23/144 và 5/86 mục có trích dẫn nguồn gắn trực tiếp. N3 là nghiên cứu tùy chọn, không chặn N4 theo yêu cầu 13/11; inventory và phạm vi N5/N4 vẫn chưa đủ; không suy ra đạt từ mốc ước lượng. |
 | G4 Độ chính xác độc lập ≤3% | unverified | Mẫu nguồn hiện có là authoring assistant/AI review; chưa có kiểm độc lập đúng quy trình và tỷ lệ tái kiểm cho mọi nhóm lớn. |
 | G5 Chuỗi học khép kín 100% | not-met | Chưa đủ assessment riêng, liên kết ôn và mẫu số tham chiếu. Kiểm trùng câu chỉ là kiểm mã, không xác minh độ khó/ngữ nghĩa. |
@@ -28,9 +28,9 @@ Mẫu số là kho hiện có, chưa là tập tham chiếu đầy đủ. Kanji 
 
 | Cấp | Nhóm | Tổng | Học | Luyện | Link đánh giá | Không trùng câu | Ôn có link | Khép kín | Thiếu học/luyện/đánh giá/ôn |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---|
-| N5 | words | 806 | 806 | 806 | 225 | 225 | 224 | 224 | 0/0/581/582 |
-| N5 | kanji | 123 | 123 | 123 | 20 | 20 | 20 | 20 | 0/0/103/103 |
-| N5 | grammar | 144 | 144 | 144 | 86 | 81 | 144 | 81 | 0/0/63/0 |
+| N5 | words | 810 | 810 | 810 | 810 | 810 | 810 | 810 | 0/0/0/0 |
+| N5 | kanji | 123 | 123 | 123 | 123 | 123 | 123 | 123 | 0/0/0/0 |
+| N5 | grammar | 144 | 144 | 144 | 144 | 117 | 144 | 117 | 0/0/27/0 |
 | N5 | tasks | 56 | 56 | 56 | 0 | 0 | 56 | 0 | 0/0/56/0 |
 | N4 | words | 672 | 672 | 672 | 399 | 251 | 399 | 251 | 0/0/421/273 |
 | N4 | kanji | 195 | 195 | 195 | 110 | 0 | 110 | 0 | 0/0/195/85 |
@@ -48,8 +48,10 @@ Bảng dưới đếm khoá học có ít nhất một đánh giá không trùng
 | Cấp | Nhóm | Loại đánh giá | Mục có bằng chứng |
 |---|---|---|---:|
 | N5 | words | từ theo ngữ cảnh | 211 |
-| N5 | words | kanji-reading | 16 |
-| N5 | kanji | kanji-reading | 20 |
+| N5 | words | kanji-reading | 113 |
+| N5 | words | meaning | 591 |
+| N5 | words | listening | 13 |
+| N5 | kanji | kanji-reading | 123 |
 | N4 | words | meaning | 251 |
 | N4 | words | listening | 20 |
 
@@ -77,7 +79,7 @@ Explicit q.wordKey + valid usageId is exercised via recordAnswer?checkedWord on 
 {
   "N5": {
     "readingPassages": 56,
-    "listeningActivities": 42,
+    "listeningActivities": 44,
     "listeningByDeclaredFormat": {
       "nghe hiểu có hỗ trợ TTS": 30,
       "thông tin hẹn": 1,
@@ -85,7 +87,8 @@ Explicit q.wordKey + valid usageId is exercised via recordAnswer?checkedWord on 
       "phản hồi nhanh": 2,
       "phát ngôn": 2,
       "nghe nhiệm vụ": 2,
-      "audio-choice": 4
+      "audio-choice": 4,
+      "nghe hiểu đoạn ngắn": 2
     },
     "readingByDeclaredFormat": {
       "unspecified": 31,

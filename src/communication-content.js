@@ -77,6 +77,7 @@ communication['mnn-12'].push(task('m12-choose-reason','Chọn phương tiện th
 communication['mnn-17'].push(task('m17-book-rule','Làm rõ không cần khác không được khi chuẩn bị đến trường.','辞書を持って行かなければなりませんか。','じしょをもっていかなければなりませんか。','Vなければ／Vなくてもいい。',['Giữ đúng nghĩa vụ, không suy lệnh cấm.'],{card:'Được mang từ điển nhưng không bắt buộc.',accepted:['いいえ、持って行かなくてもいいです。','持って行かなくてもいいです。'],rejected:['持って行ってはいけません。'],model:'いいえ、持って行かなくてもいいです。'},{card:'Lớp hôm nay bắt buộc có từ điển.',accepted:['はい、持って行かなければなりません。','持って行かなければなりません。'],rejected:['持って行かなくてもいいです。'],model:'はい、持って行かなければなりません。'}));
 communication['mnn-24'].push(task('m24-retell-help','Kể cùng một giúp đỡ từ người làm và người nhận; không chỉ đổi tên.','ハナさんは何をしてくれましたか。','はなさんはなにをしてくれましたか。','Người giúp が Vてくれました。',['Không đảo hướng giúp đỡ khi đổi góc nhìn.'],{card:'Bạn được Hana cho mượn sách.',accepted:['本を貸してくれました。','ハナさんが本を貸してくれました。'],rejected:['わたしがハナさんに本を貸してあげました。'],model:'ハナさんが本を貸してくれました。'},{card:'Bạn được Hana giới thiệu một người bạn.',accepted:['友達を紹介してくれました。','ハナさんが友達を紹介してくれました。'],rejected:['わたしがハナさんに友達を紹介してあげました。'],model:'ハナさんが友達を紹介してくれました。'}));
 
+
 // A real guided bank for published N4 units; never labelled free AI conversation.
 for(const u of n4Units){const id='mnn-'+u.number;communication[id]=[u.conversation];transfer[id]=transferForN4(u.number);prerequisiteNotes[u.number]=u.number===26?'Ôn thể thường bài20, て bài14, lời nhờ và たら bài25; giới thiệu lại ký hiệu ngay trong vòng.':'Dùng lại bài '+(u.number-1)+' và thể thường/て của N5; chức năng mới được giải thích trong từng vòng.';}
 

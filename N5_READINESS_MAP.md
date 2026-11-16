@@ -29,3 +29,23 @@ n5-assessment-b có 25 tình huống kiểm đối chiếu ý nghĩa theo bài 1
 ## Nghe phát ngôn/phản hồi nhiều audio —12/11
 
 Hai bộ luyện/đánh giá A mỗi bộ thêm2hoạt động: tình huống hình tự vẽ→nghe3lời→chọn phát ngôn phù hợp; nghe câu hỏi→nghe3lời đáp→chọn. Không hiện chữ trước, transcript ghi trợ giúp, nghe hết mới mở lưu. Không còn dùng câu hỏi có/không duy nhất để đại diện dạng chọn phát ngôn. Câu luyện/đánh giá khác nhau. Vẫn thiếu ngân hàng song song đủ rộng, nhiều giọng/ngữ âm được duyệt và đề đủ dạng/thời gian; không điểm JLPT quy đổi.
+
+## Kiểm cập nhật 13/11 — liên kết đọc từ/Kanji trong tự kiểm N5 R1
+
+Thêm 16 câu ngữ cảnh tự soạn cho các từ đã dạy ở bài 1–9 và 14. Câu hỏi kiểm tra cách đọc của cả từ trong câu; `assessesKanji`, `wordKey` và `usageId` trỏ tới đúng chữ/từ/bài. Bài 14 nối `教` với mục `教えます` đã có; ID cũ giữ nguyên. Lịch dùng chung từ được kiểm bằng trả lời đúng/sai trên state tổng hợp riêng và round-trip backup v1. Không đổi mẫu số hoặc tự coi dạng chia là từ mới.
+
+## Bổ sung 13/11 — mục từ theo ngữ cảnh trong N5 R1
+
+Thêm sáu câu mới cho các mục đã dạy ở bài 3–5: `食堂`, `いくら`, `午前`, `毎日`, `来ます`, `地下鉄`. Mỗi câu nối tới đúng entry JMdict và usage trong bài; kết quả nhận nghĩa dùng chung lịch ôn từ. Audit kiểm ID, sense, đáp án, giải thích, mở bài và không trùng nguyên câu học. JMdict chỉ đối chiếu mục từ/nghĩa được chọn; ngữ cảnh do dự án soạn, chưa duyệt độc lập. Các câu này không đánh giá nghe, nhớ không nhìn, tự dùng hay giữ sau nghỉ.
+
+Audit mã mới: N5 có 20/123 chữ với assessment đọc từ trong ngữ cảnh, 56/509 mục từ và 81/144 mẫu ngữ pháp khép theo công thức G5 hiện tại; 0/56 nhiệm vụ có assessment riêng. Tất cả 123 chữ N5 có dữ liệu nét KanjiVG hợp lệ dùng bởi công cụ tự viết; cả 123 có đường luyện đọc từ. Các con số chỉ mô tả kho đang có, không xác nhận độ phủ cấp, chất lượng ngữ nghĩa, nhớ sau nghỉ, viết đúng nét hoặc năng lực người học. Chưa duyệt độc lập; nhóm từ mới không có audio/nghe hoặc tự diễn đạt.
+
+## 13/11 — Tự tạo câu ngữ pháp N5 R1
+
+Thêm sáu câu tự gõ riêng ở bài 3–5: `ここ`, hỏi giá bằng `いくら`, giờ + `時`, giờ + `に`, đích đến + `へ`, và hỏi thời điểm bằng `いつ`. Mỗi câu nối đúng một ID ngữ pháp chưa có đánh giá riêng, dùng ngữ liệu khác bài học, chấp nhận hai cách mẫu được nêu và lưu phản hồi/ôn. Máy chỉ so khớp câu mẫu liệt kê; câu mới ngoài danh sách chưa được đánh giá ngữ nghĩa. Đây là viết có trợ giúp phản hồi, không phải đánh giá kaiwa hay bằng chứng nghe/năng lực sau nghỉ. N5 grammar: 66/144 theo gate mã; G5 vẫn `not-met`.
+
+## 13/11 — Mở rộng luyện và tự diễn đạt ngữ pháp
+
+Thêm 15 câu tự diễn đạt có giới hạn đáp án ở bài 1–8, nối lần lượt với `mnn-01-g0/g2/g3/g4/g6`, `mnn-02-g0/g1/g3`, `mnn-03-g2`, `mnn-05-g4`, `mnn-06-g0/g2`, `mnn-08-g0/g1/g4`. Cộng với sáu câu ở bài 3–5, hiện có 21 câu dạng này; mỗi ID nối một mục tiêu và chấp nhận câu mẫu đã liệt kê. Ba câu trùng học liệu bị detector phát hiện trong bản đầu và được thay trước khi chạy audit thành công.
+
+Bổ sung hai câu luyện (không phải assessment) cho lỗ hổng thật ở `mnn-01-g6` (hỏi danh tính) và `mnn-02-g3` (hỏi chủ sở hữu), nối trong Guided Map và kiểm lịch ôn đúng/sai. G5 N5 hiện 81/144 grammar, practice/review 144/144, assessment không trùng 81/144; 63 mục vẫn thiếu assessment không trùng. Câu tự gõ chỉ được chấm theo biến thể khai báo, không phải bộ chấm ngữ nghĩa tự do, kaiwa, đánh giá sau nghỉ hay duyệt học thuật độc lập.

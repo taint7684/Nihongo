@@ -1,3 +1,5 @@
+> Làm rõ ngày 13/11/2026: dự án tiếng Nhật là Desktop\Nihongo-Compass. study-room là dự án phòng học riêng, không phải bản gốc của dự án tiếng Nhật. Không chỉnh sửa hoặc chuyển dữ liệu giữa hai dự án.
+
 Tiếp tục trực tiếp trong:
 C:\Users\LENOVO\Desktop\Nihongo-Compass
 

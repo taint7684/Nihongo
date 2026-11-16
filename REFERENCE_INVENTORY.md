@@ -6,11 +6,11 @@ Tập mục tiêu tự chọn theo chức năng, phiên bản 2026-11-12-functio
 
 {"plannedWords":450,"plannedLexicalTargets":450,"missingLexicalContexts":0,"missingWords":0,"uncontextualizedGrammarTargets":0,"uncontextualizedGlossaryTargets":0,"gapClasses":{"same-level-context":450},"contextWords":450,"plannedKanji":105,"kanjiWithLesson":105,"publishedUnits":25,"plannedUnits":25}
 
-Từ vựng thiếu ngữ cảnh:
+Từ vựng thiếu ngữ cảnh: 
 
-Mục ngữ pháp theo dõi riêng, không tính là từ vựng thiếu:
+Mục ngữ pháp theo dõi riêng, không tính là từ vựng thiếu: 
 
-Thuật ngữ chú giải theo dõi riêng:
+Thuật ngữ chú giải theo dõi riêng: 
 
 Kanji chưa có bài: 
 
@@ -20,13 +20,13 @@ Bài chưa biên soạn:
 
 {"plannedWords":240,"plannedLexicalTargets":222,"missingLexicalContexts":0,"missingWords":0,"uncontextualizedGrammarTargets":15,"uncontextualizedGlossaryTargets":3,"gapClasses":{"same-level-context":205,"grammar-not-new-lexeme":15,"prior-knowledge-reused":15,"matcher-form-difference":2,"explanation-term":3},"contextWords":222,"plannedKanji":185,"kanjiWithLesson":185,"publishedUnits":25,"plannedUnits":25}
 
-Từ vựng thiếu ngữ cảnh:
+Từ vựng thiếu ngữ cảnh: 
 
 Mục ngữ pháp theo dõi riêng, không tính là từ vựng thiếu: しか、つもり、とおり、あとで、なら、ので、どうか、ために、のに、そうです、すぎます、やすい、にくい、ところ、ばかり
 
 Thuật ngữ chú giải theo dõi riêng: 尊敬、謙譲、丁寧
 
-Kanji chưa có bài:
+Kanji chưa có bài: 
 
 Bài chưa biên soạn: 
 

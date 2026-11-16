@@ -631,9 +631,69 @@
       "strokes": 5
     },
     {
+      "char": "授",
+      "hex": "06388",
+      "strokes": 11
+    },
+    {
+      "char": "業",
+      "hex": "0696d",
+      "strokes": 13
+    },
+    {
+      "char": "遅",
+      "hex": "09045",
+      "strokes": 12
+    },
+    {
+      "char": "痛",
+      "hex": "075db",
+      "strokes": 12
+    },
+    {
+      "char": "旅",
+      "hex": "065c5",
+      "strokes": 10
+    },
+    {
+      "char": "達",
+      "hex": "09054",
+      "strokes": 12
+    },
+    {
+      "char": "成",
+      "hex": "06210",
+      "strokes": 6
+    },
+    {
       "char": "声",
       "hex": "058f0",
       "strokes": 7
+    },
+    {
+      "char": "漢",
+      "hex": "06f22",
+      "strokes": 13
+    },
+    {
+      "char": "建",
+      "hex": "05efa",
+      "strokes": 9
+    },
+    {
+      "char": "物",
+      "hex": "07269",
+      "strokes": 8
+    },
+    {
+      "char": "音",
+      "hex": "097f3",
+      "strokes": 9
+    },
+    {
+      "char": "景",
+      "hex": "0666f",
+      "strokes": 12
     },
     {
       "char": "歌",
@@ -641,8 +701,88 @@
       "strokes": 14
     },
     {
+      "char": "通",
+      "hex": "0901a",
+      "strokes": 10
+    },
+    {
+      "char": "熱",
+      "hex": "071b1",
+      "strokes": 15
+    },
+    {
+      "char": "心",
+      "hex": "05fc3",
+      "strokes": 4
+    },
+    {
+      "char": "利",
+      "hex": "05229",
+      "strokes": 7
+    },
+    {
+      "char": "張",
+      "hex": "05f35",
+      "strokes": 11
+    },
+    {
+      "char": "試",
+      "hex": "08a66",
+      "strokes": 13
+    },
+    {
+      "char": "験",
+      "hex": "09a13",
+      "strokes": 18
+    },
+    {
       "char": "閉",
       "hex": "09589",
+      "strokes": 11
+    },
+    {
+      "char": "壊",
+      "hex": "058ca",
+      "strokes": 16
+    },
+    {
+      "char": "財",
+      "hex": "08ca1",
+      "strokes": 10
+    },
+    {
+      "char": "布",
+      "hex": "05e03",
+      "strokes": 5
+    },
+    {
+      "char": "鍵",
+      "hex": "09375",
+      "strokes": 17
+    },
+    {
+      "char": "落",
+      "hex": "0843d",
+      "strokes": 12
+    },
+    {
+      "char": "全",
+      "hex": "05168",
+      "strokes": 6
+    },
+    {
+      "char": "破",
+      "hex": "07834",
+      "strokes": 10
+    },
+    {
+      "char": "汚",
+      "hex": "06c5a",
+      "strokes": 6
+    },
+    {
+      "char": "部",
+      "hex": "090e8",
       "strokes": 11
     },
     {
@@ -656,6 +796,61 @@
       "strokes": 8
     },
     {
+      "char": "議",
+      "hex": "08b70",
+      "strokes": 20
+    },
+    {
+      "char": "資",
+      "hex": "08cc7",
+      "strokes": 13
+    },
+    {
+      "char": "料",
+      "hex": "06599",
+      "strokes": 10
+    },
+    {
+      "char": "準",
+      "hex": "06e96",
+      "strokes": 13
+    },
+    {
+      "char": "備",
+      "hex": "05099",
+      "strokes": 12
+    },
+    {
+      "char": "片",
+      "hex": "07247",
+      "strokes": 4
+    },
+    {
+      "char": "並",
+      "hex": "04e26",
+      "strokes": 8
+    },
+    {
+      "char": "貼",
+      "hex": "08cbc",
+      "strokes": 12
+    },
+    {
+      "char": "地",
+      "hex": "05730",
+      "strokes": 6
+    },
+    {
+      "char": "図",
+      "hex": "056f3",
+      "strokes": 7
+    },
+    {
+      "char": "引",
+      "hex": "05f15",
+      "strokes": 4
+    },
+    {
       "char": "計",
       "hex": "08a08",
       "strokes": 9
@@ -666,9 +861,64 @@
       "strokes": 8
     },
     {
+      "char": "将",
+      "hex": "05c06",
+      "strokes": 10
+    },
+    {
+      "char": "続",
+      "hex": "07d9a",
+      "strokes": 13
+    },
+    {
+      "char": "始",
+      "hex": "059cb",
+      "strokes": 8
+    },
+    {
+      "char": "卒",
+      "hex": "05352",
+      "strokes": 8
+    },
+    {
       "char": "風",
       "hex": "098a8",
       "strokes": 9
+    },
+    {
+      "char": "運",
+      "hex": "0904b",
+      "strokes": 12
+    },
+    {
+      "char": "動",
+      "hex": "052d5",
+      "strokes": 11
+    },
+    {
+      "char": "無",
+      "hex": "07121",
+      "strokes": 12
+    },
+    {
+      "char": "星",
+      "hex": "0661f",
+      "strokes": 9
+    },
+    {
+      "char": "雪",
+      "hex": "096ea",
+      "strokes": 11
+    },
+    {
+      "char": "失",
+      "hex": "05931",
+      "strokes": 5
+    },
+    {
+      "char": "敗",
+      "hex": "06557",
+      "strokes": 11
     },
     {
       "char": "意",
@@ -681,8 +931,93 @@
       "strokes": 8
     },
     {
+      "char": "注",
+      "hex": "06ce8",
+      "strokes": 8
+    },
+    {
+      "char": "危",
+      "hex": "05371",
+      "strokes": 6
+    },
+    {
+      "char": "険",
+      "hex": "0967a",
+      "strokes": 11
+    },
+    {
+      "char": "禁",
+      "hex": "07981",
+      "strokes": 13
+    },
+    {
+      "char": "伝",
+      "hex": "04f1d",
+      "strokes": 6
+    },
+    {
+      "char": "言",
+      "hex": "08a00",
+      "strokes": 7
+    },
+    {
+      "char": "規",
+      "hex": "0898f",
+      "strokes": 11
+    },
+    {
+      "char": "則",
+      "hex": "05247",
+      "strokes": 9
+    },
+    {
+      "char": "触",
+      "hex": "089e6",
+      "strokes": 13
+    },
+    {
       "char": "歯",
       "hex": "06b6f",
+      "strokes": 12
+    },
+    {
+      "char": "説",
+      "hex": "08aac",
+      "strokes": 14
+    },
+    {
+      "char": "明",
+      "hex": "0660e",
+      "strokes": 8
+    },
+    {
+      "char": "砂",
+      "hex": "07802",
+      "strokes": 9
+    },
+    {
+      "char": "糖",
+      "hex": "07cd6",
+      "strokes": 16
+    },
+    {
+      "char": "醤",
+      "hex": "091a4",
+      "strokes": 17
+    },
+    {
+      "char": "油",
+      "hex": "06cb9",
+      "strokes": 8
+    },
+    {
+      "char": "次",
+      "hex": "06b21",
+      "strokes": 6
+    },
+    {
+      "char": "最",
+      "hex": "06700",
       "strokes": 12
     },
     {
@@ -696,6 +1031,46 @@
       "strokes": 6
     },
     {
+      "char": "桜",
+      "hex": "0685c",
+      "strokes": 10
+    },
+    {
+      "char": "咲",
+      "hex": "054b2",
+      "strokes": 9
+    },
+    {
+      "char": "島",
+      "hex": "05cf6",
+      "strokes": 10
+    },
+    {
+      "char": "向",
+      "hex": "05411",
+      "strokes": 6
+    },
+    {
+      "char": "相",
+      "hex": "076f8",
+      "strokes": 9
+    },
+    {
+      "char": "談",
+      "hex": "08ac7",
+      "strokes": 15
+    },
+    {
+      "char": "機",
+      "hex": "06a5f",
+      "strokes": 16
+    },
+    {
+      "char": "例",
+      "hex": "04f8b",
+      "strokes": 8
+    },
+    {
       "char": "標",
       "hex": "06a19",
       "strokes": 15
@@ -706,14 +1081,104 @@
       "strokes": 10
     },
     {
+      "char": "努",
+      "hex": "052aa",
+      "strokes": 7
+    },
+    {
+      "char": "必",
+      "hex": "05fc5",
+      "strokes": 5
+    },
+    {
+      "char": "慣",
+      "hex": "06163",
+      "strokes": 14
+    },
+    {
+      "char": "健",
+      "hex": "05065",
+      "strokes": 11
+    },
+    {
+      "char": "康",
+      "hex": "05eb7",
+      "strokes": 11
+    },
+    {
+      "char": "活",
+      "hex": "06d3b",
+      "strokes": 9
+    },
+    {
       "char": "招",
       "hex": "062db",
       "strokes": 8
     },
     {
+      "char": "歴",
+      "hex": "06b74",
+      "strokes": 14
+    },
+    {
+      "char": "史",
+      "hex": "053f2",
+      "strokes": 5
+    },
+    {
+      "char": "世",
+      "hex": "04e16",
+      "strokes": 5
+    },
+    {
+      "char": "界",
+      "hex": "0754c",
+      "strokes": 9
+    },
+    {
+      "char": "踏",
+      "hex": "08e0f",
+      "strokes": 15
+    },
+    {
+      "char": "盗",
+      "hex": "076d7",
+      "strokes": 11
+    },
+    {
+      "char": "輸",
+      "hex": "08f38",
+      "strokes": 16
+    },
+    {
       "char": "育",
       "hex": "080b2",
       "strokes": 8
+    },
+    {
+      "char": "楽",
+      "hex": "0697d",
+      "strokes": 13
+    },
+    {
+      "char": "整",
+      "hex": "06574",
+      "strokes": 16
+    },
+    {
+      "char": "消",
+      "hex": "06d88",
+      "strokes": 10
+    },
+    {
+      "char": "加",
+      "hex": "052a0",
+      "strokes": 5
+    },
+    {
+      "char": "自",
+      "hex": "081ea",
+      "strokes": 6
     },
     {
       "char": "事",
@@ -726,6 +1191,41 @@
       "strokes": 9
     },
     {
+      "char": "残",
+      "hex": "06b8b",
+      "strokes": 10
+    },
+    {
+      "char": "震",
+      "hex": "09707",
+      "strokes": 15
+    },
+    {
+      "char": "台",
+      "hex": "053f0",
+      "strokes": 5
+    },
+    {
+      "char": "驚",
+      "hex": "09a5a",
+      "strokes": 22
+    },
+    {
+      "char": "念",
+      "hex": "05ff5",
+      "strokes": 8
+    },
+    {
+      "char": "悪",
+      "hex": "060aa",
+      "strokes": 11
+    },
+    {
+      "char": "着",
+      "hex": "07740",
+      "strokes": 12
+    },
+    {
       "char": "調",
       "hex": "08abf",
       "strokes": 15
@@ -736,13 +1236,63 @@
       "strokes": 12
     },
     {
+      "char": "到",
+      "hex": "05230",
+      "strokes": 8
+    },
+    {
+      "char": "発",
+      "hex": "0767a",
+      "strokes": 9
+    },
+    {
+      "char": "数",
+      "hex": "06570",
+      "strokes": 13
+    },
+    {
+      "char": "重",
+      "hex": "091cd",
+      "strokes": 9
+    },
+    {
       "char": "礼",
       "hex": "0793c",
       "strokes": 5
     },
     {
+      "char": "直",
+      "hex": "076f4",
+      "strokes": 8
+    },
+    {
       "char": "的",
       "hex": "07684",
+      "strokes": 8
+    },
+    {
+      "char": "軽",
+      "hex": "08efd",
+      "strokes": 12
+    },
+    {
+      "char": "費",
+      "hex": "08cbb",
+      "strokes": 12
+    },
+    {
+      "char": "仕",
+      "hex": "04ed5",
+      "strokes": 5
+    },
+    {
+      "char": "道",
+      "hex": "09053",
+      "strokes": 12
+    },
+    {
+      "char": "具",
+      "hex": "05177",
       "strokes": 8
     },
     {
@@ -751,9 +1301,64 @@
       "strokes": 12
     },
     {
+      "char": "空",
+      "hex": "07a7a",
+      "strokes": 8
+    },
+    {
+      "char": "泣",
+      "hex": "06ce3",
+      "strokes": 8
+    },
+    {
+      "char": "笑",
+      "hex": "07b11",
+      "strokes": 10
+    },
+    {
+      "char": "戻",
+      "hex": "0623b",
+      "strokes": 7
+    },
+    {
+      "char": "似",
+      "hex": "04f3c",
+      "strokes": 7
+    },
+    {
+      "char": "寂",
+      "hex": "05bc2",
+      "strokes": 11
+    },
+    {
       "char": "量",
       "hex": "091cf",
       "strokes": 12
+    },
+    {
+      "char": "字",
+      "hex": "05b57",
+      "strokes": 6
+    },
+    {
+      "char": "色",
+      "hex": "08272",
+      "strokes": 6
+    },
+    {
+      "char": "厚",
+      "hex": "0539a",
+      "strokes": 9
+    },
+    {
+      "char": "薄",
+      "hex": "08584",
+      "strokes": 16
+    },
+    {
+      "char": "濃",
+      "hex": "06fc3",
+      "strokes": 16
     },
     {
       "char": "場",
@@ -766,14 +1371,59 @@
       "strokes": 6
     },
     {
+      "char": "連",
+      "hex": "09023",
+      "strokes": 10
+    },
+    {
+      "char": "絡",
+      "hex": "07d61",
+      "strokes": 12
+    },
+    {
+      "char": "付",
+      "hex": "04ed8",
+      "strokes": 5
+    },
+    {
+      "char": "障",
+      "hex": "0969c",
+      "strokes": 14
+    },
+    {
+      "char": "急",
+      "hex": "06025",
+      "strokes": 9
+    },
+    {
       "char": "届",
       "hex": "05c4a",
       "strokes": 8
     },
     {
+      "char": "修",
+      "hex": "04fee",
+      "strokes": 10
+    },
+    {
       "char": "報",
       "hex": "05831",
       "strokes": 12
+    },
+    {
+      "char": "留",
+      "hex": "07559",
+      "strokes": 10
+    },
+    {
+      "char": "守",
+      "hex": "05b88",
+      "strokes": 6
+    },
+    {
+      "char": "匂",
+      "hex": "05302",
+      "strokes": 4
     },
     {
       "char": "許",
@@ -791,6 +1441,21 @@
       "strokes": 14
     },
     {
+      "char": "客",
+      "hex": "05ba2",
+      "strokes": 9
+    },
+    {
+      "char": "尊",
+      "hex": "05c0a",
+      "strokes": 12
+    },
+    {
+      "char": "敬",
+      "hex": "0656c",
+      "strokes": 12
+    },
+    {
       "char": "申",
       "hex": "07533",
       "strokes": 5
@@ -799,6 +1464,36 @@
       "char": "拝",
       "hex": "062dd",
       "strokes": 8
+    },
+    {
+      "char": "参",
+      "hex": "053c2",
+      "strokes": 8
+    },
+    {
+      "char": "伺",
+      "hex": "04f3a",
+      "strokes": 7
+    },
+    {
+      "char": "謙",
+      "hex": "08b19",
+      "strokes": 17
+    },
+    {
+      "char": "譲",
+      "hex": "08b72",
+      "strokes": 20
+    },
+    {
+      "char": "丁",
+      "hex": "04e01",
+      "strokes": 2
+    },
+    {
+      "char": "寧",
+      "hex": "05be7",
+      "strokes": 14
     }
   ]
 }

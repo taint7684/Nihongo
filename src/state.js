@@ -1,7 +1,11 @@
+import{typedVerdict}from './typed-response.js';
+import{validateVoiceComparisons}from './monthly-voice-state.js';
+import{validateExamLog}from './exam-log.js';
 import{checkedWord}from './word-state.js';
 import{validateTools}from './tools-state.js';
 import{emptyLearning,validateLearning}from './learning-state.js';
 import { defaults, diagnostics, passed, diagnosticResult } from './planner.js';
+import { validateStudyPlan } from './weekly-plan.js';
 import { lessons, allQuestions } from './content.js';
 export const KEY = 'nihongo:learning:v1';
 export const fresh = () => ({ version: 1, profile: null, route: 'start', lessonId: 'hira-1', answers: {}, completed: {}, reviews: {}, aiModel: 'qwen3:1.7b', preferences: {...defaults}, notebook: {}, materials: [], diagnostics: {}, listening: {}, retention: {}, wordReviews: {}, savedWords: [], openTasks: {}, lastSummary: null, checkpointAttempts: [], listeningActivities: {}, writingHistory: {}, learning: emptyLearning(),wordNotes:{},wordEvidence:{},kanjiDrafts:{},kanjiReviews:{} });
@@ -25,12 +29,22 @@ export function validate(value) {
     if(a.response!==undefined&&(typeof a.response!=='string'||a.response.length>100))throw Error('Dữ liệu gõ không hợp lệ.');
     result.answers[id] = { choice: a.choice, correct: a.correct, ...(a.response!==undefined?{response:a.response}:{}), ...(Number.isFinite(a.at)?{at:a.at}:{}) };
   }
+  if(value.unconfirmedResponses!==undefined){
+    if(!value.unconfirmedResponses||typeof value.unconfirmedResponses!=='object'||Array.isArray(value.unconfirmedResponses)||Object.keys(value.unconfirmedResponses).length>allQuestions.length)throw Error('Câu chưa xác nhận không hợp lệ.');
+    result.unconfirmedResponses={};
+    for(const[id,x]of Object.entries(value.unconfirmedResponses)){
+      const q=allQuestions.find(q=>q.id===id);
+      if(!q||q.kind!=='recall'||q.wordKey||!x||x.status!=='unconfirmed'||typeof x.response!=='string'||!x.response.trim()||x.response.length>100||!Number.isFinite(x.at)||x.at<=0)throw Error('Câu chưa xác nhận không hợp lệ.');
+      result.unconfirmedResponses[id]={status:'unconfirmed',response:x.response,at:x.at};
+    }
+  }
   for (const [id,t] of Object.entries(value.completed)) {
     const lesson = lessons.find(l => l.id === id);
     if (!lesson || !Number.isFinite(t) || t <= 0 || !(lesson.legacyQuestionIds||lesson.questions.map(q=>q.id)).every(id => result.answers[id])) throw new Error('Kết quả hoàn thành không hợp lệ.');
     result.completed[id] = t;
   }
   if(value.preferences){const p=value.preferences;if(!['N5','N4','N3','N2','N1'].includes(p.goal)||!['Nền tảng','JLPT','Giao tiếp','Du lịch','Du học','Công việc'].includes(p.purpose)||!['path','free'].includes(p.mode)||![10,15,30,45,60,90].includes(p.todayMinutes))throw Error('Kế hoạch không hợp lệ.');result.preferences={goal:p.goal,purpose:p.purpose,mode:p.mode,todayMinutes:p.todayMinutes};}
+  if(value.preferences?.studyPlan!==undefined) result.preferences.studyPlan=validateStudyPlan(value.preferences.studyPlan);
   if(value.diagnostics){for(const[id,d]of Object.entries(value.diagnostics)){if(!diagnostics[id]||!Array.isArray(d.choices)||d.choices.length!==3||d.choices.some(c=>!Number.isInteger(c)||c<0||c>2))throw Error('Kiểm tra bỏ qua không hợp lệ.');const checked=diagnosticResult(id,d.choices);result.diagnostics[id]={...checked,at:Number.isFinite(d.at)?d.at:Date.now()};}}
   if(value.notebook){for(const[id,n]of Object.entries(value.notebook)){if(!lessons.some(l=>l.id===id)||typeof n!=='string'||n.length>4000)throw Error('Ghi chú không hợp lệ.');result.notebook[id]=n;}}
   if(value.materials){if(!Array.isArray(value.materials)||value.materials.length>50)throw Error('Thư viện không hợp lệ.');for(const m of value.materials){if(!m||typeof m.text!=='string'||m.text.length>300000||typeof m.name!=='string'||m.name.length>100||typeof m.source!=='string'||m.source.length>500||!Number.isFinite(m.at))throw Error('Tài liệu không hợp lệ.');result.materials.push({name:m.name,text:m.text,source:m.source,at:m.at,status:'Bản nháp riêng'});}}
@@ -44,6 +58,8 @@ export function validate(value) {
   if(value.writingHistory){for(const[id,items]of Object.entries(value.writingHistory)){if(!lessons.some(l=>l.id===id)||!Array.isArray(items)||items.length>100)throw Error('Lịch sử viết không hợp lệ.');result.writingHistory[id]=items.map(v=>{if(!v||typeof v.text!=='string'||v.text.length>5000||typeof v.intention!=='string'||v.intention.length>1000||!Number.isFinite(v.at))throw Error('Phiên bản viết không hợp lệ.');return {text:v.text,intention:v.intention,at:v.at};});}}
   result.learning=validateLearning(value.learning,lessons);
   validateTools(value,result);
+  validateExamLog(value,result);
+  validateVoiceComparisons(value,result);
   if(value.lastSummary&&lessons.some(l=>l.id===value.lastSummary))result.lastSummary=value.lastSummary;
   for (const [id,r] of Object.entries(value.reviews)) {
     if (!allQuestions.some(q => q.id === id) || !r || !Number.isFinite(r.due) || r.due <= 0 || !Number.isInteger(r.streak) || r.streak < 0 || r.streak > 3) throw new Error('Lịch ôn không hợp lệ.');
@@ -53,15 +69,26 @@ export function validate(value) {
   return result;
 }
 export function recordAnswer(state, q, choice, now = Date.now(), response) {
+  if(q.kind==='recall'&&!q.wordKey&&!q.wordLinks?.length&&typeof response==='string'){
+    if(typedVerdict(q,response)==='unconfirmed')return {...state,unconfirmedResponses:{...(state.unconfirmedResponses||{}),[q.id]:{status:'unconfirmed',response:response.slice(0,100),at:now}}};
+  }
+  if(state.unconfirmedResponses?.[q.id]){const pending={...state.unconfirmedResponses};delete pending[q.id];state={...state,unconfirmedResponses:pending};}
   const correct = choice === q.answer;
-  if(q.wordKey){const next={...state,answers:{...state.answers,[q.id]:{choice,correct,at:now,...(typeof response==='string'?{response:response.slice(0,100)}:{})}}};return checkedWord(next,q.wordKey,'recall',response||q.choices[choice]||'',correct,now,q.usageId);}
+  const wordLinks=wordLinksForQuestion(q);
+  if(wordLinks.length){const next={...state,answers:{...state.answers,[q.id]:{choice,correct,at:now,...(typeof response==='string'?{response:response.slice(0,100)}:{})}}};let scheduled=next;for(const link of wordLinks)scheduled=checkedWord(scheduled,link.wordKey,link.kind||(q.kind==='recall'?'recall':'meaning'),response||q.choices[choice]||'',correct,now,link.usageId,{afterModel:!q.assessment});return scheduled;}
   return { ...state, answers: { ...state.answers, [q.id]: { choice, correct, at:now, ...(typeof response==='string'?{response:response.slice(0,100)}:{}) } }, reviews: { ...state.reviews, [q.id]: { due: correct ? now + 86400000 : now, streak: 0 } } };
+}
+function wordLinksForQuestion(q){
+  const links=q.wordLinks??(q.wordKey?[{wordKey:q.wordKey,usageId:q.usageId,kind:q.wordEvidenceKind||(q.kind==='recall'?'recall':'meaning')}]:[]);
+  if(!Array.isArray(links)||links.some(link=>!link||typeof link.wordKey!=='string'||!link.wordKey||link.usageId!==undefined&&typeof link.usageId!=='string'||link.kind!==undefined&&typeof link.kind!=='string')||new Set(links.map(link=>link.wordKey)).size!==links.length)throw Error('Liên kết từ trong câu hỏi không hợp lệ.');
+  return links;
 }
 export function completeLesson(state, lesson, now = Date.now()) {
   if (!lesson.questions.every(q => state.answers[q.id])) throw new Error('Hãy trả lời hết câu hỏi trước.');
   return { ...state, completed: { ...state.completed, [lesson.id]: now }, ...(lesson.checkpoint?{retention:{...state.retention,[lesson.id]:{checkedAt:now,anchorAt:state.completed[lesson.waitFor]||0,afterRest:Boolean(state.completed[lesson.waitFor])&&lesson.questions.every(q=>(state.answers[q.id]?.at||0)>=state.completed[lesson.waitFor]+86400000)}}}:{}), lastSummary:lesson.id, route: 'today' };
 }
 export function reviewAnswer(state, id, correct, now = Date.now()) {
+  if(state.unconfirmedResponses?.[id]){const pending={...state.unconfirmedResponses};delete pending[id];state={...state,unconfirmedResponses:pending};}
   const old = state.reviews[id] || { streak: 0 };
   const streak = correct ? Math.min(old.streak + 1, 3) : 0;
   const days = [0,1,3,7][streak];
@@ -73,4 +100,4 @@ export function restartCheckpoint(state,lesson,now=Date.now()){if(!lesson.checkp
 
 export const needsStudy=(state,lesson)=>!state.completed[lesson.id]||lesson.questions.some(q=>!state.answers[q.id]);
 
-export function recordListening(state,task,choices,help,now=Date.now()){if(!task.questions.every(q=>Number.isInteger(choices[q.id])&&choices[q.id]>=0&&choices[q.id]<q.choices.length)||!Number.isInteger(help.plays)||help.plays<1)throw Error('Cần nghe và trả lời đủ.');const correct=task.questions.filter(q=>choices[q.id]===q.answer).length;return {...state,listeningActivities:{...state.listeningActivities,[task.id]:{attempts:[...(state.listeningActivities?.[task.id]?.attempts||[]),{at:now,transcriptUsed:Boolean(help.transcriptUsed),plays:help.plays,...(help.audioId?{audioId:help.audioId}:{}),choices:{...choices},correct}],due:now+(correct===task.questions.length?86400000:300000)}}};}
+export function recordListening(state,task,choices,help,now=Date.now()){if(!task.questions.every(q=>Number.isInteger(choices[q.id])&&choices[q.id]>=0&&choices[q.id]<q.choices.length)||!Number.isInteger(help.plays)||help.plays<1)throw Error('Cần nghe và trả lời đủ.');const correct=task.questions.filter(q=>choices[q.id]===q.answer).length;let next={...state,listeningActivities:{...state.listeningActivities,[task.id]:{attempts:[...(state.listeningActivities?.[task.id]?.attempts||[]),{at:now,transcriptUsed:Boolean(help.transcriptUsed),plays:help.plays,...(help.audioId?{audioId:help.audioId}:{}),choices:{...choices},correct}],due:now+(correct===task.questions.length?86400000:300000)}}};for(const q of task.questions){const isCorrect=choices[q.id]===q.answer;for(const link of wordLinksForQuestion(q))next=checkedWord(next,link.wordKey,link.kind||'listening',q.choices[choices[q.id]],isCorrect,now,link.usageId,{afterModel:!q.assessment||Boolean(help.transcriptUsed)});}return next;}

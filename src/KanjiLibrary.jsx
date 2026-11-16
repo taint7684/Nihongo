@@ -49,6 +49,7 @@ export default function KanjiLibrary({ state, setState }) {
       const categoryMatch = category === 'all' || item.category === category;
       const text = [
         item.char,
+        item.aliases?.join(" "),
         item.meanings?.join(' '),
         item.on?.join(' '),
         item.kun?.join(' '),
@@ -58,7 +59,7 @@ export default function KanjiLibrary({ state, setState }) {
       return categoryMatch && (!needle || text.includes(needle));
     });
   }, [category, chars, query]);
-  const selectedItem = chars.find(item => item.char === selected) || filteredChars[0];
+  const selectedItem = filteredChars.find(item => item.char === selected) || filteredChars[0];
   const selectedRadicalItem = radicals.find(item => item.number === selectedRadical);
   const pageCount = Math.ceil(filteredChars.length / pageSize);
 
@@ -133,7 +134,7 @@ export default function KanjiLibrary({ state, setState }) {
             <p>Nghĩa theo nguồn (tiếng Anh): {selectedItem.meanings?.join('; ') || 'Chưa có'}.</p>
             <p>Âm On: {selectedItem.on?.join(' · ') || 'Chưa có'} · Âm Kun: {selectedItem.kun?.join(' · ') || 'Chưa có'}.</p>
             <p>Hán Việt theo nguồn: {selectedItem.hanViet?.join(' · ') || 'Chưa có'}.</p>
-            <KanjiReference char={selectedItem.char} />
+            <p>Năm lớp độ phủ: {Object.entries({lookup:'tra cứu',strokes:'có nét',learning:'có học liệu',practiceReview:'có luyện/ôn',assessment:'có kiểm đọc trong từ'}).map(([key,label])=><span key={key}>{selectedItem.layers[key]?'✓':'—'} {label} · </span>)}. Link kiểm đọc không tự chứng minh có đánh giá ngữ liệu mới.</p><button className="secondary" onClick={()=>{setSelectedRadical(selectedItem.radical);setQuery('');setMode('radicals');}}>Xem bộ phân loại {selectedItem.radical}</button><KanjiReference char={selectedItem.char} />
           </section>
           <KanjiPad
             key={selectedItem.char}
@@ -180,12 +181,13 @@ export default function KanjiLibrary({ state, setState }) {
             {selectedRadicalItem.examples.map(char =>
               <button className="secondary" key={char} onClick={() => {
                 setSelected(char);
+                setQuery('');
                 setCategory('all');
                 setMode('kanji');
               }}>{char}</button>
             )}
           </div>
-          <small>{selectedRadicalItem.source} Chưa có duyệt học thuật độc lập.</small>
+          <p>Chữ ngoài Jōyō trong thư viện cùng bộ: {(selectedRadicalItem.relatedExamples||[]).map(char=><button className="text-button" key={char} onClick={()=>{setSelected(char);setQuery('');setCategory('all');setMode('kanji');}}>{char}</button>)}</p>{!selectedRadicalItem.examples.length&&<p>Không có ví dụ Jōyō trong tập này; không tự coi bộ này là bắt buộc N4.</p>}{(selectedRadicalItem.sourceOnlyExamples||[]).length>0&&<p>Ví dụ nguồn ngoài thư viện 2.999 mục (chưa có bài): {selectedRadicalItem.sourceOnlyExamples.map(x=>x.char+' ('+x.meanings.join('; ')+')').join(' · ')}</p>}<small>{selectedRadicalItem.source} Chưa có duyệt học thuật độc lập.</small>
         </section>}
       </div>
     </>}

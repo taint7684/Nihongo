@@ -1,9 +1,16 @@
+import{n4ReadingExtensionsFor}from './n4-reading-extensions-26-30.js';
+import {buildN5R1AssessmentBank} from './n5-r1-assessment-bank.js';
 import{wordSourceTypes}from './word-source-types.js';
+import{n5AssessmentSupplement}from './n5-assessment-supplement.js';
+import{n5AssessmentSupplement2}from './n5-assessment-supplement-2.js';
+import{n5KanjiAssessmentSupplement}from './n5-kanji-assessment-supp.js';
+import{n5GrammarAssessmentSupplement}from './n5-grammar-assessment-supp.js';
 import{grammarSourceReviews}from './grammar-source-reviews.js';
 import{wordMeaningReviews}from './word-meaning-reviews.js';
 import{sourceWordReviews}from './source-review-overrides.js';
 import{kanjiHanViet}from './kanji-hanviet-source.js';
 import{n4CapstoneLesson}from './n4-capstone.js';
+import{n5CapstoneLesson}from './n5-capstone.js';
 import{buildN4Comprehensive}from './n4-comprehensive.js';
 import{buildN4Assessment,buildN4SecondAssessment,buildN4MiddleAssessment,buildN4LaterAssessment,buildN4LastAssessment}from './n4-assessment.js';
 import{buildReadinessB}from './readiness-bank.js';
@@ -70,13 +77,21 @@ lessons.push(...buildIntro(),...buildN5());
 lessons.push({id:'kana-confusions',number:'CỦNG CỐ',track:'reinforcement',stage:'Củng cố',chapter:'Chữ dễ nhầm',kind:'kana',title:'Chữ giống nhau, nhìn kỹ toàn hình',subtitle:'Tự chọn, không khóa tuyến chính',minutes:10,glyph:'シ',prerequisite:null,goal:'Phân biệt シ/ツ, ソ/ン, ぬ/め và ね/れ/わ trong chữ và từ.',intro:'Chỉ cần mở khi có lỗi nhận diện hoặc muốn tự kiểm. Không phải điều kiện hoàn thành lộ trình chính.',cards:[{kana:'シ / ツ',latin:'shi / tsu'},{kana:'ソ / ン',latin:'so / n'},{kana:'ぬ / め',latin:'nu / me'},{kana:'ね / れ / わ',latin:'ne / re / wa'}],notes:['Đối chiếu toàn bộ hình chữ và hướng các nét trong mẫu font đang dùng; không đoán từ một chấm.','Chữ in và chữ viết tay có biến thể. Bài này không dùng ảnh tự vẽ làm chuẩn nét viết.','Gõ ねこ (neko): con mèo. Đừng đổi ね thành れ hoặc わ chỉ vì hình giống.'],words:[{text:'ねこ',reading:'neko',meaning:'con mèo'}],activity:'Che một nửa cặp, gõ chữ ứng với ký hiệu, rồi thử trong từ. Nếu sai, quay lại nhóm tương ứng thay vì học lại tất cả.',sources:[{name:'Japan Foundation · tài liệu nhập môn',url:'https://www.irodori.jpf.go.jp/en/starter/pdf.html'}],questions:[{id:'cf-1',kind:'recall',accepted:['シ'],prompt:'Tự nhớ: gõ shi bằng Katakana.',choices:['シ','Chưa khớp'],answer:0,explanation:'シ ghi shi; ツ ghi tsu.',skill:'シ/ツ'},{id:'cf-2',kind:'recall',accepted:['ン'],prompt:'Tự nhớ: gõ n bằng Katakana.',choices:['ン','Chưa khớp'],answer:0,explanation:'ン ghi n; ソ ghi so.',skill:'ソ/ン'},{id:'cf-3',kind:'recall',accepted:['ねこ'],prompt:'Gõ từ con mèo theo mẫu đã học (Hiragana).',choices:['ねこ','Chưa khớp'],answer:0,explanation:'ねこ ghi neko, không phải れこ hoặc わこ.',skill:'ね/れ/わ'}]});
 const voiced=lessons.find(l=>l.id==='sound-voiced');voiced.notes.push('Bảng đối chiếu đầy đủ: がぎぐげご (ga gi gu ge go); ざじずぜぞ (za ji zu ze zo); だぢづでど (da ji zu de do); ばびぶべぼ (ba bi bu be bo). Katakana: ガギグゲゴ／ザジズゼゾ／ダヂヅデド／バビブベボ. じ/ぢ, ず/づ không tự tráo cách viết từ.');
 const glide=lessons.find(l=>l.id==='sound-glide');glide.notes.push('Các nhóm thường gặp khác: にゃにゅにょ (nya nyu nyo), ひゃひゅひょ (hya hyu hyo), みゃみゅみょ (mya myu myo), りゃりゅりょ (rya ryu ryo), ぎゃぎゅぎょ (gya gyu gyo), じゃじゅじょ (ja ju jo), びゃびゅびょ (bya byu byo), ぴゃぴゅぴょ (pya pyu pyo). Áp dụng chữ nhỏ tương ứng trong Katakana.');
-lessons.push(...buildMnn(),buildGroupReview(),...buildAdditionalReviews(),...buildFinalReviews(),...buildAssessmentExpansion(),buildReadinessB(),buildN4Assessment(),buildN4SecondAssessment(),buildN4MiddleAssessment(),buildN4LaterAssessment(),buildN4LastAssessment(),buildN4VocabularyAssessment(),buildN4Comprehensive(),n4CapstoneLesson);
+lessons.push(...buildMnn(),buildGroupReview(),...buildAdditionalReviews(),...buildFinalReviews(),...buildAssessmentExpansion(),buildReadinessB(),buildN4Assessment(),buildN4SecondAssessment(),buildN4MiddleAssessment(),buildN4LaterAssessment(),buildN4LastAssessment(),buildN4VocabularyAssessment(),buildN4Comprehensive(),n4CapstoneLesson,n5CapstoneLesson);
 for(const l of lessons)if(l.id.startsWith('n5-')&&!l.id.startsWith('n5-assessment-')&&!l.id.startsWith('n5-practice-'))l.track='explore';
+const n5TeachLesson=lessons.find(l=>l.id==='mnn-14'),n5TeachWord=n5TeachLesson?.words.find(w=>w.text==='教えます');
+if(!n5TeachLesson||!n5TeachWord)throw Error('N5 Kanji 教 link requires the existing 教えます lesson usage.');
+n5TeachLesson.kanji.push({char:'教',wordKey:'教えます',inWord:'教えます（おしえます）',meaning:'dạy/cho biết theo từ 教えます',scope:'Cách đọc của từ đã học; không mọi âm hoặc từ nguyên.'});
 for(const l of lessons)for(const k of l.kanji||[])if(kanjiHanViet[k.char]?.length){k.hanViet=kanjiHanViet[k.char].join(' · ');k.hanVietSource='KANJIDIC2 / EDRDG CC BY-SA 4.0; source date 2026-11-12';}
+const kanjiWordLinkRepair={'mnn-11:枚':'枚','mnn-14:待':'待ちます','mnn-19:練':'練習します','mnn-21:雨':'雨が降ります'};
+for(const l of lessons)for(const k of l.kanji||[])if(!k.wordKey&&kanjiWordLinkRepair[l.id+':'+k.char])k.wordKey=kanjiWordLinkRepair[l.id+':'+k.char];
 for(const l of lessons)for(const w of l.words||[]){const r=sourceWordReviews[l.id+':'+w.text];if(r){w.type=r.type;w.sourceReview=r;}else if(['この','その','あの','どの'].includes(w.text)){w.type='từ chỉ định trước danh từ (連体詞)';w.typeSource='JMdict/TUFS: chỉ sửa loại từ, chưa rà toàn nghĩa/ví dụ';}}
 for(const l of lessons)for(const w of l.words||[]){if(!w.sourceReview){const r=wordMeaningReviews[w.text+'|'+w.reading+'|'+w.meaning];if(r)w.sourceReview=r;}if(/^[a-zA-Zāīūēōūō -]+$/.test(w.reading||'')&&/^[ぁ-ゖァ-ヶー]+$/.test(w.text)){w.romaji=w.reading;w.reading=w.text;w.readingCorrection='Tách romaji khỏi trường kana; giữ khóa mục từ và dữ liệu cũ';}}
 for(const l of lessons)for(const[g,i]of(l.grammar||[]).map((g,i)=>[g,i])){const r=grammarSourceReviews[l.id+'-g'+i];if(r)g.sourceReview={...r,date:'2026-11-12',status:'Đối chiếu nguồn trong phạm vi ghi rõ; AI biên soạn rà, chưa người duyệt độc lập'};if(l.id==='mnn-37'&&i===0&&!g.explanation.includes('う→わ'))g.explanation+=' Nhóm1 cóう→わ: 買う→買われる. 来る→来られる đọcこられる trong mẫu bị động; する→される.';}
 for(const l of lessons)for(const w of l.words||[]){if(!w.sourceReview){const r=wordMeaningReviews[w.text+'|'+w.reading+'|'+w.meaning];if(r)w.sourceReview=r;}}
-for(const l of lessons)for(const w of l.words||[]){const t=wordSourceTypes[l.id+':'+w.text];if(t&&t!=='loại từ chưa đối chiếu đầy đủ'){w.type=t;w.typeSource='JMdict selected sense POS; labels translated by project, not independent academic review';}}
+for(const l of lessons)for(const w of l.words||[]){const t=wordSourceTypes[l.id+':'+w.text];if(t&&t!=='loại từ chưa đối chiếu đầy đủ'){w.type=t;w.typeSource=t.startsWith('dạng sai khiến')?'Nhóm chia của dạng sai khiến đang học; không phải nhóm động từ gốc trong JMdict':'JMdict selected sense POS; labels translated by project, not independent academic review';}}
+// Independent working bank: append before question indexes; preserve all prior IDs.
+lessons.push(...buildN5R1AssessmentBank().map(l=>({...l,autoRecommend:false})),...n5AssessmentSupplement,...n5AssessmentSupplement2,...n5KanjiAssessmentSupplement,...n5GrammarAssessmentSupplement);
+for(const l of lessons.filter(l=>l.referenceLesson>=26&&l.referenceLesson<=30)){const extra=n4ReadingExtensionsFor(l.referenceLesson);if(!l.legacyQuestionIds)l.legacyQuestionIds=l.questions.map(q=>q.id);l.readingExtensions=extra;l.questions.push(...extra.flatMap(x=>x.questions));}
 export const allQuestions = lessons.flatMap(l => l.questions.map(q => ({ ...q, lessonId: l.id })));
 export const questionById = id => allQuestions.find(q => q.id === id);

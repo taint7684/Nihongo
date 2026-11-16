@@ -139,6 +139,8 @@ const radicals = mappings.filter(item => !item.variant).map(item => {
       .filter(variant => variant.variant && variant.number === item.number)
       .map(variant => ({ glyph: variant.glyph, ideograph: variant.ideograph })),
     examples,
+    relatedExamples: library.filter(k=>k.radical===item.number&&k.category!=='joyo').slice(0,8).map(k=>k.char),
+    sourceOnlyExamples: examples.length||library.some(k=>k.radical===item.number)?[]:all.filter(k=>k.radical===item.number).slice(0,3).map(k=>({char:k.char,meanings:k.meanings})),
     source: 'Unicode CJKRadicals/UnicodeData for number, glyph and name; KANJIDIC2 for mapped ideograph readings, meanings and strokes.',
     status: 'Source-derived lookup data; no independent academic review.'
   };

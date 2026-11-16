@@ -2317,7 +2317,8 @@
             7
           ],
           "lessonIds": [
-            "mnn-07"
+            "mnn-07",
+            "mnn-08"
           ],
           "hasContext": true,
           "sameLevelContext": true,
@@ -3356,6 +3357,7 @@
             10
           ],
           "lessonIds": [
+            "mnn-01",
             "mnn-04",
             "mnn-06"
           ],
@@ -3674,6 +3676,7 @@
             11
           ],
           "lessonIds": [
+            "mnn-01",
             "mnn-11"
           ],
           "hasContext": true,
@@ -7699,7 +7702,9 @@
             {
               "id": "mnn-01-g6",
               "pattern": "だれ / N は何ですか",
-              "practiceIds": []
+              "practiceIds": [
+                "m01-who-person"
+              ]
             },
             {
               "id": "mnn-01-g7",
@@ -7760,7 +7765,9 @@
             {
               "id": "mnn-02-g3",
               "pattern": "だれの N ですか",
-              "practiceIds": []
+              "practiceIds": [
+                "m02-owner-ask"
+              ]
             },
             {
               "id": "mnn-02-g4",
@@ -9167,13 +9174,15 @@
       ],
       "summary": {
         "plannedWords": 450,
-        "missingLexicalContexts": 0,
         "plannedLexicalTargets": 450,
+        "missingLexicalContexts": 0,
+        "missingWords": 0,
+        "uncontextualizedGrammarTargets": 0,
+        "uncontextualizedGlossaryTargets": 0,
         "gapClasses": {
           "same-level-context": 450
         },
         "contextWords": 450,
-        "missingWords": 0,
         "plannedKanji": 105,
         "kanjiWithLesson": 105,
         "publishedUnits": 25,
@@ -9308,12 +9317,14 @@
           "recommendedLessons": [
             26
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-26"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:出します",
@@ -9321,12 +9332,14 @@
           "recommendedLessons": [
             26
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-26"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:見えます",
@@ -9440,12 +9453,14 @@
           "recommendedLessons": [
             27
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-27"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:しか",
@@ -9466,12 +9481,14 @@
           "recommendedLessons": [
             27
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-27"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:毎晩",
@@ -9584,12 +9601,14 @@
           "recommendedLessons": [
             28
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-28"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:出張",
@@ -9597,12 +9616,14 @@
           "recommendedLessons": [
             28
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-28"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:試験",
@@ -9610,12 +9631,14 @@
           "recommendedLessons": [
             28
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-28"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:閉まります",
@@ -9729,12 +9752,14 @@
           "recommendedLessons": [
             29
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-29"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:汚れます",
@@ -9742,12 +9767,14 @@
           "recommendedLessons": [
             29
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-29"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:なくします",
@@ -9882,12 +9909,14 @@
           "recommendedLessons": [
             30
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-30"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:地図",
@@ -9895,12 +9924,14 @@
           "recommendedLessons": [
             30
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-30"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:引き出し",
@@ -9908,12 +9939,14 @@
           "recommendedLessons": [
             30
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-30"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:将来",
@@ -10019,12 +10052,14 @@
           "recommendedLessons": [
             31
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-31"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:卒業します",
@@ -10032,12 +10067,14 @@
           "recommendedLessons": [
             31
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-31"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:つもり",
@@ -10059,12 +10096,14 @@
             32,
             36
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-32"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:無理",
@@ -10129,12 +10168,14 @@
           "recommendedLessons": [
             32
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-32"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:空",
@@ -10158,19 +10199,20 @@
             32
           ],
           "lessonIds": [
+            "mnn-32",
             "mnn-12"
           ],
           "hasContext": true,
-          "sameLevelContext": false,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "prior-knowledge-reused",
+          "gapClass": "same-level-context",
           "reusedFrom": {
             "lessonId": "mnn-12",
             "word": "雪",
             "meaning": "tuyết",
             "reading": "ゆき"
           },
-          "status": "Có từ nền dùng lại; chưa tự xác nhận nhiệm vụ N4 đủ"
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:失敗",
@@ -10178,12 +10220,14 @@
           "recommendedLessons": [
             32
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-32"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:たぶん",
@@ -10302,12 +10346,14 @@
           "recommendedLessons": [
             33
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-33"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:規則",
@@ -10316,12 +10362,14 @@
             33,
             45
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-33"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:守ります",
@@ -10329,12 +10377,14 @@
           "recommendedLessons": [
             33
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-33"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:触ります",
@@ -10443,12 +10493,14 @@
           "recommendedLessons": [
             34
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-34"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:先に",
@@ -10471,12 +10523,14 @@
           "recommendedLessons": [
             34
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-34"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:最後に",
@@ -10484,12 +10538,14 @@
           "recommendedLessons": [
             34
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-34"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:条件",
@@ -10563,12 +10619,14 @@
           "recommendedLessons": [
             35
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-35"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:向こう",
@@ -10634,12 +10692,14 @@
           "recommendedLessons": [
             35
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-35"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:日記",
@@ -10677,12 +10737,14 @@
           "recommendedLessons": [
             36
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-36"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:必ず",
@@ -10750,12 +10812,14 @@
           "recommendedLessons": [
             36
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-36"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:ほめます",
@@ -10823,12 +10887,14 @@
           "recommendedLessons": [
             37
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-37"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:踏みます",
@@ -10866,12 +10932,14 @@
           "recommendedLessons": [
             37
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-37"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:歴史",
@@ -10879,12 +10947,14 @@
           "recommendedLessons": [
             37
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-37"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:楽しい",
@@ -10907,12 +10977,14 @@
           "recommendedLessons": [
             38
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-38"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:育てます",
@@ -10950,12 +11022,14 @@
           "recommendedLessons": [
             38
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-38"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:消します",
@@ -10984,12 +11058,14 @@
           "recommendedLessons": [
             38
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-38"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:生まれます",
@@ -10997,12 +11073,14 @@
           "recommendedLessons": [
             38
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-38"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:参加します",
@@ -11025,12 +11103,14 @@
           "recommendedLessons": [
             38
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-38"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:地震",
@@ -11038,12 +11118,14 @@
           "recommendedLessons": [
             39
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-39"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:台風",
@@ -11051,12 +11133,14 @@
           "recommendedLessons": [
             39
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-39"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:事故",
@@ -11079,12 +11163,14 @@
           "recommendedLessons": [
             39
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-39"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:びっくりします",
@@ -11138,12 +11224,14 @@
           "recommendedLessons": [
             39
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-39"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:悪い",
@@ -11152,19 +11240,20 @@
             39
           ],
           "lessonIds": [
+            "mnn-39",
             "mnn-08"
           ],
           "hasContext": true,
-          "sameLevelContext": false,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "prior-knowledge-reused",
+          "gapClass": "same-level-context",
           "reusedFrom": {
             "lessonId": "mnn-08",
             "word": "悪い",
             "meaning": "xấu/tệ",
             "reading": "わるい"
           },
-          "status": "Có từ nền dùng lại; chưa tự xác nhận nhiệm vụ N4 đủ"
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:ので",
@@ -11230,12 +11319,14 @@
           "recommendedLessons": [
             40
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-40"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:測ります",
@@ -11316,12 +11407,14 @@
           "recommendedLessons": [
             40
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-40"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:いただきます",
@@ -11389,12 +11482,14 @@
           "recommendedLessons": [
             41
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-41"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:娘",
@@ -11402,12 +11497,14 @@
           "recommendedLessons": [
             41
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-41"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:祖父",
@@ -11415,12 +11512,14 @@
           "recommendedLessons": [
             41
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-41"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:祖母",
@@ -11428,12 +11527,14 @@
           "recommendedLessons": [
             41
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-41"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:お礼",
@@ -11456,12 +11557,14 @@
           "recommendedLessons": [
             41
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-41"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:貯金します",
@@ -11571,12 +11674,14 @@
           "recommendedLessons": [
             42
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-42"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:道具",
@@ -11599,12 +11704,14 @@
           "recommendedLessons": [
             42
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-42"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:そうです",
@@ -11626,12 +11733,14 @@
           "recommendedLessons": [
             43
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-43"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:泣きます",
@@ -11741,12 +11850,14 @@
           "recommendedLessons": [
             43
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-43"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:寂しい",
@@ -11754,12 +11865,14 @@
           "recommendedLessons": [
             43
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-43"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:すぎます",
@@ -11996,19 +12109,20 @@
             45
           ],
           "lessonIds": [
+            "mnn-45",
             "mnn-03"
           ],
           "hasContext": true,
-          "sameLevelContext": false,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "prior-knowledge-reused",
+          "gapClass": "same-level-context",
           "reusedFrom": {
             "lessonId": "mnn-03",
             "word": "受付",
             "meaning": "quầy tiếp nhận",
             "reading": "うけつけ"
           },
-          "status": "Có từ nền dùng lại; chưa tự xác nhận nhiệm vụ N4 đủ"
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:間違えます",
@@ -12108,12 +12222,14 @@
           "recommendedLessons": [
             46
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-46"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:ちょうど",
@@ -12196,12 +12312,14 @@
           "recommendedLessons": [
             46
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-46"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:予報",
@@ -12314,12 +12432,14 @@
           "recommendedLessons": [
             47
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-47"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:休ませます",
@@ -12327,12 +12447,14 @@
           "recommendedLessons": [
             48
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-48"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:行かせます",
@@ -12370,12 +12492,14 @@
           "recommendedLessons": [
             48
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-48"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:手伝わせます",
@@ -12383,12 +12507,14 @@
           "recommendedLessons": [
             48
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-48"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:自由",
@@ -12426,12 +12552,14 @@
           "recommendedLessons": [
             48
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-48"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:子供",
@@ -12571,12 +12699,14 @@
           "recommendedLessons": [
             49
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-49"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:部長",
@@ -12584,12 +12714,14 @@
           "recommendedLessons": [
             49
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-49"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:尊敬",
@@ -12721,12 +12853,14 @@
           "recommendedLessons": [
             50
           ],
-          "lessonIds": [],
-          "hasContext": false,
-          "sameLevelContext": false,
+          "lessonIds": [
+            "mnn-50"
+          ],
+          "hasContext": true,
+          "sameLevelContext": true,
           "unitKind": "lexical-target",
-          "gapClass": "missing-context",
-          "status": "Chưa biên soạn đủ mục từ"
+          "gapClass": "same-level-context",
+          "status": "Có ngữ cảnh, chưa chứng nhận đủ học thuật"
         },
         {
           "id": "N4:word:謙譲",
@@ -12775,38 +12909,50 @@
         {
           "id": "N4:kanji:授",
           "char": "授",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-26"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:業",
           "char": "業",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-26"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:遅",
           "char": "遅",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-26"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:痛",
           "char": "痛",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-26"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:連",
           "char": "連",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-45"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:絡",
           "char": "絡",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-45"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:声",
@@ -12819,44 +12965,58 @@
         {
           "id": "N4:kanji:漢",
           "char": "漢",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-27"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:字",
           "char": "字",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-44"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:建",
           "char": "建",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-27"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:物",
           "char": "物",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-27"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:音",
           "char": "音",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-27"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:景",
           "char": "景",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-27"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:色",
           "char": "色",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-44"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:歌",
@@ -12869,62 +13029,82 @@
         {
           "id": "N4:kanji:通",
           "char": "通",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-28"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:熱",
           "char": "熱",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-28"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:心",
           "char": "心",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-28"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:利",
           "char": "利",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-28"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:人",
           "char": "人",
-          "lessonIds": [],
+          "lessonIds": [
+            "mnn-28"
+          ],
           "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:気",
           "char": "気",
-          "lessonIds": [],
+          "lessonIds": [
+            "mnn-28"
+          ],
           "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:出",
           "char": "出",
-          "lessonIds": [],
+          "lessonIds": [
+            "mnn-28"
+          ],
           "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:張",
           "char": "張",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-28"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:試",
           "char": "試",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-28"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:験",
           "char": "験",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-28"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:閉",
@@ -12937,50 +13117,66 @@
         {
           "id": "N4:kanji:壊",
           "char": "壊",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-29"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:財",
           "char": "財",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-29"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:布",
           "char": "布",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-29"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:鍵",
           "char": "鍵",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-29"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:落",
           "char": "落",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-29"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:全",
           "char": "全",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-29"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:破",
           "char": "破",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-29"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:汚",
           "char": "汚",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-29"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:予",
@@ -13001,86 +13197,114 @@
         {
           "id": "N4:kanji:会",
           "char": "会",
-          "lessonIds": [],
+          "lessonIds": [
+            "mnn-30"
+          ],
           "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:議",
           "char": "議",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-30"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:資",
           "char": "資",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-30"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:料",
           "char": "料",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-30"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:準",
           "char": "準",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-30"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:備",
           "char": "備",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-30"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:片",
           "char": "片",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-30"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:付",
           "char": "付",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-45"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:並",
           "char": "並",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-30"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:貼",
           "char": "貼",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-30"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:地",
           "char": "地",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-30"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:図",
           "char": "図",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-30"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:引",
           "char": "引",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-30"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:将",
           "char": "将",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-31"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:計",
@@ -13093,86 +13317,114 @@
         {
           "id": "N4:kanji:留",
           "char": "留",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-47"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:旅",
           "char": "旅",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-26"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:続",
           "char": "続",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-31"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:始",
           "char": "始",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-31"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:残",
           "char": "残",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-39"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:卒",
           "char": "卒",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-31"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:運",
           "char": "運",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-32"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:動",
           "char": "動",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-32"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:無",
           "char": "無",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-32"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:星",
           "char": "星",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-32"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:空",
           "char": "空",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-43"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:雪",
           "char": "雪",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-32"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:失",
           "char": "失",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-32"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:敗",
           "char": "敗",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-32"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:意",
@@ -13193,74 +13445,98 @@
         {
           "id": "N4:kanji:注",
           "char": "注",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-33"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:危",
           "char": "危",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-33"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:険",
           "char": "険",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-33"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:禁",
           "char": "禁",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-33"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:伝",
           "char": "伝",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-33"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:言",
           "char": "言",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-33"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:規",
           "char": "規",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-33"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:則",
           "char": "則",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-33"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:守",
           "char": "守",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-47"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:触",
           "char": "触",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-33"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:説",
           "char": "説",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-34"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:明",
           "char": "明",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-34"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:歯",
@@ -13273,49 +13549,65 @@
         {
           "id": "N4:kanji:砂",
           "char": "砂",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-34"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:糖",
           "char": "糖",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-34"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:醤",
           "char": "醤",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-34"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:油",
           "char": "油",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-34"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:先",
           "char": "先",
-          "lessonIds": [],
+          "lessonIds": [
+            "mnn-38"
+          ],
           "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:次",
           "char": "次",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-34"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:最",
           "char": "最",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-34"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:後",
           "char": "後",
-          "lessonIds": [],
+          "lessonIds": [
+            "mnn-34"
+          ],
           "hasSourceStroke": true
         },
         {
@@ -13337,55 +13629,73 @@
         {
           "id": "N4:kanji:桜",
           "char": "桜",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-35"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:咲",
           "char": "咲",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-35"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:島",
           "char": "島",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-35"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:向",
           "char": "向",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-35"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:相",
           "char": "相",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-35"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:談",
           "char": "談",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-35"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:機",
           "char": "機",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-35"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:例",
           "char": "例",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-35"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:日",
           "char": "日",
-          "lessonIds": [],
+          "lessonIds": [
+            "mnn-36"
+          ],
           "hasSourceStroke": true
         },
         {
@@ -13407,44 +13717,58 @@
         {
           "id": "N4:kanji:努",
           "char": "努",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-36"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:必",
           "char": "必",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-36"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:達",
           "char": "達",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-26"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:成",
           "char": "成",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-26"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:慣",
           "char": "慣",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-36"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:健",
           "char": "健",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-36"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:康",
           "char": "康",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-36"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:招",
@@ -13465,50 +13789,66 @@
         {
           "id": "N4:kanji:歴",
           "char": "歴",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-37"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:史",
           "char": "史",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-37"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:世",
           "char": "世",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-37"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:界",
           "char": "界",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-37"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:踏",
           "char": "踏",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-37"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:盗",
           "char": "盗",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-37"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:輸",
           "char": "輸",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-37"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:楽",
           "char": "楽",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-38"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:育",
@@ -13521,32 +13861,42 @@
         {
           "id": "N4:kanji:整",
           "char": "整",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-38"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:消",
           "char": "消",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-38"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:忘",
           "char": "忘",
-          "lessonIds": [],
+          "lessonIds": [
+            "mnn-38"
+          ],
           "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:参",
           "char": "参",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-50"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:加",
           "char": "加",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-38"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:事",
@@ -13567,14 +13917,18 @@
         {
           "id": "N4:kanji:震",
           "char": "震",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-39"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:台",
           "char": "台",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-39"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:風",
@@ -13587,26 +13941,34 @@
         {
           "id": "N4:kanji:火",
           "char": "火",
-          "lessonIds": [],
+          "lessonIds": [
+            "mnn-47"
+          ],
           "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:驚",
           "char": "驚",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-39"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:安",
           "char": "安",
-          "lessonIds": [],
+          "lessonIds": [
+            "mnn-42"
+          ],
           "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:念",
           "char": "念",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-39"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:調",
@@ -13619,32 +13981,42 @@
         {
           "id": "N4:kanji:悪",
           "char": "悪",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-39"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:到",
           "char": "到",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-40"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:着",
           "char": "着",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-39"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:発",
           "char": "発",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-40"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:数",
           "char": "数",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-40"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:測",
@@ -13657,128 +14029,170 @@
         {
           "id": "N4:kanji:重",
           "char": "重",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-40"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:軽",
           "char": "軽",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-42"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:高",
           "char": "高",
-          "lessonIds": [],
+          "lessonIds": [
+            "mnn-40"
+          ],
           "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:長",
           "char": "長",
-          "lessonIds": [],
+          "lessonIds": [
+            "mnn-40"
+          ],
           "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:費",
           "char": "費",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-42"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:生",
           "char": "生",
-          "lessonIds": [],
+          "lessonIds": [
+            "mnn-36"
+          ],
           "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:活",
           "char": "活",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-36"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:教",
           "char": "教",
-          "lessonIds": [],
+          "lessonIds": [
+            "mnn-42"
+          ],
           "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:仕",
           "char": "仕",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-42"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:道",
           "char": "道",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-42"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:具",
           "char": "具",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-42"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:泣",
           "char": "泣",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-43"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:笑",
           "char": "笑",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-43"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:戻",
           "char": "戻",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-43"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:似",
           "char": "似",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-43"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:寂",
           "char": "寂",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-43"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:厚",
           "char": "厚",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-44"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:薄",
           "char": "薄",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-44"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:濃",
           "char": "濃",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-44"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:障",
           "char": "障",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-45"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:急",
           "char": "急",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-45"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:届",
@@ -13791,14 +14205,18 @@
         {
           "id": "N4:kanji:直",
           "char": "直",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-41"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:修",
           "char": "修",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-46"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:報",
@@ -13811,14 +14229,18 @@
         {
           "id": "N4:kanji:匂",
           "char": "匂",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-47"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:自",
           "char": "自",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-38"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:許",
@@ -13839,20 +14261,26 @@
         {
           "id": "N4:kanji:部",
           "char": "部",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-29"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:下",
           "char": "下",
-          "lessonIds": [],
+          "lessonIds": [
+            "mnn-48"
+          ],
           "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:客",
           "char": "客",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-49"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:様",
@@ -13865,20 +14293,26 @@
         {
           "id": "N4:kanji:社",
           "char": "社",
-          "lessonIds": [],
+          "lessonIds": [
+            "mnn-49"
+          ],
           "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:尊",
           "char": "尊",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-49"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:敬",
           "char": "敬",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-49"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:申",
@@ -13899,32 +14333,42 @@
         {
           "id": "N4:kanji:伺",
           "char": "伺",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-50"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:謙",
           "char": "謙",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-50"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:譲",
           "char": "譲",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-50"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:丁",
           "char": "丁",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-50"
+          ],
+          "hasSourceStroke": true
         },
         {
           "id": "N4:kanji:寧",
           "char": "寧",
-          "lessonIds": [],
-          "hasSourceStroke": false
+          "lessonIds": [
+            "mnn-50"
+          ],
+          "hasSourceStroke": true
         }
       ],
       "units": [
@@ -14964,20 +15408,21 @@
       ],
       "summary": {
         "plannedWords": 240,
-        "missingLexicalContexts": 61,
         "plannedLexicalTargets": 222,
+        "missingLexicalContexts": 0,
+        "missingWords": 0,
+        "uncontextualizedGrammarTargets": 15,
+        "uncontextualizedGlossaryTargets": 3,
         "gapClasses": {
-          "same-level-context": 141,
-          "missing-context": 61,
+          "same-level-context": 205,
           "grammar-not-new-lexeme": 15,
-          "prior-knowledge-reused": 18,
+          "prior-knowledge-reused": 15,
           "matcher-form-difference": 2,
           "explanation-term": 3
         },
-        "contextWords": 161,
-        "missingWords": 79,
+        "contextWords": 222,
         "plannedKanji": 185,
-        "kanjiWithLesson": 30,
+        "kanjiWithLesson": 185,
         "publishedUnits": 25,
         "plannedUnits": 25
       }

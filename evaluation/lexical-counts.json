@@ -1,21 +1,21 @@
 {
-  "time": "2026-11-14T04:39:14.257Z",
+  "time": "2026-11-16T02:38:06.358Z",
   "version": "2026-11-12-lexical-v1",
   "dictionaryDate": "2026-11-09",
   "identity": "Dictionary entry / writing / grammatical form / per-lesson meaning are separate. Unique candidate is not semantic approval. Unresolved entries never inflate the verified count.",
   "migration": "Read adapter for curated 私/わたし only. Schema1 legacy keys and histories retained; new evidence has optional usageId. Old evidence without usageId remains context-unspecified.",
   "summary": {
     "N5": {
-      "surfaceKeys": 806,
-      "usageRecords": 829,
-      "candidateLexemes": 800,
+      "surfaceKeys": 810,
+      "usageRecords": 852,
+      "candidateLexemes": 804,
       "unresolvedForms": 0,
       "composedOrNamedUses": 3,
-      "sourceComparedUsages": 826,
+      "sourceComparedUsages": 849,
       "roles": {
         "active": 442,
         "recognition": 268,
-        "not-yet-classified": 119
+        "not-yet-classified": 142
       }
     },
     "N4": {
@@ -45,16 +45,16 @@
       }
     },
     "cumulative": {
-      "surfaceKeys": 1449,
-      "usageRecords": 1505,
-      "candidateLexemes": 1428,
+      "surfaceKeys": 1453,
+      "usageRecords": 1528,
+      "candidateLexemes": 1432,
       "unresolvedForms": 0,
       "composedOrNamedUses": 6,
-      "sourceComparedUsages": 1499,
+      "sourceComparedUsages": 1522,
       "roles": {
         "active": 914,
         "recognition": 433,
-        "not-yet-classified": 158
+        "not-yet-classified": 181
       }
     }
   }

@@ -10,4 +10,57 @@ it('adds usage context to new evidence without assigning senses to legacy answer
 it('rejects spurious suru roots and keeps honorific irregulars',()=>{const row=(id,k,r,pos)=>({id,kanji:[{text:k}],kana:[{text:r,appliesToKanji:['*']}],sense:[{partOfSpeech:pos}]});const idx=createWordIndex([row('cry','なく','なく',['v5k']),row('lose','なくす','なくす',['v5s']),row('study','勉強','べんきょう',['n','vs']),row('honorific','くださる','くださる',['v5r'])]);expect(candidates('なくします','なくします',idx).map(x=>x.entry.id)).toEqual(['lose']);expect(candidates('勉強します','べんきょうします',idx).map(x=>x.entry.id)).toEqual(['study']);expect(candidates('くださいます','くださいます',idx).map(x=>x.entry.id)).toEqual(['honorific']);});
 it('selected source senses exist and compositions do not inflate headwords',()=>{const r=JSON.parse(fs.readFileSync('public/lexical-register.json','utf8'));const raw=JSON.parse(fs.readFileSync('public/dictionaries/word-evidence.json','utf8'));const entries=new Map(raw.entries.map(e=>[e.id,e]));for(const u of r.uses){if(u.meaning.selectedSourceSenses.length){const e=entries.get(u.lexemeId.replace('jmdict:',''));expect(e,u.id).toBeTruthy();for(const sense of u.meaning.selectedSourceSenses)expect(e.senses.some(s=>s.id===sense),u.id+' '+sense).toBe(true);}if(u.composition)for(const[id]of u.composition.parts)expect(entries.has(id),u.id+' '+id).toBe(true);}expect(r.summary.cumulative.composedOrNamedUses).toBe(6);expect(r.summary.cumulative.unresolvedForms).toBe(0);const a=r.uses.find(u=>u.id==='mnn-01:私');expect(a.sourceType).toBe('đại từ');});
 
+it('keeps every core dictionary usage and taught N5/N4 Kanji linked to source data', async()=>{
+  const {lessons}=await import('./content.js');
+  const register=JSON.parse(fs.readFileSync('public/lexical-register.json','utf8'));
+  const raw=JSON.parse(fs.readFileSync('public/dictionaries/word-evidence.json','utf8'));
+  const manifest=JSON.parse(fs.readFileSync('public/dictionaries/source-manifest.json','utf8'));
+  expect(manifest.derivedDataLicense).toBe('CC BY-SA 4.0');
+  expect(manifest.sources.some(source=>source.name==='jmdict-eng.tgz')).toBe(true);
+  expect(manifest.sources.some(source=>source.name==='kanjidic2.xml.gz')).toBe(true);
+  expect(manifest.sources.some(source=>source.name==='licence.html')).toBe(true);
+  expect(fs.existsSync('public/dictionaries/licenses/edrdg.html')).toBe(true);
+  expect(fs.existsSync('public/dictionaries/licenses/jmdict-conversion.md')).toBe(true);
+  const coreUses=register.uses.filter(use=>['N5','N4'].includes(use.level));
+  const dictionaryUses=coreUses.filter(use=>use.unitKind==='dictionary-unit');
+  expect(dictionaryUses.length).toBeGreaterThan(0);
+  for(const use of dictionaryUses){
+    expect(use.meaning.selectedSourceSenses.length,use.id).toBeGreaterThan(0);
+    expect(use.meaning.status,use.id).toMatch(/đối chiếu/i);
+  }
+  const unresolved=raw.uses.filter(use=>!use.candidates.length);
+  expect(unresolved.length).toBeGreaterThan(0);
+  for(const use of unresolved){
+    const classified=register.uses.find(item=>item.lessonId===use.lessonId&&item.writing===use.surface&&item.reading===use.reading);
+    expect(classified?.unitKind).not.toBe('dictionary-unit');
+    expect(classified?.composition?.sources?.length).toBeGreaterThan(0);
+  }
+  const coreLessonIds=new Set(lessons
+    .filter(lesson=>lesson.referenceLesson&&['N5','N4'].includes(lesson.level||'N5'))
+    .map(lesson=>lesson.id));
+  const ambiguous=raw.uses.filter(use=>coreLessonIds.has(use.lessonId)&&use.candidates.length>1);
+  expect(ambiguous.length).toBeGreaterThan(0);
+  for(const row of ambiguous){
+    const use=register.uses.find(item=>item.lessonId===row.lessonId&&item.writing===row.surface&&item.reading===row.reading);
+    expect(use).toBeTruthy();
+    expect(use.unitKind).toBe('dictionary-unit');
+    expect(use.candidates).toHaveLength(1);
+    expect(use.meaning.selectedSourceSenses.length).toBeGreaterThan(0);
+  }
+
+  const characters=new Set(lessons
+    .filter(lesson=>lesson.referenceLesson&&['N5','N4'].includes(lesson.level||'N5'))
+    .flatMap(lesson=>(lesson.kanji||[]).map(item=>item.char)));
+  expect(characters.size).toBeGreaterThan(0);
+  for(const char of characters){
+    const hex=char.codePointAt(0).toString(16).padStart(5,'0');
+    const source=JSON.parse(fs.readFileSync(`public/dictionaries/kanji/${hex}.json`,'utf8'));
+    expect(source.char).toBe(char);
+    expect(source.dictionary).toBe('KANJIDIC2');
+    expect(source.license).toBe('CC BY-SA 4.0');
+    expect(source.meanings.length).toBeGreaterThan(0);
+    expect(source.on.length+source.kun.length).toBeGreaterThan(0);
+  }
+});
+
 it('applies introductory source review after separating romaji from kana',async()=>{const{lessons}=await import('./content.js');const w=lessons.find(l=>l.id==='hira-k').words.find(w=>w.text==='えき');expect(w.reading).toBe('えき');expect(w.romaji).toBeTruthy();expect(w.sourceReview.entryId).toBe('1175140');});

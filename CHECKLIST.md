@@ -1,3 +1,5 @@
+> Cập nhật hiện hành 13/11/2026: xem [bàn giao có phạm vi và bằng chứng](HANDOFF_2026-11-13.md). Nội dung bên dưới giữ làm lịch sử; các số cũ không thay thế audit hiện tại. N3 là tùy chọn; mục tiêu lõi vẫn 0→N5→N4, chưa hoàn tất. Study Room là dự án riêng.
+
 # Kiểm tra triển khai — 11/11/2026
 
 Mục tiêu toàn khóa 0→N5 **chưa được nghiệm thu đủ**. Không suy từ số đơn vị/test sang hiệu quả học.
