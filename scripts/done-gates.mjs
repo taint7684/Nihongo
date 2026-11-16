@@ -155,10 +155,10 @@ g3Coverage.n3SelectionPolicyFrozen=g3N3Research?.G3?.selectionPolicyFrozen===tru
 const g6Audio=json('evaluation/foundation-audio-coverage.json');
 const g6Met=!!g6Audio?.phoneticListeningReview;
 const g9Met=!!jlptOfficialFacts?.limits?.appReadinessValidated && !!jlptOfficialFacts?.limits?.g9Passed;
-const g5Met=!!n4KanjiSeparateAssessment?.length>=195
-  &&!!n4GrammarSeparateAssessment?.length>=22
-  &&!!n4KaiwaSeparateAssessment?.length>=50
-  &&!!n4VocabSeparateAssessment41?.length>=41;
+const g5Met=(n4KanjiSeparateAssessment?.length||0)>=195
+  &&(n4GrammarSeparateAssessment?.length||0)>=22
+  &&(n4KaiwaSeparateAssessment?.length||0)>=50
+  &&(n4VocabSeparateAssessment41?.length||0)>=41;
 const gates=[
  gate('G0','Nền an toàn','unverified','Git/baseline và 50 ID có bằng chứng; QA hiện hữu không được coi là đã chạy mới. Chưa chứng minh toàn bộ khôi phục/migration trên HEAD hiện tại.',['MASTER_CHECKLIST.md','VERIFICATION.md','evaluation/legacy-compatibility-20261112.json',...qaPaths],{head:git('log','-1','--format=%H %s'),baselineExists:!!git('cat-file','-t','b16562cc5751b4f0220b7d233365dcd8a63edd2b'),workingChanges:git('status','--porcelain')?.split('\n').filter(Boolean).length,lessonIds1To50Intact:idsOK,existingQA:qa,newQARun:false}),
  gate('G1','Chuẩn hóa mục từ','unverified','Có entry/writing/form/usage và adapter; báo cáo hiện có không tự chứng minh migration không mất mọi lịch sử.',['src/word-identity.js','evaluation/lexical-counts.json','.tmp-ui/word-identity/report.json'],json('evaluation/lexical-counts.json')?.summary),
