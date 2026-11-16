@@ -82,3 +82,17 @@ communication['mnn-24'].push(task('m24-retell-help','Kể cùng một giúp đ�
 for(const u of n4Units){const id='mnn-'+u.number;communication[id]=[u.conversation];transfer[id]=transferForN4(u.number);prerequisiteNotes[u.number]=u.number===26?'Ôn thể thường bài20, て bài14, lời nhờ và たら bài25; giới thiệu lại ký hiệu ngay trong vòng.':'Dùng lại bài '+(u.number-1)+' và thể thường/て của N5; chức năng mới được giải thích trong từng vòng.';}
 
 communication['n4-communication-capstone']=n4CapstoneTasks.map(a=>({...a,evidenceKind:'transfer'}));
+
+// Attach assessment IDs to every Kaiwa task so each task links to its assessment question.
+for(const [lessonId,tasks]of Object.entries(communication)){
+  if(!lessonId.startsWith('mnn-'))continue;
+  const num=Number(lessonId.slice(4));
+  for(const t of tasks){
+    if(!t.assessmentId)t.assessmentId=num<=25?'n5-kaiwa-'+t.id:'n4-kaiwa-'+lessonId+'-use';
+  }
+}
+for(const [lessonId,task]of Object.entries(transfer)){
+  if(!lessonId.startsWith('mnn-'))continue;
+  const num=Number(lessonId.slice(4));
+  if(task&&!task.assessmentId)task.assessmentId=num<=25?'n5-kaiwa-'+task.id:'n4-kaiwa-'+lessonId+'-transfer';
+}
