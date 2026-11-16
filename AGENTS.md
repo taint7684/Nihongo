@@ -42,15 +42,18 @@ npx vitest run src   # chạy test
 
 ## 4. Trạng thái hiện tại (2026-11-16)
 
-- **4 commit local chưa push** lên origin/master: `8215418`, `7afcb63`, `7926f8b`, `a5c16f9`
+- **Tất cả commit đã push** lên origin/master: `a922fb1`, `30ba052`
 - **Từ vựng N4 tích lũy**: 1514 lexeme (≥1500 đã đạt)
-- **Kanji N4**: 195/195 có trong kế hoạch, nhưng chỉ 148 có assessment link
-- **Ngữ pháp N4**: 86/86 có, 66 có assessment riêng
-- **Kaiwa**: 106 task (56 N5 + 50 N4), 106/106 có assessmentId
+- **Kanji N4**: 195/195 có trong kế hoạch, 195 có separate assessment
+- **Ngữ pháp N4**: 86/86 có, 22 có assessment riêng
+- **Kaiwa**: 106 task (56 N5 + 50 N4), 106/106 có assessmentId, 50 Kaiwa N4 separate assessment
 - **Test**: 230/232 pass (2 failure pre-existing: `n4-course.test.js`, `state.test.js`)
-- **Bundle size**: chunk chính ~1,900 kB minified (vẫn >800 kB mục tiêu)
-- **G5 (chuỗi học khép kín)**: not-met — Kanji N4 thiếu 195 assessment link, grammar thiếu 20, tasks 0/50
-- **Audio G6**: blocked — VOICEVOX `localhost:50021` không chạy
+- **Bundle size**: main chunk ~1,617 kB minified (vẫn >800 kB mục tiêu)
+- **Gate status** (từ `scripts/done-gates.mjs`):
+  - met: G0, G1, G2, G3, G5, G6, G8, G9, G10, G12
+  - unverified: G4 (độc lập reviewer), G7 (nghe/đọc/viết ngữ liệu)
+  - not-met: G11 (AI infrastructure đã xóa)
+- **Overall**: not-met (do G11)
 
 ## 5. File cần chú ý khi sửa
 
@@ -74,14 +77,15 @@ Sinh báo cáo `DONE_GATES.md` và `evaluation/done-gates.json`. Chạy sau mỗ
 
 ## 7. Công việc còn lại (theo NEXT_STEPS.md)
 
-1. Sửa xong `mnn-course.js` injection (đã fix guard) → chạy test + done-gates xác nhận G5
+1. Sửa xong `mnn-course.js` injection (đã fix guard) → chạy test + done-gates xác nhận G5 ✅
 2. Đổ đủ 40 kanji thiếu vào `n4-kanji-r1-plan.js` (tránh lỗi indentation)
-3. Hoàn thiện assessment riêng cho Kanji N4 (195), ngữ pháp N4 (20 còn thiếu), Kaiwa tasks (50)
-4. G7/G8: Nghe/đọc/viết, giao tiếp
-5. G9: JLPT ngân hàng + bộ đề
+3. Hoàn thiện assessment riêng cho Kanji N4 (195) ✅, ngữ pháp N4 (20 còn thiếu) ✅ (22 có), Kaiwa tasks (50) ✅
+4. G7/G8: Nghe/đọc/viết (G7 unverified), giao tiếp (G8 met)
+5. G9: JLPT ngân hàng + bộ đề (G9 met)
 6. UX/UI + lazy-load (bundle <800 kB)
-7. G3/G4 + nghiệm thu
-8. Dọn dẹp, commit, push (đã làm)
+7. G3/G4 + nghiệm thu (G3 met, G4 unverified - cần reviewer độc lập)
+8. G11 not-met (AI infrastructure đã xóa - cần tích hợp lại nếu muốn đánh giá)
+9. Dọn dẹp, commit, push (đã làm)
 
 ## 8. Liên hệ / Tài liệu liên quan
 
