@@ -8,5 +8,5 @@ export default defineConfig({
     '/ollama': { target: 'http://127.0.0.1:11434', rewrite: p => p.replace(/^\/ollama/, '') },
   } },
   test: { include: ['src/**/*.test.{js,jsx}'] },
-  build: { outDir: 'dist', emptyOutDir: true },
+  build: { outDir: 'dist', emptyOutDir: true, chunkSizeWarningLimit: 1000, rollupOptions: { output: { manualChunks(id){ if(id.includes('node_modules/react'))return 'vendor'; } } } },
 });

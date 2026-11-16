@@ -13,6 +13,9 @@ import{applyN4VocabularyBatch02}from'./n4-vocabulary-batch-02.js';
 import{applyN4VocabularyBatch03}from'./n4-vocabulary-batch-03.js';
 import{applyN4VocabularyBatch04}from'./n4-vocabulary-batch-04.js';
 import{applyN4VocabularyBatch05}from'./n4-vocabulary-batch-05.js';
+import{applyN4VocabularyBatch06}from'./n4-vocabulary-batch-06.js';
+import{applyN4VocabularyBatch07}from'./n4-vocabulary-batch-07.js';
+import{applyN4VocabularyBatch08}from'./n4-vocabulary-batch-08.js';
 import{n4Units,n4Reference}from './n4-course.js';
 import{addN5Words}from './n5-word-supports.js';
 import{repairN5}from './n5-gap-repair.js';
@@ -43,7 +46,7 @@ const negativeUnit=mnnUnits.find(u=>u.number===17);negativeUnit.legacyQuestionId
 for(const u of mnnUnits)u.listeningTasks=listeningContent[u.number]||u.listeningTasks||[];
 repairN5(mnnUnits);addN5Words(mnnUnits);
 expandN5Lexicon(mnnUnits);expandN5Kanji(mnnUnits);applyN5FunctionalLexicon(mnnUnits);applyN5VocabularyBatch01(mnnUnits);applyN5VocabularyBatch02(mnnUnits);applyN5VocabularyBatch03(mnnUnits);applyN5VocabularyBatch04(mnnUnits);applyN5FunctionalPractice(mnnUnits);addPrivateKanji(mnnUnits);
-mnnUnits.push(...n4Units);applyN4VocabularyBatch01(mnnUnits);applyN4VocabularyBatch02(mnnUnits);applyN4VocabularyBatch03(mnnUnits);applyN4VocabularyBatch04(mnnUnits);applyN4VocabularyBatch05(mnnUnits);applyN4GapContexts(mnnUnits);applyN4KanjiSupports(mnnUnits);applyN4KanjiPlan(mnnUnits);
+mnnUnits.push(...n4Units);applyN4VocabularyBatch01(mnnUnits);applyN4VocabularyBatch02(mnnUnits);applyN4VocabularyBatch03(mnnUnits);applyN4VocabularyBatch04(mnnUnits);applyN4VocabularyBatch05(mnnUnits);applyN4VocabularyBatch06(mnnUnits);applyN4VocabularyBatch07(mnnUnits);applyN4VocabularyBatch08(mnnUnits);applyN4GapContexts(mnnUnits);applyN4KanjiSupports(mnnUnits);applyN4KanjiPlan(mnnUnits);
 const ownerPracticeUnit=mnnUnits.find(unit=>unit.number===2);
 if(!ownerPracticeUnit?.guidedMap)throw Error('Lesson 2 owner-question practice requires its existing guided map.');
 ownerPracticeUnit.questions.push(Q('m02-owner-ask','Bạn thấy một quyển vở trên bàn nhưng chưa biết chủ. Chọn câu hỏi về chủ sở hữu.',['このノートはだれのですか。','このノートはどこですか。','これはノートです。'],0,'だれの hỏi quyển vở thuộc về ai; hai lựa chọn kia hỏi vị trí hoặc chỉ nêu đồ vật.','đọc chủ sở hữu'));
