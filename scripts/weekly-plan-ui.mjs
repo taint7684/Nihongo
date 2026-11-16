@@ -1,0 +1,52 @@
+import {spawn} from 'node:child_process';
+import {existsSync,mkdirSync,readFileSync,writeFileSync} from 'node:fs';
+import {resolve} from 'node:path';
+import assert from 'node:assert/strict';
+import {fresh,KEY} from '../src/state.js';
+const browser=['C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe','C:/Program Files/Google/Chrome/Application/chrome.exe'].find(existsSync);
+assert(browser,'Browser required');
+const out=resolve('.tmp-ui/weekly-plan');mkdirSync(out,{recursive:true});
+const profile=resolve(out,'qa-profile-'+Date.now());
+const child=spawn(browser,['--headless=new','--disable-gpu','--disable-background-networking','--no-first-run','--remote-debugging-port=0',`--user-data-dir=${profile}`,'about:blank'],{windowsHide:true,stdio:'ignore'});
+const sleep=ms=>new Promise(r=>setTimeout(r,ms));let socket;const errors=[],report=[];
+try{
+  const portFile=resolve(profile,'DevToolsActivePort');for(let i=0;i<100&&!existsSync(portFile);i++)await sleep(100);assert(existsSync(portFile));
+  const port=readFileSync(portFile,'utf8').split('\n')[0],targets=await(await fetch(`http://127.0.0.1:${port}/json/list`)).json();
+  socket=new WebSocket(targets.find(t=>t.type==='page').webSocketDebuggerUrl);await new Promise((r,j)=>{socket.onopen=r;socket.onerror=j;});
+  let seq=0;const pending=new Map();
+  const send=(method,params={})=>new Promise((resolve,reject)=>{const id=++seq,timer=setTimeout(()=>reject(Error('CDP timeout '+method)),12000);pending.set(id,{resolve,reject,timer});socket.send(JSON.stringify({id,method,params}));});
+  socket.onmessage=({data})=>{const m=JSON.parse(data),p=pending.get(m.id);if(p){pending.delete(m.id);clearTimeout(p.timer);m.error?p.reject(Error(m.error.message)):p.resolve(m.result);}if(m.method==='Runtime.exceptionThrown')errors.push(m.params.exceptionDetails.exception?.description||m.params.exceptionDetails.text);};
+  const evaluate=async expression=>{const r=await send('Runtime.evaluate',{expression,returnByValue:true,awaitPromise:true});assert(!r.exceptionDetails,r.exceptionDetails?.text);return r.result.value;};
+  const wait=async expression=>{for(let i=0;i<150;i++){if(await evaluate(`Boolean(${expression})`))return;await sleep(100);}throw Error('Wait failed '+expression+'; body='+await evaluate('document.body.innerText.slice(0,1800)')+'; errors='+JSON.stringify(errors));};
+  const click=async text=>{assert(await evaluate(`(()=>{const b=[...document.querySelectorAll('button')].find(b=>b.textContent.includes(${JSON.stringify(text)})&&!b.disabled);if(!b)return false;b.click();return true})()`),text);await sleep(100);};
+  await send('Page.enable');await send('Runtime.enable');await send('Network.enable');await send('Network.setBlockedURLs',{urls:['*/ollama/*']});
+  await send('Page.navigate',{url:process.env.PLAN_QA_URL||'http://127.0.0.1:5175/'});await wait('document.body.innerText.includes("Cùng bắt đầu nhé")');
+  const seed=fresh();seed.profile={name:'QA weekly-plan isolated',minutes:30};seed.route='today';
+  seed.wordReviews['私']={streak:0,last:Date.now()-10000,due:Date.now()-1000};
+  await evaluate(`localStorage.setItem(${JSON.stringify(KEY)},${JSON.stringify(JSON.stringify(seed))})`);await send('Page.reload');
+  await wait('document.querySelector(".weekly-plan")');assert(await evaluate('document.querySelector(".weekly-plan").innerText.includes("1 từ")'));assert(await evaluate('document.querySelector(".weekly-plan").innerText.includes("Điểm dừng")'));report.push('Legacy schema 1 fixture loads; real due word and stop instructions render.');
+  const original=await evaluate(`JSON.parse(localStorage.getItem(${JSON.stringify(KEY)})).answers`);
+  const settings='[aria-label="Thiết lập kế hoạch tuần"]';
+  const settingsReady='document.querySelector('+JSON.stringify(settings)+')';
+  await click('Chỉnh thời gian và ngày thi');await wait(settingsReady);
+  for(const minutes of [10,20,40,120]){
+    await evaluate(`(()=>{const s=document.querySelector(${JSON.stringify(settings)}).querySelector('select');Object.getOwnPropertyDescriptor(HTMLSelectElement.prototype,'value').set.call(s,${JSON.stringify(String(minutes))});s.dispatchEvent(new Event('change',{bubbles:true}));})()`);
+    await wait(`JSON.parse(localStorage.getItem(${JSON.stringify(KEY)})).preferences.studyPlan?.dailyMinutes===${minutes}`);
+    await click('Hôm nay');await wait('document.querySelector(".weekly-plan")');assert(await evaluate(`document.querySelector('.weekly-plan').innerText.includes('${minutes-2}–${minutes+3}')`));
+    await click('Chỉnh thời gian và ngày thi');await wait(settingsReady);
+  }
+  report.push('10/20/40/120-minute settings persist and update Today ranges.');
+  await evaluate(`(()=>{const i=document.querySelector(${JSON.stringify(settings)}).querySelector('input[type=date]');Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set.call(i,'2026-11-20');i.dispatchEvent(new Event('input',{bubbles:true}));i.dispatchEvent(new Event('change',{bubbles:true}));})()`);
+  await wait(`JSON.parse(localStorage.getItem(${JSON.stringify(KEY)})).preferences.studyPlan.examDate==='2026-11-20'`);
+  await send('Page.reload');await wait(settingsReady);assert.equal(await evaluate(`document.querySelector(${JSON.stringify(settings)}).querySelector('input').value`),'2026-11-20');
+  await click('Hôm nay');await wait('document.querySelector(".weekly-plan")');
+  await evaluate('document.querySelector(".weekly-plan details").open=true');assert.equal(await evaluate('document.querySelectorAll(".weekly-plan details .evidence").length'),7);
+  await send('Emulation.setDeviceMetricsOverride',{width:390,height:844,deviceScaleFactor:1,mobile:true});assert(await evaluate('document.documentElement.scrollWidth<=window.innerWidth+2'));
+  await evaluate('document.querySelectorAll(".weekly-plan > ol > li button")[1].click()');
+  await wait('document.querySelector(".session-plan")');assert(await evaluate('document.querySelector(".session-heading").innerText.includes("120 phút")'));
+  await click('Lưu điểm dừng hôm nay');await wait('document.querySelector(".weekly-plan")');
+  assert(await evaluate(`Object.keys(JSON.parse(localStorage.getItem(${JSON.stringify(KEY)})).learning.sessions).length>0`));
+  assert.deepEqual(await evaluate(`JSON.parse(localStorage.getItem(${JSON.stringify(KEY)})).answers`),original);assert.equal(await evaluate(`Object.keys(JSON.parse(localStorage.getItem(${JSON.stringify(KEY)})).completed).length`),0);
+  assert.deepEqual(errors,[]);report.push('Optional exam date survives reload; seven conditional days render; 390px layout fits; activity opens a real lesson at the selected budget and saves a real continuation point without creating answers/completions.');
+  writeFileSync(resolve(out,'report.json'),JSON.stringify({at:new Date().toISOString(),profile:'isolated QA fixture',report,errors,learnerOutcomes:'not measured'},null,2));console.log(JSON.stringify(report,null,2));
+}finally{socket?.close();child.kill();}

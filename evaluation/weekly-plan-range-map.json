@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-12",
+  "scope": "G10 implementation evidence, not learner outcomes or a declaration that all G10 criteria pass",
+  "minutesSupported": {"integerRange": [10,180], "presets": [10,20,40,60,90,120,180], "legacyFallback": "preferences.todayMinutes, then profile.minutes, then 30"},
+  "allocation": "Listening ceil(budget/3), review max(2,floor(budget/4)), remaining split main and (20+ minute sessions) speaking/writing. Daily totals equal chosen budget; display range budget-2 to budget+3 minutes.",
+  "phaseMap": [
+    {"phase":"intro","basis":"unfinished foundation and hira-3 not completed; beginner preference can request this recommendation","range":"2-3 weeks is a reference only, not a calculated completion date"},
+    {"phase":"N5","basis":"N5 lessons not all completed; foundation may continue in parallel","range":"split existing lessons; no time-to-pass estimate"},
+    {"phase":"N5-check","basis":"all lessons 1-25 have completion records; mnn-final-review not completed","range":"separate assessments; no official score conversion"},
+    {"phase":"N4","basis":"N5 milestone activity completed; lessons 26-50 unfinished; optional self-selected entry changes recommendation only","range":"review milestone per completed block of five lessons"},
+    {"phase":"N4-check","basis":"all lessons 1-50 and N5 milestone activities completed","range":"N4 assessment and official sample link; completed activity does not certify N4"},
+    {"phase":"exam","basis":"user-entered exam date is 0-56 local calendar days away","range":"4-8 week reference; below 28 days warns and retains foundation recommendations"}
+  ],
+  "historyInputs": ["wordReviews.due", "reviews.due", "answers.correct", "completed", "listening.correct/due", "listeningActivities attempts/due", "learning.sessions step/at"],
+  "privacy": "pure local calculation; no external writes or synthetic learner history",
+  "backup": "optional preferences.studyPlan validated within version 1; legacy profile and todayMinutes remain unchanged",
+  "validation": {
+    "focusedUnitCommand": "node node_modules/vitest/vitest.mjs run src/weekly-plan.test.js src/state.test.js",
+    "focusedUnitResult": "26 passed / 2 files",
+    "browserCommand": "PLAN_QA_URL=http://127.0.0.1:5189 node scripts/weekly-plan-ui.mjs (PowerShell: set env first)",
+    "browserResult": "passed; isolated Edge QA profile; 10/20/40/120-minute changes, date reload, 7 days, 390px layout, real lesson and saved stop point; no answers/completions created",
+    "browserReport": ".tmp-ui/weekly-plan/report.json",
+    "buildCommand": "node node_modules/vite/bin/vite.js build --config vite.config.js",
+    "buildResult": "passed; existing large main chunk warning remains",
+    "fullSuiteLatest": "124 passed / 1 failure in concurrently added r1-closure.test.js completion fixture; reported to root; independent G10 tests pass"
+  },
+  "limitsVi": ["Kế hoạch 7 ngày có điều kiện: giữ mục đang học cho đến khi thực sự hoàn thành, không giả định mỗi ngày đã xong một bài.", "Chưa đo thời gian hoàn thành thật hay đánh giá khả năng tiếp thu; khoảng phút chỉ để chia buổi.", "Chưa có đủ bộ đề mới chuẩn hóa có giờ; không tự tuyên bố sẵn sàng hoặc sát điểm sàn từ tỷ lệ đúng.", "Ghi âm tháng do người học chủ động và tự đối chiếu; chưa tự chấm hay theo dõi tháng tự động.", "Kanji N3 được gợi ý sau hoạt động N4 và tự kiểm/bù yếu; không khóa nội dung, không coi hoàn thành là vững N4.", "Chưa xác nhận toàn bộ học liệu đáp ứng nguồn học duy nhất."]
+}

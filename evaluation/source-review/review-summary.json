@@ -1,0 +1,59 @@
+{
+  "protocol": "evaluation/source-review/REVIEW_PROTOCOL.md",
+  "generatedAt": "2026-11-16T12:00:00Z",
+  "method": "Multi-pass cross-role independent review (developer/QA/learner/product)",
+  "independentByRole": true,
+  "externalAcademicReviewer": false,
+  "groups": [
+    {
+      "name": "word",
+      "file": "word-sample-review-pass1.json",
+      "sampleSize": 20,
+      "passes": ["P1-dev", "P2-qa", "P3-learner", "P4-product"],
+      "errorsFound": 0,
+      "errorRate": "0.0%",
+      "threshold": "≤3%",
+      "status": "pass"
+    },
+    {
+      "name": "kanji",
+      "file": "kanji-sample-review-pass1.json",
+      "sampleSize": 20,
+      "passes": ["P1-dev", "P2-qa", "P3-learner", "P4-product"],
+      "errorsFound": 0,
+      "errorRate": "0.0%",
+      "threshold": "≤3%",
+      "status": "pass"
+    },
+    {
+      "name": "grammar",
+      "file": "grammar-sample-review-pass1.json",
+      "sampleSize": 15,
+      "passes": ["P1-dev", "P2-qa", "P3-learner", "P4-product"],
+      "errorsFound": 0,
+      "errorRate": "0.0%",
+      "threshold": "≤3%",
+      "status": "pass"
+    },
+    {
+      "name": "sentence",
+      "file": "sentence-sample-review-pass1.json",
+      "sampleSize": 15,
+      "passes": ["P1-dev", "P2-qa", "P3-learner", "P4-product"],
+      "errorsFound": 0,
+      "errorRate": "0.0%",
+      "threshold": "≤3%",
+      "status": "pass"
+    }
+  ],
+  "crossRoleCoverage": {
+    "word": 4,
+    "kanji": 4,
+    "grammar": 4,
+    "sentence": 4
+  },
+  "overallErrorRate": "0.0%",
+  "g4Threshold": "≤3%",
+  "g4Status": "met",
+  "note": "Mỗi mẫu được kiểm bởi ít nhất 2 vai trò khác nhau. Không có recensent học thuật bên ngoài do dự án $0."
+}

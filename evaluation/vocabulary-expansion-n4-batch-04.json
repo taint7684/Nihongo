@@ -1,0 +1,2114 @@
+{
+  "generatedAt": "2026-11-14T04:04:28.210Z",
+  "batchId": "n4-vocabulary-04",
+  "status": "provisional N4 learning content; not an official JLPT list or complete syllabus",
+  "counts": {
+    "before": {
+      "N5": {
+        "surfaceKeys": 806,
+        "usageRecords": 829,
+        "candidateLexemes": 800
+      },
+      "N4New": {
+        "surfaceKeys": 473,
+        "usageRecords": 474,
+        "candidateLexemes": 468
+      },
+      "cumulative": {
+        "surfaceKeys": 1289,
+        "candidateLexemes": 1268
+      }
+    },
+    "after": {
+      "N5": {
+        "surfaceKeys": 806,
+        "usageRecords": 829,
+        "candidateLexemes": 800
+      },
+      "N4New": {
+        "surfaceKeys": 553,
+        "usageRecords": 554,
+        "candidateLexemes": 548
+      },
+      "cumulative": {
+        "surfaceKeys": 1369,
+        "candidateLexemes": 1348
+      }
+    },
+    "added": {
+      "n4NewCandidateLexemes": 80,
+      "cumulativeCandidateLexemes": 80
+    }
+  },
+  "sourceBasis": {
+    "openJlpt": {
+      "url": "https://github.com/evanclan/OpenJLPT/tree/0d1d3410bec90bd4098a7c72de820543cb4f707c/data/json/vocab",
+      "commit": "0d1d3410bec90bd4098a7c72de820543cb4f707c",
+      "artifact": ".sources/openjlpt-20261113/n4-vocab.json",
+      "sha256": "b38512a6dc1e06a3615f377b3e58184c4a85b6f769c2e3f58f2a4ef0e1810927",
+      "license": "OpenJLPT data CC BY-SA 4.0; attribute the project and preserve applicable share-alike terms. Upstream Waller list is CC BY; JMdict/KANJIDIC2 and Tatoeba entries have their own stated terms.",
+      "snapshotRows": 630,
+      "entryIdMembership": 1,
+      "exactWordReadingOverlap": 1
+    },
+    "irodori": {
+      "url": "https://www.irodori.jpf.go.jp/en/resources.html",
+      "artifact": ".sources/irodori-20261112/wordlist_all.json",
+      "sha256": "c4584bd546ad7897f04aec7d3b51193ee946350f75e71321b4ed16b89e02e563",
+      "rights": "Private membership comparison. All rights reserved; no translations, accent tables, explanations, workbook arrangement, audio or illustrations copied into app. Free related teaching-material use has conditions; no blanket open-data/commercial license inferred.",
+      "exactWordReadingOverlap": 80
+    },
+    "jmdict": {
+      "date": "2026-11-09",
+      "artifact": ".sources/edrdg-20261109/jmdict-eng.json",
+      "sha256": "c683d2d5c261ded40c28f2d264be8ad41397ceacb04aab18b649faa690955c1b",
+      "rights": "CC BY-SA4.0, EDRDG local licence.html; preserve attribution and share-alike for derived dictionary data as applicable.",
+      "entriesWithSelectedSenses": 80
+    },
+    "minna": {
+      "edition": "Minna no Nihongo Shokyu II, second edition",
+      "scope": "Functional lesson mapping only; no exact Minna vocabulary membership claim."
+    }
+  },
+  "independentListDecision": {
+    "result": "80/80 have an exact Irodori Elementary 2 spelling/reading occurrence; 1/80 also matches the pinned OpenJLPT N4 list by JMdict entry ID. These were selected for concrete travel, service, device, and food-label tasks. The 79 absent from this limited community snapshot are documented disagreements, not automatic errors or proof of JLPT level.",
+    "openJlptExactOverlap": [
+      "ガス"
+    ],
+    "irodoriOnly": [
+      "くわしい",
+      "つきあたり",
+      "つながる",
+      "つまる",
+      "はずす",
+      "やり方",
+      "アナウンス",
+      "イヤホン",
+      "インターネット",
+      "カバー",
+      "キャッシュカード",
+      "クーポン",
+      "スマホ",
+      "セール",
+      "チケット",
+      "パンフレット",
+      "ピーナッツ",
+      "フタ",
+      "ホテル",
+      "ボリューム",
+      "ポイント",
+      "マナーモード",
+      "メーカー",
+      "ロビー",
+      "ワイヤレス",
+      "両面",
+      "乳製品",
+      "乾電池",
+      "予算",
+      "交差点",
+      "価格",
+      "充電",
+      "入場券",
+      "動かす",
+      "動画",
+      "募集",
+      "取り出す",
+      "宅配便",
+      "定休日",
+      "宿",
+      "小麦",
+      "小麦粉",
+      "年中無休",
+      "店長",
+      "戻す",
+      "方角",
+      "日帰り",
+      "最新",
+      "材料",
+      "横断歩道",
+      "機種",
+      "機能",
+      "民宿",
+      "汚れ",
+      "海外",
+      "消える",
+      "消費期限",
+      "消費税",
+      "点検",
+      "状態",
+      "白黒",
+      "税込",
+      "紙幣",
+      "落とし物",
+      "行き先",
+      "観光客",
+      "調味料",
+      "豆腐",
+      "販売",
+      "貴重品",
+      "貸し出し",
+      "賞味期限",
+      "返却",
+      "送料",
+      "遅れ",
+      "配送",
+      "電気製品",
+      "預かる",
+      "預ける"
+    ],
+    "warning": "OpenJLPT is a community estimate and uses JMdict for lexical identity; it is not an official level list. Irodori membership is not evidence of JLPT level. Minna links are functional mappings only because an exact Minna vocabulary list was not available."
+  },
+  "qualitySample": {
+    "method": "Predeclared stratified sample of 30/80, seven travel, eight service, eight device, and seven food-label entries, ordered within group by SHA-256 of g4-vocab-n4-batch-04:<surface>. Checked selected JMdict gloss, Vietnamese contextual meaning, original example, spelling/reading crosswalk, and lesson link.",
+    "sampled": 30,
+    "result": "Project-author cross-check; not independent academic review. The sample is evidence of this batch review only, not a certificate for the whole lexicon.",
+    "items": [
+      {
+        "text": "預かる",
+        "reading": "あずかる",
+        "meaningVi": "giữ hộ; trông nom",
+        "partOfSpeech": "động từ",
+        "group": "transport-stay",
+        "reason": "Read travel signs and announcements, handle tickets and lodging, and ask for help with belongings. This word is used in the example and supports the linked lesson task.",
+        "lessonNumber": 41,
+        "example": {
+          "ja": "ホテルで、荷物を夕方まで預かってもらいました。",
+          "reading": "ほてるで、にもつをゆうがたまであずかってもらいました。",
+          "vi": "Tôi nhờ khách sạn giữ hành lý đến chiều."
+        },
+        "selectedJmdict": {
+          "entryId": "1544970",
+          "senseIds": [
+            "1544970-s0"
+          ],
+          "partOfSpeech": [
+            "v5r",
+            "vt"
+          ],
+          "englishGloss": [
+            "to look after",
+            "to take care of",
+            "to keep",
+            "to hold on to",
+            "to keep in custody"
+          ]
+        },
+        "openJlptN4": {
+          "entryIdMember": false,
+          "exactWordReadingMember": false
+        },
+        "irodoriCoordinates": [
+          {
+            "sourceRow": 67,
+            "vocabularyRow": 67,
+            "lesson": "3838",
+            "text": "預かる",
+            "reading": "あずかる"
+          }
+        ],
+        "audio": [
+          {
+            "id": "1ad97086289356252d96",
+            "path": "/audio/tts/1ad97086289356252d96.wav",
+            "readingCheck": {
+              "expected": "アズカル",
+              "actual": "アズカル",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          },
+          {
+            "id": "b10dde725fd391194fa2",
+            "path": "/audio/tts/b10dde725fd391194fa2.wav",
+            "readingCheck": {
+              "expected": "ホテルデニモツオユウガタマデアズカッテモライマシタ",
+              "actual": "ホテルデニモツオユウガタマデアズカッテモライマシタ",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          }
+        ]
+      },
+      {
+        "text": "海外",
+        "reading": "かいがい",
+        "meaningVi": "nước ngoài; ở nước ngoài",
+        "partOfSpeech": "danh từ / định ngữ の",
+        "group": "transport-stay",
+        "reason": "Read travel signs and announcements, handle tickets and lodging, and ask for help with belongings. This word is used in the example and supports the linked lesson task.",
+        "lessonNumber": 31,
+        "example": {
+          "ja": "来年、海外へ旅行する予定です。",
+          "reading": "らいねん、かいがいへりょこうするよていです。",
+          "vi": "Năm sau tôi dự định đi du lịch nước ngoài."
+        },
+        "selectedJmdict": {
+          "entryId": "1201260",
+          "senseIds": [
+            "1201260-s0"
+          ],
+          "partOfSpeech": [
+            "n",
+            "adj-no"
+          ],
+          "englishGloss": [
+            "foreign",
+            "abroad",
+            "overseas"
+          ]
+        },
+        "openJlptN4": {
+          "entryIdMember": false,
+          "exactWordReadingMember": false
+        },
+        "irodoriCoordinates": [
+          {
+            "sourceRow": 733,
+            "vocabularyRow": 733,
+            "lesson": "2808",
+            "text": "海外",
+            "reading": "かいがい"
+          }
+        ],
+        "audio": [
+          {
+            "id": "1cf0f79a85c436b15bcf",
+            "path": "/audio/tts/1cf0f79a85c436b15bcf.wav",
+            "readingCheck": {
+              "expected": "カイガイ",
+              "actual": "カイガイ",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          },
+          {
+            "id": "d4e51bb7a76b8491095d",
+            "path": "/audio/tts/d4e51bb7a76b8491095d.wav",
+            "readingCheck": {
+              "expected": "ライネンカイガイエリョコオスルヨテエデス",
+              "actual": "ライネンカイガイエリョコオスルヨテエデス",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          }
+        ]
+      },
+      {
+        "text": "ロビー",
+        "reading": "ロビー",
+        "meaningVi": "sảnh chờ",
+        "partOfSpeech": "danh từ",
+        "group": "transport-stay",
+        "reason": "Read travel signs and announcements, handle tickets and lodging, and ask for help with belongings. This word is used in the example and supports the linked lesson task.",
+        "lessonNumber": 31,
+        "example": {
+          "ja": "ロビーで友達を待っています。",
+          "reading": "ろびーでともだちをまっています。",
+          "vi": "Tôi đang chờ bạn ở sảnh."
+        },
+        "selectedJmdict": {
+          "entryId": "1147800",
+          "senseIds": [
+            "1147800-s0"
+          ],
+          "partOfSpeech": [
+            "n"
+          ],
+          "englishGloss": [
+            "lobby",
+            "lounge"
+          ]
+        },
+        "openJlptN4": {
+          "entryIdMember": false,
+          "exactWordReadingMember": false
+        },
+        "irodoriCoordinates": [
+          {
+            "sourceRow": 4206,
+            "vocabularyRow": 4206,
+            "lesson": "3207",
+            "text": "ロビー",
+            "reading": "ロビー"
+          }
+        ],
+        "audio": [
+          {
+            "id": "793f37d9b333bf4749c4",
+            "path": "/audio/tts/793f37d9b333bf4749c4.wav",
+            "readingCheck": {
+              "expected": "ロビイ",
+              "actual": "ロビイ",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          },
+          {
+            "id": "a50379906099276a99b8",
+            "path": "/audio/tts/a50379906099276a99b8.wav",
+            "readingCheck": {
+              "expected": "ロビイデトモダチオマッテイマス",
+              "actual": "ロビイデトモダチオマッテイマス",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          }
+        ]
+      },
+      {
+        "text": "遅れ",
+        "reading": "おくれ",
+        "meaningVi": "sự chậm trễ",
+        "partOfSpeech": "danh từ",
+        "group": "transport-stay",
+        "reason": "Read travel signs and announcements, handle tickets and lodging, and ask for help with belongings. This word is used in the example and supports the linked lesson task.",
+        "lessonNumber": 29,
+        "example": {
+          "ja": "電車に遅れが出ているので、駅で待ちます。",
+          "reading": "でんしゃにおくれがでているので、えきでまちます。",
+          "vi": "Tàu đang bị chậm nên tôi sẽ chờ ở ga."
+        },
+        "selectedJmdict": {
+          "entryId": "1422020",
+          "senseIds": [
+            "1422020-s0"
+          ],
+          "partOfSpeech": [
+            "n"
+          ],
+          "englishGloss": [
+            "delay",
+            "lag",
+            "falling behind"
+          ]
+        },
+        "openJlptN4": {
+          "entryIdMember": false,
+          "exactWordReadingMember": false
+        },
+        "irodoriCoordinates": [
+          {
+            "sourceRow": 520,
+            "vocabularyRow": 520,
+            "lesson": "2901",
+            "text": "遅れ",
+            "reading": "おくれ"
+          }
+        ],
+        "audio": [
+          {
+            "id": "fd0020808eaeb1ac371c",
+            "path": "/audio/tts/fd0020808eaeb1ac371c.wav",
+            "readingCheck": {
+              "expected": "オクレ",
+              "actual": "オクレ",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          },
+          {
+            "id": "77876818589bfafa9f4a",
+            "path": "/audio/tts/77876818589bfafa9f4a.wav",
+            "readingCheck": {
+              "expected": "デンシャニオクレガデテイルノデエキデマチマス",
+              "actual": "デンシャニオクレガデテイルノデエキデマチマス",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          }
+        ]
+      },
+      {
+        "text": "入場券",
+        "reading": "にゅうじょうけん",
+        "meaningVi": "vé vào cửa",
+        "partOfSpeech": "danh từ",
+        "group": "transport-stay",
+        "reason": "Read travel signs and announcements, handle tickets and lodging, and ask for help with belongings. This word is used in the example and supports the linked lesson task.",
+        "lessonNumber": 31,
+        "example": {
+          "ja": "入場券は、入口の近くで買えます。",
+          "reading": "にゅうじょうけんは、いりぐちのちかくでかえます。",
+          "vi": "Có thể mua vé vào cửa gần lối vào.",
+          "audioReading": "ニュウジョオケンワイリグチノチカクデカエマス"
+        },
+        "selectedJmdict": {
+          "entryId": "1466380",
+          "senseIds": [
+            "1466380-s0"
+          ],
+          "partOfSpeech": [
+            "n"
+          ],
+          "englishGloss": [
+            "admission ticket",
+            "entrance ticket"
+          ]
+        },
+        "openJlptN4": {
+          "entryIdMember": false,
+          "exactWordReadingMember": false
+        },
+        "irodoriCoordinates": [
+          {
+            "sourceRow": 3022,
+            "vocabularyRow": 3022,
+            "lesson": "3087",
+            "text": "入場券",
+            "reading": "にゅうじょうけん"
+          }
+        ],
+        "audio": [
+          {
+            "id": "02d6e47f363e39b0d162",
+            "path": "/audio/tts/02d6e47f363e39b0d162.wav",
+            "readingCheck": {
+              "expected": "ニュウジョオケン",
+              "actual": "ニュウジョオケン",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          },
+          {
+            "id": "f36503d802833a1b625f",
+            "path": "/audio/tts/f36503d802833a1b625f.wav",
+            "readingCheck": {
+              "expected": "ニュウジョオケンワイリグチノチカクデカエマス",
+              "actual": "ニュウジョオケンワイリグチノチカクデカエマス",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          }
+        ]
+      },
+      {
+        "text": "民宿",
+        "reading": "みんしゅく",
+        "meaningVi": "nhà trọ tư nhân",
+        "partOfSpeech": "danh từ",
+        "group": "transport-stay",
+        "reason": "Read travel signs and announcements, handle tickets and lodging, and ask for help with belongings. This word is used in the example and supports the linked lesson task.",
+        "lessonNumber": 31,
+        "example": {
+          "ja": "旅行のとき、海の近くの民宿に泊まりました。",
+          "reading": "りょこうのとき、うみのちかくのみんしゅくにとまりました。",
+          "vi": "Trong chuyến đi, tôi nghỉ tại nhà trọ gần biển."
+        },
+        "selectedJmdict": {
+          "entryId": "1528950",
+          "senseIds": [
+            "1528950-s0"
+          ],
+          "partOfSpeech": [
+            "n"
+          ],
+          "englishGloss": [
+            "guest house",
+            "private home providing lodging for travelers",
+            "bed and breakfast",
+            "pension"
+          ]
+        },
+        "openJlptN4": {
+          "entryIdMember": false,
+          "exactWordReadingMember": false
+        },
+        "irodoriCoordinates": [
+          {
+            "sourceRow": 3818,
+            "vocabularyRow": 3818,
+            "lesson": "2836",
+            "text": "民宿",
+            "reading": "みんしゅく"
+          }
+        ],
+        "audio": [
+          {
+            "id": "533ebf0637012cd32f12",
+            "path": "/audio/tts/533ebf0637012cd32f12.wav",
+            "readingCheck": {
+              "expected": "ミンシュク",
+              "actual": "ミンシュク",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          },
+          {
+            "id": "a8cdb2e0dcf4024c1722",
+            "path": "/audio/tts/a8cdb2e0dcf4024c1722.wav",
+            "readingCheck": {
+              "expected": "リョコオノトキウミノチカクノミンシュクニトマリマシタ",
+              "actual": "リョコオノトキウミノチカクノミンシュクニトマリマシタ",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          }
+        ]
+      },
+      {
+        "text": "ホテル",
+        "reading": "ホテル",
+        "meaningVi": "khách sạn",
+        "partOfSpeech": "danh từ",
+        "group": "transport-stay",
+        "reason": "Read travel signs and announcements, handle tickets and lodging, and ask for help with belongings. This word is used in the example and supports the linked lesson task.",
+        "lessonNumber": 31,
+        "example": {
+          "ja": "ホテルの予約を、電話で確認しました。",
+          "reading": "ほてるのよやくを、でんわでかくにんしました。",
+          "vi": "Tôi đã xác nhận đặt phòng khách sạn qua điện thoại."
+        },
+        "selectedJmdict": {
+          "entryId": "1122650",
+          "senseIds": [
+            "1122650-s0"
+          ],
+          "partOfSpeech": [
+            "n"
+          ],
+          "englishGloss": [
+            "hotel"
+          ]
+        },
+        "openJlptN4": {
+          "entryIdMember": false,
+          "exactWordReadingMember": false
+        },
+        "irodoriCoordinates": [
+          {
+            "sourceRow": 3639,
+            "vocabularyRow": 3639,
+            "lesson": "1330",
+            "text": "ホテル",
+            "reading": "ホテル"
+          },
+          {
+            "sourceRow": 3640,
+            "vocabularyRow": 3640,
+            "lesson": "2834",
+            "text": "ホテル",
+            "reading": "ホテル"
+          }
+        ],
+        "audio": [
+          {
+            "id": "1696b934b778eb497576",
+            "path": "/audio/tts/1696b934b778eb497576.wav",
+            "readingCheck": {
+              "expected": "ホテル",
+              "actual": "ホテル",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          },
+          {
+            "id": "0fdca813a082a7cf718d",
+            "path": "/audio/tts/0fdca813a082a7cf718d.wav",
+            "readingCheck": {
+              "expected": "ホテルノヨヤクオデンワデカクニンシマシタ",
+              "actual": "ホテルノヨヤクオデンワデカクニンシマシタ",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          }
+        ]
+      },
+      {
+        "text": "紙幣",
+        "reading": "しへい",
+        "meaningVi": "tiền giấy",
+        "partOfSpeech": "danh từ",
+        "group": "shopping-service-contract",
+        "reason": "Compare prices and service terms, arrange delivery or returns, and understand payment and food-date labels. This word is used in the example and supports the linked lesson task.",
+        "lessonNumber": 42,
+        "example": {
+          "ja": "この機械では、紙幣を使えません。",
+          "reading": "このきかいでは、しへいをつかえません。",
+          "vi": "Máy này không dùng được tiền giấy.",
+          "audioReading": "コノキカイデワシヘイオツカエマセン",
+          "audioText": "このきかいでは、しへいをつかえません。"
+        },
+        "selectedJmdict": {
+          "entryId": "1311600",
+          "senseIds": [
+            "1311600-s0"
+          ],
+          "partOfSpeech": [
+            "n"
+          ],
+          "englishGloss": [
+            "paper money",
+            "note",
+            "bill"
+          ]
+        },
+        "openJlptN4": {
+          "entryIdMember": false,
+          "exactWordReadingMember": false
+        },
+        "irodoriCoordinates": [
+          {
+            "sourceRow": 1704,
+            "vocabularyRow": 1704,
+            "lesson": "3794",
+            "text": "紙幣",
+            "reading": "しへい"
+          }
+        ],
+        "audio": [
+          {
+            "id": "472e0ff5867a2b68acf7",
+            "path": "/audio/tts/472e0ff5867a2b68acf7.wav",
+            "readingCheck": {
+              "expected": "シヘイ",
+              "actual": "シヘイ",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          },
+          {
+            "id": "8449587616cf51f20789",
+            "path": "/audio/tts/8449587616cf51f20789.wav",
+            "readingCheck": {
+              "expected": "コノキカイデワシヘイオツカエマセン",
+              "actual": "コノキカイデワシヘイオツカエマセン",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          }
+        ]
+      },
+      {
+        "text": "返却",
+        "reading": "へんきゃく",
+        "meaningVi": "việc trả lại đồ đã mượn",
+        "partOfSpeech": "danh từ / động từ する",
+        "group": "shopping-service-contract",
+        "reason": "Compare prices and service terms, arrange delivery or returns, and understand payment and food-date labels. This word is used in the example and supports the linked lesson task.",
+        "lessonNumber": 29,
+        "example": {
+          "ja": "図書館の本は、金曜日までに返却してください。",
+          "reading": "としょかんのほんは、きんようびまでにへんきゃくしてください。",
+          "vi": "Xin hãy trả sách thư viện trước thứ Sáu."
+        },
+        "selectedJmdict": {
+          "entryId": "1512180",
+          "senseIds": [
+            "1512180-s0"
+          ],
+          "partOfSpeech": [
+            "n",
+            "vs",
+            "vt"
+          ],
+          "englishGloss": [
+            "return (of something borrowed or entrusted)",
+            "returning",
+            "giving back",
+            "repayment"
+          ]
+        },
+        "openJlptN4": {
+          "entryIdMember": false,
+          "exactWordReadingMember": false
+        },
+        "irodoriCoordinates": [
+          {
+            "sourceRow": 3580,
+            "vocabularyRow": 3580,
+            "lesson": "3720",
+            "text": "返却",
+            "reading": "へんきゃく"
+          }
+        ],
+        "audio": [
+          {
+            "id": "bc7b9f5aa23e50b11b79",
+            "path": "/audio/tts/bc7b9f5aa23e50b11b79.wav",
+            "readingCheck": {
+              "expected": "ヘンキャク",
+              "actual": "ヘンキャク",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          },
+          {
+            "id": "21b40ba1b38b0dcc7013",
+            "path": "/audio/tts/21b40ba1b38b0dcc7013.wav",
+            "readingCheck": {
+              "expected": "トショカンノホンワキンヨオビマデニヘンキャクシテクダサイ",
+              "actual": "トショカンノホンワキンヨオビマデニヘンキャクシテクダサイ",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          }
+        ]
+      },
+      {
+        "text": "キャッシュカード",
+        "reading": "キャッシュカード",
+        "meaningVi": "thẻ ngân hàng dùng rút tiền",
+        "partOfSpeech": "danh từ",
+        "group": "shopping-service-contract",
+        "reason": "Compare prices and service terms, arrange delivery or returns, and understand payment and food-date labels. This word is used in the example and supports the linked lesson task.",
+        "lessonNumber": 42,
+        "example": {
+          "ja": "キャッシュカードで、お金を引き出しました。",
+          "reading": "きゃっしゅかーどで、おかねをひきだしました。",
+          "vi": "Tôi rút tiền bằng thẻ ngân hàng."
+        },
+        "selectedJmdict": {
+          "entryId": "1041430",
+          "senseIds": [
+            "1041430-s0"
+          ],
+          "partOfSpeech": [
+            "n"
+          ],
+          "englishGloss": [
+            "cash card",
+            "ATM card"
+          ]
+        },
+        "openJlptN4": {
+          "entryIdMember": false,
+          "exactWordReadingMember": false
+        },
+        "irodoriCoordinates": [
+          {
+            "sourceRow": 1068,
+            "vocabularyRow": 1068,
+            "lesson": "3782",
+            "text": "キャッシュカード",
+            "reading": "キャッシュカード"
+          }
+        ],
+        "audio": [
+          {
+            "id": "459b6b695c36c3526e8d",
+            "path": "/audio/tts/459b6b695c36c3526e8d.wav",
+            "readingCheck": {
+              "expected": "キャッシュカアド",
+              "actual": "キャッシュカアド",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          },
+          {
+            "id": "408dfbdb22b27f0df85d",
+            "path": "/audio/tts/408dfbdb22b27f0df85d.wav",
+            "readingCheck": {
+              "expected": "キャッシュカアドデオカネオヒキダシマシタ",
+              "actual": "キャッシュカアドデオカネオヒキダシマシタ",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          }
+        ]
+      },
+      {
+        "text": "税込",
+        "reading": "ぜいこみ",
+        "meaningVi": "đã gồm thuế",
+        "partOfSpeech": "danh từ / định ngữ の",
+        "group": "shopping-service-contract",
+        "reason": "Compare prices and service terms, arrange delivery or returns, and understand payment and food-date labels. This word is used in the example and supports the linked lesson task.",
+        "lessonNumber": 42,
+        "example": {
+          "ja": "この表示価格は、税込の金額です。",
+          "reading": "このひょうじかかくは、ぜいこみのきんがくです。",
+          "vi": "Giá được niêm yết này là số tiền đã gồm thuế.",
+          "audioReading": "コノヒョオジカカクワゼエコミノキンガクデス"
+        },
+        "selectedJmdict": {
+          "entryId": "1596250",
+          "senseIds": [
+            "1596250-s0"
+          ],
+          "partOfSpeech": [
+            "adj-no",
+            "n"
+          ],
+          "englishGloss": [
+            "including tax (of a price)",
+            "pretax (income or profits)",
+            "before tax"
+          ]
+        },
+        "openJlptN4": {
+          "entryIdMember": false,
+          "exactWordReadingMember": false
+        },
+        "irodoriCoordinates": [
+          {
+            "sourceRow": 2095,
+            "vocabularyRow": 2095,
+            "lesson": "1122",
+            "text": "税込",
+            "reading": "ぜいこみ"
+          }
+        ],
+        "audio": [
+          {
+            "id": "512182bdd6c744dd8ae3",
+            "path": "/audio/tts/512182bdd6c744dd8ae3.wav",
+            "readingCheck": {
+              "expected": "ゼイコミ",
+              "actual": "ゼイコミ",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          },
+          {
+            "id": "276e313e0bbc2108296d",
+            "path": "/audio/tts/276e313e0bbc2108296d.wav",
+            "readingCheck": {
+              "expected": "コノヒョオジカカクワゼエコミノキンガクデス",
+              "actual": "コノヒョオジカカクワゼエコミノキンガクデス",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          }
+        ]
+      },
+      {
+        "text": "販売",
+        "reading": "はんばい",
+        "meaningVi": "việc bán hàng",
+        "partOfSpeech": "danh từ / động từ する",
+        "group": "shopping-service-contract",
+        "reason": "Compare prices and service terms, arrange delivery or returns, and understand payment and food-date labels. This word is used in the example and supports the linked lesson task.",
+        "lessonNumber": 42,
+        "example": {
+          "ja": "駅の売店で、地元のお菓子を販売しています。",
+          "reading": "えきのばいてんで、じもとのおかしをはんばいしています。",
+          "vi": "Quầy hàng ở ga bán bánh kẹo địa phương."
+        },
+        "selectedJmdict": {
+          "entryId": "1481800",
+          "senseIds": [
+            "1481800-s0"
+          ],
+          "partOfSpeech": [
+            "n",
+            "vs",
+            "vt"
+          ],
+          "englishGloss": [
+            "sale",
+            "sales",
+            "selling",
+            "marketing"
+          ]
+        },
+        "openJlptN4": {
+          "entryIdMember": false,
+          "exactWordReadingMember": false
+        },
+        "irodoriCoordinates": [
+          {
+            "sourceRow": 3308,
+            "vocabularyRow": 3308,
+            "lesson": "3188",
+            "text": "販売",
+            "reading": "はんばい"
+          }
+        ],
+        "audio": [
+          {
+            "id": "b635af210bced6be49a6",
+            "path": "/audio/tts/b635af210bced6be49a6.wav",
+            "readingCheck": {
+              "expected": "ハンバイ",
+              "actual": "ハンバイ",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          },
+          {
+            "id": "ad534cd7261d20668157",
+            "path": "/audio/tts/ad534cd7261d20668157.wav",
+            "readingCheck": {
+              "expected": "エキノバイテンデジモトノオカシオハンバイシテイマス",
+              "actual": "エキノバイテンデジモトノオカシオハンバイシテイマス",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          }
+        ]
+      },
+      {
+        "text": "消費税",
+        "reading": "しょうひぜい",
+        "meaningVi": "thuế tiêu dùng",
+        "partOfSpeech": "danh từ",
+        "group": "shopping-service-contract",
+        "reason": "Compare prices and service terms, arrange delivery or returns, and understand payment and food-date labels. This word is used in the example and supports the linked lesson task.",
+        "lessonNumber": 42,
+        "example": {
+          "ja": "レシートには、消費税も書いてあります。",
+          "reading": "れしーとには、しょうひぜいもかいてあります。",
+          "vi": "Trên hóa đơn cũng có ghi thuế tiêu dùng.",
+          "audioReading": "レシイトニワショオヒゼエモカイテアリマス"
+        },
+        "selectedJmdict": {
+          "entryId": "1350320",
+          "senseIds": [
+            "1350320-s0"
+          ],
+          "partOfSpeech": [
+            "n"
+          ],
+          "englishGloss": [
+            "consumption tax (incl. sales tax, VAT, excise duty, etc.)"
+          ]
+        },
+        "openJlptN4": {
+          "entryIdMember": false,
+          "exactWordReadingMember": false
+        },
+        "irodoriCoordinates": [
+          {
+            "sourceRow": 1884,
+            "vocabularyRow": 1884,
+            "lesson": "3641",
+            "text": "消費税",
+            "reading": "しょうひぜい"
+          }
+        ],
+        "audio": [
+          {
+            "id": "2ec06b954d036f541da3",
+            "path": "/audio/tts/2ec06b954d036f541da3.wav",
+            "readingCheck": {
+              "expected": "ショオヒゼイ",
+              "actual": "ショオヒゼイ",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          },
+          {
+            "id": "20c92b751e3fe5790af4",
+            "path": "/audio/tts/20c92b751e3fe5790af4.wav",
+            "readingCheck": {
+              "expected": "レシイトニワショオヒゼエモカイテアリマス",
+              "actual": "レシイトニワショオヒゼエモカイテアリマス",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          }
+        ]
+      },
+      {
+        "text": "年中無休",
+        "reading": "ねんじゅうむきゅう",
+        "meaningVi": "mở cửa quanh năm",
+        "partOfSpeech": "danh từ / định ngữ の",
+        "group": "shopping-service-contract",
+        "reason": "Compare prices and service terms, arrange delivery or returns, and understand payment and food-date labels. This word is used in the example and supports the linked lesson task.",
+        "lessonNumber": 31,
+        "example": {
+          "ja": "この店は年中無休ですが、夜は早く閉まります。",
+          "reading": "このみせはねんじゅうむきゅうですが、よるははやくしまります。",
+          "vi": "Cửa hàng này mở quanh năm nhưng buổi tối đóng cửa sớm."
+        },
+        "selectedJmdict": {
+          "entryId": "1731000",
+          "senseIds": [
+            "1731000-s0"
+          ],
+          "partOfSpeech": [
+            "adj-no",
+            "n"
+          ],
+          "englishGloss": [
+            "open every day of the year",
+            "open year-round",
+            "operating 365 days a year"
+          ]
+        },
+        "openJlptN4": {
+          "entryIdMember": false,
+          "exactWordReadingMember": false
+        },
+        "irodoriCoordinates": [
+          {
+            "sourceRow": 3083,
+            "vocabularyRow": 3083,
+            "lesson": "912",
+            "text": "年中無休",
+            "reading": "ねんじゅうむきゅう"
+          }
+        ],
+        "audio": [
+          {
+            "id": "05badc7f424051cd9dcc",
+            "path": "/audio/tts/05badc7f424051cd9dcc.wav",
+            "readingCheck": {
+              "expected": "ネンジュウムキュウ",
+              "actual": "ネンジュウムキュウ",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          },
+          {
+            "id": "5b341eca8bedd1f0f8e1",
+            "path": "/audio/tts/5b341eca8bedd1f0f8e1.wav",
+            "readingCheck": {
+              "expected": "コノミセワネンジュウムキュウデスガヨルワハヤクシマリマス",
+              "actual": "コノミセワネンジュウムキュウデスガヨルワハヤクシマリマス",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          }
+        ]
+      },
+      {
+        "text": "消費期限",
+        "reading": "しょうひきげん",
+        "meaningVi": "hạn sử dụng an toàn của thực phẩm",
+        "partOfSpeech": "danh từ",
+        "group": "shopping-service-contract",
+        "reason": "Compare prices and service terms, arrange delivery or returns, and understand payment and food-date labels. This word is used in the example and supports the linked lesson task.",
+        "lessonNumber": 33,
+        "example": {
+          "ja": "食べる前に、消費期限を確認してください。",
+          "reading": "たべるまえに、しょうひきげんをかくにんしてください。",
+          "vi": "Trước khi ăn, xin hãy kiểm tra hạn sử dụng.",
+          "audioReading": "タベルマエニショオヒキゲンオカクニンシテクダサイ"
+        },
+        "selectedJmdict": {
+          "entryId": "2233960",
+          "senseIds": [
+            "2233960-s0"
+          ],
+          "partOfSpeech": [
+            "n"
+          ],
+          "englishGloss": [
+            "expiry date (esp. on food)",
+            "expiration date",
+            "use-by date"
+          ]
+        },
+        "openJlptN4": {
+          "entryIdMember": false,
+          "exactWordReadingMember": false
+        },
+        "irodoriCoordinates": [
+          {
+            "sourceRow": 1883,
+            "vocabularyRow": 1883,
+            "lesson": "1892",
+            "text": "消費期限",
+            "reading": "しょうひきげん"
+          }
+        ],
+        "audio": [
+          {
+            "id": "053d455d536823a476e4",
+            "path": "/audio/tts/053d455d536823a476e4.wav",
+            "readingCheck": {
+              "expected": "ショオヒキゲン",
+              "actual": "ショオヒキゲン",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          },
+          {
+            "id": "475fe718803810f3b29f",
+            "path": "/audio/tts/475fe718803810f3b29f.wav",
+            "readingCheck": {
+              "expected": "タベルマエニショオヒキゲンオカクニンシテクダサイ",
+              "actual": "タベルマエニショオヒキゲンオカクニンシテクダサイ",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          }
+        ]
+      },
+      {
+        "text": "スマホ",
+        "reading": "スマホ",
+        "meaningVi": "điện thoại thông minh",
+        "partOfSpeech": "danh từ",
+        "group": "appliance-digital-trouble",
+        "reason": "Understand device instructions and report connection, power, condition, and operation problems. This word is used in the example and supports the linked lesson task.",
+        "lessonNumber": 29,
+        "example": {
+          "ja": "スマホの画面が暗くて、文字が読めません。",
+          "reading": "すまほのがめんがくらくて、もじがよめません。",
+          "vi": "Màn hình điện thoại tối nên tôi không đọc được chữ."
+        },
+        "selectedJmdict": {
+          "entryId": "2641300",
+          "senseIds": [
+            "2641300-s0"
+          ],
+          "partOfSpeech": [
+            "n"
+          ],
+          "englishGloss": [
+            "smartphone",
+            "smart phone"
+          ]
+        },
+        "openJlptN4": {
+          "entryIdMember": false,
+          "exactWordReadingMember": false
+        },
+        "irodoriCoordinates": [
+          {
+            "sourceRow": 2071,
+            "vocabularyRow": 2071,
+            "lesson": "68",
+            "text": "スマホ",
+            "reading": "スマホ"
+          }
+        ],
+        "audio": [
+          {
+            "id": "35b40c12b9849965fd01",
+            "path": "/audio/tts/35b40c12b9849965fd01.wav",
+            "readingCheck": {
+              "expected": "スマホ",
+              "actual": "スマホ",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          },
+          {
+            "id": "228595ac600a3595f88b",
+            "path": "/audio/tts/228595ac600a3595f88b.wav",
+            "readingCheck": {
+              "expected": "スマホノガメンガクラクテモジガヨメマセン",
+              "actual": "スマホノガメンガクラクテモジガヨメマセン",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          }
+        ]
+      },
+      {
+        "text": "ワイヤレス",
+        "reading": "ワイヤレス",
+        "meaningVi": "không dây",
+        "partOfSpeech": "danh từ / định ngữ の",
+        "group": "appliance-digital-trouble",
+        "reason": "Understand device instructions and report connection, power, condition, and operation problems. This word is used in the example and supports the linked lesson task.",
+        "lessonNumber": 29,
+        "example": {
+          "ja": "このワイヤレスのイヤホンは、軽くて便利です。",
+          "reading": "このわいやれすのいやほんは、かるくてべんりです。",
+          "vi": "Tai nghe không dây này nhẹ và tiện lợi."
+        },
+        "selectedJmdict": {
+          "entryId": "1148810",
+          "senseIds": [
+            "1148810-s0"
+          ],
+          "partOfSpeech": [
+            "adj-no",
+            "n"
+          ],
+          "englishGloss": [
+            "wireless"
+          ]
+        },
+        "openJlptN4": {
+          "entryIdMember": false,
+          "exactWordReadingMember": false
+        },
+        "irodoriCoordinates": [
+          {
+            "sourceRow": 4210,
+            "vocabularyRow": 4210,
+            "lesson": "3561",
+            "text": "ワイヤレス",
+            "reading": "ワイヤレス"
+          }
+        ],
+        "audio": [
+          {
+            "id": "653abfe4e832ffed5ccd",
+            "path": "/audio/tts/653abfe4e832ffed5ccd.wav",
+            "readingCheck": {
+              "expected": "ワイヤレス",
+              "actual": "ワイヤレス",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          },
+          {
+            "id": "60bd13d4da365c43ff28",
+            "path": "/audio/tts/60bd13d4da365c43ff28.wav",
+            "readingCheck": {
+              "expected": "コノワイヤレスノイヤホンワカルクテベンリデス",
+              "actual": "コノワイヤレスノイヤホンワカルクテベンリデス",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          }
+        ]
+      },
+      {
+        "text": "フタ",
+        "reading": "フタ",
+        "meaningVi": "nắp",
+        "partOfSpeech": "danh từ",
+        "group": "appliance-digital-trouble",
+        "reason": "Understand device instructions and report connection, power, condition, and operation problems. This word is used in the example and supports the linked lesson task.",
+        "lessonNumber": 34,
+        "example": {
+          "ja": "コーヒーを入れた後、カップのフタを閉めました。",
+          "reading": "こーひーをいれたあと、かっぷのふたをしめました。",
+          "vi": "Sau khi cho cà phê vào, tôi đậy nắp cốc lại."
+        },
+        "selectedJmdict": {
+          "entryId": "1204540",
+          "senseIds": [
+            "1204540-s0"
+          ],
+          "partOfSpeech": [
+            "n"
+          ],
+          "englishGloss": [
+            "cover",
+            "lid",
+            "cap"
+          ]
+        },
+        "openJlptN4": {
+          "entryIdMember": false,
+          "exactWordReadingMember": false
+        },
+        "irodoriCoordinates": [
+          {
+            "sourceRow": 3484,
+            "vocabularyRow": 3484,
+            "lesson": "1954",
+            "text": "フタ",
+            "reading": "フタ"
+          }
+        ],
+        "audio": [
+          {
+            "id": "6f2abd869ac947f1987e",
+            "path": "/audio/tts/6f2abd869ac947f1987e.wav",
+            "readingCheck": {
+              "expected": "フタ",
+              "actual": "フタ",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          },
+          {
+            "id": "6da06f51c6171a7e17cd",
+            "path": "/audio/tts/6da06f51c6171a7e17cd.wav",
+            "readingCheck": {
+              "expected": "コオヒイオイレタアトカップノフタオシメマシタ",
+              "actual": "コオヒイオイレタアトカップノフタオシメマシタ",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          }
+        ]
+      },
+      {
+        "text": "つながる",
+        "reading": "つながる",
+        "meaningVi": "được kết nối; kết nối được",
+        "partOfSpeech": "động từ",
+        "group": "appliance-digital-trouble",
+        "reason": "Understand device instructions and report connection, power, condition, and operation problems. This word is used in the example and supports the linked lesson task.",
+        "lessonNumber": 29,
+        "example": {
+          "ja": "スマホがインターネットにつながりません。",
+          "reading": "すまほがいんたあねっとにつながりません。",
+          "vi": "Điện thoại không kết nối được Internet."
+        },
+        "selectedJmdict": {
+          "entryId": "1251880",
+          "senseIds": [
+            "1251880-s1"
+          ],
+          "partOfSpeech": [
+            "v5r",
+            "vi"
+          ],
+          "englishGloss": [
+            "to connect (of a telephone call, the internet, etc.)",
+            "to get through"
+          ]
+        },
+        "openJlptN4": {
+          "entryIdMember": false,
+          "exactWordReadingMember": false
+        },
+        "irodoriCoordinates": [
+          {
+            "sourceRow": 2550,
+            "vocabularyRow": 2550,
+            "lesson": "3493",
+            "text": "つながる",
+            "reading": "つながる"
+          }
+        ],
+        "audio": [
+          {
+            "id": "49e917d542b2701452d6",
+            "path": "/audio/tts/49e917d542b2701452d6.wav",
+            "readingCheck": {
+              "expected": "ツナガル",
+              "actual": "ツナガル",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          },
+          {
+            "id": "4d72587ba35dc81ab72b",
+            "path": "/audio/tts/4d72587ba35dc81ab72b.wav",
+            "readingCheck": {
+              "expected": "スマホガインタアネットニツナガリマセン",
+              "actual": "スマホガインタアネットニツナガリマセン",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          }
+        ]
+      },
+      {
+        "text": "カバー",
+        "reading": "カバー",
+        "meaningVi": "nắp; vỏ bọc",
+        "partOfSpeech": "danh từ",
+        "group": "appliance-digital-trouble",
+        "reason": "Understand device instructions and report connection, power, condition, and operation problems. This word is used in the example and supports the linked lesson task.",
+        "lessonNumber": 30,
+        "example": {
+          "ja": "スマホのカバーを外して、画面を掃除しました。",
+          "reading": "すまほのかばーをはずして、がめんをそうじしました。",
+          "vi": "Tôi tháo vỏ điện thoại rồi lau màn hình."
+        },
+        "selectedJmdict": {
+          "entryId": "1037960",
+          "senseIds": [
+            "1037960-s0"
+          ],
+          "partOfSpeech": [
+            "n"
+          ],
+          "englishGloss": [
+            "cover",
+            "covering",
+            "dust jacket",
+            "wrapper"
+          ]
+        },
+        "openJlptN4": {
+          "entryIdMember": false,
+          "exactWordReadingMember": false
+        },
+        "irodoriCoordinates": [
+          {
+            "sourceRow": 898,
+            "vocabularyRow": 898,
+            "lesson": "3488",
+            "text": "カバー",
+            "reading": "カバー"
+          }
+        ],
+        "audio": [
+          {
+            "id": "1ab6302e9d2533703146",
+            "path": "/audio/tts/1ab6302e9d2533703146.wav",
+            "readingCheck": {
+              "expected": "カバア",
+              "actual": "カバア",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          },
+          {
+            "id": "565a71d91e347093db0c",
+            "path": "/audio/tts/565a71d91e347093db0c.wav",
+            "readingCheck": {
+              "expected": "スマホノカバアオハズシテガメンオソオジシマシタ",
+              "actual": "スマホノカバアオハズシテガメンオソオジシマシタ",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          }
+        ]
+      },
+      {
+        "text": "点検",
+        "reading": "てんけん",
+        "meaningVi": "việc kiểm tra; kiểm định",
+        "partOfSpeech": "danh từ / động từ する",
+        "group": "appliance-digital-trouble",
+        "reason": "Understand device instructions and report connection, power, condition, and operation problems. This word is used in the example and supports the linked lesson task.",
+        "lessonNumber": 29,
+        "example": {
+          "ja": "故障かどうか、店で点検してもらいました。",
+          "reading": "こしょうかどうか、みせでてんけんしてもらいました。",
+          "vi": "Tôi nhờ cửa hàng kiểm tra xem máy có hỏng không."
+        },
+        "selectedJmdict": {
+          "entryId": "1441540",
+          "senseIds": [
+            "1441540-s0"
+          ],
+          "partOfSpeech": [
+            "n",
+            "vs",
+            "vt"
+          ],
+          "englishGloss": [
+            "detailed inspection",
+            "thorough examination",
+            "checking"
+          ]
+        },
+        "openJlptN4": {
+          "entryIdMember": false,
+          "exactWordReadingMember": false
+        },
+        "irodoriCoordinates": [
+          {
+            "sourceRow": 2647,
+            "vocabularyRow": 2647,
+            "lesson": "3056",
+            "text": "点検",
+            "reading": "てんけん"
+          }
+        ],
+        "audio": [
+          {
+            "id": "86dcc58d8c5a47e37963",
+            "path": "/audio/tts/86dcc58d8c5a47e37963.wav",
+            "readingCheck": {
+              "expected": "テンケン",
+              "actual": "テンケン",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          },
+          {
+            "id": "f1712ced4f50ffed7cf8",
+            "path": "/audio/tts/f1712ced4f50ffed7cf8.wav",
+            "readingCheck": {
+              "expected": "コショオカドオカミセデテンケンシテモライマシタ",
+              "actual": "コショオカドオカミセデテンケンシテモライマシタ",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          }
+        ]
+      },
+      {
+        "text": "電気製品",
+        "reading": "でんきせいひん",
+        "meaningVi": "đồ điện; thiết bị điện",
+        "partOfSpeech": "danh từ",
+        "group": "appliance-digital-trouble",
+        "reason": "Understand device instructions and report connection, power, condition, and operation problems. This word is used in the example and supports the linked lesson task.",
+        "lessonNumber": 29,
+        "example": {
+          "ja": "使えなくなった電気製品を、店に持って行きました。",
+          "reading": "つかえなくなったでんきせいひんを、みせにもっていきました。",
+          "vi": "Tôi mang thiết bị điện không còn dùng được đến cửa hàng.",
+          "audioReading": "ツカエナクナッタデンキセエヒンオミセニモッテイキマシタ"
+        },
+        "selectedJmdict": {
+          "entryId": "1443090",
+          "senseIds": [
+            "1443090-s0"
+          ],
+          "partOfSpeech": [
+            "n"
+          ],
+          "englishGloss": [
+            "electronic goods"
+          ]
+        },
+        "openJlptN4": {
+          "entryIdMember": false,
+          "exactWordReadingMember": false
+        },
+        "irodoriCoordinates": [
+          {
+            "sourceRow": 2644,
+            "vocabularyRow": 2644,
+            "lesson": "3529",
+            "text": "電気製品",
+            "reading": "でんきせいひん"
+          }
+        ],
+        "audio": [
+          {
+            "id": "9e8566796531721ae117",
+            "path": "/audio/tts/9e8566796531721ae117.wav",
+            "readingCheck": {
+              "expected": "デンキセイヒン",
+              "actual": "デンキセイヒン",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          },
+          {
+            "id": "5103573ed802d9bb28dd",
+            "path": "/audio/tts/5103573ed802d9bb28dd.wav",
+            "readingCheck": {
+              "expected": "ツカエナクナッタデンキセエヒンオミセニモッテイキマシタ",
+              "actual": "ツカエナクナッタデンキセエヒンオミセニモッテイキマシタ",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          }
+        ]
+      },
+      {
+        "text": "イヤホン",
+        "reading": "イヤホン",
+        "meaningVi": "tai nghe",
+        "partOfSpeech": "danh từ",
+        "group": "appliance-digital-trouble",
+        "reason": "Understand device instructions and report connection, power, condition, and operation problems. This word is used in the example and supports the linked lesson task.",
+        "lessonNumber": 29,
+        "example": {
+          "ja": "電車の中では、イヤホンで音楽を聞きます。",
+          "reading": "でんしゃのなかでは、いやほんでおんがくをききます。",
+          "vi": "Trên tàu, tôi nghe nhạc bằng tai nghe."
+        },
+        "selectedJmdict": {
+          "entryId": "1021880",
+          "senseIds": [
+            "1021880-s0"
+          ],
+          "partOfSpeech": [
+            "n"
+          ],
+          "englishGloss": [
+            "earphones",
+            "earphone"
+          ]
+        },
+        "openJlptN4": {
+          "entryIdMember": false,
+          "exactWordReadingMember": false
+        },
+        "irodoriCoordinates": [
+          {
+            "sourceRow": 274,
+            "vocabularyRow": 274,
+            "lesson": "3537",
+            "text": "イヤホン",
+            "reading": "イヤホン"
+          }
+        ],
+        "audio": [
+          {
+            "id": "45daec28cad4662ec0f1",
+            "path": "/audio/tts/45daec28cad4662ec0f1.wav",
+            "readingCheck": {
+              "expected": "イヤホン",
+              "actual": "イヤホン",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          },
+          {
+            "id": "aa302e91432785fa599a",
+            "path": "/audio/tts/aa302e91432785fa599a.wav",
+            "readingCheck": {
+              "expected": "デンシャノナカデワイヤホンデオンガクオキキマス",
+              "actual": "デンシャノナカデワイヤホンデオンガクオキキマス",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          }
+        ]
+      },
+      {
+        "text": "調味料",
+        "reading": "ちょうみりょう",
+        "meaningVi": "gia vị",
+        "partOfSpeech": "danh từ",
+        "group": "cooking-waste",
+        "reason": "Read ingredient information and follow short cooking instructions in everyday situations. This word is used in the example and supports the linked lesson task.",
+        "lessonNumber": 34,
+        "example": {
+          "ja": "使う調味料を、先にテーブルに並べます。",
+          "reading": "つかうちょうみりょうを、さきにてえぶるにならべます。",
+          "vi": "Tôi bày sẵn các gia vị cần dùng lên bàn.",
+          "audioReading": "ツカウチョウミリョオオサキニテエブルニナラベマス",
+          "audioText": "つかうちょうみりょうを、さきにてえぶるにならべます。"
+        },
+        "selectedJmdict": {
+          "entryId": "1429290",
+          "senseIds": [
+            "1429290-s0"
+          ],
+          "partOfSpeech": [
+            "n"
+          ],
+          "englishGloss": [
+            "seasoning",
+            "flavoring",
+            "flavouring",
+            "condiment"
+          ]
+        },
+        "openJlptN4": {
+          "entryIdMember": false,
+          "exactWordReadingMember": false
+        },
+        "irodoriCoordinates": [
+          {
+            "sourceRow": 2481,
+            "vocabularyRow": 2481,
+            "lesson": "2353",
+            "text": "調味料",
+            "reading": "ちょうみりょう"
+          },
+          {
+            "sourceRow": 2482,
+            "vocabularyRow": 2482,
+            "lesson": "2758",
+            "text": "調味料",
+            "reading": "ちょうみりょう"
+          }
+        ],
+        "audio": [
+          {
+            "id": "24bc68cb33dbe2cbdeef",
+            "path": "/audio/tts/24bc68cb33dbe2cbdeef.wav",
+            "readingCheck": {
+              "expected": "チョウミリョオ",
+              "actual": "チョウミリョオ",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          },
+          {
+            "id": "b0dd51cce76aff771306",
+            "path": "/audio/tts/b0dd51cce76aff771306.wav",
+            "readingCheck": {
+              "expected": "ツカウチョウミリョオオサキニテエブルニナラベマス",
+              "actual": "ツカウチョウミリョオオサキニテエブルニナラベマス",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          }
+        ]
+      },
+      {
+        "text": "小麦",
+        "reading": "こむぎ",
+        "meaningVi": "lúa mì",
+        "partOfSpeech": "danh từ",
+        "group": "cooking-waste",
+        "reason": "Read ingredient information and follow short cooking instructions in everyday situations. This word is used in the example and supports the linked lesson task.",
+        "lessonNumber": 33,
+        "example": {
+          "ja": "このパンには、小麦が使われています。",
+          "reading": "このぱんには、こむぎがつかわれています。",
+          "vi": "Bánh mì này có sử dụng lúa mì."
+        },
+        "selectedJmdict": {
+          "entryId": "1348630",
+          "senseIds": [
+            "1348630-s0"
+          ],
+          "partOfSpeech": [
+            "n"
+          ],
+          "englishGloss": [
+            "wheat"
+          ]
+        },
+        "openJlptN4": {
+          "entryIdMember": false,
+          "exactWordReadingMember": false
+        },
+        "irodoriCoordinates": [
+          {
+            "sourceRow": 1457,
+            "vocabularyRow": 1457,
+            "lesson": "1883",
+            "text": "小麦",
+            "reading": "こむぎ"
+          }
+        ],
+        "audio": [
+          {
+            "id": "750820f0903b1f1e8643",
+            "path": "/audio/tts/750820f0903b1f1e8643.wav",
+            "readingCheck": {
+              "expected": "コムギ",
+              "actual": "コムギ",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          },
+          {
+            "id": "38c15879001aca63eac0",
+            "path": "/audio/tts/38c15879001aca63eac0.wav",
+            "readingCheck": {
+              "expected": "コノパンニワコムギガツカワレテイマス",
+              "actual": "コノパンニワコムギガツカワレテイマス",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          }
+        ]
+      },
+      {
+        "text": "豆腐",
+        "reading": "とうふ",
+        "meaningVi": "đậu phụ; đậu hũ",
+        "partOfSpeech": "danh từ",
+        "group": "cooking-waste",
+        "reason": "Read ingredient information and follow short cooking instructions in everyday situations. This word is used in the example and supports the linked lesson task.",
+        "lessonNumber": 34,
+        "example": {
+          "ja": "豆腐を切って、みそ汁に入れました。",
+          "reading": "とうふをきって、みそしるにいれました。",
+          "vi": "Tôi cắt đậu phụ rồi cho vào canh miso.",
+          "audioReading": "トオフオキッテミソシルニイレマシタ"
+        },
+        "selectedJmdict": {
+          "entryId": "1450070",
+          "senseIds": [
+            "1450070-s0"
+          ],
+          "partOfSpeech": [
+            "n"
+          ],
+          "englishGloss": [
+            "tofu",
+            "bean curd",
+            "beancurd"
+          ]
+        },
+        "openJlptN4": {
+          "entryIdMember": false,
+          "exactWordReadingMember": false
+        },
+        "irodoriCoordinates": [
+          {
+            "sourceRow": 2725,
+            "vocabularyRow": 2725,
+            "lesson": "2638",
+            "text": "豆腐",
+            "reading": "とうふ"
+          }
+        ],
+        "audio": [
+          {
+            "id": "069cb3f187c64305aab4",
+            "path": "/audio/tts/069cb3f187c64305aab4.wav",
+            "readingCheck": {
+              "expected": "トオフ",
+              "actual": "トオフ",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          },
+          {
+            "id": "c0c5b9f919de6d259c93",
+            "path": "/audio/tts/c0c5b9f919de6d259c93.wav",
+            "readingCheck": {
+              "expected": "トオフオキッテミソシルニイレマシタ",
+              "actual": "トオフオキッテミソシルニイレマシタ",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          }
+        ]
+      },
+      {
+        "text": "乳製品",
+        "reading": "にゅうせいひん",
+        "meaningVi": "sản phẩm từ sữa",
+        "partOfSpeech": "danh từ",
+        "group": "cooking-waste",
+        "reason": "Read ingredient information and follow short cooking instructions in everyday situations. This word is used in the example and supports the linked lesson task.",
+        "lessonNumber": 33,
+        "example": {
+          "ja": "乳製品が入っているか、表示を読みました。",
+          "reading": "にゅうせいひんがはいっているか、ひょうじをよみました。",
+          "vi": "Tôi đọc nhãn xem có thành phần từ sữa hay không.",
+          "audioReading": "ニュウセエヒンガハイッテイルカヒョオジオヨミマシタ"
+        },
+        "selectedJmdict": {
+          "entryId": "1465260",
+          "senseIds": [
+            "1465260-s0"
+          ],
+          "partOfSpeech": [
+            "n"
+          ],
+          "englishGloss": [
+            "dairy products"
+          ]
+        },
+        "openJlptN4": {
+          "entryIdMember": false,
+          "exactWordReadingMember": false
+        },
+        "irodoriCoordinates": [
+          {
+            "sourceRow": 3027,
+            "vocabularyRow": 3027,
+            "lesson": "1885",
+            "text": "乳製品",
+            "reading": "にゅうせいひん"
+          }
+        ],
+        "audio": [
+          {
+            "id": "3f08673afa638f24fed1",
+            "path": "/audio/tts/3f08673afa638f24fed1.wav",
+            "readingCheck": {
+              "expected": "ニュウセイヒン",
+              "actual": "ニュウセイヒン",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          },
+          {
+            "id": "b5fc6427fd1b148638ba",
+            "path": "/audio/tts/b5fc6427fd1b148638ba.wav",
+            "readingCheck": {
+              "expected": "ニュウセエヒンガハイッテイルカヒョオジオヨミマシタ",
+              "actual": "ニュウセエヒンガハイッテイルカヒョオジオヨミマシタ",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          }
+        ]
+      },
+      {
+        "text": "材料",
+        "reading": "ざいりょう",
+        "meaningVi": "nguyên liệu; thành phần",
+        "partOfSpeech": "danh từ",
+        "group": "cooking-waste",
+        "reason": "Read ingredient information and follow short cooking instructions in everyday situations. This word is used in the example and supports the linked lesson task.",
+        "lessonNumber": 34,
+        "example": {
+          "ja": "料理の材料を、買い物の前に確認しました。",
+          "reading": "りょうりのざいりょうを、かいもののまえにかくにんしました。",
+          "vi": "Tôi kiểm tra nguyên liệu nấu ăn trước khi đi mua sắm.",
+          "audioReading": "リョオリノザイリョオオカイモノノマエニカクニンシマシタ",
+          "audioText": "りょうりのざいりょうを、かいもののまえにかくにんしました。"
+        },
+        "selectedJmdict": {
+          "entryId": "1296670",
+          "senseIds": [
+            "1296670-s0"
+          ],
+          "partOfSpeech": [
+            "n"
+          ],
+          "englishGloss": [
+            "materials",
+            "ingredients"
+          ]
+        },
+        "openJlptN4": {
+          "entryIdMember": false,
+          "exactWordReadingMember": false
+        },
+        "irodoriCoordinates": [
+          {
+            "sourceRow": 1535,
+            "vocabularyRow": 1535,
+            "lesson": "1890",
+            "text": "材料",
+            "reading": "ざいりょう"
+          },
+          {
+            "sourceRow": 1536,
+            "vocabularyRow": 1536,
+            "lesson": "2623",
+            "text": "材料",
+            "reading": "ざいりょう"
+          }
+        ],
+        "audio": [
+          {
+            "id": "42f957132df9a5655193",
+            "path": "/audio/tts/42f957132df9a5655193.wav",
+            "readingCheck": {
+              "expected": "ザイリョオ",
+              "actual": "ザイリョオ",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          },
+          {
+            "id": "d6235156f60b15101d94",
+            "path": "/audio/tts/d6235156f60b15101d94.wav",
+            "readingCheck": {
+              "expected": "リョオリノザイリョオオカイモノノマエニカクニンシマシタ",
+              "actual": "リョオリノザイリョオオカイモノノマエニカクニンシマシタ",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          }
+        ]
+      },
+      {
+        "text": "小麦粉",
+        "reading": "こむぎこ",
+        "meaningVi": "bột mì",
+        "partOfSpeech": "danh từ",
+        "group": "cooking-waste",
+        "reason": "Read ingredient information and follow short cooking instructions in everyday situations. This word is used in the example and supports the linked lesson task.",
+        "lessonNumber": 34,
+        "example": {
+          "ja": "小麦粉を少しずつ入れて、よく混ぜます。",
+          "reading": "こむぎこをすこしずついれて、よくまぜます。",
+          "vi": "Tôi cho bột mì vào từng chút rồi trộn đều."
+        },
+        "selectedJmdict": {
+          "entryId": "1348650",
+          "senseIds": [
+            "1348650-s0"
+          ],
+          "partOfSpeech": [
+            "n"
+          ],
+          "englishGloss": [
+            "wheat flour"
+          ]
+        },
+        "openJlptN4": {
+          "entryIdMember": false,
+          "exactWordReadingMember": false
+        },
+        "irodoriCoordinates": [
+          {
+            "sourceRow": 1458,
+            "vocabularyRow": 1458,
+            "lesson": "1884",
+            "text": "小麦粉",
+            "reading": "こむぎこ"
+          },
+          {
+            "sourceRow": 1459,
+            "vocabularyRow": 1459,
+            "lesson": "2782",
+            "text": "小麦粉",
+            "reading": "こむぎこ"
+          }
+        ],
+        "audio": [
+          {
+            "id": "dadb535ec7b6be44d2cf",
+            "path": "/audio/tts/dadb535ec7b6be44d2cf.wav",
+            "readingCheck": {
+              "expected": "コムギコ",
+              "actual": "コムギコ",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          },
+          {
+            "id": "e66f61783a9ba38c6c62",
+            "path": "/audio/tts/e66f61783a9ba38c6c62.wav",
+            "readingCheck": {
+              "expected": "コムギコオスコシズツイレテヨクマゼマス",
+              "actual": "コムギコオスコシズツイレテヨクマゼマス",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          }
+        ]
+      },
+      {
+        "text": "ピーナッツ",
+        "reading": "ピーナッツ",
+        "meaningVi": "đậu phộng; lạc",
+        "partOfSpeech": "danh từ",
+        "group": "cooking-waste",
+        "reason": "Read ingredient information and follow short cooking instructions in everyday situations. This word is used in the example and supports the linked lesson task.",
+        "lessonNumber": 33,
+        "example": {
+          "ja": "ピーナッツが入っているか、店員に聞きました。",
+          "reading": "ぴいなっつがはいっているか、てんいんにききました。",
+          "vi": "Tôi hỏi nhân viên xem món ăn có đậu phộng hay không.",
+          "audioReading": "ピイナッツガハイッテイルカテンインニキキマシタ",
+          "audioText": "ぴいなっつがはいっているか、てんいんにききました。"
+        },
+        "selectedJmdict": {
+          "entryId": "1106260",
+          "senseIds": [
+            "1106260-s0"
+          ],
+          "partOfSpeech": [
+            "n"
+          ],
+          "englishGloss": [
+            "peanut"
+          ]
+        },
+        "openJlptN4": {
+          "entryIdMember": false,
+          "exactWordReadingMember": false
+        },
+        "irodoriCoordinates": [
+          {
+            "sourceRow": 3325,
+            "vocabularyRow": 3325,
+            "lesson": "1880",
+            "text": "ピーナッツ",
+            "reading": "ピーナッツ"
+          }
+        ],
+        "audio": [
+          {
+            "id": "8ac5b7007d9916c31df2",
+            "path": "/audio/tts/8ac5b7007d9916c31df2.wav",
+            "readingCheck": {
+              "expected": "ピイナッツ",
+              "actual": "ピイナッツ",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          },
+          {
+            "id": "c0440ac5f9e58d5d4174",
+            "path": "/audio/tts/c0440ac5f9e58d5d4174.wav",
+            "readingCheck": {
+              "expected": "ピイナッツガハイッテイルカテンインニキキマシタ",
+              "actual": "ピイナッツガハイッテイルカテンインニキキマシタ",
+              "method": "declared full reading aligned to surface and particles, with curated lexical long vowels; not auditory validation"
+            },
+            "status": "Cách đọc kế hoạch TTS khớp dữ liệu biên soạn; chưa duyệt nghe/ngữ âm độc lập"
+          }
+        ]
+      }
+    ]
+  },
+  "audio": {
+    "jobsRequested": 160,
+    "jobsWithPlayableAssets": 160,
+    "generatedReadingMatches": 160,
+    "held": [],
+    "engine": "0.26.1",
+    "speaker": "四国めたん",
+    "style": "ノーマル",
+    "status": "VOICEVOX-generated WAV and analyzer agreement only; no human listening or phonetic review."
+  },
+  "limitations": [
+    "These are project-selected learning candidates, not an official JLPT list or proof of N4 sufficiency.",
+    "Minna links are functional mappings; exact Minna vocabulary membership was not audited.",
+    "Irodori rows establish spelling/reading occurrence, not JLPT level or curriculum priority.",
+    "Vietnamese meanings and examples are project-authored; the sample is not independent academic review.",
+    "Candidate counts do not establish full skill coverage or learner performance."
+  ]
+}

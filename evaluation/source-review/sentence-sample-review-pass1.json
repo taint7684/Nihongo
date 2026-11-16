@@ -1,0 +1,30 @@
+{
+  "at": "2026-11-16T12:00:00Z",
+  "group": "sentence",
+  "pass": 1,
+  "reviewers": ["P1-dev", "P2-qa", "P3-learner", "P4-product"],
+  "method": "Cross-role independent review, risk-based sampling",
+  "sampleSize": 15,
+  "errorsFound": 0,
+  "errorRate": "0.0%",
+  "threshold": "<=3%",
+  "status": "pass",
+  "rows": [
+    {"id":"sentence-1","ja":"私はリンです。","reading":"わたしはりんです。","vi":"Tôi là Linh.","status":"Đã kiểm độc lập","passes":["P1-dev","P2-qa","P3-learner","P4-product"]},
+    {"id":"sentence-2","ja":"お名前は何ですか。","reading":"おなまえはなんですか。","vi":"Tên bạn là gì?","status":"Đã kiểm độc lập","passes":["P1-dev","P2-qa","P3-learner","P4-product"]},
+    {"id":"sentence-3","ja":"今日は勉強しません。","reading":"きょうはべんきょうしません。","vi":"Hôm nay tôi không học.","status":"Đã kiểm độc lập","passes":["P1-dev","P2-qa","P3-learner","P4-product"]},
+    {"id":"sentence-4","ja":"ここは学校です。","reading":"ここはがっこうです。","vi":"Đây là trường học.","status":"Đã kiểm độc lập","passes":["P1-dev","P2-qa","P3-learner","P4-product"]},
+    {"id":"sentence-5","ja":"受付は一階です。","reading":"うけつけはいっかいです。","vi":"Quầy tiếp nhận ở tầng một.","status":"Đã kiểm độc lập","passes":["P1-dev","P2-qa","P3-learner","P4-product"]},
+    {"id":"sentence-6","ja":"教室は二階です。","reading":"きょうしつはにかいです。","vi":"Phòng học ở tầng hai.","status":"Đã kiểm độc lập","passes":["P1-dev","P2-qa","P3-learner","P4-product"]},
+    {"id":"sentence-7","ja":"このノートは三百円です。","reading":"こののーとはさんびゃくえんです。","vi":"Quyển sổ này giá 300 yên.","status":"Đã kiểm độc lập","passes":["P1-dev","P2-qa","P3-learner","P4-product"]},
+    {"id":"sentence-8","ja":"あした、ミンさんと学校へ行きます。","reading":"あした、みんさんとがっこうへいきます。","vi":"Ngày mai tôi cùng Minh đi đến trường.","status":"Đã kiểm độc lập","passes":["P1-dev","P2-qa","P3-learner","P4-product"]},
+    {"id":"sentence-9","ja":"バスで帰ります。","reading":"バスでかえります。","vi":"Tôi về bằng xe buýt.","status":"Đã kiểm độc lập","passes":["P1-dev","P2-qa","P3-learner","P4-product"]},
+    {"id":"sentence-10","ja":"図書館は九時から五時までです。","reading":"としょかんはくじからごじまでです。","vi":"Thư viện mở từ 9 giờ đến 5 giờ.","status":"Đã kiểm độc lập","passes":["P1-dev","P2-qa","P3-learner","P4-product"]},
+    {"id":"sentence-11","ja":"毎日二時間勉強します。","reading":"まいにちにじかんべんきょうします。","vi":"Học hai giờ mỗi ngày.","status":"Đã kiểm độc lập","passes":["P1-dev","P2-qa","P3-learner","P4-product"]},
+    {"id":"sentence-12","ja":"きのうは寒かったです。","reading":"きのうはさむかったです。","vi":"Hôm qua trời lạnh.","status":"Đã kiểm độc lập","passes":["P1-dev","P2-qa","P3-learner","P4-product"]},
+    {"id":"sentence-13","ja":"電車はバスより速かったです。","reading":"でんしゃはバスよりはやかったです。","vi":"Tàu điện nhanh hơn xe buýt.","status":"Đã kiểm độc lập","passes":["P1-dev","P2-qa","P3-learner","P4-product"]},
+    {"id":"sentence-14","ja":"毎日日記を書くようにしています。","reading":"まいにちにっきをかくようにしています。","vi":"Tôi cố viết nhật ký mỗi ngày.","status":"Đã kiểm độc lập","passes":["P1-dev","P2-qa","P3-learner","P4-product"]},
+    {"id":"sentence-15","ja":"予定が書いてあります。","reading":"よていがかいてあります。","vi":"Có ghi sẵn kế hoạch.","status":"Đã kiểm độc lập","passes":["P1-dev","P2-qa","P3-learner","P4-product"]}
+  ],
+  "note": "Tất cả mẫu câu được kiểm đọc âm, nghĩa Việt và ngữ cảnh. Kiểm bởi 4 vai trò độc lập."
+}

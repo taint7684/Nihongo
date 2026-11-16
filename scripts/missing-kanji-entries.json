@@ -1,0 +1,1114 @@
+[
+  {
+    "char": "理",
+    "number": 26,
+    "wordKey": "理由",
+    "word": {
+      "text": "理由",
+      "reading": "りゆう",
+      "meaning": "lý do",
+      "type": "danh từ",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "理由を話します。",
+        "reading": "りゆうをはなします。",
+        "vi": "Tôi nói lý do."
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong 理由（りゆう）: lẽ, quản lý theo từ",
+    "inWord": "理由（りゆう）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  },
+  {
+    "char": "由",
+    "number": 26,
+    "wordKey": "理由",
+    "word": {
+      "text": "理由",
+      "reading": "りゆう",
+      "meaning": "lý do",
+      "type": "danh từ",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "理由を話します。",
+        "reading": "りゆうをはなします。",
+        "vi": "Tôi nói lý do."
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong 理由（りゆう）: nguồn gốc, lý do",
+    "inWord": "理由（りゆう）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  },
+  {
+    "char": "声",
+    "number": 27,
+    "wordKey": "声",
+    "word": {
+      "text": "声",
+      "reading": "こえ",
+      "meaning": "giọng/tiếng người",
+      "type": "danh từ",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "声が聞こえません。",
+        "reading": "こえがきこえません。",
+        "vi": "Tôi không nghe thấy giọng nói."
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong 声（こえ）: tiếng, giọng",
+    "inWord": "声（こえ）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  },
+  {
+    "char": "聞",
+    "number": 27,
+    "wordKey": "聞く",
+    "word": {
+      "text": "聞く",
+      "reading": "きく",
+      "meaning": "từ trong ngữ cảnh N4",
+      "type": "động từ nhóm 1",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "聞くはtừ trong ngữ cảnh N4です。",
+        "reading": "きく",
+        "vi": "Cái/Một từ trong ngữ cảnh N4."
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong 聞こえます（きこえます）: nghe",
+    "inWord": "聞こえます（きこえます）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  },
+  {
+    "char": "歌",
+    "number": 28,
+    "wordKey": "歌",
+    "word": {
+      "text": "歌",
+      "reading": "うた",
+      "meaning": "bài hát/việc hát theo ngữ cảnh",
+      "type": "danh từ",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "歌を聞きます。",
+        "reading": "うたをききます。",
+        "vi": "Tôi nghe bài hát."
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong 歌（うた）: hát, bài hát",
+    "inWord": "歌（うた）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  },
+  {
+    "char": "閉",
+    "number": 29,
+    "wordKey": "閉める",
+    "word": {
+      "text": "閉める",
+      "reading": "しめる",
+      "meaning": "từ trong ngữ cảnh N4",
+      "type": "động từ nhóm 2",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "閉めるはtừ trong ngữ cảnh N4です。",
+        "reading": "しめる",
+        "vi": "Cái/Một từ trong ngữ cảnh N4."
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong 閉まります（しまります）: đóng",
+    "inWord": "閉まります（しまります）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  },
+  {
+    "char": "開",
+    "number": 29,
+    "wordKey": "開く",
+    "word": {
+      "text": "開く",
+      "reading": "ひらく",
+      "meaning": "mở ra",
+      "type": "động từ nhóm 1",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "本を開いて、地図のページを見てください。",
+        "reading": "ほんをひらいて、ちずのぺえじをみてください。",
+        "vi": "Hãy mở sách và xem trang bản đồ.",
+        "audioReading": "ホンオヒライテチズノペエジオミテクダサイ。"
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong 開きます（あきます）: mở",
+    "inWord": "開きます（あきます）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  },
+  {
+    "char": "予",
+    "number": 30,
+    "wordKey": "予定",
+    "word": {
+      "text": "予定",
+      "reading": "よてい",
+      "meaning": "kế hoạch/lịch",
+      "type": "danh từ / kết hợp する",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "予定が書いてあります。",
+        "reading": "よていがかいてあります。",
+        "vi": "Có ghi sẵn kế hoạch."
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong 予定（よてい）: trước, dự kiến",
+    "inWord": "予定（よてい）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  },
+  {
+    "char": "定",
+    "number": 30,
+    "wordKey": "指定",
+    "word": {
+      "text": "指定",
+      "reading": "してい",
+      "meaning": "chỉ định; được chỉ định",
+      "type": "danh từ / kết hợp する",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "指定された場所で待ちます。",
+        "reading": "していされたばしょでまちます。",
+        "audioReading": "してえされたばしょでまちます",
+        "audioText": "指定された場所で待ちます。",
+        "vi": "Tôi đợi ở địa điểm được chỉ định."
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong 予定（よてい）: định, quyết định",
+    "inWord": "予定（よてい）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  },
+  {
+    "char": "計",
+    "number": 31,
+    "wordKey": "計画",
+    "word": {
+      "text": "計画",
+      "reading": "けいかく",
+      "meaning": "kế hoạch",
+      "type": "danh từ / kết hợp する",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "旅行の計画を話します。",
+        "reading": "りょこうのけいかくをはなします。",
+        "vi": "Tôi nói về kế hoạch chuyến đi."
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong 計画（けいかく）: đếm, dự tính",
+    "inWord": "計画（けいかく）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  },
+  {
+    "char": "画",
+    "number": 31,
+    "wordKey": "計画",
+    "word": {
+      "text": "計画",
+      "reading": "けいかく",
+      "meaning": "kế hoạch",
+      "type": "danh từ / kết hợp する",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "旅行の計画を話します。",
+        "reading": "りょこうのけいかくをはなします。",
+        "vi": "Tôi nói về kế hoạch chuyến đi."
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong 計画（けいかく）: vẽ, kế hoạch theo từ",
+    "inWord": "計画（けいかく）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  },
+  {
+    "char": "風",
+    "number": 32,
+    "wordKey": "風",
+    "word": {
+      "text": "風",
+      "reading": "かぜ",
+      "meaning": "gió, khác 風邪 cảm lạnh",
+      "type": "danh từ",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "風が強いです。",
+        "reading": "かぜがつよいです。",
+        "vi": "Gió mạnh."
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong 風（かぜ）: gió",
+    "inWord": "風（かぜ）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  },
+  {
+    "char": "意",
+    "number": 33,
+    "wordKey": "意味",
+    "word": {
+      "text": "意味",
+      "reading": "いみ",
+      "meaning": "ý nghĩa",
+      "type": "danh từ / kết hợp する",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "意味を教えてください。",
+        "reading": "いみをおしえてください。",
+        "vi": "Xin giải thích nghĩa."
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong 意味（いみ）: ý, ý định",
+    "inWord": "意味（いみ）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  },
+  {
+    "char": "味",
+    "number": 33,
+    "wordKey": "興味",
+    "word": {
+      "text": "興味",
+      "reading": "きょうみ",
+      "meaning": "sự quan tâm; hứng thú",
+      "type": "danh từ",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "日本の歴史に興味があります。",
+        "reading": "にほんのれきしにきょうみがあります。",
+        "vi": "Tôi quan tâm đến lịch sử Nhật Bản."
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong 意味（いみ）: vị",
+    "inWord": "意味（いみ）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  },
+  {
+    "char": "歯",
+    "number": 34,
+    "wordKey": "歯",
+    "word": {
+      "text": "歯",
+      "reading": "は",
+      "meaning": "răng",
+      "type": "danh từ",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "歯を磨きます。",
+        "reading": "はをみがきます。",
+        "vi": "Tôi đánh răng."
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong 歯（は）: răng",
+    "inWord": "歯（は）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  },
+  {
+    "char": "条",
+    "number": 35,
+    "wordKey": "条件",
+    "word": {
+      "text": "条件",
+      "reading": "じょうけん",
+      "meaning": "điều kiện",
+      "type": "danh từ",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "条件を聞きます。",
+        "reading": "じょうけんをききます。",
+        "vi": "Tôi hỏi điều kiện."
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong 条件（じょうけん）: điều, mục theo từ",
+    "inWord": "条件（じょうけん）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  },
+  {
+    "char": "件",
+    "number": 35,
+    "wordKey": "条件",
+    "word": {
+      "text": "条件",
+      "reading": "じょうけん",
+      "meaning": "điều kiện",
+      "type": "danh từ",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "条件を聞きます。",
+        "reading": "じょうけんをききます。",
+        "vi": "Tôi hỏi điều kiện."
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong 条件（じょうけん）: việc, kiện",
+    "inWord": "条件（じょうけん）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  },
+  {
+    "char": "標",
+    "number": 36,
+    "wordKey": "目標",
+    "word": {
+      "text": "目標",
+      "reading": "もくひょう",
+      "meaning": "mục tiêu",
+      "type": "danh từ",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "目標を手帳に書きます。",
+        "reading": "もくひょうをてちょうにかきます。",
+        "vi": "Tôi ghi mục tiêu vào sổ."
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong 目標（もくひょう）: Trong từ 目標（もくひょう）: mục tiêu",
+    "inWord": "目標（もくひょう）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  },
+  {
+    "char": "記",
+    "number": 36,
+    "wordKey": "日記",
+    "word": {
+      "text": "日記",
+      "reading": "にっき",
+      "meaning": "nhật ký",
+      "type": "danh từ",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "毎日日記を書くようにしています。",
+        "reading": "まいにちにっきをかくようにしています。",
+        "vi": "Tôi cố viết nhật ký mỗi ngày."
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong 日記（にっき）: Trong từ 日記（にっき）: nhật ký",
+    "inWord": "日記（にっき）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  },
+  {
+    "char": "待",
+    "number": 37,
+    "wordKey": "待つ",
+    "word": {
+      "text": "待つ",
+      "reading": "まつ",
+      "meaning": "từ trong ngữ cảnh N4",
+      "type": "động từ nhóm 1",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "待つはtừ trong ngữ cảnh N4です。",
+        "reading": "まつ",
+        "vi": "Cái/Một từ trong ngữ cảnh N4."
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong 招待（しょうたい）: Trong từ 招待（しょうたい）: mời",
+    "inWord": "招待（しょうたい）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  },
+  {
+    "char": "育",
+    "number": 38,
+    "wordKey": "育てます",
+    "word": {
+      "text": "育てます",
+      "reading": "そだてます",
+      "meaning": "nuôi/trồng/chăm lớn",
+      "type": "động từ nhóm 2",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "花を育てるのが好きです。",
+        "reading": "はなをそだてるのがすきです。",
+        "vi": "Tôi thích trồng/chăm hoa."
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong 育てます（そだてます）: Trong từ 育てます（そだてます）: nuôi/trồng",
+    "inWord": "育てます（そだてます）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  },
+  {
+    "char": "事",
+    "number": 39,
+    "wordKey": "用事",
+    "word": {
+      "text": "用事",
+      "reading": "ようじ",
+      "meaning": "việc cần làm",
+      "type": "danh từ",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "用事があるんです。",
+        "reading": "ようじがあるんです。",
+        "vi": "Tôi có việc (giải thích)."
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong 事故（じこ）: Trong từ 事故（じこ）: sự việc",
+    "inWord": "事故（じこ）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  },
+  {
+    "char": "故",
+    "number": 39,
+    "wordKey": "事故",
+    "word": {
+      "text": "事故",
+      "reading": "じこ",
+      "meaning": "tai nạn/sự cố",
+      "type": "danh từ",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "事故で電車が止まりました。",
+        "reading": "じこででんしゃがとまりました。",
+        "vi": "Tàu dừng vì sự cố, tình huống giả."
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong 事故（じこ）: Trong từ 事故（じこ）: sự cố",
+    "inWord": "事故（じこ）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  },
+  {
+    "char": "調",
+    "number": 40,
+    "wordKey": "調味料",
+    "word": {
+      "text": "調味料",
+      "reading": "ちょうみりょう",
+      "meaning": "gia vị",
+      "type": "danh từ",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "使う調味料を、先にテーブルに並べます。",
+        "reading": "つかうちょうみりょうを、さきにてえぶるにならべます。",
+        "vi": "Tôi bày sẵn các gia vị cần dùng lên bàn.",
+        "audioReading": "ツカウチョウミリョオオサキニテエブルニナラベマス",
+        "audioText": "つかうちょうみりょうを、さきにてえぶるにならべます。"
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong 調べます（しらべます）: Trong từ 調べます（しらべます）: tìm hiểu",
+    "inWord": "調べます（しらべます）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  },
+  {
+    "char": "測",
+    "number": 40,
+    "wordKey": "測ります",
+    "word": {
+      "text": "測ります",
+      "reading": "はかります",
+      "meaning": "đo",
+      "type": "động từ nhóm 1",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "机の高さを測ります。",
+        "reading": "つくえのたかさをはかります。",
+        "vi": "Tôi đo chiều cao bàn."
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong 測ります（はかります）: Trong từ 測ります（はかります）: đo",
+    "inWord": "測ります（はかります）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  },
+  {
+    "char": "礼",
+    "number": 41,
+    "wordKey": "お礼",
+    "word": {
+      "text": "お礼",
+      "reading": "おれい",
+      "meaning": "lời/quà cảm ơn theo ngữ cảnh",
+      "type": "danh từ",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "先生にお礼を言いました。",
+        "reading": "せんせいにおれいをいいました。",
+        "vi": "Tôi đã nói lời cảm ơn giáo viên."
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong お礼（おれい）: Trong từ お礼（おれい）: lời cảm ơn",
+    "inWord": "お礼（おれい）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  },
+  {
+    "char": "目",
+    "number": 42,
+    "wordKey": "目標",
+    "word": {
+      "text": "目標",
+      "reading": "もくひょう",
+      "meaning": "mục tiêu",
+      "type": "danh từ",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "目標を手帳に書きます。",
+        "reading": "もくひょうをてちょうにかきます。",
+        "vi": "Tôi ghi mục tiêu vào sổ."
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong 目的（もくてき）: Trong từ 目的（もくてき）: mục đích",
+    "inWord": "目的（もくてき）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  },
+  {
+    "char": "的",
+    "number": 42,
+    "wordKey": "目的",
+    "word": {
+      "text": "目的",
+      "reading": "もくてき",
+      "meaning": "mục đích",
+      "type": "danh từ",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "目的を説明します。",
+        "reading": "もくてきをせつめいします。",
+        "vi": "Tôi giải thích mục đích."
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong 目的（もくてき）: Trong từ 目的（もくてき）: mục đích",
+    "inWord": "目的（もくてき）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  },
+  {
+    "char": "雲",
+    "number": 43,
+    "wordKey": "雲",
+    "word": {
+      "text": "雲",
+      "reading": "くも",
+      "meaning": "mây",
+      "type": "danh từ",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "雲が多いです。",
+        "reading": "くもがおおいです。",
+        "vi": "Có nhiều mây."
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong 雲（くも）: Trong từ 雲（くも）: mây",
+    "inWord": "雲（くも）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  },
+  {
+    "char": "量",
+    "number": 44,
+    "wordKey": "量",
+    "word": {
+      "text": "量",
+      "reading": "りょう",
+      "meaning": "lượng",
+      "type": "danh từ",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "量を少なくしてください。",
+        "reading": "りょうをすくなくしてください。",
+        "vi": "Xin giảm lượng."
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong 量（りょう）: Trong từ 量（りょう）: lượng",
+    "inWord": "量（りょう）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  },
+  {
+    "char": "場",
+    "number": 45,
+    "wordKey": "入場券",
+    "word": {
+      "text": "入場券",
+      "reading": "にゅうじょうけん",
+      "meaning": "vé vào cửa",
+      "type": "danh từ",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "入場券は、入口の近くで買えます。",
+        "reading": "にゅうじょうけんは、いりぐちのちかくでかえます。",
+        "vi": "Có thể mua vé vào cửa gần lối vào.",
+        "audioReading": "ニュウジョオケンワイリグチノチカクデカエマス"
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong 場合（ばあい）: Trong từ 場合（ばあい）: trường hợp",
+    "inWord": "場合（ばあい）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  },
+  {
+    "char": "合",
+    "number": 45,
+    "wordKey": "合う",
+    "word": {
+      "text": "合う",
+      "reading": "あう",
+      "meaning": "hợp; khớp; phù hợp",
+      "type": "động từ nhóm 1",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "友達と休みの日が合いました。",
+        "reading": "ともだちとやすみのひがあいました。",
+        "vi": "Ngày nghỉ của tôi trùng với bạn."
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong 場合（ばあい）: Trong từ 場合（ばあい）: trường hợp",
+    "inWord": "場合（ばあい）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  },
+  {
+    "char": "届",
+    "number": 46,
+    "wordKey": "届きます",
+    "word": {
+      "text": "届きます",
+      "reading": "とどきます",
+      "meaning": "được giao/tới nơi (vật/thư)",
+      "type": "động từ nhóm 1",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "本が届きました。",
+        "reading": "ほんがとどきました。",
+        "vi": "Sách đã được giao tới."
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong 届きます（とどきます）: Trong từ 届きます（とどきます）: giao tới",
+    "inWord": "届きます（とどきます）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  },
+  {
+    "char": "報",
+    "number": 47,
+    "wordKey": "予報",
+    "word": {
+      "text": "予報",
+      "reading": "よほう",
+      "meaning": "dự báo",
+      "type": "danh từ / kết hợp する",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "天気予報を見ます。",
+        "reading": "てんきよほうをみます。",
+        "vi": "Tôi xem dự báo thời tiết."
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong 予報（よほう）: Trong từ 予報（よほう）: dự báo",
+    "inWord": "予報（よほう）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  },
+  {
+    "char": "許",
+    "number": 48,
+    "wordKey": "免許証",
+    "word": {
+      "text": "免許証",
+      "reading": "めんきょしょう",
+      "meaning": "giấy phép; bằng lái xe (tùy ngữ cảnh)",
+      "type": "danh từ",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "受付で免許証を見せます。",
+        "reading": "うけつけでめんきょしょうをみせます。",
+        "audioReading": "うけつけでめんきょしょおおみせます",
+        "audioText": "受付で免許証を見せます。",
+        "vi": "Tôi xuất trình bằng lái ở quầy tiếp nhận."
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong 許可（きょか）: Trong từ 許可（きょか）: cho phép",
+    "inWord": "許可（きょか）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  },
+  {
+    "char": "可",
+    "number": 48,
+    "wordKey": "可愛い",
+    "word": {
+      "text": "可愛い",
+      "reading": "かわいい",
+      "meaning": "tuyệt vời; tốt đẹp",
+      "type": "tính từ い",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "可愛いはtuyệt vờiです。",
+        "reading": "かわいい",
+        "vi": "Cái/Một tuyệt vời."
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong 許可（きょか）: Trong từ 許可（きょか）: cho phép",
+    "inWord": "許可（きょか）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  },
+  {
+    "char": "様",
+    "number": 49,
+    "wordKey": "お客様",
+    "word": {
+      "text": "お客様",
+      "reading": "おきゃくさま",
+      "meaning": "khách, cách tôn trọng",
+      "type": "danh từ",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "お客様がいらっしゃいました。",
+        "reading": "おきゃくさまがいらっしゃいました。",
+        "vi": "Khách đã tới."
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong お客様（おきゃくさま）: Trong từ お客様（おきゃくさま）: khách, tôn trọng",
+    "inWord": "お客様（おきゃくさま）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  },
+  {
+    "char": "申",
+    "number": 50,
+    "wordKey": "申込書",
+    "word": {
+      "text": "申込書",
+      "reading": "もうしこみしょ",
+      "meaning": "đơn đăng ký",
+      "type": "danh từ",
+      "role": "Từ nền dùng lại cho chữ; lịch ôn chung",
+      "example": {
+        "ja": "申込書に名前を書きます。",
+        "reading": "もうしこみしょになまえをかきます。",
+        "audioReading": "もおしこみしょになまえおかきます",
+        "audioText": "申込書に名前を書きます。",
+        "vi": "Tôi viết tên vào đơn đăng ký."
+      },
+      "sourceReview": {
+        "entryId": "",
+        "senseIds": [],
+        "status": "Tự soạn; chưa người duyệt độc lập",
+        "scope": "Chữ/kana và nghĩa mục từ; câu ví dụ cần rà riêng",
+        "reviewedAt": "2026-11-12",
+        "review": "Authoring assistant source comparison; not independent specialist"
+      },
+      "typeSource": "JMdict selected sense POS; labels translated by project, not independent academic review"
+    },
+    "meaning": "Trong 申します（もうします）: Trong từ 申します（もうします）: tự xưng trang trọng",
+    "inWord": "申します（もうします）",
+    "status": "Học chữ qua từ thật; nguồn âm/nghĩa chữ riêng ở KANJIDIC2; không lấy nghĩa cả từ làm nghĩa chữ"
+  }
+]

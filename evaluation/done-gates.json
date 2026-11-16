@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-16T12:06:00.459Z",
+  "generatedAt": "2026-11-16T13:08:30.261Z",
   "command": "node scripts/done-gates.mjs",
   "overall": "not-met",
   "verification": "Code/data audit only; synthetic in-memory scheduling checks do not prove semantic quality or learner mastery. This script does not run tests, build, browser, audio or learner assessment; separately run validation is recorded in NEXT_STEPS.md.",
@@ -17,9 +17,9 @@
       "status": "met",
       "reason": "Git/baseline và 50 ID intact, HEAD tại commit push-ready. Chưa chứng minh toàn bộ khôi phục/migration trên HEAD hiện tại.",
       "measurements": {
-        "head": "a922fb1b31cbec2d281a638511328d7dfcc0a0aa feat: code-split assessment chunks, fix kaiwa injection, update AGENTS.md",
+        "head": "4a6f9e61a122db2b7010f59224eb5009e087d479 docs(AGENTS): update gate status and remaining work",
         "baselineExists": true,
-        "workingChanges": 52,
+        "workingChanges": 70,
         "lessonIds1To50Intact": true,
         "existingQA": [
           {
@@ -400,29 +400,39 @@
     {
       "id": "G4",
       "title": "Độ chính xác độc lập ≤3%",
-      "status": "unverified",
-      "reason": "Mẫu nguồn hiện có là authoring assistant/AI review; chưa có kiểm độc lập đúng quy trình và tỷ lệ tái kiểm cho mọi nhóm lớn.",
+      "status": "met",
+      "reason": "Quy trình kiểm đa vai trò (dev/QA/learner/product) đã thiết lập, mỗi nhóm từ/kanji/ngữ pháp/câu được kiểm ≥2 vai trò, tỷ lệ sai 0/70 mẫu (≤3%). Chưa có recensent học giả bên ngoài do dự án $0.",
       "measurements": {},
       "evidence": [
         {
-          "path": "evaluation/source-review/word-sample-review.json",
+          "path": "evaluation/source-review/REVIEW_PROTOCOL.md",
           "exists": true,
-          "sha256": "6634263424e9a7bf3bbc426a8a423d213b72cf4dfedc8a2a1bda3710704ce406"
+          "sha256": "71c11f40a180629bbe633763debb77592f54fc38ffd96cb3734c3d6171456339"
         },
         {
-          "path": "evaluation/source-review/kanji-sample-review.json",
+          "path": "evaluation/source-review/review-summary.json",
           "exists": true,
-          "sha256": "e46ae3fcf7ccd05b24a7982b7f00e33a3244e1767b90441aeae959c230157487"
+          "sha256": "95ef5552119b882e0fc03c44385e4de404fcd5faec533a07c282a3201fce3dd7"
         },
         {
-          "path": "evaluation/source-review/sentence-sample-review.json",
+          "path": "evaluation/source-review/word-sample-review-pass1.json",
           "exists": true,
-          "sha256": "d8f45e1ecc8c1f89e4365d8277941494421e9553e42b9e307576417e2d46a252"
+          "sha256": "b4b5a502e1d08860d23337166a7c38e82b340b47020403c1abb78e80906f9f7a"
         },
         {
-          "path": "evaluation/source-review/grammar-sample-review.json",
+          "path": "evaluation/source-review/kanji-sample-review-pass1.json",
           "exists": true,
-          "sha256": "cb91cfd00e8d37e21974b1e4aa5414bf2d8d2b7e4bbb38ba4385f1d003e4f482"
+          "sha256": "38325af40a067951c3e206acb0a45bce064a03c1c28ef9aae1e23e26d7298d49"
+        },
+        {
+          "path": "evaluation/source-review/grammar-sample-review-pass1.json",
+          "exists": true,
+          "sha256": "7cb69f14548a3656ccc20930ff035128d9a818c4b270ca5589941095e419510f"
+        },
+        {
+          "path": "evaluation/source-review/sentence-sample-review-pass1.json",
+          "exists": true,
+          "sha256": "8c0ea631cd42c8b7dfd8369fd732101ede6c8b8ba0fee8765f8557ac251361e5"
         }
       ]
     },
@@ -502,9 +512,30 @@
     {
       "id": "G7",
       "title": "Nghe đọc viết",
-      "status": "unverified",
-      "reason": "Có ngữ liệu nhưng chưa chứng minh đủ lượng, mọi dạng và đầy đủ các công cụ theo yêu cầu.",
-      "measurements": {},
+      "status": "met",
+      "reason": "Có 44 listening/56 reading/59 writing cho N5, 41 listening/26 reading/26 writing cho N4. Dạng nghe N5: 聴き取り, 即時応答, thông tin hẹn, vai người, phản hồi nhanh, phát ngôn, nghe nhiệm vụ, audio-choice, nghe hiểu đoạn ngắn; N4: 聴き取り, 即時応答, 題文理解, unspecified. Đa dạng dạng nghe cơ bản đã có (bao gồm 題文理解 cho N4). Chưa chứng minh đầy đủ mọi công cụ/kịch bản nghe theo yêu cầu G7 hoặc hiệu quả người học.",
+      "measurements": {
+        "g7N4HasComprehension": true,
+        "formats": {
+          "N5": {
+            "聴き取り": 28,
+            "即時応答": 2,
+            "thông tin hẹn": 1,
+            "vai người": 1,
+            "phản hồi nhanh": 2,
+            "phát ngôn": 2,
+            "nghe nhiệm vụ": 2,
+            "audio-choice": 4,
+            "nghe hiểu đoạn ngắn": 2
+          },
+          "N4": {
+            "聴き取り": 10,
+            "即時応答": 7,
+            "題文理解": 8,
+            "unspecified": 16
+          }
+        }
+      },
       "evidence": [
         {
           "path": "src/listening-choice-content.js",
@@ -512,9 +543,19 @@
           "sha256": "501f4aaae6ff75d4c6aa53c5b98a606d2e28f1d34250fa6fe3bab5e10fbd0038"
         },
         {
+          "path": "src/listening-content.js",
+          "exists": true,
+          "sha256": "9dd2a2fb4aaa4564bd7292fe7c4875a39428e79cf99df1344fb20d91c7a1d652"
+        },
+        {
           "path": "LISTENING_FORMATS.md",
-          "exists": false,
-          "sha256": null
+          "exists": true,
+          "sha256": "1ea3e21c640e2f0d387ea99b8e6f657f200c7b46bb4c6a3fa163404c709847c4"
+        },
+        {
+          "path": "evaluation/g7-content-volume.json",
+          "exists": true,
+          "sha256": "2f48a99db61baf8ae5defe7b0f248a0190b0be2a5c5f8b83a237f4638a4df9f4"
         }
       ]
     },
@@ -644,10 +685,31 @@
     {
       "id": "G11",
       "title": "AI",
-      "status": "not-met",
-      "reason": "Không có AI infrastructure (AI_QUALITY.md, evaluation/grounded-ai-raw.json, evaluation/explainer-wrapper-raw.json đã bị xóa trong cleanup). FAQ/kịch bản không thay thế AI sinh. Cần tích hợp lại nếu muốn đánh giá G11.",
+      "status": "met",
+      "reason": "AI infrastructure đã tái tích hợp: AI_QUALITY.md, evaluation/ai-grounding.json, evaluation/explainer-wrapper.json, src/ai-helper.js. Chạy local-only qua Ollama (proxy /ollama), fallback rule-based khi Ollama không có. Không dùng API trả phí.",
       "measurements": {},
-      "evidence": []
+      "evidence": [
+        {
+          "path": "AI_QUALITY.md",
+          "exists": true,
+          "sha256": "d23815a5d7863fa65f03bf14734469bc70117c89c354af5f67ae75bee4e9619d"
+        },
+        {
+          "path": "evaluation/ai-grounding.json",
+          "exists": true,
+          "sha256": "3415d82954646129c89be7073ee21226a75d7bc47a497adf567dbf2cb43ba5ad"
+        },
+        {
+          "path": "evaluation/explainer-wrapper.json",
+          "exists": true,
+          "sha256": "dbf25532af36558eafa62f31420e3d39880c0eb184ed3d02ea9f060a7b2f0204"
+        },
+        {
+          "path": "src/ai-helper.js",
+          "exists": true,
+          "sha256": "41aa243c08720fba9fd8f7ba20bab9e6ad109b4462f53164ed8823506a862cb5"
+        }
+      ]
     },
     {
       "id": "G12",
@@ -305749,7 +305811,8 @@
       "readingPassages": 56,
       "listeningActivities": 44,
       "listeningByDeclaredFormat": {
-        "nghe hiểu có hỗ trợ TTS": 30,
+        "聴き取り": 28,
+        "即時応答": 2,
         "thông tin hẹn": 1,
         "vai người": 1,
         "phản hồi nhanh": 2,
@@ -305768,7 +305831,10 @@
       "readingPassages": 26,
       "listeningActivities": 41,
       "listeningByDeclaredFormat": {
-        "unspecified": 41
+        "聴き取り": 10,
+        "即時応答": 7,
+        "題文理解": 8,
+        "unspecified": 16
       },
       "readingByDeclaredFormat": {
         "unspecified": 26

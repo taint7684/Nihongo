@@ -1,0 +1,44 @@
+{
+  "generatedAt": "2026-11-16T12:00:00Z",
+  "standard": "JLPT N5/N4 grounding data for AI helper",
+  "locale": "vi",
+  "grounding": {
+    "timeExpressions": [
+      {"ja":"今","reading":"いま","vi":"bây giờ","level":"N5"},
+      {"ja":"昨日","reading":"きのう","vi":"hôm qua","level":"N5"},
+      {"ja":"今日","reading":"きょう","vi":"hôm nay","level":"N5"},
+      {"ja":"明日","reading":"あした","vi":"ngày mai","level":"N5"},
+      {"ja":"毎週","reading":"まいしゅう","vi":"mỗi tuần","level":"N5"},
+      {"ja":"毎日","reading":"まいにち","vi":"mỗi ngày","level":"N5"}
+    ],
+    "particles": [
+      {"ja":"は","vi":"chủ đề","level":"N5"},
+      {"ja":"が","vi":"chủ ngữ / nhấn mạnh","level":"N5"},
+      {"ja":"を","vi":"tân ngữ trực tiếp","level":"N5"},
+      {"ja":"に","vi":"mốc thời gian / đích đến","level":"N5"},
+      {"ja":"へ","vi":"hướng đến","level":"N5"},
+      {"ja":"で","vi":"phương tiện / địa điểm thực hiện","level":"N5"},
+      {"ja":"と","vi":"người đi cùng / và","level":"N5"},
+      {"ja":"も","vi":"cũng / thêm vào","level":"N5"},
+      {"ja":"の","vi":"sở hữu / liên kết danh từ","level":"N5"},
+      {"ja":"か","vi":"dấu hỏi","level":"N5"}
+    ],
+    "verbGroups": [
+      {"name":"Nhóm 1 (Godan)","rule":"Đảo akhir� trước ます","example":"書く→書きます"},
+      {"name":"Nhóm 2 (Ichidan)","rule":"Bỏ る trước ます","example":"食べる→食べます"},
+      {"name":"Nhóm 3 (Bất quy tắc)","rule":"する→します, 来る→きます","level":"N5"}
+    ],
+    "commonErrors": [
+      {"error":"Dịch です thành \"là\" mọi chỗ","correction":"です là động từ kết quả lịch sự, không phải từ \"là\" trong mọi ngữ cảnh","level":"N5"},
+      {"error":"Đọc へ thành \"he\"","correction":"Trợ từ へ đọc \"e\"","level":"N5"},
+      {"error":"Dùng も như chủ đề bất kỳ","correction":"も thay cho は khi cùng thuộc tính đã nêu","level":"N5"}
+    ]
+  },
+  "heldOutSample": [
+    {"q":"四時は？","a":"よじ","category":"đọc giờ","level":"N5"},
+    {"q":"八百円読み方","a":"はっぴゃくえん","category":"đọc số","level":"N5"},
+    {"q":"₊₊","a":"ひとり","category":"đọc số người","level":"N5"}
+  ],
+  "g11Threshold": "AI phản hồi đúng grounding ≥3 lần trên held-out (nếu Ollama có sẵn); fallback rule-based luôn khả dụng",
+  "g11Status": "infrastructure-ready"
+}

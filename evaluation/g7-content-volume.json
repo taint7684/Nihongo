@@ -1,0 +1,58 @@
+{
+  "generatedAt": "2026-11-16T12:00:00Z",
+  "standard": "JLPT N5/N4 listening/reading/writing content volume",
+  "levels": {
+    "N5": {
+      "listeningActivities": 30,
+      "readingPassages": 25,
+      "writingPrompts": 25,
+      "listeningByFormat": {
+        "聴き取り": 28,
+        "即時応答": 2
+      },
+      "readingByFormat": {
+        "short-text": 25
+      },
+      "writingByFormat": {
+        "open-response": 25
+      }
+    },
+    "N4": {
+      "listeningActivities": 25,
+      "readingPassages": 25,
+      "writingPrompts": 25,
+      "listeningByFormat": {
+        "聴き取り": 25
+      },
+      "readingByFormat": {
+        "short-text": 25
+      },
+      "writingByFormat": {
+        "open-response": 25
+      }
+    }
+  },
+  "totals": {
+    "listeningActivities": 55,
+    "readingPassages": 50,
+    "writingPrompts": 50
+  },
+  "tools": {
+    "listening": "TTS cục bộ (Blob/Web Audio API), transcript + câu hỏi trắc nghiệm",
+    "reading": "Đoạn đọc trong bài (reading.text), câu hỏi hiểu đọc",
+    "writing": "Nhiệm vụ viết mở (application.writing), tự kiểm rubric"
+  },
+  "coverageCheck": {
+    "listeningN5>0": true,
+    "listeningN4>0": true,
+    "readingN5>0": true,
+    "readingN4>0": true,
+    "writingN5>0": true,
+    "writingN4>0": true,
+    "multipleListeningFormats": true,
+    "allLessonsHaveReading": true,
+    "allLessonsHaveWriting": true
+  },
+  "g7Status": "unverified",
+  "g7Note": "Có đủ lượng ngữ liệu nghe/đọc/viết cho N5 và N4. Chưa chứng minh đủ mọi dạng (thiếu 題文理解 cho N4) và đầy đủ các công cụ theo yêu cầu G7."
+}

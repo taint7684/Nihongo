@@ -1,0 +1,5487 @@
+{
+  "prerequisiteSourceCheck": {
+    "date": "2026-11-12",
+    "reviewer": "Authoring assistant source comparison; not independent academic approval",
+    "sample": [
+      {
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/001.html",
+        "scope": "Noun predicates and their negative; repaired unit 1 uses these elementary frames."
+      },
+      {
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/006.html",
+        "scope": "Existence is a distinct construction; removed from unit 2 instead of treating it as vocabulary support."
+      },
+      {
+        "source": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/010.html",
+        "scope": "NA + na + noun; unit 8 contrast retained after source comparison."
+      }
+    ],
+    "limits": "Only these source samples were freshly checked; all other rows have authoring prerequisite review, not a fresh independent source review."
+  },
+  "generatedAt": "2026-11-16T13:08:30.261Z",
+  "status": "code-checks-pass-semantic-review-pending",
+  "scope": "25 original working assessment units: base word/passage/grammar/order questions, 18 contextual lexical supplements in units 1–5, 25 contextual lexical assessments in units 11–15, 25 contextual lexical assessments in units 16–20, 25 contextual lexical assessments in units 21–25, and 16 linked word-reading items for selected Kanji in units 1–9 and 14. Count is not a full-level sufficiency criterion. It also includes 21 constrained typed grammar-response questions in units 01, 02, 03, 04, 05, 06, 08, each linked to one named grammar ID; only listed response variants are accepted.",
+  "authorship": "Project-authored with AI assistance; not independently academically reviewed. Targeted Edge QA verifies interaction only, not academic content.",
+  "provenance": [
+    {
+      "name": "TUFS grammar module · reference for project-authored contrasts; not copied assessment text",
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/steplist.html"
+    },
+    {
+      "name": "Minna I second edition · order/scope only; original assessment material",
+      "url": "https://www.3anet.co.jp/np/books/2300/"
+    }
+  ],
+  "checks": [
+    {
+      "id": "25-reference-lessons",
+      "status": "pass",
+      "evidence": [
+        "mnn-01",
+        "mnn-02",
+        "mnn-03",
+        "mnn-04",
+        "mnn-05",
+        "mnn-06",
+        "mnn-07",
+        "mnn-08",
+        "mnn-09",
+        "mnn-10",
+        "mnn-11",
+        "mnn-12",
+        "mnn-13",
+        "mnn-14",
+        "mnn-15",
+        "mnn-16",
+        "mnn-17",
+        "mnn-18",
+        "mnn-19",
+        "mnn-20",
+        "mnn-21",
+        "mnn-22",
+        "mnn-23",
+        "mnn-24",
+        "mnn-25"
+      ]
+    },
+    {
+      "id": "all-question-ids-unique",
+      "status": "pass",
+      "evidence": {
+        "total": 2709,
+        "unique": 2709
+      }
+    },
+    {
+      "id": "all-open",
+      "status": "pass",
+      "evidence": {
+        "method": "available(fresh(),lesson), no prerequisite completion"
+      }
+    },
+    {
+      "id": "no-exact-duplicate-teaching-JP",
+      "status": "pass",
+      "evidence": {
+        "duplicates": [],
+        "method": "NFKC, remove punctuation/space; compare full prompts and Japanese sentences including accepted order answers, against teaching corpus; shared target words excluded"
+      }
+    },
+    {
+      "id": "prerequisite-guards-and-rendered-glossaries",
+      "status": "pass",
+      "evidence": {
+        "method": "Declared lesson dependency matrix + focused surface guards + authoring review of all 25 rows; not an exhaustive parser or independent semantic approval",
+        "items": [
+          {
+            "lesson": "n5-assessment-r1-01",
+            "referenceLesson": 1,
+            "grammarDependencyLessons": [
+              1
+            ],
+            "supportGlossary": [],
+            "violations": [],
+            "glossaryDoesNotRevealTarget": true,
+            "dependencyOrderValid": true,
+            "manualReview": {
+              "status": "authoring-assistant-review; not independent approval",
+              "scope": "All 25 passages, questions, distractors and order answers reviewed for lesson-order prerequisites. New supporting vocabulary is glossed with kana+Vietnamese in rendered notes; no new grammar licensed by glossary.",
+              "limits": "Focused regex guards and declared dependency matrix are not a complete Japanese parser; independent content review is still pending."
+            }
+          },
+          {
+            "lesson": "n5-assessment-r1-02",
+            "referenceLesson": 2,
+            "grammarDependencyLessons": [
+              1,
+              2
+            ],
+            "supportGlossary": [],
+            "violations": [],
+            "glossaryDoesNotRevealTarget": true,
+            "dependencyOrderValid": true,
+            "manualReview": {
+              "status": "authoring-assistant-review; not independent approval",
+              "scope": "All 25 passages, questions, distractors and order answers reviewed for lesson-order prerequisites. New supporting vocabulary is glossed with kana+Vietnamese in rendered notes; no new grammar licensed by glossary.",
+              "limits": "Focused regex guards and declared dependency matrix are not a complete Japanese parser; independent content review is still pending."
+            }
+          },
+          {
+            "lesson": "n5-assessment-r1-03",
+            "referenceLesson": 3,
+            "grammarDependencyLessons": [
+              1,
+              2,
+              3
+            ],
+            "supportGlossary": [
+              {
+                "text": "学校",
+                "kana": "がっこう",
+                "vi": "trường học"
+              },
+              {
+                "text": "図書館",
+                "kana": "としょかん",
+                "vi": "thư viện"
+              },
+              {
+                "text": "三階",
+                "kana": "さんがい",
+                "vi": "tầng ba"
+              }
+            ],
+            "violations": [],
+            "glossaryDoesNotRevealTarget": true,
+            "dependencyOrderValid": true,
+            "manualReview": {
+              "status": "authoring-assistant-review; not independent approval",
+              "scope": "All 25 passages, questions, distractors and order answers reviewed for lesson-order prerequisites. New supporting vocabulary is glossed with kana+Vietnamese in rendered notes; no new grammar licensed by glossary.",
+              "limits": "Focused regex guards and declared dependency matrix are not a complete Japanese parser; independent content review is still pending."
+            }
+          },
+          {
+            "lesson": "n5-assessment-r1-04",
+            "referenceLesson": 4,
+            "grammarDependencyLessons": [
+              1,
+              3,
+              4
+            ],
+            "supportGlossary": [
+              {
+                "text": "店",
+                "kana": "みせ",
+                "vi": "cửa hàng"
+              }
+            ],
+            "violations": [],
+            "glossaryDoesNotRevealTarget": true,
+            "dependencyOrderValid": true,
+            "manualReview": {
+              "status": "authoring-assistant-review; not independent approval",
+              "scope": "All 25 passages, questions, distractors and order answers reviewed for lesson-order prerequisites. New supporting vocabulary is glossed with kana+Vietnamese in rendered notes; no new grammar licensed by glossary.",
+              "limits": "Focused regex guards and declared dependency matrix are not a complete Japanese parser; independent content review is still pending."
+            }
+          },
+          {
+            "lesson": "n5-assessment-r1-05",
+            "referenceLesson": 5,
+            "grammarDependencyLessons": [
+              1,
+              3,
+              4,
+              5
+            ],
+            "supportGlossary": [
+              {
+                "text": "海",
+                "kana": "うみ",
+                "vi": "biển"
+              },
+              {
+                "text": "家",
+                "kana": "いえ",
+                "vi": "nhà"
+              }
+            ],
+            "violations": [],
+            "glossaryDoesNotRevealTarget": true,
+            "dependencyOrderValid": true,
+            "manualReview": {
+              "status": "authoring-assistant-review; not independent approval",
+              "scope": "All 25 passages, questions, distractors and order answers reviewed for lesson-order prerequisites. New supporting vocabulary is glossed with kana+Vietnamese in rendered notes; no new grammar licensed by glossary.",
+              "limits": "Focused regex guards and declared dependency matrix are not a complete Japanese parser; independent content review is still pending."
+            }
+          },
+          {
+            "lesson": "n5-assessment-r1-06",
+            "referenceLesson": 6,
+            "grammarDependencyLessons": [
+              1,
+              4,
+              5,
+              6
+            ],
+            "supportGlossary": [
+              {
+                "text": "クラブ",
+                "kana": "クラブ",
+                "vi": "câu lạc bộ"
+              },
+              {
+                "text": "時間",
+                "kana": "じかん",
+                "vi": "thời gian; 休みの時間: giờ nghỉ"
+              }
+            ],
+            "violations": [],
+            "glossaryDoesNotRevealTarget": true,
+            "dependencyOrderValid": true,
+            "manualReview": {
+              "status": "authoring-assistant-review; not independent approval",
+              "scope": "All 25 passages, questions, distractors and order answers reviewed for lesson-order prerequisites. New supporting vocabulary is glossed with kana+Vietnamese in rendered notes; no new grammar licensed by glossary.",
+              "limits": "Focused regex guards and declared dependency matrix are not a complete Japanese parser; independent content review is still pending."
+            }
+          },
+          {
+            "lesson": "n5-assessment-r1-07",
+            "referenceLesson": 7,
+            "grammarDependencyLessons": [
+              1,
+              2,
+              4,
+              5,
+              7
+            ],
+            "supportGlossary": [
+              {
+                "text": "弟",
+                "kana": "おとうと",
+                "vi": "em trai của mình"
+              },
+              {
+                "text": "父",
+                "kana": "ちち",
+                "vi": "cha của mình"
+              }
+            ],
+            "violations": [],
+            "glossaryDoesNotRevealTarget": true,
+            "dependencyOrderValid": true,
+            "manualReview": {
+              "status": "authoring-assistant-review; not independent approval",
+              "scope": "All 25 passages, questions, distractors and order answers reviewed for lesson-order prerequisites. New supporting vocabulary is glossed with kana+Vietnamese in rendered notes; no new grammar licensed by glossary.",
+              "limits": "Focused regex guards and declared dependency matrix are not a complete Japanese parser; independent content review is still pending."
+            }
+          },
+          {
+            "lesson": "n5-assessment-r1-08",
+            "referenceLesson": 8,
+            "grammarDependencyLessons": [
+              1,
+              2,
+              8
+            ],
+            "supportGlossary": [],
+            "violations": [],
+            "glossaryDoesNotRevealTarget": true,
+            "dependencyOrderValid": true,
+            "manualReview": {
+              "status": "authoring-assistant-review; not independent approval",
+              "scope": "All 25 passages, questions, distractors and order answers reviewed for lesson-order prerequisites. New supporting vocabulary is glossed with kana+Vietnamese in rendered notes; no new grammar licensed by glossary.",
+              "limits": "Focused regex guards and declared dependency matrix are not a complete Japanese parser; independent content review is still pending."
+            }
+          },
+          {
+            "lesson": "n5-assessment-r1-09",
+            "referenceLesson": 9,
+            "grammarDependencyLessons": [
+              1,
+              4,
+              5,
+              6,
+              8,
+              9
+            ],
+            "supportGlossary": [
+              {
+                "text": "コンサート",
+                "kana": "コンサート",
+                "vi": "buổi hòa nhạc"
+              }
+            ],
+            "violations": [],
+            "glossaryDoesNotRevealTarget": true,
+            "dependencyOrderValid": true,
+            "manualReview": {
+              "status": "authoring-assistant-review; not independent approval",
+              "scope": "All 25 passages, questions, distractors and order answers reviewed for lesson-order prerequisites. New supporting vocabulary is glossed with kana+Vietnamese in rendered notes; no new grammar licensed by glossary.",
+              "limits": "Focused regex guards and declared dependency matrix are not a complete Japanese parser; independent content review is still pending."
+            }
+          },
+          {
+            "lesson": "n5-assessment-r1-10",
+            "referenceLesson": 10,
+            "grammarDependencyLessons": [
+              1,
+              2,
+              8,
+              10
+            ],
+            "supportGlossary": [],
+            "violations": [],
+            "glossaryDoesNotRevealTarget": true,
+            "dependencyOrderValid": true,
+            "manualReview": {
+              "status": "authoring-assistant-review; not independent approval",
+              "scope": "All 25 passages, questions, distractors and order answers reviewed for lesson-order prerequisites. New supporting vocabulary is glossed with kana+Vietnamese in rendered notes; no new grammar licensed by glossary.",
+              "limits": "Focused regex guards and declared dependency matrix are not a complete Japanese parser; independent content review is still pending."
+            }
+          },
+          {
+            "lesson": "n5-assessment-r1-11",
+            "referenceLesson": 11,
+            "grammarDependencyLessons": [
+              1,
+              4,
+              6,
+              7,
+              11
+            ],
+            "supportGlossary": [
+              {
+                "text": "旅行",
+                "kana": "りょこう",
+                "vi": "chuyến du lịch"
+              }
+            ],
+            "violations": [],
+            "glossaryDoesNotRevealTarget": true,
+            "dependencyOrderValid": true,
+            "manualReview": {
+              "status": "authoring-assistant-review; not independent approval",
+              "scope": "All 25 passages, questions, distractors and order answers reviewed for lesson-order prerequisites. New supporting vocabulary is glossed with kana+Vietnamese in rendered notes; no new grammar licensed by glossary.",
+              "limits": "Focused regex guards and declared dependency matrix are not a complete Japanese parser; independent content review is still pending."
+            }
+          },
+          {
+            "lesson": "n5-assessment-r1-12",
+            "referenceLesson": 12,
+            "grammarDependencyLessons": [
+              1,
+              4,
+              8,
+              11,
+              12
+            ],
+            "supportGlossary": [],
+            "violations": [],
+            "glossaryDoesNotRevealTarget": true,
+            "dependencyOrderValid": true,
+            "manualReview": {
+              "status": "authoring-assistant-review; not independent approval",
+              "scope": "All 25 passages, questions, distractors and order answers reviewed for lesson-order prerequisites. New supporting vocabulary is glossed with kana+Vietnamese in rendered notes; no new grammar licensed by glossary.",
+              "limits": "Focused regex guards and declared dependency matrix are not a complete Japanese parser; independent content review is still pending."
+            }
+          },
+          {
+            "lesson": "n5-assessment-r1-13",
+            "referenceLesson": 13,
+            "grammarDependencyLessons": [
+              1,
+              4,
+              5,
+              6,
+              8,
+              9,
+              13
+            ],
+            "supportGlossary": [],
+            "violations": [],
+            "glossaryDoesNotRevealTarget": true,
+            "dependencyOrderValid": true,
+            "manualReview": {
+              "status": "authoring-assistant-review; not independent approval",
+              "scope": "All 25 passages, questions, distractors and order answers reviewed for lesson-order prerequisites. New supporting vocabulary is glossed with kana+Vietnamese in rendered notes; no new grammar licensed by glossary.",
+              "limits": "Focused regex guards and declared dependency matrix are not a complete Japanese parser; independent content review is still pending."
+            }
+          },
+          {
+            "lesson": "n5-assessment-r1-14",
+            "referenceLesson": 14,
+            "grammarDependencyLessons": [
+              1,
+              3,
+              4,
+              6,
+              11,
+              14
+            ],
+            "supportGlossary": [
+              {
+                "text": "資料",
+                "kana": "しりょう",
+                "vi": "tài liệu"
+              },
+              {
+                "text": "あと",
+                "kana": "あと",
+                "vi": "còn/thêm; あと五分: còn/thêm năm phút"
+              }
+            ],
+            "violations": [],
+            "glossaryDoesNotRevealTarget": true,
+            "dependencyOrderValid": true,
+            "manualReview": {
+              "status": "authoring-assistant-review; not independent approval",
+              "scope": "All 25 passages, questions, distractors and order answers reviewed for lesson-order prerequisites. New supporting vocabulary is glossed with kana+Vietnamese in rendered notes; no new grammar licensed by glossary.",
+              "limits": "Focused regex guards and declared dependency matrix are not a complete Japanese parser; independent content review is still pending."
+            }
+          },
+          {
+            "lesson": "n5-assessment-r1-15",
+            "referenceLesson": 15,
+            "grammarDependencyLessons": [
+              1,
+              2,
+              6,
+              8,
+              14,
+              15
+            ],
+            "supportGlossary": [
+              {
+                "text": "入口",
+                "kana": "いりぐち",
+                "vi": "lối vào"
+              }
+            ],
+            "violations": [],
+            "glossaryDoesNotRevealTarget": true,
+            "dependencyOrderValid": true,
+            "manualReview": {
+              "status": "authoring-assistant-review; not independent approval",
+              "scope": "All 25 passages, questions, distractors and order answers reviewed for lesson-order prerequisites. New supporting vocabulary is glossed with kana+Vietnamese in rendered notes; no new grammar licensed by glossary.",
+              "limits": "Focused regex guards and declared dependency matrix are not a complete Japanese parser; independent content review is still pending."
+            }
+          },
+          {
+            "lesson": "n5-assessment-r1-16",
+            "referenceLesson": 16,
+            "grammarDependencyLessons": [
+              1,
+              4,
+              5,
+              6,
+              10,
+              13,
+              14,
+              16
+            ],
+            "supportGlossary": [],
+            "violations": [],
+            "glossaryDoesNotRevealTarget": true,
+            "dependencyOrderValid": true,
+            "manualReview": {
+              "status": "authoring-assistant-review; not independent approval",
+              "scope": "All 25 passages, questions, distractors and order answers reviewed for lesson-order prerequisites. New supporting vocabulary is glossed with kana+Vietnamese in rendered notes; no new grammar licensed by glossary.",
+              "limits": "Focused regex guards and declared dependency matrix are not a complete Japanese parser; independent content review is still pending."
+            }
+          },
+          {
+            "lesson": "n5-assessment-r1-17",
+            "referenceLesson": 17,
+            "grammarDependencyLessons": [
+              1,
+              2,
+              4,
+              6,
+              10,
+              14,
+              17
+            ],
+            "supportGlossary": [],
+            "violations": [],
+            "glossaryDoesNotRevealTarget": true,
+            "dependencyOrderValid": true,
+            "manualReview": {
+              "status": "authoring-assistant-review; not independent approval",
+              "scope": "All 25 passages, questions, distractors and order answers reviewed for lesson-order prerequisites. New supporting vocabulary is glossed with kana+Vietnamese in rendered notes; no new grammar licensed by glossary.",
+              "limits": "Focused regex guards and declared dependency matrix are not a complete Japanese parser; independent content review is still pending."
+            }
+          },
+          {
+            "lesson": "n5-assessment-r1-18",
+            "referenceLesson": 18,
+            "grammarDependencyLessons": [
+              1,
+              4,
+              6,
+              9,
+              13,
+              18
+            ],
+            "supportGlossary": [
+              {
+                "text": "ホテル",
+                "kana": "ホテル",
+                "vi": "khách sạn"
+              }
+            ],
+            "violations": [],
+            "glossaryDoesNotRevealTarget": true,
+            "dependencyOrderValid": true,
+            "manualReview": {
+              "status": "authoring-assistant-review; not independent approval",
+              "scope": "All 25 passages, questions, distractors and order answers reviewed for lesson-order prerequisites. New supporting vocabulary is glossed with kana+Vietnamese in rendered notes; no new grammar licensed by glossary.",
+              "limits": "Focused regex guards and declared dependency matrix are not a complete Japanese parser; independent content review is still pending."
+            }
+          },
+          {
+            "lesson": "n5-assessment-r1-19",
+            "referenceLesson": 19,
+            "grammarDependencyLessons": [
+              1,
+              4,
+              5,
+              8,
+              12,
+              19
+            ],
+            "supportGlossary": [
+              {
+                "text": "初めて",
+                "kana": "はじめて",
+                "vi": "lần đầu"
+              },
+              {
+                "text": "今年",
+                "kana": "ことし",
+                "vi": "năm nay"
+              }
+            ],
+            "violations": [],
+            "glossaryDoesNotRevealTarget": true,
+            "dependencyOrderValid": true,
+            "manualReview": {
+              "status": "authoring-assistant-review; not independent approval",
+              "scope": "All 25 passages, questions, distractors and order answers reviewed for lesson-order prerequisites. New supporting vocabulary is glossed with kana+Vietnamese in rendered notes; no new grammar licensed by glossary.",
+              "limits": "Focused regex guards and declared dependency matrix are not a complete Japanese parser; independent content review is still pending."
+            }
+          },
+          {
+            "lesson": "n5-assessment-r1-20",
+            "referenceLesson": 20,
+            "grammarDependencyLessons": [
+              1,
+              4,
+              5,
+              8,
+              13,
+              20
+            ],
+            "supportGlossary": [
+              {
+                "text": "今夜",
+                "kana": "こんや",
+                "vi": "tối nay"
+              }
+            ],
+            "violations": [],
+            "glossaryDoesNotRevealTarget": true,
+            "dependencyOrderValid": true,
+            "manualReview": {
+              "status": "authoring-assistant-review; not independent approval",
+              "scope": "All 25 passages, questions, distractors and order answers reviewed for lesson-order prerequisites. New supporting vocabulary is glossed with kana+Vietnamese in rendered notes; no new grammar licensed by glossary.",
+              "limits": "Focused regex guards and declared dependency matrix are not a complete Japanese parser; independent content review is still pending."
+            }
+          },
+          {
+            "lesson": "n5-assessment-r1-21",
+            "referenceLesson": 21,
+            "grammarDependencyLessons": [
+              1,
+              4,
+              8,
+              9,
+              20,
+              21
+            ],
+            "supportGlossary": [
+              {
+                "text": "空",
+                "kana": "そら",
+                "vi": "bầu trời"
+              }
+            ],
+            "violations": [],
+            "glossaryDoesNotRevealTarget": true,
+            "dependencyOrderValid": true,
+            "manualReview": {
+              "status": "authoring-assistant-review; not independent approval",
+              "scope": "All 25 passages, questions, distractors and order answers reviewed for lesson-order prerequisites. New supporting vocabulary is glossed with kana+Vietnamese in rendered notes; no new grammar licensed by glossary.",
+              "limits": "Focused regex guards and declared dependency matrix are not a complete Japanese parser; independent content review is still pending."
+            }
+          },
+          {
+            "lesson": "n5-assessment-r1-22",
+            "referenceLesson": 22,
+            "grammarDependencyLessons": [
+              1,
+              4,
+              5,
+              8,
+              10,
+              14,
+              15,
+              22
+            ],
+            "supportGlossary": [],
+            "violations": [],
+            "glossaryDoesNotRevealTarget": true,
+            "dependencyOrderValid": true,
+            "manualReview": {
+              "status": "authoring-assistant-review; not independent approval",
+              "scope": "All 25 passages, questions, distractors and order answers reviewed for lesson-order prerequisites. New supporting vocabulary is glossed with kana+Vietnamese in rendered notes; no new grammar licensed by glossary.",
+              "limits": "Focused regex guards and declared dependency matrix are not a complete Japanese parser; independent content review is still pending."
+            }
+          },
+          {
+            "lesson": "n5-assessment-r1-23",
+            "referenceLesson": 23,
+            "grammarDependencyLessons": [
+              1,
+              3,
+              8,
+              10,
+              14,
+              22,
+              23
+            ],
+            "supportGlossary": [],
+            "violations": [],
+            "glossaryDoesNotRevealTarget": true,
+            "dependencyOrderValid": true,
+            "manualReview": {
+              "status": "authoring-assistant-review; not independent approval",
+              "scope": "All 25 passages, questions, distractors and order answers reviewed for lesson-order prerequisites. New supporting vocabulary is glossed with kana+Vietnamese in rendered notes; no new grammar licensed by glossary.",
+              "limits": "Focused regex guards and declared dependency matrix are not a complete Japanese parser; independent content review is still pending."
+            }
+          },
+          {
+            "lesson": "n5-assessment-r1-24",
+            "referenceLesson": 24,
+            "grammarDependencyLessons": [
+              1,
+              4,
+              6,
+              7,
+              9,
+              11,
+              14,
+              24
+            ],
+            "supportGlossary": [
+              {
+                "text": "使い方",
+                "kana": "つかいかた",
+                "vi": "cách dùng (học như cụm hỗ trợ, không kiểm cách tạo danh từ 方)"
+              },
+              {
+                "text": "作って",
+                "kana": "つくって",
+                "vi": "làm/nấu; dạng て của 作ります（つくります）"
+              }
+            ],
+            "violations": [],
+            "glossaryDoesNotRevealTarget": true,
+            "dependencyOrderValid": true,
+            "manualReview": {
+              "status": "authoring-assistant-review; not independent approval",
+              "scope": "All 25 passages, questions, distractors and order answers reviewed for lesson-order prerequisites. New supporting vocabulary is glossed with kana+Vietnamese in rendered notes; no new grammar licensed by glossary.",
+              "limits": "Focused regex guards and declared dependency matrix are not a complete Japanese parser; independent content review is still pending."
+            }
+          },
+          {
+            "lesson": "n5-assessment-r1-25",
+            "referenceLesson": 25,
+            "grammarDependencyLessons": [
+              1,
+              4,
+              6,
+              8,
+              16,
+              19,
+              25
+            ],
+            "supportGlossary": [],
+            "violations": [],
+            "glossaryDoesNotRevealTarget": true,
+            "dependencyOrderValid": true,
+            "manualReview": {
+              "status": "authoring-assistant-review; not independent approval",
+              "scope": "All 25 passages, questions, distractors and order answers reviewed for lesson-order prerequisites. New supporting vocabulary is glossed with kana+Vietnamese in rendered notes; no new grammar licensed by glossary.",
+              "limits": "Focused regex guards and declared dependency matrix are not a complete Japanese parser; independent content review is still pending."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "explicit-word-grammar-links-and-answer-schema",
+      "status": "pass",
+      "evidence": {
+        "invalid": []
+      }
+    },
+    {
+      "id": "correct-and-incorrect-scheduling-through-backup",
+      "status": "pass",
+      "evidence": {
+        "method": "recordAnswer on isolated fresh state ? JSON roundtrip ? validate; completed stays empty",
+        "items": [
+          {
+            "id": "n5-assessment-r1-01-word",
+            "key": "学生",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-01:学生",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-01-context-company-role",
+            "key": "会社員",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-01:会社員",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-01-context-doctor-role",
+            "key": "医者",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-01:医者",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-01-context-research-role",
+            "key": "研究者",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-01:研究者",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-01-context-university-role",
+            "key": "大学",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-01:大学",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-01-context-high-school-role",
+            "key": "高校生",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-01:高校生",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-01-context-exchange-role",
+            "key": "留学生",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-01:留学生",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-01-context-a-person-from-vietnam",
+            "key": "ベトナム人",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-01:ベトナム人",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-01-context-a-person-from-japan",
+            "key": "日本人",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-01:日本人",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-01-context-a-company-as-workplace",
+            "key": "会社",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-01:会社",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-01-context-a-asking-age",
+            "key": "何歳",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-01:何歳",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-01-context-a-company-employee",
+            "key": "社員",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-01:社員",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-01-kanji-company-person",
+            "key": "会社員",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-01:会社員",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-01-kanji-student-person",
+            "key": "学生",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-01:学生",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-01-kanji-teacher-person",
+            "key": "先生",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-01:先生",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-01-kanji-person-name",
+            "key": "名前",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-01:名前",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-01-kanji-university-person",
+            "key": "大学",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-01:大学",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-02-word",
+            "key": "傘",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-02:傘",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-02-context-dictionary-owner",
+            "key": "辞書",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-02:辞書",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-02-context-magazine-not-book",
+            "key": "雑誌",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-02:雑誌",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-02-context-newspaper-owner",
+            "key": "新聞",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-02:新聞",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-02-context-card-owner",
+            "key": "名刺",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-02:名刺",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-02-context-pen-owner",
+            "key": "ボールペン",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-02:ボールペン",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-02-context-eraser-not-pencil",
+            "key": "消しゴム",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-02:消しゴム",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-02-context-a-whose-bag",
+            "key": "かばん",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-02:かばん",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-02-context-a-pencil-not-pen",
+            "key": "鉛筆",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-02:鉛筆",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-02-context-a-planner-notebook",
+            "key": "手帳",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-02:手帳",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-02-context-a-card-not-business-card",
+            "key": "カード",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-02:カード",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-02-context-a-watch-owner",
+            "key": "時計",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-02:時計",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-02-kanji-japanese-language",
+            "key": "日本語",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-02:日本語",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-02-kanji-book-owner",
+            "key": "本",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-02:本",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-03-word",
+            "key": "受付",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-03:受付",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-03-context-cafeteria-floor",
+            "key": "食堂",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-03:食堂",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-03-context-shoe-price",
+            "key": "いくら",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-03:いくら",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-03-context-a-toilet-floor",
+            "key": "トイレ",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-03:トイレ",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-03-context-a-yen-price",
+            "key": "円",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-03:円",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-03-context-a-station-direction",
+            "key": "駅",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-03:駅",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-03-context-a-country-of-linh",
+            "key": "国",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-03:国",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-03-context-a-whose-shoes",
+            "key": "靴",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-03:靴",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-03-context-b-classroom-location",
+            "key": "教室",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-03:教室",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-03-context-b-meeting-not-class",
+            "key": "会議室",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-03:会議室",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-03-context-b-stairs-direction",
+            "key": "階段",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-03:階段",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-03-context-b-sales-section",
+            "key": "売り場",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-03:売り場",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-03-context-b-post-office-not-bank",
+            "key": "郵便局",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-03:郵便局",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-03-context-b-bank-floor",
+            "key": "銀行",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-03:銀行",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-03-kanji-hundred-yen",
+            "key": "百",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-03:百",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-04-word",
+            "key": "休みます",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-04:休みます",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-04-context-morning-opening-time",
+            "key": "午前",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-04:午前",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-04-context-weekday-routine",
+            "key": "毎日",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-04:毎日",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-04-context-a-today-date",
+            "key": "今日",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-04:今日",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-04-context-a-tomorrow-date",
+            "key": "明日",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-04:明日",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-04-context-a-library-floor",
+            "key": "図書館",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-04:図書館",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-04-context-a-every-morning-routine",
+            "key": "毎朝",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-04:毎朝",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-04-context-a-last-week-study",
+            "key": "先週",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-04:先週",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-04-context-b-wake-action",
+            "key": "起きます",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-04:起きます",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-04-context-b-sleep-at-night",
+            "key": "寝ます",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-04:寝ます",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-04-context-b-work-and-negative",
+            "key": "働きます",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-04:働きます",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-04-context-b-yesterday-versus-today",
+            "key": "昨日",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-04:昨日",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-04-context-b-night-frequency",
+            "key": "毎晩",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-04:毎晩",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-04-context-b-next-week-saturday",
+            "key": "来週",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-04:来週",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-04-kanji-four-oclock",
+            "key": "四時",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-04:四時",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-05-word",
+            "key": "電車",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-05:電車",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-05-context-friend-comes",
+            "key": "来ます",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-05:来ます",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-05-context-subway-to-school",
+            "key": "地下鉄",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-05:地下鉄",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-05-context-a-school-destination",
+            "key": "学校",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-05:学校",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-05-context-a-birthday-owner",
+            "key": "誕生日",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-05:誕生日",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-05-context-a-asking-which-month",
+            "key": "何月",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-05:何月",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-05-context-a-taxi-transport",
+            "key": "タクシー",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-05:タクシー",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-05-context-a-last-month-trip",
+            "key": "先月",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-05:先月",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-05-context-b-bicycle-leg",
+            "key": "自転車",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-05:自転車",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-05-context-b-flight-then-train",
+            "key": "飛行機",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-05:飛行機",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-05-context-b-ship-traveler",
+            "key": "船",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-05:船",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-05-context-b-return-not-outbound",
+            "key": "帰ります",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-05:帰ります",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-05-context-b-alone-day",
+            "key": "一人で",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-05:一人で",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-05-context-b-friend-companion",
+            "key": "友達",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-05:友達",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-05-kanji-go-to-station",
+            "key": "行きます",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-05:行きます",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-06-word",
+            "key": "飲みます",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-06:飲みます",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-06-context-d-study-at-library",
+            "key": "勉強します",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-06:勉強します",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-06-context-d-lunch-choice",
+            "key": "昼ご飯",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-06:昼ご飯",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-06-context-d-watch-tv",
+            "key": "テレビ",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-06:テレビ",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-06-context-d-park-activity",
+            "key": "公園",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-06:公園",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-06-context-d-movie-not-tennis",
+            "key": "映画",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-06:映画",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-06-context-c-read-versus-watch",
+            "key": "読みます",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-06:読みます",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-06-context-c-purchase-before-meal",
+            "key": "買います",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-06:買います",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-06-context-c-meet-before-dinner",
+            "key": "会います",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-06:会います",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-06-context-c-listen-not-read",
+            "key": "聞きます",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-06:聞きます",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-06-context-c-invitation-together",
+            "key": "一緒に",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-06:一緒に",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-06-kanji-eat-bread",
+            "key": "食べます",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-06:食べます",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-07-word",
+            "key": "もらいます",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-07:もらいます",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-07-context-d-pen-owner",
+            "key": "ペン",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-07:ペン",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-07-context-d-gift-from-friend",
+            "key": "プレゼント",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-07:プレゼント",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-07-context-d-already-eaten",
+            "key": "もう",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-07:もう",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-07-context-d-chopsticks-tool",
+            "key": "箸",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-07:箸",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-07-context-d-spoon-not-chopsticks",
+            "key": "スプーン",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-07:スプーン",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-07-context-c-lend-not-borrow",
+            "key": "貸します",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-07:貸します",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-07-context-c-borrow-from-teacher",
+            "key": "借ります",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-07:借ります",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-07-context-c-gift-not-letter",
+            "key": "あげます",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-07:あげます",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-07-context-c-learn-under-teacher",
+            "key": "習います",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-07:習います",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-07-context-c-scissors-tool",
+            "key": "はさみ",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-07:はさみ",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-07-kanji-write-letter",
+            "key": "手紙",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-07:手紙",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-07-kanji-write-name",
+            "key": "書きます",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-07:書きます",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-08-word",
+            "key": "静か",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-08:静か",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-08-context-d-old-house",
+            "key": "古い",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-08:古い",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-08-context-d-small-room",
+            "key": "小さい",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-08:小さい",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-08-context-d-room-location",
+            "key": "部屋",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-08:部屋",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-08-context-d-famous-town",
+            "key": "有名",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-08:有名",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-08-context-d-tasty-fish",
+            "key": "おいしい",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-08:おいしい",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-08-context-c-large-cafeteria",
+            "key": "大きい",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-08:大きい",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-08-context-c-kind-teacher",
+            "key": "親切",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-08:親切",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-08-context-c-difficult-book",
+            "key": "難しい",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-08:難しい",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-08-context-c-cold-milk",
+            "key": "冷たい",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-08:冷たい",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-08-context-c-heavy-small-bag",
+            "key": "重い",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-08:重い",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-08-kanji-new-bag",
+            "key": "新しい",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-08:新しい",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-09-word",
+            "key": "音楽",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-09:音楽",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-09-context-d-cooking-skill",
+            "key": "料理",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-09:料理",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-09-context-d-understand-a-little",
+            "key": "少し",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-09:少し",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-09-context-d-asking-reason",
+            "key": "どうして",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-09:どうして",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-09-context-d-money-not-enough",
+            "key": "お金",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-09:お金",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-09-context-d-sports-interest",
+            "key": "スポーツ",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-09:スポーツ",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-09-context-c-dislike-fish",
+            "key": "嫌い",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-09:嫌い",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-09-context-c-like-but-unskilled",
+            "key": "下手",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-09:下手",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-09-context-c-understand-scripts",
+            "key": "わかります",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-09:わかります",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-09-context-c-not-at-all-in-this-book",
+            "key": "全然",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-09:全然",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-09-context-c-available-time",
+            "key": "時間",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-09:時間",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-09-kanji-like-books",
+            "key": "好き",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-09:好き",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-10-word",
+            "key": "猫",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-10:猫",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-10-context-d-book-on-desk",
+            "key": "机",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-10:机",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-10-context-d-chair-location",
+            "key": "いす",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-10:いす",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-10-context-d-dog-location",
+            "key": "犬",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-10:犬",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-10-context-d-in-front-of",
+            "key": "前",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-10:前",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-10-context-d-animal-exists",
+            "key": "います",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-10:います",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-10-context-c-upper-surface",
+            "key": "上",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-10:上",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-10-context-c-under-desk-dog",
+            "key": "下",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-10:下",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-10-context-c-inside-letter",
+            "key": "中",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-10:中",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-10-context-c-adjacent-bank",
+            "key": "隣",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-10:隣",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-10-context-c-between-two-places",
+            "key": "間",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-10:間",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-11-word",
+            "key": "はがき",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-11:はがき",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-11-context-d-fruit-quantity",
+            "key": "りんご",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-11:りんご",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-11-context-d-stamp-on-envelope",
+            "key": "切手",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-11:切手",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-11-context-d-one-week-period",
+            "key": "一週間",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-11:一週間",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-11-context-d-counting-people",
+            "key": "何人",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-11:何人",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-11-context-d-counter-for-machines",
+            "key": "台",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-11:台",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-12-word",
+            "key": "安い",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-12:安い",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-12-context-d-hot-weather",
+            "key": "暑い",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-12:暑い",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-12-context-d-far-from-station",
+            "key": "遠い",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-12:遠い",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-12-context-d-snow-in-winter",
+            "key": "雪",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-12:雪",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-12-context-d-cool-after-rain",
+            "key": "涼しい",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-12:涼しい",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-12-context-d-early-departure",
+            "key": "早い",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-12:早い",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-13-word",
+            "key": "散歩",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-13:散歩",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-13-context-d-want-a-dictionary",
+            "key": "欲しい",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-13:欲しい",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-13-context-d-shopping-activity",
+            "key": "買い物",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-13:買い物",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-13-context-d-swim-at-pool",
+            "key": "泳ぎます",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-13:泳ぎます",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-13-context-d-weekend-days",
+            "key": "週末",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-13:週末",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-13-context-d-leave-home",
+            "key": "出ます",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-13:出ます",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-14-word",
+            "key": "待ちます",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-14:待ちます",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-14-context-d-help-with-moving",
+            "key": "手伝います",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-14:手伝います",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-14-context-d-call-at-reception",
+            "key": "呼びます",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-14:呼びます",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-14-context-d-open-window",
+            "key": "開けます",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-14:開けます",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-14-context-d-say-again",
+            "key": "もう一度",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-14:もう一度",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-14-context-d-copy-document",
+            "key": "コピーします",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-14:コピーします",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-14-kanji-teach-name",
+            "key": "教えます",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-14:教えます",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-15-word",
+            "key": "写真",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-15:写真",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-15-context-d-use-a-pen",
+            "key": "使います",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-15:使います",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-15-context-d-put-bag-down",
+            "key": "置きます",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-15:置きます",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-15-context-d-already-know-shop",
+            "key": "知っています",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-15:知っています",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-15-context-d-live-in-city",
+            "key": "住んでいます",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-15:住んでいます",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-15-context-d-work-at-hospital",
+            "key": "働いています",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-15:働いています",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-16-word",
+            "key": "乗ります",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-16:乗ります",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-16-context-e-morning-meal",
+            "key": "朝ご飯",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-16:朝ご飯",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-16-context-e-shower-routine",
+            "key": "シャワー",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-16:シャワー",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-16-context-e-get-off-train",
+            "key": "降ります",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-16:降ります",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-16-context-e-long-hair",
+            "key": "長い",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-16:長い",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-16-context-e-convenient-bus",
+            "key": "便利",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-16:便利",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-17-word",
+            "key": "返します",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-17:返します",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-17-context-e-forgot-homework",
+            "key": "忘れます",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-17:忘れます",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-17-context-e-lose-key",
+            "key": "なくします",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-17:なくします",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-17-context-e-pay-at-shop",
+            "key": "払います",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-17:払います",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-17-context-e-go-out-sunday",
+            "key": "出かけます",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-17:出かけます",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-17-context-e-important-photo",
+            "key": "大切",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-17:大切",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-18-word",
+            "key": "予約します",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-18:予約します",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-18-context-e-can-write-kana",
+            "key": "できます",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-18:できます",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-18-context-e-hobby-singing",
+            "key": "趣味",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-18:趣味",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-18-context-e-drive-a-car",
+            "key": "運転します",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-18:運転します",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-18-context-e-wash-hands",
+            "key": "洗います",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-18:洗います",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-18-context-e-sing-a-song",
+            "key": "歌います",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-18:歌います",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-19-word",
+            "key": "山",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-19:山",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-19-context-e-climb-the-mountain",
+            "key": "登ります",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-19:登ります",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-19-context-e-practice-every-day",
+            "key": "練習します",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-19:練習します",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-19-context-e-clean-the-room",
+            "key": "掃除します",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-19:掃除します",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-19-context-e-become-warm",
+            "key": "なります",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-19:なります",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-19-context-e-never-once",
+            "key": "一度も",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-19:一度も",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-20-word",
+            "key": "忙しい",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-20:忙しい",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-20-context-e-casual-yes",
+            "key": "うん",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-20:うん",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-20-context-e-casual-no",
+            "key": "ううん",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-20:ううん",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-20-context-e-free-on-saturday",
+            "key": "暇",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-20:暇",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-20-context-e-everyone-in-class",
+            "key": "みんな",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-20:みんな",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-20-context-e-ask-what-happened",
+            "key": "どうしたの",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-20:どうしたの",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-21-word",
+            "key": "思います",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-21:思います",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-21-context-f-rain-forecast",
+            "key": "雨が降ります",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-21:雨が降ります",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-21-context-f-probably-closed",
+            "key": "たぶん",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-21:たぶん",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-21-context-f-different-opinion",
+            "key": "意見",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-21:意見",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-21-context-f-agree-with-plan",
+            "key": "賛成",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-21:賛成",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-21-context-f-oppose-plan",
+            "key": "反対",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-21:反対",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-22-word",
+            "key": "眼鏡",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-22:眼鏡",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-22-context-f-wear-shirt",
+            "key": "着ます",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-22:着ます",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-22-context-f-shirt-type",
+            "key": "シャツ",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-22:シャツ",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-22-context-f-white-color",
+            "key": "白い",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-22:白い",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-22-context-f-black-color",
+            "key": "黒い",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-22:黒い",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-22-context-f-wear-glasses",
+            "key": "かけます",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-22:かけます",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-23-word",
+            "key": "右",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-23:右",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-23-context-f-turn-left",
+            "key": "左",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-23:左",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-23-context-f-turn-at-signal",
+            "key": "曲がります",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-23:曲がります",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-23-context-f-next-corner",
+            "key": "角",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-23:角",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-23-context-f-next-place",
+            "key": "次",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-23:次",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-23-context-f-cross-bridge",
+            "key": "渡ります",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-23:渡ります",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-24-word",
+            "key": "説明します",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-24:説明します",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-24-context-f-friend-gives-me-book",
+            "key": "くれます",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-24:くれます",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-24-context-f-guide-to-station",
+            "key": "案内します",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-24:案内します",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-24-context-f-introduce-sister",
+            "key": "紹介します",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-24:紹介します",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-24-context-f-take-child-to-park",
+            "key": "連れて行きます",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-24:連れて行きます",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-24-context-f-bring-friend-here",
+            "key": "連れて来ます",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-24:連れて来ます",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-25-word",
+            "key": "準備",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-25:準備",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-25-context-f-if-rest-day",
+            "key": "もし",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-25:もし",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-25-context-f-try-hard-for-test",
+            "key": "頑張ります",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-25:頑張ります",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-25-context-f-think-about-trip",
+            "key": "考えます",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-25:考えます",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-25-context-f-class-ends",
+            "key": "終わります",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-25:終わります",
+            "passed": true
+          },
+          {
+            "id": "n5-assessment-r1-25-context-f-move-house-next-month",
+            "key": "引っ越し",
+            "correctDue": 1700086400000,
+            "incorrectDue": 1700000300000,
+            "usageId": "mnn-25:引っ越し",
+            "passed": true
+          }
+        ]
+      }
+    }
+  ],
+  "semanticLimitations": [
+    "No independent semantic review yet; code does not certify naturalness or meaning.",
+    "No new audio/speaking/handwriting assessment; contextual word recognition is not unaided recall.",
+    "Contextual meaning choices and Kanji-reading choices are recorded as distinct evidence types; neither is unaided recall.",
+    "Multiple listed word orders are accepted, not every possible paraphrase.",
+    "Original 765-question baseline IDs are not rewritten by the bank; integration only appends lessons before question index."
+  ],
+  "counts": {
+    "units": 25,
+    "questions": 323,
+    "explicitWords": 224,
+    "grammarIds": 62,
+    "kanjiWithLinkedAssessment": 123,
+    "remainingWords": 586,
+    "remainingGrammar": 82,
+    "kanjiNotAssessed": 0,
+    "communicationNotAssessed": 56
+  },
+  "remaining": {
+    "words": [
+      {
+        "id": "word:私",
+        "text": "私"
+      },
+      {
+        "id": "word:あの人",
+        "text": "あの人"
+      },
+      {
+        "id": "word:お名前",
+        "text": "お名前"
+      },
+      {
+        "id": "word:はじめまして",
+        "text": "はじめまして"
+      },
+      {
+        "id": "word:よろしくお願いします",
+        "text": "よろしくお願いします"
+      },
+      {
+        "id": "word:はい",
+        "text": "はい"
+      },
+      {
+        "id": "word:いいえ",
+        "text": "いいえ"
+      },
+      {
+        "id": "word:二十歳",
+        "text": "二十歳"
+      },
+      {
+        "id": "word:誰",
+        "text": "誰"
+      },
+      {
+        "id": "word:さん",
+        "text": "さん"
+      },
+      {
+        "id": "word:何",
+        "text": "何"
+      },
+      {
+        "id": "word:ベトナム",
+        "text": "ベトナム"
+      },
+      {
+        "id": "word:人",
+        "text": "人"
+      },
+      {
+        "id": "word:田中",
+        "text": "田中"
+      },
+      {
+        "id": "word:住所",
+        "text": "住所"
+      },
+      {
+        "id": "word:国籍",
+        "text": "国籍"
+      },
+      {
+        "id": "word:生年月日",
+        "text": "生年月日"
+      },
+      {
+        "id": "word:氏名",
+        "text": "氏名"
+      },
+      {
+        "id": "word:性別",
+        "text": "性別"
+      },
+      {
+        "id": "word:フリガナ",
+        "text": "フリガナ"
+      },
+      {
+        "id": "word:メール",
+        "text": "メール"
+      },
+      {
+        "id": "word:連絡先",
+        "text": "連絡先"
+      },
+      {
+        "id": "word:会話",
+        "text": "会話"
+      },
+      {
+        "id": "word:私たち",
+        "text": "私たち"
+      },
+      {
+        "id": "word:相手",
+        "text": "相手"
+      },
+      {
+        "id": "word:みなさん",
+        "text": "みなさん"
+      },
+      {
+        "id": "word:お父さん",
+        "text": "お父さん"
+      },
+      {
+        "id": "word:お母さん",
+        "text": "お母さん"
+      },
+      {
+        "id": "word:お兄さん",
+        "text": "お兄さん"
+      },
+      {
+        "id": "word:お姉さん",
+        "text": "お姉さん"
+      },
+      {
+        "id": "word:おじいさん",
+        "text": "おじいさん"
+      },
+      {
+        "id": "word:恋人",
+        "text": "恋人"
+      },
+      {
+        "id": "word:クラス",
+        "text": "クラス"
+      },
+      {
+        "id": "word:高校",
+        "text": "高校"
+      },
+      {
+        "id": "word:小学校",
+        "text": "小学校"
+      },
+      {
+        "id": "word:中学校",
+        "text": "中学校"
+      },
+      {
+        "id": "word:ありがとうございます",
+        "text": "ありがとうございます"
+      },
+      {
+        "id": "word:ありがとうございました",
+        "text": "ありがとうございました"
+      },
+      {
+        "id": "word:こんにちは",
+        "text": "こんにちは"
+      },
+      {
+        "id": "word:こんばんは",
+        "text": "こんばんは"
+      },
+      {
+        "id": "word:すみません",
+        "text": "すみません"
+      },
+      {
+        "id": "word:失礼します",
+        "text": "失礼します"
+      },
+      {
+        "id": "word:お願いします",
+        "text": "お願いします"
+      },
+      {
+        "id": "word:どうぞ",
+        "text": "どうぞ"
+      },
+      {
+        "id": "word:どうも",
+        "text": "どうも"
+      },
+      {
+        "id": "word:もしもし",
+        "text": "もしもし"
+      },
+      {
+        "id": "word:ええ",
+        "text": "ええ"
+      },
+      {
+        "id": "word:えーと",
+        "text": "えーと"
+      },
+      {
+        "id": "word:ごめん",
+        "text": "ごめん"
+      },
+      {
+        "id": "word:どういう",
+        "text": "どういう"
+      },
+      {
+        "id": "word:同じ",
+        "text": "同じ"
+      },
+      {
+        "id": "word:なるほど",
+        "text": "なるほど"
+      },
+      {
+        "id": "word:本当に",
+        "text": "本当に"
+      },
+      {
+        "id": "word:けっこう",
+        "text": "けっこう"
+      },
+      {
+        "id": "word:もちろん",
+        "text": "もちろん"
+      },
+      {
+        "id": "word:ぜひ",
+        "text": "ぜひ"
+      },
+      {
+        "id": "word:それでは",
+        "text": "それでは"
+      },
+      {
+        "id": "word:じゃあ",
+        "text": "じゃあ"
+      },
+      {
+        "id": "word:電話番号",
+        "text": "電話番号"
+      },
+      {
+        "id": "word:質問",
+        "text": "質問"
+      },
+      {
+        "id": "word:休み",
+        "text": "休み"
+      },
+      {
+        "id": "word:帰り",
+        "text": "帰り"
+      },
+      {
+        "id": "word:パソコン",
+        "text": "パソコン"
+      },
+      {
+        "id": "word:ノート",
+        "text": "ノート"
+      },
+      {
+        "id": "word:これ",
+        "text": "これ"
+      },
+      {
+        "id": "word:この",
+        "text": "この"
+      },
+      {
+        "id": "word:それ",
+        "text": "それ"
+      },
+      {
+        "id": "word:あれ",
+        "text": "あれ"
+      },
+      {
+        "id": "word:その",
+        "text": "その"
+      },
+      {
+        "id": "word:あの",
+        "text": "あの"
+      },
+      {
+        "id": "word:そうです",
+        "text": "そうです"
+      },
+      {
+        "id": "word:違います",
+        "text": "違います"
+      },
+      {
+        "id": "word:教科書",
+        "text": "教科書"
+      },
+      {
+        "id": "word:文字",
+        "text": "文字"
+      },
+      {
+        "id": "word:バッグ",
+        "text": "バッグ"
+      },
+      {
+        "id": "word:男の子",
+        "text": "男の子"
+      },
+      {
+        "id": "word:女の子",
+        "text": "女の子"
+      },
+      {
+        "id": "word:くつ下",
+        "text": "くつ下"
+      },
+      {
+        "id": "word:カメラ",
+        "text": "カメラ"
+      },
+      {
+        "id": "word:ネクタイ",
+        "text": "ネクタイ"
+      },
+      {
+        "id": "word:言葉",
+        "text": "言葉"
+      },
+      {
+        "id": "word:三百円",
+        "text": "三百円"
+      },
+      {
+        "id": "word:そこ",
+        "text": "そこ"
+      },
+      {
+        "id": "word:あそこ",
+        "text": "あそこ"
+      },
+      {
+        "id": "word:どこ",
+        "text": "どこ"
+      },
+      {
+        "id": "word:どちら",
+        "text": "どちら"
+      },
+      {
+        "id": "word:そちら",
+        "text": "そちら"
+      },
+      {
+        "id": "word:あちら",
+        "text": "あちら"
+      },
+      {
+        "id": "word:一階",
+        "text": "一階"
+      },
+      {
+        "id": "word:二階",
+        "text": "二階"
+      },
+      {
+        "id": "word:何階",
+        "text": "何階"
+      },
+      {
+        "id": "word:日本",
+        "text": "日本"
+      },
+      {
+        "id": "word:ここ",
+        "text": "ここ"
+      },
+      {
+        "id": "word:こちら",
+        "text": "こちら"
+      },
+      {
+        "id": "word:千",
+        "text": "千"
+      },
+      {
+        "id": "word:万",
+        "text": "万"
+      },
+      {
+        "id": "word:六",
+        "text": "六"
+      },
+      {
+        "id": "word:七",
+        "text": "七"
+      },
+      {
+        "id": "word:八",
+        "text": "八"
+      },
+      {
+        "id": "word:スーパー",
+        "text": "スーパー"
+      },
+      {
+        "id": "word:デパート",
+        "text": "デパート"
+      },
+      {
+        "id": "word:数字",
+        "text": "数字"
+      },
+      {
+        "id": "word:何回",
+        "text": "何回"
+      },
+      {
+        "id": "word:コンビニ",
+        "text": "コンビニ"
+      },
+      {
+        "id": "word:商店街",
+        "text": "商店街"
+      },
+      {
+        "id": "word:料金",
+        "text": "料金"
+      },
+      {
+        "id": "word:駅前",
+        "text": "駅前"
+      },
+      {
+        "id": "word:北口",
+        "text": "北口"
+      },
+      {
+        "id": "word:南口",
+        "text": "南口"
+      },
+      {
+        "id": "word:東口",
+        "text": "東口"
+      },
+      {
+        "id": "word:西口",
+        "text": "西口"
+      },
+      {
+        "id": "word:右側",
+        "text": "右側"
+      },
+      {
+        "id": "word:反対側",
+        "text": "反対側"
+      },
+      {
+        "id": "word:横",
+        "text": "横"
+      },
+      {
+        "id": "word:奥",
+        "text": "奥"
+      },
+      {
+        "id": "word:場所",
+        "text": "場所"
+      },
+      {
+        "id": "word:広場",
+        "text": "広場"
+      },
+      {
+        "id": "word:エレベーター",
+        "text": "エレベーター"
+      },
+      {
+        "id": "word:エスカレーター",
+        "text": "エスカレーター"
+      },
+      {
+        "id": "word:更衣室",
+        "text": "更衣室"
+      },
+      {
+        "id": "word:待合室",
+        "text": "待合室"
+      },
+      {
+        "id": "word:どれ",
+        "text": "どれ"
+      },
+      {
+        "id": "word:今",
+        "text": "今"
+      },
+      {
+        "id": "word:何時",
+        "text": "何時"
+      },
+      {
+        "id": "word:九時",
+        "text": "九時"
+      },
+      {
+        "id": "word:午後",
+        "text": "午後"
+      },
+      {
+        "id": "word:半",
+        "text": "半"
+      },
+      {
+        "id": "word:何曜日",
+        "text": "何曜日"
+      },
+      {
+        "id": "word:昼",
+        "text": "昼"
+      },
+      {
+        "id": "word:夜",
+        "text": "夜"
+      },
+      {
+        "id": "word:月曜日",
+        "text": "月曜日"
+      },
+      {
+        "id": "word:火曜日",
+        "text": "火曜日"
+      },
+      {
+        "id": "word:水曜日",
+        "text": "水曜日"
+      },
+      {
+        "id": "word:木曜日",
+        "text": "木曜日"
+      },
+      {
+        "id": "word:金曜日",
+        "text": "金曜日"
+      },
+      {
+        "id": "word:土曜日",
+        "text": "土曜日"
+      },
+      {
+        "id": "word:日曜日",
+        "text": "日曜日"
+      },
+      {
+        "id": "word:毎週",
+        "text": "毎週"
+      },
+      {
+        "id": "word:五分",
+        "text": "五分"
+      },
+      {
+        "id": "word:今週",
+        "text": "今週"
+      },
+      {
+        "id": "word:一日中",
+        "text": "一日中"
+      },
+      {
+        "id": "word:今晩",
+        "text": "今晩"
+      },
+      {
+        "id": "word:夕方",
+        "text": "夕方"
+      },
+      {
+        "id": "word:夜中",
+        "text": "夜中"
+      },
+      {
+        "id": "word:曜日",
+        "text": "曜日"
+      },
+      {
+        "id": "word:あさって",
+        "text": "あさって"
+      },
+      {
+        "id": "word:いつも",
+        "text": "いつも"
+      },
+      {
+        "id": "word:ときどき",
+        "text": "ときどき"
+      },
+      {
+        "id": "word:たいてい",
+        "text": "たいてい"
+      },
+      {
+        "id": "word:すぐに",
+        "text": "すぐに"
+      },
+      {
+        "id": "word:そして",
+        "text": "そして"
+      },
+      {
+        "id": "word:あと",
+        "text": "あと"
+      },
+      {
+        "id": "word:日時",
+        "text": "日時"
+      },
+      {
+        "id": "word:はじめに",
+        "text": "はじめに"
+      },
+      {
+        "id": "word:それから",
+        "text": "それから"
+      },
+      {
+        "id": "word:これから",
+        "text": "これから"
+      },
+      {
+        "id": "word:来月",
+        "text": "来月"
+      },
+      {
+        "id": "word:来年",
+        "text": "来年"
+      },
+      {
+        "id": "word:今度",
+        "text": "今度"
+      },
+      {
+        "id": "word:バス",
+        "text": "バス"
+      },
+      {
+        "id": "word:歩いて",
+        "text": "歩いて"
+      },
+      {
+        "id": "word:いつ",
+        "text": "いつ"
+      },
+      {
+        "id": "word:何日",
+        "text": "何日"
+      },
+      {
+        "id": "word:毎月",
+        "text": "毎月"
+      },
+      {
+        "id": "word:毎年",
+        "text": "毎年"
+      },
+      {
+        "id": "word:はじめて",
+        "text": "はじめて"
+      },
+      {
+        "id": "word:バス停",
+        "text": "バス停"
+      },
+      {
+        "id": "word:空港",
+        "text": "空港"
+      },
+      {
+        "id": "word:新幹線",
+        "text": "新幹線"
+      },
+      {
+        "id": "word:改札",
+        "text": "改札"
+      },
+      {
+        "id": "word:快速",
+        "text": "快速"
+      },
+      {
+        "id": "word:終点",
+        "text": "終点"
+      },
+      {
+        "id": "word:上り",
+        "text": "上り"
+      },
+      {
+        "id": "word:下り",
+        "text": "下り"
+      },
+      {
+        "id": "word:駐車場",
+        "text": "駐車場"
+      },
+      {
+        "id": "word:バイク",
+        "text": "バイク"
+      },
+      {
+        "id": "word:コインロッカー",
+        "text": "コインロッカー"
+      },
+      {
+        "id": "word:どのぐらい",
+        "text": "どのぐらい"
+      },
+      {
+        "id": "word:お茶",
+        "text": "お茶"
+      },
+      {
+        "id": "word:水",
+        "text": "水"
+      },
+      {
+        "id": "word:見ます",
+        "text": "見ます"
+      },
+      {
+        "id": "word:します",
+        "text": "します"
+      },
+      {
+        "id": "word:ちょっと",
+        "text": "ちょっと"
+      },
+      {
+        "id": "word:ご飯",
+        "text": "ご飯"
+      },
+      {
+        "id": "word:家",
+        "text": "家"
+      },
+      {
+        "id": "word:パン",
+        "text": "パン"
+      },
+      {
+        "id": "word:卵",
+        "text": "卵"
+      },
+      {
+        "id": "word:肉",
+        "text": "肉"
+      },
+      {
+        "id": "word:魚",
+        "text": "魚"
+      },
+      {
+        "id": "word:野菜",
+        "text": "野菜"
+      },
+      {
+        "id": "word:果物",
+        "text": "果物"
+      },
+      {
+        "id": "word:牛乳",
+        "text": "牛乳"
+      },
+      {
+        "id": "word:牛肉",
+        "text": "牛肉"
+      },
+      {
+        "id": "word:豚肉",
+        "text": "豚肉"
+      },
+      {
+        "id": "word:鶏肉",
+        "text": "鶏肉"
+      },
+      {
+        "id": "word:ジュース",
+        "text": "ジュース"
+      },
+      {
+        "id": "word:ビール",
+        "text": "ビール"
+      },
+      {
+        "id": "word:食べ物",
+        "text": "食べ物"
+      },
+      {
+        "id": "word:飲み物",
+        "text": "飲み物"
+      },
+      {
+        "id": "word:紅茶",
+        "text": "紅茶"
+      },
+      {
+        "id": "word:コーラ",
+        "text": "コーラ"
+      },
+      {
+        "id": "word:ミルク",
+        "text": "ミルク"
+      },
+      {
+        "id": "word:アイスクリーム",
+        "text": "アイスクリーム"
+      },
+      {
+        "id": "word:アイスコーヒー",
+        "text": "アイスコーヒー"
+      },
+      {
+        "id": "word:ヨーグルト",
+        "text": "ヨーグルト"
+      },
+      {
+        "id": "word:スープ",
+        "text": "スープ"
+      },
+      {
+        "id": "word:ラーメン",
+        "text": "ラーメン"
+      },
+      {
+        "id": "word:うどん",
+        "text": "うどん"
+      },
+      {
+        "id": "word:そば",
+        "text": "そば"
+      },
+      {
+        "id": "word:カレー",
+        "text": "カレー"
+      },
+      {
+        "id": "word:おにぎり",
+        "text": "おにぎり"
+      },
+      {
+        "id": "word:お菓子",
+        "text": "お菓子"
+      },
+      {
+        "id": "word:チョコレート",
+        "text": "チョコレート"
+      },
+      {
+        "id": "word:バナナ",
+        "text": "バナナ"
+      },
+      {
+        "id": "word:みかん",
+        "text": "みかん"
+      },
+      {
+        "id": "word:ぶどう",
+        "text": "ぶどう"
+      },
+      {
+        "id": "word:塩",
+        "text": "塩"
+      },
+      {
+        "id": "word:コップ",
+        "text": "コップ"
+      },
+      {
+        "id": "word:カップ",
+        "text": "カップ"
+      },
+      {
+        "id": "word:ごちそうさまでした",
+        "text": "ごちそうさまでした"
+      },
+      {
+        "id": "word:コーヒー",
+        "text": "コーヒー"
+      },
+      {
+        "id": "word:サラダ",
+        "text": "サラダ"
+      },
+      {
+        "id": "word:すし",
+        "text": "すし"
+      },
+      {
+        "id": "word:お弁当",
+        "text": "お弁当"
+      },
+      {
+        "id": "word:ケーキ",
+        "text": "ケーキ"
+      },
+      {
+        "id": "word:アニメ",
+        "text": "アニメ"
+      },
+      {
+        "id": "word:まだ",
+        "text": "まだ"
+      },
+      {
+        "id": "word:紙",
+        "text": "紙"
+      },
+      {
+        "id": "word:切ります",
+        "text": "切ります"
+      },
+      {
+        "id": "word:英語",
+        "text": "英語"
+      },
+      {
+        "id": "word:フォーク",
+        "text": "フォーク"
+      },
+      {
+        "id": "word:ナイフ",
+        "text": "ナイフ"
+      },
+      {
+        "id": "word:発音",
+        "text": "発音"
+      },
+      {
+        "id": "word:文法",
+        "text": "文法"
+      },
+      {
+        "id": "word:にぎやか",
+        "text": "にぎやか"
+      },
+      {
+        "id": "word:きれい",
+        "text": "きれい"
+      },
+      {
+        "id": "word:とても",
+        "text": "とても"
+      },
+      {
+        "id": "word:あまり",
+        "text": "あまり"
+      },
+      {
+        "id": "word:いい",
+        "text": "いい"
+      },
+      {
+        "id": "word:どう",
+        "text": "どう"
+      },
+      {
+        "id": "word:どんな",
+        "text": "どんな"
+      },
+      {
+        "id": "word:町",
+        "text": "町"
+      },
+      {
+        "id": "word:広い",
+        "text": "広い"
+      },
+      {
+        "id": "word:悪い",
+        "text": "悪い"
+      },
+      {
+        "id": "word:熱い",
+        "text": "熱い"
+      },
+      {
+        "id": "word:易しい",
+        "text": "易しい"
+      },
+      {
+        "id": "word:まずい",
+        "text": "まずい"
+      },
+      {
+        "id": "word:楽しい",
+        "text": "楽しい"
+      },
+      {
+        "id": "word:つまらない",
+        "text": "つまらない"
+      },
+      {
+        "id": "word:軽い",
+        "text": "軽い"
+      },
+      {
+        "id": "word:低い",
+        "text": "低い"
+      },
+      {
+        "id": "word:すっぱい",
+        "text": "すっぱい"
+      },
+      {
+        "id": "word:苦い",
+        "text": "苦い"
+      },
+      {
+        "id": "word:ぬるい",
+        "text": "ぬるい"
+      },
+      {
+        "id": "word:もっと",
+        "text": "もっと"
+      },
+      {
+        "id": "word:鼻",
+        "text": "鼻"
+      },
+      {
+        "id": "word:のど",
+        "text": "のど"
+      },
+      {
+        "id": "word:お腹",
+        "text": "お腹"
+      },
+      {
+        "id": "word:首",
+        "text": "首"
+      },
+      {
+        "id": "word:肩",
+        "text": "肩"
+      },
+      {
+        "id": "word:腕",
+        "text": "腕"
+      },
+      {
+        "id": "word:指",
+        "text": "指"
+      },
+      {
+        "id": "word:胸",
+        "text": "胸"
+      },
+      {
+        "id": "word:背中",
+        "text": "背中"
+      },
+      {
+        "id": "word:腰",
+        "text": "腰"
+      },
+      {
+        "id": "word:眠い",
+        "text": "眠い"
+      },
+      {
+        "id": "word:疲れる",
+        "text": "疲れる"
+      },
+      {
+        "id": "word:かゆい",
+        "text": "かゆい"
+      },
+      {
+        "id": "word:ひどい",
+        "text": "ひどい"
+      },
+      {
+        "id": "word:マスク",
+        "text": "マスク"
+      },
+      {
+        "id": "word:薬局",
+        "text": "薬局"
+      },
+      {
+        "id": "word:お大事に",
+        "text": "お大事に"
+      },
+      {
+        "id": "word:気をつける",
+        "text": "気をつける"
+      },
+      {
+        "id": "word:目",
+        "text": "目"
+      },
+      {
+        "id": "word:耳",
+        "text": "耳"
+      },
+      {
+        "id": "word:口",
+        "text": "口"
+      },
+      {
+        "id": "word:川",
+        "text": "川"
+      },
+      {
+        "id": "word:強い",
+        "text": "強い"
+      },
+      {
+        "id": "word:でも",
+        "text": "でも"
+      },
+      {
+        "id": "word:上手",
+        "text": "上手"
+      },
+      {
+        "id": "word:よく",
+        "text": "よく"
+      },
+      {
+        "id": "word:だいたい",
+        "text": "だいたい"
+      },
+      {
+        "id": "word:歌",
+        "text": "歌"
+      },
+      {
+        "id": "word:テニス",
+        "text": "テニス"
+      },
+      {
+        "id": "word:サッカー",
+        "text": "サッカー"
+      },
+      {
+        "id": "word:漢字",
+        "text": "漢字"
+      },
+      {
+        "id": "word:ひらがな",
+        "text": "ひらがな"
+      },
+      {
+        "id": "word:カタカナ",
+        "text": "カタカナ"
+      },
+      {
+        "id": "word:マンガ",
+        "text": "マンガ"
+      },
+      {
+        "id": "word:ゲーム",
+        "text": "ゲーム"
+      },
+      {
+        "id": "word:映画館",
+        "text": "映画館"
+      },
+      {
+        "id": "word:動物園",
+        "text": "動物園"
+      },
+      {
+        "id": "word:水族館",
+        "text": "水族館"
+      },
+      {
+        "id": "word:博物館",
+        "text": "博物館"
+      },
+      {
+        "id": "word:コンサート",
+        "text": "コンサート"
+      },
+      {
+        "id": "word:カラオケ",
+        "text": "カラオケ"
+      },
+      {
+        "id": "word:ギター",
+        "text": "ギター"
+      },
+      {
+        "id": "word:ピアノ",
+        "text": "ピアノ"
+      },
+      {
+        "id": "word:弾く",
+        "text": "弾く"
+      },
+      {
+        "id": "word:踊る",
+        "text": "踊る"
+      },
+      {
+        "id": "word:野球",
+        "text": "野球"
+      },
+      {
+        "id": "word:水泳",
+        "text": "水泳"
+      },
+      {
+        "id": "word:ジム",
+        "text": "ジム"
+      },
+      {
+        "id": "word:ジョギング",
+        "text": "ジョギング"
+      },
+      {
+        "id": "word:ハイキング",
+        "text": "ハイキング"
+      },
+      {
+        "id": "word:キャンプ",
+        "text": "キャンプ"
+      },
+      {
+        "id": "word:パーティー",
+        "text": "パーティー"
+      },
+      {
+        "id": "word:イベント",
+        "text": "イベント"
+      },
+      {
+        "id": "word:ペット",
+        "text": "ペット"
+      },
+      {
+        "id": "word:試合",
+        "text": "試合"
+      },
+      {
+        "id": "word:読書",
+        "text": "読書"
+      },
+      {
+        "id": "word:つり",
+        "text": "つり"
+      },
+      {
+        "id": "word:写真集",
+        "text": "写真集"
+      },
+      {
+        "id": "word:あります",
+        "text": "あります"
+      },
+      {
+        "id": "word:後ろ",
+        "text": "後ろ"
+      },
+      {
+        "id": "word:近く",
+        "text": "近く"
+      },
+      {
+        "id": "word:男の人",
+        "text": "男の人"
+      },
+      {
+        "id": "word:女の人",
+        "text": "女の人"
+      },
+      {
+        "id": "word:子供",
+        "text": "子供"
+      },
+      {
+        "id": "word:木",
+        "text": "木"
+      },
+      {
+        "id": "word:花",
+        "text": "花"
+      },
+      {
+        "id": "word:外",
+        "text": "外"
+      },
+      {
+        "id": "word:北",
+        "text": "北"
+      },
+      {
+        "id": "word:南",
+        "text": "南"
+      },
+      {
+        "id": "word:東",
+        "text": "東"
+      },
+      {
+        "id": "word:西",
+        "text": "西"
+      },
+      {
+        "id": "word:庭",
+        "text": "庭"
+      },
+      {
+        "id": "word:箱",
+        "text": "箱"
+      },
+      {
+        "id": "word:冷蔵庫",
+        "text": "冷蔵庫"
+      },
+      {
+        "id": "word:ベッド",
+        "text": "ベッド"
+      },
+      {
+        "id": "word:鳥",
+        "text": "鳥"
+      },
+      {
+        "id": "word:アパート",
+        "text": "アパート"
+      },
+      {
+        "id": "word:寮",
+        "text": "寮"
+      },
+      {
+        "id": "word:一戸建て",
+        "text": "一戸建て"
+      },
+      {
+        "id": "word:居間",
+        "text": "居間"
+      },
+      {
+        "id": "word:台所",
+        "text": "台所"
+      },
+      {
+        "id": "word:キッチン",
+        "text": "キッチン"
+      },
+      {
+        "id": "word:玄関",
+        "text": "玄関"
+      },
+      {
+        "id": "word:ベランダ",
+        "text": "ベランダ"
+      },
+      {
+        "id": "word:バルコニー",
+        "text": "バルコニー"
+      },
+      {
+        "id": "word:お風呂",
+        "text": "お風呂"
+      },
+      {
+        "id": "word:入口",
+        "text": "入口"
+      },
+      {
+        "id": "word:出口",
+        "text": "出口"
+      },
+      {
+        "id": "word:エアコン",
+        "text": "エアコン"
+      },
+      {
+        "id": "word:冷房",
+        "text": "冷房"
+      },
+      {
+        "id": "word:暖房",
+        "text": "暖房"
+      },
+      {
+        "id": "word:洗濯機",
+        "text": "洗濯機"
+      },
+      {
+        "id": "word:掃除機",
+        "text": "掃除機"
+      },
+      {
+        "id": "word:炊飯器",
+        "text": "炊飯器"
+      },
+      {
+        "id": "word:リモコン",
+        "text": "リモコン"
+      },
+      {
+        "id": "word:コピー機",
+        "text": "コピー機"
+      },
+      {
+        "id": "word:テーブル",
+        "text": "テーブル"
+      },
+      {
+        "id": "word:棚",
+        "text": "棚"
+      },
+      {
+        "id": "word:壁",
+        "text": "壁"
+      },
+      {
+        "id": "word:扉",
+        "text": "扉"
+      },
+      {
+        "id": "word:ふとん",
+        "text": "ふとん"
+      },
+      {
+        "id": "word:温度",
+        "text": "温度"
+      },
+      {
+        "id": "word:ごみ箱",
+        "text": "ごみ箱"
+      },
+      {
+        "id": "word:家族",
+        "text": "家族"
+      },
+      {
+        "id": "word:両親",
+        "text": "両親"
+      },
+      {
+        "id": "word:兄",
+        "text": "兄"
+      },
+      {
+        "id": "word:姉",
+        "text": "姉"
+      },
+      {
+        "id": "word:弟",
+        "text": "弟"
+      },
+      {
+        "id": "word:妹",
+        "text": "妹"
+      },
+      {
+        "id": "word:一か月",
+        "text": "一か月"
+      },
+      {
+        "id": "word:一年",
+        "text": "一年"
+      },
+      {
+        "id": "word:かかります",
+        "text": "かかります"
+      },
+      {
+        "id": "word:いくつ",
+        "text": "いくつ"
+      },
+      {
+        "id": "word:枚",
+        "text": "枚"
+      },
+      {
+        "id": "word:冊",
+        "text": "冊"
+      },
+      {
+        "id": "word:回",
+        "text": "回"
+      },
+      {
+        "id": "word:封筒",
+        "text": "封筒"
+      },
+      {
+        "id": "word:父",
+        "text": "父"
+      },
+      {
+        "id": "word:母",
+        "text": "母"
+      },
+      {
+        "id": "word:ぐらい",
+        "text": "ぐらい"
+      },
+      {
+        "id": "word:夫",
+        "text": "夫"
+      },
+      {
+        "id": "word:妻",
+        "text": "妻"
+      },
+      {
+        "id": "word:兄弟",
+        "text": "兄弟"
+      },
+      {
+        "id": "word:商品",
+        "text": "商品"
+      },
+      {
+        "id": "word:食品",
+        "text": "食品"
+      },
+      {
+        "id": "word:半額",
+        "text": "半額"
+      },
+      {
+        "id": "word:袋",
+        "text": "袋"
+      },
+      {
+        "id": "word:レジ",
+        "text": "レジ"
+      },
+      {
+        "id": "word:レシート",
+        "text": "レシート"
+      },
+      {
+        "id": "word:店員",
+        "text": "店員"
+      },
+      {
+        "id": "word:コーナー",
+        "text": "コーナー"
+      },
+      {
+        "id": "word:カウンター",
+        "text": "カウンター"
+      },
+      {
+        "id": "word:電池",
+        "text": "電池"
+      },
+      {
+        "id": "word:タオル",
+        "text": "タオル"
+      },
+      {
+        "id": "word:歯ブラシ",
+        "text": "歯ブラシ"
+      },
+      {
+        "id": "word:シャンプー",
+        "text": "シャンプー"
+      },
+      {
+        "id": "word:石けん",
+        "text": "石けん"
+      },
+      {
+        "id": "word:トイレットペーパー",
+        "text": "トイレットペーパー"
+      },
+      {
+        "id": "word:カレンダー",
+        "text": "カレンダー"
+      },
+      {
+        "id": "word:昼休み",
+        "text": "昼休み"
+      },
+      {
+        "id": "word:週",
+        "text": "週"
+      },
+      {
+        "id": "word:事務室",
+        "text": "事務室"
+      },
+      {
+        "id": "word:工場",
+        "text": "工場"
+      },
+      {
+        "id": "word:体育館",
+        "text": "体育館"
+      },
+      {
+        "id": "word:公民館",
+        "text": "公民館"
+      },
+      {
+        "id": "word:問題",
+        "text": "問題"
+      },
+      {
+        "id": "word:残業",
+        "text": "残業"
+      },
+      {
+        "id": "word:早退",
+        "text": "早退"
+      },
+      {
+        "id": "word:遅刻",
+        "text": "遅刻"
+      },
+      {
+        "id": "word:朝礼",
+        "text": "朝礼"
+      },
+      {
+        "id": "word:会場",
+        "text": "会場"
+      },
+      {
+        "id": "word:プリンター",
+        "text": "プリンター"
+      },
+      {
+        "id": "word:メッセージ",
+        "text": "メッセージ"
+      },
+      {
+        "id": "word:寒い",
+        "text": "寒い"
+      },
+      {
+        "id": "word:近い",
+        "text": "近い"
+      },
+      {
+        "id": "word:速い",
+        "text": "速い"
+      },
+      {
+        "id": "word:高い",
+        "text": "高い"
+      },
+      {
+        "id": "word:多い",
+        "text": "多い"
+      },
+      {
+        "id": "word:少ない",
+        "text": "少ない"
+      },
+      {
+        "id": "word:季節",
+        "text": "季節"
+      },
+      {
+        "id": "word:春",
+        "text": "春"
+      },
+      {
+        "id": "word:夏",
+        "text": "夏"
+      },
+      {
+        "id": "word:秋",
+        "text": "秋"
+      },
+      {
+        "id": "word:冬",
+        "text": "冬"
+      },
+      {
+        "id": "word:一番",
+        "text": "一番"
+      },
+      {
+        "id": "word:ずっと",
+        "text": "ずっと"
+      },
+      {
+        "id": "word:三つ",
+        "text": "三つ"
+      },
+      {
+        "id": "word:雨",
+        "text": "雨"
+      },
+      {
+        "id": "word:遅い",
+        "text": "遅い"
+      },
+      {
+        "id": "word:曇り",
+        "text": "曇り"
+      },
+      {
+        "id": "word:晴れ",
+        "text": "晴れ"
+      },
+      {
+        "id": "word:甘い",
+        "text": "甘い"
+      },
+      {
+        "id": "word:辛い",
+        "text": "辛い"
+      },
+      {
+        "id": "word:風",
+        "text": "風"
+      },
+      {
+        "id": "word:一年中",
+        "text": "一年中"
+      },
+      {
+        "id": "word:おととい",
+        "text": "おととい"
+      },
+      {
+        "id": "word:ゆうべ",
+        "text": "ゆうべ"
+      },
+      {
+        "id": "word:半年",
+        "text": "半年"
+      },
+      {
+        "id": "word:夏休み",
+        "text": "夏休み"
+      },
+      {
+        "id": "word:連休",
+        "text": "連休"
+      },
+      {
+        "id": "word:土日",
+        "text": "土日"
+      },
+      {
+        "id": "word:緑",
+        "text": "緑"
+      },
+      {
+        "id": "word:青",
+        "text": "青"
+      },
+      {
+        "id": "word:赤",
+        "text": "赤"
+      },
+      {
+        "id": "word:黒",
+        "text": "黒"
+      },
+      {
+        "id": "word:白",
+        "text": "白"
+      },
+      {
+        "id": "word:黄色",
+        "text": "黄色"
+      },
+      {
+        "id": "word:黄色い",
+        "text": "黄色い"
+      },
+      {
+        "id": "word:茶色",
+        "text": "茶色"
+      },
+      {
+        "id": "word:蒸し暑い",
+        "text": "蒸し暑い"
+      },
+      {
+        "id": "word:梅雨",
+        "text": "梅雨"
+      },
+      {
+        "id": "word:くもる",
+        "text": "くもる"
+      },
+      {
+        "id": "word:晴れる",
+        "text": "晴れる"
+      },
+      {
+        "id": "word:やむ",
+        "text": "やむ"
+      },
+      {
+        "id": "word:雷",
+        "text": "雷"
+      },
+      {
+        "id": "word:大雪",
+        "text": "大雪"
+      },
+      {
+        "id": "word:遊びます",
+        "text": "遊びます"
+      },
+      {
+        "id": "word:入ります",
+        "text": "入ります"
+      },
+      {
+        "id": "word:店",
+        "text": "店"
+      },
+      {
+        "id": "word:お腹がすきました",
+        "text": "お腹がすきました"
+      },
+      {
+        "id": "word:喉がかわきました",
+        "text": "喉がかわきました"
+      },
+      {
+        "id": "word:何か",
+        "text": "何か"
+      },
+      {
+        "id": "word:どこか",
+        "text": "どこか"
+      },
+      {
+        "id": "word:海",
+        "text": "海"
+      },
+      {
+        "id": "word:プール",
+        "text": "プール"
+      },
+      {
+        "id": "word:レストラン",
+        "text": "レストラン"
+      },
+      {
+        "id": "word:持ちます",
+        "text": "持ちます"
+      },
+      {
+        "id": "word:取ります",
+        "text": "取ります"
+      },
+      {
+        "id": "word:急ぎます",
+        "text": "急ぎます"
+      },
+      {
+        "id": "word:閉めます",
+        "text": "閉めます"
+      },
+      {
+        "id": "word:座ります",
+        "text": "座ります"
+      },
+      {
+        "id": "word:立ちます",
+        "text": "立ちます"
+      },
+      {
+        "id": "word:ゆっくり",
+        "text": "ゆっくり"
+      },
+      {
+        "id": "word:窓",
+        "text": "窓"
+      },
+      {
+        "id": "word:話します",
+        "text": "話します"
+      },
+      {
+        "id": "word:言います",
+        "text": "言います"
+      },
+      {
+        "id": "word:ドア",
+        "text": "ドア"
+      },
+      {
+        "id": "word:つけます",
+        "text": "つけます"
+      },
+      {
+        "id": "word:止めます",
+        "text": "止めます"
+      },
+      {
+        "id": "word:知りません",
+        "text": "知りません"
+      },
+      {
+        "id": "word:結婚しています",
+        "text": "結婚しています"
+      },
+      {
+        "id": "word:撮ります",
+        "text": "撮ります"
+      },
+      {
+        "id": "word:売っています",
+        "text": "売っています"
+      },
+      {
+        "id": "word:独身",
+        "text": "独身"
+      },
+      {
+        "id": "word:大丈夫",
+        "text": "大丈夫"
+      },
+      {
+        "id": "word:マンション",
+        "text": "マンション"
+      },
+      {
+        "id": "word:朝",
+        "text": "朝"
+      },
+      {
+        "id": "word:晩ご飯",
+        "text": "晩ご飯"
+      },
+      {
+        "id": "word:浴びます",
+        "text": "浴びます"
+      },
+      {
+        "id": "word:髪",
+        "text": "髪"
+      },
+      {
+        "id": "word:短い",
+        "text": "短い"
+      },
+      {
+        "id": "word:背",
+        "text": "背"
+      },
+      {
+        "id": "word:明るい",
+        "text": "明るい"
+      },
+      {
+        "id": "word:どの人",
+        "text": "どの人"
+      },
+      {
+        "id": "word:暗い",
+        "text": "暗い"
+      },
+      {
+        "id": "word:体",
+        "text": "体"
+      },
+      {
+        "id": "word:頭",
+        "text": "頭"
+      },
+      {
+        "id": "word:足",
+        "text": "足"
+      },
+      {
+        "id": "word:どの",
+        "text": "どの"
+      },
+      {
+        "id": "word:力",
+        "text": "力"
+      },
+      {
+        "id": "word:顔",
+        "text": "顔"
+      },
+      {
+        "id": "word:手",
+        "text": "手"
+      },
+      {
+        "id": "word:サイズ",
+        "text": "サイズ"
+      },
+      {
+        "id": "word:服装",
+        "text": "服装"
+      },
+      {
+        "id": "word:帽子",
+        "text": "帽子"
+      },
+      {
+        "id": "word:パンツ",
+        "text": "パンツ"
+      },
+      {
+        "id": "word:ジャケット",
+        "text": "ジャケット"
+      },
+      {
+        "id": "word:コート",
+        "text": "コート"
+      },
+      {
+        "id": "word:せまい",
+        "text": "せまい"
+      },
+      {
+        "id": "word:きたない",
+        "text": "きたない"
+      },
+      {
+        "id": "word:うるさい",
+        "text": "うるさい"
+      },
+      {
+        "id": "word:かわいい",
+        "text": "かわいい"
+      },
+      {
+        "id": "word:かっこいい",
+        "text": "かっこいい"
+      },
+      {
+        "id": "word:大きな",
+        "text": "大きな"
+      },
+      {
+        "id": "word:小さな",
+        "text": "小さな"
+      },
+      {
+        "id": "word:丸い",
+        "text": "丸い"
+      },
+      {
+        "id": "word:四角い",
+        "text": "四角い"
+      },
+      {
+        "id": "word:美しい",
+        "text": "美しい"
+      },
+      {
+        "id": "word:やわらかい",
+        "text": "やわらかい"
+      },
+      {
+        "id": "word:持って行きます",
+        "text": "持って行きます"
+      },
+      {
+        "id": "word:大変",
+        "text": "大変"
+      },
+      {
+        "id": "word:宿題",
+        "text": "宿題"
+      },
+      {
+        "id": "word:心配します",
+        "text": "心配します"
+      },
+      {
+        "id": "word:までに",
+        "text": "までに"
+      },
+      {
+        "id": "word:持って来ます",
+        "text": "持って来ます"
+      },
+      {
+        "id": "word:薬",
+        "text": "薬"
+      },
+      {
+        "id": "word:病院",
+        "text": "病院"
+      },
+      {
+        "id": "word:風邪",
+        "text": "風邪"
+      },
+      {
+        "id": "word:熱",
+        "text": "熱"
+      },
+      {
+        "id": "word:集めます",
+        "text": "集めます"
+      },
+      {
+        "id": "word:曲",
+        "text": "曲"
+      },
+      {
+        "id": "word:現金",
+        "text": "現金"
+      },
+      {
+        "id": "word:電話",
+        "text": "電話"
+      },
+      {
+        "id": "word:車",
+        "text": "車"
+      },
+      {
+        "id": "word:自動車",
+        "text": "自動車"
+      },
+      {
+        "id": "word:動物",
+        "text": "動物"
+      },
+      {
+        "id": "word:旅行",
+        "text": "旅行"
+      },
+      {
+        "id": "word:一度",
+        "text": "一度"
+      },
+      {
+        "id": "word:経験",
+        "text": "経験"
+      },
+      {
+        "id": "word:元気",
+        "text": "元気"
+      },
+      {
+        "id": "word:もうすぐ",
+        "text": "もうすぐ"
+      },
+      {
+        "id": "word:だんだん",
+        "text": "だんだん"
+      },
+      {
+        "id": "word:暖かい",
+        "text": "暖かい"
+      },
+      {
+        "id": "word:最近",
+        "text": "最近"
+      },
+      {
+        "id": "word:去年",
+        "text": "去年"
+      },
+      {
+        "id": "word:走ります",
+        "text": "走ります"
+      },
+      {
+        "id": "word:天気",
+        "text": "天気"
+      },
+      {
+        "id": "word:けど",
+        "text": "けど"
+      },
+      {
+        "id": "word:どっち",
+        "text": "どっち"
+      },
+      {
+        "id": "word:僕",
+        "text": "僕"
+      },
+      {
+        "id": "word:おもしろい",
+        "text": "おもしろい"
+      },
+      {
+        "id": "word:何も",
+        "text": "何も"
+      },
+      {
+        "id": "word:たくさん",
+        "text": "たくさん"
+      },
+      {
+        "id": "word:いつか",
+        "text": "いつか"
+      },
+      {
+        "id": "word:いつでも",
+        "text": "いつでも"
+      },
+      {
+        "id": "word:きっと",
+        "text": "きっと"
+      },
+      {
+        "id": "word:すべて",
+        "text": "すべて"
+      },
+      {
+        "id": "word:両方",
+        "text": "両方"
+      },
+      {
+        "id": "word:特に",
+        "text": "特に"
+      },
+      {
+        "id": "word:また",
+        "text": "また"
+      },
+      {
+        "id": "word:ほかに",
+        "text": "ほかに"
+      },
+      {
+        "id": "word:それとも",
+        "text": "それとも"
+      },
+      {
+        "id": "word:それで",
+        "text": "それで"
+      },
+      {
+        "id": "word:だいぶ",
+        "text": "だいぶ"
+      },
+      {
+        "id": "word:最初",
+        "text": "最初"
+      },
+      {
+        "id": "word:はじめ",
+        "text": "はじめ"
+      },
+      {
+        "id": "word:普通",
+        "text": "普通"
+      },
+      {
+        "id": "word:自分で",
+        "text": "自分で"
+      },
+      {
+        "id": "word:大勢",
+        "text": "大勢"
+      },
+      {
+        "id": "word:一度に",
+        "text": "一度に"
+      },
+      {
+        "id": "word:何でも",
+        "text": "何でも"
+      },
+      {
+        "id": "word:本当",
+        "text": "本当"
+      },
+      {
+        "id": "word:役に立ちます",
+        "text": "役に立ちます"
+      },
+      {
+        "id": "word:約束",
+        "text": "約束"
+      },
+      {
+        "id": "word:用事",
+        "text": "用事"
+      },
+      {
+        "id": "word:赤い",
+        "text": "赤い"
+      },
+      {
+        "id": "word:青い",
+        "text": "青い"
+      },
+      {
+        "id": "word:服",
+        "text": "服"
+      },
+      {
+        "id": "word:ズボン",
+        "text": "ズボン"
+      },
+      {
+        "id": "word:スカート",
+        "text": "スカート"
+      },
+      {
+        "id": "word:道",
+        "text": "道"
+      },
+      {
+        "id": "word:押します",
+        "text": "押します"
+      },
+      {
+        "id": "word:ボタン",
+        "text": "ボタン"
+      },
+      {
+        "id": "word:開きます",
+        "text": "開きます"
+      },
+      {
+        "id": "word:まっすぐ",
+        "text": "まっすぐ"
+      },
+      {
+        "id": "word:電気",
+        "text": "電気"
+      },
+      {
+        "id": "word:消します",
+        "text": "消します"
+      },
+      {
+        "id": "word:橋",
+        "text": "橋"
+      },
+      {
+        "id": "word:信号",
+        "text": "信号"
+      },
+      {
+        "id": "word:送ります",
+        "text": "送ります"
+      },
+      {
+        "id": "word:感謝",
+        "text": "感謝"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "mnn-01-g5",
+        "text": "Tên + さん"
+      },
+      {
+        "id": "mnn-01-g7",
+        "text": "N は số + 歳です"
+      },
+      {
+        "id": "mnn-01-g8",
+        "text": "何歳／おいくつですか"
+      },
+      {
+        "id": "mnn-02-g4",
+        "text": "N1ですか、N2ですか"
+      },
+      {
+        "id": "mnn-02-g5",
+        "text": "N1 の N2"
+      },
+      {
+        "id": "mnn-02-g6",
+        "text": "何のN／だれのN"
+      },
+      {
+        "id": "mnn-03-g4",
+        "text": "N1 (quốc gia/công ty) の N2"
+      },
+      {
+        "id": "mnn-03-g5",
+        "text": "どこのN／お国はどちらですか"
+      },
+      {
+        "id": "mnn-04-g4",
+        "text": "六時に／毎日／きょう"
+      },
+      {
+        "id": "mnn-05-g5",
+        "text": "いつ／何月何日／誕生日"
+      },
+      {
+        "id": "mnn-06-g4",
+        "text": "何をしますか"
+      },
+      {
+        "id": "mnn-06-g5",
+        "text": "giờ に nơi で 会いましょう"
+      },
+      {
+        "id": "mnn-06-g6",
+        "text": "Vませんか → すみません、ちょっと…"
+      },
+      {
+        "id": "mnn-07-g0",
+        "text": "N で Vます"
+      },
+      {
+        "id": "mnn-07-g1",
+        "text": "Người cho は người nhận に vật を あげます"
+      },
+      {
+        "id": "mnn-07-g3",
+        "text": "もう Vましたか"
+      },
+      {
+        "id": "mnn-07-g4",
+        "text": "～は日本語で何ですか"
+      },
+      {
+        "id": "mnn-07-g5",
+        "text": "人に／人・組織から もらいます"
+      },
+      {
+        "id": "mnn-08-g5",
+        "text": "いい → よくない／あまりAくない"
+      },
+      {
+        "id": "mnn-09-g1",
+        "text": "N が上手です / 下手です"
+      },
+      {
+        "id": "mnn-09-g2",
+        "text": "N がわかります / N があります"
+      },
+      {
+        "id": "mnn-09-g4",
+        "text": "どうして / 全然 Vません"
+      },
+      {
+        "id": "mnn-09-g5",
+        "text": "よく／だいたい／少し／全然"
+      },
+      {
+        "id": "mnn-10-g0",
+        "text": "Địa điểm に vật が あります"
+      },
+      {
+        "id": "mnn-10-g2",
+        "text": "Đối tượng は địa điểm に あります/います"
+      },
+      {
+        "id": "mnn-10-g3",
+        "text": "N の 上/下/中/前/隣 / N や N (など)"
+      },
+      {
+        "id": "mnn-10-g4",
+        "text": "何がありますか / だれがいますか"
+      },
+      {
+        "id": "mnn-10-g5",
+        "text": "N1 と N2 の間"
+      },
+      {
+        "id": "mnn-10-g6",
+        "text": "人は場所にいます／場所でVます"
+      },
+      {
+        "id": "mnn-11-g1",
+        "text": "người が số + 人います"
+      },
+      {
+        "id": "mnn-11-g2",
+        "text": "khoảng thời gian Vます"
+      },
+      {
+        "id": "mnn-11-g3",
+        "text": "khoảng thời gian に số + 回"
+      },
+      {
+        "id": "mnn-11-g4",
+        "text": "AからBまで thời lượng かかります"
+      },
+      {
+        "id": "mnn-11-g5",
+        "text": "枚／台／冊・何枚／何台"
+      },
+      {
+        "id": "mnn-12-g0",
+        "text": "N／NAでした・ではありませんでした"
+      },
+      {
+        "id": "mnn-12-g1",
+        "text": "Aかったです／Aくなかったです"
+      },
+      {
+        "id": "mnn-12-g3",
+        "text": "AとBとどちらが…／Aのほうが…"
+      },
+      {
+        "id": "mnn-12-g4",
+        "text": "Nhómで何／どこ／だれが一番…"
+      },
+      {
+        "id": "mnn-12-g5",
+        "text": "どちら／何が一番"
+      },
+      {
+        "id": "mnn-13-g0",
+        "text": "N が欲しいです"
+      },
+      {
+        "id": "mnn-13-g1",
+        "text": "V bỏ ます + たいです"
+      },
+      {
+        "id": "mnn-13-g3",
+        "text": "場所に入ります／場所を出ます・何か／どこか"
+      },
+      {
+        "id": "mnn-13-g4",
+        "text": "Nが欲しい／Vたい／何か"
+      },
+      {
+        "id": "mnn-14-g0",
+        "text": "Nhóm 1 biến âm / nhóm 2 bỏ ます+て / nhóm 3 riêng"
+      },
+      {
+        "id": "mnn-14-g3",
+        "text": "V bỏ ます + ましょうか"
+      },
+      {
+        "id": "mnn-14-g4",
+        "text": "帰ります→帰って／見ます→見て"
+      },
+      {
+        "id": "mnn-15-g2",
+        "text": "Vています（trạng thái）／知っています・知りません"
+      },
+      {
+        "id": "mnn-15-g3",
+        "text": "場所で働いています／Nを売っています"
+      },
+      {
+        "id": "mnn-15-g4",
+        "text": "てもいいですか／知っていますか"
+      },
+      {
+        "id": "mnn-16-g0",
+        "text": "Vて、Vて、Vます"
+      },
+      {
+        "id": "mnn-16-g2",
+        "text": "Aくて／NAで／Nで"
+      },
+      {
+        "id": "mnn-16-g3",
+        "text": "N1はN2がAです"
+      },
+      {
+        "id": "mnn-16-g4",
+        "text": "どのN／どれ"
+      },
+      {
+        "id": "mnn-16-g5",
+        "text": "Aくて／NAで／Nで"
+      },
+      {
+        "id": "mnn-17-g0",
+        "text": "Nhóm 1 âm hàng a + ない／nhóm 2 bỏ ます + ない"
+      },
+      {
+        "id": "mnn-17-g1",
+        "text": "Vないでください"
+      },
+      {
+        "id": "mnn-17-g4",
+        "text": "Nは…"
+      },
+      {
+        "id": "mnn-17-g5",
+        "text": "までに／まで"
+      },
+      {
+        "id": "mnn-18-g0",
+        "text": "Nhóm 1 hàng u／nhóm 2 +る／nhóm 3 する・来る"
+      },
+      {
+        "id": "mnn-18-g2",
+        "text": "趣味はV từ điểnことです"
+      },
+      {
+        "id": "mnn-18-g4",
+        "text": "Vる前に／Nの前に／期間前に"
+      },
+      {
+        "id": "mnn-19-g2",
+        "text": "Vたり、Vたりします"
+      },
+      {
+        "id": "mnn-19-g3",
+        "text": "Aくなります／NA・Nになります"
+      },
+      {
+        "id": "mnn-19-g4",
+        "text": "一度もVたことがありません"
+      },
+      {
+        "id": "mnn-20-g0",
+        "text": "V từ điển／ない／た／なかった"
+      },
+      {
+        "id": "mnn-20-g2",
+        "text": "Aい／Aくない／Aかった／Aくなかった"
+      },
+      {
+        "id": "mnn-20-g3",
+        "text": "Câu hỏi thân mật thường dựa vào ngữ điệu/？"
+      },
+      {
+        "id": "mnn-21-g1",
+        "text": "Vない／Vた／Aかった + と思います"
+      },
+      {
+        "id": "mnn-21-g3",
+        "text": "Thể thường + でしょう？ (N/NA bỏ だ)"
+      },
+      {
+        "id": "mnn-21-g4",
+        "text": "と言いました／と思います"
+      },
+      {
+        "id": "mnn-22-g1",
+        "text": "Người が V thể thường + N"
+      },
+      {
+        "id": "mnn-22-g3",
+        "text": "V thể thường + 時間／約束／N"
+      },
+      {
+        "id": "mnn-22-g4",
+        "text": "Vる時間／Vる約束／Vる用事"
+      },
+      {
+        "id": "mnn-23-g0",
+        "text": "Nの／NAな／Aい + とき"
+      },
+      {
+        "id": "mnn-23-g1",
+        "text": "Vる／Vない／Vた + とき"
+      },
+      {
+        "id": "mnn-23-g4",
+        "text": "Vるとき／Vたとき"
+      },
+      {
+        "id": "mnn-24-g0",
+        "text": "Người cho が／は (わたしに) Nをくれます"
+      },
+      {
+        "id": "mnn-24-g1",
+        "text": "Người làm は người nhận に Vてあげます"
+      },
+      {
+        "id": "mnn-24-g4",
+        "text": "AがVてくれる ↔ 私はAにVてもらう"
+      },
+      {
+        "id": "mnn-25-g1",
+        "text": "Aかったら／NAだったら／Nだったら"
+      },
+      {
+        "id": "mnn-25-g2",
+        "text": "Vたら、…"
+      },
+      {
+        "id": "mnn-25-g4",
+        "text": "雨が降ったら／雨が降っても"
+      }
+    ],
+    "kanji": [],
+    "communication": [
+      {
+        "id": "m01-say-name",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m01-confirm-role",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m01-transfer-role",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m02-continue-person",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m02-owner",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m02-transfer-owner",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m03-price",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m03-transfer-floor",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m04-clock",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m04-transfer-weekday",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m05-return",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m05-transfer-companion",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m06-drink",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m06-transfer-action",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m07-already",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m07-transfer-tool",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m08-room",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m08-transfer-town",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m09-reason",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m09-decline-invite",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m09-transfer-like",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m10-locate",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m10-transfer-person",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m11-quantity",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m11-transfer-duration",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m12-compare",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m12-choose-reason",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m12-transfer-past",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m13-wish",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m13-transfer-object",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m14-now",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m14-transfer-action",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m15-permission",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m15-transfer-know",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m16-order",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m16-transfer-description",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m17-duty",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m17-book-rule",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m17-transfer-request",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m18-ability",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m18-transfer-before",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m19-experience",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m19-transfer-change",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m20-casual",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m20-transfer-register",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m21-opinion",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m21-transfer-report",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m22-identify",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m22-transfer-book",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m23-directions",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m23-transfer-when",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m24-help",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m24-retell-help",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m24-transfer-benefit",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m25-plan",
+        "reason": "No independent speaking task authored in this bank"
+      },
+      {
+        "id": "m25-transfer-after",
+        "reason": "No independent speaking task authored in this bank"
+      }
+    ]
+  }
+}

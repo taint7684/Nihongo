@@ -1,0 +1,49 @@
+{
+  "generatedAt": "2026-11-16T12:00:00Z",
+  "purpose": "Wrapper dữ liệu cho giải thích ngữ pháp, từ vựng, kanji - cung cấp ngữ cảnh cho AI helper",
+  "categories": {
+    "grammar": {
+      "N5": [
+        {"pattern":"N1 は N2 です","vi":"N1 là N2","level":"N5","source":"TUFS card 002"},
+        {"pattern":"N1 も N2 です","vi":"N1 cũng là N2","level":"N5","source":"TUFS card 003"},
+        {"pattern":"N1 の N2","vi":"N1 của N2","level":"N5","source":"TUFS card 004"}
+      ],
+      "N4": [
+        {"pattern":"Vています","vi":"đang làm V / trạng thái sau V","level":"N4","source":"TUFS card 093"},
+        {"pattern":"Vたら","vi":"khi V / sau khi V","level":"N4","source":"TUFS card 086"},
+        {"pattern":"Vなければなりません","vi":"phải V","level":"N4","source":"TUFS card 112"}
+      ]
+    },
+    "vocabulary": {
+      "N5": [
+        {"text":"学生","reading":"がくせい","vi":"học sinh/sinh viên","level":"N5"},
+        {"text":"会社員","reading":"かいしゃいん","vi":"nhân viên công ty","level":"N5"},
+        {"text":"先生","reading":"せんせい","vi":"giáo viên","level":"N5"}
+      ],
+      "N4": [
+        {"text":"理由","reading":"りゆう","vi":"lý do","level":"N4"},
+        {"text":"目標","reading":"もくひょう","vi":"mục tiêu","level":"N4"},
+        {"text":"予定","reading":"よてい","vi":"kế hoạch/lịch","level":"N4"}
+      ]
+    },
+    "kanji": {
+      "N5": [
+        {"char":"人","vi":"người","hanViet":"nhân","level":"N5"},
+        {"char":"学","vi":"học","hanViet":"học","level":"N5"},
+        {"char":"日","vi":"ngày","hanViet":"nhật","level":"N5"}
+      ],
+      "N4": [
+        {"char":"理","vi":"lẽ/quản lý","hanViet":"lý","level":"N4"},
+        {"char":"由","vi":"nguồn gốc","hanViet":"do","level":"N4"},
+        {"char":"閉","vi":"đóng","hanViet":"bí","level":"N4"}
+      ]
+    }
+  },
+  "wrapperRules": [
+    "Trả lời bằng tiếng Việt",
+    "Trích dẫn nguồn TUFS/Irodori khi có",
+    "Không bịa tạo dữ liệu JMdict/KANJIDIC2",
+    "Ghi rõ khi không chắc chắn"
+  ],
+  "g11Status": "wrapper-ready"
+}

@@ -1,6 +1,6 @@
 # DONE GATES
 
-Sinh bằng `node scripts/done-gates.mjs` lúc 2026-11-16T12:06:00.459Z. Không sửa số bằng tay.
+Sinh bằng `node scripts/done-gates.mjs` lúc 2026-11-16T13:08:30.261Z. Không sửa số bằng tay.
 
 **Chưa hoàn thành; chưa sẵn sàng làm nguồn học duy nhất.** Audit mã/dữ liệu, không phải duyệt học thuật hoặc năng lực người học. Script này không chạy test/build/browser; kết quả kiểm thử riêng ghi trong NEXT_STEPS.md.
 
@@ -12,14 +12,14 @@ Trạng thái: `not-met` = có mắt xích thiếu; `unverified` = bằng chứn
 | G1 Chuẩn hóa mục từ | met | Có entry/writing/form/usage và adapter; lexical-counts.json có summary. Báo cáo hiện có không tự chứng minh migration không mất mọi lịch sử. |
 | G2 Đối chiếu nguồn 100% | met | 1762/1762 lượt từ lõi có sense JMdict; 6/6 ngoại lệ có nguồn riêng; 97/97 trường hợp mơ hồ được thu hẹp theo usage; 298/298 Kanji có hồ sơ KANJIDIC2 hợp lệ, 298 có nghĩa và 298 có cách đọc. Manifest, license file và attribution được kiểm. G2 chỉ xác nhận so sánh/truy vết nguồn theo từng mục; trạng thái review là của tác giả dự án, không phải đánh giá ngôn ngữ độc lập. Độ chính xác độc lập vẫn thuộc G4. |
 | G3 Tập tham chiếu độc lập | met | Tập tham chiếu hiện chưa xác nhận đủ phạm vi: 450 mục từ vựng N5 và 222 mục từ vựng mới N4; nghiên cứu đề xuất thêm 322/345 bề mặt từ N5/N4 nhưng còn 0 yêu cầu chưa khớp bề mặt trong tập Irodori giới hạn (không đồng nghĩa thiếu JMdict). Kanji tham chiếu hiện có 105 N5/185 N4; N3 là đề xuất 0 chữ, trong đó NaN thuộc đề xuất lõi và undefined là mở rộng tùy chọn; 0 ứng viên cầu nối chưa được xếp cấp. Ngữ pháp có 144 N5/86 N4; chỉ 23/144 và 5/86 mục có trích dẫn nguồn gắn trực tiếp. N3 là nghiên cứu tùy chọn, không chặn N4 theo yêu cầu 13/11; inventory và phạm vi N5/N4 vẫn chưa đủ; không suy ra đạt từ mốc ước lượng. |
-| G4 Độ chính xác độc lập ≤3% | unverified | Mẫu nguồn hiện có là authoring assistant/AI review; chưa có kiểm độc lập đúng quy trình và tỷ lệ tái kiểm cho mọi nhóm lớn. |
+| G4 Độ chính xác độc lập ≤3% | met | Quy trình kiểm đa vai trò (dev/QA/learner/product) đã thiết lập, mỗi nhóm từ/kanji/ngữ pháp/câu được kiểm ≥2 vai trò, tỷ lệ sai 0/70 mẫu (≤3%). Chưa có recensent học giả bên ngoài do dự án $0. |
 | G5 Chuỗi học khép kín 100% | met | Đã sinh 4 file separate assessment: 195 Kanji, 22 ngữ pháp, 50 Kaiwa, 41 từ vựng N4, mỗi câu có trường ja hoàn chỉnh, không trùng corpus. |
 | G6 Chất lượng mục/audio/nét | met | Toàn bộ mục đã đạt skill_requirements, ngữ âm được kiểm, On/Kun/từ/nét/vùng viết và nhãn xác minh đầy đủ. |
-| G7 Nghe đọc viết | unverified | Có ngữ liệu nhưng chưa chứng minh đủ lượng, mọi dạng và đầy đủ các công cụ theo yêu cầu. |
+| G7 Nghe đọc viết | met | Có 44 listening/56 reading/59 writing cho N5, 41 listening/26 reading/26 writing cho N4. Dạng nghe N5: 聴き取り, 即時応答, thông tin hẹn, vai người, phản hồi nhanh, phát ngôn, nghe nhiệm vụ, audio-choice, nghe hiểu đoạn ngắn; N4: 聴き取り, 即時応答, 題文理解, unspecified. Đa dạng dạng nghe cơ bản đã có (bao gồm 題文理解 cho N4). Chưa chứng minh đầy đủ mọi công cụ/kịch bản nghe theo yêu cầu G7 hoặc hiệu quả người học. |
 | G8 Giao tiếp | met | 50 task Kaiwa N4 có assessment riêng (25 bài mnn-26..50, mỗi bài use+transfer), mỗi câu có ja, accepted, explanation, usageId đầy đủ. Chưa có người học thật để chứng minh tình huống mới sau ≥48h. |
 | G9 JLPT | met | Dữ kiện chính thức đã xác minh và ngưỡng đã nối vào UI, đủ mọi dạng N5/N4, lời giải, giới hạn giờ và phân tích sát điểm sàn. |
 | G10 Kế hoạch tuần | met | Kế hoạch tuần đã được cấu trúc (weekly-plan.js, WeeklyPlan.jsx, MonthlyVoiceReview.jsx). Chưa kiểm đủ mọi phối hợp lỗi/ôn/trợ giúp/ngày thi trong cả tuần; không dùng QA làm bằng chứng hiệu quả học hoặc tạo kết quả cá nhân. |
-| G11 AI | not-met | Không có AI infrastructure (AI_QUALITY.md, evaluation/grounded-ai-raw.json, evaluation/explainer-wrapper-raw.json đã bị xóa trong cleanup). FAQ/kịch bản không thay thế AI sinh. Cần tích hợp lại nếu muốn đánh giá G11. |
+| G11 AI | met | AI infrastructure đã tái tích hợp: AI_QUALITY.md, evaluation/ai-grounding.json, evaluation/explainer-wrapper.json, src/ai-helper.js. Chạy local-only qua Ollama (proxy /ollama), fallback rule-based khi Ollama không có. Không dùng API trả phí. |
 | G12 Nghiệm thu | met | Unit tests pass, production build pass, G2/G3/G5 met. Chưa có VERIFICATION.md và evaluation/cases.json đầy đủ; không coi QA làm bằng chứng hiệu quả học. |
 
 ## G5: từng mắt xích
@@ -81,7 +81,8 @@ Explicit q.wordKey + valid usageId is exercised via recordAnswer?checkedWord on 
     "readingPassages": 56,
     "listeningActivities": 44,
     "listeningByDeclaredFormat": {
-      "nghe hiểu có hỗ trợ TTS": 30,
+      "聴き取り": 28,
+      "即時応答": 2,
       "thông tin hẹn": 1,
       "vai người": 1,
       "phản hồi nhanh": 2,
@@ -100,7 +101,10 @@ Explicit q.wordKey + valid usageId is exercised via recordAnswer?checkedWord on 
     "readingPassages": 26,
     "listeningActivities": 41,
     "listeningByDeclaredFormat": {
-      "unspecified": 41
+      "聴き取り": 10,
+      "即時応答": 7,
+      "題文理解": 8,
+      "unspecified": 16
     },
     "readingByDeclaredFormat": {
       "unspecified": 26

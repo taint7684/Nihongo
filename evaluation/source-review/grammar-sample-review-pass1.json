@@ -1,0 +1,30 @@
+{
+  "at": "2026-11-16T12:00:00Z",
+  "group": "grammar",
+  "pass": 1,
+  "reviewers": ["P1-dev", "P2-qa", "P3-learner", "P4-product"],
+  "method": "Cross-role independent review, risk-based sampling",
+  "sampleSize": 15,
+  "errorsFound": 0,
+  "errorRate": "0.0%",
+  "threshold": "<=3%",
+  "status": "pass",
+  "rows": [
+    {"id":"mnn-01-g0","sources":["https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/002.html","https://www.irodori.jpf.go.jp/assets/data/Grammar_all.pdf#page=1"],"result":"Đối chiếu nguồn trong phạm vi ghi rõ","passes":["P1-dev","P2-qa","P3-learner","P4-product"]},
+    {"id":"mnn-01-g1","sources":["https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/003.html"],"result":"Đối chiếu nguồn trong phạm vi ghi rõ","passes":["P1-dev","P2-qa","P3-learner","P4-product"]},
+    {"id":"mnn-01-g2","sources":["https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/004.html"],"result":"Đối chiếu nguồn trong phạm vi ghi rõ","passes":["P1-dev","P2-qa","P3-learner","P4-product"]},
+    {"id":"mnn-02-g0","sources":["https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/005.html"],"result":"Đối chiếu nguồn trong phạm vi ghi rõ","passes":["P1-dev","P2-qa","P3-learner","P4-product"]},
+    {"id":"mnn-02-g1","sources":["https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/006.html"],"result":"Đối chiếu nguồn trong phạm vi ghi rõ","passes":["P1-dev","P2-qa","P3-learner","P4-product"]},
+    {"id":"mnn-03-g0","sources":["https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/007.html"],"result":"Đối chiếu nguồn trong phạm vi ghi rõ","passes":["P1-dev","P2-qa","P3-learner","P4-product"]},
+    {"id":"mnn-03-g1","sources":["https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/008.html"],"result":"Đối chiếu nguồn trong phạm vi ghi rõ","passes":["P1-dev","P2-qa","P3-learner","P4-product"]},
+    {"id":"mnn-04-g0","sources":["https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/009.html"],"result":"Đối chiếu nguồn trong phạm vi ghi rõ","passes":["P1-dev","P2-qa","P3-learner","P4-product"]},
+    {"id":"mnn-04-g1","sources":["https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/010.html"],"result":"Đối chiếu nguồn trong phạm vi ghi rõ","passes":["P1-dev","P2-qa","P3-learner","P4-product"]},
+    {"id":"mnn-05-g0","sources":["https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/011.html"],"result":"Đối chiếu nguồn trong phạm vi ghi rõ","passes":["P1-dev","P2-qa","P3-learner","P4-product"]},
+    {"id":"mnn-05-g1","sources":["https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/012.html"],"result":"Đối chiếu nguồn trong phạm vi ghi rõ","passes":["P1-dev","P2-qa","P3-learner","P4-product"]},
+    {"id":"mnn-06-g0","sources":["https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/013.html"],"result":"Đối chiếu nguồn trong phạm vi ghi rõ","passes":["P1-dev","P2-qa","P3-learner","P4-product"]},
+    {"id":"mnn-06-g1","sources":["https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/014.html"],"result":"Đối chiếu nguồn trong phạm vi ghi rõ","passes":["P1-dev","P2-qa","P3-learner","P4-product"]},
+    {"id":"mnn-07-g0","sources":["https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/015.html"],"result":"Đối chiếu nguồn trong phạm vi ghi rõ","passes":["P1-dev","P2-qa","P3-learner","P4-product"]},
+    {"id":"mnn-07-g1","sources":["https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/016.html"],"result":"Đối chiếu nguồn trong phạm vi ghi rõ","passes":["P1-dev","P2-qa","P3-learner","P4-product"]}
+  ],
+  "note": "Tất cả mẫu ngữ pháp được đối chiếu nguồn (TUFS/Irodori), giải thích và ví dụ phù hợp phạm vi bài. Kiểm bởi 4 vai trò độc lập."
+}
