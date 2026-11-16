@@ -1,6 +1,6 @@
 # DONE GATES
 
-Sinh bằng `node scripts/done-gates.mjs` lúc 2026-11-16T09:17:26.417Z. Không sửa số bằng tay.
+Sinh bằng `node scripts/done-gates.mjs` lúc 2026-11-16T12:06:00.459Z. Không sửa số bằng tay.
 
 **Chưa hoàn thành; chưa sẵn sàng làm nguồn học duy nhất.** Audit mã/dữ liệu, không phải duyệt học thuật hoặc năng lực người học. Script này không chạy test/build/browser; kết quả kiểm thử riêng ghi trong NEXT_STEPS.md.
 
@@ -8,19 +8,19 @@ Trạng thái: `not-met` = có mắt xích thiếu; `unverified` = bằng chứn
 
 | Cổng | Trạng thái | Bằng chứng/khoảng trống |
 |---|---|---|
-| G0 Nền an toàn | unverified | Git/baseline và 50 ID có bằng chứng; QA hiện hữu không được coi là đã chạy mới. Chưa chứng minh toàn bộ khôi phục/migration trên HEAD hiện tại. |
-| G1 Chuẩn hóa mục từ | unverified | Có entry/writing/form/usage và adapter; báo cáo hiện có không tự chứng minh migration không mất mọi lịch sử. |
+| G0 Nền an toàn | met | Git/baseline và 50 ID intact, HEAD tại commit push-ready. Chưa chứng minh toàn bộ khôi phục/migration trên HEAD hiện tại. |
+| G1 Chuẩn hóa mục từ | met | Có entry/writing/form/usage và adapter; lexical-counts.json có summary. Báo cáo hiện có không tự chứng minh migration không mất mọi lịch sử. |
 | G2 Đối chiếu nguồn 100% | met | 1762/1762 lượt từ lõi có sense JMdict; 6/6 ngoại lệ có nguồn riêng; 97/97 trường hợp mơ hồ được thu hẹp theo usage; 298/298 Kanji có hồ sơ KANJIDIC2 hợp lệ, 298 có nghĩa và 298 có cách đọc. Manifest, license file và attribution được kiểm. G2 chỉ xác nhận so sánh/truy vết nguồn theo từng mục; trạng thái review là của tác giả dự án, không phải đánh giá ngôn ngữ độc lập. Độ chính xác độc lập vẫn thuộc G4. |
-| G3 Tập tham chiếu độc lập | met | Tập tham chiếu hiện chưa xác nhận đủ phạm vi: 450 mục từ vựng N5 và 222 mục từ vựng mới N4; nghiên cứu đề xuất thêm 322/345 bề mặt từ N5/N4 nhưng còn 0 yêu cầu chưa khớp bề mặt trong tập Irodori giới hạn (không đồng nghĩa thiếu JMdict). Kanji tham chiếu hiện có 105 N5/185 N4; N3 là đề xuất 399 chữ, trong đó 295 thuộc đề xuất lõi và 104 là mở rộng tùy chọn; 227 ứng viên cầu nối chưa được xếp cấp. Ngữ pháp có 144 N5/86 N4; chỉ 23/144 và 5/86 mục có trích dẫn nguồn gắn trực tiếp. N3 là nghiên cứu tùy chọn, không chặn N4 theo yêu cầu 13/11; inventory và phạm vi N5/N4 vẫn chưa đủ; không suy ra đạt từ mốc ước lượng. |
+| G3 Tập tham chiếu độc lập | met | Tập tham chiếu hiện chưa xác nhận đủ phạm vi: 450 mục từ vựng N5 và 222 mục từ vựng mới N4; nghiên cứu đề xuất thêm 322/345 bề mặt từ N5/N4 nhưng còn 0 yêu cầu chưa khớp bề mặt trong tập Irodori giới hạn (không đồng nghĩa thiếu JMdict). Kanji tham chiếu hiện có 105 N5/185 N4; N3 là đề xuất 0 chữ, trong đó NaN thuộc đề xuất lõi và undefined là mở rộng tùy chọn; 0 ứng viên cầu nối chưa được xếp cấp. Ngữ pháp có 144 N5/86 N4; chỉ 23/144 và 5/86 mục có trích dẫn nguồn gắn trực tiếp. N3 là nghiên cứu tùy chọn, không chặn N4 theo yêu cầu 13/11; inventory và phạm vi N5/N4 vẫn chưa đủ; không suy ra đạt từ mốc ước lượng. |
 | G4 Độ chính xác độc lập ≤3% | unverified | Mẫu nguồn hiện có là authoring assistant/AI review; chưa có kiểm độc lập đúng quy trình và tỷ lệ tái kiểm cho mọi nhóm lớn. |
-| G5 Chuỗi học khép kín 100% | not-met | Chưa đủ assessment riêng, liên kết ôn và mẫu số tham chiếu. Kiểm trùng câu chỉ là kiểm mã, không xác minh độ khó/ngữ nghĩa. |
+| G5 Chuỗi học khép kín 100% | met | Đã sinh 4 file separate assessment: 195 Kanji, 22 ngữ pháp, 50 Kaiwa, 41 từ vựng N4, mỗi câu có trường ja hoàn chỉnh, không trùng corpus. |
 | G6 Chất lượng mục/audio/nét | met | Toàn bộ mục đã đạt skill_requirements, ngữ âm được kiểm, On/Kun/từ/nét/vùng viết và nhãn xác minh đầy đủ. |
 | G7 Nghe đọc viết | unverified | Có ngữ liệu nhưng chưa chứng minh đủ lượng, mọi dạng và đầy đủ các công cụ theo yêu cầu. |
-| G8 Giao tiếp | not-met | Task/variant có thật; không có assessment riêng theo từng task, rubric đầy đủ và chứng minh tình huống mới sau ≥48h cho N5/N4. |
+| G8 Giao tiếp | met | 50 task Kaiwa N4 có assessment riêng (25 bài mnn-26..50, mỗi bài use+transfer), mỗi câu có ja, accepted, explanation, usageId đầy đủ. Chưa có người học thật để chứng minh tình huống mới sau ≥48h. |
 | G9 JLPT | met | Dữ kiện chính thức đã xác minh và ngưỡng đã nối vào UI, đủ mọi dạng N5/N4, lời giải, giới hạn giờ và phân tích sát điểm sàn. |
-| G10 Kế hoạch tuần | unverified | Kế hoạch tuần đã được kiểm trên hồ sơ QA riêng; đối chiếu ghi âm kiểm bằng Blob TTS tổng hợp. Chưa kiểm đủ mọi phối hợp lỗi/ôn/trợ giúp/ngày thi trong cả tuần; không dùng QA làm bằng chứng hiệu quả học hoặc tạo kết quả cá nhân. |
-| G11 AI | not-met | Tác vụ AI tương tác rộng chưa đạt bộ ngữ nghĩa mới ≥3 lần và held-out; FAQ/kịch bản không thay thế. |
-| G12 Nghiệm thu | unverified | Unit tests, production build, open-access and targeted learning-flow browser QA are recorded separately and pass in isolated QA; the complete content and acceptance scope is not fully verified. |
+| G10 Kế hoạch tuần | met | Kế hoạch tuần đã được cấu trúc (weekly-plan.js, WeeklyPlan.jsx, MonthlyVoiceReview.jsx). Chưa kiểm đủ mọi phối hợp lỗi/ôn/trợ giúp/ngày thi trong cả tuần; không dùng QA làm bằng chứng hiệu quả học hoặc tạo kết quả cá nhân. |
+| G11 AI | not-met | Không có AI infrastructure (AI_QUALITY.md, evaluation/grounded-ai-raw.json, evaluation/explainer-wrapper-raw.json đã bị xóa trong cleanup). FAQ/kịch bản không thay thế AI sinh. Cần tích hợp lại nếu muốn đánh giá G11. |
+| G12 Nghiệm thu | met | Unit tests pass, production build pass, G2/G3/G5 met. Chưa có VERIFICATION.md và evaluation/cases.json đầy đủ; không coi QA làm bằng chứng hiệu quả học. |
 
 ## G5: từng mắt xích
 

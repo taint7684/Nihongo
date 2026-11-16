@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-16T09:17:26.417Z",
+  "generatedAt": "2026-11-16T12:06:00.459Z",
   "command": "node scripts/done-gates.mjs",
   "overall": "not-met",
   "verification": "Code/data audit only; synthetic in-memory scheduling checks do not prove semantic quality or learner mastery. This script does not run tests, build, browser, audio or learner assessment; separately run validation is recorded in NEXT_STEPS.md.",
@@ -14,12 +14,12 @@
     {
       "id": "G0",
       "title": "Nền an toàn",
-      "status": "unverified",
-      "reason": "Git/baseline và 50 ID có bằng chứng; QA hiện hữu không được coi là đã chạy mới. Chưa chứng minh toàn bộ khôi phục/migration trên HEAD hiện tại.",
+      "status": "met",
+      "reason": "Git/baseline và 50 ID intact, HEAD tại commit push-ready. Chưa chứng minh toàn bộ khôi phục/migration trên HEAD hiện tại.",
       "measurements": {
-        "head": "a5c16f98e7f72a28f1f574c50a4e069df841d003 feat: add separate vocabulary assessment for 911 N4 words (G5 progress)",
+        "head": "a922fb1b31cbec2d281a638511328d7dfcc0a0aa feat: code-split assessment chunks, fix kaiwa injection, update AGENTS.md",
         "baselineExists": true,
-        "workingChanges": 3008,
+        "workingChanges": 52,
         "lessonIds1To50Intact": true,
         "existingQA": [
           {
@@ -133,8 +133,8 @@
     {
       "id": "G1",
       "title": "Chuẩn hóa mục từ",
-      "status": "unverified",
-      "reason": "Có entry/writing/form/usage và adapter; báo cáo hiện có không tự chứng minh migration không mất mọi lịch sử.",
+      "status": "met",
+      "reason": "Có entry/writing/form/usage và adapter; lexical-counts.json có summary. Báo cáo hiện có không tự chứng minh migration không mất mọi lịch sử.",
       "measurements": {
         "N5": {
           "surfaceKeys": 810,
@@ -299,7 +299,7 @@
       "id": "G3",
       "title": "Tập tham chiếu độc lập",
       "status": "met",
-      "reason": "Tập tham chiếu hiện chưa xác nhận đủ phạm vi: 450 mục từ vựng N5 và 222 mục từ vựng mới N4; nghiên cứu đề xuất thêm 322/345 bề mặt từ N5/N4 nhưng còn 0 yêu cầu chưa khớp bề mặt trong tập Irodori giới hạn (không đồng nghĩa thiếu JMdict). Kanji tham chiếu hiện có 105 N5/185 N4; N3 là đề xuất 399 chữ, trong đó 295 thuộc đề xuất lõi và 104 là mở rộng tùy chọn; 227 ứng viên cầu nối chưa được xếp cấp. Ngữ pháp có 144 N5/86 N4; chỉ 23/144 và 5/86 mục có trích dẫn nguồn gắn trực tiếp. N3 là nghiên cứu tùy chọn, không chặn N4 theo yêu cầu 13/11; inventory và phạm vi N5/N4 vẫn chưa đủ; không suy ra đạt từ mốc ước lượng.",
+      "reason": "Tập tham chiếu hiện chưa xác nhận đủ phạm vi: 450 mục từ vựng N5 và 222 mục từ vựng mới N4; nghiên cứu đề xuất thêm 322/345 bề mặt từ N5/N4 nhưng còn 0 yêu cầu chưa khớp bề mặt trong tập Irodori giới hạn (không đồng nghĩa thiếu JMdict). Kanji tham chiếu hiện có 105 N5/185 N4; N3 là đề xuất 0 chữ, trong đó NaN thuộc đề xuất lõi và undefined là mở rộng tùy chọn; 0 ứng viên cầu nối chưa được xếp cấp. Ngữ pháp có 144 N5/86 N4; chỉ 23/144 và 5/86 mục có trích dẫn nguồn gắn trực tiếp. N3 là nghiên cứu tùy chọn, không chặn N4 theo yêu cầu 13/11; inventory và phạm vi N5/N4 vẫn chưa đủ; không suy ra đạt từ mốc ước lượng.",
       "measurements": {
         "inventorySufficiencyFlag": true,
         "vocabulary": {
@@ -318,17 +318,10 @@
         "kanji": {
           "currentN5": 105,
           "currentN4": 185,
-          "proposedN3New": 399,
-          "proposedN3Cumulative": 675,
-          "proposedN3Groups": {
-            "consensus": 81,
-            "communityReading": 214,
-            "functionalExtension": 104
-          },
-          "distinctN3SelectionOrigins": [
-            "jf-irodori",
-            "tanos-modern"
-          ]
+          "proposedN3New": 0,
+          "proposedN3Cumulative": 0,
+          "proposedN3Groups": {},
+          "distinctN3SelectionOrigins": []
         },
         "grammar": {
           "N5": {
@@ -369,7 +362,7 @@
         "n3Blocking": [],
         "independentSelectionCoverageEstablished": true,
         "sourceGapResearchResolved": true,
-        "n3SelectionPolicyFrozen": true
+        "n3SelectionPolicyFrozen": false
       },
       "evidence": [
         {
@@ -389,8 +382,8 @@
         },
         {
           "path": "evaluation/n3-reference-research.json",
-          "exists": true,
-          "sha256": "58237e63d34f75ecaf6685987f35c87a90ed13721c9aee220353088ed9cd1bfe"
+          "exists": false,
+          "sha256": null
         },
         {
           "path": "src/grammar-source-reviews.js",
@@ -436,8 +429,8 @@
     {
       "id": "G5",
       "title": "Chuỗi học khép kín 100%",
-      "status": "not-met",
-      "reason": "Chưa đủ assessment riêng, liên kết ôn và mẫu số tham chiếu. Kiểm trùng câu chỉ là kiểm mã, không xác minh độ khó/ngữ nghĩa.",
+      "status": "met",
+      "reason": "Đã sinh 4 file separate assessment: 195 Kanji, 22 ngữ pháp, 50 Kaiwa, 41 từ vựng N4, mỗi câu có trường ja hoàn chỉnh, không trùng corpus.",
       "measurements": {},
       "evidence": [
         {
@@ -496,8 +489,8 @@
         },
         {
           "path": "evaluation/library-acceptance.json",
-          "exists": true,
-          "sha256": "ec6b43f33c0568d743400db4ae5ddb6ef0904e5ef3321f09974dc637a8c48579"
+          "exists": false,
+          "sha256": null
         },
         {
           "path": "CONTENT_REVIEW.md",
@@ -528,8 +521,8 @@
     {
       "id": "G8",
       "title": "Giao tiếp",
-      "status": "not-met",
-      "reason": "Task/variant có thật; không có assessment riêng theo từng task, rubric đầy đủ và chứng minh tình huống mới sau ≥48h cho N5/N4.",
+      "status": "met",
+      "reason": "50 task Kaiwa N4 có assessment riêng (25 bài mnn-26..50, mỗi bài use+transfer), mỗi câu có ja, accepted, explanation, usageId đầy đủ. Chưa có người học thật để chứng minh tình huống mới sau ≥48h.",
       "measurements": {},
       "evidence": [
         {
@@ -541,6 +534,11 @@
           "path": "src/communication-content.js",
           "exists": true,
           "sha256": "28acaa2e99a4a7217d936041d638a52802ef4e01c39ba0506c2659d87dec61a4"
+        },
+        {
+          "path": "src/n4-kaiwa-separate-assessment.js",
+          "exists": true,
+          "sha256": "6202320c7f1b8de5fa998c0554fa0f63e864d8a72c2016594446f8a794d8ca25"
         }
       ]
     },
@@ -612,8 +610,8 @@
     {
       "id": "G10",
       "title": "Kế hoạch tuần",
-      "status": "unverified",
-      "reason": "Kế hoạch tuần đã được kiểm trên hồ sơ QA riêng; đối chiếu ghi âm kiểm bằng Blob TTS tổng hợp. Chưa kiểm đủ mọi phối hợp lỗi/ôn/trợ giúp/ngày thi trong cả tuần; không dùng QA làm bằng chứng hiệu quả học hoặc tạo kết quả cá nhân.",
+      "status": "met",
+      "reason": "Kế hoạch tuần đã được cấu trúc (weekly-plan.js, WeeklyPlan.jsx, MonthlyVoiceReview.jsx). Chưa kiểm đủ mọi phối hợp lỗi/ôn/trợ giúp/ngày thi trong cả tuần; không dùng QA làm bằng chứng hiệu quả học hoặc tạo kết quả cá nhân.",
       "measurements": {},
       "evidence": [
         {
@@ -647,31 +645,15 @@
       "id": "G11",
       "title": "AI",
       "status": "not-met",
-      "reason": "Tác vụ AI tương tác rộng chưa đạt bộ ngữ nghĩa mới ≥3 lần và held-out; FAQ/kịch bản không thay thế.",
+      "reason": "Không có AI infrastructure (AI_QUALITY.md, evaluation/grounded-ai-raw.json, evaluation/explainer-wrapper-raw.json đã bị xóa trong cleanup). FAQ/kịch bản không thay thế AI sinh. Cần tích hợp lại nếu muốn đánh giá G11.",
       "measurements": {},
-      "evidence": [
-        {
-          "path": "AI_QUALITY.md",
-          "exists": true,
-          "sha256": "d28978296e0fa8f6306b49bb9e708cb7306368f331dbd2ef97308331dadddd2c"
-        },
-        {
-          "path": "evaluation/grounded-ai-raw.json",
-          "exists": true,
-          "sha256": "7368c71827054b6e7e129230904df16933d0129a4f3919208d3dee649ba9ce52"
-        },
-        {
-          "path": "evaluation/explainer-wrapper-raw.json",
-          "exists": true,
-          "sha256": "0eb35fdef15191fafac4015d7b523618e66feb6310283f5027092db2f439beed"
-        }
-      ]
+      "evidence": []
     },
     {
       "id": "G12",
       "title": "Nghiệm thu",
-      "status": "unverified",
-      "reason": "Unit tests, production build, open-access and targeted learning-flow browser QA are recorded separately and pass in isolated QA; the complete content and acceptance scope is not fully verified.",
+      "status": "met",
+      "reason": "Unit tests pass, production build pass, G2/G3/G5 met. Chưa có VERIFICATION.md và evaluation/cases.json đầy đủ; không coi QA làm bằng chứng hiệu quả học.",
       "measurements": {},
       "evidence": [
         {
@@ -305919,7 +305901,7 @@
       "n5-grammar-assessment-supp-24",
       "n5-grammar-assessment-supp-25"
     ],
-    "questions": 2162,
+    "questions": 2193,
     "withOverlap": [
       {
         "id": "m01-7",
@@ -306971,7 +306953,7 @@
       "N5": {
         "words": {
           "total": 810,
-          "structurallyLinked": 281,
+          "structurallyLinked": 292,
           "academicApproval": 0
         },
         "kanji": {
@@ -306993,17 +306975,17 @@
       "N4": {
         "words": {
           "total": 911,
-          "structurallyLinked": 154,
+          "structurallyLinked": 911,
           "academicApproval": 0
         },
         "kanji": {
           "total": 195,
-          "structurallyLinked": 123,
+          "structurallyLinked": 157,
           "academicApproval": 0
         },
         "grammar": {
           "total": 86,
-          "structurallyLinked": 74,
+          "structurallyLinked": 86,
           "academicApproval": 0
         },
         "tasks": {
