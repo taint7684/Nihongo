@@ -125,3 +125,18 @@ Object.assign(n4AssessmentLinks,{
 "mnn-50-g2":["n4e-50-15"],
 "mnn-50-g3":["n4e-50-16"]
 });
+
+Object.assign(n4AssessmentLinks,{
+  "mnn-26-g2":["n4a-26-1"],
+  "mnn-27-g0":["n4a-27-2"],
+  "mnn-27-g3":["n4a-27-3"],
+  "mnn-28-g1":["n4a-28-4"],
+  "mnn-31-g1":["n4b-31-0"],
+  "mnn-32-g1":["n4b-32-3"],
+  "mnn-33-g3":["n4b-33-7"],
+  "mnn-35-g2":["n4b-35-13"],
+  "mnn-36-g2":["n4c-36-2"],
+  "mnn-38-g0":["n4c-38-6"],
+  "mnn-39-g1":["n4c-39-10"],
+  "mnn-41-g3":["n4d-41-2"]
+});

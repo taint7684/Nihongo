@@ -8,9 +8,9 @@ Không dùng mẫu số này làm đủ N5/N4. Đây không phải danh mục JL
 
 | Nhóm | Học+luyện+đánh giá có ID+ôn / số mục đang có | Duyệt độc lập |
 |---|---:|---:|
-| words | 229/806 | 0 |
-| kanji | 23/123 | 0 |
-| grammar | 86/144 | 0 |
+| words | 281/810 | 0 |
+| kanji | 123/123 | 0 |
+| grammar | 144/144 | 0 |
 | tasks | 0/56 | 0 |
 
 ## N4
@@ -19,8 +19,8 @@ Không dùng mẫu số này làm đủ N5/N4. Đây không phải danh mục JL
 
 | Nhóm | Học+luyện+đánh giá có ID+ôn / số mục đang có | Duyệt độc lập |
 |---|---:|---:|
-| words | 153/592 | 0 |
-| kanji | 111/195 | 0 |
+| words | 154/911 | 0 |
+| kanji | 123/195 | 0 |
 | grammar | 74/86 | 0 |
 | tasks | 0/50 | 0 |
 

@@ -9273,7 +9273,8 @@
             26
           ],
           "lessonIds": [
-            "mnn-26"
+            "mnn-26",
+            "mnn-39"
           ],
           "hasContext": true,
           "sameLevelContext": true,
@@ -10723,7 +10724,8 @@
             36
           ],
           "lessonIds": [
-            "mnn-36"
+            "mnn-36",
+            "mnn-42"
           ],
           "hasContext": true,
           "sameLevelContext": true,
@@ -12328,7 +12330,8 @@
             47
           ],
           "lessonIds": [
-            "mnn-32"
+            "mnn-32",
+            "mnn-47"
           ],
           "hasContext": true,
           "sameLevelContext": true,
